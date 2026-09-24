@@ -1,0 +1,17 @@
+{
+  "id": "SCR-06",
+  "archetype": "A4",
+  "objective": "OBJ-02",
+  "eyebrow": "Portfolio criteria",
+  "title": "Six capabilities across the portfolio",
+  "body": "These are at-least-one requirements. One agent can satisfy several, but every capability must appear somewhere.",
+  "asset": "ACC-104-A02",
+  "claims": [
+    "C-09",
+    "C-10",
+    "C-11",
+    "C-12",
+    "C-13",
+    "C-14"
+  ]
+}

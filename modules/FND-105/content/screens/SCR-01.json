@@ -1,0 +1,9 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-01",
+  "eyebrow": "Cold open",
+  "title": "Two builders, same requirement, opposite designs",
+  "body": "One proposes a custom action. The other proposes an MCP-backed agent step. Both can be made to work. Only one is the right cost, and the requirement document does not say which.",
+  "claims": []
+}

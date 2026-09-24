@@ -1,0 +1,23 @@
+{
+  "module_id": "BLD-102",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "Three engineers use tool to mean three different things. One means an action. One means an MCP server. One means a skill. The review cannot finish until the vocabulary does.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-07",
+      "archetype": "A8",
+      "prompt": "",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-08",
+      "archetype": "A6",
+      "prompt": "The design needs a single fixed, deterministic call inside Agent Builder. What do you specify?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

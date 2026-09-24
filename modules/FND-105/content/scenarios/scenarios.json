@@ -1,0 +1,17 @@
+{
+  "module_id": "FND-105",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "One proposes a custom action. The other proposes an MCP-backed agent step. Both can be made to work. Only one is the right cost, and the requirement document does not say which.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-06",
+      "archetype": "A6",
+      "prompt": "The requirement is one validated write into an internal system, on demand, no schedule. What do you propose?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

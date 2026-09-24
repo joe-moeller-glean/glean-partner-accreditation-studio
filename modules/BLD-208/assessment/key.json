@@ -1,0 +1,45 @@
+{
+  "module_id": "BLD-208",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. That is a documented custom action use case.",
+        "b": "No. Reconciliation after the fact does not prevent the bad write.",
+        "c": "No. Approval design is core to production governance."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, covering both low-confidence and out-of-scope cases.",
+        "b": "No. That is exactly the behaviour guardrails and fallbacks prevent.",
+        "c": "No. Blanket escalation defeats the automation and is not the requirement."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. All three are stated per-agent requirements.",
+        "b": "No. A screenshot is not one of the required artefacts.",
+        "c": "No. Commercial paperwork is not competency evidence."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. The review is a working session, not a document read-out.",
+        "b": "No. Running each agent on the call is expected.",
+        "c": "No. The partner team presents its own agents."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Scope is a governance control, not a tuning detail.",
+        "b": "No. Step count is a composition requirement, not a guardrail.",
+        "c": "No. Model choice is a separate decision."
+      }
+    }
+  }
+}

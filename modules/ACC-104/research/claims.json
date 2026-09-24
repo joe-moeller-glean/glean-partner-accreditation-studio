@@ -1,0 +1,245 @@
+{
+  "module_id": "ACC-104",
+  "claims": [
+    {
+      "claim_id": "C-01",
+      "text": "The Glean Agent Building Competency certifies partner teams to design, build, govern, and operationalize production-grade Glean Agents that automate workflows and deliver measurable business outcomes.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-02",
+      "text": "The Agent Building Competency focuses on persona-aligned agent design, prompt engineering, tool use, governance, and operational best practices across the agent lifecycle.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-03",
+      "text": "One competency requirement is completing 5 technical accreditations within the Glean Partner Portal, validated by a Glean Partner Manager.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-04",
+      "text": "One competency requirement is completing a Glean-delivered agent building workshop session with your Glean technical team, validated by a Glean Partner Solutions Engineer.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-05",
+      "text": "The competency requires building 5 functioning, production-ready agents.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-06",
+      "text": "Each of the 5 competency agents must implement at least 3 discrete steps beyond simple retrieval, including at least one thinking or transformation step.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-07",
+      "text": "Each of the 5 competency agents must configure retrieval guardrails so the agent uses a well-defined set of content sources and has clear instructions for what it can and cannot answer.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-08",
+      "text": "Each of the 5 competency agents must contain explicit error-handling with a defined fallback behavior for low-confidence or out-of-scope questions.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-09",
+      "text": "At least 1 of the 5 competency agents must invoke actions or tools that write to other systems.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-10",
+      "text": "At least 1 of the 5 competency agents must call more than one tool or system in a single run.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-11",
+      "text": "At least 1 of the 5 competency agents must use conditional branching.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-12",
+      "text": "At least 1 of the 5 competency agents must use loops to process a collection.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-13",
+      "text": "At least 1 of the 5 competency agents must use a schedule-based trigger.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-14",
+      "text": "At least 1 of the 5 competency agents must use an event or content-based trigger.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-15",
+      "text": "For each competency agent, partners must gather business and technical requirements with the end user, evidenced by a document outlining those requirements.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-16",
+      "text": "Competency validation includes a call with a Glean Partner Solutions Engineer to review the finalized agents; partners should expect to walk through and run each agent on the call, and ideally provide a recorded walkthrough beforehand.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-17",
+      "text": "For each competency agent, partners must complete an agent architecture review with a Glean technical resource, outlining best practices followed and agent structure.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-18",
+      "text": "For each competency agent, partners must provide a written outline of the agent's business impact and why a Glean Agent was the best solution, reviewed by a Glean Partner Solutions Engineer.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-22",
+      "text": "Competency benefits include market visibility as a trusted Glean Partner, a Glean Partner Competency Badge, access to Glean services opportunities, being surfaced to Glean sellers as a preferred services partner, and a searchable directory listing.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-23",
+      "text": "Agent Building Competency benefits include priority consideration for agent-focused services opportunities and co-marketing opportunities that highlight agent outcomes and ROI.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-24",
+      "text": "The Competency Program is open to all registered Glean Partners, including resell, services, and ISV or product partners, and the organization must already be a registered Glean Partner.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-25",
+      "text": "Glean competencies require thorough experience and successful completion of an audit process.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-26",
+      "text": "The Agent Building Competency Submission Workbook is available in the Glean Partner Portal Asset Library.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-98",
+      "text": "ACC-104 is the badge for builders who can implement actions, agents, and connectors, assessed by a capstone lab.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

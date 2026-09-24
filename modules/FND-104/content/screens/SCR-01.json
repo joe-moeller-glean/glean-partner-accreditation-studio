@@ -1,0 +1,9 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-01",
+  "eyebrow": "Cold open",
+  "title": "The customer asks for an agent. Should you say yes?",
+  "body": "A prospect opens with a request for a workflow agent. Nothing in the ask tells you whether the real answer is search, an assistant surface, an action, or a full agent. Choose wrong and you sell work that will not stick.",
+  "claims": []
+}

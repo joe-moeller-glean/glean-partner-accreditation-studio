@@ -1,0 +1,35 @@
+{
+  "module_id": "AGT-101",
+  "waivers": [],
+  "note": "No gate was waived. The five design-system deviations are recorded in plan/06-scroll-canvas-design-system.md section 12 as open decisions for the owner, not as waived gates: none of them weakens a quality gate, the accessibility floor, claim traceability, or the offline rule.",
+  "deviations_awaiting_owner_confirmation": [
+    {
+      "id": "D-1",
+      "item": "fully rounded pill CTAs",
+      "conflicts_with": "brand-system.md guidance to avoid pill-heavy and heavily rounded shapes",
+      "rationale": "current glean.com uses pill CTAs throughout; the reference screenshots show them",
+      "revert_cost": "one token: set --radius-pill to 8px"
+    },
+    {
+      "id": "D-2",
+      "item": "monospace eyebrow labels",
+      "revert_cost": "one token: --font-mono"
+    },
+    {
+      "id": "D-3",
+      "item": "weight 300 stat numerals",
+      "revert_cost": "one rule: .stat__v font-weight"
+    },
+    {
+      "id": "D-4",
+      "item": "single-page scroll replaces paged navigation",
+      "rationale": "explicit product request; completion semantics redefined to stay honest",
+      "status": "accepted by request"
+    },
+    {
+      "id": "D-5",
+      "item": "near-black ink band with dot texture instead of dark blue",
+      "revert_cost": "one token: --surface-ink"
+    }
+  ]
+}

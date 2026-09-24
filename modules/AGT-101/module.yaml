@@ -1,0 +1,78 @@
+# AGT-101 - Glean Agents Foundations
+# Brief and delivery contract. Authoring input; not shipped in the package.
+module_id: AGT-101
+title: Glean Agents Foundations
+version: 1.0.0
+level: 100
+accreditation_id: accred-agents
+series_position: 1
+series_note: >-
+  First module of the agent series. Establishes the vocabulary, the design
+  language (scroll-canvas-v1), and the shared component set that later agent
+  modules reuse.
+
+delivery:
+  format: SCORM 1.2, single SCO
+  navigation: single-page vertical scroll, 12 bands, no pagination
+  design_system: scroll-canvas-v1
+  target_hours: 0.8
+  offline: true
+  network_calls: none
+
+audience:
+  primary: Partner solution advisors, builders, and technical sellers new to Glean Agents
+  prerequisites: none
+  assumed_knowledge: Familiarity with enterprise SaaS. No Glean platform experience assumed.
+
+learner_promise: >-
+  Define a Glean Agent in one sentence, name the five building blocks, choose
+  between Auto mode, Workflow mode, and an independent agent, match a trigger to
+  how people will start the agent, and apply least privilege and risk-matched
+  process.
+
+objectives:
+  - id: OBJ-01
+    text: Define a Glean Agent and identify who agents are for.
+    assessed_by: [Q-01]
+  - id: OBJ-02
+    text: Name the five core building blocks that every agent combines.
+    assessed_by: [Q-02]
+  - id: OBJ-03
+    text: Choose Auto mode, Workflow mode, or an independent agent for a stated need.
+    assessed_by: [Q-03]
+  - id: OBJ-04
+    text: Match the right trigger to how people will start the agent.
+    assessed_by: [Q-04]
+  - id: OBJ-05
+    text: Apply least privilege, permission behaviour, and risk-matched process.
+    assessed_by: [Q-05, Q-06]
+
+assessment:
+  items: 6
+  mastery_score: 80
+  attempts: unlimited
+  feedback: per-option, on every attempt
+  key_shipped: false
+
+completion_rule: >-
+  lesson_status becomes passed only when every one of the 12 bands has been
+  reached AND the quiz best score is at or above 80. Reaching the bottom of the
+  page is never sufficient on its own.
+
+sourcing:
+  claims: 62
+  sources: 12
+  tier_1_product_docs: 10
+  unsourced_claims: 0
+  research_date: 2026-09-14
+
+open_items:
+  - No SME has reviewed this content.
+  - Not imported into a real LMS; validation is structural plus scripted runtime.
+  - AGT-101 is not yet in the roadmap Module Tracker.
+  - Overlaps FND-104 and FND-105 at 200 level; dedupe decision is the owner's.
+  - Five design deviations recorded in plan/06-scroll-canvas-design-system.md section 12.
+  - Risk-tier thresholds in INT-risk are a studio heuristic, disclosed in-module.
+
+status: built, gates passed, awaiting human review
+owner: Joe Moeller

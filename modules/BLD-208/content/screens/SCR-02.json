@@ -1,0 +1,13 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Make safety a design property",
+  "bullets": [
+    "Place approval and escalation boundaries before an agent writes anywhere.",
+    "Use guardrails and refusal behaviour as real governance controls.",
+    "Produce the evidence a competency review will ask for."
+  ],
+  "claims": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "SCR-07",
+  "archetype": "A10",
+  "objective": "OBJ-03",
+  "eyebrow": "Myth versus reality",
+  "title": "“It passed once, so it works”",
+  "body": "Comprehensive testing and refinement cycles are part of the build phase, and formal owner sign-off is secured before launch. A single passing run is not evidence of stability.",
+  "footnote": "Successful agents become templates for future development, which means their test sets get reused too.",
+  "claims": [
+    "C-39",
+    "C-48"
+  ]
+}

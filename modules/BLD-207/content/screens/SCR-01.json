@@ -1,0 +1,9 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-02",
+  "eyebrow": "Cold open",
+  "title": "Nobody can tell you whether the agent got better",
+  "body": "The prompt changed, the sources changed, and the team believes quality improved. There is no baseline, no test set, and no way to prove it either way.",
+  "claims": []
+}

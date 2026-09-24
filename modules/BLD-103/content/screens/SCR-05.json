@@ -1,0 +1,30 @@
+{
+  "id": "SCR-05",
+  "archetype": "A8",
+  "objective": "OBJ-02",
+  "eyebrow": "Worked example",
+  "title": "Wiring the action into the workflow",
+  "steps": [
+    {
+      "title": "Add the step",
+      "body": "Builders add a custom action as a step in Agent Builder."
+    },
+    {
+      "title": "Bind the inputs",
+      "body": "Inputs can be fixed values, user inputs, or AI-predicted values."
+    },
+    {
+      "title": "Compose",
+      "body": "Combine the custom action with By Glean and By datasource actions in the same workflow."
+    },
+    {
+      "title": "Return something usable",
+      "body": "The onboarding example returns a request ID plus a link, so downstream steps and users have a handle."
+    }
+  ],
+  "claims": [
+    "C-62",
+    "C-63",
+    "C-68"
+  ]
+}

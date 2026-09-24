@@ -1,0 +1,40 @@
+{
+  "module_id": "FND-105",
+  "assets": [
+    {
+      "asset_id": "FND-105-A01",
+      "path": "assets/svg/fnd-105-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Four-step decision sequence: start with the job to be done, prefer native options first, check whether governance or scheduling is required, then go custom only for proprietary logic or internal systems.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-66",
+        "C-53"
+      ],
+      "alt": "Four-step flow diagram showing the construct selection sequence from job to be done through to custom build.",
+      "bytes": 4265
+    },
+    {
+      "asset_id": "FND-105-A02",
+      "path": "assets/svg/fnd-105-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Comparison table pairing native and custom examples for MCP, actions, and skills.",
+      "screen_id": "SCR-04",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-65"
+      ],
+      "alt": "Two-column comparison of native versus custom examples for MCP, actions, and skills.",
+      "bytes": 3852
+    }
+  ]
+}

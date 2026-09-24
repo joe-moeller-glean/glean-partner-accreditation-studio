@@ -1,0 +1,94 @@
+{
+  "columns": [
+    "Summary Metric",
+    "Value",
+    "",
+    "Build Status",
+    "Count",
+    "",
+    "Academy",
+    "Count"
+  ],
+  "records": [
+    {
+      "Summary Metric": "Total modules",
+      "Value": "83",
+      "": "",
+      "Build Status": "Ready for LMS",
+      "Count": "7",
+      "Academy": "Foundations"
+    },
+    {
+      "Summary Metric": "Critical priority",
+      "Value": "17",
+      "": "",
+      "Build Status": "Refresh needed",
+      "Count": "8",
+      "Academy": "Sales & GTM"
+    },
+    {
+      "Summary Metric": "Wave 1 modules",
+      "Value": "26",
+      "": "",
+      "Build Status": "In development",
+      "Count": "7",
+      "Academy": "Solutions & Value"
+    },
+    {
+      "Summary Metric": "Ready for LMS",
+      "Value": "8",
+      "": "",
+      "Build Status": "Planned",
+      "Count": "11",
+      "Academy": "Technical & Architecture"
+    },
+    {
+      "Summary Metric": "Refresh needed",
+      "Value": "10",
+      "": "",
+      "Build Status": "Builders & Integrations",
+      "Count": "",
+      "Academy": ""
+    },
+    {
+      "Summary Metric": "In development",
+      "Value": "6",
+      "": "",
+      "Build Status": "Services & Delivery",
+      "Count": "",
+      "Academy": ""
+    },
+    {
+      "Summary Metric": "Planned",
+      "Value": "58",
+      "": "",
+      "Build Status": "Operations & Support",
+      "Count": "",
+      "Academy": ""
+    },
+    {
+      "Summary Metric": "",
+      "Value": "Industry Verticals",
+      "": "",
+      "Build Status": "",
+      "Count": "",
+      "Academy": ""
+    },
+    {
+      "Summary Metric": "",
+      "Value": "Department Solutions",
+      "": "",
+      "Build Status": "",
+      "Count": "",
+      "Academy": ""
+    },
+    {
+      "Summary Metric": "",
+      "Value": "Accreditations & Capstones",
+      "": "",
+      "Build Status": "",
+      "Count": "",
+      "Academy": ""
+    }
+  ]
+}

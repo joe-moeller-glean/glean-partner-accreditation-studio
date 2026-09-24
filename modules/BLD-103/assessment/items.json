@@ -1,0 +1,101 @@
+{
+  "module_id": "BLD-103",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-03",
+      "stem": "What experience does the Actions and Integrations course expect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Experience with RESTful APIs."
+        },
+        {
+          "id": "b",
+          "text": "No prior technical experience."
+        },
+        {
+          "id": "c",
+          "text": "Connector development experience only."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-01",
+      "stem": "Which topics does the workshop cover before the hands-on build?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Departmental use cases, actions and MCP, then integrations."
+        },
+        {
+          "id": "b",
+          "text": "Connector pipelines and indexing only."
+        },
+        {
+          "id": "c",
+          "text": "Competitive positioning and objection handling."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "How does a builder add a custom action to an agent?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As a step in Agent Builder, with fixed, user, or AI-predicted inputs."
+        },
+        {
+          "id": "b",
+          "text": "By registering it as an MCP single-step selection."
+        },
+        {
+          "id": "c",
+          "text": "By attaching it to a connector schedule."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-01",
+      "stem": "Which integration examples appear in the course agenda?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Client API, resolving tickets in ServiceNow, and embedding in custom web applications."
+        },
+        {
+          "id": "b",
+          "text": "Data warehouse migration and ETL scheduling."
+        },
+        {
+          "id": "c",
+          "text": "Only email and calendar automation."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-02",
+      "stem": "Why plan the custom action target before the session?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Because custom actions exist for internal APIs, legacy systems, and validation before a write, so the target shapes the build."
+        },
+        {
+          "id": "b",
+          "text": "Because custom actions cannot be changed after creation."
+        },
+        {
+          "id": "c",
+          "text": "Because only one custom action may exist per organization."
+        }
+      ]
+    }
+  ]
+}

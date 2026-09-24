@@ -1,0 +1,13 @@
+{
+  "id": "SCR-09",
+  "archetype": "A14",
+  "objective": "OBJ-03",
+  "eyebrow": "Next step",
+  "title": "Governed agents still break. Learn to diagnose them.",
+  "body": "Next: SRV-204 covers trace-driven debugging, issue isolation, and clean escalation packages.",
+  "badge": "Governance and safety: complete",
+  "signature": true,
+  "claims": [
+    "C-96"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "module_id": "AGT-101",
+  "key": {
+    "Q-01": {
+      "correct": "a",
+      "feedback": {
+        "a": "Correct. That is the product definition, and the four elements it names are what you check on every agent review.",
+        "b": "A schedule can start an agent, but a trigger is not the agent. An agent carries out adapting, multi-step work.",
+        "c": "Too narrow. Agents combine instructions, knowledge, tools, and context, and can act across many connected systems.",
+        "d": "That describes a connector. Connectors supply knowledge; the agent is what uses it."
+      }
+    },
+    "Q-02": {
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feedback": {
+        "a": "Correct \u2014 target outcomes and behavioral rules.",
+        "b": "Correct \u2014 the information available to the agent.",
+        "c": "Correct \u2014 results produced and context retained during a run.",
+        "d": "Not a building block. Cost matters operationally, but it is not part of the agent model.",
+        "e": "Not a building block. That belongs to connectors and indexing, not the agent itself."
+      }
+    },
+    "Q-03": {
+      "correct": "a",
+      "feedback": {
+        "a": "Correct. Fixed and repeatable with explicit control is exactly the Workflow mode case.",
+        "b": "Auto mode determines its own path, so runs can vary. That is the opposite of what an auditor wants here.",
+        "c": "They differ in a way that matters: Auto mode decides its own path, Workflow mode follows yours.",
+        "d": "Agents can absolutely support auditable work \u2014 that is why Workflow mode and the lifecycle exist."
+      }
+    },
+    "Q-04": {
+      "correct": "a",
+      "feedback": {
+        "a": "Correct on both halves. Content triggers fire on a change in a connected tool and hand the changed content to the agent as [[Trigger input]].",
+        "b": "That requires a person to notice and paste, which defeats the point of automatic execution.",
+        "c": "An input form needs a person to fill it in first, so it cannot start on its own.",
+        "d": "A schedule fires on the clock, not on the change, and would miss or duplicate work."
+      }
+    },
+    "Q-05": {
+      "correct": "a",
+      "feedback": {
+        "a": "Correct. It is a deliberate stricter access model for channel-wide visibility. To match web behavior, publish as visible only to the user with the option to share.",
+        "b": "Not a defect. Permissions are enforced everywhere, but channel-wide visibility deliberately narrows which documents can be used.",
+        "c": "Agents do not hold their own document grants. Access is evaluated at execution time against the relevant user or channel scope.",
+        "d": "Retrieval still works in Slack. What changed is the set of documents the agent is allowed to draw on."
+      }
+    },
+    "Q-06": {
+      "correct": "a",
+      "feedback": {
+        "a": "Correct. Broad audience, sensitive data, and write tools each independently call for a more robust process, and enterprise scope means comprehensive.",
+        "b": "Reactive review after a broad launch is precisely what the lifecycle exists to prevent.",
+        "c": "Process must scale with impact and data access \u2014 that is the explicit guidance.",
+        "d": "Write tools are governed, not universally blocked. Admins choose which may run without confirmation, which is a reason for more review, not less."
+      }
+    }
+  }
+}

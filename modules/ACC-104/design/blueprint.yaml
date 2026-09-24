@@ -1,0 +1,29 @@
+module_id: ACC-104
+title: Builder Accreditation
+level: 300
+target_hours: 1.5
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "State every requirement the Agent Building Competency imposes on a partner organization."
+    screens: [SCR-01, SCR-02, SCR-03, SCR-04, SCR-09]
+    assessment_items: [Q-01, Q-05]
+  - id: OBJ-02
+    text: "Audit a candidate agent portfolio against the capability checklist."
+    screens: [SCR-05, SCR-06]
+    assessment_items: [Q-02, Q-03]
+  - id: OBJ-03
+    text: "Assemble the submission and validation evidence the review requires."
+    screens: [SCR-07, SCR-08, SCR-10]
+    assessment_items: [Q-04]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 10
+distinct_archetypes: [A1, A14, A2, A3, A4, A9, quiz]
+assessment_type: Capstone lab

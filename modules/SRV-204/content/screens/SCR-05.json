@@ -1,0 +1,51 @@
+{
+  "id": "SCR-05",
+  "archetype": "A9",
+  "objective": "OBJ-02",
+  "eyebrow": "Sort it",
+  "title": "Classify these five reports",
+  "prompt": "Place each customer report in the correct failure category.",
+  "type": "sort",
+  "categories": [
+    "Instruction-following",
+    "Retrieval and context",
+    "Action and integration",
+    "Trigger and scheduling",
+    "UI and configuration"
+  ],
+  "pairs": [
+    {
+      "item": "The agent answered, but ignored the format we specified and picked a tool we did not ask for.",
+      "category": "Instruction-following",
+      "why": "Wrong tools planned and ignored instructions are instruction-following failures."
+    },
+    {
+      "item": "It says the policy document cannot be found, but the document is definitely indexed.",
+      "category": "Retrieval and context",
+      "why": "Right tool, wrong or missing results, including not found when it exists."
+    },
+    {
+      "item": "The ticket was half created and then the step returned a timeout.",
+      "category": "Action and integration",
+      "why": "Partial writes and timeouts are action and integration failures."
+    },
+    {
+      "item": "It was supposed to run at 6am on new documents and it has not run at all.",
+      "category": "Trigger and scheduling",
+      "why": "Never runs, runs at the wrong time, or runs on the wrong content."
+    },
+    {
+      "item": "The save button does nothing when the admin edits the agent.",
+      "category": "UI and configuration",
+      "why": "Save failures and permissions problems are UI and configuration issues."
+    }
+  ],
+  "takeaway": "Classification is the fastest debugging skill to build and the one that saves the most time.",
+  "claims": [
+    "C-75",
+    "C-76",
+    "C-77",
+    "C-78",
+    "C-79"
+  ]
+}

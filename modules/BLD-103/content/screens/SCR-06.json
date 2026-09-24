@@ -1,0 +1,13 @@
+{
+  "id": "SCR-06",
+  "archetype": "A10",
+  "objective": "OBJ-02",
+  "eyebrow": "Myth versus reality",
+  "title": "“We will just pick the MCP tool as a step”",
+  "body": "Reality: MCP tools are not available as individual single-step selections in Agent Builder. In Agents they are available in Plan and Execute mode and in auto mode.",
+  "footnote": "Teams that discover this mid-lab lose the build window. Design for it up front.",
+  "claims": [
+    "C-59",
+    "C-58"
+  ]
+}

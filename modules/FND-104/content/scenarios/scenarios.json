@@ -1,0 +1,11 @@
+{
+  "module_id": "FND-104",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "A prospect opens with a request for a workflow agent. Nothing in the ask tells you whether the real answer is search, an assistant surface, an action, or a full agent. Choose wrong and you sell work that will not stick.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

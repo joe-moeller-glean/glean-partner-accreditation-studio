@@ -1,0 +1,32 @@
+{
+  "id": "SCR-07",
+  "archetype": "A13",
+  "objective": "OBJ-03",
+  "eyebrow": "Escalation package",
+  "title": "What a clean escalation contains",
+  "steps": [
+    {
+      "title": "Classification",
+      "body": "Which of the five categories the failure falls into, and the evidence for that call."
+    },
+    {
+      "title": "Trace evidence",
+      "body": "The failing step with its inputs, including referenced memory and variables, and its raw outputs."
+    },
+    {
+      "title": "Reproduction",
+      "body": "The run that fails, noting that multi-turn chat is supported in debug preview."
+    },
+    {
+      "title": "What you already ruled out",
+      "body": "Memory scope and model size changes attempted, and their effect."
+    }
+  ],
+  "footnote": "Clear, actionable escalations are the stated goal: they help partners resolve customer issues faster and increase trust in production agents.",
+  "claims": [
+    "C-73",
+    "C-71",
+    "C-80",
+    "C-102"
+  ]
+}

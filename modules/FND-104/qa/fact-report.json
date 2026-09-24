@@ -1,0 +1,39 @@
+{
+  "module_id": "FND-104",
+  "checked_on": "2026-09-02",
+  "state": "pass",
+  "claim_count": 13,
+  "source_count": 3,
+  "unsourced_claims": [],
+  "stale_sources": [],
+  "verdicts": {
+    "verified": 13,
+    "unsupported": 0,
+    "stale": 0,
+    "conflicted": 0
+  },
+  "attribution_notes": [
+    "Performance figures are attributed to the source that reports them, never stated as independent platform guarantees.",
+    "No customer names, partner names, or metrics appear that are not present in a source."
+  ],
+  "source_ledger": [
+    {
+      "source_id": "S-03",
+      "title": "Partner Enablement Deck: MCP, Custom Actions, and Skills",
+      "verified_on": "2026-09-02",
+      "reverify_by": "2026-11-01"
+    },
+    {
+      "source_id": "S-05",
+      "title": "Partner Accreditation & Competency Roadmap - Module Tracker",
+      "verified_on": "2026-09-02",
+      "reverify_by": "2026-10-01"
+    },
+    {
+      "source_id": "S-08",
+      "title": "[EXT] Glean Partner Program Guide 2026",
+      "verified_on": "2026-09-02",
+      "reverify_by": "2026-11-01"
+    }
+  ]
+}

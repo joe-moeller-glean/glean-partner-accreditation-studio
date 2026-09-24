@@ -1,0 +1,39 @@
+{
+  "module_id": "BLD-103",
+  "assets": [
+    {
+      "asset_id": "BLD-103-A01",
+      "path": "assets/svg/bld-103-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Four-part workshop sequence: review departmental use cases, cover actions and MCP including custom action build and remote MCP server connection, explore integrations such as Client API and ServiceNow ticket resolution, then complete the hands-on build workshop.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-105"
+      ],
+      "alt": "Four-step flow diagram of the Actions and MCP workshop sequence.",
+      "bytes": 4238
+    },
+    {
+      "asset_id": "BLD-103-A02",
+      "path": "assets/svg/bld-103-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Three readiness layers for the workshop: advanced level designation, two to four hour duration, and RESTful API experience as prerequisite.",
+      "screen_id": "SCR-04",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-106"
+      ],
+      "alt": "Stacked diagram of workshop readiness requirements: level, duration, and prerequisite experience.",
+      "bytes": 2031
+    }
+  ]
+}

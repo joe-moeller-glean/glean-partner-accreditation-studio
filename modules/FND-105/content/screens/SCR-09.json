@@ -1,0 +1,19 @@
+{
+  "id": "SCR-09",
+  "archetype": "A13",
+  "objective": "OBJ-03",
+  "eyebrow": "Job aid",
+  "title": "Carry this into your next scoping call",
+  "bullets": [
+    "Skills standardize reasoning. Actions standardize execution. MCP standardizes interoperability. Agents operationalize all three.",
+    "Start with the job to be done, prefer native first, go custom for proprietary logic, internal systems, or partner IP.",
+    "MCP is the answer when an agent needs dynamic tool choice across a connected toolset."
+  ],
+  "badge": "Construct decisions: complete",
+  "signature": true,
+  "claims": [
+    "C-67",
+    "C-66",
+    "C-69"
+  ]
+}

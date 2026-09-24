@@ -1,0 +1,31 @@
+{
+  "id": "SCR-05",
+  "archetype": "A12",
+  "objective": "OBJ-01",
+  "eyebrow": "Checkpoint",
+  "title": "Where do agents sit?",
+  "type": "choice",
+  "prompt": "Pick the accurate description of an agent.",
+  "options": [
+    {
+      "id": "o1",
+      "text": "The governed workflow wrapper that packages skills, tools, and knowledge together.",
+      "correct": true,
+      "feedback": "Correct. Agents operationalize skills, actions, and MCP into production workflows."
+    },
+    {
+      "id": "o2",
+      "text": "A connector that indexes a proprietary data source.",
+      "feedback": "No. That is the connector framework, a different build surface."
+    },
+    {
+      "id": "o3",
+      "text": "An SDK for embedding search into a web application.",
+      "feedback": "No. That is the embedded experience and Client API surface."
+    }
+  ],
+  "claims": [
+    "C-49",
+    "C-67"
+  ]
+}

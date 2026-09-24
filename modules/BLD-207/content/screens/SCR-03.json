@@ -1,0 +1,13 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "The loop",
+  "title": "Evaluation starts in the planning phase",
+  "body": "Measurement compares actual outcomes against the KPIs and success criteria defined during planning, using both quantitative data and qualitative feedback.",
+  "asset": "BLD-207-A01",
+  "claims": [
+    "C-45",
+    "C-37"
+  ]
+}

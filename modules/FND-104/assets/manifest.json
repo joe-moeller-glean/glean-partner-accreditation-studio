@@ -1,0 +1,42 @@
+{
+  "module_id": "FND-104",
+  "assets": [
+    {
+      "asset_id": "FND-104-A01",
+      "path": "assets/svg/fnd-104-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Three stacked layers. Top layer: agents, the governed workflow wrapper. Middle layer: assistant with skills and actions. Bottom layer: search over the trusted AI layer on company knowledge.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-108",
+        "C-111",
+        "C-49"
+      ],
+      "alt": "Stacked diagram of the Glean operating model with agents on top, assistant in the middle, and search over company knowledge at the base.",
+      "bytes": 2284
+    },
+    {
+      "asset_id": "FND-104-A02",
+      "path": "assets/svg/fnd-104-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Four cards. Skills provide reusable instructions and domain expertise. Actions are tool calls that read from or write to systems. MCP is an open protocol exposing tools and data. Agents are the governed workflow wrapper.",
+      "screen_id": "SCR-05",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-49",
+        "C-64"
+      ],
+      "alt": "Four cards describing skills, actions, MCP, and agents and the job each one does.",
+      "bytes": 3319
+    }
+  ]
+}

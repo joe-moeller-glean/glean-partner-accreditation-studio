@@ -1,0 +1,13 @@
+{
+  "id": "SCR-06",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "Model selection",
+  "title": "Right-size the model per step",
+  "body": "Use small and fast models for simple transforms. Reserve larger models only where reasoning clearly benefits the outcome.",
+  "footnote": "The debugging training reports a 3x speed improvement from optimized memory settings and a 60% cost reduction from using right-sized models.",
+  "claims": [
+    "C-82",
+    "C-83"
+  ]
+}

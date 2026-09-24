@@ -1,0 +1,11 @@
+{
+  "module_id": "SRV-204",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "A customer reports a wrong answer. It could be instruction-following, retrieval, an action failure, a trigger problem, or configuration. Guessing costs a day and the escalation gets bounced back.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "SCR-05",
+  "archetype": "A4",
+  "objective": "OBJ-01",
+  "eyebrow": "Constraints that decide for you",
+  "title": "Three facts that end the debate early",
+  "prompt": "Open each constraint before you design around it.",
+  "hotspots": [
+    {
+      "label": "Remote MCP servers are fully supported for Assistant",
+      "detail": "If the requirement is Assistant-side tool access over an open standard, remote MCP servers are fully supported."
+    },
+    {
+      "label": "In Agents, MCP-backed tools work in Plan and Execute and auto mode",
+      "detail": "MCP-backed tools are available in Plan and Execute mode and in auto mode, which is where dynamic tool choice belongs."
+    },
+    {
+      "label": "MCP tools are not individual single-step selections in Agent Builder",
+      "detail": "You cannot pick an MCP tool as a single discrete step in Agent Builder. If the design needs one fixed deterministic step, that is a custom action."
+    }
+  ],
+  "claims": [
+    "C-57",
+    "C-58",
+    "C-59"
+  ]
+}

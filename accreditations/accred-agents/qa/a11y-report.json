@@ -1,0 +1,20 @@
+{
+  "module_id": "accred-agents",
+  "checked_on": "2026-09-02",
+  "standard": "WCAG 2.2 AA",
+  "state": "pass",
+  "checks": {
+    "text_contrast_4_5": "pass - token pairs verified by lint_module.py contrast check",
+    "keyboard_complete": "pass - all controls are native button or select elements",
+    "visible_focus": "pass - :focus-visible outline on every interactive element",
+    "state_not_by_colour_alone": "pass - verdicts carry text prefixes and aria-pressed",
+    "reduced_motion": "pass - prefers-reduced-motion collapses all animation",
+    "image_alt_text": "pass - 2 assets, each with a manifest alt entry",
+    "svg_title_desc": "pass - 2 SVGs carry title and desc",
+    "live_region": "pass - status paragraph is role=status; screen is aria-live=polite",
+    "skip_link": "pass - skip to module content is the first focusable element",
+    "progress_honesty": "pass - progress equals real position, verified in runtime QA",
+    "zoom_320px": "pass - single-column breakpoint at 900px, SVGs scale to container"
+  },
+  "open_issues": []
+}

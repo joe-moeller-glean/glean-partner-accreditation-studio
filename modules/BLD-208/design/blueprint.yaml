@@ -1,0 +1,29 @@
+module_id: BLD-208
+title: Agent Governance & Safety
+level: 300
+target_hours: 1.0
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Design approval and escalation boundaries for agents that write to other systems."
+    screens: [SCR-01, SCR-02, SCR-04, SCR-07]
+    assessment_items: [Q-01]
+  - id: OBJ-02
+    text: "Apply retrieval guardrails and refusal behaviour as governance controls."
+    screens: [SCR-03, SCR-05]
+    assessment_items: [Q-02, Q-05]
+  - id: OBJ-03
+    text: "Specify the production governance evidence a competency review expects."
+    screens: [SCR-06, SCR-08, SCR-09]
+    assessment_items: [Q-03, Q-04]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 9
+distinct_archetypes: [A1, A14, A2, A3, A4, A5, A6, quiz]
+assessment_type: Scenario review

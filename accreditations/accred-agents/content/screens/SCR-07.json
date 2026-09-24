@@ -1,0 +1,13 @@
+{
+  "id": "SCR-07",
+  "archetype": "A14",
+  "objective": "OBJ-02",
+  "eyebrow": "Start here",
+  "title": "Begin with the operating model",
+  "body": "FND-104 explains the Glean operating model for search, assistants, and agents, and where each construct fits for customer outcomes.",
+  "badge": "Agents path: oriented",
+  "signature": true,
+  "claims": [
+    "C-88"
+  ]
+}

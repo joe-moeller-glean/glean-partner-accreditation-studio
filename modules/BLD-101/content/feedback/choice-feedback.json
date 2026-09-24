@@ -1,0 +1,8 @@
+{
+  "module_id": "BLD-101",
+  "feedback": {
+    "SCR-05:o1": "Correct. Agents operationalize skills, actions, and MCP into production workflows.",
+    "SCR-05:o2": "No. That is the connector framework, a different build surface.",
+    "SCR-05:o3": "No. That is the embedded experience and Client API surface."
+  }
+}

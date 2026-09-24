@@ -1,0 +1,17 @@
+{
+  "id": "SCR-04",
+  "archetype": "A4",
+  "objective": "OBJ-02",
+  "eyebrow": "Taxonomy",
+  "title": "Five categories, five places to look",
+  "body": "The journey covers the agent execution mental model, the debugging toolbox, the failure taxonomy, and escalation.",
+  "asset": "SRV-204-A02",
+  "claims": [
+    "C-86",
+    "C-75",
+    "C-76",
+    "C-77",
+    "C-78",
+    "C-79"
+  ]
+}

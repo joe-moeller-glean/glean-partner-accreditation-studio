@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="badge-title">
+  <title id="badge-title">Glean Agents Foundations completion mark</title>
+  <circle cx="60" cy="60" r="52" fill="none" stroke="#C7C7AB"/>
+  <circle cx="60" cy="60" r="44" fill="none" stroke="#343CED" stroke-width="2"/>
+  <path d="M46 61l10 10 20-22" fill="none" stroke="#343CED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="60" y="96" text-anchor="middle" fill="#3A3A3A" font-family="SFMono-Regular,Menlo,monospace" font-size="9">AGT-101</text>
+</svg>

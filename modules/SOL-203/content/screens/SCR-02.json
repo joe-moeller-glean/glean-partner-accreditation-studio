@@ -1,0 +1,13 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Turn a vertical workflow into a buildable design",
+  "bullets": [
+    "Surface candidates through structured discovery, not wishlists.",
+    "Rank them on value against complexity.",
+    "Produce a design covering workflow, sources, guardrails, and governance."
+  ],
+  "claims": []
+}

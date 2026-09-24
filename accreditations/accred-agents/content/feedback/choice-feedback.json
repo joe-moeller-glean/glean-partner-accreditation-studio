@@ -1,0 +1,8 @@
+{
+  "module_id": "accred-agents",
+  "feedback": {
+    "SCR-05:o1": "Correct. The path builds the skills; the submission needs accreditations, the workshop, the agents, and the evidence artefacts.",
+    "SCR-05:o2": "No. Five production-ready agents are required, each with documented requirements and an architecture review.",
+    "SCR-05:o3": "Not quite. Coursework is necessary but the competency also requires built agents and validation."
+  }
+}

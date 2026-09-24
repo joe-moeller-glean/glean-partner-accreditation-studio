@@ -1,0 +1,8 @@
+{
+  "id": "SCR-09",
+  "archetype": "quiz",
+  "objective": "OBJ-01",
+  "eyebrow": "Prove it",
+  "title": "Accreditation readiness exam",
+  "type": "quiz"
+}

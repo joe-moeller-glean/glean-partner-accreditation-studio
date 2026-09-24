@@ -1,0 +1,33 @@
+{
+  "id": "SCR-08",
+  "archetype": "A6",
+  "objective": "OBJ-01",
+  "eyebrow": "Decision branch",
+  "title": "A reviewer says your agent is not production-ready",
+  "type": "choice",
+  "prompt": "It retrieves and summarizes in two steps with no fallback. What is the minimum fix?",
+  "options": [
+    {
+      "id": "o1",
+      "text": "Add a thinking or transformation step to reach three discrete steps beyond retrieval, plus explicit fallback for low-confidence or out-of-scope questions.",
+      "correct": true,
+      "feedback": "Correct. Both are hard requirements: three or more discrete steps including a thinking step, and explicit error handling with defined fallback."
+    },
+    {
+      "id": "o2",
+      "text": "Switch to a larger model so answers improve.",
+      "feedback": "No. Model size does not satisfy the step-count or fallback requirements, and larger models should be reserved for where reasoning clearly benefits."
+    },
+    {
+      "id": "o3",
+      "text": "Enable all previous steps memory everywhere.",
+      "feedback": "No. Too much memory leads to slower, more expensive runs with wandering answers, and it does not add a fallback path."
+    }
+  ],
+  "claims": [
+    "C-06",
+    "C-08",
+    "C-82",
+    "C-80"
+  ]
+}

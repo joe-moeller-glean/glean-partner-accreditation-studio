@@ -1,0 +1,25 @@
+module_id: accred-agents
+title: Agents
+level: 200
+target_hours: 0.5
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Navigate the Agents accreditation path and its prerequisite order."
+    screens: [SCR-01, SCR-02, SCR-04, SCR-06]
+    assessment_items: [Q-01, Q-02, Q-04]
+  - id: OBJ-02
+    text: "Explain how the path maps to the Agent Building Competency."
+    screens: [SCR-03, SCR-05, SCR-07]
+    assessment_items: [Q-03, Q-05]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 7
+distinct_archetypes: [A1, A12, A14, A2, A3, A5, quiz]
+assessment_type: Quiz

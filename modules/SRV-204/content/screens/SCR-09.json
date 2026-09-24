@@ -1,0 +1,13 @@
+{
+  "id": "SCR-09",
+  "archetype": "A14",
+  "objective": "OBJ-03",
+  "eyebrow": "Next step",
+  "title": "Practise on a tenant before you practise on a customer",
+  "body": "Use the Glean Help Center Debug your agent guide and live labs on a demo tenant to build hands-on debugging expertise.",
+  "badge": "Advanced debugging: complete",
+  "signature": true,
+  "claims": [
+    "C-84"
+  ]
+}

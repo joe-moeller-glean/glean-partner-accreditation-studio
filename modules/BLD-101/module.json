@@ -1,0 +1,12 @@
+{
+  "module_id": "BLD-101",
+  "title": "Building with Glean",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "accreditation_id": "accred-agents",
+  "level": "100",
+  "target_hours": 0.5,
+  "assessment_type": "Quiz"
+}

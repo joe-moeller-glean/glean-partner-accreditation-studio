@@ -1,0 +1,13 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Walk in with a submission that passes",
+  "bullets": [
+    "State every competency requirement without checking the workbook.",
+    "Audit your agent portfolio against the capability checklist.",
+    "Bring the evidence the validation review expects."
+  ],
+  "claims": []
+}

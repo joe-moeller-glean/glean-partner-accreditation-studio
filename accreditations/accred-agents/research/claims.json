@@ -1,0 +1,205 @@
+{
+  "module_id": "accred-agents",
+  "claims": [
+    {
+      "claim_id": "C-01",
+      "text": "The Glean Agent Building Competency certifies partner teams to design, build, govern, and operationalize production-grade Glean Agents that automate workflows and deliver measurable business outcomes.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-03",
+      "text": "One competency requirement is completing 5 technical accreditations within the Glean Partner Portal, validated by a Glean Partner Manager.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-04",
+      "text": "One competency requirement is completing a Glean-delivered agent building workshop session with your Glean technical team, validated by a Glean Partner Solutions Engineer.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-05",
+      "text": "The competency requires building 5 functioning, production-ready agents.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-15",
+      "text": "For each competency agent, partners must gather business and technical requirements with the end user, evidenced by a document outlining those requirements.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-19",
+      "text": "Competency graduates can design and implement persona-aligned agents, define intents, configure retrieval and guardrails, and construct multi-step agents with clear handoffs and fallbacks.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-20",
+      "text": "Advanced agent capabilities include schedule-based triggers, event-driven runs on content changes, and conditional branching and looping to orchestrate robust workflows.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-27",
+      "text": "Competency graduates understand best practices for testing and validation of Glean agents.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-30",
+      "text": "Competency graduates can deliver enablement and advisory on agents and AI actions.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-88",
+      "text": "FND-104 explains the Glean operating model for search, assistants, and agents, and where each construct fits for customer outcomes.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-89",
+      "text": "FND-105 provides a decision framework for when to use search, assistant, prompt, agent, action, connector, or integration pattern.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-90",
+      "text": "BLD-101 introduces what can be built with agents, actions, APIs, and integration points.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-91",
+      "text": "BLD-102 explains actions, MCP, architecture choices, and when to use each approach.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-92",
+      "text": "BLD-103 is a hands-on workshop building actions and MCP-backed flows.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-93",
+      "text": "BLD-104 is a deeper workshop on agent composition, memory, tool selection, and reusable patterns.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-94",
+      "text": "BLD-207 covers how to evaluate prompts and agents, measure quality, and prevent regressions.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-95",
+      "text": "BLD-208 covers safety patterns, approval design, escalation boundaries, and production governance for partner-built agents.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-96",
+      "text": "SRV-204 covers trace-driven debugging, issue isolation, and clean escalation packages.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-97",
+      "text": "SOL-203 designs industry-specific agents that map to common workflows, data sources, and governance requirements.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-98",
+      "text": "ACC-104 is the badge for builders who can implement actions, agents, and connectors, assessed by a capstone lab.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

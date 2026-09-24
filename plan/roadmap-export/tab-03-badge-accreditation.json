@@ -1,0 +1,76 @@
+{
+  "columns": [
+    "Badge / Accreditation",
+    "Primary Audience",
+    "Core Focus",
+    "Required Modules",
+    "Capstone / Assessment",
+    "Launch / Refresh Target"
+  ],
+  "records": [
+    {
+      "Badge / Accreditation": "Glean Foundations",
+      "Primary Audience": "All partner personas",
+      "Core Focus": "A base understand of what the Glean platform is",
+      "Required Modules": "FND-101, FND-102, FND-103, FND-107",
+      "Capstone / Assessment": "Quiz",
+      "Launch / Refresh Target": ""
+    },
+    {
+      "Badge / Accreditation": "Seller / Seller Advanced",
+      "Primary Audience": "Partner sellers",
+      "Core Focus": "",
+      "Required Modules": "SAL-101, SAL-102, SAL-103, SAL-203, ACC-101",
+      "Capstone / Assessment": "Quiz",
+      "Launch / Refresh Target": ""
+    },
+    {
+      "Badge / Accreditation": "Technical Advisor",
+      "Primary Audience": "Solution advisors",
+      "Core Focus": "",
+      "Required Modules": "SOL-101, SOL-102, SOL-103, SOL-201, SOL-204, ACC-102",
+      "Capstone / Assessment": "Quiz",
+      "Launch / Refresh Target": ""
+    },
+    {
+      "Badge / Accreditation": "Builder",
+      "Primary Audience": "Builders, Developers",
+      "Core Focus": "",
+      "Required Modules": "BLD-101, BLD-102, BLD-103, BLD-104, BLD-201, BLD-202, ACC-104",
+      "Capstone / Assessment": "Quiz",
+      "Launch / Refresh Target": ""
+    },
+    {
+      "Badge / Accreditation": "Solution Architect",
+      "Primary Audience": "Architects, Developers",
+      "Core Focus": "",
+      "Required Modules": "TEC-101, TEC-102, TEC-103, TEC-104, TEC-105, TEC-201, ACC-103",
+      "Capstone / Assessment": "Quiz",
+      "Launch / Refresh Target": ""
+    },
+    {
+      "Badge / Accreditation": "Delivery Lead",
+      "Primary Audience": "PMO, Project Manager, Technical Account Manager",
+      "Core Focus": "",
+      "Required Modules": "SRV-101, SRV-102, SRV-103, SRV-104, SRV-201, SRV-202, ACC-105",
+      "Capstone / Assessment": "Quiz",
+      "Launch / Refresh Target": ""
+    },
+    {
+      "Badge / Accreditation": "Support & Adoption",
+      "Primary Audience": "Admins; support leads",
+      "Core Focus": "",
+      "Required Modules": "OPS-101, OPS-102, OPS-103, OPS-104, OPS-105, ACC-106",
+      "Capstone / Assessment": "Quiz",
+      "Launch / Refresh Target": ""
+    },
+    {
+      "Badge / Accreditation": "Industry Specialist",
+      "Primary Audience": "Industry Principals",
+      "Core Focus": "",
+      "Required Modules": "SOL-202, SOL-203 plus 2+ IND modules",
+      "Capstone / Assessment": "Quiz",
+      "Launch / Refresh Target": ""
+    }
+  ]
+}

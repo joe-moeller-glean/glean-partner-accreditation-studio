@@ -1,0 +1,45 @@
+{
+  "module_id": "BLD-208",
+  "assets": [
+    {
+      "asset_id": "BLD-208-A01",
+      "path": "assets/svg/bld-208-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Four governance layers from top to bottom: compliance and security checks in the implementation plan, approval and validation logic before system writes, retrieval guardrails defining answerable scope, and explicit fallback for low-confidence or out-of-scope questions.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-37",
+        "C-61",
+        "C-07",
+        "C-08"
+      ],
+      "alt": "Stacked diagram of four agent governance layers from compliance planning down to fallback behaviour.",
+      "bytes": 3044
+    },
+    {
+      "asset_id": "BLD-208-A02",
+      "path": "assets/svg/bld-208-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Four evidence artefacts: a requirements document per agent, an architecture review with a Glean technical resource, a written business impact rationale, and a live or recorded walkthrough of each agent running.",
+      "screen_id": "SCR-06",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-15",
+        "C-16",
+        "C-17",
+        "C-18"
+      ],
+      "alt": "Four cards describing the evidence artefacts a competency review expects for each agent.",
+      "bytes": 4056
+    }
+  ]
+}

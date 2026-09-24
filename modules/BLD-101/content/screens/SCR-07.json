@@ -1,0 +1,13 @@
+{
+  "id": "SCR-07",
+  "archetype": "A14",
+  "objective": "OBJ-02",
+  "eyebrow": "Next step",
+  "title": "You know the surface. Next you learn the tools.",
+  "body": "BLD-102 goes deep on actions and MCP: what each one is, and when to use which.",
+  "badge": "Building with Glean: complete",
+  "signature": true,
+  "claims": [
+    "C-91"
+  ]
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 282" width="100%" preserveAspectRatio="xMidYMid meet">
+<title>Where MCP is and is not available</title>
+<desc>Three numbered support statements: remote MCP servers fully supported for Assistant; MCP-backed tools available in Agents Plan and Execute mode and auto mode; MCP tools not available as individual single-step selections in Agent Builder.</desc>
+<rect x="0" y="0" width="620" height="282" fill="#F6F3EB"/>
+<text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">Where MCP is and is not available</text>
+<rect x="24" y="64" width="281" height="92" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="24" y="64" width="34" height="92" rx="8" fill="#F6F3EB" stroke="#000000" stroke-width="2"/>
+<text x="41" y="94" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="middle">1</text>
+<text x="68" y="88" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="start">Assistant: fully supported</text>
+<text x="68" y="107" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Remote MCP servers are fully</text>
+<text x="68" y="121" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">supported for Assistant</text>
+<rect x="315" y="64" width="281" height="92" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="315" y="64" width="34" height="92" rx="8" fill="#F6F3EB" stroke="#000000" stroke-width="2"/>
+<text x="332" y="94" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="middle">2</text>
+<text x="359" y="88" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="start">Agents: Plan and Execute,</text>
+<text x="359" y="103" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="start">auto</text>
+<text x="359" y="122" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">MCP-backed tools are available in</text>
+<text x="359" y="136" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">these modes</text>
+<rect x="24" y="166" width="281" height="92" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="24" y="166" width="34" height="92" rx="8" fill="#F6F3EB" stroke="#000000" stroke-width="2"/>
+<text x="41" y="196" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="middle">3</text>
+<text x="68" y="190" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="start">Agent Builder: not</text>
+<text x="68" y="205" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="start">single-step</text>
+<text x="68" y="224" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">MCP tools are not individual</text>
+<text x="68" y="238" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">single-step selections</text>
+<rect x="315" y="166" width="281" height="92" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="315" y="166" width="34" height="92" rx="8" fill="#F6F3EB" stroke="#000000" stroke-width="2"/>
+<text x="332" y="196" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="middle">4</text>
+<text x="359" y="190" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="start">Implication</text>
+<text x="359" y="209" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Fixed deterministic step means</text>
+<text x="359" y="223" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">custom action, not MCP</text>
+</svg>

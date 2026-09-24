@@ -1,0 +1,17 @@
+{
+  "module_id": "BLD-208",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "It did exactly what it was told. Nobody had defined an approval boundary, a scope limit, or what should happen when confidence dropped. The behaviour was not a bug.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-07",
+      "archetype": "A6",
+      "prompt": "A partner-built agent drafts and sends customer-facing email autonomously on a schedule. What is the governance gap?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

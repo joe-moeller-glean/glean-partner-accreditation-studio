@@ -1,0 +1,101 @@
+{
+  "module_id": "accred-agents",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "Which module starts the Agents path?",
+      "options": [
+        {
+          "id": "a",
+          "text": "FND-104, the operating model for search, assistants, and agents."
+        },
+        {
+          "id": "b",
+          "text": "ACC-104, the Builder Accreditation capstone."
+        },
+        {
+          "id": "c",
+          "text": "SRV-204, Advanced Agent Debugging."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-01",
+      "stem": "What is the prerequisite for ACC-104?",
+      "options": [
+        {
+          "id": "a",
+          "text": "BLD-208, Agent Governance and Safety."
+        },
+        {
+          "id": "b",
+          "text": "FND-104."
+        },
+        {
+          "id": "c",
+          "text": "There is no prerequisite."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "What does the Agent Building Competency certify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "That partner teams can design, build, govern, and operationalize production-grade Glean Agents."
+        },
+        {
+          "id": "b",
+          "text": "That an individual has passed a written exam only."
+        },
+        {
+          "id": "c",
+          "text": "That a partner may resell Glean licences."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-01",
+      "stem": "Which three modules make up the production discipline stage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "BLD-207 evaluation, BLD-208 governance, and SRV-204 debugging."
+        },
+        {
+          "id": "b",
+          "text": "FND-104, FND-105, and BLD-101."
+        },
+        {
+          "id": "c",
+          "text": "BLD-103, SOL-203, and ACC-104."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-02",
+      "stem": "Which capability area does the badge certify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Persona-aligned agent design, including defining intents and configuring retrieval and guardrails."
+        },
+        {
+          "id": "b",
+          "text": "Data centre capacity planning."
+        },
+        {
+          "id": "c",
+          "text": "Contract negotiation."
+        }
+      ]
+    }
+  ]
+}

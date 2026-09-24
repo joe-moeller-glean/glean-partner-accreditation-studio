@@ -1,0 +1,45 @@
+{
+  "id": "SCR-07",
+  "archetype": "A9",
+  "objective": "OBJ-03",
+  "eyebrow": "Sort it",
+  "title": "Which advanced capability does each requirement need?",
+  "prompt": "Place each requirement with the capability that satisfies it.",
+  "type": "sort",
+  "categories": [
+    "Conditional branching",
+    "Loops",
+    "Schedule trigger",
+    "Event trigger"
+  ],
+  "pairs": [
+    {
+      "item": "Handle approved and rejected differently after the review step.",
+      "category": "Conditional branching",
+      "why": "Conditional branching is the documented capability for divergent paths."
+    },
+    {
+      "item": "Process every row in a returned list the same way.",
+      "category": "Loops",
+      "why": "Loops process a collection, which is an explicit competency requirement."
+    },
+    {
+      "item": "Run at 6am every weekday regardless of activity.",
+      "category": "Schedule trigger",
+      "why": "Schedule-based triggers cover time-driven runs."
+    },
+    {
+      "item": "Run whenever the source policy document changes.",
+      "category": "Event trigger",
+      "why": "Event-driven runs on content changes cover this case."
+    }
+  ],
+  "takeaway": "Advanced capabilities include schedule-based triggers, event-driven runs on content changes, and conditional branching and looping.",
+  "claims": [
+    "C-11",
+    "C-12",
+    "C-13",
+    "C-14",
+    "C-20"
+  ]
+}

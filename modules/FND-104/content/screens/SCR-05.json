@@ -1,0 +1,13 @@
+{
+  "id": "SCR-05",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "Four primitives",
+  "title": "Say the job out loud before you pick the tool",
+  "body": "Skills standardize reasoning. Actions standardize execution. MCP standardizes interoperability. Agents operationalize all three into production workflows.",
+  "asset": "FND-104-A02",
+  "claims": [
+    "C-67",
+    "C-49"
+  ]
+}

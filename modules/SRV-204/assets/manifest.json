@@ -1,0 +1,45 @@
+{
+  "module_id": "SRV-204",
+  "assets": [
+    {
+      "asset_id": "SRV-204-A01",
+      "path": "assets/svg/srv-204-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Four-step debug workflow: open the agent in Builder and toggle debug mode in the preview pane, filter to only show errors, open the failing step and compare inputs against outputs, then iterate with Try Again or Reset Preview.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-71",
+        "C-72",
+        "C-74"
+      ],
+      "alt": "Four-step flow diagram of the agent debug workflow from enabling debug mode to iterating on a fix.",
+      "bytes": 4237
+    },
+    {
+      "asset_id": "SRV-204-A02",
+      "path": "assets/svg/srv-204-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "The five-category agent failure taxonomy: instruction-following failures, retrieval and context-selection failures, action and integration failures, trigger and scheduling failures, and UI and configuration issues.",
+      "screen_id": "SCR-04",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-75",
+        "C-76",
+        "C-77",
+        "C-78",
+        "C-79"
+      ],
+      "alt": "Numbered diagram of the five agent failure categories with a short description of each.",
+      "bytes": 5168
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "SCR-06",
+  "archetype": "A3",
+  "objective": "OBJ-03",
+  "eyebrow": "Custom actions deep dive",
+  "title": "Custom actions are for the systems nobody else supports",
+  "bullets": [
+    "Custom actions are org-defined automations for cases where built-in actions and action packs are not enough.",
+    "They fit internal APIs Glean does not support out of the box, legacy or in-house systems, and approvals, validation, or custom business logic before writing to a system.",
+    "Builders add a custom action as a step in Agent Builder, and inputs can be fixed values, user inputs, or AI-predicted values.",
+    "Custom actions can be combined with By Glean and By datasource actions in the same workflow."
+  ],
+  "claims": [
+    "C-60",
+    "C-61",
+    "C-62",
+    "C-63"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "SCR-06",
+  "archetype": "A4",
+  "objective": "OBJ-03",
+  "eyebrow": "Evidence",
+  "title": "What the review will ask you to produce",
+  "body": "Competency validation is evidence-based. Each artefact below is a stated requirement.",
+  "asset": "BLD-208-A02",
+  "claims": [
+    "C-15",
+    "C-16",
+    "C-17",
+    "C-18"
+  ]
+}

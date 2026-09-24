@@ -1,0 +1,31 @@
+{
+  "id": "SCR-07",
+  "archetype": "A8",
+  "objective": "OBJ-03",
+  "eyebrow": "Worked example",
+  "title": "An onboarding action, end to end",
+  "steps": [
+    {
+      "title": "The operation",
+      "body": "An internal IT onboarding action creates a request and returns a request ID plus link."
+    },
+    {
+      "title": "Why custom",
+      "body": "The target is an internal system with validation before the write, which built-in actions do not cover."
+    },
+    {
+      "title": "Where it runs",
+      "body": "Added as a step in Agent Builder, with inputs supplied as fixed values, user inputs, or AI-predicted values."
+    },
+    {
+      "title": "What it composes with",
+      "body": "It can sit in the same workflow as By Glean and By datasource actions."
+    }
+  ],
+  "claims": [
+    "C-68",
+    "C-61",
+    "C-62",
+    "C-63"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "SCR-07",
+  "archetype": "A9",
+  "objective": "OBJ-01",
+  "eyebrow": "Sort it",
+  "title": "Four requirements, four constructs",
+  "prompt": "Place each requirement with the construct that should carry it.",
+  "type": "sort",
+  "categories": [
+    "Skills",
+    "Custom actions",
+    "MCP",
+    "Agents"
+  ],
+  "pairs": [
+    {
+      "item": "Bring Glean context into the IDE for engineers.",
+      "category": "MCP",
+      "why": "The engineering copilot scenario uses the Glean MCP server to bring Glean context into Cursor or VS Code."
+    },
+    {
+      "item": "Create an onboarding request in an internal system and return an ID and link.",
+      "category": "Custom actions",
+      "why": "That is the documented example custom action: an internal IT onboarding action returning a request ID plus link."
+    },
+    {
+      "item": "Enforce one methodology for account plans across every consultant.",
+      "category": "Skills",
+      "why": "Standardized consulting delivery uses a skill to enforce the same methodology."
+    },
+    {
+      "item": "Run every morning, check new content, and route exceptions for approval.",
+      "category": "Agents",
+      "why": "Scheduled, event-driven, or governed end-to-end workflows are agent work."
+    }
+  ],
+  "takeaway": "Same four categories, harder inputs. If you can sort these, you can run the conversation live.",
+  "claims": [
+    "C-70",
+    "C-68",
+    "C-53"
+  ]
+}

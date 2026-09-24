@@ -1,0 +1,45 @@
+{
+  "module_id": "BLD-101",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. That is the documented technology-partner build surface.",
+        "b": "No. Prompts are one small part of a much wider surface.",
+        "c": "No. The connector framework exists specifically for custom sources."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Reusable IP is resold across engagements instead of rebuilt each time.",
+        "b": "No. The margin comes from reuse, not from rate.",
+        "c": "No. Build work does not eliminate delivery."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, and that framing keeps agents distinct from actions and MCP.",
+        "b": "No. That is MCP.",
+        "c": "No. That is an action."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Connectors are how non-standard sources become searchable knowledge.",
+        "b": "No. Triggers control when an agent runs, not what is indexed.",
+        "c": "No. Skills carry methodology, not indexing."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, and all three sit over the same company knowledge.",
+        "b": "No. They share the platform's knowledge layer.",
+        "c": "No. That is not how the platform is positioned."
+      }
+    }
+  }
+}

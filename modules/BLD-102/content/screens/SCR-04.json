@@ -1,0 +1,17 @@
+{
+  "id": "SCR-04",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "MCP deep dive",
+  "title": "MCP is a standard, not a Glean feature",
+  "bullets": [
+    "MCP is an open standard for connecting AI assistants to external data sources and tools.",
+    "Glean can act as both an MCP server and an MCP host.",
+    "For partners, MCP means faster integrations, less lock-in, and easier reuse across hosts such as Cursor, Claude, ChatGPT, and VS Code."
+  ],
+  "claims": [
+    "C-54",
+    "C-55",
+    "C-56"
+  ]
+}

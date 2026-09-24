@@ -1,0 +1,45 @@
+{
+  "module_id": "BLD-102",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, and Glean can act as both an MCP server and an MCP host.",
+        "b": "No. It is an open standard, which is exactly why it reduces lock-in.",
+        "c": "No. That is closer to skills."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. That is where dynamic tool choice belongs.",
+        "b": "No. That is explicitly not supported.",
+        "c": "No. They are available in Plan and Execute and auto mode."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, alongside internal APIs and legacy or in-house systems.",
+        "b": "No. Dynamic tool choice across a toolset is the MCP signal.",
+        "c": "No. That is a skill."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. That flexibility is what lets one action serve several flows.",
+        "b": "No. User inputs and AI-predicted values are also supported.",
+        "c": "No. Custom action inputs are independent of MCP."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Mixed-source workflows are normal, not exceptional.",
+        "b": "No. They combine freely in one workflow.",
+        "c": "No. Custom actions supplement built-in actions and action packs."
+      }
+    }
+  }
+}

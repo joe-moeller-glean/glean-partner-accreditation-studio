@@ -1,0 +1,17 @@
+{
+  "id": "SCR-08",
+  "archetype": "A3",
+  "objective": "OBJ-03",
+  "eyebrow": "Submission",
+  "title": "How to submit",
+  "bullets": [
+    "The Agent Building Competency Submission Workbook is available in the Glean Partner Portal Asset Library.",
+    "The programme is open to all registered Glean Partners, including resell, services, and ISV or product partners.",
+    "Expect to walk through and run each agent on the validation call; a recorded walkthrough beforehand is ideal."
+  ],
+  "claims": [
+    "C-26",
+    "C-24",
+    "C-16"
+  ]
+}

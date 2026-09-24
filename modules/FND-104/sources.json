@@ -1,0 +1,47 @@
+{
+  "module_id": "FND-104",
+  "sources": [
+    {
+      "source_id": "S-03",
+      "title": "Partner Enablement Deck: MCP, Custom Actions, and Skills",
+      "url": "https://docs.google.com/document/d/1ZguIOERISj653MsmeHZzrqMIpmoMGAegGKkgNteIDeA",
+      "owner": "Joe Moeller",
+      "datasource": "gdrive",
+      "doc_updated": "2026-04-13",
+      "verified_on": "2026-09-02",
+      "authority_tier": 1,
+      "status": "current",
+      "type": "product_positioning",
+      "notes": "Authoritative internal positioning for skills, actions, MCP, and agents, including Agent Builder constraints.",
+      "reverify_by": "2026-11-01"
+    },
+    {
+      "source_id": "S-05",
+      "title": "Partner Accreditation & Competency Roadmap - Module Tracker",
+      "url": "https://docs.google.com/spreadsheets/d/16BS8Y4vawNmNqHJaRY5izRZUGhx_O_14jQefb6ifZ8Q",
+      "owner": "Joe Moeller",
+      "datasource": "gdrive",
+      "doc_updated": "2026-08-13",
+      "verified_on": "2026-09-02",
+      "authority_tier": 1,
+      "status": "current",
+      "type": "program_structure",
+      "notes": "Module IDs, scope statements, levels, prerequisites, waves, and badge composition.",
+      "reverify_by": "2026-10-01"
+    },
+    {
+      "source_id": "S-08",
+      "title": "[EXT] Glean Partner Program Guide 2026",
+      "url": "https://docs.google.com/presentation/d/1EYNjy-_BHPG6SgmwsBdriK2BF_KW7wzCKm0JR3y2OFk",
+      "owner": "Matt Schenck",
+      "datasource": "gdrive",
+      "doc_updated": "2026-08-12",
+      "verified_on": "2026-09-02",
+      "authority_tier": 2,
+      "status": "current",
+      "type": "program_positioning",
+      "notes": "External-facing platform and partner-motion positioning.",
+      "reverify_by": "2026-11-01"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "module_id": "SOL-203",
+  "claims": [
+    {
+      "claim_id": "C-07",
+      "text": "Each of the 5 competency agents must configure retrieval guardrails so the agent uses a well-defined set of content sources and has clear instructions for what it can and cannot answer.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-33",
+      "text": "A well-established agent library serves as the organization's automation hub: a central repository where proven agents are cataloged, documented, and made accessible across teams.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-35",
+      "text": "Planning begins with a review of the organization's use case repository and facilitated discovery workshops that surface pain points, inefficiencies, and opportunities.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-36",
+      "text": "An Effort/Impact matrix helps teams rank candidate agents by business value and implementation complexity so resources go to the highest-return agents.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-37",
+      "text": "For each priority agent, assign a project lead and supporting experts, document the current process including baseline performance numbers, design the future-state process with expected improvements, and build an implementation plan covering scope, key dates, success measures, and security and data compliance checks.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-38",
+      "text": "Infrastructure preparation is the first build block: configure data source connectors and establish indexing protocols for any new data sources the agent will access.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-48",
+      "text": "Measurement insights feed directly back into planning to create a continuous improvement cycle, and successful agents become templates for future development.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-97",
+      "text": "SOL-203 designs industry-specific agents that map to common workflows, data sources, and governance requirements.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-99",
+      "text": "IND-201 is a factory-style module for turning vertical workflows into reusable agent accelerators.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

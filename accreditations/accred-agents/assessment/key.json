@@ -1,0 +1,45 @@
+{
+  "module_id": "accred-agents",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Construct fluency comes before build work.",
+        "b": "No. That is the final module.",
+        "c": "No. Debugging assumes you can already build."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Governance precedes the capstone.",
+        "b": "No. FND-104 sits at the start of the path.",
+        "c": "No. The capstone has an explicit prerequisite."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, with measurable business outcomes as the stated goal.",
+        "b": "No. It certifies partner teams and requires built agents.",
+        "c": "No. That is a commercial path, not this competency."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Measure it, govern it, then diagnose it.",
+        "b": "No. Those are foundations and build fundamentals.",
+        "c": "No. Those span labs, design, and the capstone."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. That is a stated competency outcome.",
+        "b": "No. That is outside this competency.",
+        "c": "No. That is not part of the Agent Building Competency."
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "SCR-08",
+  "archetype": "A6",
+  "objective": "OBJ-03",
+  "eyebrow": "Decision branch",
+  "title": "One agent step must always hit the same endpoint",
+  "type": "choice",
+  "prompt": "The design needs a single fixed, deterministic call inside Agent Builder. What do you specify?",
+  "options": [
+    {
+      "id": "o1",
+      "text": "A custom action as the step.",
+      "correct": true,
+      "feedback": "Correct. MCP tools are not available as individual single-step selections in Agent Builder, and this requirement is deterministic execution."
+    },
+    {
+      "id": "o2",
+      "text": "An MCP tool selected as that single step.",
+      "feedback": "Not possible. MCP tools are not available as individual single-step selections in Agent Builder."
+    },
+    {
+      "id": "o3",
+      "text": "A skill that describes the call.",
+      "feedback": "No. Skills teach approach and reasoning; they do not perform the deterministic call."
+    }
+  ],
+  "takeaway": "Use custom actions when you want precise, governed execution for a known operation.",
+  "claims": [
+    "C-59",
+    "C-51"
+  ]
+}

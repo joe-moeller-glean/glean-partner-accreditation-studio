@@ -1,0 +1,12 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "The layers",
+  "title": "Four layers, top to bottom",
+  "body": "Governance starts in the implementation plan, which covers scope, key dates, success measures, and security and data compliance checks.",
+  "asset": "BLD-208-A01",
+  "claims": [
+    "C-37"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "SCR-09",
+  "archetype": "A14",
+  "objective": "OBJ-03",
+  "eyebrow": "Next step",
+  "title": "You can place the constructs. Now learn to choose between them.",
+  "body": "Partner value-creation motions are source, deploy, build, and scale. Next: FND-105 turns this model into a decision framework.",
+  "badge": "Operating model: complete",
+  "signature": true,
+  "claims": [
+    "C-112"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "SCR-07",
+  "archetype": "A6",
+  "objective": "OBJ-01",
+  "eyebrow": "Scenario review",
+  "title": "An agent that emails customers directly",
+  "type": "choice",
+  "prompt": "A partner-built agent drafts and sends customer-facing email autonomously on a schedule. What is the governance gap?",
+  "options": [
+    {
+      "id": "o1",
+      "text": "There is no approval or validation step before the write, and no defined behaviour for low-confidence cases.",
+      "correct": true,
+      "feedback": "Correct. Approvals and validation belong before writing to a system, and explicit error handling with a defined fallback is required."
+    },
+    {
+      "id": "o2",
+      "text": "The agent uses a schedule trigger, which is unsafe by nature.",
+      "feedback": "No. Schedule-based triggers are a documented advanced capability. The gap is the missing approval gate, not the trigger."
+    },
+    {
+      "id": "o3",
+      "text": "Nothing, provided the model is large enough.",
+      "feedback": "No. Model size is not a governance control."
+    }
+  ],
+  "takeaway": "Escalation boundaries are design decisions made before launch, not incident responses made after.",
+  "claims": [
+    "C-61",
+    "C-08",
+    "C-13"
+  ]
+}

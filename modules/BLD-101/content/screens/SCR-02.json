@@ -1,0 +1,12 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "By the end of this module",
+  "bullets": [
+    "Name every surface a partner can build on.",
+    "Explain how build work becomes reusable IP rather than one-off effort."
+  ],
+  "claims": []
+}

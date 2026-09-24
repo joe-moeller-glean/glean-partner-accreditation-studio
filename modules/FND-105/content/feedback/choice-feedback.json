@@ -1,0 +1,8 @@
+{
+  "module_id": "FND-105",
+  "feedback": {
+    "SCR-06:o1": "Correct. Custom actions cover internal APIs Glean does not support out of the box, legacy systems, and approvals or validation before writing to a system.",
+    "SCR-06:o2": "This adds nondeterminism to a requirement that asked for one fixed write, and MCP tools are not available as individual single-step selections in Agent Builder.",
+    "SCR-06:o3": "Skills carry reasoning and methodology. They do not perform the validated system write this requirement needs."
+  }
+}

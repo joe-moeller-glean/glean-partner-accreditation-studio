@@ -1,0 +1,33 @@
+{
+  "id": "SCR-06",
+  "archetype": "A6",
+  "objective": "OBJ-03",
+  "eyebrow": "Decision branch",
+  "title": "The stakeholder wants an agent for a single fixed write",
+  "type": "choice",
+  "prompt": "The requirement is one validated write into an internal system, on demand, no schedule. What do you propose?",
+  "options": [
+    {
+      "id": "o1",
+      "text": "A custom action, because it is deterministic execution against an internal API with validation before the write.",
+      "correct": true,
+      "feedback": "Correct. Custom actions cover internal APIs Glean does not support out of the box, legacy systems, and approvals or validation before writing to a system."
+    },
+    {
+      "id": "o2",
+      "text": "An agent with an MCP tool chosen at run time, so it stays flexible.",
+      "feedback": "This adds nondeterminism to a requirement that asked for one fixed write, and MCP tools are not available as individual single-step selections in Agent Builder."
+    },
+    {
+      "id": "o3",
+      "text": "A skill, so the methodology is reusable.",
+      "feedback": "Skills carry reasoning and methodology. They do not perform the validated system write this requirement needs."
+    }
+  ],
+  "takeaway": "Use custom actions when you want precise, governed execution for a known operation.",
+  "claims": [
+    "C-61",
+    "C-59",
+    "C-51"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Walk in ready, walk out with a working integration",
+  "bullets": [
+    "Know the exact sequence the workshop follows.",
+    "Wire a custom action into an agent workflow.",
+    "State the prerequisites before your team books the session."
+  ],
+  "claims": []
+}

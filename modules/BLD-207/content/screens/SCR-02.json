@@ -1,0 +1,13 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Make agent quality measurable",
+  "bullets": [
+    "Write test cases that exercise guardrails, fallbacks, and tool paths.",
+    "Measure against criteria set before the build started.",
+    "Catch regressions before a customer does."
+  ],
+  "claims": []
+}

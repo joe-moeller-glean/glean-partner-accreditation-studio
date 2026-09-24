@@ -1,0 +1,17 @@
+{
+  "module_id": "BLD-104",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "A single-step retrieval agent demos beautifully and fails in week two: no guardrails on sources, no fallback when confidence drops, no plan for the questions it should refuse.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-08",
+      "archetype": "A6",
+      "prompt": "It retrieves and summarizes in two steps with no fallback. What is the minimum fix?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

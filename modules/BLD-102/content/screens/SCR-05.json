@@ -1,0 +1,14 @@
+{
+  "id": "SCR-05",
+  "archetype": "A4",
+  "objective": "OBJ-02",
+  "eyebrow": "Constraints",
+  "title": "Know exactly where MCP works",
+  "body": "These three statements decide more designs than any preference argument will.",
+  "asset": "BLD-102-A02",
+  "claims": [
+    "C-57",
+    "C-58",
+    "C-59"
+  ]
+}

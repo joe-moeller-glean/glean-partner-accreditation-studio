@@ -1,0 +1,8 @@
+{
+  "module_id": "BLD-104",
+  "feedback": {
+    "SCR-08:o1": "Correct. Both are hard requirements: three or more discrete steps including a thinking step, and explicit error handling with defined fallback.",
+    "SCR-08:o2": "No. Model size does not satisfy the step-count or fallback requirements, and larger models should be reserved for where reasoning clearly benefits.",
+    "SCR-08:o3": "No. Too much memory leads to slower, more expensive runs with wandering answers, and it does not add a fallback path."
+  }
+}

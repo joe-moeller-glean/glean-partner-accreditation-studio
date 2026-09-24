@@ -1,0 +1,16 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Find the root cause, not the symptom",
+  "bullets": [
+    "Read a debug trace and isolate the failing step.",
+    "Classify any failure into one of five categories.",
+    "Hand Glean an escalation package that needs no follow-up questions."
+  ],
+  "claims": [
+    "C-87",
+    "C-85"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "module_id": "BLD-104",
+  "checked_on": "2026-09-02",
+  "state": "pass",
+  "claim_count": 16,
+  "source_count": 4,
+  "unsourced_claims": [],
+  "stale_sources": [],
+  "verdicts": {
+    "verified": 16,
+    "unsupported": 0,
+    "stale": 0,
+    "conflicted": 0
+  },
+  "attribution_notes": [
+    "Performance figures are attributed to the source that reports them, never stated as independent platform guarantees.",
+    "No customer names, partner names, or metrics appear that are not present in a source."
+  ],
+  "source_ledger": [
+    {
+      "source_id": "S-01",
+      "title": "Glean Partner Competency Program Guide",
+      "verified_on": "2026-09-02",
+      "reverify_by": "2026-12-01"
+    },
+    {
+      "source_id": "S-04",
+      "title": "Advanced Agent Debugging for Glean Partners",
+      "verified_on": "2026-09-02",
+      "reverify_by": "2026-12-01"
+    },
+    {
+      "source_id": "S-05",
+      "title": "Partner Accreditation & Competency Roadmap - Module Tracker",
+      "verified_on": "2026-09-02",
+      "reverify_by": "2026-10-01"
+    },
+    {
+      "source_id": "S-06",
+      "title": "Partner Enablement Content Library",
+      "verified_on": "2026-09-02",
+      "reverify_by": "2026-11-01"
+    }
+  ]
+}

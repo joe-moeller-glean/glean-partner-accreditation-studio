@@ -1,0 +1,15 @@
+{
+  "id": "SCR-04",
+  "archetype": "A4",
+  "objective": "OBJ-01",
+  "eyebrow": "Coverage",
+  "title": "Four things every test set must exercise",
+  "body": "Partners are expected to understand best practices for testing and validation of Glean agents. Coverage follows the build requirements.",
+  "asset": "BLD-207-A02",
+  "claims": [
+    "C-27",
+    "C-06",
+    "C-07",
+    "C-08"
+  ]
+}

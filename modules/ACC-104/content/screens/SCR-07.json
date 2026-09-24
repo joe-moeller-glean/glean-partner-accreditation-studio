@@ -1,0 +1,44 @@
+{
+  "id": "SCR-07",
+  "archetype": "A9",
+  "objective": "OBJ-03",
+  "eyebrow": "Sort it",
+  "title": "Which evidence satisfies which requirement?",
+  "prompt": "Place each artefact with the requirement it evidences.",
+  "type": "sort",
+  "categories": [
+    "Requirements gathering",
+    "Architecture review",
+    "Business impact",
+    "Accreditations"
+  ],
+  "pairs": [
+    {
+      "item": "A document outlining business and technical requirements for each agent.",
+      "category": "Requirements gathering",
+      "why": "That is the stated proof of completion for gathering requirements with the end user."
+    },
+    {
+      "item": "A session with a Glean technical resource covering agent structure and best practices followed.",
+      "category": "Architecture review",
+      "why": "Each agent requires an architecture review with a Glean technical resource."
+    },
+    {
+      "item": "A written explanation of impact and why a Glean Agent was the best solution.",
+      "category": "Business impact",
+      "why": "Reviewed by a Glean Partner Solutions Engineer."
+    },
+    {
+      "item": "Five completed technical courses in the Glean Partner Portal.",
+      "category": "Accreditations",
+      "why": "A Glean Partner Manager validates this requirement."
+    }
+  ],
+  "takeaway": "Every requirement has a named proof of completion and a named validator.",
+  "claims": [
+    "C-15",
+    "C-17",
+    "C-18",
+    "C-03"
+  ]
+}

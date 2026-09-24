@@ -1,0 +1,45 @@
+{
+  "module_id": "BLD-207",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Measurement compares actual outcomes against KPIs defined during planning.",
+        "b": "No. Without a pre-set target there is nothing to measure against.",
+        "c": "No. Baseline metrics and success criteria are part of the standard plan."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Those four reveal both breadth and depth of adoption.",
+        "b": "No. Creation count says nothing about whether agents are used.",
+        "c": "No. Error rate misses friction that shows up as abandonment."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, and both warrant investigation rather than assumption.",
+        "b": "No. Falling engagement is a warning signal.",
+        "c": "No. Model size is unrelated to an adoption signal."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Explicit error handling with a defined fallback is a stated requirement.",
+        "b": "No. In-scope cases never exercise the fallback path.",
+        "c": "No. Latency does not test refusal behaviour."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. That is what makes the loop a continuous improvement cycle.",
+        "b": "No. Archiving them breaks the improvement cycle.",
+        "c": "No. Discovery still surfaces new opportunities."
+      }
+    }
+  }
+}

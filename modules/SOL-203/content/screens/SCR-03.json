@@ -1,0 +1,16 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "Discovery",
+  "title": "Start from the repository and the workshop",
+  "bullets": [
+    "Planning begins with a review of the organization's use case repository and facilitated discovery workshops.",
+    "Those sessions surface pain points, inefficiencies, and opportunities where agents can deliver impact.",
+    "This module designs industry-specific agents that map to common workflows, data sources, and governance requirements."
+  ],
+  "claims": [
+    "C-35",
+    "C-97"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "SCR-03",
+  "archetype": "A7",
+  "objective": "OBJ-01",
+  "eyebrow": "Guided sequence",
+  "title": "How the workshop runs",
+  "body": "The course covers departmental use cases, actions and MCP, integrations, then a hands-on build.",
+  "asset": "BLD-103-A01",
+  "claims": [
+    "C-105"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "module_id": "ACC-104",
+  "title": "Builder Accreditation",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "accreditation_id": "accred-agents",
+  "level": "300",
+  "target_hours": 1.5,
+  "assessment_type": "Capstone lab"
+}

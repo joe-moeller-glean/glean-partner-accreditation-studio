@@ -1,0 +1,12 @@
+{
+  "module_id": "SRV-204",
+  "title": "Advanced Agent Debugging",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "accreditation_id": "accred-agents",
+  "level": "300",
+  "target_hours": 1.0,
+  "assessment_type": "Lab"
+}

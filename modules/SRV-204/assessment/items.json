@@ -1,0 +1,101 @@
+{
+  "module_id": "SRV-204",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "How do you enable debug mode?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Open the agent in Builder and toggle debug mode in the preview pane, then run it."
+        },
+        {
+          "id": "b",
+          "text": "Submit a support request to have debugging enabled."
+        },
+        {
+          "id": "c",
+          "text": "Re-publish the agent with a debug flag in its name."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-01",
+      "stem": "What does the debug trace expose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inputs, including referenced memory and variables, and outputs, including raw tool and LLM responses."
+        },
+        {
+          "id": "b",
+          "text": "Only a pass or fail status per step."
+        },
+        {
+          "id": "c",
+          "text": "Only the final answer."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "A step returns an HTTP validation error and a partial write. Which category?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Action and integration failures."
+        },
+        {
+          "id": "b",
+          "text": "Instruction-following failures."
+        },
+        {
+          "id": "c",
+          "text": "Trigger and scheduling failures."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "The agent reports a document not found, but it is indexed. Which category?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Retrieval and context-selection failures."
+        },
+        {
+          "id": "b",
+          "text": "UI and configuration issues."
+        },
+        {
+          "id": "c",
+          "text": "Instruction-following failures."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "What is the recommended debugging workflow once debug mode is on?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Filter to only show errors, open the failing step, compare inputs against outputs, then iterate with Try Again or Reset Preview."
+        },
+        {
+          "id": "b",
+          "text": "Read every step in order from the beginning each time."
+        },
+        {
+          "id": "c",
+          "text": "Rebuild the agent from scratch."
+        }
+      ]
+    }
+  ]
+}

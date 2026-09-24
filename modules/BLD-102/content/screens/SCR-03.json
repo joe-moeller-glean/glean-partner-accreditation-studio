@@ -1,0 +1,12 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "Definitions",
+  "title": "Four words, four meanings",
+  "body": "Skills are reusable instructions, templates, and domain expertise. Actions are tool calls that read from or write to systems. MCP is an open protocol for exposing tools and data to AI apps and agents. Agents are the governed workflow wrapper.",
+  "asset": "BLD-102-A01",
+  "claims": [
+    "C-49"
+  ]
+}

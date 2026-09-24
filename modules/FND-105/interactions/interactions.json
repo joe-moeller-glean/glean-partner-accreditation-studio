@@ -1,0 +1,47 @@
+{
+  "module_id": "FND-105",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-05-HOTSPOT",
+      "screen_id": "SCR-05",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-01",
+      "archetype": "A4",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-57",
+        "C-58",
+        "C-59"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-06",
+      "screen_id": "SCR-06",
+      "kind": "choice",
+      "objective_id": "OBJ-03",
+      "archetype": "A6",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-61",
+        "C-59",
+        "C-51"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-07",
+      "screen_id": "SCR-07",
+      "kind": "sort",
+      "objective_id": "OBJ-01",
+      "archetype": "A9",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-70",
+        "C-68",
+        "C-53"
+      ]
+    }
+  ]
+}

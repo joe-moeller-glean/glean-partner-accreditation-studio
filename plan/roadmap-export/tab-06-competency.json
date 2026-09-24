@@ -1,0 +1,125 @@
+{
+  "columns": [
+    "Competency",
+    "Status",
+    "Level",
+    "Definition",
+    "Requirements",
+    "Observable capabilities / outcomes",
+    "Primary audiences",
+    "Learning path(s)",
+    "Accreditation / evidence"
+  ],
+  "records": [
+    {
+      "Competency": "AI Value Selling",
+      "Status": "New",
+      "Level": "101",
+      "Definition": "Position Glean around customer outcomes, differentiation, and partner-led value creation.",
+      "Requirements": "Complete Foundations, Co-Selling Fundamentals, and Demo Excellence; pass the seller knowledge check; deliver a 10-minute value pitch.",
+      "Observable capabilities / outcomes": "Tell an executive story; connect pain to outcome; handle objections; run co-sell motions; articulate value.",
+      "Primary audiences": "Partner sellers; practice leaders",
+      "Learning path(s)": "Sales & GTM; Solutions & Value",
+      "Accreditation / evidence": "Seller / Seller Advanced; role play; ROI case"
+    },
+    {
+      "Competency": "AI Strategy & Use Case Discovery",
+      "Status": "New",
+      "Level": "201",
+      "Definition": "Identify, prioritize, and shape high-value multi-team use cases before solution design or implementation.",
+      "Requirements": "Complete Use Case Discovery Foundations and Outcome Mapping; submit a prioritized use-case worksheet; pass a discovery review.",
+      "Observable capabilities / outcomes": "Map personas and pain; score opportunities; prioritize use cases; connect workflows to business outcomes.",
+      "Primary audiences": "Sellers; solution advisors; consultants",
+      "Learning path(s)": "Solutions & Value; Sales & GTM; Services & Delivery",
+      "Accreditation / evidence": "Technical Advisor; case study; discovery workshop"
+    },
+    {
+      "Competency": "Advanced Networking & Configuration",
+      "Status": "New",
+      "Level": "301",
+      "Definition": "Design a deployable Glean environment with the required networking, connectivity, configuration, and validation controls.",
+      "Requirements": "Complete Technical Deep Dive and networking content; pass a configuration workshop; submit an environment and network checklist.",
+      "Observable capabilities / outcomes": "Assess topology; define allowlisting and connectivity; plan environments; validate connector prerequisites; troubleshoot data paths.",
+      "Primary audiences": "Architects; delivery engineers; network teams",
+      "Learning path(s)": "Technical & Architecture",
+      "Accreditation / evidence": "Solution Architect; design review; deployment checklist"
+    },
+    {
+      "Competency": "AI Gateway",
+      "Status": "New",
+      "Level": "201",
+      "Definition": "Apply a governed integration layer for enterprise AI access, orchestration, and reusable platform connectivity.",
+      "Requirements": "Complete the 201 technical and building foundations; submit a governed gateway/integration architecture; defend security and operating decisions in a capstone review.",
+      "Observable capabilities / outcomes": "Explain gateway patterns; connect services and tools; enforce access and governance boundaries; define operational ownership.",
+      "Primary audiences": "Architects; builders; platform teams",
+      "Learning path(s)": "Technical & Architecture; Builders & Integrations",
+      "Accreditation / evidence": "Architecture review; integration design"
+    },
+    {
+      "Competency": "Delivery Excellence",
+      "Status": "New",
+      "Level": "101",
+      "Definition": "Run a structured partner-led delivery motion that aligns teams, milestones, adoption, and realized outcomes.",
+      "Requirements": "Complete delivery foundations and methodology; submit a kickoff, RAID, and delivery plan; pass a delivery scenario review.",
+      "Observable capabilities / outcomes": "Lead kickoff; manage delivery stages and RAID; facilitate workshops; measure outcomes; coordinate adoption and handoff.",
+      "Primary audiences": "Delivery leads; consultants; PMs",
+      "Learning path(s)": "Services & Delivery; Solutions & Value",
+      "Accreditation / evidence": "Delivery Lead; delivery plan; implementation review"
+    },
+    {
+      "Competency": "Platform Deployment & Governance",
+      "Status": "New",
+      "Level": "201",
+      "Definition": "Stand up, configure, secure, and scale Glean with clear ownership, governance, operating cadence, and Center of Excellence practices.",
+      "Requirements": "Complete technical deep dive, deployment, and governance content; submit a rollout and CoE governance plan; pass a design review.",
+      "Observable capabilities / outcomes": "Define roles and guardrails; plan rollout; connect systems; establish governance; run release and risk reviews.",
+      "Primary audiences": "Architects; delivery leads; practice leads; admins",
+      "Learning path(s)": "Technical & Architecture; Services & Delivery; Operations & Support",
+      "Accreditation / evidence": "Delivery Lead; Solution Architect; governance plan"
+    },
+    {
+      "Competency": "Agent Building",
+      "Status": "Existing",
+      "Level": "201",
+      "Definition": "Build reliable partner solutions using agents, actions, MCP, prompts, and reusable orchestration patterns.",
+      "Requirements": "Complete Building with Glean and Actions & MCP; build an agent with at least two tools and documented test cases; pass the builder lab.",
+      "Observable capabilities / outcomes": "Choose the right primitive; compose tools and steps; manage memory; implement actions; debug workflows; iterate safely.",
+      "Primary audiences": "Builders; architects; consultants",
+      "Learning path(s)": "Builders & Integrations",
+      "Accreditation / evidence": "Builder; capstone lab; working agent"
+    },
+    {
+      "Competency": "Custom Connector",
+      "Status": "Existing",
+      "Level": "301",
+      "Definition": "Design, build, test, and hand off custom connectors that meet source, API, authentication, and support requirements.",
+      "Requirements": "Complete connector prerequisites and best-practices content; build and test a connector in a lab; pass an implementation review.",
+      "Observable capabilities / outcomes": "Gather requirements; select auth and schema patterns; implement APIs; test rate limits and failure modes; document handoff.",
+      "Primary audiences": "Builders; architects; delivery engineers",
+      "Learning path(s)": "Builders & Integrations; Technical & Architecture",
+      "Accreditation / evidence": "Builder; capstone lab; implementation review"
+    },
+    {
+      "Competency": "Embedded Experiences",
+      "Status": "Existing",
+      "Level": "301",
+      "Definition": "Extend Glean into partner or customer applications through APIs, SDKs, actions, and embedded user experiences.",
+      "Requirements": "Complete integration-pattern content; produce a Client API or Web SDK design and working demo; pass an integration review.",
+      "Observable capabilities / outcomes": "Select integration pattern; use Client API and Web SDK; design embedded workflows; manage authentication and UX boundaries.",
+      "Primary audiences": "Builders; ISVs; solution advisors",
+      "Learning path(s)": "Builders & Integrations",
+      "Accreditation / evidence": "Builder; integration demo; design review"
+    },
+    {
+      "Competency": "Managed Services",
+      "Status": "New",
+      "Level": "201",
+      "Definition": "Operate and optimize Glean after launch through recurring support, administration, monitoring, and improvement services.",
+      "Requirements": "Complete operations runbooks and support-model content; produce a tiered support and escalation runbook; pass a scenario lab.",
+      "Observable capabilities / outcomes": "Define support tiers; run day-2 operations; manage optimization cadence; own escalations; communicate release readiness.",
+      "Primary audiences": "Managed services teams; admins; support leads",
+      "Learning path(s)": "Services & Delivery; Operations & Support",
+      "Accreditation / evidence": "Support & Adoption; support model; scenario lab"
+    }
+  ]
+}

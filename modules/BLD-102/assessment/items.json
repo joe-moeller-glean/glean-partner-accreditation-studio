@@ -1,0 +1,101 @@
+{
+  "module_id": "BLD-102",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "What is MCP?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An open standard for connecting AI assistants to external data sources and tools."
+        },
+        {
+          "id": "b",
+          "text": "A Glean-proprietary connector format."
+        },
+        {
+          "id": "c",
+          "text": "A prompt template library."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-02",
+      "stem": "In Agents, where are MCP-backed tools available?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In Plan and Execute mode and in auto mode."
+        },
+        {
+          "id": "b",
+          "text": "As any individual single-step selection in Agent Builder."
+        },
+        {
+          "id": "c",
+          "text": "Nowhere in Agents."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-03",
+      "stem": "Which is a documented best-fit use case for a custom action?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Approvals, validation, or custom business logic before writing to a system."
+        },
+        {
+          "id": "b",
+          "text": "Letting the agent choose dynamically among many connected tools."
+        },
+        {
+          "id": "c",
+          "text": "Standardizing a consulting methodology."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "How can a custom action's inputs be supplied?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As fixed values, user inputs, or AI-predicted values."
+        },
+        {
+          "id": "b",
+          "text": "Only as hard-coded fixed values."
+        },
+        {
+          "id": "c",
+          "text": "Only from a connected MCP server."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-01",
+      "stem": "Which composition statement is accurate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Custom actions can be combined with By Glean and By datasource actions in the same workflow."
+        },
+        {
+          "id": "b",
+          "text": "A workflow may contain only one category of action."
+        },
+        {
+          "id": "c",
+          "text": "Custom actions replace all built-in actions once enabled."
+        }
+      ]
+    }
+  ]
+}

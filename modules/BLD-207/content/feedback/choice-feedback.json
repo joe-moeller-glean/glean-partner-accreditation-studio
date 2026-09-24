@@ -1,0 +1,8 @@
+{
+  "module_id": "BLD-207",
+  "feedback": {
+    "SCR-08:o1": "Correct. Declining usage can indicate user friction or changing needs, and measurement pairs quantitative data with qualitative feedback.",
+    "SCR-08:o2": "No. That discards the signal the metric exists to give you.",
+    "SCR-08:o3": "Rolling back blind loses the learning, and insight from measurement is meant to feed back into planning."
+  }
+}

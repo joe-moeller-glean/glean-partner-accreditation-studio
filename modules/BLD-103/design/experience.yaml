@@ -1,0 +1,42 @@
+module_id: BLD-103
+path_position:
+  accreditation: accred-agents
+  wave: Wave 1
+  prerequisites: [BLD-102]
+motion_budget:
+  t1: state feedback on choice, hotspot, and sort controls
+  t2: reveal of feedback panels and hotspot detail
+  t3: one signature reveal on the final screen
+  reduced_motion: all tiers collapse to static
+pacing:
+  - screen: SCR-01
+    archetype: A1
+    density: text
+  - screen: SCR-02
+    archetype: A2
+    density: text
+  - screen: SCR-03
+    archetype: A7
+    density: visual
+  - screen: SCR-04
+    archetype: A3
+    density: visual
+  - screen: SCR-05
+    archetype: A8
+    density: text
+  - screen: SCR-06
+    archetype: A10
+    density: text
+  - screen: SCR-07
+    archetype: A12
+    density: interactive
+  - screen: SCR-08
+    archetype: quiz
+    density: interactive
+  - screen: SCR-09
+    archetype: A13
+    density: text
+accessibility:
+  - keyboard complete, visible focus, no state by colour alone
+  - every diagram carries title, desc, and an alt text entry
+  - progress reflects real position, never inflated

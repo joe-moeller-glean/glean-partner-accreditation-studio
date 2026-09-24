@@ -1,0 +1,26 @@
+{
+  "id": "SCR-04",
+  "archetype": "A4",
+  "objective": "OBJ-02",
+  "eyebrow": "Annotated model",
+  "title": "Open each layer to see the job it does",
+  "prompt": "Select a layer to reveal what it is responsible for.",
+  "hotspots": [
+    {
+      "label": "Skills tell the model how to work",
+      "detail": "Skills are reusable packages of instructions, templates, and tools that teach Assistant how to execute specific tasks with domain expertise, and they load only when relevant."
+    },
+    {
+      "label": "Actions and MCP give it things to do",
+      "detail": "Actions are tool calls that read from or write to systems. MCP is an open protocol for exposing tools and data to AI apps and agents."
+    },
+    {
+      "label": "Agents package it into repeatable workflows",
+      "detail": "Agents are the governed workflow wrapper that packages skills, tools, and knowledge together."
+    }
+  ],
+  "claims": [
+    "C-49",
+    "C-64"
+  ]
+}

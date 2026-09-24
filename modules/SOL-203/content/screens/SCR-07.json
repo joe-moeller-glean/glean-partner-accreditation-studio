@@ -1,0 +1,31 @@
+{
+  "id": "SCR-07",
+  "archetype": "A6",
+  "objective": "OBJ-02",
+  "eyebrow": "Decision branch",
+  "title": "The sponsor wants the hardest use case first",
+  "type": "choice",
+  "prompt": "The highest-value candidate is also the most complex. What do you recommend?",
+  "options": [
+    {
+      "id": "o1",
+      "text": "Stage it, and lead with a high-value, lower-complexity agent to establish the pattern and the baseline.",
+      "correct": true,
+      "feedback": "Correct. The matrix exists to allocate resources by return, and successful agents become templates for future development."
+    },
+    {
+      "id": "o2",
+      "text": "Build the hardest one first to prove ambition.",
+      "feedback": "That ignores the prioritization framework and risks the programme on the least predictable build."
+    },
+    {
+      "id": "o3",
+      "text": "Decline the engagement until complexity drops.",
+      "feedback": "No. High value with high complexity is a staging decision, not a refusal."
+    }
+  ],
+  "claims": [
+    "C-36",
+    "C-48"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "SCR-04",
+  "archetype": "A3",
+  "objective": "OBJ-03",
+  "eyebrow": "Readiness",
+  "title": "What the session assumes about you",
+  "body": "The Actions and Integrations course is advanced level, runs 2 to 4 hours, and expects experience with RESTful APIs.",
+  "asset": "BLD-103-A02",
+  "claims": [
+    "C-106"
+  ]
+}

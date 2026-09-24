@@ -1,0 +1,13 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "A decision rule you can defend",
+  "bullets": [
+    "Run a repeatable selection sequence instead of arguing preference.",
+    "Explain why native comes first and when custom is correct.",
+    "Hold your ground with a stakeholder who asked for the wrong thing."
+  ],
+  "claims": []
+}

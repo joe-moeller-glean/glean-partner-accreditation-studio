@@ -1,0 +1,14 @@
+{
+  "module_id": "AGT-101",
+  "title": "Glean Agents Foundations",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "accreditation_id": "accred-agents",
+  "level": "100",
+  "target_hours": 0.8,
+  "assessment_type": "Quiz",
+  "design_system": "scroll-canvas-v1",
+  "delivery": "single-page-scroll"
+}

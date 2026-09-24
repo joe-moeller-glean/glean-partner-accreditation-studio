@@ -1,0 +1,85 @@
+{
+  "module_id": "BLD-102",
+  "version": "1.0.0",
+  "built_on": "2026-09-02",
+  "accreditation": "accred-agents",
+  "gates": {
+    "scope": "pass",
+    "identifier_resolution": "pass",
+    "source_traceability": "pass",
+    "claim_verification": "pass",
+    "learning_alignment": "pass",
+    "editorial_quality": "pass",
+    "brand_conformance": "pass",
+    "graphics_conformance": "pass",
+    "accessibility": "pass",
+    "scorm_structure": "pass",
+    "runtime_behaviour": "pass",
+    "regression": "n/a - first release",
+    "offline_security": "pass - no external references, no network fetches at runtime",
+    "release_metadata": "pass"
+  },
+  "lint": {
+    "state": "pass",
+    "errors": [],
+    "warnings": []
+  },
+  "package": {
+    "state": "pass",
+    "zip": "BLD-102-v1.0.0-scorm12.zip",
+    "bytes": 13349,
+    "sha256": "5757be40bc68c6f6ec15b60b50ec794d1001b55c6165fe3f47630122dc2ba2dc",
+    "findings": []
+  },
+  "runtime_qa": {
+    "state": "pass",
+    "harness": "tools/agents/runtime_qa.js",
+    "exercised": [
+      "first-screen render and focus handoff",
+      "every screen advance to the terminal screen",
+      "choice selection with wrong answer and explanatory feedback",
+      "sort interaction completed correctly and scored",
+      "hotspot expand and detail reveal",
+      "quiz graded at 0% then retried and graded at 100%",
+      "cmi.core.score.raw, score.min, score.max, lesson_status writes",
+      "suspend_data resume into a fresh runtime context",
+      "cross-module storage isolation against a shared origin store"
+    ],
+    "findings": [],
+    "manual_browser_pass": {
+      "date": "2026-09-03",
+      "url": "http://127.0.0.1:8000/BLD-102/index.html",
+      "verified": [
+        "renders over HTTP from the built package",
+        "SVG diagrams display",
+        "sort and choice interactions operate",
+        "quiz graded at the 80% mastery boundary and announced to screen readers"
+      ],
+      "defects_found_and_fixed": [
+        "disabled-button opacity dropped answered option text to 3.36:1 (WCAG 2.2 AA failure)",
+        "unscoped localStorage keys leaked progress between modules on one origin"
+      ]
+    }
+  },
+  "structure": {
+    "screens": 10,
+    "distinct_archetypes": [
+      "A1",
+      "A14",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8",
+      "quiz"
+    ],
+    "assessment_items": 5,
+    "objectives": 3,
+    "assets": 2,
+    "claims": 15,
+    "sources": 2,
+    "target_hours": 1.0
+  },
+  "state": "built_pending_human_review",
+  "publish_note": "Deterministic gates pass. Publication is held for human review: no SME sign-off recorded, no LMS import test performed, and the approved Glean wordmark asset is not yet placed."
+}

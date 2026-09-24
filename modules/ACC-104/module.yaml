@@ -1,0 +1,18 @@
+module_id: ACC-104
+title: Builder Accreditation
+learning_path: Badge & Certification
+request_type: single
+audience: [Builders]
+level: 300
+learning_outcomes:
+  - "State every requirement the Agent Building Competency imposes on a partner organization."
+  - "Audit a candidate agent portfolio against the capability checklist."
+  - "Assemble the submission and validation evidence the review requires."
+prerequisites: [BLD-208]
+target_hours: 1.5
+mastery_score: 80
+assessment_type: Capstone lab
+wave: Wave 3
+accreditation: Agents
+source_owners: [Joe Moeller, Katya Alfaro, Matt Schenck]
+publish_mode: manual_review

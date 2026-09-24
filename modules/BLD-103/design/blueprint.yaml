@@ -1,0 +1,29 @@
+module_id: BLD-103
+title: Actions & MCP Workshop
+level: 100
+target_hours: 1.5
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Sequence the lab that builds a custom action and connects a remote MCP server."
+    screens: [SCR-02, SCR-03, SCR-07]
+    assessment_items: [Q-02, Q-04]
+  - id: OBJ-02
+    text: "Wire a custom action into an agent workflow alongside platform actions."
+    screens: [SCR-05, SCR-06, SCR-09]
+    assessment_items: [Q-03, Q-05]
+  - id: OBJ-03
+    text: "State the readiness prerequisites and scope boundaries of the workshop."
+    screens: [SCR-01, SCR-04, SCR-08]
+    assessment_items: [Q-01]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 9
+distinct_archetypes: [A1, A10, A12, A13, A2, A3, A7, A8, quiz]
+assessment_type: Lab

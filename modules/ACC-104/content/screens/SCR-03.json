@@ -1,0 +1,13 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "What the badge certifies",
+  "title": "Design, build, govern, operationalize",
+  "body": "The Agent Building Competency certifies partner teams to design, build, govern, and operationalize production-grade Glean Agents that automate workflows and deliver measurable business outcomes.",
+  "footnote": "It focuses on persona-aligned agent design, prompt engineering, tool use, governance, and operational best practices across the agent lifecycle.",
+  "claims": [
+    "C-01",
+    "C-02"
+  ]
+}

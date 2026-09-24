@@ -1,0 +1,11 @@
+{
+  "module_id": "accred-agents",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "Eleven modules take a partner team from the operating model to a submitted competency portfolio. This orientation shows the route and the order.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

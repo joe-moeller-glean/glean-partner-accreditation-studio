@@ -1,0 +1,45 @@
+{
+  "module_id": "FND-104",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. That is the platform definition, and it is why the constructs share one knowledge foundation.",
+        "b": "No. The platform operates over company knowledge, not public web content alone.",
+        "c": "No. Glean layers over existing knowledge rather than replacing systems of record."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Agents operationalize the other primitives into production workflows.",
+        "b": "No. That describes MCP, not agents.",
+        "c": "No. That describes skills."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Custom actions are for deterministic execution against an internal API, legacy system, or proprietary workflow.",
+        "b": "No. Skills carry methodology and reasoning, not deterministic system execution.",
+        "c": "No. Search retrieves knowledge; it does not execute against a legacy system."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. MCP is the interoperability choice, and it reduces lock-in across hosts.",
+        "b": "No. A single deterministic write to an internal endpoint is custom action territory.",
+        "c": "No. MCP exists precisely to expose tools and data."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. That is where partner differentiation compounds.",
+        "b": "No. Discounting creates no reusable asset.",
+        "c": "No. One-off configuration does not accumulate into IP."
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Build agents that survive contact with users",
+  "bullets": [
+    "Compose multi-step agents with a real thinking step.",
+    "Set retrieval guardrails and explicit fallback behaviour.",
+    "Choose memory scope and model size on purpose, per step."
+  ],
+  "claims": []
+}

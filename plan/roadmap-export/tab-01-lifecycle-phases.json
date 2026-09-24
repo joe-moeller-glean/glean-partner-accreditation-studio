@@ -1,0 +1,76 @@
+{
+  "columns": [
+    "Lifecycle Phases",
+    "Accreditation Path",
+    "Goal",
+    "Primary audiences",
+    "Competency Map",
+    "Initial module count",
+    "Launch wave focus"
+  ],
+  "records": [
+    {
+      "Lifecycle Phases": "Architect",
+      "Accreditation Path": "Foundations",
+      "Goal": "Establish common language, platform basics, and LMS orientation.",
+      "Primary audiences": "All partners",
+      "Competency Map": "",
+      "Initial module count": "7",
+      "Launch wave focus": "Wave 1"
+    },
+    {
+      "Lifecycle Phases": "Sales & GTM",
+      "Accreditation Path": "Enable partner sellers to position, discover, demo excellence, and co-sell. Use case selling for industry verticals and departments",
+      "Goal": "Reseller & Referal Partners",
+      "Primary audiences": "AI Value Selling",
+      "Competency Map": "8",
+      "Initial module count": "Wave 1-2",
+      "Launch wave focus": ""
+    },
+    {
+      "Lifecycle Phases": "Solutions & Value",
+      "Accreditation Path": "Teach partners how to discover use cases, blueprint solutions, prove value, and lead prospect pilot.",
+      "Goal": "Consults & Resellers Partners",
+      "Primary audiences": "AI Strategy & Use Case Discovery",
+      "Competency Map": "7",
+      "Initial module count": "Wave 1-2",
+      "Launch wave focus": ""
+    },
+    {
+      "Lifecycle Phases": "Deploy",
+      "Accreditation Path": "Technical & Architecture",
+      "Goal": "Prepare partner architects for design, security, networking, and customer managed deployments.",
+      "Primary audiences": "SI & Cloud Partners",
+      "Competency Map": "Advanced Networking & Configuration",
+      "Initial module count": "11",
+      "Launch wave focus": "Wave 1-2"
+    },
+    {
+      "Lifecycle Phases": "Activate",
+      "Accreditation Path": "Builders & Integrations",
+      "Goal": "Build/integrate actions/tools, MCPs, agents, connectors, and integrations.",
+      "Primary audiences": "SI, Services, & Technology Partners",
+      "Competency Map": "Custom Connector Agent Building Embedded Experiences AI Gateway",
+      "Initial module count": "12",
+      "Launch wave focus": "Wave 1-3"
+    },
+    {
+      "Lifecycle Phases": "Deploy",
+      "Accreditation Path": "Service Delivery",
+      "Goal": "Operationalize Glean deployment, configuration, adoption, delivery excellence, and platform governance.",
+      "Primary audiences": "SI & Services Partners",
+      "Competency Map": "Delivery Excellence Platform Deployment & Governance",
+      "Initial module count": "0",
+      "Launch wave focus": "Wave 1-2"
+    },
+    {
+      "Lifecycle Phases": "Activate",
+      "Accreditation Path": "Operations & Support",
+      "Goal": "Ongoing operations, support tiers, and governance",
+      "Primary audiences": "SI & Services Partners",
+      "Competency Map": "Managed Services",
+      "Initial module count": "6",
+      "Launch wave focus": "Wave 2-3"
+    }
+  ]
+}

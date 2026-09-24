@@ -1,0 +1,185 @@
+{
+  "module_id": "SRV-204",
+  "claims": [
+    {
+      "claim_id": "C-71",
+      "text": "To enable debug mode, open the agent in Builder, toggle Debug mode in the preview pane, and run the agent; multi-turn chat is supported.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-72",
+      "text": "In the debug trace, green indicates success and red indicates error, and the trace persists across panel open and close.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-73",
+      "text": "The debug trace exposes inputs, including referenced memory and variables, and outputs, including raw tool and LLM responses.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-74",
+      "text": "The effective debugging workflow is to filter to only show errors, open the failing step, compare inputs against outputs, and iterate with Try Again or Reset Preview.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-75",
+      "text": "Failure category 1 is instruction-following failures: wrong tools planned, ignored instructions, and a sloppy final answer.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-76",
+      "text": "Failure category 2 is retrieval and context-selection failures: the right tool runs but returns wrong or missing results, such as document not found when it exists.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-77",
+      "text": "Failure category 3 is action and integration failures: HTTP errors, validation errors, partial writes, and timeouts.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-78",
+      "text": "Failure category 4 is trigger and scheduling failures: the agent never runs, runs at the wrong time, or runs on the wrong content.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-79",
+      "text": "Failure category 5 is UI and configuration issues: buttons not working, save failures, and permissions problems.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-80",
+      "text": "Too much memory leads to slower, more expensive runs with wandering answers, while too little memory creates brittle agents that forget constraints or prior results.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-81",
+      "text": "Memory options are all previous steps for short flows or complex reasoning, only the immediate previous step as the default for formatting and cleanup, and no memory for independent operations.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-82",
+      "text": "Model selection strategy is to use small and fast models for simple transforms and reserve larger models only where reasoning clearly benefits the outcome.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-84",
+      "text": "Partners should use the Glean Help Center 'Debug your agent' official guide and practice with live labs on a demo tenant to build hands-on debugging expertise.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-85",
+      "text": "The Advanced Agent Debugging training equips technical partner engineers and architects with tools, frameworks, and hands-on techniques to troubleshoot effectively and escalate intelligently.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-86",
+      "text": "The debugging journey covers the agent execution mental model, the debugging toolbox, the failure taxonomy, and escalation.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-87",
+      "text": "Debugging aims to find the root cause rather than just the symptoms.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-96",
+      "text": "SRV-204 covers trace-driven debugging, issue isolation, and clean escalation packages.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-102",
+      "text": "The Advanced Agent Debugging playbook helps partners resolve customer issues faster, increase trust in production agents, and provide clear, actionable escalations back to Glean.",
+      "source_ids": [
+        "S-06"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

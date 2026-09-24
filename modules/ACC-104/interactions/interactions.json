@@ -1,0 +1,20 @@
+{
+  "module_id": "ACC-104",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-07",
+      "screen_id": "SCR-07",
+      "kind": "sort",
+      "objective_id": "OBJ-03",
+      "archetype": "A9",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-15",
+        "C-17",
+        "C-18",
+        "C-03"
+      ]
+    }
+  ]
+}

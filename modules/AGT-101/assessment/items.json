@@ -1,0 +1,186 @@
+{
+  "module_id": "AGT-101",
+  "mastery_score": 80,
+  "objectives": {
+    "OBJ-01": "Define a Glean Agent and identify who agents are for.",
+    "OBJ-02": "Name the five core building blocks that every agent combines.",
+    "OBJ-03": "Choose Auto mode, Workflow mode, or an independent agent for a stated need.",
+    "OBJ-04": "Match the right trigger to how people will start the agent.",
+    "OBJ-05": "Apply least privilege, permission behavior, and risk-matched process."
+  },
+  "shuffle": true,
+  "max_attempts": 0,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "type": "single",
+      "stem": "A partner asks you to define a Glean Agent in one sentence. Which answer is accurate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A reusable AI solution that uses instructions, knowledge, tools, and context to complete tasks."
+        },
+        {
+          "id": "b",
+          "text": "A saved search that reruns automatically and emails the results."
+        },
+        {
+          "id": "c",
+          "text": "A chatbot that answers questions from a single uploaded knowledge base."
+        },
+        {
+          "id": "d",
+          "text": "A connector that indexes a new data source so it becomes searchable."
+        }
+      ],
+      "claims": [
+        "C-03",
+        "C-01"
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-02",
+      "type": "multi",
+      "stem": "Which of these are among the five core building blocks that every agent combines? Select all that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Goal and instructions"
+        },
+        {
+          "id": "b",
+          "text": "Knowledge and context"
+        },
+        {
+          "id": "c",
+          "text": "Output and memory"
+        },
+        {
+          "id": "d",
+          "text": "Billing and cost centre"
+        },
+        {
+          "id": "e",
+          "text": "Index refresh schedule"
+        }
+      ],
+      "claims": [
+        "C-07"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-03",
+      "type": "single",
+      "stem": "A customer needs an agent that runs the same five steps in the same order every time, because an auditor will review the output. Which mode fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Workflow mode, because it gives explicit control over each step, branch, and hand-off."
+        },
+        {
+          "id": "b",
+          "text": "Auto mode, because the agent will work out the best path each time."
+        },
+        {
+          "id": "c",
+          "text": "Either one, because both produce identical execution paths."
+        },
+        {
+          "id": "d",
+          "text": "Neither \u2014 auditable work cannot be done with an agent."
+        }
+      ],
+      "claims": [
+        "C-18",
+        "C-19"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-04",
+      "type": "single",
+      "stem": "An agent must start automatically whenever a document changes in a connected tool, and act on what changed. Which trigger, and how does the agent receive the change?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A content trigger, and the changed content is passed in as [[Trigger input]]."
+        },
+        {
+          "id": "b",
+          "text": "A chat message trigger, and the user pastes the change into the chatbox."
+        },
+        {
+          "id": "c",
+          "text": "An input form trigger, and the user selects the document from a multiple choice field."
+        },
+        {
+          "id": "d",
+          "text": "A schedule trigger, and the agent re-reads the whole source each run."
+        }
+      ],
+      "claims": [
+        "C-33",
+        "C-27"
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-05",
+      "type": "single",
+      "stem": "A partner publishes an HR agent to a Slack channel as visible to everyone in the channel, and reports that it returns less than the same agent in the web app. What is happening?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Expected behavior: for channel-wide visibility the agent only uses documents accessible to all channel members, which prevents restricted content being exposed in a broad channel."
+        },
+        {
+          "id": "b",
+          "text": "A defect \u2014 permissions should be identical on every surface, so it should be escalated as a bug."
+        },
+        {
+          "id": "c",
+          "text": "The agent lost its permissions when published, and the owner must re-grant document access."
+        },
+        {
+          "id": "d",
+          "text": "Slack does not support knowledge retrieval, so the agent falls back to web search."
+        }
+      ],
+      "claims": [
+        "C-46",
+        "C-47"
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-05",
+      "type": "single",
+      "stem": "Your partner is scoping an agent that will be company-wide, read restricted data, and update Jira tickets. What does the lifecycle guidance say about process?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apply a comprehensive process: rigorous testing, formal review, and launch planning."
+        },
+        {
+          "id": "b",
+          "text": "Apply a lightweight process, then add review only if users complain."
+        },
+        {
+          "id": "c",
+          "text": "Process depth is a matter of team preference and is not tied to scope."
+        },
+        {
+          "id": "d",
+          "text": "Skip the lifecycle, because write tools are blocked by the platform anyway."
+        }
+      ],
+      "claims": [
+        "C-39",
+        "C-40"
+      ]
+    }
+  ]
+}

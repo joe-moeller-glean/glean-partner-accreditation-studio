@@ -1,0 +1,19 @@
+{
+  "module_id": "BLD-207",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-08",
+      "screen_id": "SCR-08",
+      "kind": "choice",
+      "objective_id": "OBJ-03",
+      "archetype": "A6",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-47",
+        "C-45",
+        "C-48"
+      ]
+    }
+  ]
+}

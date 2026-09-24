@@ -1,0 +1,565 @@
+{
+  "module_id": "AGT-101",
+  "verified_on": "2026-09-14",
+  "verifier": "Fact Integrity Auditor (doc-grounded pass)",
+  "claims": [
+    {
+      "claim_id": "C-01",
+      "text": "A Glean Agent is an AI-powered tool that automates tasks, from simple to complex workflows, by handling tools like gathering information, summarizing data, and making decisions based on previous steps.",
+      "source_ids": [
+        "D-01"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-02",
+      "text": "You can set up an agent to start working when something specific happens, and it carries out a series of tools that adapt to changing inputs.",
+      "source_ids": [
+        "D-01"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-03",
+      "text": "Glean Agents are reusable AI solutions that use instructions, knowledge, tools, and context to complete tasks for an individual or a team.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-04",
+      "text": "Agents are discovered, launched, and managed from the Agent Library.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-05",
+      "text": "Agents serve three user types: builders who create custom AI experiences, consumers who use agents built by others, and administrators who manage adoption and governance.",
+      "source_ids": [
+        "D-01"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-06",
+      "text": "Common agent examples include sales prospect outreach, support ticket next steps, pull request review, meeting recap, and a daily digest.",
+      "source_ids": [
+        "D-01"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-07",
+      "text": "Agents combine five core building blocks: goal and instructions, knowledge and context, tools and actions, execution, and output and memory.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-08",
+      "text": "Goal and instructions define target outcomes and behavioral rules.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-09",
+      "text": "Knowledge and context is the information available to the agent.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-10",
+      "text": "Tools and actions are the tasks the agent performs.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-11",
+      "text": "Output and memory are the results produced and the context retained during a run.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-12",
+      "text": "A tool is a concrete task an agent executes, such as reading data from documents, tickets, records, or calendars, writing to connectors, drafting text, or updating external systems.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-13",
+      "text": "The instructions editor is a markdown-first surface, so instructions are written like an SOP or operating guide for a teammate rather than filled into rigid fields.",
+      "source_ids": [
+        "D-08"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-14",
+      "text": "Good instructions explain the job the agent should do, the steps or reasoning it should follow, the output format it should return, and any rules, limitations, or safety constraints it must respect.",
+      "source_ids": [
+        "D-08"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-15",
+      "text": "Limit tool access to only what the agent needs, because narrower access improves reliability and makes the agent easier to review.",
+      "source_ids": [
+        "D-08"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-16",
+      "text": "Agents are built in two modes: Auto mode and Workflow mode.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-17",
+      "text": "Auto mode is the default starting experience for most use cases: describe the desired outcome in natural language, then review, refine, and test the draft in Builder Assistant.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-18",
+      "text": "Workflow mode is best for fixed, repeatable processes that require explicit control over each step, branch, and hand-off.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-19",
+      "text": "Use Auto mode for open-ended tasks such as research, analysis, summarization, and drafting. Use Workflow mode for fixed sequences requiring controlled logic.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-20",
+      "text": "In Workflow mode, a step is a single unit of work, and flow controls how the agent navigates from one step to the next.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-21",
+      "text": "Flow supports branches that select paths based on conditions, and calls to sub-agents that delegate tasks and then return to the main flow.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-22",
+      "text": "In Workflow mode, each step saves output to working memory, and by default a step receives output only from the immediately preceding step.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-23",
+      "text": "Auto mode agents can use the Task tool to split complex requests into sub-tasks and delegate them to sub-agents, and the Task tool maintains agent permissions and error handling.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-24",
+      "text": "Independent agents run shared workflows without depending on an individual user session, and each has its own profile and uses admin-approved identities in connected apps.",
+      "source_ids": [
+        "D-07"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-25",
+      "text": "Independent agents are in beta, and available templates, triggers, channels, and administrative controls depend on the deployment.",
+      "source_ids": [
+        "D-07"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-26",
+      "text": "Use an independent agent when a workflow needs to monitor events, respond in a shared channel, or continue running until work resolves; for a one-time question or a user-supervised workflow, use an interactive or scheduled agent instead.",
+      "source_ids": [
+        "D-07"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-27",
+      "text": "A trigger is how you choose what starts an agent and what information it receives up front.",
+      "source_ids": [
+        "D-03"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-28",
+      "text": "A chat message trigger creates a conversational agent that responds to a wide variety of requests and displays a chatbox where the user enters a freeform message and uploads documents.",
+      "source_ids": [
+        "D-03"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-29",
+      "text": "With a chat message trigger, all steps automatically receive the contents of the user's message along with previous messages and agent responses from the current session.",
+      "source_ids": [
+        "D-03"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-30",
+      "text": "An input form trigger creates a task-based agent that executes a specific workflow and displays a form with the input fields the agent needs.",
+      "source_ids": [
+        "D-03"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-31",
+      "text": "Input form fields can be text, document, or multiple choice.",
+      "source_ids": [
+        "D-03"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-32",
+      "text": "Input form fields are not automatically presented to steps; a field must be explicitly tagged using the [[input field name]] format for a step to access it.",
+      "source_ids": [
+        "D-03"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-33",
+      "text": "A content trigger runs an agent automatically when something changes in a connected tool, and the changed content is passed in as [[Trigger input]].",
+      "source_ids": [
+        "D-03"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-34",
+      "text": "Triggers are optional, and configuring one enables automatic execution without manual intervention.",
+      "source_ids": [
+        "D-02"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-35",
+      "text": "Use a scheduled run when the agent should run automatically at a defined time, such as weekly summaries, periodic checks, or routine follow-ups.",
+      "source_ids": [
+        "D-08"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-36",
+      "text": "Agents require a more deliberate development lifecycle than traditional software because they produce non-deterministic outputs, interact with live enterprise data, and execute multi-step reasoning.",
+      "source_ids": [
+        "D-04"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-37",
+      "text": "The ADLC has six stages: plan and design, define quality, build safely, test and launch, manage versions, and govern and monitor.",
+      "source_ids": [
+        "D-04"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-38",
+      "text": "The five ADLC principles are value first, governed innovation, least privilege, safety by design, and continuous improvement.",
+      "source_ids": [
+        "D-04"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-39",
+      "text": "Process must scale with impact and data access: personal agents need a lightweight process, team utility agents a moderate process, and enterprise agents a comprehensive process.",
+      "source_ids": [
+        "D-04"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-40",
+      "text": "Apply a more robust process when an agent will be shared broadly, accesses sensitive or restricted data, performs write tools, or affects a high-value or high-risk workflow.",
+      "source_ids": [
+        "D-04"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-41",
+      "text": "Under least privilege, agents always operate within the existing access boundaries of the user invoking them.",
+      "source_ids": [
+        "D-04"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-42",
+      "text": "The platform enforces agent access at execution time based on the executor's identity, the signed-in user running the agent, regardless of who created or published the agent.",
+      "source_ids": [
+        "D-10"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-43",
+      "text": "Sharing and publishing are separate permissions: editor access lets a user edit an agent but does not by itself allow the user to publish it.",
+      "source_ids": [
+        "D-05"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-44",
+      "text": "Agent permissions run from no access, to viewer, to editor, to owner, and only an owner can delete an agent or add and remove other owners.",
+      "source_ids": [
+        "D-05"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-45",
+      "text": "In the Glean web app an agent uses the signed-in user's individual permissions, so responses are personalized to each user.",
+      "source_ids": [
+        "D-05"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-46",
+      "text": "When an agent is published to Slack as visible to everyone in the channel, it applies a stricter access model and only uses documents accessible to all channel members, not just the person asking.",
+      "source_ids": [
+        "D-05"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-47",
+      "text": "Agent permissions are enforced everywhere, including when the agent is called from Slack or the API.",
+      "source_ids": [
+        "D-05"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-48",
+      "text": "Each agent run has a maximum number of tool calls, and every tool the agent invokes counts toward that same budget.",
+      "source_ids": [
+        "D-06"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-49",
+      "text": "Each tool response is subject to a size cap, so a response may be truncated even when the underlying system has more matches.",
+      "source_ids": [
+        "D-06"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-50",
+      "text": "Use company search for ranked, permission-aware retrieval across connectors when a broad relevance-ordered sweep is enough.",
+      "source_ids": [
+        "D-06"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-51",
+      "text": "Use native connector tools such as Search Jira with JQL or Search Salesforce with SOQL when you need exhaustive enumeration, precise field-based filtering, or aggregations.",
+      "source_ids": [
+        "D-06"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-52",
+      "text": "If an agent runs out of tool calls before finishing, break the work into fewer, broader queries rather than many narrow ones.",
+      "source_ids": [
+        "D-06"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-53",
+      "text": "For background runs, prefer organization-trusted sources, avoid high-risk feeds such as the email inbox, and constrain web search to known-good domains.",
+      "source_ids": [
+        "D-10"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-54",
+      "text": "Admins can choose which write tools may run without user confirmation; all other write tools remain interactive or are blocked from background runs.",
+      "source_ids": [
+        "D-10"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-55",
+      "text": "Test an agent in Preview and use Debug to inspect how it behaves before sharing it.",
+      "source_ids": [
+        "D-08"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-56",
+      "text": "Each save makes the current changes the new live agent and stores a snapshot of the previous version, and only the most recent 30 versions are retained.",
+      "source_ids": [
+        "D-09"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-57",
+      "text": "The tools available in the Agent Builder depend on the organization's admin settings, and some Glean tools appear only when an admin has enabled the corresponding feature.",
+      "source_ids": [
+        "D-09"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-58",
+      "text": "The Glean Agent Building Competency certifies partner teams to design, build, govern, and operationalize production-grade Glean Agents that automate workflows and deliver measurable business outcomes.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-59",
+      "text": "The Agent Building Competency requires partners to build five production-ready agents, each implementing at least three discrete steps beyond simple retrieval, including at least one thinking or transformation step.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-60",
+      "text": "The Agent Building Competency requires each agent to configure retrieval guardrails with a well-defined set of content sources and clear instructions about what it can and cannot answer.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-61",
+      "text": "The Agent Building Competency requires each agent to contain explicit error handling with defined fallback behavior for low-confidence or out-of-scope questions.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    },
+    {
+      "claim_id": "C-62",
+      "text": "The Agent Builder course in Glean Academy provides self-paced training to design and create agents.",
+      "source_ids": [
+        "A-01"
+      ],
+      "verdict": "verified",
+      "evidence": "Direct statement in cited source page."
+    }
+  ]
+}

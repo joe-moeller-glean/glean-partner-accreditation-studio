@@ -1,0 +1,9 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-01",
+  "eyebrow": "Cold open",
+  "title": "The agent filed 400 tickets overnight",
+  "body": "It did exactly what it was told. Nobody had defined an approval boundary, a scope limit, or what should happen when confidence dropped. The behaviour was not a bug.",
+  "claims": []
+}

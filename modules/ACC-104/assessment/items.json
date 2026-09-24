@@ -1,0 +1,101 @@
+{
+  "module_id": "ACC-104",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "How many technical accreditations must be completed in the Partner Portal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Five, validated by a Glean Partner Manager."
+        },
+        {
+          "id": "b",
+          "text": "One, validated by the customer."
+        },
+        {
+          "id": "c",
+          "text": "None; the agent builds replace coursework."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-02",
+      "stem": "How many production-ready agents must a partner build?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Five, each meeting the per-agent criteria."
+        },
+        {
+          "id": "b",
+          "text": "Three, with no specific criteria."
+        },
+        {
+          "id": "c",
+          "text": "One reference agent."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "Which capability is required of at least one agent, not all five?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using loops to process a collection."
+        },
+        {
+          "id": "b",
+          "text": "Configuring retrieval guardrails."
+        },
+        {
+          "id": "c",
+          "text": "Explicit error handling with a defined fallback."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-03",
+      "stem": "What evidence is required for each agent's business value?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A written outline of business impact and why a Glean Agent was the best solution."
+        },
+        {
+          "id": "b",
+          "text": "A verbal summary on the validation call."
+        },
+        {
+          "id": "c",
+          "text": "The customer's signed invoice."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-01",
+      "stem": "Who can pursue the Agent Building Competency?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All registered Glean Partners, including resell, services, and ISV or product partners."
+        },
+        {
+          "id": "b",
+          "text": "Only GSI partners."
+        },
+        {
+          "id": "c",
+          "text": "Any organization, registered or not."
+        }
+      ]
+    }
+  ]
+}

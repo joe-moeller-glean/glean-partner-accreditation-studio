@@ -1,0 +1,14 @@
+{
+  "id": "SCR-03",
+  "archetype": "A7",
+  "objective": "OBJ-01",
+  "eyebrow": "Guided walkthrough",
+  "title": "Debug mode, step by step",
+  "body": "The trace exposes inputs, including referenced memory and variables, and outputs, including raw tool and LLM responses.",
+  "asset": "SRV-204-A01",
+  "claims": [
+    "C-71",
+    "C-73",
+    "C-74"
+  ]
+}

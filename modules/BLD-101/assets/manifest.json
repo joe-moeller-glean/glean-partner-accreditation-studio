@@ -1,0 +1,23 @@
+{
+  "module_id": "BLD-101",
+  "assets": [
+    {
+      "asset_id": "BLD-101-A01",
+      "path": "assets/svg/bld-101-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Four cards covering the partner build surface: agents and agent extensions, actions and MCP-based tools, APIs and the Client API with Web SDK, and the connector framework with embedded experiences.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-90",
+        "C-110"
+      ],
+      "alt": "Four cards showing the partner build surface across agents, actions and MCP, APIs, and connectors.",
+      "bytes": 3826
+    }
+  ]
+}

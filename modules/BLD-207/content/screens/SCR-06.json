@@ -1,0 +1,29 @@
+{
+  "id": "SCR-06",
+  "archetype": "A8",
+  "objective": "OBJ-01",
+  "eyebrow": "Worked example",
+  "title": "Turning one requirement into four test cases",
+  "steps": [
+    {
+      "title": "Requirement",
+      "body": "The agent must configure retrieval guardrails with clear instructions for what it can and cannot answer."
+    },
+    {
+      "title": "In-scope case",
+      "body": "Ask a question squarely inside the defined source set and confirm a grounded answer."
+    },
+    {
+      "title": "Out-of-scope case",
+      "body": "Ask a question outside scope and confirm the defined fallback behaviour fires rather than a guess."
+    },
+    {
+      "title": "Low-confidence case",
+      "body": "Ask an ambiguous question and confirm explicit error handling degrades safely instead of answering confidently."
+    }
+  ],
+  "claims": [
+    "C-07",
+    "C-08"
+  ]
+}

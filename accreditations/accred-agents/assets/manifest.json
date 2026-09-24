@@ -1,0 +1,51 @@
+{
+  "module_id": "accred-agents",
+  "assets": [
+    {
+      "asset_id": "ACCRED-AGENTS-A01",
+      "path": "assets/svg/accred-agents-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Five-stage path through the Agents accreditation: foundations covering the operating model and construct choice, build fundamentals covering the build surface and actions with MCP, hands-on labs, production discipline covering evaluation, governance, and debugging, then vertical design and the capstone.",
+      "screen_id": "SCR-02",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-88",
+        "C-89",
+        "C-90",
+        "C-91",
+        "C-93",
+        "C-94",
+        "C-95",
+        "C-96",
+        "C-97",
+        "C-98"
+      ],
+      "alt": "Five-stage flow diagram of the Agents accreditation path from foundations to capstone.",
+      "bytes": 5060
+    },
+    {
+      "asset_id": "ACCRED-AGENTS-A02",
+      "path": "assets/svg/accred-agents-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Four certified capability areas: persona-aligned agent design, multi-step composition with handoffs and fallbacks, advanced orchestration with triggers and branching, and testing and validation practice.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-19",
+        "C-20",
+        "C-27",
+        "C-30"
+      ],
+      "alt": "Four cards summarising the capability areas the Agents badge certifies.",
+      "bytes": 3348
+    }
+  ]
+}

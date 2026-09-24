@@ -1,0 +1,135 @@
+{
+  "module_id": "BLD-208",
+  "claims": [
+    {
+      "claim_id": "C-07",
+      "text": "Each of the 5 competency agents must configure retrieval guardrails so the agent uses a well-defined set of content sources and has clear instructions for what it can and cannot answer.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-08",
+      "text": "Each of the 5 competency agents must contain explicit error-handling with a defined fallback behavior for low-confidence or out-of-scope questions.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-09",
+      "text": "At least 1 of the 5 competency agents must invoke actions or tools that write to other systems.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-11",
+      "text": "At least 1 of the 5 competency agents must use conditional branching.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-13",
+      "text": "At least 1 of the 5 competency agents must use a schedule-based trigger.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-15",
+      "text": "For each competency agent, partners must gather business and technical requirements with the end user, evidenced by a document outlining those requirements.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-16",
+      "text": "Competency validation includes a call with a Glean Partner Solutions Engineer to review the finalized agents; partners should expect to walk through and run each agent on the call, and ideally provide a recorded walkthrough beforehand.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-17",
+      "text": "For each competency agent, partners must complete an agent architecture review with a Glean technical resource, outlining best practices followed and agent structure.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-18",
+      "text": "For each competency agent, partners must provide a written outline of the agent's business impact and why a Glean Agent was the best solution, reviewed by a Glean Partner Solutions Engineer.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-37",
+      "text": "For each priority agent, assign a project lead and supporting experts, document the current process including baseline performance numbers, design the future-state process with expected improvements, and build an implementation plan covering scope, key dates, success measures, and security and data compliance checks.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-61",
+      "text": "Custom actions fit internal APIs or services Glean does not support out of the box, legacy or in-house systems, and approvals, validation, or custom business logic before writing to a system.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-95",
+      "text": "BLD-208 covers safety patterns, approval design, escalation boundaries, and production governance for partner-built agents.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-96",
+      "text": "SRV-204 covers trace-driven debugging, issue isolation, and clean escalation packages.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

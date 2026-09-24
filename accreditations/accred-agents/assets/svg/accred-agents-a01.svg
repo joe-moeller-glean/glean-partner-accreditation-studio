@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 564" width="100%" preserveAspectRatio="xMidYMid meet">
+<title>The Agents path</title>
+<desc>Five-stage path through the Agents accreditation: foundations covering the operating model and construct choice, build fundamentals covering the build surface and actions with MCP, hands-on labs, production discipline covering evaluation, governance, and debugging, then vertical design and the capstone.</desc>
+<rect x="0" y="0" width="620" height="564" fill="#F6F3EB"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#000000"/></marker></defs>
+<text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">The Agents path</text>
+<rect x="24" y="64" width="572" height="68" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<circle cx="50" cy="98" r="15" fill="#343CED" stroke="#000000" stroke-width="2"/>
+<text x="50" y="103" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="76" y="90" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Foundations</text>
+<text x="76" y="110" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">FND-104 operating model, then FND-105 construct choice</text>
+<line x1="50" y1="132" x2="50" y2="166" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="24" y="166" width="572" height="68" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<circle cx="50" cy="200" r="15" fill="#343CED" stroke="#000000" stroke-width="2"/>
+<text x="50" y="205" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="76" y="192" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Build fundamentals</text>
+<text x="76" y="212" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">BLD-101 build surface, BLD-102 actions and MCP</text>
+<line x1="50" y1="234" x2="50" y2="268" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="24" y="268" width="572" height="68" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<circle cx="50" cy="302" r="15" fill="#343CED" stroke="#000000" stroke-width="2"/>
+<text x="50" y="307" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="76" y="294" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Hands-on labs</text>
+<text x="76" y="314" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">BLD-103 actions workshop, BLD-104 advanced agent</text>
+<text x="76" y="331" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">building</text>
+<line x1="50" y1="336" x2="50" y2="370" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="24" y="370" width="572" height="68" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<circle cx="50" cy="404" r="15" fill="#343CED" stroke="#000000" stroke-width="2"/>
+<text x="50" y="409" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="76" y="396" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Production discipline</text>
+<text x="76" y="416" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">BLD-207 evaluation, BLD-208 governance, SRV-204</text>
+<text x="76" y="433" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">debugging</text>
+<line x1="50" y1="438" x2="50" y2="472" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="24" y="472" width="572" height="68" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<circle cx="50" cy="506" r="15" fill="#343CED" stroke="#000000" stroke-width="2"/>
+<text x="50" y="511" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="76" y="498" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Design and capstone</text>
+<text x="76" y="518" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">SOL-203 vertical design, ACC-104 accreditation</text>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "id": "SCR-07",
+  "archetype": "A12",
+  "objective": "OBJ-01",
+  "eyebrow": "Checkpoint",
+  "title": "What is actually built in the lab?",
+  "type": "choice",
+  "prompt": "Pick the accurate description of the lab deliverable.",
+  "options": [
+    {
+      "id": "o1",
+      "text": "A custom integration, built hands-on, after covering actions, MCP, and Client API integrations.",
+      "correct": true,
+      "feedback": "Correct. The published agenda ends with a hands-on workshop to build a custom integration."
+    },
+    {
+      "id": "o2",
+      "text": "A slide deck describing a proposed integration.",
+      "feedback": "No. The workshop is a build session, not a design review."
+    },
+    {
+      "id": "o3",
+      "text": "A custom connector for a proprietary data source.",
+      "feedback": "No. Custom connectors are a separate course with its own lab environment."
+    }
+  ],
+  "claims": [
+    "C-105",
+    "C-92"
+  ]
+}

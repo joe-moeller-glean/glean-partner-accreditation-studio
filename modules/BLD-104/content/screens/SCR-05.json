@@ -1,0 +1,13 @@
+{
+  "id": "SCR-05",
+  "archetype": "A5",
+  "objective": "OBJ-02",
+  "eyebrow": "Memory",
+  "title": "Memory scope is a design decision",
+  "body": "Too much memory leads to slower, more expensive runs with wandering answers. Too little creates brittle agents that forget constraints or prior results.",
+  "asset": "BLD-104-A02",
+  "claims": [
+    "C-80",
+    "C-81"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Precision first, then architecture",
+  "bullets": [
+    "Define actions, MCP, and skills without hand-waving.",
+    "Apply the real platform support constraints.",
+    "Pick between a custom action and MCP for a written requirement."
+  ],
+  "claims": []
+}

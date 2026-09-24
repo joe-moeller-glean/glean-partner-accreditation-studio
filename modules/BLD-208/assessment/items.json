@@ -1,0 +1,101 @@
+{
+  "module_id": "BLD-208",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "Where do approvals and validation belong in an agent that writes to a system?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Before the write, as part of the action's custom business logic."
+        },
+        {
+          "id": "b",
+          "text": "After the write, as a reconciliation report."
+        },
+        {
+          "id": "c",
+          "text": "Nowhere; agents should not have approval logic."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-02",
+      "stem": "What must every competency agent do about out-of-scope questions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Contain explicit error handling with a defined fallback behaviour."
+        },
+        {
+          "id": "b",
+          "text": "Answer using the closest available source."
+        },
+        {
+          "id": "c",
+          "text": "Escalate every question to a human."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-03",
+      "stem": "Which evidence does competency validation require for each agent?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A requirements document, an architecture review with a Glean technical resource, and a written business impact rationale."
+        },
+        {
+          "id": "b",
+          "text": "A screenshot of the agent's final output."
+        },
+        {
+          "id": "c",
+          "text": "A signed customer purchase order."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-03",
+      "stem": "How should a partner prepare for the agent review call?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Expect to walk through and run each agent live, and ideally provide a recorded walkthrough beforehand."
+        },
+        {
+          "id": "b",
+          "text": "Send documentation only and skip the live run."
+        },
+        {
+          "id": "c",
+          "text": "Delegate the review to the customer's admin."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-02",
+      "stem": "What do retrieval guardrails constrain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The set of content sources in play and what the agent can and cannot answer."
+        },
+        {
+          "id": "b",
+          "text": "The maximum number of steps the agent may run."
+        },
+        {
+          "id": "c",
+          "text": "Which model provider serves the request."
+        }
+      ]
+    }
+  ]
+}

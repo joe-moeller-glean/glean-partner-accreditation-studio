@@ -1,0 +1,23 @@
+{
+  "module_id": "SOL-203",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "An industry team asks for a sector-specific agent and describes an outcome, not a process. Without the workflow, the data sources, and the governance boundary, there is nothing to build.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-06",
+      "archetype": "A8",
+      "prompt": "",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-07",
+      "archetype": "A6",
+      "prompt": "The highest-value candidate is also the most complex. What do you recommend?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

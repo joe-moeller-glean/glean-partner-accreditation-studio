@@ -1,0 +1,12 @@
+{
+  "module_id": "FND-105",
+  "title": "Choosing the Right Construct / Primitive",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "accreditation_id": "accred-agents",
+  "level": "200",
+  "target_hours": 0.8,
+  "assessment_type": "Scenario exercise"
+}

@@ -1,0 +1,101 @@
+{
+  "module_id": "SOL-203",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "How does the planning phase begin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "By reviewing the use case repository and running facilitated discovery workshops."
+        },
+        {
+          "id": "b",
+          "text": "By building a prototype and showing it to stakeholders."
+        },
+        {
+          "id": "c",
+          "text": "By selecting whichever agent the sponsor names first."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-02",
+      "stem": "What two dimensions does the Effort and Impact matrix use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Business value and implementation complexity."
+        },
+        {
+          "id": "b",
+          "text": "Team size and licence count."
+        },
+        {
+          "id": "c",
+          "text": "Model cost and token volume."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-03",
+      "stem": "What must be documented about the current process?",
+      "options": [
+        {
+          "id": "a",
+          "text": "How it works today, including baseline performance numbers."
+        },
+        {
+          "id": "b",
+          "text": "Only the desired future state."
+        },
+        {
+          "id": "c",
+          "text": "Only the names of the stakeholders involved."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-03",
+      "stem": "What does infrastructure preparation involve before the agent is built?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Configuring data source connectors and establishing indexing protocols for new sources."
+        },
+        {
+          "id": "b",
+          "text": "Selecting the largest available model."
+        },
+        {
+          "id": "c",
+          "text": "Writing the launch announcement."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "What must the implementation plan cover?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scope, key dates, success measures, and security and data compliance checks."
+        },
+        {
+          "id": "b",
+          "text": "Only the go-live date."
+        },
+        {
+          "id": "c",
+          "text": "Only the list of agent steps."
+        }
+      ]
+    }
+  ]
+}

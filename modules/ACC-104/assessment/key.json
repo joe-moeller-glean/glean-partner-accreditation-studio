@@ -1,0 +1,45 @@
+{
+  "module_id": "ACC-104",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. That is a stated competency requirement.",
+        "b": "No. Five are required, and a Partner Manager validates.",
+        "c": "No. Accreditations and agent builds are both required."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, with additional at-least-one capabilities across the portfolio.",
+        "b": "No. The count is five and the criteria are explicit.",
+        "c": "No. A single agent cannot cover the portfolio requirements."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Loops, branching, triggers, multi-tool runs, and external writes are at-least-one requirements.",
+        "b": "No. Guardrails are required of every agent.",
+        "c": "No. That is required of every agent."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, and it is reviewed by a Glean Partner Solutions Engineer.",
+        "b": "No. A written explanation is required.",
+        "c": "No. That is not competency evidence."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, provided the organization is already a registered Glean Partner.",
+        "b": "No. The programme is open across partner types.",
+        "c": "No. Registration as a Glean Partner is a precondition."
+      }
+    }
+  }
+}

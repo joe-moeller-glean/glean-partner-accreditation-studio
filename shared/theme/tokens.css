@@ -1,0 +1,20 @@
+/* Glean module theme tokens. Values live here only; components reference tokens. */
+:root{
+--blue:#343CED;
+--green:#D8FD49;
+--oatmeal:#F6F3EB;
+--white:#FFFFFF;
+--ink:#000000;
+--surface:#FFFFFF;
+--dark-blue:#1017B1;
+--cement:#C7C7AB;
+--muted:#3A3A3A;
+--font:"PolySans","DM Sans",-apple-system,Segoe UI,Arial,sans-serif;
+--radius:8px;
+--space:8px;
+--maxw:1120px;
+--line:60ch;
+--t1:150ms;
+--t2:300ms;
+--t3:600ms;
+}

@@ -1,0 +1,101 @@
+{
+  "module_id": "BLD-207",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-02",
+      "stem": "When are an agent's success criteria supposed to be defined?",
+      "options": [
+        {
+          "id": "a",
+          "text": "During planning, before the build, so measurement has a target."
+        },
+        {
+          "id": "b",
+          "text": "After launch, once usage patterns emerge."
+        },
+        {
+          "id": "c",
+          "text": "Only if the customer requests a business case."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-02",
+      "stem": "Which usage metrics should be tracked?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agent runs, distinct users, frequency of use, and engagement patterns over time."
+        },
+        {
+          "id": "b",
+          "text": "Only the total number of agents created."
+        },
+        {
+          "id": "c",
+          "text": "Only error rates."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-03",
+      "stem": "What can high abandonment or declining usage indicate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "User friction or changing needs."
+        },
+        {
+          "id": "b",
+          "text": "That the agent is working as intended."
+        },
+        {
+          "id": "c",
+          "text": "That the model needs to be larger."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-01",
+      "stem": "Which test case set matches the fallback requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Out-of-scope and low-confidence questions that must trigger defined fallback behaviour."
+        },
+        {
+          "id": "b",
+          "text": "Only questions well inside the defined source set."
+        },
+        {
+          "id": "c",
+          "text": "Only performance and latency measurements."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "What happens to measurement insights at the end of the loop?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They feed directly back into planning, and successful agents become templates."
+        },
+        {
+          "id": "b",
+          "text": "They are archived once the project closes."
+        },
+        {
+          "id": "c",
+          "text": "They replace the need for future discovery workshops."
+        }
+      ]
+    }
+  ]
+}

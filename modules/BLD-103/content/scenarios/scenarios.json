@@ -1,0 +1,17 @@
+{
+  "module_id": "BLD-103",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "The workshop assumes RESTful API experience and a working environment. Teams that arrive without either spend the build window on setup and leave with nothing they can reuse.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-05",
+      "archetype": "A8",
+      "prompt": "",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

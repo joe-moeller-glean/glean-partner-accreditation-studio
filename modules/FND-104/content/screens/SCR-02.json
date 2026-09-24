@@ -1,0 +1,13 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "By the end of this module",
+  "bullets": [
+    "Place search, assistant, and agents inside one operating model.",
+    "Name the job each primitive is built to do.",
+    "Say where partner-built work creates durable differentiation."
+  ],
+  "claims": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "SCR-04",
+  "archetype": "A4",
+  "objective": "OBJ-01",
+  "eyebrow": "Requirements",
+  "title": "Four requirements, all mandatory",
+  "body": "Glean competencies require thorough experience and successful completion of an audit process.",
+  "asset": "ACC-104-A01",
+  "claims": [
+    "C-25",
+    "C-03",
+    "C-04",
+    "C-05"
+  ]
+}

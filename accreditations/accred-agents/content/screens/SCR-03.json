@@ -1,0 +1,14 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "Why it exists",
+  "title": "The path feeds a real competency",
+  "body": "The Agent Building Competency certifies partner teams to design, build, govern, and operationalize production-grade Glean Agents that automate workflows and deliver measurable business outcomes.",
+  "asset": "ACCRED-AGENTS-A02",
+  "claims": [
+    "C-01",
+    "C-19",
+    "C-27"
+  ]
+}

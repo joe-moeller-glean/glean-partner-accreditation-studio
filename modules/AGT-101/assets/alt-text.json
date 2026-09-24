@@ -1,0 +1,69 @@
+{
+  "module_id": "AGT-101",
+  "assets": {
+    "hero-flow.svg": {
+      "role": "decorative",
+      "alt": "",
+      "note": "Purely aesthetic gradient ribbon. aria-hidden, conveys no information."
+    },
+    "agent-anatomy.svg": {
+      "role": "informative",
+      "alt": "Diagram of the five building blocks of a Glean Agent: goal and instructions at the top, knowledge and context on the left, tools and actions on the right, execution in the centre running in Auto mode or Workflow mode, and output and memory at the bottom.",
+      "note": "Meaning-bearing. Also duplicated as an interactive text list, so the diagram is never the only route to the content."
+    },
+    "badge.svg": {
+      "role": "informative",
+      "alt": "Glean Agents Foundations completion mark for module AGT-101.",
+      "note": "Not the Glean logo. Generic completion mark pending an approved brand asset."
+    },
+    "icons/*.svg": {
+      "role": "decorative",
+      "alt": "",
+      "note": "All line icons are aria-hidden and always paired with a visible text label."
+    }
+  },
+  "by_asset_id": {
+    "AGT-101-A01": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-A02": "Diagram of the five building blocks of a Glean Agent: goal and instructions at the top, knowledge and context on the left, tools and actions on the right, execution in the centre running in Auto mode or Workflow mode, and output and memory at the bottom.",
+    "AGT-101-A03": "Glean Agents Foundations completion mark for module AGT-101.",
+    "AGT-101-I01": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I02": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I03": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I04": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I05": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I06": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I07": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I08": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I09": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I10": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I11": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I12": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I13": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I14": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I15": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I16": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I17": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+    "AGT-101-I18": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text."
+  },
+  "AGT-101-A01": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-A02": "Diagram of the five building blocks of a Glean Agent: goal and instructions at the top, knowledge and context on the left, tools and actions on the right, execution in the centre running in Auto mode or Workflow mode, and output and memory at the bottom.",
+  "AGT-101-A03": "Glean Agents Foundations completion mark for module AGT-101.",
+  "AGT-101-I01": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I02": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I03": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I04": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I05": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I06": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I07": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I08": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I09": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I10": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I11": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I12": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I13": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I14": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I15": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I16": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I17": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text.",
+  "AGT-101-I18": "Decorative. Rendered with empty alt and aria-hidden so assistive technology skips it. Conveys no information; every meaning it supports is also present as visible text."
+}

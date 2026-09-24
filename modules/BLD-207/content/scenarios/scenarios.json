@@ -1,0 +1,23 @@
+{
+  "module_id": "BLD-207",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "The prompt changed, the sources changed, and the team believes quality improved. There is no baseline, no test set, and no way to prove it either way.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-06",
+      "archetype": "A8",
+      "prompt": "",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-08",
+      "archetype": "A6",
+      "prompt": "Runs are down and no error rate moved. What do you do first?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

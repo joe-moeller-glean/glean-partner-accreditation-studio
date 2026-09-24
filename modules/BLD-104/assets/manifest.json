@@ -1,0 +1,43 @@
+{
+  "module_id": "BLD-104",
+  "assets": [
+    {
+      "asset_id": "BLD-104-A01",
+      "path": "assets/svg/bld-104-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Four-step composition: at least three discrete steps beyond retrieval including one thinking or transformation step, retrieval guardrails over a defined source set, explicit error handling with fallback, and advanced orchestration through branching, loops, and triggers.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-06",
+        "C-07",
+        "C-08",
+        "C-20"
+      ],
+      "alt": "Four-step flow diagram showing the anatomy of a production-ready agent.",
+      "bytes": 4491
+    },
+    {
+      "asset_id": "BLD-104-A02",
+      "path": "assets/svg/bld-104-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Three memory options with their intended use: all previous steps for short flows or complex reasoning, only the immediate previous step as the default for formatting and cleanup, and no memory for independent operations.",
+      "screen_id": "SCR-05",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-81",
+        "C-80"
+      ],
+      "alt": "Numbered diagram of three agent memory scope options and when to use each.",
+      "bytes": 3900
+    }
+  ]
+}

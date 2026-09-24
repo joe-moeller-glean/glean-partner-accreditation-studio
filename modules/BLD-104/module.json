@@ -1,0 +1,12 @@
+{
+  "module_id": "BLD-104",
+  "title": "Advanced Agent Building Lab",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "accreditation_id": "accred-agents",
+  "level": "200",
+  "target_hours": 2.0,
+  "assessment_type": "Lab"
+}

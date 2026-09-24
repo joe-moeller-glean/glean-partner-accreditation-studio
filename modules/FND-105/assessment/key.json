@@ -1,0 +1,45 @@
+{
+  "module_id": "FND-105",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Native-first keeps build cost honest and reserves custom work for real differentiation.",
+        "b": "No. Custom-by-default inflates cost and maintenance without adding customer value.",
+        "c": "No. The stakeholder's opening ask is an input, not a decision."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. They are available in Plan and Execute and auto mode, which is a real design constraint.",
+        "b": "No. That is exactly the constraint to design around.",
+        "c": "No. Remote MCP servers are fully supported for Assistant."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Approvals, validation, or custom business logic before a write is a documented custom action use case.",
+        "b": "No. A verified public server will not carry the customer's internal approval logic.",
+        "c": "No. Search does not write."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Dynamic tool choice plus interoperability is the MCP signal.",
+        "b": "No. A single fixed call is deterministic work for a custom action.",
+        "c": "No. MCP exists to reach external tools and data."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Same primitive, different ownership and build cost.",
+        "b": "Reversed. The platform skill is native; the partner-authored methodology is custom.",
+        "c": "Reversed. The verified public server is native; the customer-hosted internal one is custom."
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "module_id": "accred-delivery-lead",
+  "title": "Delivery Lead",
+  "version": "0.1.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "accreditation_id": "accred-delivery-lead",
+  "required_modules": [
+    "SRV-101",
+    "SRV-102",
+    "SRV-103",
+    "SRV-104",
+    "SRV-201",
+    "SRV-202",
+    "ACC-105"
+  ],
+  "assessment_type": "Quiz"
+}

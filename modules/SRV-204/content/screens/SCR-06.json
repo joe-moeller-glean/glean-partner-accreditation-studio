@@ -1,0 +1,35 @@
+{
+  "id": "SCR-06",
+  "archetype": "A5",
+  "objective": "OBJ-01",
+  "eyebrow": "Tuning",
+  "title": "Memory and model size are usual suspects",
+  "body": "Too much memory leads to slower, more expensive runs with wandering answers. Too little creates brittle agents that forget constraints or prior results.",
+  "table": {
+    "caption": "Memory options and their intended use.",
+    "head": [
+      "Setting",
+      "Use it for"
+    ],
+    "rows": [
+      [
+        "All previous steps",
+        "Short flows or complex reasoning"
+      ],
+      [
+        "Only immediate previous step",
+        "Default for formatting and cleanup"
+      ],
+      [
+        "No memory",
+        "Independent operations"
+      ]
+    ]
+  },
+  "footnote": "Use small and fast models for simple transforms; reserve larger models only where reasoning clearly benefits the outcome.",
+  "claims": [
+    "C-80",
+    "C-81",
+    "C-82"
+  ]
+}

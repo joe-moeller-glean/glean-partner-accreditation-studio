@@ -1,0 +1,85 @@
+{
+  "id": "SCR-04",
+  "archetype": "A5",
+  "objective": "OBJ-01",
+  "eyebrow": "Order matters",
+  "title": "Prerequisite chain",
+  "table": {
+    "caption": "Each module unlocks the next. Waves indicate release sequencing.",
+    "head": [
+      "Module",
+      "Prerequisite",
+      "Wave"
+    ],
+    "rows": [
+      [
+        "FND-104 Operating model",
+        "FND-103",
+        "Wave 1"
+      ],
+      [
+        "FND-105 Construct choice",
+        "FND-104",
+        "Wave 1"
+      ],
+      [
+        "BLD-101 Building with Glean",
+        "TEC-101",
+        "Wave 1"
+      ],
+      [
+        "BLD-102 Actions and MCP",
+        "BLD-101",
+        "Wave 1"
+      ],
+      [
+        "BLD-103 Actions workshop",
+        "BLD-102",
+        "Wave 1"
+      ],
+      [
+        "BLD-104 Advanced building lab",
+        "BLD-101",
+        "Wave 1"
+      ],
+      [
+        "SRV-204 Advanced debugging",
+        "BLD-104",
+        "Wave 2"
+      ],
+      [
+        "BLD-207 Evaluation and QA",
+        "BLD-104",
+        "Wave 3"
+      ],
+      [
+        "BLD-208 Governance and safety",
+        "BLD-104",
+        "Wave 3"
+      ],
+      [
+        "SOL-203 Vertical design",
+        "SOL-202",
+        "Wave 3"
+      ],
+      [
+        "ACC-104 Builder accreditation",
+        "BLD-208",
+        "Wave 3"
+      ]
+    ]
+  },
+  "claims": [
+    "C-88",
+    "C-89",
+    "C-90",
+    "C-91",
+    "C-92",
+    "C-93",
+    "C-94",
+    "C-95",
+    "C-96",
+    "C-97",
+    "C-98"
+  ]
+}

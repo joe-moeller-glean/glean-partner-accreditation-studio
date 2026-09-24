@@ -1,0 +1,41 @@
+{
+  "module_id": "BLD-102",
+  "assets": [
+    {
+      "asset_id": "BLD-102-A01",
+      "path": "assets/svg/bld-102-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Four cards defining skills as reusable instructions and expertise, actions as tool calls reading or writing systems, MCP as an open protocol exposing tools and data, and agents as the governed workflow wrapper.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-49"
+      ],
+      "alt": "Four definition cards for skills, actions, MCP, and agents.",
+      "bytes": 3348
+    },
+    {
+      "asset_id": "BLD-102-A02",
+      "path": "assets/svg/bld-102-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Three numbered support statements: remote MCP servers fully supported for Assistant; MCP-backed tools available in Agents Plan and Execute mode and auto mode; MCP tools not available as individual single-step selections in Agent Builder.",
+      "screen_id": "SCR-05",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-57",
+        "C-58",
+        "C-59"
+      ],
+      "alt": "Numbered diagram of three MCP support and constraint statements across Assistant and Agents.",
+      "bytes": 4447
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "SCR-03",
+  "archetype": "A4",
+  "objective": "OBJ-01",
+  "eyebrow": "Anatomy",
+  "title": "What production-ready actually requires",
+  "body": "Each competency agent must implement at least 3 discrete steps beyond simple retrieval, including at least one thinking or transformation step.",
+  "asset": "BLD-104-A01",
+  "claims": [
+    "C-06",
+    "C-07",
+    "C-08"
+  ]
+}

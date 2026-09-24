@@ -1,0 +1,17 @@
+module_id: BLD-101
+title: Building with Glean
+learning_path: Builder Path
+request_type: single
+audience: [Builders, Architects]
+level: 100
+learning_outcomes:
+  - "Inventory what partners can build with agents, actions, APIs, and integration points."
+  - "Describe how the build motion converts into reusable partner IP."
+prerequisites: [TEC-101]
+target_hours: 0.5
+mastery_score: 80
+assessment_type: Quiz
+wave: Wave 1
+accreditation: Agents
+source_owners: [Joe Moeller, Katya Alfaro, Matt Schenck]
+publish_mode: manual_review

@@ -1,0 +1,101 @@
+{
+  "module_id": "FND-104",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "What does Glean provide over company knowledge?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A trusted AI layer powering enterprise search, assistants, agents, and workflow automation."
+        },
+        {
+          "id": "b",
+          "text": "A standalone chatbot that indexes only public web content."
+        },
+        {
+          "id": "c",
+          "text": "A data warehouse that replaces existing systems of record."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-02",
+      "stem": "Which statement correctly describes agents in the operating model?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agents are the governed workflow wrapper that packages skills, tools, and knowledge together."
+        },
+        {
+          "id": "b",
+          "text": "Agents are an open protocol for exposing tools to AI apps."
+        },
+        {
+          "id": "c",
+          "text": "Agents are reusable instruction templates loaded when relevant."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "A customer needs deterministic execution against a legacy in-house system. Which primitive fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A custom action."
+        },
+        {
+          "id": "b",
+          "text": "A skill."
+        },
+        {
+          "id": "c",
+          "text": "Enterprise search."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "When should a partner reach for MCP rather than a custom action?",
+      "options": [
+        {
+          "id": "a",
+          "text": "When open-standard interoperability and reusable tool access across ecosystems matter."
+        },
+        {
+          "id": "b",
+          "text": "When the customer wants one hard-coded write to a single internal endpoint."
+        },
+        {
+          "id": "c",
+          "text": "When no tools are involved at all."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "Which partner activity is described as creating reusable IP and higher-margin offerings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Building custom agents, connectors, and embedded experiences."
+        },
+        {
+          "id": "b",
+          "text": "Increasing licence discount depth."
+        },
+        {
+          "id": "c",
+          "text": "Limiting engagements to one-off configuration work."
+        }
+      ]
+    }
+  ]
+}

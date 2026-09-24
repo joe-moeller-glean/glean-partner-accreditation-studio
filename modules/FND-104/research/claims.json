@@ -1,0 +1,135 @@
+{
+  "module_id": "FND-104",
+  "claims": [
+    {
+      "claim_id": "C-49",
+      "text": "The mental model is: skills are reusable instructions, templates, and domain expertise; actions are tool calls that read from or write to systems; MCP is an open protocol for exposing tools and data to AI apps and agents; and agents are the governed workflow wrapper that packages skills, tools, and knowledge together.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-50",
+      "text": "Use skills when you need repeatable methodology, domain expertise, or consistent reasoning.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-51",
+      "text": "Use custom actions when you need deterministic execution against an internal API, legacy system, or proprietary workflow.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-52",
+      "text": "Use MCP when you want open-standard interoperability and reusable tool access across ecosystems.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-53",
+      "text": "Use agents when you need scheduled, event-driven, or governed end-to-end workflows.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-64",
+      "text": "Skills are reusable packages of instructions, templates, and tools that teach Assistant how to execute specific tasks with domain expertise, and they are loaded only when relevant.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-67",
+      "text": "Skills standardize reasoning, actions standardize execution, MCP standardizes interoperability, and agents operationalize all three into production workflows.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-88",
+      "text": "FND-104 explains the Glean operating model for search, assistants, and agents, and where each construct fits for customer outcomes.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-108",
+      "text": "Glean provides a trusted AI layer over company knowledge, powering enterprise search, assistants, agents, and workflow automation.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-109",
+      "text": "Partners differentiate their business with custom agents, connectors, and embedded experiences that create reusable IP and higher-margin offerings.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-110",
+      "text": "Technology partners build on Glean's open, extensible platform using APIs, MCP-based tools, embedded experiences, agent extensions, and the connector framework.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-111",
+      "text": "The Glean platform spans Search, Assistant, and Agents.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-112",
+      "text": "Partner value-creation motions are source, deploy, build, and scale.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

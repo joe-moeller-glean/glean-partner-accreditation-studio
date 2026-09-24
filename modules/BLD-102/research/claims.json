@@ -1,0 +1,155 @@
+{
+  "module_id": "BLD-102",
+  "claims": [
+    {
+      "claim_id": "C-49",
+      "text": "The mental model is: skills are reusable instructions, templates, and domain expertise; actions are tool calls that read from or write to systems; MCP is an open protocol for exposing tools and data to AI apps and agents; and agents are the governed workflow wrapper that packages skills, tools, and knowledge together.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-51",
+      "text": "Use custom actions when you need deterministic execution against an internal API, legacy system, or proprietary workflow.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-54",
+      "text": "MCP is an open standard for connecting AI assistants to external data sources and tools.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-55",
+      "text": "Glean can act as both an MCP server and an MCP host.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-56",
+      "text": "For partners, MCP means faster integrations, less lock-in, and easier reuse across hosts such as Cursor, Claude, ChatGPT, and VS Code.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-57",
+      "text": "Remote MCP servers are fully supported for Assistant.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-58",
+      "text": "In Agents, MCP-backed tools are available in Plan and Execute mode and in auto mode.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-59",
+      "text": "MCP tools are not available as individual single-step selections in Agent Builder.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-60",
+      "text": "Custom actions are org-defined automations for cases where built-in actions and action packs are not enough.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-61",
+      "text": "Custom actions fit internal APIs or services Glean does not support out of the box, legacy or in-house systems, and approvals, validation, or custom business logic before writing to a system.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-62",
+      "text": "Builders add a custom action as a step in Agent Builder, and its inputs can be fixed values, user inputs, or AI-predicted values.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-63",
+      "text": "Custom actions can be combined with By Glean and By datasource actions in the same workflow.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-68",
+      "text": "An example custom action is an internal IT onboarding action that creates a request and returns a request ID plus a link.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-91",
+      "text": "BLD-102 explains actions, MCP, architecture choices, and when to use each approach.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-92",
+      "text": "BLD-103 is a hands-on workshop building actions and MCP-backed flows.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

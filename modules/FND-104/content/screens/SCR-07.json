@@ -1,0 +1,32 @@
+{
+  "id": "SCR-07",
+  "archetype": "A12",
+  "objective": "OBJ-03",
+  "eyebrow": "Checkpoint",
+  "title": "Where does partner value compound?",
+  "type": "choice",
+  "prompt": "Pick the statement that describes durable partner differentiation.",
+  "options": [
+    {
+      "id": "o1",
+      "text": "Custom agents, connectors, and embedded experiences that create reusable IP and higher-margin offerings.",
+      "correct": true,
+      "feedback": "Correct. Partners differentiate with custom agents, connectors, and embedded experiences that create reusable IP and higher-margin offerings."
+    },
+    {
+      "id": "o2",
+      "text": "Reselling licences at the largest possible discount.",
+      "feedback": "Not this one. Discount depth is not differentiation, and it does not create reusable IP."
+    },
+    {
+      "id": "o3",
+      "text": "Rebuilding enterprise search from scratch for each customer.",
+      "feedback": "Not this one. Search is platform capability; partner value sits in extension and workflow work."
+    }
+  ],
+  "takeaway": "Technology partners build on Glean's open, extensible platform using APIs, MCP-based tools, embedded experiences, agent extensions, and the connector framework.",
+  "claims": [
+    "C-109",
+    "C-110"
+  ]
+}

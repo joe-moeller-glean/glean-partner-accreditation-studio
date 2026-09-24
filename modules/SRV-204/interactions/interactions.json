@@ -1,0 +1,21 @@
+{
+  "module_id": "SRV-204",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-05",
+      "screen_id": "SCR-05",
+      "kind": "sort",
+      "objective_id": "OBJ-02",
+      "archetype": "A9",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-75",
+        "C-76",
+        "C-77",
+        "C-78",
+        "C-79"
+      ]
+    }
+  ]
+}

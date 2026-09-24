@@ -1,0 +1,28 @@
+{
+  "id": "SCR-06",
+  "archetype": "A8",
+  "objective": "OBJ-03",
+  "eyebrow": "Worked example",
+  "title": "From workflow to agent requirements",
+  "steps": [
+    {
+      "title": "Name the owner",
+      "body": "Assign a project lead and supporting experts for the candidate agent."
+    },
+    {
+      "title": "Baseline it",
+      "body": "Document the current process including the performance numbers that will later show success."
+    },
+    {
+      "title": "Design the future state",
+      "body": "Plan how the process changes with the agent in place, including expected improvements and business benefit."
+    },
+    {
+      "title": "Plan the build",
+      "body": "Cover scope, key dates, success measures, and security and data compliance checks."
+    }
+  ],
+  "claims": [
+    "C-37"
+  ]
+}

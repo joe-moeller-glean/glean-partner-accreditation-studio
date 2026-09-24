@@ -1,0 +1,75 @@
+{
+  "module_id": "BLD-101",
+  "claims": [
+    {
+      "claim_id": "C-49",
+      "text": "The mental model is: skills are reusable instructions, templates, and domain expertise; actions are tool calls that read from or write to systems; MCP is an open protocol for exposing tools and data to AI apps and agents; and agents are the governed workflow wrapper that packages skills, tools, and knowledge together.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-67",
+      "text": "Skills standardize reasoning, actions standardize execution, MCP standardizes interoperability, and agents operationalize all three into production workflows.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-90",
+      "text": "BLD-101 introduces what can be built with agents, actions, APIs, and integration points.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-91",
+      "text": "BLD-102 explains actions, MCP, architecture choices, and when to use each approach.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-109",
+      "text": "Partners differentiate their business with custom agents, connectors, and embedded experiences that create reusable IP and higher-margin offerings.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-110",
+      "text": "Technology partners build on Glean's open, extensible platform using APIs, MCP-based tools, embedded experiences, agent extensions, and the connector framework.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-111",
+      "text": "The Glean platform spans Search, Assistant, and Agents.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

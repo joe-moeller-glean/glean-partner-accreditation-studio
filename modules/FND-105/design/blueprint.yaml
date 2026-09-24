@@ -1,0 +1,29 @@
+module_id: FND-105
+title: Choosing the Right Construct / Primitive
+level: 200
+target_hours: 0.8
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Apply a decision rule that selects between search, assistant, prompt, agent, action, MCP, and connector."
+    screens: [SCR-01, SCR-02, SCR-03, SCR-05, SCR-07]
+    assessment_items: [Q-02, Q-03]
+  - id: OBJ-02
+    text: "Justify native-first sequencing and name the conditions that warrant custom work."
+    screens: [SCR-04, SCR-08]
+    assessment_items: [Q-01, Q-04]
+  - id: OBJ-03
+    text: "Defend a construct choice against a stakeholder who asked for something else."
+    screens: [SCR-06, SCR-09]
+    assessment_items: [Q-05]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 9
+distinct_archetypes: [A1, A13, A2, A3, A4, A5, A6, A9, quiz]
+assessment_type: Scenario exercise

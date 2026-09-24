@@ -1,0 +1,45 @@
+{
+  "module_id": "BLD-104",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Retrieval alone never satisfies the requirement.",
+        "b": "No. That is below the required step count and has no thinking step.",
+        "c": "No. The write requirement is separate from the step-count requirement."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Scope boundaries are part of the build, not an afterthought.",
+        "b": "No. Guardrails scope retrieval; tool calls are a separate concern.",
+        "c": "The opposite. Guardrails define what it must refuse."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. It keeps the step cheap and focused.",
+        "b": "No. That is for short flows or complex reasoning.",
+        "c": "No. That is for independent operations."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, and right-sizing is reported to cut cost by 60%.",
+        "b": "No. That inflates cost without reliable benefit.",
+        "c": "No. Reserve larger models for genuine reasoning steps."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Loops process a collection.",
+        "b": "No. Divergent paths are conditional branching.",
+        "c": "No. That is an event or content-based trigger."
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "module_id": "ACC-104",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "Every agent worked. None had a documented requirements conversation, an architecture review, or a written business impact rationale. The build was the easy half.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

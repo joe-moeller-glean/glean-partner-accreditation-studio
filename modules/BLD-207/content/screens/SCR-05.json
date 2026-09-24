@@ -1,0 +1,17 @@
+{
+  "id": "SCR-05",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "Usage signals",
+  "title": "Adoption data is quality data",
+  "bullets": [
+    "Track the number of agent runs, count of distinct users, frequency of use, and patterns of engagement over time.",
+    "High abandonment rates or declining usage can indicate user friction or changing needs.",
+    "Gather qualitative and quantitative input from users, not just system metrics."
+  ],
+  "claims": [
+    "C-46",
+    "C-47",
+    "C-45"
+  ]
+}

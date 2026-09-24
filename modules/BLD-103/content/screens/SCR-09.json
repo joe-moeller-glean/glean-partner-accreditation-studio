@@ -1,0 +1,20 @@
+{
+  "id": "SCR-09",
+  "archetype": "A13",
+  "objective": "OBJ-02",
+  "eyebrow": "Job aid",
+  "title": "Pre-flight list for your team",
+  "bullets": [
+    "Confirm RESTful API experience across the attending engineers.",
+    "Block 2 to 4 hours; the build is the second half, not an appendix.",
+    "Decide in advance which internal system the custom action will target.",
+    "Remember MCP tools cannot be selected as single steps in Agent Builder."
+  ],
+  "badge": "Actions and MCP workshop: complete",
+  "signature": true,
+  "claims": [
+    "C-106",
+    "C-105",
+    "C-59"
+  ]
+}

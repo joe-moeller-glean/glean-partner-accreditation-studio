@@ -1,0 +1,9 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-01",
+  "eyebrow": "Cold open",
+  "title": "Five agents built. Submission rejected.",
+  "body": "Every agent worked. None had a documented requirements conversation, an architecture review, or a written business impact rationale. The build was the easy half.",
+  "claims": []
+}

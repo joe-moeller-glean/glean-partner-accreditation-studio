@@ -1,0 +1,20 @@
+{
+  "module_id": "accred-agents",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-05",
+      "screen_id": "SCR-05",
+      "kind": "choice",
+      "objective_id": "OBJ-02",
+      "archetype": "A12",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-03",
+        "C-04",
+        "C-05",
+        "C-15"
+      ]
+    }
+  ]
+}

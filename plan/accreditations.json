@@ -1,0 +1,119 @@
+{
+  "source": "Partner Accreditation & Competency Roadmap — Module Tracker accreditation table",
+  "source_url": "https://docs.google.com/spreadsheets/d/16BS8Y4vawNmNqHJaRY5izRZUGhx_O_14jQefb6ifZ8Q/edit?usp=sharing",
+  "accreditations": [
+    {
+      "name": "Glean Foundations",
+      "directory": "accred-foundations",
+      "required_modules": [
+        "FND-101",
+        "FND-102",
+        "FND-103",
+        "FND-107"
+      ]
+    },
+    {
+      "name": "Seller / Seller Advanced",
+      "directory": "accred-seller-seller-advanced",
+      "required_modules": [
+        "SAL-101",
+        "SAL-102",
+        "SAL-103",
+        "SAL-203",
+        "ACC-101"
+      ]
+    },
+    {
+      "name": "Technical Advisor",
+      "directory": "accred-technical-advisor",
+      "required_modules": [
+        "SOL-101",
+        "SOL-102",
+        "SOL-103",
+        "SOL-201",
+        "SOL-204",
+        "ACC-102"
+      ]
+    },
+    {
+      "name": "Builder",
+      "directory": "accred-builder",
+      "required_modules": [
+        "BLD-101",
+        "BLD-102",
+        "BLD-103",
+        "BLD-104",
+        "BLD-201",
+        "BLD-202",
+        "ACC-104"
+      ]
+    },
+    {
+      "name": "Solution Architect",
+      "directory": "accred-solution-architect",
+      "required_modules": [
+        "TEC-101",
+        "TEC-102",
+        "TEC-103",
+        "TEC-104",
+        "TEC-105",
+        "TEC-201",
+        "ACC-103"
+      ]
+    },
+    {
+      "name": "Delivery Lead",
+      "directory": "accred-delivery-lead",
+      "required_modules": [
+        "SRV-101",
+        "SRV-102",
+        "SRV-103",
+        "SRV-104",
+        "SRV-201",
+        "SRV-202",
+        "ACC-105"
+      ]
+    },
+    {
+      "name": "Support & Adoption",
+      "directory": "accred-support-adoption",
+      "required_modules": [
+        "OPS-101",
+        "OPS-102",
+        "OPS-103",
+        "OPS-104",
+        "OPS-105",
+        "ACC-106"
+      ]
+    },
+    {
+      "name": "Industry Specialist",
+      "directory": "accred-industry-specialist",
+      "required_modules": [
+        "SOL-202",
+        "SOL-203",
+        "2+ IND modules"
+      ]
+    },
+    {
+      "name": "Agents",
+      "directory": "accred-agents",
+      "required_modules": [
+        "FND-104",
+        "FND-105",
+        "BLD-101",
+        "BLD-102",
+        "BLD-103",
+        "BLD-104",
+        "SRV-204",
+        "BLD-207",
+        "BLD-208",
+        "SOL-203",
+        "ACC-104"
+      ],
+      "origin": "Added 2026-09-02. Not present in the tracker badge table; composed from the tracker's agent-scoped modules and aligned to the Agent Building Competency in the Glean Partner Competency Program Guide.",
+      "competency_alignment": "Agent Building Competency (level 201)",
+      "source_url": "https://docs.google.com/document/d/1Dy5ZFo2lyT6jDGoYMU7UlGrqp6IklLc-kIH7PbIWt9w"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "module_id": "accred-agents",
+  "title": "Agents",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "accreditation_id": "accred-agents",
+  "level": "200",
+  "target_hours": 0.5,
+  "assessment_type": "Quiz",
+  "required_modules": [
+    "FND-104",
+    "FND-105",
+    "BLD-101",
+    "BLD-102",
+    "BLD-103",
+    "BLD-104",
+    "BLD-207",
+    "BLD-208",
+    "SRV-204",
+    "SOL-203",
+    "ACC-104"
+  ]
+}

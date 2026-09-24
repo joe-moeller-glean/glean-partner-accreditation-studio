@@ -1,0 +1,18 @@
+module_id: FND-105
+title: Choosing the Right Construct / Primitive
+learning_path: Program Foundations
+request_type: single
+audience: [Solution advisors, Builders, Architects]
+level: 200
+learning_outcomes:
+  - "Apply a decision rule that selects between search, assistant, prompt, agent, action, MCP, and connector."
+  - "Justify native-first sequencing and name the conditions that warrant custom work."
+  - "Defend a construct choice against a stakeholder who asked for something else."
+prerequisites: [FND-104]
+target_hours: 0.8
+mastery_score: 80
+assessment_type: Scenario exercise
+wave: Wave 1
+accreditation: Agents
+source_owners: [Joe Moeller, Katya Alfaro, Matt Schenck]
+publish_mode: manual_review

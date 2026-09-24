@@ -1,0 +1,12 @@
+{
+  "module_id": "BLD-208",
+  "title": "Agent Governance & Safety",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "accreditation_id": "accred-agents",
+  "level": "300",
+  "target_hours": 1.0,
+  "assessment_type": "Scenario review"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "SCR-04",
+  "archetype": "A5",
+  "objective": "OBJ-02",
+  "eyebrow": "Compare",
+  "title": "Native and custom are the same primitive",
+  "body": "Choosing custom is a cost and ownership decision, not a capability upgrade. Pair each need against the native option before you price a build.",
+  "asset": "FND-105-A02",
+  "claims": [
+    "C-65"
+  ]
+}

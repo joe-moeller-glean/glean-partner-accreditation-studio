@@ -1,0 +1,47 @@
+{
+  "module_id": "ACC-104",
+  "assets": [
+    {
+      "asset_id": "ACC-104-A01",
+      "path": "assets/svg/acc-104-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Four competency requirements: complete five technical accreditations in the Partner Portal, complete a Glean-delivered agent building workshop, build five functioning production-ready agents, and pass validation with a Glean Partner Solutions Engineer.",
+      "screen_id": "SCR-04",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-03",
+        "C-04",
+        "C-05",
+        "C-16"
+      ],
+      "alt": "Numbered diagram of the four Agent Building Competency requirements.",
+      "bytes": 4474
+    },
+    {
+      "asset_id": "ACC-104-A02",
+      "path": "assets/svg/acc-104-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Six capabilities that at least one agent in the portfolio must demonstrate: writing to other systems, calling more than one tool in a single run, conditional branching, loops over a collection, a schedule-based trigger, and an event or content-based trigger.",
+      "screen_id": "SCR-06",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-09",
+        "C-10",
+        "C-11",
+        "C-12",
+        "C-13",
+        "C-14"
+      ],
+      "alt": "Six cards listing the portfolio-level agent capabilities that at least one agent must demonstrate.",
+      "bytes": 4553
+    }
+  ]
+}

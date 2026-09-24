@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" width="100%" preserveAspectRatio="xMidYMid meet">
+<title>Lab readiness</title>
+<desc>Three readiness layers for the workshop: advanced level designation, two to four hour duration, and RESTful API experience as prerequisite.</desc>
+<rect x="0" y="0" width="560" height="340" fill="#F6F3EB"/>
+<text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">Lab readiness</text>
+<rect x="24" y="64" width="512" height="76" rx="8" fill="#343CED" stroke="#000000" stroke-width="2"/>
+<text x="40" y="90" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">Advanced level</text>
+<text x="40" y="112" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" text-anchor="start">Assumes the fundamentals from BLD-102 are already</text>
+<text x="40" y="129" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" text-anchor="start">solid</text>
+<rect x="24" y="152" width="512" height="76" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="40" y="178" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">2 to 4 hours</text>
+<text x="40" y="200" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">Delivered in person or virtually</text>
+<rect x="24" y="240" width="512" height="76" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="40" y="266" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">RESTful API experience</text>
+<text x="40" y="288" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">Stated prerequisite for the course</text>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-01",
+  "eyebrow": "Cold open",
+  "title": "The design review stalls on one word: tool",
+  "body": "Three engineers use tool to mean three different things. One means an action. One means an MCP server. One means a skill. The review cannot finish until the vocabulary does.",
+  "claims": []
+}

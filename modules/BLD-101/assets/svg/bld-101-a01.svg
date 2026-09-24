@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 308" width="100%" preserveAspectRatio="xMidYMid meet">
+<title>The partner build surface</title>
+<desc>Four cards covering the partner build surface: agents and agent extensions, actions and MCP-based tools, APIs and the Client API with Web SDK, and the connector framework with embedded experiences.</desc>
+<rect x="0" y="0" width="620" height="308" fill="#F6F3EB"/>
+<text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">The partner build surface</text>
+<rect x="24" y="64" width="280" height="104" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="24" y="64" width="280" height="6" rx="3" fill="#343CED"/>
+<text x="38" y="94" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Agents and agent</text>
+<text x="38" y="111" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">extensions</text>
+<text x="38" y="130" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Repeatable, governed workflows</text>
+<text x="38" y="144" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">built on customer knowledge</text>
+<rect x="316" y="64" width="280" height="104" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="316" y="64" width="280" height="6" rx="3" fill="#343CED"/>
+<text x="330" y="94" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Actions and MCP-based</text>
+<text x="330" y="111" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">tools</text>
+<text x="330" y="130" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Read from and write to the</text>
+<text x="330" y="144" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">systems work already lives in</text>
+<rect x="24" y="180" width="280" height="104" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="24" y="180" width="280" height="6" rx="3" fill="#343CED"/>
+<text x="38" y="210" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">APIs and embedded</text>
+<text x="38" y="227" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">experiences</text>
+<text x="38" y="246" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Put Glean inside the</text>
+<text x="38" y="260" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">applications users already open</text>
+<rect x="316" y="180" width="280" height="104" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="316" y="180" width="280" height="6" rx="3" fill="#343CED"/>
+<text x="330" y="210" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Connector framework</text>
+<text x="330" y="228" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Bring proprietary sources into</text>
+<text x="330" y="242" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">the knowledge layer</text>
+</svg>

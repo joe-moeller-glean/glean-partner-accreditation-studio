@@ -1,0 +1,69 @@
+{
+  "module_id": "AGT-101",
+  "run_date": "2026-09-14",
+  "claims_total": 62,
+  "claims_verified": 62,
+  "claims_unsourced": 0,
+  "sources_total": 12,
+  "tier_1": 11,
+  "tier_2": 1,
+  "claims_per_source": {
+    "D-01": 4,
+    "D-02": 17,
+    "D-08": 5,
+    "D-07": 3,
+    "D-03": 7,
+    "D-04": 6,
+    "D-10": 3,
+    "D-05": 5,
+    "D-06": 5,
+    "D-09": 2,
+    "S-01": 4,
+    "A-01": 1
+  },
+  "research_method": "Product documentation read directly from docs.glean.com through Glean, plus the internal Partner Competency Program Guide and the Glean Academy course reference. Every claim is a direct statement in its cited page, not a paraphrase of a paraphrase.",
+  "corrections_made_during_research": [
+    {
+      "item": "Trigger taxonomy",
+      "planned": "schedule vs event vs user, invented for the plan",
+      "actual": "chat message, input form, content, and schedule",
+      "source": "https://docs.glean.com/agents/concepts/triggers"
+    },
+    {
+      "item": "Central decision",
+      "planned": "choose between skill, action, MCP, and agent (from older partner decks)",
+      "actual": "Auto mode vs Workflow mode, with independent agents as a third model",
+      "source": "https://docs.glean.com/agents/how-agents-work"
+    },
+    {
+      "item": "Agent anatomy",
+      "planned": "six invented parts",
+      "actual": "five documented building blocks: goal and instructions, knowledge and context, tools and actions, execution, output and memory",
+      "source": "https://docs.glean.com/agents/how-agents-work"
+    },
+    {
+      "item": "Lifecycle",
+      "planned": "generic plan/build/measure",
+      "actual": "the six-stage ADLC with five named principles and risk-tiered process",
+      "source": "https://docs.glean.com/agents/agent-development-lifecycle/adlc"
+    }
+  ],
+  "disclosed_inference": [
+    {
+      "location": "INT-risk thresholds",
+      "documented": "the three tiers (personal, team utility, enterprise) and their process depths",
+      "inferred": "how many selected factors move the learner between tiers",
+      "handling": "disclosed in the module itself, visible to the learner, and recorded here"
+    }
+  ],
+  "freshness": {
+    "all_sources_verified_on": "2026-09-14",
+    "newest_source_update": "2026-09-12",
+    "oldest_source_update": "2026-07-10",
+    "reverify_by": "2026-12-14",
+    "beta_features_flagged_in_content": [
+      "independent agents"
+    ]
+  },
+  "state": "PASS"
+}

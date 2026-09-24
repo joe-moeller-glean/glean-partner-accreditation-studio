@@ -1,0 +1,46 @@
+{
+  "module_id": "BLD-207",
+  "assets": [
+    {
+      "asset_id": "BLD-207-A01",
+      "path": "assets/svg/bld-207-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Four-step evaluation loop: define success criteria and KPIs during planning, execute comprehensive testing and refinement cycles, compare actual outcomes against targeted KPIs, then feed insights back into planning.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-37",
+        "C-39",
+        "C-45",
+        "C-48"
+      ],
+      "alt": "Four-step flow diagram of the agent evaluation loop from criteria definition through to feeding insights back into planning.",
+      "bytes": 4376
+    },
+    {
+      "asset_id": "BLD-207-A02",
+      "path": "assets/svg/bld-207-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Four coverage areas derived from competency requirements: multi-step behaviour including the thinking step, retrieval guardrail boundaries, fallback behaviour for low-confidence or out-of-scope questions, and tool and write paths.",
+      "screen_id": "SCR-04",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-06",
+        "C-07",
+        "C-08",
+        "C-09",
+        "C-27"
+      ],
+      "alt": "Numbered diagram of four required agent test coverage areas.",
+      "bytes": 4144
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "The model",
+  "title": "One platform over company knowledge",
+  "body": "Glean provides a trusted AI layer over company knowledge, powering enterprise search, assistants, agents, and workflow automation. The platform spans Search, Assistant, and Agents.",
+  "asset": "FND-104-A01",
+  "claims": [
+    "C-108",
+    "C-111"
+  ]
+}

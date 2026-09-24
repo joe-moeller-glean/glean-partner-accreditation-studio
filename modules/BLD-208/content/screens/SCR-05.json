@@ -1,0 +1,31 @@
+{
+  "id": "SCR-05",
+  "archetype": "A5",
+  "objective": "OBJ-02",
+  "eyebrow": "Compare",
+  "title": "Guardrails and fallbacks do different jobs",
+  "table": {
+    "caption": "Two controls, two failure modes they prevent.",
+    "head": [
+      "Control",
+      "What it constrains",
+      "Failure it prevents"
+    ],
+    "rows": [
+      [
+        "Retrieval guardrails",
+        "The content sources in play and the answerable scope",
+        "Confident answers drawn from sources that should be out of bounds"
+      ],
+      [
+        "Fallback behaviour",
+        "What happens when confidence is low or the ask is out of scope",
+        "A fabricated answer where a refusal or handoff was correct"
+      ]
+    ]
+  },
+  "claims": [
+    "C-07",
+    "C-08"
+  ]
+}

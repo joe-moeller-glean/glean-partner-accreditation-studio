@@ -1,0 +1,14 @@
+{
+  "id": "SCR-09",
+  "archetype": "A14",
+  "objective": "OBJ-03",
+  "eyebrow": "Next step",
+  "title": "One good vertical design becomes an accelerator",
+  "body": "A well-established agent library serves as the automation hub where proven agents are cataloged, documented, and made accessible across teams.",
+  "badge": "Vertical agent design: complete",
+  "signature": true,
+  "claims": [
+    "C-33",
+    "C-99"
+  ]
+}

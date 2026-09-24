@@ -1,0 +1,101 @@
+{
+  "module_id": "BLD-104",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "What is the minimum step structure for a competency agent?",
+      "options": [
+        {
+          "id": "a",
+          "text": "At least 3 discrete steps beyond simple retrieval, including at least one thinking or transformation step."
+        },
+        {
+          "id": "b",
+          "text": "One retrieval step and one summary step."
+        },
+        {
+          "id": "c",
+          "text": "Any number of steps, as long as one writes to a system."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-01",
+      "stem": "What must retrieval guardrails accomplish?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Constrain the agent to a well-defined set of content sources with clear instructions on what it can and cannot answer."
+        },
+        {
+          "id": "b",
+          "text": "Prevent the agent from calling any external tools."
+        },
+        {
+          "id": "c",
+          "text": "Force the agent to answer every question asked."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "Which memory setting is the default for formatting and cleanup steps?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only the immediate previous step."
+        },
+        {
+          "id": "b",
+          "text": "All previous steps."
+        },
+        {
+          "id": "c",
+          "text": "No memory."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "What is the stated model selection strategy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Small and fast models for simple transforms; larger models only where reasoning clearly benefits the outcome."
+        },
+        {
+          "id": "b",
+          "text": "Always use the largest available model."
+        },
+        {
+          "id": "c",
+          "text": "Always use the smallest available model."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "Which requirement needs a loop rather than branching?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Applying the same treatment to every item in a returned collection."
+        },
+        {
+          "id": "b",
+          "text": "Taking a different path for approved versus rejected records."
+        },
+        {
+          "id": "c",
+          "text": "Starting the agent when a document changes."
+        }
+      ]
+    }
+  ]
+}

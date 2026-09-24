@@ -1,0 +1,13 @@
+{
+  "id": "SCR-05",
+  "archetype": "A4",
+  "objective": "OBJ-03",
+  "eyebrow": "The specification",
+  "title": "Four questions a vertical design must answer",
+  "body": "Design work carries into build: infrastructure preparation configures connectors and indexing for any new sources.",
+  "asset": "SOL-203-A02",
+  "claims": [
+    "C-38",
+    "C-37"
+  ]
+}

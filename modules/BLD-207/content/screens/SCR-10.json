@@ -1,0 +1,20 @@
+{
+  "id": "SCR-10",
+  "archetype": "A13",
+  "objective": "OBJ-03",
+  "eyebrow": "Job aid",
+  "title": "Regression checklist",
+  "bullets": [
+    "Baseline captured before the change, using criteria defined in planning.",
+    "Guardrail, fallback, and tool-path cases re-run after every prompt or source change.",
+    "Run count, distinct users, and engagement pattern compared against baseline.",
+    "Owner sign-off recorded before the change reaches production."
+  ],
+  "badge": "Evaluation and QA: complete",
+  "signature": true,
+  "claims": [
+    "C-37",
+    "C-46",
+    "C-39"
+  ]
+}

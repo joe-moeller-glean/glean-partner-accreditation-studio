@@ -1,0 +1,18 @@
+{
+  "module_id": "accred-technical-advisor",
+  "title": "Technical Advisor",
+  "version": "0.1.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "accreditation_id": "accred-technical-advisor",
+  "required_modules": [
+    "SOL-101",
+    "SOL-102",
+    "SOL-103",
+    "SOL-201",
+    "SOL-204",
+    "ACC-102"
+  ],
+  "assessment_type": "Quiz"
+}

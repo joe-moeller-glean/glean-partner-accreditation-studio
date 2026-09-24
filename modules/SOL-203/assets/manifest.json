@@ -1,0 +1,42 @@
+{
+  "module_id": "SOL-203",
+  "assets": [
+    {
+      "asset_id": "SOL-203-A01",
+      "path": "assets/svg/sol-203-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Two-by-two matrix plotting business value against implementation complexity. High value with low complexity is the first build. High value with high complexity is a staged programme. Low value with low complexity is a candidate for user self-service. Low value with high complexity is declined.",
+      "screen_id": "SCR-04",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-36"
+      ],
+      "alt": "Two-by-two matrix plotting business value against implementation complexity with four recommended responses.",
+      "bytes": 3794
+    },
+    {
+      "asset_id": "SOL-203-A02",
+      "path": "assets/svg/sol-203-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Four-part design specification: map the industry workflow and its current baseline metrics, name the data sources and connector needs, define retrieval guardrails and refusal scope, then set governance including approvals and compliance checks.",
+      "screen_id": "SCR-05",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-02",
+      "claim_ids": [
+        "C-97",
+        "C-37",
+        "C-38",
+        "C-07"
+      ],
+      "alt": "Four-step flow diagram of a vertical agent design specification.",
+      "bytes": 4612
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+module_id: BLD-102
+title: Actions & MCP Fundamentals
+learning_path: Builder Path
+request_type: single
+audience: [Builders, Architects]
+level: 100
+learning_outcomes:
+  - "Define actions, MCP, and skills precisely enough to defend a design choice."
+  - "Apply the documented Agent Builder and Assistant support constraints for MCP and custom actions."
+  - "Choose between a custom action and an MCP-backed tool for a stated requirement."
+prerequisites: [BLD-101]
+target_hours: 1.0
+mastery_score: 80
+assessment_type: Quiz
+wave: Wave 1
+accreditation: Agents
+source_owners: [Joe Moeller, Katya Alfaro, Matt Schenck]
+publish_mode: manual_review

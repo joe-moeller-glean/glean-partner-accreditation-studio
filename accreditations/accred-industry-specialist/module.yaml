@@ -1,0 +1,15 @@
+module_id: accred-industry-specialist
+title: Industry Specialist
+learning_path: Industry Specialist Path
+request_type: single
+audience: [Industry Principals]
+level: 
+learning_outcomes: []
+prerequisites: []
+target_hours: 
+mastery_score: 80
+assessment_type: Quiz
+source_owners: []
+publish_mode: automatic_after_green
+accreditation: Industry Specialist
+required_modules: [SOL-202, SOL-203 plus 2+ IND modules]

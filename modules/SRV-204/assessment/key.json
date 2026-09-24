@@ -1,0 +1,45 @@
+{
+  "module_id": "SRV-204",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct, and multi-turn chat is supported in that preview.",
+        "b": "No. It is a toggle in the preview pane.",
+        "c": "No. Naming has nothing to do with it."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. That pairing is what lets you compare intent against result.",
+        "b": "No. It shows the actual inputs and outputs.",
+        "c": "No. Step-level detail is the point of the trace."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. HTTP errors, validation errors, partial writes, and timeouts sit here.",
+        "b": "No. That category covers wrong tool planning and ignored instructions.",
+        "c": "No. Those concern when and whether the agent runs."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. The right tool ran but returned wrong or missing results.",
+        "b": "No. That covers buttons, saves, and permissions.",
+        "c": "No. The instruction was followed; retrieval failed."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. It moves from symptom to root cause in the fewest steps.",
+        "b": "No. Filtering to errors is faster and is the documented approach.",
+        "c": "No. That discards the evidence you need."
+      }
+    }
+  }
+}

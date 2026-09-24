@@ -1,0 +1,18 @@
+{
+  "id": "SCR-04",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "Guardrails",
+  "title": "Say what the agent will not answer",
+  "bullets": [
+    "Configure retrieval guardrails so the agent uses a well-defined set of content sources.",
+    "Give clear instructions for what it can and cannot answer.",
+    "Contain explicit error handling with a defined fallback for low-confidence or out-of-scope questions."
+  ],
+  "footnote": "Agent design best practice is to load and filter context effectively, and to tune for reliability, cost, and performance.",
+  "claims": [
+    "C-07",
+    "C-08",
+    "C-21"
+  ]
+}

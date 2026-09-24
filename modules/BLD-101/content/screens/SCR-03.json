@@ -1,0 +1,13 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "The surface",
+  "title": "Four places partners build",
+  "body": "This path introduces what can be built with agents, actions, APIs, and integration points. Technology partners build using APIs, MCP-based tools, embedded experiences, agent extensions, and the connector framework.",
+  "asset": "BLD-101-A01",
+  "claims": [
+    "C-90",
+    "C-110"
+  ]
+}

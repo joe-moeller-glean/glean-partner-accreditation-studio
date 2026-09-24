@@ -1,0 +1,28 @@
+name: SCORM CI
+on: {pull_request: {}, push: {branches: [main], tags: ["scorm-*"]}}
+permissions: {contents: write}
+jobs:
+  build-test-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Lint module source
+        run: |
+          for m in modules/*/module.json; do
+            python scripts/lint_module.py "$(dirname "$m")" --json "$(dirname "$m")/qa/lint.json"
+          done
+      - name: Build and validate packages
+        run: |
+          mkdir -p dist
+          for m in modules/*/module.json; do python scripts/build_scorm.py --module "$(dirname "$m")" --output dist; done
+          for z in dist/*.zip; do python scripts/validate_scorm.py "$z"; done
+      - name: Source freshness scan
+        continue-on-error: true
+        run: python scripts/watch_sources.py --repo-root . --out plan/refresh-queue.json
+      - uses: actions/upload-artifact@v4
+        with: {name: scorm-packages, path: "dist/*"}
+      - if: startsWith(github.ref, 'refs/tags/scorm-')
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: gh release create "${GITHUB_REF_NAME}" dist/* --generate-notes

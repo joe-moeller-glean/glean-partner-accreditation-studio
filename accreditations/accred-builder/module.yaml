@@ -1,0 +1,15 @@
+module_id: accred-builder
+title: Builder
+learning_path: Builder Path
+request_type: single
+audience: [Builders, Developers]
+level: 
+learning_outcomes: []
+prerequisites: []
+target_hours: 
+mastery_score: 80
+assessment_type: Quiz
+source_owners: []
+publish_mode: automatic_after_green
+accreditation: Builder
+required_modules: [BLD-101, BLD-102, BLD-103, BLD-104, BLD-201, BLD-202, ACC-104]

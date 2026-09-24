@@ -1,0 +1,125 @@
+{
+  "module_id": "BLD-207",
+  "claims": [
+    {
+      "claim_id": "C-06",
+      "text": "Each of the 5 competency agents must implement at least 3 discrete steps beyond simple retrieval, including at least one thinking or transformation step.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-07",
+      "text": "Each of the 5 competency agents must configure retrieval guardrails so the agent uses a well-defined set of content sources and has clear instructions for what it can and cannot answer.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-08",
+      "text": "Each of the 5 competency agents must contain explicit error-handling with a defined fallback behavior for low-confidence or out-of-scope questions.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-09",
+      "text": "At least 1 of the 5 competency agents must invoke actions or tools that write to other systems.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-27",
+      "text": "Competency graduates understand best practices for testing and validation of Glean agents.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-37",
+      "text": "For each priority agent, assign a project lead and supporting experts, document the current process including baseline performance numbers, design the future-state process with expected improvements, and build an implementation plan covering scope, key dates, success measures, and security and data compliance checks.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-39",
+      "text": "The build phase translates the approved design into an agent architecture map, implements the agent in the Glean platform following best practices, executes comprehensive testing and refinement cycles, and secures formal owner sign-off before launch.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-45",
+      "text": "Measurement compares actual outcomes against the KPIs and success criteria defined during planning, using both quantitative data and qualitative feedback.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-46",
+      "text": "Usage analytics should track the number of agent runs, count of distinct users, frequency of use, and patterns of engagement over time.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-47",
+      "text": "High abandonment rates or declining usage can indicate user friction or changing needs.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-48",
+      "text": "Measurement insights feed directly back into planning to create a continuous improvement cycle, and successful agents become templates for future development.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-94",
+      "text": "BLD-207 covers how to evaluate prompts and agents, measure quality, and prevent regressions.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

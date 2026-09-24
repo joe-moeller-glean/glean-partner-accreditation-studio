@@ -1,0 +1,36 @@
+{
+  "module_id": "BLD-104",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-07",
+      "screen_id": "SCR-07",
+      "kind": "sort",
+      "objective_id": "OBJ-03",
+      "archetype": "A9",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-11",
+        "C-12",
+        "C-13",
+        "C-14",
+        "C-20"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-08",
+      "screen_id": "SCR-08",
+      "kind": "choice",
+      "objective_id": "OBJ-01",
+      "archetype": "A6",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-06",
+        "C-08",
+        "C-82",
+        "C-80"
+      ]
+    }
+  ]
+}

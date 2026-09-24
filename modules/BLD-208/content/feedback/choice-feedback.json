@@ -1,0 +1,8 @@
+{
+  "module_id": "BLD-208",
+  "feedback": {
+    "SCR-07:o1": "Correct. Approvals and validation belong before writing to a system, and explicit error handling with a defined fallback is required.",
+    "SCR-07:o2": "No. Schedule-based triggers are a documented advanced capability. The gap is the missing approval gate, not the trigger.",
+    "SCR-07:o3": "No. Model size is not a governance control."
+  }
+}

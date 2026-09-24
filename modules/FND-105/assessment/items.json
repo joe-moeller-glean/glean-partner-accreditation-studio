@@ -1,0 +1,101 @@
+{
+  "module_id": "FND-105",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-02",
+      "stem": "What is the recommended sequencing for partner positioning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Start with the job to be done, prefer native options first, go custom when proprietary logic, internal systems, or partner IP require it."
+        },
+        {
+          "id": "b",
+          "text": "Always build custom so the partner controls the code."
+        },
+        {
+          "id": "c",
+          "text": "Pick whichever construct the stakeholder names first."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-01",
+      "stem": "Which statement about MCP inside Agent Builder is accurate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "MCP tools are not available as individual single-step selections in Agent Builder."
+        },
+        {
+          "id": "b",
+          "text": "MCP tools can be selected as any single discrete step in Agent Builder."
+        },
+        {
+          "id": "c",
+          "text": "MCP is unsupported anywhere in Glean."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-01",
+      "stem": "A requirement needs approvals and custom business logic before writing to a system. What fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A custom action."
+        },
+        {
+          "id": "b",
+          "text": "A verified third-party MCP server."
+        },
+        {
+          "id": "c",
+          "text": "Enterprise search."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "When is MCP the right call for an agent design?",
+      "options": [
+        {
+          "id": "a",
+          "text": "When the agent needs dynamic tool choice across a connected toolset and broad interoperability."
+        },
+        {
+          "id": "b",
+          "text": "When exactly one fixed endpoint is called the same way every run."
+        },
+        {
+          "id": "c",
+          "text": "When no external systems are involved."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "Which pairing of native and custom is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Native: built-in Jira creation template. Custom: internal approval workflow action."
+        },
+        {
+          "id": "b",
+          "text": "Native: partner-authored delivery methodology. Custom: Glean platform skill."
+        },
+        {
+          "id": "c",
+          "text": "Native: customer-hosted internal MCP server. Custom: verified GitHub MCP server."
+        }
+      ]
+    }
+  ]
+}

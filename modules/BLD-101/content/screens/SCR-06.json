@@ -1,0 +1,8 @@
+{
+  "id": "SCR-06",
+  "archetype": "quiz",
+  "objective": "OBJ-01",
+  "eyebrow": "Prove it",
+  "title": "Build surface check",
+  "type": "quiz"
+}

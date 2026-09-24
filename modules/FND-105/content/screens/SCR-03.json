@@ -1,0 +1,12 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "The rule",
+  "title": "Start with the job, not the surface",
+  "body": "Recommended partner positioning is to start with the job to be done, prefer native options first, and go custom when the customer needs proprietary workflow logic, internal systems, or differentiated partner IP.",
+  "asset": "FND-105-A01",
+  "claims": [
+    "C-66"
+  ]
+}

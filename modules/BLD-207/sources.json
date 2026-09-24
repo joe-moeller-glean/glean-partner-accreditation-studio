@@ -1,0 +1,47 @@
+{
+  "module_id": "BLD-207",
+  "sources": [
+    {
+      "source_id": "S-01",
+      "title": "Glean Partner Competency Program Guide",
+      "url": "https://docs.google.com/document/d/1Dy5ZFo2lyT6jDGoYMU7UlGrqp6IklLc-kIH7PbIWt9w",
+      "owner": "Joe Moeller",
+      "datasource": "gdrive",
+      "doc_updated": "2026-08-05",
+      "verified_on": "2026-09-02",
+      "authority_tier": 1,
+      "status": "current",
+      "type": "program_definition",
+      "notes": "Primary definition of the Agent Building Competency, its requirements, and benefits.",
+      "reverify_by": "2026-12-01"
+    },
+    {
+      "source_id": "S-02",
+      "title": "Partner Enablement: Glean Agent Building - plan, launch, deploy, measure",
+      "url": "https://drive.google.com/file/d/1oVhmo3s6sEFQ9b2DEl25poStQY6j7iHR",
+      "owner": "Katya Alfaro",
+      "datasource": "gdrive",
+      "doc_updated": "2026-02-09",
+      "verified_on": "2026-09-02",
+      "authority_tier": 1,
+      "status": "current",
+      "type": "methodology_playbook",
+      "notes": "Five-phase agent lifecycle methodology used as the spine of the delivery modules.",
+      "reverify_by": "2026-12-01"
+    },
+    {
+      "source_id": "S-05",
+      "title": "Partner Accreditation & Competency Roadmap - Module Tracker",
+      "url": "https://docs.google.com/spreadsheets/d/16BS8Y4vawNmNqHJaRY5izRZUGhx_O_14jQefb6ifZ8Q",
+      "owner": "Joe Moeller",
+      "datasource": "gdrive",
+      "doc_updated": "2026-08-13",
+      "verified_on": "2026-09-02",
+      "authority_tier": 1,
+      "status": "current",
+      "type": "program_structure",
+      "notes": "Module IDs, scope statements, levels, prerequisites, waves, and badge composition.",
+      "reverify_by": "2026-10-01"
+    }
+  ]
+}

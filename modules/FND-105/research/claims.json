@@ -1,0 +1,135 @@
+{
+  "module_id": "FND-105",
+  "claims": [
+    {
+      "claim_id": "C-51",
+      "text": "Use custom actions when you need deterministic execution against an internal API, legacy system, or proprietary workflow.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-53",
+      "text": "Use agents when you need scheduled, event-driven, or governed end-to-end workflows.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-57",
+      "text": "Remote MCP servers are fully supported for Assistant.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-58",
+      "text": "In Agents, MCP-backed tools are available in Plan and Execute mode and in auto mode.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-59",
+      "text": "MCP tools are not available as individual single-step selections in Agent Builder.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-61",
+      "text": "Custom actions fit internal APIs or services Glean does not support out of the box, legacy or in-house systems, and approvals, validation, or custom business logic before writing to a system.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-65",
+      "text": "Native and custom examples pair as follows: a verified GitHub, Notion, Asana, Canva, HubSpot, or PagerDuty MCP server against a customer-hosted internal MCP server; a built-in Gmail or Jira creation template against an internal onboarding, approval, or ticketing workflow action; and a Glean platform skill against a partner-authored methodology.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-66",
+      "text": "Recommended partner positioning is to start with the job to be done, prefer native options first, and go custom when the customer needs proprietary workflow logic, internal systems, or differentiated partner IP.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-67",
+      "text": "Skills standardize reasoning, actions standardize execution, MCP standardizes interoperability, and agents operationalize all three into production workflows.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-68",
+      "text": "An example custom action is an internal IT onboarding action that creates a request and returns a request ID plus a link.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-69",
+      "text": "Use MCP when an agent needs dynamic tool choice across a connected toolset and broad interoperability.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-70",
+      "text": "Partner scenarios for these primitives include an engineering copilot in the IDE using the Glean MCP server, internal workflow automation using a custom action, and standardized consulting delivery using a skill.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-89",
+      "text": "FND-105 provides a decision framework for when to use search, assistant, prompt, agent, action, connector, or integration pattern.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

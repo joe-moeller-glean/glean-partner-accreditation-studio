@@ -1,0 +1,17 @@
+{
+  "id": "SCR-05",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "Per-agent criteria",
+  "title": "What every one of the five agents must do",
+  "bullets": [
+    "Implement at least 3 discrete steps beyond simple retrieval, including at least one thinking or transformation step.",
+    "Configure retrieval guardrails with a well-defined source set and clear instructions on what it can and cannot answer.",
+    "Contain explicit error handling with a defined fallback for low-confidence or out-of-scope questions."
+  ],
+  "claims": [
+    "C-06",
+    "C-07",
+    "C-08"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-03",
+  "eyebrow": "Cold open",
+  "title": "Half the room cannot start the lab",
+  "body": "The workshop assumes RESTful API experience and a working environment. Teams that arrive without either spend the build window on setup and leave with nothing they can reuse.",
+  "claims": [
+    "C-106"
+  ]
+}

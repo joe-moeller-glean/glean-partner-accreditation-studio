@@ -1,0 +1,29 @@
+module_id: SOL-203
+title: Vertical Agent Use Case Design
+level: 200
+target_hours: 1.3
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Run discovery that surfaces vertical agent opportunities worth building."
+    screens: [SCR-01, SCR-02, SCR-03]
+    assessment_items: [Q-01]
+  - id: OBJ-02
+    text: "Prioritize candidates on business value against implementation complexity."
+    screens: [SCR-04, SCR-07, SCR-08]
+    assessment_items: [Q-02]
+  - id: OBJ-03
+    text: "Specify a vertical agent design covering workflow, sources, and governance."
+    screens: [SCR-05, SCR-06, SCR-09]
+    assessment_items: [Q-03, Q-04, Q-05]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 9
+distinct_archetypes: [A1, A14, A2, A3, A4, A6, A8, quiz]
+assessment_type: Design submission

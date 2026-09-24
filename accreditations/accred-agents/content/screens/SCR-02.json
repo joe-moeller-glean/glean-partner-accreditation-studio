@@ -1,0 +1,16 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What this path covers",
+  "title": "Five stages, eleven modules",
+  "body": "Foundations, build fundamentals, hands-on labs, production discipline, then design and capstone.",
+  "asset": "ACCRED-AGENTS-A01",
+  "claims": [
+    "C-88",
+    "C-89",
+    "C-90",
+    "C-91",
+    "C-93"
+  ]
+}

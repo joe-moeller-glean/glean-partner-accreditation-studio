@@ -1,0 +1,11 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-02",
+  "eyebrow": "Cold open",
+  "title": "“The agent is broken” is not a diagnosis",
+  "body": "A customer reports a wrong answer. It could be instruction-following, retrieval, an action failure, a trigger problem, or configuration. Guessing costs a day and the escalation gets bounced back.",
+  "claims": [
+    "C-87"
+  ]
+}

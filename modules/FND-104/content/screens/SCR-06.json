@@ -1,0 +1,44 @@
+{
+  "id": "SCR-06",
+  "archetype": "A9",
+  "objective": "OBJ-02",
+  "eyebrow": "Sort it",
+  "title": "Which construct fits the need?",
+  "prompt": "Place each customer need with the construct built to serve it.",
+  "type": "sort",
+  "categories": [
+    "Skills",
+    "Custom actions",
+    "MCP",
+    "Agents"
+  ],
+  "pairs": [
+    {
+      "item": "We need the same discovery methodology applied consistently by every consultant.",
+      "category": "Skills",
+      "why": "Use skills when you need repeatable methodology, domain expertise, or consistent reasoning."
+    },
+    {
+      "item": "We need a write to our in-house claims system with validation before submit.",
+      "category": "Custom actions",
+      "why": "Use custom actions for deterministic execution against an internal API, legacy system, or proprietary workflow."
+    },
+    {
+      "item": "We want one tool integration reused across Cursor, Claude, and VS Code.",
+      "category": "MCP",
+      "why": "Use MCP when you want open-standard interoperability and reusable tool access across ecosystems."
+    },
+    {
+      "item": "We need a nightly run that reads new tickets and files summaries.",
+      "category": "Agents",
+      "why": "Use agents when you need scheduled, event-driven, or governed end-to-end workflows."
+    }
+  ],
+  "takeaway": "That decision rule is the whole module. Name the job, then pick the primitive.",
+  "claims": [
+    "C-50",
+    "C-51",
+    "C-52",
+    "C-53"
+  ]
+}

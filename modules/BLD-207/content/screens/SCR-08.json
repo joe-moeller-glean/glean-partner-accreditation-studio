@@ -1,0 +1,32 @@
+{
+  "id": "SCR-08",
+  "archetype": "A6",
+  "objective": "OBJ-03",
+  "eyebrow": "Decision branch",
+  "title": "Usage dropped 40% after a prompt change",
+  "type": "choice",
+  "prompt": "Runs are down and no error rate moved. What do you do first?",
+  "options": [
+    {
+      "id": "o1",
+      "text": "Treat declining usage as a friction signal, gather qualitative user input, and compare against the pre-change baseline.",
+      "correct": true,
+      "feedback": "Correct. Declining usage can indicate user friction or changing needs, and measurement pairs quantitative data with qualitative feedback."
+    },
+    {
+      "id": "o2",
+      "text": "Assume seasonality and wait a quarter.",
+      "feedback": "No. That discards the signal the metric exists to give you."
+    },
+    {
+      "id": "o3",
+      "text": "Roll back every change without diagnosis.",
+      "feedback": "Rolling back blind loses the learning, and insight from measurement is meant to feed back into planning."
+    }
+  ],
+  "claims": [
+    "C-47",
+    "C-45",
+    "C-48"
+  ]
+}

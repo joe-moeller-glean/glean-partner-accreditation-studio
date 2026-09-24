@@ -1,0 +1,18 @@
+{
+  "id": "SCR-10",
+  "archetype": "A14",
+  "objective": "OBJ-03",
+  "eyebrow": "Badge moment",
+  "title": "What the badge gets you",
+  "bullets": [
+    "Market visibility as a trusted Glean Partner, a Competency Badge, and a searchable directory listing.",
+    "Access to Glean services opportunities and surfacing to Glean sellers as a preferred services partner.",
+    "Priority consideration for agent-focused services opportunities and co-marketing that highlights agent outcomes and ROI."
+  ],
+  "badge": "Builder accreditation: ready to submit",
+  "signature": true,
+  "claims": [
+    "C-22",
+    "C-23"
+  ]
+}

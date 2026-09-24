@@ -1,0 +1,18 @@
+module_id: BLD-208
+title: Agent Governance & Safety
+learning_path: Builder Path
+request_type: single
+audience: [Builders, Architects, Practice leads]
+level: 300
+learning_outcomes:
+  - "Design approval and escalation boundaries for agents that write to other systems."
+  - "Apply retrieval guardrails and refusal behaviour as governance controls."
+  - "Specify the production governance evidence a competency review expects."
+prerequisites: [BLD-104]
+target_hours: 1.0
+mastery_score: 80
+assessment_type: Scenario review
+wave: Wave 3
+accreditation: Agents
+source_owners: [Joe Moeller, Katya Alfaro, Matt Schenck]
+publish_mode: manual_review

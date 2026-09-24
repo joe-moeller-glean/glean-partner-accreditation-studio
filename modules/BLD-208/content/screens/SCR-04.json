@@ -1,0 +1,17 @@
+{
+  "id": "SCR-04",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "Approval design",
+  "title": "Put the gate before the write",
+  "bullets": [
+    "Custom actions fit approvals, validation, or custom business logic before writing to a system.",
+    "At least one competency agent must invoke actions or tools that write to other systems, which is exactly where approval design matters.",
+    "Conditional branching gives you the approved and rejected paths a gate requires."
+  ],
+  "claims": [
+    "C-61",
+    "C-09",
+    "C-11"
+  ]
+}

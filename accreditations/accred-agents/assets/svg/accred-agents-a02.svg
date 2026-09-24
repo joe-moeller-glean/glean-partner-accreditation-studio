@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 308" width="100%" preserveAspectRatio="xMidYMid meet">
+<title>What the badge certifies</title>
+<desc>Four certified capability areas: persona-aligned agent design, multi-step composition with handoffs and fallbacks, advanced orchestration with triggers and branching, and testing and validation practice.</desc>
+<rect x="0" y="0" width="620" height="308" fill="#F6F3EB"/>
+<text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">What the badge certifies</text>
+<rect x="24" y="64" width="280" height="104" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="24" y="64" width="280" height="6" rx="3" fill="#343CED"/>
+<text x="38" y="94" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Persona-aligned design</text>
+<text x="38" y="112" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Define intents, configure</text>
+<text x="38" y="126" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">retrieval and guardrails</text>
+<rect x="316" y="64" width="280" height="104" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="316" y="64" width="280" height="6" rx="3" fill="#343CED"/>
+<text x="330" y="94" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Multi-step composition</text>
+<text x="330" y="112" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Clear handoffs and fallbacks</text>
+<text x="330" y="126" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">across steps</text>
+<rect x="24" y="180" width="280" height="104" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="24" y="180" width="280" height="6" rx="3" fill="#343CED"/>
+<text x="38" y="210" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Advanced orchestration</text>
+<text x="38" y="228" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Schedule triggers, event-driven</text>
+<text x="38" y="242" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">runs, branching and loops</text>
+<rect x="316" y="180" width="280" height="104" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="316" y="180" width="280" height="6" rx="3" fill="#343CED"/>
+<text x="330" y="210" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Testing and validation</text>
+<text x="330" y="228" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Best practices for validating</text>
+<text x="330" y="242" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Glean agents</text>
+</svg>

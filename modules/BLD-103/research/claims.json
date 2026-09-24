@@ -1,0 +1,95 @@
+{
+  "module_id": "BLD-103",
+  "claims": [
+    {
+      "claim_id": "C-58",
+      "text": "In Agents, MCP-backed tools are available in Plan and Execute mode and in auto mode.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-59",
+      "text": "MCP tools are not available as individual single-step selections in Agent Builder.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-61",
+      "text": "Custom actions fit internal APIs or services Glean does not support out of the box, legacy or in-house systems, and approvals, validation, or custom business logic before writing to a system.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-62",
+      "text": "Builders add a custom action as a step in Agent Builder, and its inputs can be fixed values, user inputs, or AI-predicted values.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-63",
+      "text": "Custom actions can be combined with By Glean and By datasource actions in the same workflow.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-68",
+      "text": "An example custom action is an internal IT onboarding action that creates a request and returns a request ID plus a link.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-92",
+      "text": "BLD-103 is a hands-on workshop building actions and MCP-backed flows.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-105",
+      "text": "The Glean Actions and Integrations course covers departmental use cases, actions and MCP including building custom actions and connecting a remote MCP server, integrations such as the Client API and ServiceNow ticket resolution, and a hands-on build workshop.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-106",
+      "text": "The Glean Actions and Integrations course is advanced level, runs 2 to 4 hours, and expects experience with RESTful APIs.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-02",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

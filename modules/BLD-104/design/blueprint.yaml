@@ -1,0 +1,29 @@
+module_id: BLD-104
+title: Advanced Agent Building Lab
+level: 200
+target_hours: 2.0
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Compose a multi-step agent with a thinking step, guardrails, and fallback behaviour."
+    screens: [SCR-01, SCR-02, SCR-03, SCR-04, SCR-08]
+    assessment_items: [Q-01, Q-02]
+  - id: OBJ-02
+    text: "Select memory scope and model size deliberately for each step."
+    screens: [SCR-05, SCR-06]
+    assessment_items: [Q-03, Q-04]
+  - id: OBJ-03
+    text: "Apply advanced capabilities: branching, loops, and schedule or event triggers."
+    screens: [SCR-07, SCR-09, SCR-10]
+    assessment_items: [Q-05]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 10
+distinct_archetypes: [A1, A14, A2, A3, A4, A5, A6, A9, quiz]
+assessment_type: Lab

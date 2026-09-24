@@ -1,0 +1,12 @@
+{
+  "id": "SCR-04",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "Prioritize",
+  "title": "Value against complexity, before design",
+  "body": "An Effort and Impact matrix helps teams rank candidate agents by business value and implementation complexity so resources go to the highest-return agents.",
+  "asset": "SOL-203-A01",
+  "claims": [
+    "C-36"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "tab-01-lifecycle-phases": {
+    "columns": [
+      "Lifecycle Phases",
+      "Accreditation Path",
+      "Goal",
+      "Primary audiences",
+      "Competency Map",
+      "Initial module count",
+      "Launch wave focus"
+    ],
+    "row_count": 7
+  },
+  "tab-02-module-id": {
+    "columns": [
+      "Module ID",
+      "Academy",
+      "Learning Path",
+      "Level",
+      "Module Title",
+      "Description",
+      "Build Status",
+      "Primary Audience",
+      "Partner Types",
+      "Delivery Format",
+      "Duration Hours",
+      "Badge / Path",
+      "Assessment",
+      "Prerequisites",
+      "Mapped Existing Assets",
+      "Source Basis",
+      "Existing Asset Status",
+      "Priority",
+      "Program Wave",
+      "Target Quarter",
+      "Current Owner",
+      "Recommended SME",
+      "Dependency",
+      "Notes"
+    ],
+    "row_count": 83
+  },
+  "tab-03-badge-accreditation": {
+    "columns": [
+      "Badge / Accreditation",
+      "Primary Audience",
+      "Core Focus",
+      "Required Modules",
+      "Capstone / Assessment",
+      "Launch / Refresh Target"
+    ],
+    "row_count": 8
+  },
+  "tab-04-source-type": {
+    "columns": [
+      "Source Type",
+      "Title",
+      "Description",
+      "Resource / Asset",
+      "Owner",
+      "Partner Type",
+      "Track",
+      "Duration",
+      "Last Updated",
+      "Notes / Todos"
+    ],
+    "row_count": 55
+  },
+  "tab-05-summary-metric": {
+    "columns": [
+      "Summary Metric",
+      "Value",
+      "",
+      "Build Status",
+      "Count",
+      "",
+      "Academy",
+      "Count"
+    ],
+    "row_count": 10
+  },
+  "tab-06-competency": {
+    "columns": [
+      "Competency",
+      "Status",
+      "Level",
+      "Definition",
+      "Requirements",
+      "Observable capabilities / outcomes",
+      "Primary audiences",
+      "Learning path(s)",
+      "Accreditation / evidence"
+    ],
+    "row_count": 10
+  }
+}

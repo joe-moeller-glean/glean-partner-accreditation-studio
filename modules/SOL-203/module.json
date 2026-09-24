@@ -1,0 +1,12 @@
+{
+  "module_id": "SOL-203",
+  "title": "Vertical Agent Use Case Design",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "accreditation_id": "accred-agents",
+  "level": "200",
+  "target_hours": 1.3,
+  "assessment_type": "Design submission"
+}

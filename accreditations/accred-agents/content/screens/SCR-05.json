@@ -1,0 +1,33 @@
+{
+  "id": "SCR-05",
+  "archetype": "A12",
+  "objective": "OBJ-02",
+  "eyebrow": "Checkpoint",
+  "title": "What does this path prepare you to submit?",
+  "type": "choice",
+  "prompt": "Pick the accurate statement about the competency submission.",
+  "options": [
+    {
+      "id": "o1",
+      "text": "Five technical accreditations, a Glean-delivered workshop, and five production-ready agents with evidence.",
+      "correct": true,
+      "feedback": "Correct. The path builds the skills; the submission needs accreditations, the workshop, the agents, and the evidence artefacts."
+    },
+    {
+      "id": "o2",
+      "text": "A single reference agent and a slide deck.",
+      "feedback": "No. Five production-ready agents are required, each with documented requirements and an architecture review."
+    },
+    {
+      "id": "o3",
+      "text": "Only the completion of these eleven modules.",
+      "feedback": "Not quite. Coursework is necessary but the competency also requires built agents and validation."
+    }
+  ],
+  "claims": [
+    "C-03",
+    "C-04",
+    "C-05",
+    "C-15"
+  ]
+}
