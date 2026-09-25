@@ -1,0 +1,21 @@
+# Accreditation definition. Modules live in learning/modules/<id>/ and are referenced, not nested.
+id: accred-delivery-lead
+name: Delivery Lead
+source: tracker
+status: planned
+audience: [PMO, Project Manager, Technical Account Manager]
+required_modules:
+  - SRV-101
+  - SRV-102
+  - SRV-103
+  - SRV-104
+  - SRV-201
+  - SRV-202
+  - ACC-105
+electives: []
+completion:
+  assessment_module: ACC-105
+  assessment_type: Quiz
+  mastery_score: 80
+overview_module: null
+publish_mode: automatic_after_green

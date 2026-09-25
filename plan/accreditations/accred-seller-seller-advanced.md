@@ -2,7 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Source directory | `accreditations/accred-seller-seller-advanced/` |
+| Definition | `learning/accreditations/accred-seller-seller-advanced/accreditation.yaml` |
+| Module sources | `learning/modules/<id>/` |
 | Primary audience | Partner sellers |
 | Core focus | — |
 | Capstone / assessment | Quiz |

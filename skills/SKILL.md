@@ -91,7 +91,7 @@ Resolve this during intake, before the Learning Architect writes the blueprint:
 For `scroll-canvas-v1`, use the reusable rules in `references/scroll-canvas.md`. Do not create a hybrid
 that quietly mixes pagination, scroll-jacking, sticky sequences, or two competing progress models.
 The first build should be optimized for reuse: shared tokens, line icons, interaction contracts, SVG
-patterns, and a module-specific runtime QA harness. Keep module-specific content in `modules/<id>`;
+patterns, and a module-specific runtime QA harness. Keep module-specific content in `learning/modules/<id>`;
 promote only proven components to `shared/` after a second successful use.
 
 Research-to-build optimization rules:
@@ -123,7 +123,7 @@ Read `references/orchestration-rules.md` before any `batch` or `roadmap` run. Su
 - Every accepted, rejected, or deferred change is appended to the ledger with reason codes via `scripts/ledger.py`. Before planning any module, the Memory Curator returns prior rejections and standing recommendations, and you must honor them or state explicitly why they no longer apply.
 
 ## Quality gates
-All required gates must pass before release: scope, identifier resolution, source traceability and freshness, claim verification, learning alignment, editorial quality, brand conformance, graphics conformance, accessibility (WCAG 2.2 AA where applicable), SCORM structure, runtime behavior, regression vs prior release, offline/security behavior, runtime-only package hygiene, visual-browser evidence, and release metadata. Deterministic gates run via `scripts/validate_scorm.py` and `scripts/lint_module.py`; scroll modules also run a scroll-aware runtime harness and responsive checks. A warning blocks release unless `qa/waivers.json` records owner, reason, scope, and expiry date. No waiver may cover an answer-key leak, an unresolved claim, an external runtime dependency, or a blocker/major accessibility defect.
+All required gates must pass before release: scope, identifier resolution, source traceability and freshness, claim verification, learning alignment, editorial quality, brand conformance, graphics conformance, accessibility (WCAG 2.2 AA where applicable), SCORM structure, runtime behavior, regression vs prior release, offline/security behavior, runtime-only package hygiene, visual-browser evidence, and release metadata. Deterministic gates run via `scripts/validate_scorm.py`, `scripts/lint_module.py`, and `scripts/validate_accreditations.py` (hierarchy and badge membership); scroll modules also run a scroll-aware runtime harness and responsive checks. A warning blocks release unless `qa/waivers.json` records owner, reason, scope, and expiry date. No waiver may cover an answer-key leak, an unresolved claim, an external runtime dependency, or a blocker/major accessibility defect.
 
 For `scroll-canvas-v1`, the verification report must record: band count and visited-band semantics, one h1 and labelled h2 sections, no horizontal overflow, broken-image count, desktop rail/mobile progress behavior, keyboard interaction results, reduced-motion behavior, no-LMS behavior, and at least one real-browser render/interaction pass.
 
@@ -132,23 +132,30 @@ Patch = corrections, asset swaps, copy fixes with unchanged outcomes. Minor = ne
 
 ## Repository convention
 ```text
-modules/<id>/module.json            build metadata (id, title, version, launch)
-modules/<id>/module.yaml            brief and contract
-modules/<id>/sources.json           vetted sources with owners and verify dates
-modules/<id>/research/              findings.md, claims.json, conflicts.md
-modules/<id>/design/                blueprint.yaml or blueprint.md, experience.yaml, storyboard.md
-modules/<id>/content/               screens, scenarios, feedback, glossary
-modules/<id>/interactions/          interaction specs and handlers
-modules/<id>/assessment/            items.json, key.json, rubric.md
-modules/<id>/assets/                images, diagrams, icons, media, alt-text.json
-modules/<id>/qa/                    report.json, fact-report.json, a11y-report.json, waivers.json
-modules/<id>/CHANGELOG.md
-modules/<id>/module.json             includes `design_system: paged-v1|scroll-canvas-v1`
+learning/modules/<id>/module.json            build metadata (id, title, version, launch)
+learning/modules/<id>/module.yaml            brief and contract
+learning/modules/<id>/sources.json           vetted sources with owners and verify dates
+learning/modules/<id>/research/              findings.md, claims.json, conflicts.md
+learning/modules/<id>/design/                blueprint.yaml or blueprint.md, experience.yaml, storyboard.md
+learning/modules/<id>/content/               screens, scenarios, feedback, glossary
+learning/modules/<id>/interactions/          interaction specs and handlers
+learning/modules/<id>/assessment/            items.json, key.json, rubric.md
+learning/modules/<id>/assets/                images, diagrams, icons, media, alt-text.json
+learning/modules/<id>/qa/                    report.json, fact-report.json, a11y-report.json, waivers.json
+learning/modules/<id>/CHANGELOG.md
+learning/modules/<id>/module.json             includes `design_system: paged-v1|scroll-canvas-v1`
+learning/accreditations/<id>/accreditation.yaml  badge definition: required_modules, electives,
+                                  completion, overview_module; references modules, never nests them
 shared/theme/  shared/scorm/  shared/assets/  shared/components/
 plan/queue.json  plan/status.json  plan/dependency-graph.json
 memory/decisions.jsonl  memory/rejections.jsonl  memory/recommendations.jsonl  memory/patterns.md
 dist/<id>-v<version>-scorm12.zip  (+ .sha256)
 ```
+
+Hierarchy: an accreditation is a set of modules plus a completion rule. A module may count toward
+several accreditations, so it lives once in `learning/modules/` and accreditations reference it by ID.
+A learner-facing badge overview course (for example `accred-agents`) is itself a module and is named in
+the definition as `overview_module`.
 Bootstrap new repositories and modules from `assets/repository-template/`. Resolve GitHub owner, repo, branch, and file SHAs before writes. Prefer one focused multi-file push, trigger CI, inspect the real run, then merge, tag, and release.
 
 ## Scripts

@@ -54,7 +54,8 @@ The project also contains an **Agents** accreditation composition in `plan/accre
 - Full extracted tabs: `plan/roadmap-export/`
 - Ordered module queue: `plan/queue.json` (83 jobs)
 - Dependency graph: `plan/dependency-graph.json`
-- Badge mappings: `plan/accreditations.json`
+- Badge mappings: `learning/accreditations/<id>/accreditation.yaml` (tracker snapshot: `plan/accreditations.json`)
+- Module sources: `learning/modules/<id>/`
 - Per-module plans: `plan/modules/`
 - Existing portfolio/build status: `plan/status.json`
 

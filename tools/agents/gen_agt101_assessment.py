@@ -128,7 +128,7 @@ for it in ITEMS:
     items_public.append(pub)
     key[it["id"]] = {"correct": it["correct"], "feedback": it["feedback"]}
 
-base = pathlib.Path("modules/AGT-101/assessment")
+base = pathlib.Path("learning/modules/AGT-101/assessment")
 base.mkdir(parents=True, exist_ok=True)
 (base / "items.json").write_text(json.dumps(
     {"module_id": "AGT-101", "mastery_score": 80, "objectives": OBJ,

@@ -1,6 +1,6 @@
 import json, pathlib, subprocess, sys, hashlib
 
-M = pathlib.Path("modules/AGT-101")
+M = pathlib.Path("learning/modules/AGT-101")
 (M / "qa").mkdir(exist_ok=True)
 TODAY = "2026-09-14"
 
@@ -287,4 +287,4 @@ a11y = {
 print("lint:", "PASS" if lint_rc == 0 else "FAIL")
 print("runtime:", rt_total - rt_failed, "/", rt_total)
 print("responsive:", resp_total, "checks")
-print("reports written to modules/AGT-101/qa/")
+print("reports written to learning/modules/AGT-101/qa/")

@@ -399,7 +399,8 @@ ACC_104 = {
 
 # ---------------------------------------------------------------------------
 # Badge container: the learner-facing path map and badge gate for the Agents
-# accreditation. Mirrors the existing accreditations/accred-* pattern.
+# accreditation. Built as learning/modules/accred-agents; the credential itself
+# is defined in learning/accreditations/accred-agents/accreditation.yaml.
 # ---------------------------------------------------------------------------
 ACCRED_AGENTS = {
     "id": "accred-agents",

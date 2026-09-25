@@ -2,7 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Source directory | `accreditations/accred-support-adoption/` |
+| Definition | `learning/accreditations/accred-support-adoption/accreditation.yaml` |
+| Module sources | `learning/modules/<id>/` |
 | Primary audience | Admins; support leads |
 | Core focus | — |
 | Capstone / assessment | Quiz |

@@ -2,7 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Source directory | `accreditations/accred-solution-architect/` |
+| Definition | `learning/accreditations/accred-solution-architect/accreditation.yaml` |
+| Module sources | `learning/modules/<id>/` |
 | Primary audience | Architects, Developers |
 | Core focus | — |
 | Capstone / assessment | Quiz |

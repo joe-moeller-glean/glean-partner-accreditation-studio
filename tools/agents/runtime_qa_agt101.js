@@ -21,7 +21,7 @@ try {
   process.exit(2);
 }
 
-const MOD = path.join(__dirname, "..", "..", "modules", "AGT-101");
+const MOD = path.join(__dirname, "..", "..", "learning", "modules", "AGT-101");
 const results = [];
 function check(name, cond, detail) {
   results.push({ name, pass: !!cond, detail: detail || "" });

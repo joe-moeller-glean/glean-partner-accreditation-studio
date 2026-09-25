@@ -4,19 +4,23 @@ SCORM 1.2 accreditation development workspace based on the Glean Partner Accredi
 
 ## Layout
 
+- `learning/modules/<id>/` — canonical SCORM source for every module, including badge overview modules such as `accred-agents`.
+- `learning/accreditations/<id>/accreditation.yaml` — badge definitions that reference modules by ID. See [learning/README.md](learning/README.md).
 - `skills/` — extracted studio skill, references, scripts, and repository template.
-- `accreditations/` — one SCORM source tree per accreditation from the Module Tracker.
 - `shared/` — reusable theme, SCORM, asset, and component sources.
-- `plan/` — roadmap and build planning artifacts.
+- `plan/` — roadmap and build planning artifacts. `plan/accreditations.json` is the tracker snapshot.
 - `memory/` — studio decision and learning logs.
-- `dist/` — generated SCORM 1.2 ZIP files and checksums.
+- `tools/` — generators, packagers, and QA harnesses.
+- `dist/` — generated SCORM 1.2 ZIP files and checksums (not committed).
 
-Each accreditation source tree follows the template convention and can be built with:
+## Build and check
 
 ```bash
-python3 skills/scripts/build_scorm.py \
-  --module accreditations/accred-foundations \
-  --output dist
+python3 skills/scripts/validate_accreditations.py            # hierarchy and badge membership
+python3 skills/scripts/lint_module.py learning/modules/AGT-101
+python3 skills/scripts/build_scorm.py --module learning/modules/AGT-101 --output dist
+python3 tools/agents/package.py                               # package and validate every module
+python3 -m unittest discover -s tests                         # layout tests
 ```
 
-Content, source claims, assessment items, and QA evidence are intentionally left for the accreditation build workflow.
+Scaffold a new module with `skills/scripts/scaffold_module.py`; it writes to `learning/modules/<id>/`.

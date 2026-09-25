@@ -138,7 +138,7 @@ fail the studio's own `scripts/lint_module.py` brand check, and `scaffold_module
 otherwise every module inherits a guaranteed lint failure. Verified by running:
 
 ```bash
-python3 skills/scripts/lint_module.py accreditations/accred-foundations
+python3 skills/scripts/lint_module.py accreditations/accred-foundations  # pre-restructure path; now learning/modules/<id>
 # WARNING off-token color literal #333 / #444 -> FAILED
 ```
 

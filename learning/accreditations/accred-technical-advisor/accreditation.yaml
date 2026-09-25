@@ -1,0 +1,20 @@
+# Accreditation definition. Modules live in learning/modules/<id>/ and are referenced, not nested.
+id: accred-technical-advisor
+name: Technical Advisor
+source: tracker
+status: planned
+audience: [Solution advisors]
+required_modules:
+  - SOL-101
+  - SOL-102
+  - SOL-103
+  - SOL-201
+  - SOL-204
+  - ACC-102
+electives: []
+completion:
+  assessment_module: ACC-102
+  assessment_type: Quiz
+  mastery_score: 80
+overview_module: null
+publish_mode: automatic_after_green

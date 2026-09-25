@@ -1,0 +1,20 @@
+# Accreditation definition. Modules live in learning/modules/<id>/ and are referenced, not nested.
+id: accred-support-adoption
+name: "Support & Adoption"
+source: tracker
+status: planned
+audience: ["Admins; support leads"]
+required_modules:
+  - OPS-101
+  - OPS-102
+  - OPS-103
+  - OPS-104
+  - OPS-105
+  - ACC-106
+electives: []
+completion:
+  assessment_module: ACC-106
+  assessment_type: Quiz
+  mastery_score: 80
+overview_module: null
+publish_mode: automatic_after_green

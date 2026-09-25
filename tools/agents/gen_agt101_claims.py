@@ -81,7 +81,7 @@ claims = {
         for (c, s, t) in C
     ],
 }
-p = pathlib.Path("modules/AGT-101/research/claims.json")
+p = pathlib.Path("learning/modules/AGT-101/research/claims.json")
 p.parent.mkdir(parents=True, exist_ok=True)
 p.write_text(json.dumps(claims, indent=2) + "\n")
 print("claims:", len(claims["claims"]))

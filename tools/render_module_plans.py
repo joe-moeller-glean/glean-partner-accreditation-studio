@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
 """Render one development plan per Module Tracker row from the authored spec table."""
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "skills" / "scripts"))
+import learning_layout  # noqa: E402
+
+_ORDER = [e["directory"] for e in json.loads((ROOT / "plan/accreditations.json").read_text())["accreditations"]]
 TRACK = json.loads((ROOT / "plan/roadmap-export/tab-02-module-id.json").read_text())["records"]
 QUEUE = {j["module_id"]: j for j in json.loads((ROOT / "plan/queue.json").read_text())["jobs"]}
-ACCRED = json.loads((ROOT / "plan/accreditations.json").read_text())["accreditations"]
+# Membership comes from the canonical definitions in learning/accreditations/.
+ACCRED = [learning_layout.tracker_view(a) for a in sorted(
+    learning_layout.load_accreditations(ROOT),
+    key=lambda a: _ORDER.index(a["id"]) if a["id"] in _ORDER else len(_ORDER))]
 
 ARCH = {
     "A1": "Cold-open scenario", "A2": "Objective contract", "A3": "Concept canvas",
@@ -182,7 +190,7 @@ def render(row, spec):
     a("")
     a("## 11. Definition of done")
     a("")
-    a("`scripts/lint_module.py modules/%s` exits 0 \u00b7 `scripts/validate_scorm.py` clean \u00b7 all claims `verified` \u00b7"
+    a("`scripts/lint_module.py learning/modules/%s` exits 0 \u00b7 `scripts/validate_scorm.py` clean \u00b7 all claims `verified` \u00b7"
       % mid)
     a("a11y report has zero blocker/major \u00b7 runtime cases pass (launch 4, tracking 6, resume 4, assessment 6,")
     a("compatibility 6, regression 4, content spot-check 3) \u00b7 `dist/%s-v<version>-scorm12.zip` + `.sha256` \u00b7" % mid)

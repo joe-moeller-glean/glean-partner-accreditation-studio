@@ -1,6 +1,6 @@
 import json, pathlib, re
 
-BASE = pathlib.Path("modules/AGT-101/assets")
+BASE = pathlib.Path("learning/modules/AGT-101/assets")
 (BASE / "icons").mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- line icons

@@ -1,0 +1,19 @@
+# Accreditation definition. Modules live in learning/modules/<id>/ and are referenced, not nested.
+id: accred-industry-specialist
+name: Industry Specialist
+source: tracker
+status: planned
+audience: [Industry Principals]
+required_modules:
+  - SOL-202
+  - SOL-203
+electives:
+  - pattern: IND-*
+    min: 2
+    description: "2+ IND modules"
+completion:
+  assessment_module: null
+  assessment_type: Quiz
+  mastery_score: 80
+overview_module: null
+publish_mode: automatic_after_green

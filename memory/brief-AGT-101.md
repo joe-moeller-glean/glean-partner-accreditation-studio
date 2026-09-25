@@ -31,7 +31,7 @@ before publishing any of them.
 
 - `shared/theme/scroll-canvas.css` — the whole design system, tokenised.
 - `plan/06-scroll-canvas-design-system.md` — the spec, with a reapply recipe in §11.
-- `modules/AGT-101/assets/icons/` — 18-icon hairline set, 24px grid, reusable across the series.
+- `learning/modules/AGT-101/assets/icons/` — 18-icon hairline set, 24px grid, reusable across the series.
 - `tools/agents/runtime_qa_agt101.js` — scroll-runtime harness. Template for later scroll modules.
 - `tools/agents/package_agt101.py` — packager for the `assets/*.svg` layout with an answer-key guard.
 

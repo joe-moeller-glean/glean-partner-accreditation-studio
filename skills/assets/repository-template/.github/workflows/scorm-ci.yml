@@ -8,15 +8,18 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
+      - run: pip install pyyaml
+      - name: Validate accreditation definitions
+        run: python scripts/validate_accreditations.py --repo-root .
       - name: Lint module source
         run: |
-          for m in modules/*/module.json; do
+          for m in learning/modules/*/module.json; do
             python scripts/lint_module.py "$(dirname "$m")" --json "$(dirname "$m")/qa/lint.json"
           done
       - name: Build and validate packages
         run: |
           mkdir -p dist
-          for m in modules/*/module.json; do python scripts/build_scorm.py --module "$(dirname "$m")" --output dist; done
+          for m in learning/modules/*/module.json; do python scripts/build_scorm.py --module "$(dirname "$m")" --output dist; done
           for z in dist/*.zip; do python scripts/validate_scorm.py "$z"; done
       - name: Source freshness scan
         continue-on-error: true

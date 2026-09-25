@@ -19,8 +19,8 @@ Nothing in this list may be regenerated per module. The Portfolio Planner's Asse
 ## 2. Repository layout for the build
 
 ```
-accreditations/<id>/            # 8 badge-level SCORM source trees (already scaffolded)
-modules/<MODULE-ID>/            # per-module source, created by scaffold_module.py at dispatch time
+learning/modules/<MODULE-ID>/   # canonical per-module SCORM source, created by scaffold_module.py
+learning/accreditations/<id>/accreditation.yaml  # badge definition; references modules, never nests them
 shared/theme|scorm|assets|components/
 plan/                           # this plan set + queue/status/dependency graph
 memory/decisions.jsonl|rejections.jsonl|recommendations.jsonl|patterns.md|preferences.md
@@ -71,6 +71,6 @@ questions only.
 
 ## 5. Definition of "badge ready"
 
-A badge is announced only when every required module in `plan/accreditations.json` is released, its
+A badge is announced only when every required module in `learning/accreditations/<id>/accreditation.yaml` is released, its
 assessments are calibrated, and the path map shows a complete, unlocked route. Partial paths stay
 unannounced even if individually released.

@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Scan released modules for source drift and emit a prioritized refresh queue."""
-import argparse, json, datetime as dt
+import argparse, json, sys, datetime as dt
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import learning_layout  # noqa: E402
 
 WINDOWS = {"product": 90, "program": 180, "policy": 180, "brand": 180, "concept": 365, "default": 180}
 IMPACT = {"critical": 0, "high": 1, "medium": 2, "low": 3}
@@ -95,7 +98,7 @@ def main():
                 {"scope": e.get("scope"), "reason_code": e.get("reason_code"), "detail": e.get("detail")})
 
     results = []
-    for mod in sorted((a.repo_root / "modules").glob("*")):
+    for mod in sorted(learning_layout.modules_root(a.repo_root).glob("*")):
         if not mod.is_dir():
             continue
         r = scan_module(mod, today, rejected)

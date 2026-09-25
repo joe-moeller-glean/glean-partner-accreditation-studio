@@ -1,0 +1,19 @@
+# Accreditation definition. Modules live in learning/modules/<id>/ and are referenced, not nested.
+id: accred-seller-seller-advanced
+name: Seller / Seller Advanced
+source: tracker
+status: planned
+audience: [Partner sellers]
+required_modules:
+  - SAL-101
+  - SAL-102
+  - SAL-103
+  - SAL-203
+  - ACC-101
+electives: []
+completion:
+  assessment_module: ACC-101
+  assessment_type: Quiz
+  mastery_score: 80
+overview_module: null
+publish_mode: automatic_after_green

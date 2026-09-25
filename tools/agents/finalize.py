@@ -37,7 +37,7 @@ def jdump(p, o):
 
 
 def module_dir(mid):
-    return (ROOT / "accreditations" / mid) if mid == ACCRED_ID else (ROOT / "modules" / mid)
+    return ROOT / "learning" / "modules" / mid  # the badge overview is a canonical module too
 
 
 def lint(mid):

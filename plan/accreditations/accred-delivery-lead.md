@@ -2,7 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Source directory | `accreditations/accred-delivery-lead/` |
+| Definition | `learning/accreditations/accred-delivery-lead/accreditation.yaml` |
+| Module sources | `learning/modules/<id>/` |
 | Primary audience | PMO, Project Manager, Technical Account Manager |
 | Core focus | — |
 | Capstone / assessment | Quiz |

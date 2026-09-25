@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Source directory | `accreditations/accred-agents/` |
-| Module sources | `modules/<id>/` for all 11 required modules |
+| Definition | `learning/accreditations/accred-agents/accreditation.yaml` |
+| Module sources | `learning/modules/<id>/` for all 11 required modules; overview module `learning/modules/accred-agents/` |
 | Primary audience | Builders; Solution advisors; Architects; Technical consultants |
 | Core focus | Design, build, govern, evaluate, and debug production Glean Agents |
 | Capstone / assessment | ACC-104 Builder Accreditation (capstone lab) |

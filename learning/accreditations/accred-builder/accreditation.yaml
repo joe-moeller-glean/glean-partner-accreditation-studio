@@ -1,0 +1,21 @@
+# Accreditation definition. Modules live in learning/modules/<id>/ and are referenced, not nested.
+id: accred-builder
+name: Builder
+source: tracker
+status: planned
+audience: [Builders, Developers]
+required_modules:
+  - BLD-101
+  - BLD-102
+  - BLD-103
+  - BLD-104
+  - BLD-201
+  - BLD-202
+  - ACC-104
+electives: []
+completion:
+  assessment_module: ACC-104
+  assessment_type: Quiz
+  mastery_score: 80
+overview_module: null
+publish_mode: automatic_after_green

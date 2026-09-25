@@ -2,7 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Source directory | `accreditations/accred-technical-advisor/` |
+| Definition | `learning/accreditations/accred-technical-advisor/accreditation.yaml` |
+| Module sources | `learning/modules/<id>/` |
 | Primary audience | Solution advisors |
 | Core focus | — |
 | Capstone / assessment | Quiz |

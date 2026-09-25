@@ -10,8 +10,8 @@ const fs = require("fs");
 const { chromium } = require("playwright-core");
 
 const ROOT = path.join(__dirname, "..", "..");
-const MOD = path.join(ROOT, "modules", "AGT-101");
-const OUT = path.join(ROOT, "modules", "AGT-101", "qa", "visual");
+const MOD = path.join(ROOT, "learning", "modules", "AGT-101");
+const OUT = path.join(ROOT, "learning", "modules", "AGT-101", "qa", "visual");
 const CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 
 // Minimal SCORM API so the module initialises exactly as it would in an LMS.

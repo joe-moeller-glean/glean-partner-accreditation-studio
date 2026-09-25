@@ -1,6 +1,6 @@
 import json, pathlib
 
-BASE = pathlib.Path("modules/AGT-101/assets")
+BASE = pathlib.Path("learning/modules/AGT-101/assets")
 alt = json.loads((BASE / "alt-text.json").read_text())["assets"]
 
 CREATED = "2026-09-14"
@@ -69,5 +69,5 @@ manifest = {
 }
 (BASE / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
 print("manifest assets:", len(assets))
-missing = [a["path"] for a in assets if not (pathlib.Path("modules/AGT-101") / a["path"]).is_file()]
+missing = [a["path"] for a in assets if not (pathlib.Path("learning/modules/AGT-101") / a["path"]).is_file()]
 print("missing files:", missing or "none")

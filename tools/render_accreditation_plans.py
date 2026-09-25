@@ -1,12 +1,21 @@
 #!/usr/bin/env python3
-"""Render one badge-level plan per accreditation in plan/accreditations.json."""
+"""Render one badge-level plan per accreditation definition in learning/accreditations/."""
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "skills" / "scripts"))
+import learning_layout  # noqa: E402
+
+# Canonical definitions live in learning/accreditations/<id>/accreditation.yaml.
+# Keep tracker order: plan/accreditations.json is the tracker snapshot.
+_ORDER = [e["directory"] for e in json.loads((ROOT / "plan/accreditations.json").read_text())["accreditations"]]
+_DEFS = sorted(learning_layout.load_accreditations(ROOT),
+               key=lambda a: _ORDER.index(a["id"]) if a["id"] in _ORDER else len(_ORDER))
 TRACK = {r["Module ID"]: r for r in json.loads((ROOT / "plan/roadmap-export/tab-02-module-id.json").read_text())["records"]}
 QUEUE = {j["module_id"]: j for j in json.loads((ROOT / "plan/queue.json").read_text())["jobs"]}
-ACCRED = json.loads((ROOT / "plan/accreditations.json").read_text())
+ACCRED = {"accreditations": [learning_layout.tracker_view(a) for a in _DEFS]}
 BADGE = {r["Badge / Accreditation"]: r for r in json.loads((ROOT / "plan/roadmap-export/tab-03-badge-accreditation.json").read_text())["records"]}
 COMP = json.loads((ROOT / "plan/roadmap-export/tab-06-competency.json").read_text())["records"]
 
@@ -81,6 +90,9 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     for a in ACCRED["accreditations"]:
         slug, name = a["directory"], a["name"]
+        if slug not in NOTES:
+            print("skipped plan/accreditations/%s.md (hand-maintained; no render notes)" % slug)
+            continue
         n = NOTES[slug]
         br = BADGE.get(name, {})
         mods = [m for m in a["required_modules"] if m in TRACK]
@@ -91,7 +103,8 @@ def main():
         w("")
         w("| Field | Value |")
         w("|---|---|")
-        w("| Source directory | `accreditations/%s/` |" % slug)
+        w("| Definition | `learning/accreditations/%s/accreditation.yaml` |" % slug)
+        w("| Module sources | `learning/modules/<id>/` |")
         w("| Primary audience | %s |" % br.get("Primary Audience", "—"))
         w("| Core focus | %s |" % (br.get("Core Focus") or "—"))
         w("| Capstone / assessment | %s |" % br.get("Capstone / Assessment", "—"))

@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Scaffold a module directory from the repository template with IDs wired."""
-import argparse, json, shutil
+import argparse, json, shutil, sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import learning_layout  # noqa: E402
 
 TEMPLATE = Path(__file__).resolve().parent.parent / "assets" / "repository-template"
 DIRS = ["content/screens", "content/bands", "content/scenarios", "content/feedback", "design", "research",
@@ -20,7 +23,7 @@ def main():
     p.add_argument("--design-system", choices=("paged-v1", "scroll-canvas-v1"), default="paged-v1")
     a = p.parse_args()
 
-    dest = a.repo_root / "modules" / a.module_id
+    dest = learning_layout.module_dir(a.repo_root, a.module_id)
     if dest.exists():
         raise SystemExit(f"{dest} already exists")
     for d in DIRS:

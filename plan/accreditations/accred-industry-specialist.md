@@ -2,7 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Source directory | `accreditations/accred-industry-specialist/` |
+| Definition | `learning/accreditations/accred-industry-specialist/accreditation.yaml` |
+| Module sources | `learning/modules/<id>/` |
 | Primary audience | Industry Principals |
 | Core focus | — |
 | Capstone / assessment | Quiz |

@@ -81,9 +81,8 @@ def package(module_dir: Path):
 
 
 def main():
-    targets = sorted((ROOT / "modules").iterdir())
-    targets = [t for t in targets if t.is_dir()]
-    targets.append(ROOT / "accreditations" / "accred-agents")
+    # learning/modules/ holds every package, including the accred-agents overview module.
+    targets = sorted(t for t in (ROOT / "learning" / "modules").iterdir() if t.is_dir())
     results = []
     for m in targets:
         zpath, digest = package(m)

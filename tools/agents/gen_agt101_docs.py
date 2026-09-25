@@ -1,6 +1,6 @@
 import json, pathlib, subprocess, hashlib, datetime
 
-M = pathlib.Path("modules/AGT-101")
+M = pathlib.Path("learning/modules/AGT-101")
 TODAY = "2026-09-14"
 
 # ---------------------------------------------------------------- module.yaml

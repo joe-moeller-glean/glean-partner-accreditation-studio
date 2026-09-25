@@ -26,7 +26,7 @@ SKILL = ROOT / "skills" / "scripts"
 BUILD = SKILL / "build_scorm.py"
 VALIDATE = SKILL / "validate_scorm.py"
 DIST = ROOT / "dist"
-MODULE = ROOT / "modules" / "AGT-101"
+MODULE = ROOT / "learning" / "modules" / "AGT-101"
 
 RUNTIME_FILES = ["index.html", "tokens.css", "styles.css", "scorm.js",
                  "app.js", "content.js", "module.json"]

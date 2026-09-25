@@ -1,0 +1,18 @@
+# Accreditation definition. Modules live in learning/modules/<id>/ and are referenced, not nested.
+id: accred-foundations
+name: Glean Foundations
+source: tracker
+status: planned
+audience: [All partner personas]
+required_modules:
+  - FND-101
+  - FND-102
+  - FND-103
+  - FND-107
+electives: []
+completion:
+  assessment_module: null
+  assessment_type: Quiz
+  mastery_score: 80
+overview_module: null
+publish_mode: automatic_after_green

@@ -119,7 +119,7 @@ SPECS["FND-102"] = dict(
         "Tracker note explicitly calls for a revamp of tracks plus a self-serve motion - this is the whole point of the refresh.",
         "2025 journey deck must not be blended with the 2026 one (`superseded_by`, PR-03).",
         "Badge maintenance cadence may not exist yet - open SME question; do not invent a renewal period.",
-        "Path map here must stay in sync with `plan/accreditations.json`; drift is a release blocker.",
+        "Path map here must stay in sync with `learning/accreditations/*/accreditation.yaml`; drift is a release blocker.",
     ],
 )
 

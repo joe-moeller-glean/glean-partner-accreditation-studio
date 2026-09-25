@@ -1,0 +1,28 @@
+# Accreditation definition. Modules live in learning/modules/<id>/ and are referenced, not nested.
+id: accred-agents
+name: Agents
+source: composed
+status: built
+audience: [Builders, Solution advisors, Architects, Technical consultants]
+required_modules:
+  - FND-104
+  - FND-105
+  - BLD-101
+  - BLD-102
+  - BLD-103
+  - BLD-104
+  - SRV-204
+  - BLD-207
+  - BLD-208
+  - SOL-203
+  - ACC-104
+electives: []
+completion:
+  assessment_module: ACC-104
+  assessment_type: Quiz
+  mastery_score: 80
+overview_module: accred-agents
+publish_mode: manual_review
+origin: "Added 2026-09-02. Not present in the tracker badge table; composed from the tracker's agent-scoped modules and aligned to the Agent Building Competency in the Glean Partner Competency Program Guide."
+competency_alignment: Agent Building Competency (level 201)
+source_url: "https://docs.google.com/document/d/1Dy5ZFo2lyT6jDGoYMU7UlGrqp6IklLc-kIH7PbIWt9w"

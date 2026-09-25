@@ -174,7 +174,7 @@ I["INT-lifecycle"] = {
     ]
 }
 
-p = pathlib.Path("modules/AGT-101/interactions/interactions.json")
+p = pathlib.Path("learning/modules/AGT-101/interactions/interactions.json")
 p.parent.mkdir(parents=True, exist_ok=True)
 p.write_text(json.dumps({"module_id": "AGT-101", "interactions": I}, indent=2) + "\n")
 print("interactions:", len(I))

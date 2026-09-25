@@ -388,12 +388,14 @@ def generate(spec, out_root):
 
 
 def main():
-    modules_root = ROOT / "modules"
+    modules_root = ROOT / "learning" / "modules"
     modules_root.mkdir(exist_ok=True)
     made = []
     for spec in ALL_SPECS:
         made.append(generate(spec, modules_root))
-    badge_dir = ROOT / "accreditations" / BADGE["id"]
+    # The badge overview is a canonical module; membership lives in
+    # learning/accreditations/accred-agents/accreditation.yaml.
+    badge_dir = modules_root / BADGE["id"]
     if badge_dir.exists():
         shutil.rmtree(badge_dir)
     for d in DIRS:

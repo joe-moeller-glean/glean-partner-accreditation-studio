@@ -2,7 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Source directory | `accreditations/accred-foundations/` |
+| Definition | `learning/accreditations/accred-foundations/accreditation.yaml` |
+| Module sources | `learning/modules/<id>/` |
 | Primary audience | All partner personas |
 | Core focus | A base understand of what the Glean platform is |
 | Capstone / assessment | Quiz |

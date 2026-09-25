@@ -1,0 +1,21 @@
+# Accreditation definition. Modules live in learning/modules/<id>/ and are referenced, not nested.
+id: accred-solution-architect
+name: Solution Architect
+source: tracker
+status: planned
+audience: [Architects, Developers]
+required_modules:
+  - TEC-101
+  - TEC-102
+  - TEC-103
+  - TEC-104
+  - TEC-105
+  - TEC-201
+  - ACC-103
+electives: []
+completion:
+  assessment_module: ACC-103
+  assessment_type: Quiz
+  mastery_score: 80
+overview_module: null
+publish_mode: automatic_after_green

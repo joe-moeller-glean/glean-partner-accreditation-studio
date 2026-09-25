@@ -2,7 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Source directory | `accreditations/accred-builder/` |
+| Definition | `learning/accreditations/accred-builder/accreditation.yaml` |
+| Module sources | `learning/modules/<id>/` |
 | Primary audience | Builders, Developers |
 | Core focus | — |
 | Capstone / assessment | Quiz |

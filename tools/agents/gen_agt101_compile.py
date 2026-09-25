@@ -1,6 +1,6 @@
 import json, pathlib, shutil, re
 
-M = pathlib.Path("modules/AGT-101")
+M = pathlib.Path("learning/modules/AGT-101")
 
 bands = json.loads((M / "content/bands.json").read_text())["bands"]
 ix = json.loads((M / "interactions/interactions.json").read_text())["interactions"]
@@ -45,7 +45,7 @@ out += "window.AGT101 = " + json.dumps(payload, indent=1, ensure_ascii=False) + 
 (M / "content.js").write_text(out)
 
 # reuse the proven SCORM adapter unchanged
-shutil.copy("modules/FND-104/scorm.js", M / "scorm.js")
+shutil.copy("learning/modules/FND-104/scorm.js", M / "scorm.js")
 
 # theme: shared tokens + shared scroll-canvas system, module-local copies
 shutil.copy("shared/theme/scroll-canvas.css", M / "styles.css")

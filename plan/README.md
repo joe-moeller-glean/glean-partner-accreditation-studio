@@ -20,7 +20,7 @@ live Partner Accreditation & Competency Roadmap. Every sub-agent reads this inde
 | `queue.json` | 83 ordered jobs with request_type, deps, flags, sequence |
 | `dependency-graph.json` | Prerequisite DAG (acyclic, verified) |
 | `status.json` | Resumable per-module state |
-| `accreditations.json` | Badge → required-module mapping from the tracker |
+| `accreditations.json` | Tracker snapshot of badge → required modules. Canonical definitions: `learning/accreditations/<id>/accreditation.yaml`; `validate_accreditations.py` fails on drift |
 | `roadmap-export/` | CSV + JSON extraction of all six roadmap tabs + raw payload |
 
 ## Regenerate

@@ -184,7 +184,7 @@ BANDS = [
     }
 ]
 
-p = pathlib.Path("modules/AGT-101/content/bands.json")
+p = pathlib.Path("learning/modules/AGT-101/content/bands.json")
 p.parent.mkdir(parents=True, exist_ok=True)
 p.write_text(json.dumps({"module_id": "AGT-101", "bands": BANDS}, indent=2) + "\n")
 

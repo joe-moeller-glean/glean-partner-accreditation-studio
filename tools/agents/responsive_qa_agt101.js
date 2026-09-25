@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path');
 
-const MOD='modules/AGT-101';
+const MOD='learning/modules/AGT-101';
 // jsdom has no layout engine, so instead assert the CSS media queries exist
 // and that no fixed pixel width exceeds a 390px viewport.
 const css=fs.readFileSync('shared/theme/scroll-canvas.css','utf8')+fs.readFileSync(path.join(MOD,'tokens.css'),'utf8');
