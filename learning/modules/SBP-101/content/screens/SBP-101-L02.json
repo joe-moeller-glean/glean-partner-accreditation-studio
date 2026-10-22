@@ -120,22 +120,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Put these five items in order and explain in one line why each comes where it does: executive decision, DITL interviews, validation event, Visioning, preparation."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Preparation → Visioning → DITL interviews and value analysis → Executive Validation (executive decision) → agreed validation event and mutual action plan."
-    },
-    {
-      "t": "p",
-      "x": "Preparation gives you a hypothesis to test. Visioning narrows the field to a few hero use cases. DITL supplies the workflow evidence and metric inputs. The executive decides with that evidence in hand, and only then is a validation event scheduled."
-    }
-  ],
+  "knowledge_check": "SBP-101-L02-KC",
   "minutes": 7,
   "expanded": true,
   "words": 639,

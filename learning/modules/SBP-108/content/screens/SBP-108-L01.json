@@ -116,23 +116,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Sort four items into the four parts: a workflow map, a risk-adjusted benefit range, a baseline plan, and a strategic priority from the CFO."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Strategic priority:** problem statement.",
-        "**Workflow map, plus feasibility evidence:** justification.",
-        "**Risk-adjusted benefit range, with costs:** ROI.",
-        "**Baseline plan, with owner, timeline, and reallocation activity:** plan."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-108-L01-KC",
   "minutes": 6,
   "expanded": true,
   "words": 379,

@@ -102,18 +102,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Midway through the readout, the CFO says, \"These are estimates, not savings.\" Respond."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"You're right, and that's how we've labeled them. This range is a pre-sales hypothesis based on your team's workflow interviews. These are the assumptions behind it, and this is the evidence for each. We propose agreeing now on the metric owner, the baseline, and the validation that would need to happen before anyone calls this value realized. Which assumptions would you most want tested?\""
-    }
-  ],
+  "knowledge_check": "SBP-109-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 335,

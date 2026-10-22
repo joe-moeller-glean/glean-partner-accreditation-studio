@@ -115,26 +115,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Choose the appropriate AI assistance for three tasks: account research, DITL drafting, and pilot readiness."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Account research:** a research or point-of-view prompt using authorized sources only, with a claim register as output.",
-        "**DITL drafting:** a timeline-drafting prompt fed with verified interview notes.",
-        "**Pilot readiness:** an evidence-versus-criteria review that the account team uses with the approved scorecard."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Every output is a draft for human review. None is a decision or an approval."
-    }
-  ],
+  "knowledge_check": "SBP-112-L01-KC",
   "minutes": 6,
   "expanded": true,
   "words": 333,

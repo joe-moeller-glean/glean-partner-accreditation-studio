@@ -82,18 +82,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "The customer insists on a broad 60-day pilot \"to see what it can do.\" Respond."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"We want you to see real value, so let's make sure an evaluation answers a decision you need to make. Which specific workflows and outcomes would you need to see to decide? Let's start there with a focused validation, such as a tailored demo or a Lab scenario. If a question remains that only your own data can answer, we'll scope a pilot properly, with criteria and owners, and take it through Glean's approval process.\""
-    }
-  ],
+  "knowledge_check": "SBP-113-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 326,

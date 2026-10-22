@@ -98,18 +98,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Draft the essential content of a Visioning invitation for a fictional HR operations team."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"**Purpose:** a 60-minute working session to align AI opportunities with your HR operations goals. **Please bring:** your team's goals and KPIs, two recurring workflows that take significant time, the systems involved, and where the friction is. **Pre-work:** please return the attached worksheet two days before the session. **Outcome:** a prioritized list of use cases with owners, and agreed next steps for short workflow interviews. **Roles:** [partner name] facilitates; Glean captures notes and answers technical questions.\""
-    }
-  ],
+  "knowledge_check": "SBP-104-L05-KC",
   "minutes": 6,
   "expanded": true,
   "words": 392,

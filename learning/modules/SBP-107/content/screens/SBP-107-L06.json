@@ -98,25 +98,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Write a six-line DITL summary for the support case-answer workflow."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ol",
-      "items": [
-        "**Outcome:** higher support throughput without lower resolution quality.",
-        "**Current:** guidance is fragmented across the wiki, tickets, and chat, causing repeat searches and peer interruptions.",
-        "**Future:** grounded retrieval and drafting, with agent review and escalation for exceptions.",
-        "**Inputs:** about 40 agents and about 20 cases per agent per day (estimated); active search time per case is being measured.",
-        "**Evidence:** interview estimates from three agents. The baseline is not yet measured.",
-        "**Next:** validate the baseline with the ticketing export and confirm content access with the knowledge-base owner, by named dates."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-107-L06-KC",
   "minutes": 6,
   "expanded": true,
   "words": 344,

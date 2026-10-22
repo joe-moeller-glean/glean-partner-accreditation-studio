@@ -106,22 +106,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A champion asks, \"What is this Blueprint thing, and why should my team give you time for it?\" Write a two-sentence answer without product jargon. Then add one sentence on what remains uncertain at this point."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"We will identify and prioritize the workflows most tied to your business goals, then map how that work happens today and how it could work in future, with the people who do it. Together we will agree success measures and the lightest validation needed for an investment decision.\""
-    },
-    {
-      "t": "p",
-      "x": "Uncertainty to name: until you have spoken with the business owners and end users, the value is a hypothesis, not a result."
-    }
-  ],
+  "knowledge_check": "SBP-101-L01-KC",
   "minutes": 7,
   "expanded": true,
   "words": 644,

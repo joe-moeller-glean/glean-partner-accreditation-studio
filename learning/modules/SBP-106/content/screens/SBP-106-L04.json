@@ -129,28 +129,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A use case calls for an agent that reads five systems and updates a CRM record after each customer call. Identify at least four effort risks."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Connector availability** for all five systems, and whether each source is canonical.",
-        "**Identity and permissions:** whether users see only the records they're entitled to.",
-        "**Data consistency** across systems, such as conflicting account names or fields.",
-        "**An approved write-action model:** what is written, and the audit trail, idempotency, and handling of partial failures.",
-        "**Security review** of write actions into the CRM."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Mark each as unresolved and assign a validation owner before rating effort."
-    }
-  ],
+  "knowledge_check": "SBP-106-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 460,

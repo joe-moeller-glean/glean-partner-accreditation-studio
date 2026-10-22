@@ -88,25 +88,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A DITL interview reports \"30 minutes searching\" and \"two days waiting for approval.\" Explain how each should be modeled."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Searching (30 minutes):** active effort. It may free capacity if the search time falls and the freed time is redeployed. Model it as minutes × events × people, with evidence labels.",
-        "**Waiting (two days):** elapsed delay. It doesn't consume labor while it waits, but it may affect cycle time, revenue timing, or risk. Model it separately, with its own causal explanation."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Never add the two together."
-    }
-  ],
+  "knowledge_check": "SBP-107-L03-KC",
   "minutes": 6,
   "expanded": true,
   "words": 345,

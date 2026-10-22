@@ -77,18 +77,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "The readiness score is 84%, but leadership approval and the signed pilot order form are missing. Can deployment start?"
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "No. The score shows readiness, but it doesn't authorize anything. Resolve the required approvals and commercial prerequisites first. Under the dated guide, deployment begins only after the pilot approval is approved and the pilot order form is signed."
-    }
-  ],
+  "knowledge_check": "SBP-110-L05-KC",
   "minutes": 6,
   "expanded": true,
   "words": 307,

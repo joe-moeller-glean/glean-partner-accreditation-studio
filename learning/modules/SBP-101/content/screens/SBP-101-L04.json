@@ -111,23 +111,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Name one benefit for the customer, one for the partner, and one for Glean in a Blueprint you might run. Then state one accountability boundary you would agree before the first session."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Customer:** Clear priorities and evidence for an investment decision.",
-        "**Partner:** A relevant, well-defined services scope that follows from the prioritized use cases.",
-        "**Glean:** A qualified evaluation with a named sponsor and agreed success criteria.",
-        "**Boundary:** Glean keeps its internal pilot-approval and product-escalation processes. The partner does not commit to pilots, pricing, or roadmap items on Glean's behalf."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-101-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 454,

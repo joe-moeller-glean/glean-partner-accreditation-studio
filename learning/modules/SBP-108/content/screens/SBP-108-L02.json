@@ -89,22 +89,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Classify three benefits: 500 saved analyst hours a year, a cancelled contract for an overlapping tool, and an estimated increase in win rate."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Saved analyst hours:** capacity, or soft-dollar value, until a specific action, such as absorbing growth without a new hire, realizes it.",
-        "**Cancelled tool contract:** hard-dollar, supported by the contract value and the cancellation evidence.",
-        "**Win-rate increase:** directional, unless a credible customer-specific measurement links the change to Glean."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-108-L02-KC",
   "minutes": 6,
   "expanded": true,
   "words": 341,

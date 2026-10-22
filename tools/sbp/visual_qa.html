@@ -139,12 +139,16 @@ async function run() {
           }
         } catch (e) { /* same origin; should not throw */ }
       }
-      // Single-page runtime: every section is rendered at once, so check the whole page,
-      // then with every worked response revealed, then with the knowledge check started.
+      // Single-page runtime: every section and lesson MCQ renders at once. Check the initial
+      // page, then answer each formative lesson check, then start the graded knowledge check.
       await figurePass(w, d, mod, width, rec);
       checkScreen(w, d, 'page', width, rec.issues);
-      d.querySelectorAll('#screen .reveal-btn').forEach((b) => b.click());
-      checkScreen(w, d, 'page+reveal', width, rec.issues);
+      d.querySelectorAll('#screen .knowledge-check').forEach((box) => {
+        const option = box.querySelector('input[type=radio]');
+        const check = Array.from(box.querySelectorAll('button')).find((b) => /^Check this answer$/.test(b.textContent));
+        if (option && check) { option.click(); check.click(); }
+      });
+      checkScreen(w, d, 'page+lesson-answers', width, rec.issues);
       const start = Array.from(d.querySelectorAll('#screen button')).find((b) => /^Start attempt/.test(b.textContent));
       if (start) { start.click(); checkScreen(w, d, 'page+items', width, rec.issues); }
       f.remove();

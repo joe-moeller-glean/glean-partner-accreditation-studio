@@ -109,26 +109,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "List the facts you must recheck before offering a customer a sandbox."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "Data isolation and handling, including whether other organizations share the environment.",
-        "Identity and access: individual or shared logins.",
-        "Which content may be uploaded, and by whom.",
-        "Duration and user limits.",
-        "Who sets it up.",
-        "Security review and commercial terms.",
-        "Which capabilities the environment can and cannot validate, such as personalization and permission fidelity."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-110-L02-KC",
   "minutes": 6,
   "expanded": true,
   "words": 447,

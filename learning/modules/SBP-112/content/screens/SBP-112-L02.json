@@ -95,18 +95,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Improve this prompt: \"Make a convincing ROI case.\""
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"Using only the attached workflow notes and metric cards, draft a value model. Include the current and future workflow, each assumption labeled with its evidence and source, explicit units, and conservative, base, and upside ranges. List any missing evidence and the questions needed to validate it. Don't invent customer facts, baselines, or capabilities. Mark this output as a draft requiring financial and technical review.\""
-    }
-  ],
+  "knowledge_check": "SBP-112-L02-KC",
   "minutes": 6,
   "expanded": true,
   "words": 303,

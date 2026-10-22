@@ -94,30 +94,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A contact at a fictional mid-size insurer says, \"We don't need workshops. Just give us a free trial for the whole company.\" Decide whether to launch a Blueprint, and write the two or three questions you would ask next."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Not yet. This is a qualification gap, not a Blueprint opportunity. Next questions:"
-    },
-    {
-      "t": "ul",
-      "items": [
-        "\"What would need to change for this to be worth the effort, and who owns that result?\" (Why change, and the business owner.)",
-        "\"Why is this a priority this quarter rather than next year?\" (Why now.)",
-        "\"Who would make the investment decision, and what would they need to see?\" (The sponsor path and decision criteria.)"
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Once a priority, an owner, and a sponsor path are established, offer the Blueprint as the way to reach a decision faster than an open-ended trial."
-    }
-  ],
+  "knowledge_check": "SBP-102-L01-KC",
   "minutes": 7,
   "expanded": true,
   "words": 598,

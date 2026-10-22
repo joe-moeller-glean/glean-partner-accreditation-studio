@@ -100,18 +100,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "List what customer success needs from a pre-sales ROI estimate."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Metric definitions, the baseline period, the cohort, targets, data owners, evidence labels, the recapture and reallocation assumptions, costs, attribution caveats, a review cadence, and a named, accountable value owner who accepts the handoff."
-    }
-  ],
+  "knowledge_check": "SBP-111-L05-KC",
   "minutes": 5,
   "expanded": true,
   "words": 253,

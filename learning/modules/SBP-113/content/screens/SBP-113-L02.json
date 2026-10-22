@@ -82,22 +82,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A senior manager answers every question meant for front-line agents. What do you do?"
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Thank them and capture their view. Then run a structured round: \"I'd like to hear from each of you about the last access case you handled.\" If needed, schedule a separate, consented interview with the agents."
-    },
-    {
-      "t": "p",
-      "x": "Record which input was observed behavior and which was a leadership view."
-    }
-  ],
+  "knowledge_check": "SBP-113-L02-KC",
   "minutes": 5,
   "expanded": true,
   "words": 256,

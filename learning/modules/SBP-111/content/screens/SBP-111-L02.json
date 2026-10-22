@@ -109,28 +109,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Turn \"technical validation next month\" into measurable MAP entries."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ol",
-      "items": [
-        "**Confirm scope and readiness.** Owners: the SE and the customer's IT lead. Target: [date]. Evidence: a signed-off scope note.",
-        "**Run the agreed validation event.** Owners: the SE and the champion. Target: [date]. Evidence: completed test tasks.",
-        "**Review findings against the criteria.** Owners: the joint team. Target: [date].",
-        "**Record the sponsor's decision.** Owner: the sponsor. Target: [date].",
-        "**Schedule the next gate.** Owner: the AE."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Ask each customer owner to accept their dates."
-    }
-  ],
+  "knowledge_check": "SBP-111-L02-KC",
   "minutes": 6,
   "expanded": true,
   "words": 325,

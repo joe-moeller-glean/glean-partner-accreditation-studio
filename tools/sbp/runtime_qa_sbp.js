@@ -89,7 +89,11 @@ function pageIssues(ctx) {
           else if (!fs.existsSync(path.join(ctx.dir, p))) issues.push(`${M.screens[k].id}: figure asset not packaged ${p}`);
         });
       });
-      if (!$(s, '.practice textarea') || !$(s, '.practice .reveal-btn')) issues.push(`${M.screens[k].id}: lesson practice missing`);
+      if ($$(s, '.knowledge-check fieldset.item').length !== 1 ||
+          $$(s, '.knowledge-check input[type=radio]').length !== 4 ||
+          !$$(s, '.knowledge-check button').some((b) => /^Check this answer$/.test(b.textContent))) {
+        issues.push(`${M.screens[k].id}: four-option lesson knowledge check missing`);
+      }
     }
   }
   const links = $$(d, '#map a');
@@ -164,21 +168,25 @@ function testModule(dir) {
   ok('new attempt sets incomplete', api0.store['cmi.core.lesson_status'] === 'incomplete');
   ok('lesson_location is a section id', M.screens.some((s) => s.id === api0.store['cmi.core.lesson_location']));
 
-  // Practice drafts never persisted.
-  const prac = M.screens.findIndex((s) => s.type === 'lesson');
-  if (prac >= 0) {
-    const ta = $(sec(c, prac), '.practice textarea');
-    ta.value = 'UNIQUE-DRAFT-MARKER customer text';
-    ta.dispatchEvent(new c.w.Event('input'));
-    c.w.SBP_TEST.go(prac + 1);
-    ok('practice draft not in suspend_data', !String(api0.store['cmi.suspend_data']).includes('UNIQUE-DRAFT-MARKER'));
-    // Worked-response reveal: keyboard button with aria-expanded, toggled in place.
-    const b = $(sec(c, prac), '.reveal-btn');
-    const region = c.d.getElementById(b.getAttribute('aria-controls'));
-    ok('worked response hidden before reveal', b.getAttribute('aria-expanded') === 'false' && region.hidden);
-    b.click();
-    ok('worked response revealed in place', b.getAttribute('aria-expanded') === 'true' && !region.hidden &&
-       ta.isConnected && ta.value.includes('UNIQUE-DRAFT-MARKER'));
+  // Every lesson check is a four-option, single-answer formative MCQ and never writes an LMS score.
+  const lessonIndexes = M.screens.map((s, i) => s.type === 'lesson' ? i : -1).filter((i) => i >= 0);
+  if (lessonIndexes.length) {
+    ok('one knowledge-check record per lesson', (M.knowledge_checks || []).length === lessonIndexes.length,
+       `${(M.knowledge_checks || []).length} vs ${lessonIndexes.length}`);
+    ok('every lesson renders one four-option MCQ', lessonIndexes.every((i) =>
+      $$(sec(c, i), '.knowledge-check fieldset.item').length === 1 &&
+      $$(sec(c, i), '.knowledge-check input[type=radio]').length === 4 &&
+      $$(sec(c, i), '.knowledge-check button').some((b) => /^Check this answer$/.test(b.textContent))));
+    ok('lesson checks contain no open-response controls', lessonIndexes.every((i) =>
+      !$(sec(c, i), '.knowledge-check textarea') && !$(sec(c, i), '.reveal-btn')));
+    const prac = lessonIndexes[0];
+    const q = M.knowledge_checks.find((item) => item.id === M.screens[prac].knowledge_check);
+    const right = q.options.find((o) => o.correct).id;
+    $(sec(c, prac), `.knowledge-check input[value="${right}"]`).click();
+    $$(sec(c, prac), '.knowledge-check button').find((b) => /^Check this answer$/.test(b.textContent)).click();
+    ok('lesson MCQ gives immediate answer feedback', /Correct\./.test($(sec(c, prac), '.knowledge-check .feedback').textContent));
+    ok('lesson MCQ does not write score or LMS interaction', !('cmi.core.score.raw' in api0.store) &&
+       !Object.keys(api0.store).some((key) => /^cmi\.interactions\./.test(key)));
   }
 
   if (M.kind === 'capstone') {

@@ -121,22 +121,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Your colleague's draft readout opens with a 40-slide product introduction. Cut it down to an executive opening."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Keep four things: the customer's problem in their words, why now, why Glean in this context (one slide, about five minutes at most), and the decision you'll ask for at the end."
-    },
-    {
-      "t": "p",
-      "x": "Move the product background to an appendix or a separate link. Go straight to the customer's prioritized workflows and the evidence from DITL."
-    }
-  ],
+  "knowledge_check": "SBP-109-L03-KC",
   "minutes": 6,
   "expanded": true,
   "words": 309,

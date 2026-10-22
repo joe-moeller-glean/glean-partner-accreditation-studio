@@ -76,22 +76,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Classify each item as a Sales Blueprint output or an adjacent technical-delivery asset: a prioritized use case list, an implementation reference architecture, and an executive value readout."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Prioritized use case list:** Sales Blueprint output (from Visioning).",
-        "**Executive value readout:** Sales Blueprint output (from Executive Validation).",
-        "**Implementation reference architecture:** An adjacent technical-delivery asset. It may be linked in the handoff when it informs feasibility, but it is not evidence that the customer will get value."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-101-L05-KC",
   "minutes": 6,
   "expanded": true,
   "words": 353,

@@ -86,22 +86,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Run a five-minute readiness review for tomorrow's Visioning session. List what you check, and name one reason that would justify delaying."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Check: the sponsor path, the returned worksheet, the attendee list against the lines of business, the hypotheses, the roles, the tools and fallback, and the expected outputs."
-    },
-    {
-      "t": "p",
-      "x": "Delay if no one can confirm the business outcome the session supports, or if the workflow owners can't attend. Without them, the use case list will have no owners and no credible path to DITL."
-    }
-  ],
+  "knowledge_check": "SBP-104-L06-KC",
   "minutes": 6,
   "expanded": true,
   "words": 315,

@@ -81,22 +81,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "After Executive Validation, the only open question is whether the support team will understand and accept the proposed workflow. Recommend a validation path."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "A tailored demo or a suitable Glean Lab scenario, built around the prioritized support workflow, with clear success questions. For example: \"Can agents find the approved answer for these five representative case types, and would they use this flow?\""
-    },
-    {
-      "t": "p",
-      "x": "Escalate to a heavier option only if this can't answer the buying question, and document why the extra investment is needed."
-    }
-  ],
+  "knowledge_check": "SBP-110-L01-KC",
   "minutes": 6,
   "expanded": true,
   "words": 422,

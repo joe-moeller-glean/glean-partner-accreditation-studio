@@ -99,22 +99,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A colleague's model is \"users × minutes saved × hourly rate.\" Explain why it is incomplete."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "It leaves out adoption, event frequency, and the time period. It doesn't convert minutes to hours explicitly. It ignores how much of the work is really removable, and assumes 100% recapture with no uncertainty adjustment."
-    },
-    {
-      "t": "p",
-      "x": "Document each input with its evidence label, convert units once, and make sure discounts don't overlap."
-    }
-  ],
+  "knowledge_check": "SBP-108-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 355,

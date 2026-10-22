@@ -15,7 +15,7 @@
   };
   var N = M.screens.length;
   var state = { i: 0, vis: {}, att: 0, q: null, hist: [], st: "" };
-  var mem = { drafts: {}, reveal: {}, formative: {}, confirm: false, roi: null };
+  var mem = { formative: {}, confirm: false, roi: null };
   var started = Date.now();
   var secs = [];      // section elements, index-aligned with M.screens
   var heads = [];     // section headings (focus targets)
@@ -73,7 +73,7 @@
     return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   }
   var BANK = {};
-  (M.bank || []).forEach(function (q) { BANK[q.id] = q; });
+  (M.bank || []).concat(M.knowledge_checks || []).forEach(function (q) { BANK[q.id] = q; });
   function isCheck(k) { return M.screens[k].type === "quiz"; }
 
   // ---------------------------------------------------------------- persistence
@@ -275,44 +275,32 @@
     host.appendChild(wrap);
   }
 
-  // Lesson practice: local draft, then reveal the worked response. Toggled in place.
-  function renderPractice(scr, host) {
-    var box = h("div", "practice");
-    box.appendChild(h("h3", null, "Practice"));
-    renderBlocks(scr.practice, box);
-    var id = "draft-" + scr.id;
-    var lab = h("label", "draft-label", "Your draft response");
-    lab.htmlFor = id;
-    var ta = h("textarea", "draft");
-    ta.id = id;
-    ta.rows = 5;
-    ta.value = mem.drafts[scr.id] || "";
-    ta.setAttribute("aria-describedby", id + "-note");
-    ta.oninput = function () { mem.drafts[scr.id] = ta.value; };
-    box.appendChild(lab);
-    box.appendChild(ta);
-    var note = h("p", "note", "Ungraded. Your draft stays on this page while the module is open. It is not saved and is not sent to the LMS, so do not enter real customer data.");
-    note.id = id + "-note";
-    box.appendChild(note);
-    var regionId = "reveal-" + scr.id;
-    var region = h("div", "feedback reveal worked");
-    region.id = regionId;
-    region.appendChild(h("h4", null, "Worked response"));
-    renderBlocks(scr.worked, region);
-    var b = btn("ghost reveal-btn", "", function () {
-      mem.reveal[scr.id] = !mem.reveal[scr.id];
-      sync();
-    });
-    b.setAttribute("aria-controls", regionId);
-    function sync() {
-      var open = !!mem.reveal[scr.id];
-      b.textContent = open ? "Hide the worked response" : "Show the worked response";
-      b.setAttribute("aria-expanded", open ? "true" : "false");
-      region.hidden = !open;
+  // One four-option, single-answer formative knowledge check per lesson. It is intentionally
+  // ungraded: only module quizzes and the final exam write LMS scores or interactions.
+  function renderKnowledgeCheck(scr, host, k) {
+    var q = BANK[scr.knowledge_check];
+    var f = mem.formative[q.id] || {};
+    var box = h("div", "practice knowledge-check");
+    box.appendChild(h("h3", null, "Knowledge check"));
+    var order = q.options.map(function (o) { return o.id; }).join("");
+    var fs = radioItem(q, order, f.pick, f.checked, function (oid) {
+      f.pick = oid; mem.formative[q.id] = f;
+    }, box, 0);
+    if (!f.checked) {
+      fs.appendChild(btn("ghost", "Check this answer", function () {
+        if (!f.pick) { el.status.textContent = "Choose an option first."; return; }
+        f.checked = true; mem.formative[q.id] = f; refresh(k, "#fb-" + q.id);
+      }));
+    } else {
+      var ok = optionById(q, f.pick).correct;
+      var fb = h("div", "feedback reveal");
+      fb.id = "fb-" + q.id;
+      fb.tabIndex = -1;
+      fb.appendChild(h("p", "verdict-line", ok ? "Correct." : "Not correct."));
+      fb.appendChild(h("p", null, ok ? q.fb_correct : q.fb_incorrect));
+      fs.appendChild(fb);
     }
-    sync();
-    box.appendChild(b);
-    box.appendChild(region);
+    box.appendChild(h("p", "note", "Formative only. This question is not scored and is not sent to the LMS."));
     host.appendChild(box);
   }
 
@@ -582,7 +570,7 @@
       renderBlocks(scr.blocks, prose);
       body.appendChild(prose);
     }
-    if (scr.practice) renderPractice(scr, body);
+    if (scr.knowledge_check) renderKnowledgeCheck(scr, body, k);
     if (scr.table) renderTable(scr.table, body);
     if (scr.tables) scr.tables.forEach(function (t) { renderTable(t, body); });
     if (scr.cards) renderCards(scr.cards, body);

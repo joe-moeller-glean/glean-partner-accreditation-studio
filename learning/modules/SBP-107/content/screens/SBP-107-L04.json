@@ -91,23 +91,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Redesign the five-step case-answer process from lesson 2 (read, search, ask a colleague, draft, review). Identify the controls you would keep."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Future state:** read case → Glean retrieves approved guidance and past resolutions and drafts a response → the agent verifies the sources and edits → review, only for flagged case types → send.",
-        "**Controls kept:** source verification by the agent, approval for flagged case types, and escalation when no approved answer exists.",
-        "**Assumptions:** the knowledge base is current and reachable, and agents' permissions are mapped correctly.",
-        "**Measurement:** time the new active effort on a sample of cases."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-107-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 435,

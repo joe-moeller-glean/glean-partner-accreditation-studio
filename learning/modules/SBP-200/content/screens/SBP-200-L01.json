@@ -108,22 +108,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Annotate three scenario items as fact, estimate, or unknown: the 200 support users, the eight-minute search time, and connector permission behavior."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**200 support users:** a scenario fact for training purposes. It is the addressable population, not the adopted population.",
-        "**Eight-minute search time:** an interview estimate of active work, not a measured baseline.",
-        "**Connector permission behavior:** unknown. Record it as an open technical question for the technical owner, with a validation step."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-200-L01-KC",
   "minutes": 6,
   "expanded": true,
   "words": 345,

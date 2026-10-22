@@ -104,18 +104,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "You have ten user survey responses saying the tool \"saves time,\" with no baseline and no operational data. What claim can you defensibly make?"
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "A directional, self-reported benefit only, for example: \"Ten surveyed users report time savings. This is not yet measured.\" Before presenting any realized financial claim, establish a baseline and corroborate the result with telemetry and system-of-record outcomes, such as handle time in the ticketing system."
-    }
-  ],
+  "knowledge_check": "SBP-108-L03-KC",
   "minutes": 6,
   "expanded": true,
   "words": 325,

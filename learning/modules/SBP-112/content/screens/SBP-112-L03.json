@@ -73,22 +73,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Repair this AI-drafted sentence: \"This customer saved 40% because a peer did.\""
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Replace it with a hypothesis tied to the prospect's own workflow, for example: \"Hypothesis to validate: agents' search time for access cases could fall, based on what the team described in Visioning. We'll measure handle time against a four-week baseline.\""
-    },
-    {
-      "t": "p",
-      "x": "Remove the peer's percentage and name. Use a peer example only if it is approved, and label it clearly as an external example."
-    }
-  ],
+  "knowledge_check": "SBP-112-L03-KC",
   "minutes": 5,
   "expanded": true,
   "words": 266,

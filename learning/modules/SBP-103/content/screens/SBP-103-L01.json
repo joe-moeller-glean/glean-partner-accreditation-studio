@@ -126,23 +126,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Assign roles for a partner-led Visioning workshop and the DITL sessions that follow it. The team is an AE, an SE, a partner consultant, and a BVC who is available for review only."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Visioning:** the partner facilitates and captures the use case log. The AE coordinates the customer and sponsor and owns the commercial context. The SE is the technical respondent.",
-        "**DITL:** the SE leads workflow and technical depth, the partner co-interviews and maps workflows, and the AE keeps the sponsor path moving.",
-        "**Value:** the SE or partner drafts the estimate. The BVC reviews it only if the case is complex and the engagement has been agreed.",
-        "**Follow-up:** the AE sends the recap and updates the mutual action plan within 24 hours."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-103-L01-KC",
   "minutes": 7,
   "expanded": true,
   "words": 549,

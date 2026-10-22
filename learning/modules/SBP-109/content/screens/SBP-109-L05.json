@@ -86,23 +86,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "The sponsor accepts the business priority and the directional value, but wants a permission-sensitive workflow tested first. Write the decision log entry."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Accepted:** the business priority, and the directional value range as a hypothesis.",
-        "**Open:** whether restricted records behave correctly in the future-state workflow.",
-        "**Next:** an SE-scoped validation with authorized test data and the customer's technical owner. Success criteria: restricted content is never returned to unauthorized test users, and the approved answer is found for the agreed scenarios. Decision date: [date].",
-        "**Pilot:** only if the lighter validation can't resolve the question, and subject to internal approval."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-109-L05-KC",
   "minutes": 6,
   "expanded": true,
   "words": 335,

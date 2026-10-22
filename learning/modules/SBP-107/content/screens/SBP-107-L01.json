@@ -92,23 +92,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Write an interview brief for the \"approved-answer discovery\" use case in the fictional support team."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Objective:** map the work from a new case to a sent answer, including time, systems, and failure points.",
-        "**Attendees:** two tier 1 support agents, a team lead, and the knowledge-base owner if needed.",
-        "**Inputs:** a recent representative case, with customer details removed; the list of systems used; any existing handle-time report.",
-        "**Outputs:** the steps, timings, and failures; data sources and permissions; and gaps in the metrics and baseline, each with an owner."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-107-L01-KC",
   "minutes": 6,
   "expanded": true,
   "words": 445,

@@ -130,28 +130,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "The customer can only give you 45 minutes. Adapt the agenda without dropping commitments."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "Welcome and purpose: 3 minutes.",
-        "Context: 5 minutes, using a list pre-populated from pre-work.",
-        "Discovery: 12 minutes, limited to one department.",
-        "Prioritization: 20 minutes.",
-        "Commitments: 5 minutes."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "If discovery isn't complete, agree a short second session for the remaining department rather than skipping prioritization or owners."
-    }
-  ],
+  "knowledge_check": "SBP-105-L02-KC",
   "minutes": 6,
   "expanded": true,
   "words": 307,

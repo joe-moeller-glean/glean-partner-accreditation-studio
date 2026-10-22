@@ -76,31 +76,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Adoption is rising, but the business KPI hasn't moved. What should happen?"
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Investigate before claiming value. Check:"
-    },
-    {
-      "t": "ul",
-      "items": [
-        "Workflow fit: does the new flow match how the work is done?",
-        "Data coverage and answer quality.",
-        "Measurement lag.",
-        "Whether the freed capacity was actually reallocated."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Then update the hypothesis and the plan. Don't treat usage as proof of realized financial value."
-    }
-  ],
+  "knowledge_check": "SBP-111-L06-KC",
   "minutes": 5,
   "expanded": true,
   "words": 266,

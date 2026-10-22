@@ -143,22 +143,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "An opportunity note says \"Visioning done.\" There are no use case owners recorded. List the missing evidence and the smallest follow-up that would close the gap."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Missing: agreed priorities, owner names, metric definitions, workflow and data validation, and a sponsor path."
-    },
-    {
-      "t": "p",
-      "x": "The smallest follow-up is targeted, not a repeat of Visioning. Hold a short session with the champion to confirm the top two or three use cases and name an owner for each, then book DITL interviews with those owners. Record what remains unknown, such as baselines and data access, as actions with owners and dates."
-    }
-  ],
+  "knowledge_check": "SBP-102-L02-KC",
   "minutes": 7,
   "expanded": true,
   "words": 520,

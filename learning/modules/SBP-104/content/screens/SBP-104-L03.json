@@ -116,26 +116,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Write one complete metric hypothesis for the fictional IT service desk, using What, How, and Why."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**What:** mean handle time for access-request tickets.",
-        "**How:** compare consistent open-to-resolve timestamps in the IT service-management system over an agreed baseline period and a matching validation period. The service-desk manager supplies the export.",
-        "**Why:** if agents find approved procedures faster, effort per ticket should fall and free capacity, provided first-contact resolution stays stable."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Uncertainty: the definition of the ticket class and the data export must be confirmed by the metric owner."
-    }
-  ],
+  "knowledge_check": "SBP-104-L03-KC",
   "minutes": 6,
   "expanded": true,
   "words": 412,

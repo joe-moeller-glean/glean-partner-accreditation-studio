@@ -75,17 +75,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -246,7 +256,7 @@
         }
       ],
       "failures": [],
-      "build": "f3fb9b0de045cdb7c6d6b4ca84843e85b5a6096ef1cae331d7712e15d9cbc58b"
+      "build": "d5530d14c15767838a8e266bc58fe5b4b8394e8a975ee5b57fab67518b5d044e"
     },
     {
       "module_id": "SBP-102",
@@ -322,17 +332,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -493,7 +513,7 @@
         }
       ],
       "failures": [],
-      "build": "e75e19bf7fe6303262df2fac2d32303e633f26a66bdef3cb6bfbe4b7e8a2f144"
+      "build": "aef32b1c1c2ce2cec342c1f0d1de300cb03820816e7967c40772dc092d389e58"
     },
     {
       "module_id": "SBP-103",
@@ -569,17 +589,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -740,7 +770,7 @@
         }
       ],
       "failures": [],
-      "build": "7a7906da90569e968c6b468b26105f2c76acf7bf6b1ae3ead3d7044f2bb1f3d4"
+      "build": "2a2bc79854b81111892dd354c1d73ef72fdf84532e766428deab2fd57105c731"
     },
     {
       "module_id": "SBP-104",
@@ -816,17 +846,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -893,7 +933,7 @@
         {
           "name": "session_time CMITimespan",
           "pass": true,
-          "detail": "0000:00:00.02"
+          "detail": "0000:00:00.03"
         },
         {
           "name": "LMSFinish exactly once",
@@ -987,7 +1027,7 @@
         }
       ],
       "failures": [],
-      "build": "6c186d0edb09bdf665de35e89c17eba1c049e6808ac174b5666bfd33191b9394"
+      "build": "3b8b1695f33688fa0dff5d0c597a2f1bf5b8bfa5e0a8fa9f66864305a149062d"
     },
     {
       "module_id": "SBP-105",
@@ -1063,17 +1103,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -1234,7 +1284,7 @@
         }
       ],
       "failures": [],
-      "build": "09b1d337a4790a39eda818c01209ad433568bd00e8df95644abe40b33f1d0000"
+      "build": "126c583a307f18c4a0c2036b1cc0b483660c08650016d2468effaa5bfe9a8fa5"
     },
     {
       "module_id": "SBP-106",
@@ -1310,17 +1360,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -1481,7 +1541,7 @@
         }
       ],
       "failures": [],
-      "build": "94a4a5b9600fe2bb1cb0117f07f9296a534ed39742d5bed5f4d41d723d01a473"
+      "build": "ca5655e89f64e3092ef60faf420b0e8e766846155be625be459881e90643ecf6"
     },
     {
       "module_id": "SBP-107",
@@ -1557,17 +1617,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -1728,7 +1798,7 @@
         }
       ],
       "failures": [],
-      "build": "dfafd20ff8eebb99685ef81397b9d13a1d26121bfea358bb2dee59c38e2d14d4"
+      "build": "a35e4aee9c1d404dc443f53a7442655d9f746d21b517778d6cf97214c0bd8d28"
     },
     {
       "module_id": "SBP-108",
@@ -1804,17 +1874,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -2000,7 +2080,7 @@
         }
       ],
       "failures": [],
-      "build": "642f50bb4c49e24391ac4ae3af8eea327053d0a0d525fc03f7775e5822eb5c31"
+      "build": "8cdd6d0d8b20350803bdbf321fe144be34433c1c47a71ec0e48b42330a121261"
     },
     {
       "module_id": "SBP-109",
@@ -2076,17 +2156,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -2247,7 +2337,7 @@
         }
       ],
       "failures": [],
-      "build": "837c7e031dda9da6d958beb219cc3232b35d1bbaebc4b22c4ba428016f1c2669"
+      "build": "1568c16025af2bee3d3f361f6b7360dc2568d8910bae03ccbe1e30ecfe0e2346"
     },
     {
       "module_id": "SBP-110",
@@ -2323,17 +2413,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -2494,7 +2594,7 @@
         }
       ],
       "failures": [],
-      "build": "0bdb3599078b47ad196ecd2f3a39966af434c8c18cd23135e5201ac352b61901"
+      "build": "8689e5df3f09c650924e18d7ddd78f7a6c249cd3d1cddc638ed3f336d7c1e389"
     },
     {
       "module_id": "SBP-111",
@@ -2570,17 +2670,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -2741,7 +2851,7 @@
         }
       ],
       "failures": [],
-      "build": "4fb986c811f5982ec89c15eafb846c443613935822cdab1a0262d5e8ba3487da"
+      "build": "c13080936c1e830d801ecc6a60dcde711f92307963d8afd1aab3ed6323a92102"
     },
     {
       "module_id": "SBP-112",
@@ -2817,17 +2927,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -2988,7 +3108,7 @@
         }
       ],
       "failures": [],
-      "build": "6d1422a191e953dc0c3d6e72a78dc1b3e7eb6b6a9f31f8dd685b10598eb79c0b"
+      "build": "786a49bda6e829cab87842f6dcab7c85759673ffa44e20c5f31b6ddc78929e9f"
     },
     {
       "module_id": "SBP-113",
@@ -3064,17 +3184,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -3141,7 +3271,7 @@
         {
           "name": "session_time CMITimespan",
           "pass": true,
-          "detail": "0000:00:00.01"
+          "detail": "0000:00:00.02"
         },
         {
           "name": "LMSFinish exactly once",
@@ -3235,7 +3365,7 @@
         }
       ],
       "failures": [],
-      "build": "fac51a3dce3fae8868f8c2239df8a22ef53396dcfab8dadcd1675c6593b60460"
+      "build": "6afc6ae3f25c19f3b2a2bbec1196a1377bab3569c68ae8241f3210836bfee311"
     },
     {
       "module_id": "SBP-200",
@@ -3291,17 +3421,27 @@
           "detail": ""
         },
         {
-          "name": "practice draft not in suspend_data",
+          "name": "one knowledge-check record per lesson",
+          "pass": true,
+          "detail": "6 vs 6"
+        },
+        {
+          "name": "every lesson renders one four-option MCQ",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response hidden before reveal",
+          "name": "lesson checks contain no open-response controls",
           "pass": true,
           "detail": ""
         },
         {
-          "name": "worked response revealed in place",
+          "name": "lesson MCQ gives immediate answer feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ does not write score or LMS interaction",
           "pass": true,
           "detail": ""
         },
@@ -3337,7 +3477,7 @@
         }
       ],
       "failures": [],
-      "build": "d5c42b0253242d0a00b181d7f578c0200e3b41a7cf55ac3f6771dea9abd668c6"
+      "build": "9217f00bddb19798361c7b3cf17ce6265baf94035c690bd1ae8b70374a976f5f"
     },
     {
       "module_id": "SBP-FINAL",
@@ -3534,7 +3674,7 @@
         }
       ],
       "failures": [],
-      "build": "2f2bd9c74e1e563149c3ae3b8f3007c312ce265ca98e10190562926d70977093"
+      "build": "71c0273e41c7a6ef2cfe481862951ced9f5ceb1fbfdee9ed16a9bee0279b5e51"
     }
   ],
   "extra": {

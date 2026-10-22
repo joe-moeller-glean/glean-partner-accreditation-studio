@@ -104,18 +104,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A finance leader says, \"Saved hours aren't savings.\" Respond."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"Agreed. On its own, saved time is capacity, not cash. Here is what we've assumed about how much of that time is actually redeployed, and to what work. We'd propose that you or your operations owner confirm the reallocation plan, and that we measure the business metric it should move, before anyone calls it savings. Which part of the model would you want to test first?\""
-    }
-  ],
+  "knowledge_check": "SBP-113-L03-KC",
   "minutes": 6,
   "expanded": true,
   "words": 329,

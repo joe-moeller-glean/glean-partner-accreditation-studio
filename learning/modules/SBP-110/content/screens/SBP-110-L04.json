@@ -99,22 +99,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A prospect asks for a pilot. There is no sponsor, no baseline, and no scoped use case. Assess the request."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Defer it. Complete qualification and the sponsor path first. Then run focused discovery to scope one or two use cases, and design the measurement, including baselines."
-    },
-    {
-      "t": "p",
-      "x": "Meanwhile, propose a lighter validation, such as a tailored demo or a Lab scenario, if it would answer the customer's current question. Revisit the pilot only if a scoped, important buying question remains that lighter options can't resolve."
-    }
-  ],
+  "knowledge_check": "SBP-110-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 343,

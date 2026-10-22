@@ -106,18 +106,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Two days before Visioning, the worksheet is still empty and the champion can't say who would sponsor an investment. Decide whether to go, narrow, or reschedule, and assign owners."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Reschedule the full workshop, or narrow the slot to a qualification and alignment conversation with the champion. The AE owns the sponsor path and collecting the pre-work, with a new date agreed. Don't record the readiness gate as passed. Note in the action plan what must be in place before the workshop is rebooked."
-    }
-  ],
+  "knowledge_check": "SBP-104-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 336,

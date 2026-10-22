@@ -87,22 +87,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "The modeled ROI ranges from negative to strongly positive across the three scenarios. Name the first assumptions you would validate."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Validate the time burden per event, the active population and adoption, the event frequency, and the recapture rate, with a reallocation plan. Then confirm scope, cost, and the quality guardrails."
-    },
-    {
-      "t": "p",
-      "x": "State clearly whether the modeled benefits are capacity or cash. Keep the downside result in the readout, with an explanation of what would have to be true for each scenario."
-    }
-  ],
+  "knowledge_check": "SBP-108-L05-KC",
   "minutes": 6,
   "expanded": true,
   "words": 370,

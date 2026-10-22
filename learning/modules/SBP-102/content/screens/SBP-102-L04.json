@@ -139,26 +139,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Map three facts to MEDDPICCS elements: the support operations director owns handle time and has a baseline report; the CFO attended the executive readout; procurement needs a security questionnaire before signature."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Director with handle-time baseline:** supports Metrics. It may also indicate a Champion, but that needs confirming.",
-        "**CFO at the readout:** supports Economic Buyer, if the CFO controls the budget, and the Decision Process.",
-        "**Security questionnaire before signature:** supports Paper Process and Decision Process, and becomes a MAP milestone with an owner."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Each needs linked evidence, and each stays labeled \"unconfirmed\" until the customer confirms it."
-    }
-  ],
+  "knowledge_check": "SBP-102-L04-KC",
   "minutes": 7,
   "expanded": true,
   "words": 524,

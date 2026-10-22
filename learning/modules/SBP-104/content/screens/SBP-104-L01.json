@@ -135,23 +135,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Your call notes say the customer's top priority is \"faster customer support.\" The annual report, published eight months earlier, emphasizes \"cost discipline across operations.\" Outline the prep pack entry for priorities."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Priority A:** faster customer support. Evidence: call notes with the support director, with the date. A customer statement.",
-        "**Priority B:** cost discipline across operations. Evidence: annual report, eight months old. Public research.",
-        "**Conflict flagged:** these may be the same initiative described differently, since faster support can lower cost per case, or two competing priorities.",
-        "**Action:** ask the champion in Visioning prep which initiative is current and who owns it. Keep the value hypothesis conditional until the champion confirms."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-104-L01-KC",
   "minutes": 7,
   "expanded": true,
   "words": 523,

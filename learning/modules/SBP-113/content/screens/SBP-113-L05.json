@@ -112,22 +112,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Diagnose this situation: three Visioning sessions have produced 40 use cases, but no business owner has prioritized any of them."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "This is the wishlist pitfall. Run a scoring session with the business owners to select a small set of hero use cases. Each hero needs an owner, an outcome, and a target, and the rest stay in a backlog."
-    },
-    {
-      "t": "p",
-      "x": "Confirm the hero choices with the sponsor before scheduling DITL interviews."
-    }
-  ],
+  "knowledge_check": "SBP-113-L05-KC",
   "minutes": 6,
   "expanded": true,
   "words": 303,

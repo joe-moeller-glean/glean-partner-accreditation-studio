@@ -123,18 +123,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A workflow has very high reach, but it depends on a custom connector that nobody has verified. Where do you place it?"
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Not in quick wins. Treat it as a strategic bet, or mark its effort as unresolved. Assign feasibility discovery for the connector. Consider a narrower first wave that uses sources already available, for example the same workflow limited to content in reachable systems, while the connector question is answered."
-    }
-  ],
+  "knowledge_check": "SBP-106-L05-KC",
   "minutes": 6,
   "expanded": true,
   "words": 316,

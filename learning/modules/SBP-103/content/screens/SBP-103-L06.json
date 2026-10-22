@@ -90,22 +90,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A partner consultant wants to tell the customer that a write-back integration to their ticketing system \"will be in the first release.\" The SE hasn't verified it. Resolve the disagreement."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Pause the commitment. Describe the integration as an unverified dependency in the decision log. Assign product and SE validation, including security review, if write-back changes data in a customer system. Leave it out of the roadmap and value case until the result is documented."
-    },
-    {
-      "t": "p",
-      "x": "If the customer asks in the meantime, say: \"We're validating that integration and will confirm by the date in our action plan.\""
-    }
-  ],
+  "knowledge_check": "SBP-103-L06-KC",
   "minutes": 6,
   "expanded": true,
   "words": 338,

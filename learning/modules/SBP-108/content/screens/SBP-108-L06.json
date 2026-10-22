@@ -115,22 +115,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Complete the baseline field of a metric card when there is no historical timing data at all."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "**Baseline:** not yet measured. **Owner:** support operations. **Action:** time a sample of the agreed case class for four weeks before rollout, or enable ticket timestamps if they aren't captured."
-    },
-    {
-      "t": "p",
-      "x": "The target stays a hypothesis until the baseline has been reviewed. Track quality guardrails and use comparable cohorts."
-    }
-  ],
+  "knowledge_check": "SBP-108-L06-KC",
   "minutes": 6,
   "expanded": true,
   "words": 319,

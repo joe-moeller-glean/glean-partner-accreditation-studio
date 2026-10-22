@@ -84,26 +84,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Draft the follow-up checklist for the day after Executive Validation."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ol",
-      "items": [
-        "Send the recap: decisions, success criteria, validation path, owners, and timeline.",
-        "Share the approved demo or Lab assets, and confirm access works.",
-        "Update the opportunity record and mutual action plan.",
-        "Log sponsor, champion, and partner actions and checkpoints.",
-        "Assign each open dependency an owner and date.",
-        "Schedule the validation event and the decision readout.",
-        "Start internal pilot approval only if a pilot is justified."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-109-L06-KC",
   "minutes": 5,
   "expanded": true,
   "words": 276,

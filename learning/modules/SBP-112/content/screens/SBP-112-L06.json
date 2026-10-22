@@ -95,18 +95,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Design a stop condition for an AI-assisted build pipeline."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"Stop external publication if any required source is missing, any customer claim is unsupported, any capability is unverified, any clearance is pending, or any review is incomplete. Produce an exception report listing each item, its owner, and the next action.\""
-    }
-  ],
+  "knowledge_check": "SBP-112-L06-KC",
   "minutes": 5,
   "expanded": true,
   "words": 245,

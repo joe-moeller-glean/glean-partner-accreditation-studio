@@ -84,26 +84,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Draft the three whys for a fictional IT service desk that handles employee questions about laptops, access, and software."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Why change:** agents repeat the same searches and escalate questions that existing articles already answer, so employees wait longer.",
-        "**Why now:** IT leadership wants to absorb a headcount freeze without lowering service levels this fiscal year (to confirm with the IT director).",
-        "**Why Glean:** test whether unified, permission-aware access to approved knowledge reduces search effort and avoidable escalations, while keeping answer quality and access controls in place."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Uncertainty: we don't yet know where the approved knowledge lives, or how current it is."
-    }
-  ],
+  "knowledge_check": "SBP-104-L02-KC",
   "minutes": 6,
   "expanded": true,
   "words": 439,

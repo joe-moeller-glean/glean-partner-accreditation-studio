@@ -90,24 +90,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Write a first-wave row for \"approved support guidance lookup\" in the fictional support scenario."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Business owner:** support operations director. **Technical owner:** knowledge-base and platform owner.",
-        "**Data:** the approved knowledge base and past case resolutions. Assumption: agents' permissions mirror the knowledge-base groups, to be confirmed.",
-        "**Metric plan:** handle time for an agreed case class from the ticketing system, plus a resolution-quality guardrail and an agreed baseline window.",
-        "**DITL:** two tier 1 agents and one team lead, with dates booked.",
-        "**Risks:** article currency and ownership; content that lives only in team chat."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-106-L06-KC",
   "minutes": 6,
   "expanded": true,
   "words": 316,

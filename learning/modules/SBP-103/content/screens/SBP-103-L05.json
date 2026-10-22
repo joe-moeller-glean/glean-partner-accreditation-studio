@@ -83,22 +83,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "After a DITL session, the customer asks for three things: a new agent for policy questions, user training for 200 HR agents, and help with search results that seem to ignore a permission change. Route each one."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**New agent:** a scoped partner delivery with Glean technical guidance, under an agreed SOW or change order.",
-        "**Training:** whoever owns enablement in the agreed plan. This is often a partner training service.",
-        "**Permission issue:** a suspected product or configuration issue that goes to Glean Support. The partner gathers safe diagnostic evidence, such as the query, the expected and actual result, and the timing, without sharing confidential content more widely than needed."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-103-L05-KC",
   "minutes": 6,
   "expanded": true,
   "words": 378,

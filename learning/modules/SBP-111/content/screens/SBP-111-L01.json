@@ -91,18 +91,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Audit a pack that has an excellent ROI model but no workflow records and no named owners."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "The pack is incomplete. Add the prioritized log and matrix, the current and future workflow maps, named business and technical owners, metric and evidence cards, the decision log, the validation plan, and the MAP. A financial model on its own is not a handoff."
-    }
-  ],
+  "knowledge_check": "SBP-111-L01-KC",
   "minutes": 6,
   "expanded": true,
   "words": 331,

@@ -96,32 +96,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A colleague's Visioning recap reads: \"Great meeting, deck attached.\" Improve it."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Add:"
-    },
-    {
-      "t": "ul",
-      "items": [
-        "The three agreed priorities and why they were chosen.",
-        "The open assumptions, for example: \"We assumed the knowledge base is the main source. Please correct us if not.\"",
-        "Action owners and due dates.",
-        "The DITL sessions, with participants and dates.",
-        "A request to correct anything within two working days."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Attach the editable use case log and the matrix snapshot, and keep internal deal notes out."
-    }
-  ],
+  "knowledge_check": "SBP-105-L06-KC",
   "minutes": 6,
   "expanded": true,
   "words": 316,

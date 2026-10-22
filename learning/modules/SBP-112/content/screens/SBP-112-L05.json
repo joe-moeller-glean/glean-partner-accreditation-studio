@@ -102,26 +102,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Give three reasons to reject a polished, AI-generated executive deck."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ol",
-      "items": [
-        "**Unsupported customer metrics:** figures with no customer source or baseline.",
-        "**Unverified product commitments:** capabilities that no SE has confirmed for this environment.",
-        "**Internal or restricted content:** for example, internal pilot policy or another customer's details."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Correct each one, recheck the source passages, and get the appropriate review before sharing."
-    }
-  ],
+  "knowledge_check": "SBP-112-L05-KC",
   "minutes": 5,
   "expanded": true,
   "words": 272,

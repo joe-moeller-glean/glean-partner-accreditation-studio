@@ -89,22 +89,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Your planned executive readout is attended only by the champion. What do you do?"
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Use the time well. Walk the champion through the case, test the assumptions, and ask what the sponsor will challenge. Agree how the champion will help secure a 30-minute decision meeting with the sponsor this week or next."
-    },
-    {
-      "t": "p",
-      "x": "Record the session as \"preparation with the champion,\" not \"executive alignment,\" and update the mutual action plan with the new decision date."
-    }
-  ],
+  "knowledge_check": "SBP-109-L02-KC",
   "minutes": 5,
   "expanded": true,
   "words": 288,

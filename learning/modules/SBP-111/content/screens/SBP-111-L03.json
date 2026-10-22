@@ -111,18 +111,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Rewrite this recap line: \"Everyone loved it and we're ready for rollout.\""
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"The team prioritized three workflows. The sponsor accepted the outcome hypothesis, subject to two validations: confirming access behavior for restricted content, and establishing the handle-time baseline. [Owner names] will resolve these before the go or no-go checkpoint on [date].\""
-    }
-  ],
+  "knowledge_check": "SBP-111-L03-KC",
   "minutes": 5,
   "expanded": true,
   "words": 262,

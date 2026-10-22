@@ -100,26 +100,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Write three questions for a support workflow that would reveal both its impact and its effort."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ol",
-      "items": [
-        "\"Walk me through what happens from when a case arrives to when you send the answer. Where do you search, and what access do you need?\"",
-        "\"How often does this happen each day, how long does it take, and how many agents do it?\"",
-        "\"Who tracks how quickly and how well cases are resolved, and in which system?\""
-      ]
-    },
-    {
-      "t": "p",
-      "x": "The first exposes effort, meaning the systems and permissions involved. The second exposes reach and volume. The third finds the metric owner and the source of proof."
-    }
-  ],
+  "knowledge_check": "SBP-106-L02-KC",
   "minutes": 6,
   "expanded": true,
   "words": 418,

@@ -317,6 +317,15 @@ def module_specs():
         o = ov[mid]
         rows = sorted([s for s in screens if s["module_id"] == mid], key=lambda s: s["seq"])
         mod_lessons = sorted([l for l in lessons if l["module_id"] == mid], key=lambda l: l["seq"])
+        # Resolve each lesson's source item before building screens, but instantiate the item
+        # records later so the existing claim-ledger order and immutable claim IDs stay stable.
+        eligible_questions = [q for q in qs if q["module_id"] == mid and q["id"] not in ITEM_HOLDS]
+        check_by_lesson = {}
+        for lesson in mod_lessons:
+            candidates = [q for q in eligible_questions if q["lesson_id"] == lesson["id"]]
+            if not candidates:
+                raise ValueError(f"{lesson['id']}: no eligible multiple-choice item for the lesson knowledge check")
+            check_by_lesson[lesson["id"]] = f"{lesson['id']}-KC"
         out = []
         lesson_done = set()
         for s in rows:
@@ -325,7 +334,8 @@ def module_specs():
                 lid = s["lesson_id"]
                 if lid not in lesson_done:
                     lesson_done.add(lid)
-                    out.append(lesson_section(lesson_by[lid], authored.get(lid), rows, L, qcheck))
+                    out.append(lesson_section(lesson_by[lid], authored.get(lid), rows, L, qcheck,
+                                              check_by_lesson[lid]))
                 continue
             cid = L.claim(s["id"], s["copy"], s["source_ids"], s["locator"])
             base = {"id": s["id"], "claims": [cid], "sources": s["source_ids"], "required": True,
@@ -355,13 +365,24 @@ def module_specs():
         out += toolkit(mid) + extras(mid)
         out.append(wrap)
         groups = [{"id": x["id"], "label": x.get("nav") or x["title"]} for x in out]
-        bank = [qrec(q) for q in qs if q["module_id"] == mid and q["id"] not in ITEM_HOLDS]
+        bank = [qrec(q) for q in eligible_questions]
+        # Every lesson gets one four-option, single-answer formative knowledge check. Reuse the
+        # first source-grounded bank concept mapped to that lesson, but give it a distinct ID so
+        # lesson checks and graded quiz items never create duplicate DOM or LMS interaction IDs.
+        knowledge_checks = []
+        for lesson in mod_lessons:
+            source = next(q for q in bank if q["lesson"] == lesson["id"])
+            check = dict(source)
+            check["id"] = check_by_lesson[lesson["id"]]
+            check["options"] = [dict(option) for option in source["options"]]
+            knowledge_checks.append(check)
         held = [{"id": q["id"], "reason": ITEM_HOLDS[q["id"]]} for q in qs
                 if q["module_id"] == mid and q["id"] in ITEM_HOLDS]
         specs.append({
             "id": mid, "title": m["name"], "kind": "capstone" if mid == "SBP-200" else "module",
             "settings": m, "overview": o, "lessons": mod_lessons, "groups": groups,
-            "screens": out, "bank": bank, "draw": m["quiz_draw"], "held_items": held,
+            "screens": out, "bank": bank, "knowledge_checks": knowledge_checks,
+            "draw": m["quiz_draw"], "held_items": held,
         })
 
     # Final exam SCO
@@ -400,8 +421,8 @@ def module_specs():
                      "prereqs": "SBP-101 to SBP-113", "total_minutes": int(fx["minutes"]), "lessons": 0,
                      "roadmap_alignment": "", "level": "Practitioner (proposed)"},
         "lessons": [], "groups": [{"id": s["id"], "label": s.get("nav") or s["title"]} for s in fscreens],
-        "screens": fscreens, "bank": final_bank, "draw": 0, "final_draws": draws,
-        "held_items": final_held,
+        "screens": fscreens, "bank": final_bank, "knowledge_checks": [], "draw": 0,
+        "final_draws": draws, "held_items": final_held,
     })
     return specs, L
 
@@ -461,7 +482,7 @@ def sid_key(x):
     return int(x[1:]) if x[1:].isdigit() else 999
 
 
-def lesson_section(les, auth, rows, L, qc):
+def lesson_section(les, auth, rows, L, qc, knowledge_check_id):
     lid = les["id"]
     sec = {"id": lid, "lesson": lid, "type": "lesson", "seq": les["seq"], "title": les["title"],
            "nav": f"{les['seq']}. {les['title']}", "objective": learner_objective(les["objective"]),
@@ -475,7 +496,7 @@ def lesson_section(les, auth, rows, L, qc):
                           quote_verdict(part["quotes"], qc, anchor))
             claims.append(cid)
             srcs |= set(ids)
-        sec.update({"blocks": auth["blocks"], "practice": auth["practice"], "worked": auth["worked"],
+        sec.update({"blocks": auth["blocks"], "knowledge_check": knowledge_check_id,
                     "minutes": max(4, round(auth["words"] / 200) + 4), "expanded": True,
                     "words": auth["words"]})
     else:
@@ -491,9 +512,8 @@ def lesson_section(les, auth, rows, L, qc):
             sec["hold"] = HOLDS[held[0]["id"]]
         blocks = [{"t": "p", "x": teaching}, {"t": "h3", "x": "Worked example"},
                   {"t": "p", "x": les["example"]}, {"t": "callout", "label": "Boundary", "x": les["guardrail"]}]
-        sec.update({"blocks": blocks, "practice": [{"t": "p", "x": les["activity"]}],
-                    "worked": [{"t": "p", "x": les["worked"]}], "minutes": les["minutes"], "expanded": False,
-                    "words": LS.words(blocks)})
+        sec.update({"blocks": blocks, "knowledge_check": knowledge_check_id,
+                    "minutes": les["minutes"], "expanded": False, "words": LS.words(blocks)})
     sec["eyebrow"] = f"Lesson {les['seq']} · about {sec['minutes']} min"
     sec["claims"], sec["sources"] = claims, sorted(srcs, key=sid_key)
     return sec
@@ -587,7 +607,12 @@ def validate_specs(specs, L):
             for c in s.get("claims", []):
                 if c not in L.claims:
                     E.append(f"{mid}: {s['id']} claim {c} undefined")
-        for q in sp["bank"]:
+        assessment_ids = [q["id"] for q in sp["bank"] + sp["knowledge_checks"]]
+        if len(assessment_ids) != len(set(assessment_ids)):
+            E.append(f"{mid}: duplicate assessment or knowledge-check ids")
+        for q in sp["bank"] + sp["knowledge_checks"]:
+            if len(q["options"]) != 4:
+                E.append(f"{q['id']}: multiple-choice item needs exactly four options")
             if sum(o["correct"] for o in q["options"]) != 1:
                 E.append(f"{q['id']}: needs exactly one correct option")
         pre = [o["text"][:25] for q in sp["bank"] for o in q["options"]]
@@ -595,20 +620,24 @@ def validate_specs(specs, L):
             dup = sorted({p for p in pre if pre.count(p) > 1})
             if dup:
                 E.append(f"{mid}: option prefixes repeat (harness selects by id; recorded only): {dup[:2]}")
-        # objective map: each lesson objective -> screens -> practice -> item
+        # Objective map: each lesson objective -> one lesson section -> one formative MCQ -> graded item.
+        if sp["kind"] != "final" and len(sp["knowledge_checks"]) != len(sp["lessons"]):
+            E.append(f"{mid}: expected one multiple-choice knowledge check per lesson")
+        check_ids = {q["id"] for q in sp["knowledge_checks"]}
         for l in sp["lessons"]:
             on = [s for s in sp["screens"] if s.get("lesson") == l["id"] and s["type"] == "lesson"]
             if len(on) != 1:
                 E.append(f"{mid}: lesson {l['id']} must be exactly one page section")
-            elif not (on[0].get("practice") and on[0].get("worked")):
-                E.append(f"{mid}: lesson {l['id']} has no practice and worked response")
+            elif on[0].get("knowledge_check") not in check_ids:
+                E.append(f"{mid}: lesson {l['id']} has no multiple-choice knowledge check")
             elif not on[0]["expanded"] and not ALLOW_UNEXPANDED:
                 E.append(f"{mid}: lesson {l['id']} is not expanded (add it to plan/sales-blueprinting/lessons/{mid}.md)")
             if not any(q["lesson"] == l["id"] for q in sp["bank"]):
-                E.append(f"{mid}: lesson {l['id']} has no assessment item")
+                E.append(f"{mid}: lesson {l['id']} has no graded assessment item")
         # Learners never see source IDs, claim IDs, workbook rows, or open-question codes.
         shown = [(s["id"], runtime_section(s)) for s in sp["screens"]]
-        shown += [(q["id"], {k: q[k] for k in ("stem", "options", "fb_correct", "fb_incorrect")}) for q in sp["bank"]]
+        shown += [(q["id"], {k: q[k] for k in ("stem", "options", "fb_correct", "fb_incorrect")})
+                  for q in sp["bank"] + sp["knowledge_checks"]]
         for sid, obj in shown:
             for txt in learner_strings(obj):
                 hit = LEAK.search(txt)
@@ -795,7 +824,7 @@ def generate_one(sp, L):
         jdump(dest / "content" / "screens" / f"{s['id']}.json", s)
     inter = []
     for s in sp["screens"]:
-        kinds = {"lesson": ["local_draft", "reveal"], "quiz": ["graded_choice"],
+        kinds = {"lesson": ["knowledge_choice"], "quiz": ["graded_choice"],
                  "formative": ["formative_choice"], "roi": ["calculator"]}.get(s["type"], [])
         for kind in kinds:
             suffix = {"local_draft": "-DRAFT", "reveal": "-REVEAL"}.get(kind, "") if s["type"] == "lesson" else ""
@@ -875,7 +904,9 @@ def generate_one(sp, L):
               "draw": sp["draw"], "max_attempts": MAX_ATTEMPTS, "lessons": sp["groups"],
               "screens": runtime_screens,
               "bank": [{k: v for k, v in q.items() if k in {"id", "module", "lesson", "stem", "options", "fb_correct", "fb_incorrect"}}
-                       for q in sp["bank"]]}
+                       for q in sp["bank"]],
+              "knowledge_checks": [{k: v for k, v in q.items() if k in {"id", "module", "lesson", "stem", "options", "fb_correct", "fb_incorrect"}}
+                                   for q in sp["knowledge_checks"]]}
     if sp["kind"] == "final":
         module["final_draws"] = sp["final_draws"]
         module["total_draw"] = sum(sp["final_draws"].values())

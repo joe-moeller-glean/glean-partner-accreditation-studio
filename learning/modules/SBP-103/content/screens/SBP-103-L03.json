@@ -114,22 +114,7 @@
       }
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A DITL interview for a fictional HR service-desk use case is attended only by the AE and an IT administrator. What is missing, and who would you add?"
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Missing: ownership of the business outcome and metric, and evidence of the front-line workflow. The IT administrator can confirm systems and access but can't speak for how HR agents handle cases or which measures matter."
-    },
-    {
-      "t": "p",
-      "x": "Add the HR service-delivery lead (outcome and metric owner) and two or three representative HR agents (workflow). Keep the IT administrator for systems and data questions, and maintain the path to the executive sponsor through the AE."
-    }
-  ],
+  "knowledge_check": "SBP-103-L03-KC",
   "minutes": 6,
   "expanded": true,
   "words": 436,

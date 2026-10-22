@@ -84,21 +84,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Choose the approach for two fictional customers: a finance team that arrives with ten candidate workflows, and a legal team that has none."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Finance, ten workflows:** clarify each one, cluster duplicates, complete the use case fields, and prioritize on the 2x2. Spend the time on evidence and ranking, not idea generation.",
-        "**Legal, no list:** bring outcome-led hypotheses and two or three relevant examples, such as finding the approved clause language for a contract type. Then draw out the team's actual jobs to be done and the evidence for each, such as frequency, time taken, and consequences."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-105-L01-KC",
   "minutes": 6,
   "expanded": true,
   "words": 385,

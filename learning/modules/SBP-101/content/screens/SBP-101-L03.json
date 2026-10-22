@@ -120,27 +120,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A customer says, \"We need an AI assistant.\" Translate that into an outcome, a use case, a workflow, and a metric. Use the support example or a fictional team of your choice."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Outcome:** Lower support cost without lowering resolution quality.",
-        "**Use case:** Retrieve approved resolutions for live cases.",
-        "**Workflow:** Case context → search → review the suggested answer → respond.",
-        "**Metric:** Handle time, paired with resolution quality and escalation rate so speed does not come at the cost of quality."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Uncertainty to name: you still need a baseline for handle time and confirmation that the approved resolutions exist in systems Glean can reach."
-    }
-  ],
+  "knowledge_check": "SBP-101-L03-KC",
   "minutes": 7,
   "expanded": true,
   "words": 553,

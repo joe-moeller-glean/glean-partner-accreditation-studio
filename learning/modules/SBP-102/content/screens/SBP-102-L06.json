@@ -85,26 +85,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "After Executive Validation, three issues remain: whether a critical workflow is feasible, a pending security review, and unclear signature authority. Assign each to a stream and an owner."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Workflow feasibility:** a scoped validation, such as a tailored demo on representative data with agreed test cases. The SE owns it.",
-        "**Security review:** the customer's approved review path, with a named security contact and a Glean counterpart.",
-        "**Signature authority and procurement sequencing:** the AE and customer procurement, as MAP milestones with dates."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Each is a separate workstream with a named owner, dependencies, and a decision date."
-    }
-  ],
+  "knowledge_check": "SBP-102-L06-KC",
   "minutes": 6,
   "expanded": true,
   "words": 487,

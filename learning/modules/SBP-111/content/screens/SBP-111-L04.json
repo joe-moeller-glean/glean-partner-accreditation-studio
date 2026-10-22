@@ -106,27 +106,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Propose a services sequence for a priority workflow with poor content quality and low adoption readiness."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ol",
-      "items": [
-        "**Readiness and content ownership:** clean up the source content and assign owners.",
-        "**Scoped solution and configuration** for the workflow.",
-        "**Training and adoption**, with team leads.",
-        "**Value measurement and optimization** against the agreed baseline."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Confirm each phase's scope and owner, and get it reviewed, before any commitment."
-    }
-  ],
+  "knowledge_check": "SBP-111-L04-KC",
   "minutes": 5,
   "expanded": true,
   "words": 289,

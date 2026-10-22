@@ -79,21 +79,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Choose value support for two situations: a simple two-use-case estimate for one support team, and a multi-business-unit case that the CFO will review."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Simple case:** use the standard calculator, with the AE and SE reviewing the assumptions and evidence labels.",
-        "**Multi-business-unit case:** submit a BVC intake request for scoping and review. Agree who owns the model and the timing before telling the customer when the business case will be ready."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-103-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 390,

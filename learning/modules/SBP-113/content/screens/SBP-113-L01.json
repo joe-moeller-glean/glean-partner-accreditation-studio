@@ -82,18 +82,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Rewrite this question: \"Wouldn't Glean agents make your process much faster?\""
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"Walk us through the last time this process was slow. Where did the time go? What information or approvals were involved, and how would you know a change had worked?\""
-    }
-  ],
+  "knowledge_check": "SBP-113-L01-KC",
   "minutes": 5,
   "expanded": true,
   "words": 244,

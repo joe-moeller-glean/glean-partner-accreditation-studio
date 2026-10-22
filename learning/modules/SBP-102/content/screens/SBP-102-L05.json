@@ -120,26 +120,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A Visioning session went very well, but there is no executive sponsor and no one owns the key metric. Write a short recovery plan with owners."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**AE:** secures a sponsor conversation through the champion and requalifies the opportunity if no sponsor emerges by the agreed date.",
-        "**SE or partner:** identifies the measurement dependency, meaning which system holds the metric and who can export a baseline.",
-        "**Customer champion:** names the metric owner and books a 30-minute measurement-design session."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Hold executive validation until there is decision-ready evidence. Record each gap and its due date in the mutual action plan."
-    }
-  ],
+  "knowledge_check": "SBP-102-L05-KC",
   "minutes": 6,
   "expanded": true,
   "words": 410,

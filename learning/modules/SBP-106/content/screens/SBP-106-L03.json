@@ -83,25 +83,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Compare two use cases: a broad, low-friction policy lookup used by most employees, and a rare, high-risk approval process in finance."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Policy lookup:** record the population and frequency, such as \"most employees, a few times a month\" (to confirm), and the time per lookup. Impact is mainly capacity and experience.",
-        "**Approval process:** record its severity and controls, such as what an error costs and which controls apply. Impact is mainly risk, and seat count understates it."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "Discuss value and feasibility separately for each. Leave unsupported monetary claims unquantified until the inputs are confirmed."
-    }
-  ],
+  "knowledge_check": "SBP-106-L03-KC",
   "minutes": 6,
   "expanded": true,
   "words": 367,

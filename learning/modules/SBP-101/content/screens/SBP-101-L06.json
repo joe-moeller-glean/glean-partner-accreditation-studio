@@ -89,28 +89,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A colleague's draft for an executive readout contains only a demo deck and a headline: \"Projected savings: $2M per year.\" Audit it. What would you return, and what must be added?"
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Return it for completion. A demo alone is not a business case, and the savings headline has no stated assumptions, evidence, or owner. Add:"
-    },
-    {
-      "t": "ul",
-      "items": [
-        "The prioritized workflows, with current-state and future-state evidence from DITL.",
-        "Named business and technical owners.",
-        "The value model with each assumption labeled by evidence type, plus a risk adjustment.",
-        "A measurement plan, including the baseline.",
-        "The sponsor decision being requested, the recommended validation path, and the mutual action plan."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-101-L06-KC",
   "minutes": 6,
   "expanded": true,
   "words": 450,

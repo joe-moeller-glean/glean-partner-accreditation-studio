@@ -132,18 +132,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Your capstone scores 86, but it includes a screenshot that exposes restricted data. What is the outcome?"
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Not passed. Critical gate G02 has failed, and a high score can't compensate for it. Remove the sensitive data, follow the approved remediation, document the correction, and resubmit for the safe-handling review and reassessment of the affected sections."
-    }
-  ],
+  "knowledge_check": "SBP-200-L06-KC",
   "minutes": 6,
   "expanded": true,
   "words": 322,

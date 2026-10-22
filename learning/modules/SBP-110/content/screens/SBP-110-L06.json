@@ -95,18 +95,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Write a stop rule for a validation that depends on a connector that hasn't been approved."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"If connector feasibility and permitted access aren't confirmed by the readiness checkpoint on [date], we will pause this use case and notify the sponsor. Then, together with the owners, we will either choose a narrower path using already-available sources or defer the use case. We won't start an unapproved deployment.\""
-    }
-  ],
+  "knowledge_check": "SBP-110-L06-KC",
   "minutes": 5,
   "expanded": true,
   "words": 279,

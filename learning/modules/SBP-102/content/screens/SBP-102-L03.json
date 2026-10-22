@@ -93,22 +93,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Write the Stage 3 exit evidence for a fictional legal department evaluation. Use customer-neutral language that you could paste into a recap."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"Executive sponsorship confirmed by the General Counsel. The business case and its assumptions were reviewed and accepted as directional. Success criteria agreed: contract-review cycle time and the rate of escalations to outside counsel, each with a baseline plan. Validation path agreed: a tailored demo on representative, non-confidential documents, followed by a decision meeting. Owners, decision process, and timeline are recorded in the mutual action plan.\""
-    },
-    {
-      "t": "p",
-      "x": "Uncertainty to name: the baseline for outside-counsel escalations depends on a data export that the legal operations lead has not yet confirmed."
-    }
-  ],
+  "knowledge_check": "SBP-102-L03-KC",
   "minutes": 6,
   "expanded": true,
   "words": 479,

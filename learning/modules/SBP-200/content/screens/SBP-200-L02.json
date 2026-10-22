@@ -97,22 +97,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "The sponsor's first comment is, \"Can your AI just approve refunds automatically?\" Respond in role."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"That's a useful idea to capture. Before deciding whether it belongs in the first wave, can we understand how refunds are approved today, who's accountable, and what controls apply? We'll note it as a candidate with its authorization questions, and come back to it once we've looked at the higher-frequency support work you mentioned.\""
-    },
-    {
-      "t": "p",
-      "x": "Record it as a parked candidate with high effort and risk, and its open questions."
-    }
-  ],
+  "knowledge_check": "SBP-200-L02-KC",
   "minutes": 6,
   "expanded": true,
   "words": 343,

@@ -94,24 +94,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Plan a safe sandbox workshop for the approved-answer support workflow."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ol",
-      "items": [
-        "Confirm the approved environment, the permitted content (non-sensitive sample articles), and the participants (a few agents, a team lead, and the sponsor or their delegate).",
-        "Document the limits, such as no production permissions and no personalization.",
-        "Dry-run five representative case questions against the uploaded content.",
-        "Pair each task with a success question.",
-        "Facilitate with the champion, collect findings, and close with \"Does this answer your question? What is the next decision?\""
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-110-L03-KC",
   "minutes": 6,
   "expanded": true,
   "words": 379,

@@ -144,22 +144,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Explain why the conservative scenario should stay in the executive readout even though it shows a negative return."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "It shows the sponsor what would have to be true for the investment not to pay back, for example low adoption and low recapture. That points directly to what the validation must test."
-    },
-    {
-      "t": "p",
-      "x": "Removing it would overstate confidence and undermine credibility with finance. The recommendation should explain how the validation and reallocation plan reduce that downside risk."
-    }
-  ],
+  "knowledge_check": "SBP-200-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 388,

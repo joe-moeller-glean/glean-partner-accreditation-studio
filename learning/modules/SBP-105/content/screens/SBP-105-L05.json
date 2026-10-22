@@ -90,18 +90,7 @@
       }
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Six high-impact candidates remain. You have DITL capacity for three. Close the prioritization discussion."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Choose three using evidence, feasibility, and whether the owners can attend. For example, keep the two quick wins with available owners plus one strategic bet the sponsor cares about. Park the other three with revisit conditions. Ask for explicit agreement: \"Are we agreed these three go to Day-in-the-Life interviews?\" Then assign DITL participants and dates before the session ends."
-    }
-  ],
+  "knowledge_check": "SBP-105-L05-KC",
   "minutes": 6,
   "expanded": true,
   "words": 412,

@@ -105,22 +105,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A partner has deep financial-services expertise but has never run a Glean Blueprint. Choose an engagement model and explain how the partner could progress."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Co-lead. The partner handles industry context and stakeholder engagement, and may facilitate the DITL interviews with front-line users. Glean supplies technical backup during sessions and reviews the use case log, workflow maps, and value inputs before anything goes to the executive."
-    },
-    {
-      "t": "p",
-      "x": "Move to partner-led only after the partner's outputs pass review on at least one engagement, and with the customer's agreement."
-    }
-  ],
+  "knowledge_check": "SBP-103-L02-KC",
   "minutes": 6,
   "expanded": true,
   "words": 338,

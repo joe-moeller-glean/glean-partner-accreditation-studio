@@ -113,22 +113,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Put these in discovery order: connectors, outcome, metrics, agent idea, workflow. Explain where the agent idea belongs."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Outcome → a specific use case → workflow evidence → data and connector feasibility → metrics."
-    },
-    {
-      "t": "p",
-      "x": "The agent idea comes last, as a possible implementation once you understand the work and the data. It is not the starting requirement, and it might not be the right answer at all."
-    }
-  ],
+  "knowledge_check": "SBP-106-L01-KC",
   "minutes": 6,
   "expanded": true,
   "words": 343,

@@ -89,22 +89,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Rewrite this product-led question as an outcome-led one: \"Which Glean agents would you like to build?\""
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "\"Which recurring workflow most limits your team's goals this quarter? And if the friction in it disappeared, what measurable result would improve?\""
-    },
-    {
-      "t": "p",
-      "x": "A good follow-up asks for evidence: \"How often does that happen, and how long does it take today?\""
-    }
-  ],
+  "knowledge_check": "SBP-105-L03-KC",
   "minutes": 6,
   "expanded": true,
   "words": 359,

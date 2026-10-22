@@ -78,23 +78,7 @@
       }
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "The champion has gone quiet for three weeks after DITL interviews. Write your recovery plan."
-    }
-  ],
-  "worked": [
-    {
-      "t": "ol",
-      "items": [
-        "Send the champion a concise draft of the DITL findings for their team, with one question: \"Is this still the priority, and what would help you take it to the sponsor?\"",
-        "Offer a short working session to finalize the findings together.",
-        "If there's no response, ask the AE to check the sponsor path, for example through the executive relationship.",
-        "Update the MAP and the forecast to reflect what is actually known."
-      ]
-    }
-  ],
+  "knowledge_check": "SBP-113-L06-KC",
   "minutes": 5,
   "expanded": true,
   "words": 283,

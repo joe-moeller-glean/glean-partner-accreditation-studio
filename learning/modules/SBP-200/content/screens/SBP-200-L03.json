@@ -111,22 +111,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "A teammate's future-state support map removes the review-and-send step \"because AI drafts the response.\" Correct it."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Restore the review-and-send step. The human agent keeps source review and final approval of the response, and escalation remains."
-    },
-    {
-      "t": "p",
-      "x": "The future-state hypothesis is that grounded access to approved guidance may reduce the search step, and might support drafting. The exact timing is unknown until validated. List the dependencies: access to the approved knowledge repository, and correct permission behavior."
-    }
-  ],
+  "knowledge_check": "SBP-200-L03-KC",
   "minutes": 6,
   "expanded": true,
   "words": 342,

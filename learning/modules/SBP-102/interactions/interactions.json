@@ -2,26 +2,9 @@
   "module_id": "SBP-102",
   "interactions": [
     {
-      "interaction_id": "INT-SBP-102-L01-DRAFT",
+      "interaction_id": "INT-SBP-102-L01",
       "screen_id": "SBP-102-L01",
-      "kind": "local_draft",
-      "lesson_id": "SBP-102-L01",
-      "claims": [
-        "C-0053",
-        "C-0054",
-        "C-0055",
-        "C-0056",
-        "C-0057",
-        "C-0058",
-        "C-0059"
-      ],
-      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
-      "data": "No learner text is persisted or sent to the LMS."
-    },
-    {
-      "interaction_id": "INT-SBP-102-L01-REVEAL",
-      "screen_id": "SBP-102-L01",
-      "kind": "reveal",
+      "kind": "knowledge_choice",
       "lesson_id": "SBP-102-L01",
       "claims": [
         "C-0053",
@@ -36,25 +19,9 @@
       "data": "Score and interactions only."
     },
     {
-      "interaction_id": "INT-SBP-102-L02-DRAFT",
+      "interaction_id": "INT-SBP-102-L02",
       "screen_id": "SBP-102-L02",
-      "kind": "local_draft",
-      "lesson_id": "SBP-102-L02",
-      "claims": [
-        "C-0060",
-        "C-0061",
-        "C-0062",
-        "C-0063",
-        "C-0064",
-        "C-0065"
-      ],
-      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
-      "data": "No learner text is persisted or sent to the LMS."
-    },
-    {
-      "interaction_id": "INT-SBP-102-L02-REVEAL",
-      "screen_id": "SBP-102-L02",
-      "kind": "reveal",
+      "kind": "knowledge_choice",
       "lesson_id": "SBP-102-L02",
       "claims": [
         "C-0060",
@@ -68,26 +35,9 @@
       "data": "Score and interactions only."
     },
     {
-      "interaction_id": "INT-SBP-102-L03-DRAFT",
+      "interaction_id": "INT-SBP-102-L03",
       "screen_id": "SBP-102-L03",
-      "kind": "local_draft",
-      "lesson_id": "SBP-102-L03",
-      "claims": [
-        "C-0066",
-        "C-0067",
-        "C-0068",
-        "C-0069",
-        "C-0070",
-        "C-0071",
-        "C-0072"
-      ],
-      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
-      "data": "No learner text is persisted or sent to the LMS."
-    },
-    {
-      "interaction_id": "INT-SBP-102-L03-REVEAL",
-      "screen_id": "SBP-102-L03",
-      "kind": "reveal",
+      "kind": "knowledge_choice",
       "lesson_id": "SBP-102-L03",
       "claims": [
         "C-0066",
@@ -102,25 +52,9 @@
       "data": "Score and interactions only."
     },
     {
-      "interaction_id": "INT-SBP-102-L04-DRAFT",
+      "interaction_id": "INT-SBP-102-L04",
       "screen_id": "SBP-102-L04",
-      "kind": "local_draft",
-      "lesson_id": "SBP-102-L04",
-      "claims": [
-        "C-0073",
-        "C-0074",
-        "C-0075",
-        "C-0076",
-        "C-0077",
-        "C-0078"
-      ],
-      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
-      "data": "No learner text is persisted or sent to the LMS."
-    },
-    {
-      "interaction_id": "INT-SBP-102-L04-REVEAL",
-      "screen_id": "SBP-102-L04",
-      "kind": "reveal",
+      "kind": "knowledge_choice",
       "lesson_id": "SBP-102-L04",
       "claims": [
         "C-0073",
@@ -134,25 +68,9 @@
       "data": "Score and interactions only."
     },
     {
-      "interaction_id": "INT-SBP-102-L05-DRAFT",
+      "interaction_id": "INT-SBP-102-L05",
       "screen_id": "SBP-102-L05",
-      "kind": "local_draft",
-      "lesson_id": "SBP-102-L05",
-      "claims": [
-        "C-0079",
-        "C-0080",
-        "C-0081",
-        "C-0082",
-        "C-0083",
-        "C-0084"
-      ],
-      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
-      "data": "No learner text is persisted or sent to the LMS."
-    },
-    {
-      "interaction_id": "INT-SBP-102-L05-REVEAL",
-      "screen_id": "SBP-102-L05",
-      "kind": "reveal",
+      "kind": "knowledge_choice",
       "lesson_id": "SBP-102-L05",
       "claims": [
         "C-0079",
@@ -166,25 +84,9 @@
       "data": "Score and interactions only."
     },
     {
-      "interaction_id": "INT-SBP-102-L06-DRAFT",
+      "interaction_id": "INT-SBP-102-L06",
       "screen_id": "SBP-102-L06",
-      "kind": "local_draft",
-      "lesson_id": "SBP-102-L06",
-      "claims": [
-        "C-0085",
-        "C-0086",
-        "C-0087",
-        "C-0088",
-        "C-0089",
-        "C-0090"
-      ],
-      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
-      "data": "No learner text is persisted or sent to the LMS."
-    },
-    {
-      "interaction_id": "INT-SBP-102-L06-REVEAL",
-      "screen_id": "SBP-102-L06",
-      "kind": "reveal",
+      "kind": "knowledge_choice",
       "lesson_id": "SBP-102-L06",
       "claims": [
         "C-0085",

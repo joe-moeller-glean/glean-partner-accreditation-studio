@@ -102,22 +102,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Two days before the readout, the workflow maps are complete, but nobody owns the value inputs (time per case, population, frequency). Review readiness."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Not fully ready. Assign an owner for each value input, such as the support operations analyst for volumes and times, and review the assumptions with that owner before the readout. In the readout, state what remains directional and present the measurement plan."
-    },
-    {
-      "t": "p",
-      "x": "Don't record the session as fully ready until sponsor attendance and decision coverage are confirmed."
-    }
-  ],
+  "knowledge_check": "SBP-109-L01-KC",
   "minutes": 6,
   "expanded": true,
   "words": 462,

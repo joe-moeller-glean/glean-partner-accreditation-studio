@@ -81,18 +81,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "You've been handed a generated DITL timeline with precise times for each step, but no citations. Review it."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Mark every time as unverified. Seek interview or observation evidence for each one, and check the step sequence and systems with the workflow owner. Review the future-state claims with the technical owners. Only then use the timeline in a value model."
-    }
-  ],
+  "knowledge_check": "SBP-112-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 305,

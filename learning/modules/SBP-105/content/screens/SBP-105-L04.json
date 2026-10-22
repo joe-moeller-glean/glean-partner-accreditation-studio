@@ -124,26 +124,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Turn three vague wishes into specific use case rows: \"better onboarding,\" \"faster sales,\" and \"smarter support.\""
-    }
-  ],
-  "worked": [
-    {
-      "t": "ul",
-      "items": [
-        "**Onboarding:** a new HR generalist finds the correct procedure for a leave request in their first month. Systems: HR knowledge base and policy documents. Outcome: time to proficiency. Measurement gap: there is no current baseline.",
-        "**Sales:** an account executive prepares for a renewal call with the account's open issues and usage notes. Systems: CRM, support tickets, and notes. Outcome: preparation time and renewal quality. Gap: who owns the measure.",
-        "**Support:** a tier 1 agent finds approved troubleshooting guidance for a new case. Systems: knowledge base, tickets, and chat. Outcome: handle time, with resolution quality as a guardrail. Gap: knowledge-base currency."
-      ]
-    },
-    {
-      "t": "p",
-      "x": "The final scope stays customer-confirmed; these rows are drafts."
-    }
-  ],
+  "knowledge_check": "SBP-105-L04-KC",
   "minutes": 6,
   "expanded": true,
   "words": 411,

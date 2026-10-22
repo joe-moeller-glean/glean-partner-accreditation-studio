@@ -79,22 +79,7 @@
       ]
     }
   ],
-  "practice": [
-    {
-      "t": "p",
-      "x": "Workflow owners disagree about whether agents can see certain restricted case notes. Decide whether a playback is needed."
-    }
-  ],
-  "worked": [
-    {
-      "t": "p",
-      "x": "Yes, if a targeted playback or technical review can resolve the permission dependency and the future-state claim. Define the evidence that will close the question in advance. For example: \"Test with two agent accounts on restricted and unrestricted cases, and confirm results with the platform owner.\""
-    },
-    {
-      "t": "p",
-      "x": "If a short clarification call with the platform owner would settle it, do that instead."
-    }
-  ],
+  "knowledge_check": "SBP-107-L05-KC",
   "minutes": 5,
   "expanded": true,
   "words": 285,
