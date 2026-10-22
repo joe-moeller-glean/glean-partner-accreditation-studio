@@ -1,0 +1,52 @@
+{
+  "id": "SCR-12",
+  "archetype": "A5",
+  "objective": "OBJ-06",
+  "eyebrow": "Limits and codes",
+  "title": "Limits you must design around",
+  "table": {
+    "caption": "Documented limits and responses",
+    "head": [
+      "Scope",
+      "Limit or response"
+    ],
+    "rows": [
+      [
+        "/indexdocument",
+        "10 requests per second"
+      ],
+      [
+        "/indexdocuments",
+        "600 documents per minute"
+      ],
+      [
+        "/processalldocuments",
+        "1 request every 3 hours per datasource"
+      ],
+      [
+        "Deployment, all IPs",
+        "8,000 requests per minute"
+      ],
+      [
+        "Deployment, one IP",
+        "100 requests per second"
+      ],
+      [
+        "/indexdocument responses",
+        "OK, Bad Request, Not Authorized, Conflict, Too Many Requests"
+      ],
+      [
+        "Too large",
+        "413: split into smaller requests"
+      ]
+    ]
+  },
+  "claims": [
+    "C-137",
+    "C-079",
+    "C-138",
+    "C-139",
+    "C-140",
+    "C-058"
+  ]
+}

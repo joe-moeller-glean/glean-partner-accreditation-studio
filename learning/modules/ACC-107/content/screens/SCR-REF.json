@@ -1,0 +1,89 @@
+{
+  "id": "SCR-REF",
+  "archetype": "A11",
+  "objective": "OBJ-01",
+  "eyebrow": "Sources",
+  "title": "Where every fact on these screens comes from",
+  "body": "Each screen lists claim ids such as C-006. This table maps each id to the document it was verified against on 2026-09-26. Current Glean product and developer documentation is the authority for product behavior.",
+  "table": {
+    "caption": "Claim ids by source",
+    "head": [
+      "Source",
+      "Where to find it",
+      "Claim ids"
+    ],
+    "rows": [
+      [
+        "About connectors",
+        "Glean Docs (docs.glean.com)",
+        "C-006"
+      ],
+      [
+        "Bulk Indexing",
+        "Glean Developer docs (developers.glean.com)",
+        "C-101"
+      ],
+      [
+        "Bulk Upload Model",
+        "Glean Developer docs (developers.glean.com)",
+        "C-107"
+      ],
+      [
+        "Permissions (Indexing API guide)",
+        "Glean Developer docs (developers.glean.com)",
+        "C-116"
+      ],
+      [
+        "Indexing SDK — Indexing modes",
+        "Glean Developer docs (developers.glean.com)",
+        "C-170, C-174"
+      ],
+      [
+        "Indexing SDK — Permissions",
+        "Glean Developer docs (developers.glean.com)",
+        "C-195, C-198"
+      ],
+      [
+        "Indexing SDK — Deployment overview",
+        "Glean Developer docs (developers.glean.com)",
+        "C-214, C-215"
+      ],
+      [
+        "Indexing SDK — Overview",
+        "Glean Developer docs (developers.glean.com)",
+        "C-154"
+      ],
+      [
+        "Rate Limits and Retries",
+        "Glean Developer docs (developers.glean.com)",
+        "C-137"
+      ],
+      [
+        "Glean Partner Content | Custom Connector Best Practices (deck, April 2026)",
+        "Glean partner document (ask your Partner Manager for access)",
+        "C-238"
+      ],
+      [
+        "[External] Glean Partner Content | Custom Connector Questionnaire",
+        "Glean partner document (ask your Partner Manager for access)",
+        "C-250"
+      ],
+      [
+        "Glean Partner Competency Program Guide (Feb 2026)",
+        "Glean partner document (ask your Partner Manager for access)",
+        "C-260, C-261, C-262, C-263, C-264, C-265, C-266, C-267, C-268, C-269, C-333, C-334"
+      ],
+      [
+        "Custom Connector Competency Submission Workbook",
+        "Glean partner document (ask your Partner Manager for access)",
+        "C-270, C-271"
+      ],
+      [
+        "[Template] Custom Connector Intake Form v2",
+        "Glean partner document (ask your Partner Manager for access)",
+        "C-272, C-274"
+      ]
+    ]
+  },
+  "claims": []
+}

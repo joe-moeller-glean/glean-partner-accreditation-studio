@@ -1,0 +1,43 @@
+{
+  "id": "SCR-09",
+  "archetype": "A5",
+  "objective": "OBJ-02",
+  "eyebrow": "Persona matrix",
+  "title": "What the access matrix proves",
+  "table": {
+    "caption": "Example rows from the persona matrix (fictional case)",
+    "head": [
+      "Persona",
+      "Should see",
+      "Should not see"
+    ],
+    "rows": [
+      [
+        "Clinical staff member",
+        "General policy",
+        "Controlled-substance log"
+      ],
+      [
+        "Pharmacist at clinic 014",
+        "Clinic 014 controlled-substance log",
+        "Clinic 022 controlled-substance log"
+      ],
+      [
+        "Contractor",
+        "Contractor onboarding",
+        "General clinical policy"
+      ],
+      [
+        "Source admin, in no group",
+        "Nothing extra",
+        "Pages open only through the admin bypass"
+      ]
+    ]
+  },
+  "footnote": "Your full matrix covers six personas on six pages. Explain every expected denial.",
+  "claims": [
+    "C-198",
+    "C-199",
+    "C-200"
+  ]
+}

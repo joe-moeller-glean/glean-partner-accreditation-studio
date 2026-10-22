@@ -1,0 +1,29 @@
+{
+  "module_id": "CON-202",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "The sponsor wants the policy wiki in Glean in two weeks. The source owner says the API has everything. Nobody has asked the security architect. Scoping is where you find out what everything means, before the sponsor's date becomes your problem.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-08",
+      "archetype": "A6",
+      "prompt": "97% of the wiki's users have emails that match SSO. 3% are legacy contractor accounts with personal emails that do not exist in SSO. Several restricted pages list those contractors. What do you propose?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-12",
+      "archetype": "A8",
+      "prompt": "",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-13",
+      "archetype": "A6",
+      "prompt": "The wiki passes the fit check. Two risks are open: the stale sandbox and the unmatched contractors. Security has not approved hosting. What is your call?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

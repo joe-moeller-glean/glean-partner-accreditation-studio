@@ -1,0 +1,10 @@
+{
+  "id": "SCR-12",
+  "archetype": "A14",
+  "objective": "OBJ-04",
+  "eyebrow": "Next step",
+  "title": "Gate passed. Now design it well.",
+  "body": "BLD-201 turns your intake and readiness evidence into a connector design that survives renames, partial crawls, and permission changes. Submit the completed readiness checklist to your assessor.",
+  "signature": true,
+  "claims": []
+}

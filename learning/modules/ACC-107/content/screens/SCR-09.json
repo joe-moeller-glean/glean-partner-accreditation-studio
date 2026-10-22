@@ -1,0 +1,32 @@
+{
+  "id": "SCR-09",
+  "archetype": "A7",
+  "objective": "OBJ-04",
+  "eyebrow": "Submission",
+  "title": "From badge to official submission",
+  "steps": [
+    {
+      "title": "Work with your Partner Manager",
+      "body": "Partners work with their Partner Manager to select and achieve a competency."
+    },
+    {
+      "title": "Package",
+      "body": "A zip file with the Competency Submission Workbook and all required documentation."
+    },
+    {
+      "title": "Customer confirmation",
+      "body": "Request written confirmation that permissions and security meet expectations after a custom test group reviews the results."
+    },
+    {
+      "title": "Renewal",
+      "body": "Validated every 18 months, with written customer documentation from within 3 months before renewal."
+    }
+  ],
+  "claims": [
+    "C-334",
+    "C-268",
+    "C-274",
+    "C-266",
+    "C-270"
+  ]
+}

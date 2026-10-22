@@ -1,0 +1,23 @@
+{
+  "id": "SCR-10",
+  "archetype": "A3",
+  "objective": "OBJ-04",
+  "eyebrow": "Completeness",
+  "title": "The guard that matters most",
+  "body": "Never let a partial or failed fetch finish as a successful full crawl. A failed crawl is recoverable. A successful crawl that deleted most of the index is not. A full crawl must cover the entire confirmed scope, because stale deletion removes anything absent from the run.",
+  "bullets": [
+    "Raise when a page comes back empty before the known end.",
+    "Compare the fetched count with a source count, the prior run, and expected churn.",
+    "The SDK stops cursor paging when a cursor is missing, empty, or repeated. That is correct for honest sources and wrong for a source that drops its cursor early.",
+    "Offset pagination is unstable while the source is being written to."
+  ],
+  "asset": "BLD-201-A02",
+  "claims": [
+    "C-170",
+    "C-171",
+    "C-154",
+    "C-323",
+    "C-190",
+    "C-191"
+  ]
+}

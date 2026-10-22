@@ -1,0 +1,24 @@
+{
+  "id": "SCR-14",
+  "archetype": "A3",
+  "objective": "OBJ-06",
+  "eyebrow": "Observe and deploy",
+  "title": "A connector is a batch job",
+  "body": "It starts, pulls from a source, pushes to Glean, and exits. You get stage timings, item counts, and structured logs without adding instrumentation. glean-idx deploy generates a Docker image and Terraform for a Kubernetes CronJob on GKE or EKS, but any scheduler that can run it works.",
+  "bullets": [
+    "Alert when documents_indexed drops sharply between runs.",
+    "Cloud telemetry plugins are tested only against mocks: validate them in staging.",
+    "Full and incremental schedules need separate deployment configurations.",
+    "A completed Job proves only that the process exited successfully."
+  ],
+  "claims": [
+    "C-210",
+    "C-218",
+    "C-332",
+    "C-217",
+    "C-204",
+    "C-219",
+    "C-213",
+    "C-214"
+  ]
+}

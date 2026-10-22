@@ -1,0 +1,30 @@
+module_id: CON-203
+title: "Indexing API and the Glean Data Model"
+design_system: paged-v1
+learning_path: "Custom Connector Competency"
+request_type: single
+audience: ["Builders", "Solution architects", "Delivery engineers"]
+level: 200
+learning_outcomes:
+  - "Distinguish the Indexing API, the Client API, and the activity endpoint, and the token each needs."
+  - "Configure a datasource correctly."
+  - "Model documents within MIME, size, and timestamp constraints, and choose the right write semantics."
+  - "Index users, groups, memberships, and ACLs in the correct order."
+  - "Choose between custom properties and Custom Metadata, and push activity correctly."
+  - "Work within rate limits, read response codes, and use the debug and reprocess tools."
+prerequisites: ["CON-201", "TEC-201"]
+target_hours: 2.6
+tracker_hours: 2.6
+mastery_score: 80
+assessment_type: "Quiz + API lab evidence (assessor)"
+wave: Wave 2
+accreditation: accred-custom-connectors
+also_counts_toward: []
+authoring_contract: "plan/custom-connectors/CON-203-indexing-api-and-data-model.md"
+source_ledger: plan/custom-connectors/claims.json (verified verbatim; learner-facing claims only)
+sme: "unassigned - needs_sme (Indexing API)"
+publish_mode: manual_review
+open_questions:
+  - "U-203-1: canonical wire type for document timestamps in the raw API; the module teaches epoch seconds, as the SDK requires."
+  - "U-203-2: rate limits for bulk, delete, and permission-update endpoints are not in the reviewed sources; the module states only documented limits."
+  - "Lab fixture (OD-5): the policy wiki mock API and disposable test datasources must exist before learners run the lab."

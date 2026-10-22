@@ -1,0 +1,32 @@
+{
+  "id": "SCR-11",
+  "archetype": "A4",
+  "objective": "OBJ-06",
+  "eyebrow": "Publishing and support",
+  "title": "What you owe once it is listed",
+  "hotspots": [
+    {
+      "label": "Listing",
+      "detail": "The Custom Connector Intake Form v2 gathers what is needed to publish a partner-built connector on the Glean Connectors webpage."
+    },
+    {
+      "label": "Documentation",
+      "detail": "Customer-facing documentation must explain the connector's permission propagation logic."
+    },
+    {
+      "label": "Support",
+      "detail": "Glean expects the partner to maintain and support a listed connector. Shared push connector code may have limited support, so say who supports what."
+    },
+    {
+      "label": "Confirmation",
+      "detail": "Request written confirmation that permissions and security meet expectations once a custom test group has reviewed the results."
+    }
+  ],
+  "claims": [
+    "C-272",
+    "C-275",
+    "C-273",
+    "C-009",
+    "C-274"
+  ]
+}

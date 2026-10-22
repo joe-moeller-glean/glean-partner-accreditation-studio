@@ -1,0 +1,38 @@
+{
+  "id": "SCR-10",
+  "archetype": "A7",
+  "objective": "OBJ-04",
+  "eyebrow": "Visibility",
+  "title": "Five gates between a document and a user",
+  "steps": [
+    {
+      "title": "01 Datasource enabled",
+      "body": "The datasource must be enabled for search. A test datasource shows results only to beta users, who still need document permissions."
+    },
+    {
+      "title": "02 Document permissions",
+      "body": "Documents are either permission-aware, with ACLs pushed per document, or visible to everyone in the organization. You choose at setup."
+    },
+    {
+      "title": "03 Identities exist",
+      "body": "Users must be indexed before they are referenced. A group must be indexed before its memberships."
+    },
+    {
+      "title": "04 Processing finished",
+      "body": "Permissions and memberships are processed asynchronously."
+    },
+    {
+      "title": "05 Click-through",
+      "body": "Opening a result usually sends the user to the source, which may check access again."
+    }
+  ],
+  "claims": [
+    "C-103",
+    "C-124",
+    "C-048",
+    "C-111",
+    "C-114",
+    "C-116",
+    "C-025"
+  ]
+}

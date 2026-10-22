@@ -1,0 +1,277 @@
+{
+  "module_id": "BLD-202",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "Which set is the competency build minimum?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Documents only, uploaded once by bulk"
+        },
+        {
+          "id": "a",
+          "text": "Users, permissions, and documents; automated updates; retry and backoff"
+        },
+        {
+          "id": "c",
+          "text": "Documents and activity, with no permissions"
+        },
+        {
+          "id": "d",
+          "text": "A live MCP tool in place of indexing"
+        }
+      ],
+      "claims": [
+        "C-261",
+        "C-262",
+        "C-263"
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-04",
+      "stem": "The source token expires mid full run. What is the correct behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Exit non-zero with the upload unfinalized, then rerun"
+        },
+        {
+          "id": "b",
+          "text": "Finalize the fetched pages to keep the index fresh"
+        },
+        {
+          "id": "c",
+          "text": "Retry the 401 until the token works again"
+        },
+        {
+          "id": "d",
+          "text": "Switch to incremental mode mid-run"
+        }
+      ],
+      "claims": [
+        "C-170",
+        "C-165"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-03",
+      "stem": "Only a page's read groups change. What must the connector do?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Wait for the page body to change"
+        },
+        {
+          "id": "c",
+          "text": "Rely on click-time checks in the source"
+        },
+        {
+          "id": "d",
+          "text": "Nothing; Glean polls the source for ACLs"
+        },
+        {
+          "id": "a",
+          "text": "Detect and push the ACL change on its own path"
+        }
+      ],
+      "claims": [
+        "C-116",
+        "C-257"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "How do you prove a contractor cannot see a clinical policy page?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Compare uploaded and indexed document counts"
+        },
+        {
+          "id": "c",
+          "text": "Read the ACL in the upload payload"
+        },
+        {
+          "id": "a",
+          "text": "Check document access and search as the contractor"
+        },
+        {
+          "id": "d",
+          "text": "Ask the source owner to confirm"
+        }
+      ],
+      "claims": [
+        "C-199",
+        "C-200",
+        "C-321"
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "A page is renamed and its slug changes. How many Glean documents represent it after the next full run?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Two: the old slug and the new slug"
+        },
+        {
+          "id": "a",
+          "text": "One, because the ID is the immutable page_id"
+        },
+        {
+          "id": "c",
+          "text": "Zero until the next incremental run"
+        },
+        {
+          "id": "d",
+          "text": "It depends on the viewURL"
+        }
+      ],
+      "claims": [
+        "C-101"
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-03",
+      "stem": "Tombstones last 30 days. How are deletions handled in the lab design?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Explicit deletes from tombstones, plus a nightly full run to reconcile"
+        },
+        {
+          "id": "b",
+          "text": "Tombstones only; full runs are unnecessary"
+        },
+        {
+          "id": "c",
+          "text": "Full runs only; ignore tombstones"
+        },
+        {
+          "id": "d",
+          "text": "Incremental runs delete omitted pages"
+        }
+      ],
+      "claims": [
+        "C-174",
+        "C-176"
+      ]
+    },
+    {
+      "id": "Q-07",
+      "objective_id": "OBJ-04",
+      "stem": "The mock API returns an empty 200 page with no cursor before the end. What should your evidence show?",
+      "options": [
+        {
+          "id": "b",
+          "text": "A successful run with fewer pages"
+        },
+        {
+          "id": "c",
+          "text": "An automatic retry of the 200"
+        },
+        {
+          "id": "d",
+          "text": "A pause from the 20% safeguard"
+        },
+        {
+          "id": "a",
+          "text": "A raised completeness error and no finalized upload"
+        }
+      ],
+      "claims": [
+        "C-154",
+        "C-170"
+      ]
+    },
+    {
+      "id": "Q-08",
+      "objective_id": "OBJ-04",
+      "stem": "You intentionally remove 25% of the lab pages in one full run. What do you expect?",
+      "options": [
+        {
+          "id": "b",
+          "text": "They disappear within minutes"
+        },
+        {
+          "id": "c",
+          "text": "The upload is rejected"
+        },
+        {
+          "id": "a",
+          "text": "Deletion of those stale pages pauses for 7 days"
+        },
+        {
+          "id": "d",
+          "text": "Nothing happens until you delete each page"
+        }
+      ],
+      "claims": [
+        "C-107",
+        "C-108"
+      ]
+    },
+    {
+      "id": "Q-09",
+      "objective_id": "OBJ-05",
+      "stem": "What proves that the scheduled run actually indexed documents?",
+      "options": [
+        {
+          "id": "b",
+          "text": "The Job shows Completed"
+        },
+        {
+          "id": "a",
+          "text": "Document status and a search as an authorized persona"
+        },
+        {
+          "id": "c",
+          "text": "The log says upload accepted"
+        },
+        {
+          "id": "d",
+          "text": "CPU use during the run"
+        }
+      ],
+      "claims": [
+        "C-214",
+        "C-321"
+      ]
+    },
+    {
+      "id": "Q-10",
+      "objective_id": "OBJ-05",
+      "stem": "Where do the lab's source and indexing credentials belong?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A secret store the workload reads with exact access"
+        },
+        {
+          "id": "b",
+          "text": "The repository, encrypted with a shared password"
+        },
+        {
+          "id": "c",
+          "text": "Log output, redacted automatically"
+        },
+        {
+          "id": "d",
+          "text": "The container image"
+        }
+      ],
+      "claims": [
+        "C-215",
+        "C-188"
+      ]
+    }
+  ]
+}

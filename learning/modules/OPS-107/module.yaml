@@ -1,0 +1,28 @@
+module_id: OPS-107
+title: "Glean Support Center & Escalations"
+design_system: paged-v1
+learning_path: "Operations & Support / Admin & Support Path"
+request_type: single
+audience: ["Partner solutions engineers", "Delivery leads", "Support leads", "Customer admins"]
+level: 100
+learning_outcomes:
+  - "Choose the correct Glean support path for a request: self-service, conversation, ticket, or feedback."
+  - "Build a complete ticket and assign the correct priority from business impact."
+  - "Escalate inside the Glean support portal so the incident stays tracked and SLA-eligible."
+prerequisites: []
+target_hours: 0.6
+mastery_score: 80
+assessment_type: Quiz
+wave: Wave 2
+accreditation: null  # standalone; candidate elective for accred-support-adoption
+related_modules: [OPS-103, OPS-104]
+source_owners: [Glean Support, Glean Community team]
+roadmap_status: new - not yet in the Module Tracker
+publish_mode: manual_review
+open_questions:
+  - id: SME-01
+    question: "Can a partner file a Glean ticket for a customer under the partner's own account, naming the customer in the request?"
+    handling: "Module states only the documented paths and asks partners to confirm their own path with the Glean partner team."
+  - id: SME-02
+    question: "What is the published escalation path after a ticket is filed and stalls?"
+    handling: "Module teaches staying in the ticket, adding evidence, and correcting priority; account-team involvement is labelled studio guidance."

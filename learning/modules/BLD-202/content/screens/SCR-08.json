@@ -1,0 +1,34 @@
+{
+  "id": "SCR-08",
+  "archetype": "A6",
+  "objective": "OBJ-03",
+  "eyebrow": "Decision",
+  "title": "Only the read groups changed",
+  "type": "choice",
+  "prompt": "An editor removes a group from a page's read groups. The page body and its updated timestamp do not change. How does your connector reflect this?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Wait for the next body edit to carry the new ACL.",
+      "feedback": "The body may never change. Removed users keep access until it does."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "Detect the ACL change on its own path, push it, and verify access flips after processing.",
+      "feedback": "Right. Permissions and memberships are processed asynchronously, and permission changes need their own detection and schedule."
+    },
+    {
+      "id": "o3",
+      "text": "Nothing is needed; the source checks access at click time.",
+      "feedback": "Snippets reach users and the model before any click."
+    }
+  ],
+  "takeaway": "Permission changes are changes, even when the text is not.",
+  "claims": [
+    "C-116",
+    "C-257",
+    "C-025",
+    "C-026"
+  ]
+}

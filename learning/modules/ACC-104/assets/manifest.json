@@ -19,7 +19,7 @@
         "C-16"
       ],
       "alt": "Numbered diagram of the four Agent Building Competency requirements.",
-      "bytes": 4474
+      "bytes": 4761
     },
     {
       "asset_id": "ACC-104-A02",
@@ -41,7 +41,22 @@
         "C-14"
       ],
       "alt": "Six cards listing the portfolio-level agent capabilities that at least one agent must demonstrate.",
-      "bytes": 4553
+      "bytes": 6335
+    },
+    {
+      "asset_id": "ACC-104-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
     }
   ]
 }

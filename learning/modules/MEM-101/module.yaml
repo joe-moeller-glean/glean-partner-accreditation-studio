@@ -1,0 +1,66 @@
+module_id: MEM-101
+title: "Memory in Glean: From Personalization to Cross-Surface Context"
+version: 1.0.0
+level: 100
+series_note: >-
+  Foundations module for partner-facing technical sellers and solution advisors.
+  Based on the September 3, 2026 Memory Technical PowerUP.
+
+delivery:
+  format: SCORM 1.2, single SCO
+  navigation: single-page vertical scroll, 12 bands, no pagination
+  design_system: scroll-canvas-v1
+  target_hours: 0.7
+  offline: true
+  network_calls: none
+
+audience:
+  primary: Partner solution advisors, builders, and technical sellers who need a field-ready Memory foundation
+  prerequisites: Familiarity with enterprise SaaS and Glean Assistant concepts
+  assumed_knowledge: No Memory implementation experience assumed.
+
+learner_promise: >-
+  Explain why agent memory matters, distinguish short-term interaction history from
+  long-term memory, map procedural/semantic/episodic memory to field examples,
+  describe how Glean writes and retrieves memory, and position governed,
+  cross-surface memory without overpromising availability.
+
+objectives:
+  - id: OBJ-01
+    text: Explain why an agent harness needs memory beyond a single context window.
+    assessed_by: [Q-01]
+  - id: OBJ-02
+    text: Distinguish short-term interaction history from long-term procedural, semantic, and episodic memory.
+    assessed_by: [Q-02, Q-03]
+  - id: OBJ-03
+    text: Describe how Glean learns from assistant traces and enterprise activity, then consolidates memory.
+    assessed_by: [Q-04]
+  - id: OBJ-04
+    text: Explain progressive disclosure and why selective retrieval matters at run time.
+    assessed_by: [Q-05]
+  - id: OBJ-05
+    text: Position user control and cross-surface memory with current availability caveats.
+    assessed_by: [Q-06]
+
+assessment:
+  items: 6
+  mastery_score: 80
+  attempts: unlimited
+  feedback: per-option, on every attempt
+  key_shipped: false
+
+completion_rule: >-
+  lesson_status becomes passed only when every one of the 12 bands has been
+  reached and the quiz best score is at or above 80.
+
+sourcing:
+  claims: 15
+  sources: 5
+  tier_1_product_docs: 2
+  powerup_deck: 1
+  internal_context: 2
+  unsourced_claims: 0
+  research_date: 2026-09-25
+
+status: built, gates pending
+owner: Joe Moeller

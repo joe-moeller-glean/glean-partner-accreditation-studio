@@ -16,7 +16,7 @@
         "C-105"
       ],
       "alt": "Four-step flow diagram of the Actions and MCP workshop sequence.",
-      "bytes": 4238
+      "bytes": 4748
     },
     {
       "asset_id": "BLD-103-A02",
@@ -33,7 +33,22 @@
         "C-106"
       ],
       "alt": "Stacked diagram of workshop readiness requirements: level, duration, and prerequisite experience.",
-      "bytes": 2031
+      "bytes": 2666
+    },
+    {
+      "asset_id": "BLD-103-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
     }
   ]
 }

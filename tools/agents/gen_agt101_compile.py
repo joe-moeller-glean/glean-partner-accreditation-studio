@@ -61,7 +61,7 @@ tokens = """/* AGT-101 uses the token block defined in styles.css (scroll-canvas
 .hero-render{
   margin-top:var(--s5);
   border:var(--hair) solid var(--line);
-  border-radius:var(--radius);
+  border-radius:var(--radius-card);
   overflow:hidden;
   line-height:0;
 }
@@ -70,7 +70,7 @@ tokens = """/* AGT-101 uses the token block defined in styles.css (scroll-canvas
 .hotspot__img{
   width:100%;height:auto;display:block;
   border:var(--hair) solid var(--line);
-  border-radius:var(--radius);
+  border-radius:var(--radius-card);
   background:var(--white);
   margin-bottom:var(--s3);
   padding:var(--s2);

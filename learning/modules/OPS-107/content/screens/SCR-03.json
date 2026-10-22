@@ -1,0 +1,15 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "The support path",
+  "title": "Everything starts in Gleaniverse",
+  "body": "You must sign in to Gleaniverse to reach the Glean Support Center. Logins from the legacy support portal were not migrated. After you sign in, there are two entry points: Ask Query in the top navigation, and the support widget in the bottom-right corner. Before you open a ticket, search Glean Docs, ask Query, and check the Glean status page for known issues.",
+  "asset": "OPS-107-A01",
+  "claims": [
+    "C-201",
+    "C-202",
+    "C-203",
+    "C-204"
+  ]
+}

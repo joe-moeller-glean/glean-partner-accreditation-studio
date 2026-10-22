@@ -1,0 +1,268 @@
+{
+  "module_id": "ACC-107",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "What does passing this capstone award?",
+      "options": [
+        {
+          "id": "b",
+          "text": "The official Custom Connector Competency"
+        },
+        {
+          "id": "a",
+          "text": "This course's learning accreditation, not the official competency"
+        },
+        {
+          "id": "c",
+          "text": "A Glean-hosted connector for the partner"
+        },
+        {
+          "id": "d",
+          "text": "Listing on the Glean Connectors webpage"
+        }
+      ],
+      "claims": [
+        "C-267"
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-04",
+      "stem": "How often is the Custom Connector Competency validated?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Every 18 months"
+        },
+        {
+          "id": "b",
+          "text": "Every year"
+        },
+        {
+          "id": "c",
+          "text": "Once, permanently"
+        },
+        {
+          "id": "d",
+          "text": "With every SDK release"
+        }
+      ],
+      "claims": [
+        "C-266"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-04",
+      "stem": "For renewal, how recent must the customer's written documentation be?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Within 18 months"
+        },
+        {
+          "id": "c",
+          "text": "Any time since go-live"
+        },
+        {
+          "id": "d",
+          "text": "No customer documentation is needed"
+        },
+        {
+          "id": "a",
+          "text": "Within 3 months before renewal"
+        }
+      ],
+      "claims": [
+        "C-270"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "Which maintenance plan does the competency require?",
+      "options": [
+        {
+          "id": "b",
+          "text": "A partner-internal plan only"
+        },
+        {
+          "id": "c",
+          "text": "No plan; Glean maintains the connector"
+        },
+        {
+          "id": "a",
+          "text": "A customer-approved maintenance plan"
+        },
+        {
+          "id": "d",
+          "text": "A plan approved by Glean Support"
+        }
+      ],
+      "claims": [
+        "C-265"
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-02",
+      "stem": "How many technical accreditations does the competency require?",
+      "options": [
+        {
+          "id": "b",
+          "text": "One: this capstone"
+        },
+        {
+          "id": "a",
+          "text": "Five, completed in the Glean Partner Portal"
+        },
+        {
+          "id": "c",
+          "text": "Three, in any learning system"
+        },
+        {
+          "id": "d",
+          "text": "None; the build is enough"
+        }
+      ],
+      "claims": [
+        "C-264"
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-02",
+      "stem": "Which build does the competency expect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Indexes users, permissions, and documents; updates automatically; retries with backoff"
+        },
+        {
+          "id": "b",
+          "text": "Indexes documents once, manually"
+        },
+        {
+          "id": "c",
+          "text": "Provides MCP tools only"
+        },
+        {
+          "id": "d",
+          "text": "Indexes documents with allow-all access"
+        }
+      ],
+      "claims": [
+        "C-261",
+        "C-262",
+        "C-263"
+      ]
+    },
+    {
+      "id": "Q-07",
+      "objective_id": "OBJ-04",
+      "stem": "What goes in the official submission?",
+      "options": [
+        {
+          "id": "b",
+          "text": "A link to the connector's source code only"
+        },
+        {
+          "id": "c",
+          "text": "This course's completion certificate only"
+        },
+        {
+          "id": "d",
+          "text": "A recorded demo only"
+        },
+        {
+          "id": "a",
+          "text": "A zip with the Competency Submission Workbook and required documentation"
+        }
+      ],
+      "claims": [
+        "C-268"
+      ]
+    },
+    {
+      "id": "Q-08",
+      "objective_id": "OBJ-02",
+      "stem": "Which review with Glean is a competency requirement?",
+      "options": [
+        {
+          "id": "b",
+          "text": "A pricing review with Glean finance"
+        },
+        {
+          "id": "c",
+          "text": "A marketing review of the listing"
+        },
+        {
+          "id": "a",
+          "text": "A custom connector architecture review with a Glean technical resource"
+        },
+        {
+          "id": "d",
+          "text": "No review; the workbook is enough"
+        }
+      ],
+      "claims": [
+        "C-269"
+      ]
+    },
+    {
+      "id": "Q-09",
+      "objective_id": "OBJ-04",
+      "stem": "When should the partner request the customer's written permission and security confirmation?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Before the connector is built"
+        },
+        {
+          "id": "a",
+          "text": "After a custom test group has reviewed the results"
+        },
+        {
+          "id": "c",
+          "text": "Only if the customer raises concerns"
+        },
+        {
+          "id": "d",
+          "text": "At renewal, 18 months later"
+        }
+      ],
+      "claims": [
+        "C-274"
+      ]
+    },
+    {
+      "id": "Q-10",
+      "objective_id": "OBJ-03",
+      "stem": "Which workshop does the competency require?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Glean-delivered custom connector workshop session"
+        },
+        {
+          "id": "b",
+          "text": "Any third-party Python course"
+        },
+        {
+          "id": "c",
+          "text": "An agent building workshop"
+        },
+        {
+          "id": "d",
+          "text": "No workshop is required"
+        }
+      ],
+      "claims": [
+        "C-333"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "SCR-09",
+  "archetype": "A8",
+  "objective": "OBJ-03",
+  "eyebrow": "Worked example",
+  "title": "Ask a question that gets answered",
+  "steps": [
+    {
+      "title": "Search first",
+      "body": "Look for an existing thread before you post."
+    },
+    {
+      "title": "Pick the right place",
+      "body": "Forum for questions, Feedback and Ideas for requests, a ticket for instance errors."
+    },
+    {
+      "title": "Describe the goal",
+      "body": "State what you want to achieve and what you tried, without confidential or personal data."
+    },
+    {
+      "title": "Stay relevant",
+      "body": "Keep it about Glean or the broader AI industry. No promotion."
+    },
+    {
+      "title": "Close the loop",
+      "body": "Share what worked so the next person benefits."
+    }
+  ],
+  "claims": [
+    "C-306",
+    "C-305",
+    "C-224",
+    "C-307",
+    "C-308",
+    "C-310"
+  ]
+}

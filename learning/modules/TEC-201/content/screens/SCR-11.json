@@ -1,0 +1,8 @@
+{
+  "id": "SCR-11",
+  "archetype": "quiz",
+  "objective": "OBJ-02",
+  "eyebrow": "Prove it",
+  "title": "Deployment prerequisites check",
+  "type": "quiz"
+}

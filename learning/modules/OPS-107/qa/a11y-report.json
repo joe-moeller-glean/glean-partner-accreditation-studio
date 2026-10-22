@@ -1,0 +1,21 @@
+{
+  "module_id": "OPS-107",
+  "checked_on": "2026-09-26",
+  "standard": "WCAG 2.2 AA",
+  "state": "pass_with_partial_browser_evidence",
+  "checks": {
+    "text_contrast_4_5": "pass - lint_module.py token-pair contrast check",
+    "keyboard_complete": "pass - controls are native button and select elements (confirmed in browser element snapshot)",
+    "labelled_controls": "pass - sort selects expose 'Category for: <item>' accessible names in browser",
+    "state_not_by_colour_alone": "pass - browser shows 'Correct:' and 'Not this one:' text prefixes after a choice",
+    "headings": "pass - screen 1 exposes one h1; later screens expose an h2 (browser snapshots)",
+    "reduced_motion": "pass - prefers-reduced-motion rule present (lint)",
+    "image_alt_text": "pass - 3 diagrams with alt text; wordmark img alt='Glean'",
+    "svg_title_desc": "pass - 3 SVGs carry title and desc",
+    "answer_position_bias": "pass - correct answers placed at varied positions (fixed during QA)",
+    "zoom_and_mobile": "not verified - no mobile-width browser pass in this run"
+  },
+  "open_issues": [
+    "Mobile-width and 200% zoom rendering not verified in a real browser."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "SCR-06",
+  "archetype": "A9",
+  "objective": "OBJ-01",
+  "eyebrow": "Sort it",
+  "title": "Which path fits the request?",
+  "prompt": "Place each request on the path built for it.",
+  "type": "sort",
+  "categories": [
+    "Self-service",
+    "Conversation",
+    "Ticket",
+    "Feedback and Ideas"
+  ],
+  "pairs": [
+    {
+      "item": "Search is slow for everyone this morning. You want to know if Glean already knows.",
+      "category": "Self-service",
+      "why": "Check the Glean status page for known issues before you open a ticket."
+    },
+    {
+      "item": "An admin who is not a Designated Support Contact has a how-to question about a setting.",
+      "category": "Conversation",
+      "why": "Conversations are open to all users and are the best starting point for most requests."
+    },
+    {
+      "item": "A Designated Support Contact confirms a connector sync bug that affects many users.",
+      "category": "Ticket",
+      "why": "Tickets are best for bug reports and outages that need follow-up and a documented resolution."
+    },
+    {
+      "item": "A customer wants a new capability that the product does not have today.",
+      "category": "Feedback and Ideas",
+      "why": "Submit feature requests and product feedback on the Feedback and Ideas board in Gleaniverse."
+    }
+  ],
+  "takeaway": "Not sure which to use? Start with a conversation. Support can convert it into a ticket.",
+  "claims": [
+    "C-203",
+    "C-205",
+    "C-207",
+    "C-224",
+    "C-208"
+  ]
+}

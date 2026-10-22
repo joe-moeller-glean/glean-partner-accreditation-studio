@@ -1,0 +1,24 @@
+{
+  "id": "SCR-05",
+  "archetype": "A3",
+  "objective": "OBJ-03",
+  "eyebrow": "Document model",
+  "title": "What a document can carry",
+  "bullets": [
+    "A stable ID, title, viewURL that matches urlRegex, body content with a MIME type, and permissions.",
+    "JSON and XML are not supported MIME types for content. Send the text itself.",
+    "Items over 64 MB index metadata and permissions only. Content over 16.875 MB is truncated. Spreadsheets index about 250,000 characters.",
+    "Use epoch seconds for timestamps. With the SDK, created_at and updated_at must be epoch seconds.",
+    "413 Request Entity Too Large means split into smaller requests."
+  ],
+  "claims": [
+    "C-119",
+    "C-094",
+    "C-090",
+    "C-091",
+    "C-092",
+    "C-093",
+    "C-153",
+    "C-058"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "SCR-06",
+  "archetype": "A4",
+  "objective": "OBJ-03",
+  "eyebrow": "Review probes",
+  "title": "Questions reviewers ask",
+  "body": "Prepare an answer, with evidence, for each. Answers are not shown here.",
+  "hotspots": [
+    {
+      "label": "Completeness",
+      "detail": "Show what happens if page 37 of 384 returns an empty list with no cursor."
+    },
+    {
+      "label": "Membership",
+      "detail": "A user is removed from a group in the source. When and how does Glean reflect it?"
+    },
+    {
+      "label": "Permission-only change",
+      "detail": "Only a page's read groups change. Which code path pushes that?"
+    },
+    {
+      "label": "Rename",
+      "detail": "A page is renamed. How many documents exist afterward?"
+    },
+    {
+      "label": "Secrets",
+      "detail": "Where is the source token stored, and who rotates it on day 90?"
+    },
+    {
+      "label": "Intended cleanup",
+      "detail": "A nightly run deletes 25% of documents on purpose. What will users see tomorrow, and what do you do?"
+    },
+    {
+      "label": "Proof of indexing",
+      "detail": "The Job shows Completed. How do you know documents were indexed?"
+    }
+  ],
+  "claims": [
+    "C-154",
+    "C-116",
+    "C-101",
+    "C-238",
+    "C-107",
+    "C-214"
+  ]
+}

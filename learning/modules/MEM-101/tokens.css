@@ -1,0 +1,34 @@
+/* MEM-101 uses the token block defined in styles.css (scroll-canvas-v1).
+   This file exists for pipeline parity with earlier modules and pins the
+   module-level overrides only. */
+:root{
+  --module-id:"MEM-101";
+}
+
+/* hero render + diagram sizing (module-specific, not part of the design system) */
+.hero-render{
+  margin-top:var(--s5);
+  border:var(--hair) solid var(--line);
+  border-radius:var(--radius-card);
+  overflow:hidden;
+  line-height:0;
+}
+.hero-render__img{width:100%;height:auto;display:block}
+
+.hotspot__img{
+  width:100%;height:auto;display:block;
+  border:var(--hair) solid var(--line);
+  border-radius:var(--radius-card);
+  background:var(--white);
+  margin-bottom:var(--s3);
+  padding:var(--s2);
+}
+
+.sorter__fs{border:none;margin:0;padding:0;min-width:0}
+.rail__list{display:flex;flex-direction:column;gap:4px}
+.num-card__h{margin:0;font-size:1rem;font-weight:500}
+.quiz__review{
+  margin-top:var(--s4);padding-top:var(--s4);
+  border-top:var(--hair) solid var(--line-invert);
+  text-align:left;
+}

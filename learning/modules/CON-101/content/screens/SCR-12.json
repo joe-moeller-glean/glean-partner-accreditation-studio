@@ -1,0 +1,27 @@
+{
+  "id": "SCR-12",
+  "archetype": "A3",
+  "objective": "OBJ-05",
+  "eyebrow": "Fit sequence",
+  "title": "Five questions, in order",
+  "bullets": [
+    "1. Is there a native connector, or can the native Glean Web Crawler cover it? Use an existing connector first.",
+    "2. Is the data document-like, or a data lake, telemetry, or fast-changing state? The last three go live.",
+    "3. Does the need include search, historical, or cross-document questions? That favors indexing.",
+    "4. Can you get content, permissions, people, and activity through an API or an export?",
+    "5. Who builds, supports, and maintains it? Partner connectors are partner-supported."
+  ],
+  "asset": "CON-101-A02",
+  "footnote": "The five-question order is studio guidance composed from the sourced rules on this screen.",
+  "claims": [
+    "C-250",
+    "C-035",
+    "C-033",
+    "C-034",
+    "C-022",
+    "C-021",
+    "C-006",
+    "C-253",
+    "C-010"
+  ]
+}

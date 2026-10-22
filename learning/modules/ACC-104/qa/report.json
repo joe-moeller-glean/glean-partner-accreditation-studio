@@ -27,8 +27,8 @@
   "package": {
     "state": "pass",
     "zip": "ACC-104-v1.0.0-scorm12.zip",
-    "bytes": 13473,
-    "sha256": "d2d529e633f67793cae019d40e1b7c9158f9cef259bc6c3f4389d3cc25ed3d1e",
+    "bytes": 13490,
+    "sha256": "07522c79f73e7132dd55d210ad7ed0dfc0c27efb6c79eb58df4c73e3a8befb9c",
     "findings": []
   },
   "runtime_qa": {

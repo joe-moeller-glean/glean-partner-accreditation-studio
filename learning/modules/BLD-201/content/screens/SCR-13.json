@@ -1,0 +1,51 @@
+{
+  "id": "SCR-13",
+  "archetype": "A5",
+  "objective": "OBJ-06",
+  "eyebrow": "Security and operations",
+  "title": "Production controls",
+  "table": {
+    "caption": "Controls every production connector needs",
+    "head": [
+      "Area",
+      "Control"
+    ],
+    "rows": [
+      [
+        "Source credentials",
+        "Read-only keys where supported"
+      ],
+      [
+        "Indexing token",
+        "Per environment, IP restricted, rotation automated"
+      ],
+      [
+        "Secrets",
+        "In a secret store; with the SDK deployment, the workload gets exact secret access and cannot enumerate secrets"
+      ],
+      [
+        "Logs",
+        "Query parameters are redacted in request logs; redaction covers logging only"
+      ],
+      [
+        "Monitoring",
+        "Alert when documents_indexed drops sharply between runs"
+      ],
+      [
+        "Documentation",
+        "Customer-facing docs explain permission propagation logic"
+      ]
+    ]
+  },
+  "claims": [
+    "C-251",
+    "C-057",
+    "C-059",
+    "C-238",
+    "C-215",
+    "C-187",
+    "C-188",
+    "C-204",
+    "C-275"
+  ]
+}

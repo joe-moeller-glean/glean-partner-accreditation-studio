@@ -1,0 +1,8 @@
+{
+  "module_id": "CON-201",
+  "feedback": {
+    "SCR-09:o2": "Bulk indexing replaces the document list. Omitted documents are deleted unless the safeguard pauses them.",
+    "SCR-09:o3": "Above 20%, stale deletion pauses for 7 days. Immediate deletion requires /processalldocuments.",
+    "SCR-09:o1": "Right. 8,400 of 38,400 is about 22%, above the 20% threshold. The pause buys time; it does not fix the run. Never let a partial fetch finish as a successful full crawl."
+  }
+}

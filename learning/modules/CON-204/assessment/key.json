@@ -1,0 +1,122 @@
+{
+  "module_id": "CON-204",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "They send the ACLs; the identities those ACLs name are missing.",
+        "a": "Right. An ACL naming an unknown group matches nobody.",
+        "c": "Batch size does not affect permissions.",
+        "d": "No such rule exists. Missing identities explain it."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. The base implementation returns None and the client falls back to a full fetch.",
+        "b": "The mode is supported; the checkpoint is missing.",
+        "c": "The SDK does not persist checkpoints at all.",
+        "d": "Batch size does not change what is fetched."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "b": "Batching happens after transform, so peak memory is unchanged.",
+        "c": "Upload concurrency does not reduce source memory.",
+        "d": "Full runs still need the whole scope.",
+        "a": "Right. Batching happens after transform, so batch size does not help."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "The SDK sends one complete empty bulk page.",
+        "c": "It succeeds, which is the danger.",
+        "a": "Right. An empty successful full crawl clears the datasource.",
+        "d": "No age rule applies."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "b": "A full replacement with five items deletes the rest.",
+        "a": "Right. max_items limits source consumption, not Glean-side deletion.",
+        "c": "It is accepted, which is the problem.",
+        "d": "A full run also removes what it did not include."
+      }
+    },
+    "Q-06": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. It discards any in-progress upload session.",
+        "b": "It is not a default.",
+        "c": "It changes session handling, not speed.",
+        "d": "That is a different option."
+      }
+    },
+    "Q-07": {
+      "answer": "a",
+      "rationale": {
+        "b": "Middle pages can be concurrent.",
+        "c": "The reason is session integrity.",
+        "d": "Upload order does not set search order.",
+        "a": "Right. Neither can race."
+      }
+    },
+    "Q-08": {
+      "answer": "a",
+      "rationale": {
+        "b": "That replaces the datasource on every event.",
+        "c": "Full crawls replace everything.",
+        "a": "Right. It is the right call for event-driven connectors.",
+        "d": "teardown cannot be undone."
+      }
+    },
+    "Q-09": {
+      "answer": "a",
+      "rationale": {
+        "b": "The value counts total attempts.",
+        "a": "Right. It is total attempts, deliberately conservative.",
+        "c": "Pacing is the rate limiter's job.",
+        "d": "Only 429 and listed 5xx codes are retried."
+      }
+    },
+    "Q-10": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. Document status proves indexing.",
+        "b": "Indexing is asynchronous and separate from the job.",
+        "c": "Search as the user is the ground truth.",
+        "d": "A partial crawl can exit successfully."
+      }
+    },
+    "Q-11": {
+      "answer": "a",
+      "rationale": {
+        "b": "It is supported; it defeats denial testing.",
+        "c": "The reason is testability of denial.",
+        "d": "Tokens are unrelated.",
+        "a": "Right."
+      }
+    },
+    "Q-12": {
+      "answer": "a",
+      "rationale": {
+        "b": "Upload is not the bottleneck.",
+        "c": "Upload batching is not the bottleneck.",
+        "a": "Right. Tuning upload concurrency accomplishes nothing here.",
+        "d": "Upload timeouts are not the bottleneck."
+      }
+    },
+    "Q-13": {
+      "answer": "a",
+      "rationale": {
+        "b": "Source credentials belong to your data client.",
+        "a": "Right. A missing variable fails at client construction.",
+        "c": "The SDK pushes with an Indexing API token.",
+        "d": "The Indexing API supports only Glean-issued tokens."
+      }
+    }
+  }
+}

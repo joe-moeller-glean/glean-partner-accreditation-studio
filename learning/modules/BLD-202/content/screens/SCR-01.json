@@ -1,0 +1,9 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-05",
+  "eyebrow": "Cold open",
+  "title": "Done is not when the data appears",
+  "body": "Requirements to production handoff in one lab. The documents will appear early. That is not the finish line. The lab is done when you can prove who sees what, what happens when things change or break, and when someone else can maintain it without you.",
+  "claims": []
+}

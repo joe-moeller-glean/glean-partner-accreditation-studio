@@ -1,0 +1,13 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "Why structured scoping",
+  "title": "Scope before code",
+  "body": "Scoping turns a request into evidence. The partner questionnaire starts with the cheapest question: is there an existing native connector for the source, or can the native Glean Web Crawler cover it? Only then does it move to access, identity, environments, and change patterns.",
+  "asset": "CON-202-A02",
+  "claims": [
+    "C-250",
+    "C-035"
+  ]
+}

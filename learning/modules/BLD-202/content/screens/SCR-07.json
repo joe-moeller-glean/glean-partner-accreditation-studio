@@ -1,0 +1,42 @@
+{
+  "id": "SCR-07",
+  "archetype": "A7",
+  "objective": "OBJ-03",
+  "eyebrow": "Stages 6 to 11",
+  "title": "Prove visibility and change",
+  "steps": [
+    {
+      "title": "6 Verify",
+      "body": "Document status shows indexed; document access checked for six personas on six pages."
+    },
+    {
+      "title": "7 Incremental",
+      "body": "Five updates visible; a rename creates no duplicate; the checkpoint is written only on success."
+    },
+    {
+      "title": "8 Deletes",
+      "body": "Tombstones delete explicitly; a nightly full run reconciles anything missed. Explain the 20% safeguard with your own numbers."
+    },
+    {
+      "title": "9 Permission-only change",
+      "body": "Page body unchanged, read groups changed. Access flips after processing."
+    },
+    {
+      "title": "10 Membership removal",
+      "body": "A removed user loses access after membership processing."
+    },
+    {
+      "title": "11 Reconcile",
+      "body": "Source count versus uploaded versus indexed, per object type, with every gap explained."
+    }
+  ],
+  "claims": [
+    "C-321",
+    "C-101",
+    "C-173",
+    "C-176",
+    "C-107",
+    "C-116",
+    "C-322"
+  ]
+}

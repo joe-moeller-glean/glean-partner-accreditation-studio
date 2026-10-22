@@ -1,0 +1,27 @@
+{
+  "id": "SCR-04",
+  "archetype": "A10",
+  "objective": "OBJ-01",
+  "eyebrow": "Myth versus reality",
+  "title": "Three assumptions that stall submissions",
+  "hotspots": [
+    {
+      "label": "Myth: passing this capstone makes the partner competency-certified.",
+      "detail": "Competencies require an audit process. This badge prepares the evidence."
+    },
+    {
+      "label": "Myth: the architecture review can be skipped if the code is good.",
+      "detail": "The competency requires a custom connector architecture review with a Glean technical resource."
+    },
+    {
+      "label": "Myth: once earned, the competency is permanent.",
+      "detail": "It is validated every 18 months. Renewal needs written documentation from a customer within 3 months before renewal."
+    }
+  ],
+  "claims": [
+    "C-267",
+    "C-269",
+    "C-266",
+    "C-270"
+  ]
+}

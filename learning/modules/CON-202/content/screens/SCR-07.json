@@ -1,0 +1,40 @@
+{
+  "id": "SCR-07",
+  "archetype": "A7",
+  "objective": "OBJ-03",
+  "eyebrow": "Sizing",
+  "title": "Sizing the policy wiki crawl",
+  "steps": [
+    {
+      "title": "Source limit",
+      "body": "300 requests per minute per token. Pace below quota, about 240 per minute, to leave room for retries."
+    },
+    {
+      "title": "List calls",
+      "body": "38,400 pages at 100 per page is 384 calls: under two minutes at 240 per minute."
+    },
+    {
+      "title": "Detail calls",
+      "body": "If read groups need one call per page, add 38,400 calls: about 160 minutes per full run."
+    },
+    {
+      "title": "Glean side",
+      "body": "/indexdocuments accepts 600 documents per minute; /indexdocument accepts 10 requests per second. Confirm the current bulk limit before you commit a window."
+    },
+    {
+      "title": "Deployment ceiling",
+      "body": "8,000 requests per minute across all IP addresses and 100 requests per second from one IP apply across the deployment."
+    },
+    {
+      "title": "Result",
+      "body": "A nightly full run fits in about three hours. Hourly incrementals fit easily."
+    }
+  ],
+  "footnote": "Case numbers are fictional. The pacing rule and the Glean limits are sourced.",
+  "claims": [
+    "C-193",
+    "C-137",
+    "C-138",
+    "C-139"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "module_id": "BLD-202",
+  "checked_on": "2026-09-27",
+  "state": "pass",
+  "claim_count": 40,
+  "source_count": 18,
+  "verification": "Every claim excerpt matched verbatim against saved source text by plan/custom-connectors/tools/build_ledger.py.",
+  "unsourced_claims": [],
+  "internal_claims_in_module": [],
+  "verdicts": {
+    "verified": 40,
+    "unsupported": 0,
+    "stale": 0,
+    "conflicted": 0
+  },
+  "studio_guidance_disclosed": [
+    "SCR-12"
+  ],
+  "open_questions": [
+    "Tracker duration is 2.5 h at level 200; this build is 5.0 h at level 300 (approval OD-3).",
+    "Release blocker OD-5: the lab kit (mock policy wiki API with fault switches, disposable test datasources, persona accounts) does not exist yet.",
+    "Assessor rubric weights are studio-authored and must be calibrated with two reviewers before first use."
+  ],
+  "source_ledger": [
+    {
+      "source_id": "S-02",
+      "title": "How connectors power the Glean experience",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-05",
+      "title": "Set up a custom connector",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-12",
+      "title": "Bulk Indexing",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-13",
+      "title": "Bulk Upload Model",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-16",
+      "title": "Permissions (Indexing API guide)",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-19",
+      "title": "Indexing SDK — Indexing modes",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-20",
+      "title": "Indexing SDK — Permissions",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-21",
+      "title": "Indexing SDK — Architecture",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-25",
+      "title": "Indexing SDK — HTTP client",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-27",
+      "title": "Indexing SDK — Rate limiting",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-28",
+      "title": "Indexing SDK — Status and debugging",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-29",
+      "title": "Indexing SDK — CLI",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-30",
+      "title": "Indexing SDK — Deployment overview",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-31",
+      "title": "Indexing SDK — Observability",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-32",
+      "title": "Indexing SDK — Overview",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-33",
+      "title": "Indexing SDK — Quickstart",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-45",
+      "title": "[External] Glean Partner Content | Custom Connector Questionnaire",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2027-03-26"
+    },
+    {
+      "source_id": "S-47",
+      "title": "Glean Partner Competency Program Guide (Feb 2026)",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2027-03-26"
+    }
+  ]
+}

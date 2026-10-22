@@ -1,0 +1,35 @@
+# PROPOSED badge definition. Move to learning/accreditations/accred-custom-connectors/ only after
+# every required module exists in learning/modules/ and OD-2 is approved.
+id: accred-custom-connectors
+name: Custom Connector Competency (learning accreditation)
+source: plan/custom-connectors (v2, 2026-09-26)
+status: proposed
+audience: [Builders, Solution Architects, Delivery Engineers, Technical Partner Leads]
+partner_types: [Boutique, GSI, SI, Technology]
+mapped_official_competency: Custom Connector (org-level audit; not awarded by this badge)
+required_modules:
+  - CON-101
+  - CON-201
+  - CON-202
+  - TEC-201
+  - BLD-201
+  - CON-203
+  - CON-204
+  - BLD-202
+  - CON-301
+  - ACC-107
+electives: []
+completion:
+  rule: all_required_modules_and_capstone
+  assessment_module: ACC-107
+  assessment_type: portfolio + unseen case + two-reviewer oral review
+  mastery_score: 80
+  hard_gates:
+    - identity_handling
+    - permissions_model_and_refresh
+    - deletion_handling_every_object_family
+    - completeness_guard_and_retry_backoff
+    - security_and_secrets
+overview_module: null
+publish_mode: automatic_after_green
+estimated_hours: 28.8

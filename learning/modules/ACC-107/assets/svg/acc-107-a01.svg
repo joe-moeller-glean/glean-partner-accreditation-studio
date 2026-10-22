@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 310" width="100%" preserveAspectRatio="xMidYMid meet">
+<title>Two different credentials</title>
+<desc>Two columns. The learning accreditation is earned by an individual through modules, labs, and this capstone, scored by course assessors. The official Custom Connector Competency is earned by the partner organization through a Glean audit, and is validated every 18 months.</desc>
+<defs><radialGradient id="wt" cx="1.02" cy="-0.08" r="0.62" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#DEEEF0"/><stop offset="0.7" stop-color="#DEEEF0" stop-opacity="0"/></radialGradient><radialGradient id="wo" cx="-0.06" cy="1.06" r="0.45" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#F0C2F2"/><stop offset="0.72" stop-color="#F0C2F2" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="0" width="620" height="310" fill="#F6F3EB"/><rect x="0" y="0" width="620" height="310" fill="url(#wt)"/><rect x="0" y="0" width="620" height="310" fill="url(#wo)"/>
+<text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">Two different credentials</text>
+<rect x="24" y="64" width="282" height="222" rx="12" fill="#FFFFFF" stroke="#343CED" stroke-width="2"/>
+<text x="38" y="88" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Learning accreditation</text>
+<rect x="314" y="64" width="282" height="222" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="328" y="88" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Official competency</text>
+<line x1="38" y1="100" x2="292" y2="100" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="38" y="124" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Earned by an individual learner</text>
+<line x1="328" y1="100" x2="582" y2="100" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="328" y="124" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Earned by the partner organization</text>
+<line x1="38" y1="162" x2="292" y2="162" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="38" y="186" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Modules, labs, and this capstone</text>
+<line x1="328" y1="162" x2="582" y2="162" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="328" y="186" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Requires an audit process by Glean</text>
+<line x1="38" y1="224" x2="292" y2="224" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="38" y="248" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Scored by course assessors</text>
+<line x1="328" y1="224" x2="582" y2="224" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="328" y="248" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Validated every 18 months</text>
+</svg>

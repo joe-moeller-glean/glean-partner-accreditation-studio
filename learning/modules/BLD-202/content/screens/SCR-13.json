@@ -1,0 +1,37 @@
+{
+  "id": "SCR-13",
+  "archetype": "A13",
+  "objective": "OBJ-05",
+  "eyebrow": "Job aid",
+  "title": "Your evidence pack",
+  "cards": [
+    {
+      "tag": "Runs",
+      "title": "Run logs",
+      "body": "Retries, the raised completeness error, the token-expiry failure, and the clean rerun."
+    },
+    {
+      "tag": "Access",
+      "title": "Access matrix",
+      "body": "Six personas by six pages, with every denial explained."
+    },
+    {
+      "tag": "Change",
+      "title": "Change proofs",
+      "body": "Before and after for update, delete, rename, permission-only change, and membership removal."
+    },
+    {
+      "tag": "Handoff",
+      "title": "Handoff",
+      "body": "Reconciliation report, alert definition, runbook, diagram, and maintenance plan draft."
+    }
+  ],
+  "claims": [
+    "C-165",
+    "C-199",
+    "C-116",
+    "C-202",
+    "C-204",
+    "C-265"
+  ]
+}

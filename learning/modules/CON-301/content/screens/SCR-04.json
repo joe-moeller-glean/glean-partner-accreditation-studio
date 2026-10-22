@@ -1,0 +1,41 @@
+{
+  "id": "SCR-04",
+  "archetype": "A7",
+  "objective": "OBJ-02",
+  "eyebrow": "Deployment",
+  "title": "Deploy with the SDK scaffolding",
+  "steps": [
+    {
+      "title": "Scaffold",
+      "body": "glean-idx deploy generates a Docker image and Terraform for a Kubernetes CronJob on GKE or EKS."
+    },
+    {
+      "title": "Foundation",
+      "body": "Generated Terraform does not create the project or account, cluster, registry, workload identity foundation, or namespace. The platform team owns them."
+    },
+    {
+      "title": "Configure",
+      "body": "Change glean_deployment.yaml. Generated Terraform is an artifact, not the configuration interface."
+    },
+    {
+      "title": "Schedule",
+      "body": "Full and incremental schedules need separate deployment configurations."
+    },
+    {
+      "title": "Secrets",
+      "body": "The workload gets exact secret access and cannot enumerate secrets."
+    },
+    {
+      "title": "Verify",
+      "body": "A completed Job proves only that the process exited successfully. Check document status."
+    }
+  ],
+  "claims": [
+    "C-332",
+    "C-211",
+    "C-212",
+    "C-213",
+    "C-215",
+    "C-214"
+  ]
+}

@@ -27,8 +27,8 @@
   "package": {
     "state": "pass",
     "zip": "FND-104-v1.0.0-scorm12.zip",
-    "bytes": 13533,
-    "sha256": "efb500531b3f296e90a4bb6553dfb6559eb6089e967230933605eb2114ab4efb",
+    "bytes": 13548,
+    "sha256": "dcfc10500d8e864dff99149bd8b40483f8baa2e17d0bd633bdd672d4bd51a33a",
     "findings": []
   },
   "runtime_qa": {

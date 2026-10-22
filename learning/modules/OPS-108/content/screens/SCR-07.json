@@ -1,0 +1,53 @@
+{
+  "id": "SCR-07",
+  "archetype": "A3",
+  "objective": "OBJ-03",
+  "eyebrow": "Post well",
+  "title": "Seven guidelines, one standard",
+  "table": {
+    "caption": "Gleaniverse Community Guidelines",
+    "head": [
+      "Guideline",
+      "What it means"
+    ],
+    "rows": [
+      [
+        "Look before you post",
+        "Search first; the question may already be answered"
+      ],
+      [
+        "Keep sensitive info out",
+        "Do not share confidential or personal data"
+      ],
+      [
+        "Keep it relevant",
+        "Glean and the broader AI industry; no spam, self-promotion, bots, or unsolicited outreach"
+      ],
+      [
+        "Be kind",
+        "Ask questions, share what you know, support each other"
+      ],
+      [
+        "Make it a safe space",
+        "No harassment, hate speech, or unwelcoming behavior"
+      ],
+      [
+        "Make it better",
+        "Share feedback and learnings often"
+      ],
+      [
+        "Build together",
+        "Jump into conversations and help others"
+      ]
+    ]
+  },
+  "footnote": "Glean may remove content or restrict access for guideline violations. Report anything that does not feel right to the Glean team.",
+  "claims": [
+    "C-306",
+    "C-307",
+    "C-308",
+    "C-309",
+    "C-310",
+    "C-311"
+  ]
+}

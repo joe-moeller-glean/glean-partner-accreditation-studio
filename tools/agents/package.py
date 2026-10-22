@@ -9,6 +9,7 @@ referenced local assets are shipped.
 """
 import hashlib
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -56,6 +57,23 @@ def normalize_zip(zpath: Path):
 
 
 
+ASSET_REF = re.compile(r"""assets/[A-Za-z0-9_./-]+\.(?:svg|png|jpe?g|webp|vtt|mp3|mp4)""")
+
+
+def referenced_assets(module_dir: Path):
+    """Every local asset the runtime files reference. Fails closed on a missing file,
+    so a module can never ship with a broken image or logo."""
+    refs = set()
+    for f in RUNTIME_FILES:
+        p = module_dir / f
+        if p.is_file() and p.suffix in {".html", ".css", ".js"}:
+            refs.update(ASSET_REF.findall(p.read_text(errors="ignore")))
+    missing = sorted(r for r in refs if not (module_dir / r).is_file())
+    if missing:
+        raise SystemExit(f"{module_dir.name}: referenced assets missing: {', '.join(missing)}")
+    return sorted(refs)
+
+
 def package(module_dir: Path):
     with tempfile.TemporaryDirectory() as tmp:
         stage = Path(tmp) / module_dir.name
@@ -65,9 +83,9 @@ def package(module_dir: Path):
             if not src.is_file():
                 raise SystemExit(f"{module_dir.name}: missing runtime file {f}")
             shutil.copy(src, stage / f)
-        svg_src = module_dir / "assets" / "svg"
-        if svg_src.is_dir() and any(svg_src.iterdir()):
-            shutil.copytree(svg_src, stage / "assets" / "svg")
+        for rel in referenced_assets(module_dir):
+            (stage / rel).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(module_dir / rel, stage / rel)
         pin_times(stage)
         r = subprocess.run([sys.executable, str(BUILD), "--module", str(stage),
                             "--output", str(DIST)], capture_output=True, text=True)

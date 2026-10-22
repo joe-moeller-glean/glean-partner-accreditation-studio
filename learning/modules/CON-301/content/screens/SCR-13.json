@@ -1,0 +1,37 @@
+{
+  "id": "SCR-13",
+  "archetype": "A13",
+  "objective": "OBJ-04",
+  "eyebrow": "Job aid",
+  "title": "Runbook skeleton",
+  "cards": [
+    {
+      "tag": "Health",
+      "title": "Daily health",
+      "body": "Exit status, documents_indexed trend, uploaded versus indexed, identity counts."
+    },
+    {
+      "tag": "Triage",
+      "title": "Triage",
+      "body": "Use the decision table: name the stage before you act."
+    },
+    {
+      "tag": "Recover",
+      "title": "Recover",
+      "body": "Fix the cause, then a verified full run; reprocess within its limit."
+    },
+    {
+      "tag": "Escalate",
+      "title": "Escalate",
+      "body": "Issue and error, endpoint and request body, connector name, timestamp with time zone."
+    }
+  ],
+  "claims": [
+    "C-165",
+    "C-204",
+    "C-322",
+    "C-202",
+    "C-079",
+    "C-078"
+  ]
+}

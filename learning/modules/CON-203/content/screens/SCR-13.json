@@ -1,0 +1,42 @@
+{
+  "id": "SCR-13",
+  "archetype": "A7",
+  "objective": "OBJ-06",
+  "eyebrow": "Debug toolkit",
+  "title": "Debug in this order",
+  "steps": [
+    {
+      "title": "Processed yet?",
+      "body": "New documents appear when processingHistory is later than bulkUploadHistory."
+    },
+    {
+      "title": "Users really indexed?",
+      "body": "UPLOAD COMPLETED means only that the API accepted the upload."
+    },
+    {
+      "title": "Flags right?",
+      "body": "Incorrect pagination flags can make a partial upload look complete."
+    },
+    {
+      "title": "Properties valid?",
+      "body": "Validation stops at the first invalid custom property. Fix and retry iteratively."
+    },
+    {
+      "title": "Reprocess",
+      "body": "/processalldocuments re-indexes without a new upload; for user or group problems, use /processallmemberships."
+    },
+    {
+      "title": "Escalate well",
+      "body": "Include the issue and error, the endpoint and request body, the connector name, and a timestamp with time zone."
+    }
+  ],
+  "claims": [
+    "C-070",
+    "C-072",
+    "C-074",
+    "C-077",
+    "C-075",
+    "C-076",
+    "C-078"
+  ]
+}

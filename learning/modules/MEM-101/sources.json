@@ -1,0 +1,70 @@
+{
+  "module_id": "MEM-101",
+  "sources": [
+    {
+      "source_id": "P-01",
+      "title": "PowerUP (9/3) - Memory at Glean: From Personalization to Cross-Surface Context",
+      "url": "https://docs.google.com/presentation/d/1pve-ma6azTI95gaqcFHWXgT0uOwpYr4WOiggeD5wkzI",
+      "owner": "Glean Technical Enablement",
+      "datasource": "gdrive",
+      "verified_on": "2026-09-25",
+      "authority_tier": 1,
+      "status": "current",
+      "type": "technical_enablement_deck",
+      "notes": "Primary source for the September 3, 2026 Memory PowerUP: foundations, memory taxonomy, Engram write/read paths, user control, cross-surface positioning, roadmap, and availability caveats.",
+      "reverify_by": "2026-12-25"
+    },
+    {
+      "source_id": "D-01",
+      "title": "Memory",
+      "url": "https://docs.glean.com/agents/concepts/memory",
+      "owner": "Glean Product Documentation",
+      "datasource": "glean help docs",
+      "verified_on": "2026-09-25",
+      "authority_tier": 1,
+      "status": "current",
+      "type": "product_documentation",
+      "notes": "Current product documentation for Memory building blocks, use by agents, and how search results and documents are added to memory.",
+      "reverify_by": "2026-12-25"
+    },
+    {
+      "source_id": "D-02",
+      "title": "Create a more powerful agent",
+      "url": "https://docs.glean.com/agents/create-powerful-agent",
+      "owner": "Glean Product Documentation",
+      "datasource": "glean help docs",
+      "verified_on": "2026-09-25",
+      "authority_tier": 1,
+      "status": "current",
+      "type": "product_documentation",
+      "notes": "Current guidance for constructing agents, including memory management and when data is provided, read, or determined at run time.",
+      "reverify_by": "2026-12-25"
+    },
+    {
+      "source_id": "P-02",
+      "title": "SE/SA/Support Technical Training and Enablement Sessions",
+      "url": "https://docs.google.com/document/d/1kIKxVQClemsTJhp1inoddrowUjo74D0Ey2WrIdNHSt8",
+      "owner": "Glean Technical Enablement",
+      "datasource": "gdrive",
+      "verified_on": "2026-09-25",
+      "authority_tier": 2,
+      "status": "current",
+      "type": "session_catalog",
+      "notes": "Confirms the September 3, 2026 Memory in Glean session and links the associated recording.",
+      "reverify_by": "2026-12-25"
+    },
+    {
+      "source_id": "P-03",
+      "title": "PowerUP Technical Enablement collection",
+      "url": "https://app.glean.com/library/projects/2991",
+      "owner": "Glean Technical Enablement",
+      "datasource": "collections",
+      "verified_on": "2026-09-25",
+      "authority_tier": 2,
+      "status": "current",
+      "type": "internal_collection",
+      "notes": "Collection context for the technical training series. Used for provenance only, not as the authority for product behavior.",
+      "reverify_by": "2026-12-25"
+    }
+  ]
+}

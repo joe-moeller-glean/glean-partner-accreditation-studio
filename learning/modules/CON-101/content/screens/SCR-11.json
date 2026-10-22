@@ -1,0 +1,62 @@
+{
+  "id": "SCR-11",
+  "archetype": "A9",
+  "objective": "OBJ-05",
+  "eyebrow": "Practice",
+  "title": "Classify the seven requests",
+  "prompt": "Place each request in the approach that fits it.",
+  "type": "sort",
+  "categories": [
+    "Custom indexed connector",
+    "Native connector plus Custom Metadata",
+    "Live action or MCP, not indexing"
+  ],
+  "pairs": [
+    {
+      "item": "Policy wiki: in-house, 38,400 pages, REST API with per-page read groups; staff want cited answers.",
+      "category": "Custom indexed connector",
+      "why": "No native connector, document-like content, and permissions available through the API."
+    },
+    {
+      "item": "Vendor learning system: no native connector, 12,000 courses, enrollment-based visibility, offset pagination.",
+      "category": "Custom indexed connector",
+      "why": "Document-like content with no native option. Flag offset pagination: it is unstable while the source is being written to."
+    },
+    {
+      "item": "Reference archive: no API, but a nightly HTML export with a file listing read groups.",
+      "category": "Custom indexed connector",
+      "why": "Scoping covers the no-API case: can the source export content to external storage?"
+    },
+    {
+      "item": "Drive team wants a Clinic ID filter on files the native Drive connector already indexes.",
+      "category": "Native connector plus Custom Metadata",
+      "why": "Use the existing connector first. Custom Metadata attaches to native documents without re-indexing."
+    },
+    {
+      "item": "Claims warehouse: 410 million rows; analysts ask for denial rates by payer.",
+      "category": "Live action or MCP, not indexing",
+      "why": "For large structured data lakes, query with a custom action or MCP server."
+    },
+    {
+      "item": "Facility telemetry: freezer temperatures every 10 seconds.",
+      "category": "Live action or MCP, not indexing",
+      "why": "Glean is not a data analytics platform for time series or sensor data."
+    },
+    {
+      "item": "Bed board: availability changes every few minutes; nurses place holds.",
+      "category": "Live action or MCP, not indexing",
+      "why": "Freshness dominates and an action is required."
+    }
+  ],
+  "takeaway": "Three of seven need a custom connector. The other four are better served another way.",
+  "claims": [
+    "C-040",
+    "C-190",
+    "C-253",
+    "C-035",
+    "C-100",
+    "C-033",
+    "C-034",
+    "C-022"
+  ]
+}

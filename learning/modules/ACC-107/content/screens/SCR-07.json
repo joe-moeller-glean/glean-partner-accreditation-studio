@@ -1,0 +1,31 @@
+{
+  "id": "SCR-07",
+  "archetype": "A6",
+  "objective": "OBJ-02",
+  "eyebrow": "Decision",
+  "title": "A gap in the portfolio",
+  "type": "choice",
+  "prompt": "Your portfolio is complete except for one item: no architecture review with a Glean technical resource has happened. What do you do?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Submit now; reviewers can do the review during the audit.",
+      "feedback": "The review is a requirement, not an audit step to defer."
+    },
+    {
+      "id": "o3",
+      "text": "Replace it with a self-review against the rubric.",
+      "feedback": "Self-review is good preparation, but it does not replace the required review."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "Schedule the architecture review, then submit.",
+      "feedback": "Right. The competency requires a custom connector architecture review with a Glean technical resource."
+    }
+  ],
+  "takeaway": "Close every requirement before you submit.",
+  "claims": [
+    "C-269"
+  ]
+}

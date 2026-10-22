@@ -1,0 +1,39 @@
+{
+  "id": "SCR-08",
+  "archetype": "A5",
+  "objective": "OBJ-03",
+  "eyebrow": "Match the path to the data",
+  "title": "What each path is for",
+  "table": {
+    "caption": "Documented fit for each access path",
+    "head": [
+      "Path",
+      "Best for",
+      "Permissions"
+    ],
+    "rows": [
+      [
+        "Indexed",
+        "Docs, wikis, tickets, knowledge articles, code, and other bulk corpora; historical or cross-document questions",
+        "The snapshot mirrored during crawling and incremental updates"
+      ],
+      [
+        "Live",
+        "Email, calendar, chat, or data where minutes-to-hours freshness dominates, or where full indexing is impractical",
+        "Some connectors require each user to authenticate first"
+      ],
+      [
+        "Hybrid",
+        "Recall from the index plus current state or actions at request time",
+        "Example: NetSuite MCP uses each user's own credentials and role"
+      ]
+    ]
+  },
+  "claims": [
+    "C-021",
+    "C-022",
+    "C-013",
+    "C-014",
+    "C-030"
+  ]
+}

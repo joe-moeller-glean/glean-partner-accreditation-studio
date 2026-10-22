@@ -1,0 +1,16 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Keep it correct for years",
+  "bullets": [
+    "Operate hosted or self-hosted connectors correctly.",
+    "Deploy and verify rollouts by document status.",
+    "Alert on partial crawls, identity lag, and drift.",
+    "Diagnose and recover without making it worse.",
+    "Migrate from a native connector without a gap.",
+    "Write documentation and a maintenance plan the customer approves."
+  ],
+  "claims": []
+}

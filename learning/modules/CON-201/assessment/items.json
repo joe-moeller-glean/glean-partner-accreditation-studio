@@ -1,0 +1,335 @@
+{
+  "module_id": "CON-201",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-02",
+      "stem": "The Indexing API returns success for a document upload. What does that prove?",
+      "options": [
+        {
+          "id": "b",
+          "text": "The document is searchable for all permitted users"
+        },
+        {
+          "id": "a",
+          "text": "The request was accepted; the document is not yet searchable"
+        },
+        {
+          "id": "c",
+          "text": "Permissions for the document have been evaluated"
+        },
+        {
+          "id": "d",
+          "text": "The document has been added to the graph"
+        }
+      ],
+      "claims": [
+        "C-160",
+        "C-110",
+        "C-116"
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-02",
+      "stem": "When do newly uploaded documents become available in search results?",
+      "options": [
+        {
+          "id": "a",
+          "text": "When processingHistory is later than bulkUploadHistory"
+        },
+        {
+          "id": "b",
+          "text": "As soon as the last page of the upload is accepted"
+        },
+        {
+          "id": "c",
+          "text": "Exactly 15 minutes after the upload"
+        },
+        {
+          "id": "d",
+          "text": "After the next four-week native re-crawl"
+        }
+      ],
+      "claims": [
+        "C-070",
+        "C-104",
+        "C-231"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-03",
+      "stem": "A successful bulk upload includes 38,000 of the 38,400 pages previously indexed. What happens to the other 400?",
+      "options": [
+        {
+          "id": "b",
+          "text": "They stay, because bulk uploads only add documents"
+        },
+        {
+          "id": "c",
+          "text": "They stay for 7 days and are then deleted"
+        },
+        {
+          "id": "d",
+          "text": "The upload is rejected until they are included"
+        },
+        {
+          "id": "a",
+          "text": "They are deleted asynchronously after the upload"
+        }
+      ],
+      "claims": [
+        "C-101",
+        "C-107"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-03",
+      "stem": "Which statement about the stale-deletion safeguard is accurate?",
+      "options": [
+        {
+          "id": "b",
+          "text": "It verifies that each full crawl fetched the whole source"
+        },
+        {
+          "id": "c",
+          "text": "It prevents bulk uploads from deleting anything"
+        },
+        {
+          "id": "a",
+          "text": "Above 20% stale, deletion of those documents pauses for 7 days"
+        },
+        {
+          "id": "d",
+          "text": "It needs a support ticket to release paused deletions"
+        }
+      ],
+      "claims": [
+        "C-107",
+        "C-170",
+        "C-108"
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "The previous bulk upload failed midway. What must the next bulk upload do?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Reuse the failed upload's uploadId to resume"
+        },
+        {
+          "id": "a",
+          "text": "Set forceRestartUpload, or the request fails"
+        },
+        {
+          "id": "c",
+          "text": "Run concurrently with a cleanup upload"
+        },
+        {
+          "id": "d",
+          "text": "Wait for the four-week re-crawl to clear it"
+        }
+      ],
+      "claims": [
+        "C-106",
+        "C-109",
+        "C-105"
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-01",
+      "stem": "A burst of 50,000 group-membership changes arrives just before a set of document updates. Why might the documents appear late?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Permissions and documents share one backend queue"
+        },
+        {
+          "id": "b",
+          "text": "Documents always wait for the next full run"
+        },
+        {
+          "id": "c",
+          "text": "Membership changes lock the datasource for 24 hours"
+        },
+        {
+          "id": "d",
+          "text": "Glean processes memberships only at night"
+        }
+      ],
+      "claims": [
+        "C-232"
+      ]
+    },
+    {
+      "id": "Q-07",
+      "objective_id": "OBJ-04",
+      "stem": "A document has allowAnonymousAccess set to true. Who can see it in search?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Only users indexed for that datasource"
+        },
+        {
+          "id": "c",
+          "text": "Anyone on the public internet"
+        },
+        {
+          "id": "d",
+          "text": "No one until groups are assigned"
+        },
+        {
+          "id": "a",
+          "text": "Anyone who is signed into Glean"
+        }
+      ],
+      "claims": [
+        "C-117",
+        "C-071"
+      ]
+    },
+    {
+      "id": "Q-08",
+      "objective_id": "OBJ-04",
+      "stem": "You index a user for the datasource, but no document ACL names the user or any of the user's groups. What can the user now find?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Every document in the datasource"
+        },
+        {
+          "id": "c",
+          "text": "Documents shared with the user's source groups, automatically"
+        },
+        {
+          "id": "a",
+          "text": "Nothing new; indexing a user grants no document access"
+        },
+        {
+          "id": "d",
+          "text": "Documents from other datasources, newly unlocked"
+        }
+      ],
+      "claims": [
+        "C-112",
+        "C-114"
+      ]
+    },
+    {
+      "id": "Q-09",
+      "objective_id": "OBJ-04",
+      "stem": "A test datasource returns nothing for a user on its beta list. What is the most likely cause?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Test datasources never show documents"
+        },
+        {
+          "id": "a",
+          "text": "The user lacks permission on the documents themselves"
+        },
+        {
+          "id": "c",
+          "text": "Ranking signals are off, which hides results"
+        },
+        {
+          "id": "d",
+          "text": "The datasource needs activity data first"
+        }
+      ],
+      "claims": [
+        "C-124",
+        "C-123"
+      ]
+    },
+    {
+      "id": "Q-10",
+      "objective_id": "OBJ-05",
+      "stem": "A page appeared in search yesterday and disappeared after last night's full run. What do you check first?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Whether the full run fetched and uploaded that page"
+        },
+        {
+          "id": "b",
+          "text": "Whether the page's viewURL changed"
+        },
+        {
+          "id": "c",
+          "text": "Whether activity data stopped arriving"
+        },
+        {
+          "id": "d",
+          "text": "Whether the Client API token expired"
+        }
+      ],
+      "claims": [
+        "C-203",
+        "C-101"
+      ]
+    },
+    {
+      "id": "Q-11",
+      "objective_id": "OBJ-01",
+      "stem": "A scanned policy PDF is 91 MB. What can users do with it in Glean?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Search its full text, truncated at 16.875 MB"
+        },
+        {
+          "id": "c",
+          "text": "Nothing; files over 64 MB are rejected"
+        },
+        {
+          "id": "d",
+          "text": "Ask Assistant to summarize all of it"
+        },
+        {
+          "id": "a",
+          "text": "Find it by metadata; its content cannot ground an answer"
+        }
+      ],
+      "claims": [
+        "C-090",
+        "C-091",
+        "C-241"
+      ]
+    },
+    {
+      "id": "Q-12",
+      "objective_id": "OBJ-05",
+      "stem": "Before rolling a new connector out to Assistant, where should the admin validate coverage and permissions?",
+      "options": [
+        {
+          "id": "b",
+          "text": "In the upload response logs"
+        },
+        {
+          "id": "c",
+          "text": "In Assistant's answers alone"
+        },
+        {
+          "id": "a",
+          "text": "In Search, as users with different permissions"
+        },
+        {
+          "id": "d",
+          "text": "In the count of indexed documents"
+        }
+      ],
+      "claims": [
+        "C-024",
+        "C-199",
+        "C-200"
+      ]
+    }
+  ]
+}

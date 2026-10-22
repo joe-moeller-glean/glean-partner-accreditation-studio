@@ -1,0 +1,23 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "Datasource",
+  "title": "Configure the datasource deliberately",
+  "bullets": [
+    "Choose the permissions model at setup: per-document ACLs, or visible to everyone in the organization.",
+    "urlRegex must be neither too broad, capturing other datasources' URLs, nor too narrow.",
+    "Set isUserReferencedByEmail to true to reference users by email.",
+    "Choose the category deliberately: the right type enables enhanced ranking.",
+    "The datasource must be enabled for search. A test datasource shows results only to beta users with permissions, and turns ranking signals off."
+  ],
+  "claims": [
+    "C-048",
+    "C-119",
+    "C-118",
+    "C-121",
+    "C-103",
+    "C-124",
+    "C-123"
+  ]
+}

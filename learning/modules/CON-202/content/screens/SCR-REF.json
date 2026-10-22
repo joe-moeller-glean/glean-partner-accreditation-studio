@@ -1,0 +1,94 @@
+{
+  "id": "SCR-REF",
+  "archetype": "A11",
+  "objective": "OBJ-01",
+  "eyebrow": "Sources",
+  "title": "Where every fact on these screens comes from",
+  "body": "Each screen lists claim ids such as C-006. This table maps each id to the document it was verified against on 2026-09-26. Current Glean product and developer documentation is the authority for product behavior.",
+  "table": {
+    "caption": "Claim ids by source",
+    "head": [
+      "Source",
+      "Where to find it",
+      "Claim ids"
+    ],
+    "rows": [
+      [
+        "About connectors",
+        "Glean Docs (docs.glean.com)",
+        "C-006"
+      ],
+      [
+        "How connectors power the Glean experience",
+        "Glean Docs (docs.glean.com)",
+        "C-021"
+      ],
+      [
+        "Overview of custom data source",
+        "Glean Docs (docs.glean.com)",
+        "C-040, C-042"
+      ],
+      [
+        "Choose a deployment model",
+        "Glean Docs (docs.glean.com)",
+        "C-044, C-045, C-046, C-047"
+      ],
+      [
+        "Crawl and index limits",
+        "Glean Docs (docs.glean.com)",
+        "C-090"
+      ],
+      [
+        "Permissions (Indexing API guide)",
+        "Glean Developer docs (developers.glean.com)",
+        "C-111, C-116"
+      ],
+      [
+        "Setup Datasource",
+        "Glean Developer docs (developers.glean.com)",
+        "C-118"
+      ],
+      [
+        "Indexing SDK — Indexing modes",
+        "Glean Developer docs (developers.glean.com)",
+        "C-170, C-175, C-176"
+      ],
+      [
+        "Indexing SDK — Permissions",
+        "Glean Developer docs (developers.glean.com)",
+        "C-195, C-197, C-198"
+      ],
+      [
+        "Indexing SDK — Connector types",
+        "Glean Developer docs (developers.glean.com)",
+        "C-169"
+      ],
+      [
+        "Indexing SDK — Rate limiting",
+        "Glean Developer docs (developers.glean.com)",
+        "C-193, C-194"
+      ],
+      [
+        "Indexing SDK — Overview",
+        "Glean Developer docs (developers.glean.com)",
+        "C-154"
+      ],
+      [
+        "Rate Limits and Retries",
+        "Glean Developer docs (developers.glean.com)",
+        "C-137, C-138, C-139"
+      ],
+      [
+        "Glean Partner Content | Custom Connector Best Practices (deck, April 2026)",
+        "Glean partner document (ask your Partner Manager for access)",
+        "C-035, C-135, C-136, C-238, C-240, C-241"
+      ],
+      [
+        "[External] Glean Partner Content | Custom Connector Questionnaire",
+        "Glean partner document (ask your Partner Manager for access)",
+        "C-250, C-251, C-252, C-253, C-254, C-255, C-256, C-257"
+      ]
+    ]
+  },
+  "claims": []
+}

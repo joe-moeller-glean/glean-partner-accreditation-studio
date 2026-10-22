@@ -1,0 +1,245 @@
+{
+  "module_id": "TEC-201",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-02",
+      "stem": "Which authentication does the Indexing API accept?",
+      "options": [
+        {
+          "id": "b",
+          "text": "OAuth tokens from the customer's identity provider"
+        },
+        {
+          "id": "a",
+          "text": "Glean-issued Indexing API tokens only"
+        },
+        {
+          "id": "c",
+          "text": "A Client API token with any scope"
+        },
+        {
+          "id": "d",
+          "text": "The source system's service-account token"
+        }
+      ],
+      "claims": [
+        "C-052"
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-02",
+      "stem": "What is the minimum rotation period for an Indexing API token?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1440 minutes (24 hours)"
+        },
+        {
+          "id": "b",
+          "text": "60 minutes"
+        },
+        {
+          "id": "c",
+          "text": "There is no rotation; tokens never expire"
+        },
+        {
+          "id": "d",
+          "text": "90 days, fixed"
+        }
+      ],
+      "claims": [
+        "C-053",
+        "C-054"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "Who can grant an Indexing API token global scope?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Any Admin or Setup Admin"
+        },
+        {
+          "id": "c",
+          "text": "The partner building the connector"
+        },
+        {
+          "id": "d",
+          "text": "Glean Support, on request"
+        },
+        {
+          "id": "a",
+          "text": "Only Super Admins"
+        }
+      ],
+      "claims": [
+        "C-056"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "The admin creates the token and closes the dialog before anyone copies it. What now?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Reopen the token page to copy the value"
+        },
+        {
+          "id": "c",
+          "text": "Reuse the production token for now"
+        },
+        {
+          "id": "a",
+          "text": "Create a new token; the value is shown only once"
+        },
+        {
+          "id": "d",
+          "text": "Ask Glean Support to read the value back"
+        }
+      ],
+      "claims": [
+        "C-055",
+        "C-057"
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-04",
+      "stem": "Why index one public document before one permissioned document?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Public documents index faster than permissioned ones"
+        },
+        {
+          "id": "a",
+          "text": "If the public one appears and the other does not, the fault is in permissions"
+        },
+        {
+          "id": "c",
+          "text": "Glean requires a public document in every datasource"
+        },
+        {
+          "id": "d",
+          "text": "It sets the datasource category automatically"
+        }
+      ],
+      "claims": [
+        "C-049"
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-01",
+      "stem": "You plan to judge result ranking on a test datasource. What should you know?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All ranking signals are off in a test datasource"
+        },
+        {
+          "id": "b",
+          "text": "Ranking in a test datasource matches production"
+        },
+        {
+          "id": "c",
+          "text": "Test datasources rank beta users' documents first"
+        },
+        {
+          "id": "d",
+          "text": "Beta users see every document regardless of ACLs"
+        }
+      ],
+      "claims": [
+        "C-123",
+        "C-124"
+      ]
+    },
+    {
+      "id": "Q-07",
+      "objective_id": "OBJ-03",
+      "stem": "A self-hosted connector cannot upload. Which network condition is required?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Glean must be able to connect into the source network"
+        },
+        {
+          "id": "c",
+          "text": "The source API must be exposed to the public internet"
+        },
+        {
+          "id": "d",
+          "text": "A VPN between the partner office and Glean"
+        },
+        {
+          "id": "a",
+          "text": "The environment must allow pushes to Glean's indexing endpoints"
+        }
+      ],
+      "claims": [
+        "C-046",
+        "C-047"
+      ]
+    },
+    {
+      "id": "Q-08",
+      "objective_id": "OBJ-01",
+      "stem": "The urlRegex also matches URLs from another datasource. What is the risk?",
+      "options": [
+        {
+          "id": "b",
+          "text": "None; a broad regex is safer"
+        },
+        {
+          "id": "c",
+          "text": "It disables permissions on the datasource"
+        },
+        {
+          "id": "a",
+          "text": "It is too broad and captures URLs that belong to other datasources"
+        },
+        {
+          "id": "d",
+          "text": "It changes the datasource category"
+        }
+      ],
+      "claims": [
+        "C-119"
+      ]
+    },
+    {
+      "id": "Q-09",
+      "objective_id": "OBJ-03",
+      "stem": "Which source access best meets the readiness gate?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Admin keys so the connector never lacks access"
+        },
+        {
+          "id": "a",
+          "text": "Read-only keys plus a current sandbox to validate against"
+        },
+        {
+          "id": "c",
+          "text": "Production access only; sandboxes are optional"
+        },
+        {
+          "id": "d",
+          "text": "Shared credentials from the source owner's account"
+        }
+      ],
+      "claims": [
+        "C-251",
+        "C-254"
+      ]
+    }
+  ]
+}

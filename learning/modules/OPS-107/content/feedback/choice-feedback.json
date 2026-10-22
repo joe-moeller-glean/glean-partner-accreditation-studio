@@ -1,0 +1,14 @@
+{
+  "module_id": "OPS-107",
+  "feedback": {
+    "SCR-09:o2": "Not this one. Urgent is for a complete outage, such as the Service unavailable to all users, or a security incident.",
+    "SCR-09:o3": "Not this one. Low is for non-critical questions. Broken connected applications affect how people use the product.",
+    "SCR-09:o1": "Correct. The SLA lists a new Service release that materially harms existing connected applications as a High example.",
+    "SCR-11:o2": "Not this one. Response times cannot be tracked accurately outside the support portal, so the clock does not start.",
+    "SCR-11:o1": "Correct. Only portal incidents are SLA-eligible. A complete Urgent ticket for a full outage starts the tracked response, and the ticket stays the system of record.",
+    "SCR-11:o3": "Not this one. The outage is Urgent by definition. Duplicate tickets and incorrect priority slow triage for everyone.",
+    "SCR-12:o1": "Correct. The banner appears in the Messages and Tickets sections. The portal recognizes identity only through the authenticated Gleaniverse path.",
+    "SCR-12:o2": "Not this one. The portal will not recognize the user's identity unless they arrive through the support widget.",
+    "SCR-12:o3": "Not this one. Company-wide history is available directly in the customer portal."
+  }
+}

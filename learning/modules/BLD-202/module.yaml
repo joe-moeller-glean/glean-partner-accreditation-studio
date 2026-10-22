@@ -1,0 +1,29 @@
+module_id: BLD-202
+title: "Custom Connector Implementation Lab"
+design_system: paged-v1
+learning_path: "Builder Path; Custom Connector Competency"
+request_type: single
+audience: ["Builders", "Architects"]
+level: 300
+learning_outcomes:
+  - "Deliver a connector that indexes users, permissions, and documents, updates automatically, and retries with backoff."
+  - "Prove allowed and denied visibility for every persona."
+  - "Prove update, delete, rename, and permission-only change propagation."
+  - "Prove the connector refuses to finish a partial full crawl and recovers from throttling and token expiry."
+  - "Produce a reconciliation report and a handoff package someone else can maintain."
+prerequisites: ["BLD-201", "CON-203", "CON-204", "TEC-201"]
+target_hours: 5.0
+tracker_hours: 2.5
+mastery_score: 80
+assessment_type: "Self-check quiz + assessor-scored lab (outside the package)"
+wave: Wave 2
+accreditation: accred-custom-connectors
+also_counts_toward: ["accred-builder"]
+authoring_contract: "plan/modules/BLD-202.md + plan/custom-connectors/BLD-202-implementation-lab-refresh.md"
+source_ledger: plan/custom-connectors/claims.json (verified verbatim; learner-facing claims only)
+sme: "unassigned - needs_sme"
+publish_mode: manual_review
+open_questions:
+  - "Tracker duration is 2.5 h at level 200; this build is 5.0 h at level 300 (approval OD-3)."
+  - "Release blocker OD-5: the lab kit (mock policy wiki API with fault switches, disposable test datasources, persona accounts) does not exist yet."
+  - "Assessor rubric weights are studio-authored and must be calibrated with two reviewers before first use."

@@ -1,0 +1,33 @@
+{
+  "id": "SCR-12",
+  "archetype": "A7",
+  "objective": "OBJ-06",
+  "eyebrow": "Testing",
+  "title": "Three phases, one change each",
+  "steps": [
+    {
+      "title": "Mock",
+      "body": "Glean mocked; your source clients unchanged. Does transform produce the right documents?"
+    },
+    {
+      "title": "Integration",
+      "body": "Real source, recorded and replayed; Glean still mocked. It rejects missing permissions, anonymous access, and all-datasource-users access, because they prevent proving denial."
+    },
+    {
+      "title": "Live",
+      "body": "A disposable datasource, with --allow-destructive-live."
+    },
+    {
+      "title": "Prove denial",
+      "body": "Counting indexed documents proves nothing about permissions. The search result is the ground truth."
+    }
+  ],
+  "asset": "CON-204-A02",
+  "claims": [
+    "C-155",
+    "C-319",
+    "C-206",
+    "C-199",
+    "C-200"
+  ]
+}

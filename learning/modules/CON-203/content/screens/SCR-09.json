@@ -1,0 +1,27 @@
+{
+  "id": "SCR-09",
+  "archetype": "A5",
+  "objective": "OBJ-05",
+  "eyebrow": "Properties or metadata",
+  "title": "Two ways to add fields",
+  "asset": "CON-203-A02",
+  "bullets": [
+    "INT properties are not faceted.",
+    "DATE properties are faceted only when the value is an epoch timestamp in seconds.",
+    "To show a property in search results, contact Glean support.",
+    "A property named country is used as a location ranking signal.",
+    "Custom property validation stops at the first invalid property."
+  ],
+  "claims": [
+    "C-125",
+    "C-130",
+    "C-132",
+    "C-100",
+    "C-131",
+    "C-126",
+    "C-127",
+    "C-128",
+    "C-129",
+    "C-077"
+  ]
+}

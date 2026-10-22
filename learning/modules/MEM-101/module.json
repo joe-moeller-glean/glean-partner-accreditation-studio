@@ -1,0 +1,13 @@
+{
+  "module_id": "MEM-101",
+  "title": "Memory in Glean: From Personalization to Cross-Surface Context",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "level": "100",
+  "target_hours": 0.7,
+  "assessment_type": "Quiz",
+  "design_system": "scroll-canvas-v1",
+  "delivery": "single-page-scroll"
+}

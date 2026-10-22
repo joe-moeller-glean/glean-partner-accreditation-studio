@@ -1,0 +1,39 @@
+{
+  "id": "SCR-08",
+  "archetype": "A8",
+  "objective": "OBJ-04",
+  "eyebrow": "Incident walkthrough",
+  "title": "Day 45, reconstructed",
+  "steps": [
+    {
+      "title": "01:14",
+      "body": "The source token expired during the nightly full run. The data client swallowed the 401 inside its paging loop."
+    },
+    {
+      "title": "Result",
+      "body": "35,300 of 38,400 pages fetched; the run succeeded. 3,100 pages, about 8%, were deleted as stale: under the 20% threshold."
+    },
+    {
+      "title": "Day 47",
+      "body": "A manual full run carried a max_items cap left from local testing. It omitted about 90% of pages, so deletion of that upload's stale pages paused for 7 days."
+    },
+    {
+      "title": "Side effect",
+      "body": "Pages truly deleted in the source waited in search, because this design deleted them only through full runs."
+    },
+    {
+      "title": "Missing alert",
+      "body": "Nothing watched for a sharp drop in documents_indexed."
+    }
+  ],
+  "footnote": "Fictional incident. Each cause is one the SDK documentation names for partial full crawls.",
+  "claims": [
+    "C-331",
+    "C-328",
+    "C-327",
+    "C-326",
+    "C-101",
+    "C-107",
+    "C-204"
+  ]
+}

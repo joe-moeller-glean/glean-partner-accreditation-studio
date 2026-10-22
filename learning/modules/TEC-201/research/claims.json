@@ -1,0 +1,293 @@
+{
+  "module_id": "TEC-201",
+  "claims": [
+    {
+      "claim_id": "C-103",
+      "text": "The datasource must be enabled for search.",
+      "excerpt": "For the indexed document to show up in Glean UI, the datasource must be enabled for search.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-054",
+      "text": "Indexing tokens require an expiry date.",
+      "excerpt": "An expiration date is required.",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-251",
+      "text": "Prefer read-only keys.",
+      "excerpt": "read-only keys are preferred if supported for Content+Permission+Activity data",
+      "source_ids": [
+        "S-45"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-046",
+      "text": "Self-hosted networking must allow pushes to Glean indexing endpoints.",
+      "excerpt": "Your environment must allow pushes to Glean's indexing endpoints.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-049",
+      "text": "First-run: one public, then one permissioned document, then scale.",
+      "excerpt": "Index a single public sample document and confirm it appears in search. Then index one permissioned document and confirm only authorized users can see it. Once both behave correctly, scale up.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-048",
+      "text": "Choose the permissions model at setup.",
+      "excerpt": "Permissions model - whether documents are permission-aware (per-user ACLs pushed with each document) or visible to everyone in the org.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-119",
+      "text": "urlRegex must be neither too broad nor too narrow.",
+      "excerpt": "Avoid regexes that are too broad, and will capture URLs from other datasources, or regexes that are too narrow",
+      "source_ids": [
+        "S-18"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-118",
+      "text": "isUserReferencedByEmail decides email vs ID references.",
+      "excerpt": "This should be set to true if you want to refer to user identities using emails directly.",
+      "source_ids": [
+        "S-18"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-121",
+      "text": "Datasource category affects ranking.",
+      "excerpt": "Choosing the appropriate type enables enhanced ranking.",
+      "source_ids": [
+        "S-40"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-124",
+      "text": "Beta users still need document permissions.",
+      "excerpt": "For a document to be visible to beta users, they must also have appropriate permissions to view it.",
+      "source_ids": [
+        "S-38"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-123",
+      "text": "Test datasources have ranking signals off.",
+      "excerpt": "All ranking signals are turned off from a test datasource.",
+      "source_ids": [
+        "S-38"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-052",
+      "text": "Indexing API accepts only Glean-issued tokens.",
+      "excerpt": "The Indexing API only supports Glean-issued tokens - OAuth authentication is not available.",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-053",
+      "text": "Minimum token rotation period is 1440 minutes.",
+      "excerpt": "Minimum rotation period: 1440 minutes (24 hours)",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-238",
+      "text": "Automate token rotation.",
+      "excerpt": "Automated indexing token rotation",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-056",
+      "text": "Only Super Admins can grant global indexing scope.",
+      "excerpt": "Setup Admins, Admins, and Super Admins can create Indexing API tokens (only Super Admins can grant global scope).",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-059",
+      "text": "IP restrictions limit tokens to known infrastructure.",
+      "excerpt": "Restrict API access to known infrastructure",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-060",
+      "text": "Indexing tokens support IP range restrictions.",
+      "excerpt": "IP range restrictions for requests",
+      "source_ids": [
+        "S-06"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-055",
+      "text": "The token value is shown once.",
+      "excerpt": "The token is only displayed once after creation.",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-057",
+      "text": "Use separate tokens per environment.",
+      "excerpt": "Create separate tokens for different environments (dev/staging/prod)",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-254",
+      "text": "Ask for a sandbox.",
+      "excerpt": "Is there a Dev/Test/Sandbox environment against which connector development can be tested/validated?",
+      "source_ids": [
+        "S-45"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-256",
+      "text": "Ask whether the API URL is static.",
+      "excerpt": "Will the API URL stay static?",
+      "source_ids": [
+        "S-45"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-045",
+      "text": "Choose hosting before building.",
+      "excerpt": "Choose where it runs before you build, because it determines how secrets, scheduling, and networking are handled.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-199",
+      "text": "Counts prove nothing about permissions.",
+      "excerpt": "Counting indexed documents proves nothing about permissions.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-047",
+      "text": "Self-host when residency, isolation, or policy requires it.",
+      "excerpt": "Choose this when data-residency, network isolation, or internal security policies require the connector to run inside your infrastructure.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "module_id": "OPS-107",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "Who can create a Glean support ticket directly?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Any user with a Gleaniverse account."
+        },
+        {
+          "id": "a",
+          "text": "Designated Support Contacts, as defined in the Glean Support Agreement."
+        },
+        {
+          "id": "c",
+          "text": "Anyone who emails help@glean.com."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-01",
+      "stem": "A user who is not a Designated Support Contact finds a bug they can reproduce. What is the documented next step?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Post the full error log in the community forum."
+        },
+        {
+          "id": "c",
+          "text": "Wait for the next monthly product update."
+        },
+        {
+          "id": "a",
+          "text": "Start a conversation, or ask their Glean administrator to submit a ticket."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "Which ticket detail lets support correlate the issue with system logs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The date and time the issue occurred, with the timezone."
+        },
+        {
+          "id": "b",
+          "text": "The name of the customer's executive sponsor."
+        },
+        {
+          "id": "c",
+          "text": "A note asking support to raise the priority."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "The Service is unavailable to a subset of users. Which priority does the SLA example match?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Urgent priority, because any outage is critical."
+        },
+        {
+          "id": "c",
+          "text": "Low priority, because most users can still work."
+        },
+        {
+          "id": "a",
+          "text": "High priority, because only some users lose the Service."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "Which incidents are eligible for SLA response times?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Any incident raised by email, chat, or phone."
+        },
+        {
+          "id": "a",
+          "text": "Only incidents submitted through the Glean support portal."
+        },
+        {
+          "id": "c",
+          "text": "Only incidents raised by the partner."
+        }
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-03",
+      "stem": "A Designated Support Contact cannot see the Tickets section in the support widget. What is the most likely reason?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They have not created a ticket yet. The section appears after the first ticket."
+        },
+        {
+          "id": "b",
+          "text": "They must go directly to ticket.glean.com."
+        },
+        {
+          "id": "c",
+          "text": "Tickets are only visible to Glean employees."
+        }
+      ]
+    }
+  ]
+}

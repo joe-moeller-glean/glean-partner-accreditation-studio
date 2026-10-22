@@ -1,0 +1,199 @@
+{
+  "module_id": "CON-203",
+  "checked_on": "2026-09-27",
+  "state": "pass",
+  "claim_count": 65,
+  "source_count": 25,
+  "verification": "Every claim excerpt matched verbatim against saved source text by plan/custom-connectors/tools/build_ledger.py.",
+  "unsourced_claims": [],
+  "internal_claims_in_module": [],
+  "verdicts": {
+    "verified": 65,
+    "unsupported": 0,
+    "stale": 0,
+    "conflicted": 0
+  },
+  "studio_guidance_disclosed": [],
+  "open_questions": [
+    "U-203-1: canonical wire type for document timestamps in the raw API; the module teaches epoch seconds, as the SDK requires.",
+    "U-203-2: rate limits for bulk, delete, and permission-update endpoints are not in the reviewed sources; the module states only documented limits.",
+    "Lab fixture (OD-5): the policy wiki mock API and disposable test datasources must exist before learners run the lab."
+  ],
+  "source_ledger": [
+    {
+      "source_id": "S-05",
+      "title": "Set up a custom connector",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-06",
+      "title": "Glean REST APIs",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-07",
+      "title": "Troubleshooting (custom connectors)",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-08",
+      "title": "Migrate from a native connector to a custom connector",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-10",
+      "title": "Crawl and index limits",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-11",
+      "title": "Indexing API overview",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-12",
+      "title": "Bulk Indexing",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-13",
+      "title": "Bulk Upload Model",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-15",
+      "title": "Indexing API Authentication",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-16",
+      "title": "Permissions (Indexing API guide)",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-17",
+      "title": "Document Model",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-18",
+      "title": "Setup Datasource",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-20",
+      "title": "Indexing SDK — Permissions",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-32",
+      "title": "Indexing SDK — Overview",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-33",
+      "title": "Indexing SDK — Quickstart",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-34",
+      "title": "Custom Properties",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-35",
+      "title": "Custom Properties vs Custom Metadata",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-36",
+      "title": "Activity",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-37",
+      "title": "Rate Limits and Retries",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-38",
+      "title": "Test Datasource",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-39",
+      "title": "Supported MIME Types",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-40",
+      "title": "Datasource Category",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-42",
+      "title": "Index document (API reference)",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-44",
+      "title": "Glean Partner Content | Custom Connector Best Practices (deck, April 2026)",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2027-03-26"
+    },
+    {
+      "source_id": "S-46",
+      "title": "Glean Custom Connector Content Package",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2027-03-26"
+    }
+  ]
+}

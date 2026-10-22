@@ -1,0 +1,11 @@
+{
+  "module_id": "CON-101",
+  "feedback": {
+    "SCR-10:o2": "Availability would lag behind reality, and indexing cannot perform the hold. Live retrieval suits data where minutes-to-hours freshness dominates.",
+    "SCR-10:o3": "Web history makes page titles from a user's own browsing searchable. It returns no current availability and performs no action.",
+    "SCR-10:o1": "Right. Freshness dominates and a write is required. Tools retrieve current data or perform actions at request time; an index is a snapshot and cannot place a hold.",
+    "SCR-14:o2": "This duplicates a supported connector and moves support to you. Native and custom connectors use separate namespaces, so filters and agents scoped to one do not see the other.",
+    "SCR-14:o1": "Right. Use an existing connector before building a new one. Custom Metadata attaches to documents from any datasource, including native connectors, without re-indexing.",
+    "SCR-14:o3": "This pushes a data-model problem onto users and still creates no filterable field."
+  }
+}

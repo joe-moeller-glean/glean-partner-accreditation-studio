@@ -1,0 +1,15 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Turn a request into evidence",
+  "bullets": [
+    "Run structured discovery with the partner questionnaire.",
+    "Assess all four information types and price each gap.",
+    "Size a crawl against source and Glean limits.",
+    "Decide identity and hosting with the customer, before code.",
+    "Write a risk register and make a conditional go or no-go call."
+  ],
+  "claims": []
+}

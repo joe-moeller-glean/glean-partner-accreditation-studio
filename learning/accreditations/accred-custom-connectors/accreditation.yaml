@@ -1,0 +1,35 @@
+# Accreditation definition. Modules live in learning/modules/<id>/ and are referenced, not nested.
+id: accred-custom-connectors
+name: Custom Connector Competency
+source: composed
+status: built
+audience: [Builders, Solution architects, Delivery engineers, Technical partner leads]
+required_modules:
+  - CON-101
+  - CON-201
+  - CON-202
+  - TEC-201
+  - BLD-201
+  - CON-203
+  - CON-204
+  - BLD-202
+  - CON-301
+  - ACC-107
+electives: []
+completion:
+  assessment_module: ACC-107
+  assessment_type: "Self-check quiz in package; portfolio, unseen case, and two-reviewer review scored outside the package"
+  mastery_score: 80
+  hard_gates:
+    - identity_handling
+    - permissions_model_and_refresh
+    - deletion_for_every_object_family
+    - completeness_guard_and_retry
+    - security_and_secrets
+  note: "Completing this learning accreditation does not award the official Custom Connector Competency, which requires a Glean audit."
+overview_module: null
+publish_mode: manual_review
+estimated_hours: 28.8
+origin: "Added 2026-09-27. Not present in the tracker badge table; composed from tracker modules TEC-201, BLD-201, and BLD-202 plus new CON modules, and aligned to the Custom Connector Competency in the Glean Partner Competency Program Guide."
+competency_alignment: Custom Connector Competency
+source_url: "https://docs.google.com/document/d/1mADzsGI3LTRlEIBLXceoMzj0KbQ2N6sLNLojrkMZF7E"

@@ -1,0 +1,33 @@
+{
+  "id": "SCR-11",
+  "archetype": "A4",
+  "objective": "OBJ-05",
+  "eyebrow": "Risk register",
+  "title": "The four risks that matter here",
+  "hotspots": [
+    {
+      "label": "Silent empty pages",
+      "detail": "About 1 in 400 list calls returns 200 with no items and no cursor before the true end. A full crawl must cover the whole scope, or the missing pages are deleted as stale."
+    },
+    {
+      "label": "Oversized attachments",
+      "detail": "The largest attachment is 91 MB. Items over 64 MB index metadata and permissions only."
+    },
+    {
+      "label": "Stale sandbox",
+      "detail": "The sandbox was refreshed 11 months ago. Validate against current permission patterns before sign-off."
+    },
+    {
+      "label": "Credential rotation",
+      "detail": "Source tokens rotate every 90 days. Plan automated rotation for the Glean indexing token as well."
+    }
+  ],
+  "footnote": "Case facts are fictional; the rules they trigger are sourced.",
+  "claims": [
+    "C-154",
+    "C-170",
+    "C-090",
+    "C-254",
+    "C-238"
+  ]
+}

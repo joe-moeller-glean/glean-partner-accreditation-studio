@@ -1,0 +1,60 @@
+{
+  "id": "SCR-12",
+  "archetype": "A5",
+  "objective": "OBJ-04",
+  "eyebrow": "How you are scored",
+  "title": "The assessor rubric",
+  "table": {
+    "caption": "Lab rubric (studio-authored; scored outside this package)",
+    "head": [
+      "Area",
+      "Weight",
+      "Hard gate"
+    ],
+    "rows": [
+      [
+        "Indexing completeness and correctness",
+        "15%",
+        "No"
+      ],
+      [
+        "Identity and permissions",
+        "25%",
+        "Yes"
+      ],
+      [
+        "Freshness and deletion",
+        "20%",
+        "Yes"
+      ],
+      [
+        "Failure handling",
+        "15%",
+        "Yes"
+      ],
+      [
+        "Reconciliation and observability",
+        "10%",
+        "No"
+      ],
+      [
+        "Security",
+        "10%",
+        "Yes"
+      ],
+      [
+        "Handoff",
+        "5%",
+        "No"
+      ]
+    ]
+  },
+  "asset": "BLD-202-A02",
+  "footnote": "Studio guidance: pass at 80% or higher with every hard gate met. A retake uses a different fault seed and persona set.",
+  "claims": [
+    "C-195",
+    "C-174",
+    "C-170",
+    "C-215"
+  ]
+}

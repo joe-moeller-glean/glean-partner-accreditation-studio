@@ -1,0 +1,23 @@
+{
+  "module_id": "OPS-107",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "It is Monday morning. A customer admin tells you that Glean search is unavailable to every user. Their first idea is to post in a shared chat channel and email a contact they know. Before you agree, ask one question: which channel actually starts a tracked, SLA-eligible incident?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-07",
+      "archetype": "A8",
+      "prompt": "A complete ticket helps support resolve the issue faster. Here is a role-based example: members of one department no longer see results from a connected wiki.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-11",
+      "archetype": "A6",
+      "prompt": "Back to the cold open. Search is unavailable to all users. The customer admin is a Designated Support Contact. What do you advise?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

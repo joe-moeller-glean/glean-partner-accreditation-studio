@@ -1,0 +1,13 @@
+{
+  "id": "SCR-05",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "The routing rule",
+  "title": "Community for shared answers. Tickets for your instance.",
+  "body": "For bugs and errors in a Glean instance, file a support ticket. For questions, best practices, or feature requests, use the community. Community answers let Support help multiple customers at once.",
+  "asset": "OPS-108-A02",
+  "claims": [
+    "C-305",
+    "C-314"
+  ]
+}

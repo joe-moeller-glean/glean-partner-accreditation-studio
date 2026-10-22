@@ -1,0 +1,41 @@
+{
+  "id": "SCR-15",
+  "archetype": "A13",
+  "objective": "OBJ-06",
+  "eyebrow": "Job aid",
+  "title": "API cheat sheet",
+  "cards": [
+    {
+      "tag": "Token",
+      "title": "Tokens",
+      "body": "Indexing token for push; global Client token scoped to ACTIVITY for activity."
+    },
+    {
+      "tag": "Write",
+      "title": "Write modes",
+      "body": "Single and incremental add; bulk replaces. One uploadId, no concurrency."
+    },
+    {
+      "tag": "Order",
+      "title": "Identity order",
+      "body": "Users, groups, memberships, then documents."
+    },
+    {
+      "tag": "Debug",
+      "title": "Debug",
+      "body": "Processing versus upload time; flags; first invalid property; reprocess."
+    }
+  ],
+  "claims": [
+    "C-052",
+    "C-134",
+    "C-101",
+    "C-109",
+    "C-105",
+    "C-111",
+    "C-114",
+    "C-070",
+    "C-074",
+    "C-077"
+  ]
+}

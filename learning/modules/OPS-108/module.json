@@ -1,0 +1,13 @@
+{
+  "module_id": "OPS-108",
+  "title": "Using Gleaniverse Community",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "design_system": "paged-v1",
+  "accreditation_id": null,
+  "level": "100",
+  "target_hours": 0.4,
+  "assessment_type": "Quiz"
+}

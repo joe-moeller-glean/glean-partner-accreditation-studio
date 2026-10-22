@@ -1,0 +1,61 @@
+{
+  "module_id": "CON-101",
+  "assets": [
+    {
+      "asset_id": "CON-101-A01",
+      "path": "assets/svg/con-101-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Four numbered cells: indexed access crawled ahead with a mirrored permission snapshot; live access fetched at query time, sometimes needing per-user sign-in; hybrid combining both; tools and MCP acting at request time without making content searchable.",
+      "screen_id": "SCR-07",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-012",
+        "C-013",
+        "C-014",
+        "C-011"
+      ],
+      "alt": "Four cells comparing indexed, live, hybrid, and tool-based access.",
+      "bytes": 4221
+    },
+    {
+      "asset_id": "CON-101-A02",
+      "path": "assets/svg/con-101-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Five sequential questions: native connector or web crawler first; document-like or live data; whether search and cross-document recall are needed; whether all four data types are available; and who owns the connector long term.",
+      "screen_id": "SCR-12",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-250",
+        "C-033",
+        "C-021",
+        "C-006",
+        "C-010"
+      ],
+      "alt": "Flow of five fit questions ending in ownership.",
+      "bytes": 5281
+    },
+    {
+      "asset_id": "CON-101-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

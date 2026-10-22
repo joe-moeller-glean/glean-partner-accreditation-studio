@@ -1,0 +1,300 @@
+{
+  "module_id": "BLD-201",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-02",
+      "stem": "Source pages have an immutable page_id and a slug that changes on rename. What should the Glean document ID be?",
+      "options": [
+        {
+          "id": "b",
+          "text": "The slug, because it is readable"
+        },
+        {
+          "id": "a",
+          "text": "The immutable page_id"
+        },
+        {
+          "id": "c",
+          "text": "The page title"
+        },
+        {
+          "id": "d",
+          "text": "A hash of the page body"
+        }
+      ],
+      "claims": [
+        "C-101"
+      ]
+    },
+    {
+      "id": "Q-11",
+      "objective_id": "OBJ-01",
+      "stem": "Where should a production connector keep document state and checkpoints?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In a simple database the connector owns"
+        },
+        {
+          "id": "b",
+          "text": "In memory, rebuilt from scratch on each run"
+        },
+        {
+          "id": "c",
+          "text": "Nowhere; Glean stores it for the connector"
+        },
+        {
+          "id": "d",
+          "text": "In the viewURL of each document"
+        }
+      ],
+      "claims": [
+        "C-237",
+        "C-172"
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-03",
+      "stem": "The source has 40 roles that grant read access to spaces. How should they be modeled?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Flattened into user lists on each document"
+        },
+        {
+          "id": "c",
+          "text": "As allowAnonymousAccess on role spaces"
+        },
+        {
+          "id": "d",
+          "text": "As custom metadata on each document"
+        },
+        {
+          "id": "a",
+          "text": "As groups with memberships"
+        }
+      ],
+      "claims": [
+        "C-235",
+        "C-197"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-03",
+      "stem": "A page requires membership in both the pharmacist group and the clinic group. How is it mapped?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Both groups listed in allowedGroups"
+        },
+        {
+          "id": "c",
+          "text": "Two separate intersection entries"
+        },
+        {
+          "id": "a",
+          "text": "One intersection entry that contains both groups"
+        },
+        {
+          "id": "d",
+          "text": "Only the clinic group, since it is narrower"
+        }
+      ],
+      "claims": [
+        "C-198"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-04",
+      "stem": "During a full crawl, the source returns an empty page with no cursor well before the expected total. What should the connector do?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Finalize, because the cursor has ended"
+        },
+        {
+          "id": "a",
+          "text": "Raise an error and leave the full run unfinalized"
+        },
+        {
+          "id": "c",
+          "text": "Retry that page once, then finalize whatever it has"
+        },
+        {
+          "id": "d",
+          "text": "Finalize and rely on the 20% safeguard"
+        }
+      ],
+      "claims": [
+        "C-170",
+        "C-154"
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-05",
+      "stem": "What does an incremental crawl need before it is correct rather than merely faster?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A durable checkpoint and a reliable deletion signal"
+        },
+        {
+          "id": "b",
+          "text": "A shorter schedule than the full run"
+        },
+        {
+          "id": "c",
+          "text": "A larger batch size"
+        },
+        {
+          "id": "d",
+          "text": "Bulk uploads on every run"
+        }
+      ],
+      "claims": [
+        "C-174"
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-05",
+      "stem": "When should an incremental connector write its checkpoint?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Write the current time when the first page is fetched"
+        },
+        {
+          "id": "c",
+          "text": "Write the end time even if the run failed"
+        },
+        {
+          "id": "d",
+          "text": "Never; the SDK persists it automatically"
+        },
+        {
+          "id": "a",
+          "text": "Record the start time before the crawl; write it only after success"
+        }
+      ],
+      "claims": [
+        "C-173",
+        "C-172"
+      ]
+    },
+    {
+      "id": "Q-07",
+      "objective_id": "OBJ-06",
+      "stem": "The source rate-limits aggressively. What retry setting does SDK guidance suggest?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Keep the default of one retry"
+        },
+        {
+          "id": "c",
+          "text": "Retry every status code, including 400 and 404"
+        },
+        {
+          "id": "a",
+          "text": "Raise max_attempts to 4 or 5, with a rate limiter"
+        },
+        {
+          "id": "d",
+          "text": "Retry forever until the source recovers"
+        }
+      ],
+      "claims": [
+        "C-186",
+        "C-317",
+        "C-318"
+      ]
+    },
+    {
+      "id": "Q-08",
+      "objective_id": "OBJ-06",
+      "stem": "A datasource configuration call times out. You cannot tell whether it succeeded. What do you do?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Repeat the write until it returns success"
+        },
+        {
+          "id": "a",
+          "text": "Read the configuration back and compare it"
+        },
+        {
+          "id": "c",
+          "text": "Delete the datasource and recreate it"
+        },
+        {
+          "id": "d",
+          "text": "Ignore it and start uploading"
+        }
+      ],
+      "claims": [
+        "C-209",
+        "C-216"
+      ]
+    },
+    {
+      "id": "Q-09",
+      "objective_id": "OBJ-06",
+      "stem": "Where should the source API key and indexing token live in production?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In a secret store, with the workload granted exact access"
+        },
+        {
+          "id": "b",
+          "text": "In the repository's config file"
+        },
+        {
+          "id": "c",
+          "text": "In exception messages for easier debugging"
+        },
+        {
+          "id": "d",
+          "text": "In the container image"
+        }
+      ],
+      "claims": [
+        "C-215",
+        "C-188"
+      ]
+    },
+    {
+      "id": "Q-10",
+      "objective_id": "OBJ-06",
+      "stem": "Which alert catches a partial full crawl earliest?",
+      "options": [
+        {
+          "id": "b",
+          "text": "The job's exit status alone"
+        },
+        {
+          "id": "c",
+          "text": "CPU use on the connector host"
+        },
+        {
+          "id": "d",
+          "text": "A weekly manual dashboard review"
+        },
+        {
+          "id": "a",
+          "text": "documents_indexed dropping sharply between runs"
+        }
+      ],
+      "claims": [
+        "C-204"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+module_id: BLD-201
+title: "Custom Connector Best Practices"
+design_system: paged-v1
+learning_path: "Builder Path; Custom Connector Competency"
+request_type: refresh
+audience: ["Builders", "Architects"]
+level: 200
+learning_outcomes:
+  - "Apply the custom connector reference architecture."
+  - "Design stable IDs and a content model that survives renames and relations."
+  - "Map source identities and permissions without broad fallbacks."
+  - "Design completeness guards that stop a partial full crawl from finishing."
+  - "Choose a freshness and deletion strategy for every object family."
+  - "Design reliability, state, security, and monitoring for production."
+prerequisites: ["TEC-201", "CON-201"]
+target_hours: 2.6
+tracker_hours: 1.5
+mastery_score: 80
+assessment_type: "Quiz + architecture decision record (assessor)"
+wave: Wave 2
+accreditation: accred-custom-connectors
+also_counts_toward: ["accred-builder"]
+authoring_contract: "plan/modules/BLD-201.md + plan/custom-connectors/BLD-201-best-practices-refresh.md"
+source_ledger: plan/custom-connectors/claims.json (verified verbatim; learner-facing claims only)
+sme: "Eugene Wiehahn (tracker SME) - review pending"
+publish_mode: manual_review
+open_questions:
+  - "Tracker duration is 1.5 h; this build is 2.6 h (approval OD-3)."
+  - "Full-run cadence: the best-practices deck says incremental plus monthly full (C-239); SDK guidance says nightly or weekly (C-176). The module teaches choosing by the life of the source's deletion signal."

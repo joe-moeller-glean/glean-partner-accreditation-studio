@@ -1,0 +1,14 @@
+{
+  "id": "SCR-02",
+  "archetype": "A5",
+  "objective": "OBJ-01",
+  "eyebrow": "Two credentials",
+  "title": "Know what this badge is, and is not",
+  "body": "The Custom Connector Competency certifies partners to scope, build, deploy, and maintain custom data source integrations with Glean. Competencies require thorough experience and an audit process. This course's accreditation prepares you and your evidence for that audit; it does not award the competency.",
+  "asset": "ACC-107-A01",
+  "claims": [
+    "C-260",
+    "C-267",
+    "C-266"
+  ]
+}

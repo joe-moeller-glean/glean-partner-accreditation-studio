@@ -1,0 +1,10 @@
+{
+  "id": "SCR-17",
+  "archetype": "A14",
+  "objective": "OBJ-01",
+  "eyebrow": "Next step",
+  "title": "Design done. Learn the wire protocol.",
+  "body": "CON-203 teaches the Indexing API and data model your design depends on. Submit your design record to your assessor first.",
+  "signature": true,
+  "claims": []
+}

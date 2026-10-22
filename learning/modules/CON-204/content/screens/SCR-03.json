@@ -1,0 +1,23 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "Architecture",
+  "title": "Two classes you write; the rest is the SDK's",
+  "body": "A connector is two classes: a data client that fetches records from your source, and a connector that turns them into Glean documents. The SDK owns batching, retries, upload sessions, and stale-document cleanup. It is a client for the Indexing API, not a replacement: the API documentation stays the reference for the wire protocol.",
+  "bullets": [
+    "Configuration is two environment variables and no file: GLEAN_SERVER_URL, your Glean backend URL, and GLEAN_INDEXING_API_TOKEN, a datasource-scoped Indexing API token.",
+    "A missing variable fails at client construction, not mid-upload.",
+    "Every SDK exception derives from GleanError and carries a fix suggestion."
+  ],
+  "claims": [
+    "C-157",
+    "C-311",
+    "C-150",
+    "C-161",
+    "C-312",
+    "C-313",
+    "C-162",
+    "C-164"
+  ]
+}

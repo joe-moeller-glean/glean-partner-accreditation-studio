@@ -1,0 +1,8 @@
+{
+  "module_id": "BLD-201",
+  "feedback": {
+    "SCR-11:o2": "Below 20%, stale documents are deleted, not paused. The safeguard is not a completeness check.",
+    "SCR-11:o3": "Users lose those pages until the next run, and a bad successful crawl is not recoverable in the meantime.",
+    "SCR-11:o1": "Right. 1,450 missing pages is far beyond normal churn. Never let a partial fetch finish as a successful full crawl."
+  }
+}

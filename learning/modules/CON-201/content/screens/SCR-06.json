@@ -1,0 +1,29 @@
+{
+  "id": "SCR-06",
+  "archetype": "A10",
+  "objective": "OBJ-02",
+  "eyebrow": "Myth versus reality",
+  "title": "Three beliefs that waste a day of debugging",
+  "hotspots": [
+    {
+      "label": "Myth: the upload response proves the document is live.",
+      "detail": "An accepted upload is not yet a searchable document. Processing happens afterward, asynchronously."
+    },
+    {
+      "label": "Myth: each kind of backlog is independent.",
+      "detail": "Documents, permissions, people data, and activity share one queue, so one backlog can delay another. The worst case runs from several hours to more than 24 hours."
+    },
+    {
+      "label": "Myth: a correct-looking ACL is enough.",
+      "detail": "An ACL is still wrong if the identities it names were never pushed. An ACL naming a group Glean has never heard of matches nobody."
+    }
+  ],
+  "claims": [
+    "C-160",
+    "C-110",
+    "C-232",
+    "C-233",
+    "C-205",
+    "C-196"
+  ]
+}

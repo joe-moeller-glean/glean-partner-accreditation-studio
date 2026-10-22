@@ -1,0 +1,10 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-04",
+  "eyebrow": "Cold open",
+  "title": "Success, and nothing indexed",
+  "body": "Under load, the source API returns 200 with an empty list and no cursor, long before the real end. The connector treats it as the end, reports success, and finalizes the full run. By morning, thousands of pages are gone from search. Nothing errored. This module is about building connectors that fail loudly instead.",
+  "footnote": "Composite, fictional case used across this accreditation. Product behavior is sourced; the customer environment and its numbers are invented for practice.",
+  "claims": []
+}

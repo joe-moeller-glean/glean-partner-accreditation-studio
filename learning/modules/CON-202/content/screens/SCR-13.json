@@ -1,0 +1,32 @@
+{
+  "id": "SCR-13",
+  "archetype": "A6",
+  "objective": "OBJ-05",
+  "eyebrow": "Decision",
+  "title": "Go, conditional go, or no-go?",
+  "type": "choice",
+  "prompt": "The wiki passes the fit check. Two risks are open: the stale sandbox and the unmatched contractors. Security has not approved hosting. What is your call?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Go now and resolve the open risks during acceptance testing.",
+      "feedback": "Hosting determines secrets, scheduling, and networking, so it is chosen before you build."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "Conditional go: build starts when hosting is approved, the sandbox is refreshed, and the identity decision is signed.",
+      "feedback": "Right. Each condition removes a failure you would otherwise meet later, in security review, validation, or permissions testing."
+    },
+    {
+      "id": "o3",
+      "text": "No-go until the source adds activity data.",
+      "feedback": "Missing activity weakens ranking, but it does not block a correct connector."
+    }
+  ],
+  "takeaway": "A conditional go names the conditions and who closes each one.",
+  "claims": [
+    "C-045",
+    "C-135"
+  ]
+}

@@ -1,0 +1,37 @@
+module_id: CON-201
+title: Indexing Architecture and Data Flow
+level: 200
+target_hours: 2.1
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Trace a document from fetch or push to a cited answer, naming each stage."
+    screens: [SCR-02, SCR-03, SCR-04, SCR-14, SCR-REF, SCR-17]
+    assessment_items: [Q-06, Q-11]
+  - id: OBJ-02
+    text: "Distinguish accepted, processed, and searchable states, and read the evidence for each."
+    screens: [SCR-01, SCR-05, SCR-06, SCR-16]
+    assessment_items: [Q-01, Q-02]
+  - id: OBJ-03
+    text: "Explain bulk replacement, incremental updates, and the stale-deletion safeguard."
+    screens: [SCR-07, SCR-08, SCR-09]
+    assessment_items: [Q-03, Q-04, Q-05]
+  - id: OBJ-04
+    text: "Decide why a given user can or cannot see a document."
+    screens: [SCR-10, SCR-11]
+    assessment_items: [Q-07, Q-08, Q-09]
+  - id: OBJ-05
+    text: "Diagnose where a missing, stale, or over-visible document is stuck."
+    screens: [SCR-12, SCR-13, SCR-15]
+    assessment_items: [Q-10, Q-12]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 18
+distinct_archetypes: [A1, A10, A11, A13, A14, A2, A3, A4, A5, A6, A7, A8, A9, quiz]
+assessment_type: Quiz

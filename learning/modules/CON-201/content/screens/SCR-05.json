@@ -1,0 +1,42 @@
+{
+  "id": "SCR-05",
+  "archetype": "A5",
+  "objective": "OBJ-02",
+  "eyebrow": "Three states",
+  "title": "Accepted, processed, searchable",
+  "body": "Indexing is asynchronous. Plan for around 15 to 20 minutes before new documents appear, and treat that as typical, not guaranteed.",
+  "table": {
+    "caption": "What each state means and how to prove it",
+    "head": [
+      "State",
+      "What it means",
+      "Evidence to check"
+    ],
+    "rows": [
+      [
+        "Accepted",
+        "The API accepted the request. For users, UPLOAD COMPLETED means only this.",
+        "API response and upload history"
+      ],
+      [
+        "Processed",
+        "Queued work finished: identities verified; groups and memberships expanded.",
+        "processingHistory timestamp"
+      ],
+      [
+        "Searchable",
+        "New documents appear once processingHistory is after bulkUploadHistory and the datasource is enabled for search.",
+        "A search run as an authorized user"
+      ]
+    ]
+  },
+  "claims": [
+    "C-110",
+    "C-104",
+    "C-072",
+    "C-073",
+    "C-070",
+    "C-103",
+    "C-200"
+  ]
+}

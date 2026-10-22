@@ -1,0 +1,28 @@
+module_id: CON-201
+title: "Indexing Architecture and Data Flow"
+design_system: paged-v1
+learning_path: "Custom Connector Competency"
+request_type: single
+audience: ["Builders", "Solution architects", "Delivery engineers"]
+level: 200
+learning_outcomes:
+  - "Trace a document from fetch or push to a cited answer, naming each stage."
+  - "Distinguish accepted, processed, and searchable states, and read the evidence for each."
+  - "Explain bulk replacement, incremental updates, and the stale-deletion safeguard."
+  - "Decide why a given user can or cannot see a document."
+  - "Diagnose where a missing, stale, or over-visible document is stuck."
+prerequisites: ["CON-101"]
+target_hours: 2.1
+tracker_hours: 2.1
+mastery_score: 80
+assessment_type: "Quiz"
+wave: Wave 2
+accreditation: accred-custom-connectors
+also_counts_toward: []
+authoring_contract: "plan/custom-connectors/CON-201-indexing-architecture.md"
+source_ledger: plan/custom-connectors/claims.json (verified verbatim; learner-facing claims only)
+sme: "unassigned - needs_sme (Connectors engineering)"
+publish_mode: manual_review
+open_questions:
+  - "U7: whether a later successful bulk upload inherits or clears a 7-day stale-deletion pause is undocumented; the module does not depend on it."
+  - "U6: internal sources describe dynamic deletion thresholds for native crawls; the module teaches only the public 20% / 7-day rule."

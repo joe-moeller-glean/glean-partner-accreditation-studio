@@ -1,0 +1,78 @@
+{
+  "module_id": "OPS-107",
+  "assets": [
+    {
+      "asset_id": "OPS-107-A01",
+      "path": "assets/svg/ops-107-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Four steps from top to bottom. One: sign in to Gleaniverse. Two: self-serve with Glean Docs, Ask Query, and the status page. Three: start a conversation in the support widget. Four: a tracked ticket, opened by a Designated Support Contact or converted by support.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-26",
+      "claim_ids": [
+        "C-201",
+        "C-203",
+        "C-205",
+        "C-207",
+        "C-208"
+      ],
+      "alt": "Flow diagram of the Glean support path: sign in to Gleaniverse, self-serve, start a conversation, then a tracked ticket.",
+      "bytes": 4441
+    },
+    {
+      "asset_id": "OPS-107-A02",
+      "path": "assets/svg/ops-107-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Two-column comparison. Conversation: available to all users, best for questions and quick help, started with Send us a message. Ticket: Designated Support Contacts only, best for bugs, outages, and documented resolution, started with Create a ticket.",
+      "screen_id": "SCR-04",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-26",
+      "claim_ids": [
+        "C-205",
+        "C-207",
+        "C-208",
+        "C-209"
+      ],
+      "alt": "Comparison table of support conversations and support tickets by who can use them, what they are for, and how to start them.",
+      "bytes": 4291
+    },
+    {
+      "asset_id": "OPS-107-A03",
+      "path": "assets/svg/ops-107-a03.svg",
+      "type": "svg_diagram",
+      "purpose": "Six cards: issue description with reproduction steps; exact error messages; date, time, and timezone; user impact; document URL; screenshots or recordings.",
+      "screen_id": "SCR-07",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-26",
+      "claim_ids": [
+        "C-211"
+      ],
+      "alt": "Six cards listing the details a complete Glean support ticket includes.",
+      "bytes": 6233
+    },
+    {
+      "asset_id": "OPS-107-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

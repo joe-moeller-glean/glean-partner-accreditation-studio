@@ -1,0 +1,22 @@
+{
+  "id": "SCR-07",
+  "archetype": "A3",
+  "objective": "OBJ-03",
+  "eyebrow": "Write modes",
+  "title": "Replacement versus increments",
+  "body": "Bulk indexing fully replaces the list of documents stored for the datasource. After a successful bulk upload, every document that was not part of that upload is deleted asynchronously. The /indexdocuments endpoint is intended for incremental updates and removes nothing by omission.",
+  "bullets": [
+    "Every paginated request in one bulk upload shares one unique uploadId.",
+    "Concurrent uploads are not allowed: finish one before starting the next.",
+    "After an unsuccessful upload, the next request must set forceRestartUpload or it fails."
+  ],
+  "asset": "CON-201-A02",
+  "claims": [
+    "C-101",
+    "C-102",
+    "C-109",
+    "C-105",
+    "C-106",
+    "C-163"
+  ]
+}

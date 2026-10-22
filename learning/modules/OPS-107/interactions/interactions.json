@@ -1,0 +1,81 @@
+{
+  "module_id": "OPS-107",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-05-HOTSPOT",
+      "screen_id": "SCR-05",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-01",
+      "archetype": "A4",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-209",
+        "C-213",
+        "C-205",
+        "C-206",
+        "C-210",
+        "C-223",
+        "C-222"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-06",
+      "screen_id": "SCR-06",
+      "kind": "sort",
+      "objective_id": "OBJ-01",
+      "archetype": "A9",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-203",
+        "C-205",
+        "C-207",
+        "C-224",
+        "C-208"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-09",
+      "screen_id": "SCR-09",
+      "kind": "choice",
+      "objective_id": "OBJ-02",
+      "archetype": "A12",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-220",
+        "C-212"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-11",
+      "screen_id": "SCR-11",
+      "kind": "choice",
+      "objective_id": "OBJ-03",
+      "archetype": "A6",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-216",
+        "C-220",
+        "C-211",
+        "C-212",
+        "C-213"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-12",
+      "screen_id": "SCR-12",
+      "kind": "choice",
+      "objective_id": "OBJ-03",
+      "archetype": "A12",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-215",
+        "C-214"
+      ]
+    }
+  ]
+}

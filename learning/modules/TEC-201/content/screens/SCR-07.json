@@ -1,0 +1,52 @@
+{
+  "id": "SCR-07",
+  "archetype": "A9",
+  "objective": "OBJ-03",
+  "eyebrow": "Practice",
+  "title": "Who owns each gate?",
+  "prompt": "Assign each readiness task to its owner.",
+  "type": "sort",
+  "categories": [
+    "Glean admin",
+    "Super Admin",
+    "Source owner",
+    "Security architect",
+    "Partner lead"
+  ],
+  "pairs": [
+    {
+      "item": "Create the datasource and enable it for a test group.",
+      "category": "Glean admin",
+      "why": "Admins configure datasources and their visibility."
+    },
+    {
+      "item": "Grant a token with global scope, if one is truly needed.",
+      "category": "Super Admin",
+      "why": "Only Super Admins can grant global scope."
+    },
+    {
+      "item": "Issue read-only source credentials and a current sandbox.",
+      "category": "Source owner",
+      "why": "The source owner controls keys and environments."
+    },
+    {
+      "item": "Approve where secrets are stored and which egress is open.",
+      "category": "Security architect",
+      "why": "Hosting and network choices are security decisions."
+    },
+    {
+      "item": "Run the first-run check and record the results.",
+      "category": "Partner lead",
+      "why": "The builder proves one public and one permissioned document behave correctly."
+    }
+  ],
+  "takeaway": "A gate without an owner is a gate nobody closes.",
+  "claims": [
+    "C-103",
+    "C-056",
+    "C-251",
+    "C-254",
+    "C-045",
+    "C-049"
+  ]
+}

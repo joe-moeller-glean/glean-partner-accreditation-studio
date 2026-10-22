@@ -1,0 +1,677 @@
+{
+  "module_id": "CON-301",
+  "claims": [
+    {
+      "claim_id": "C-042",
+      "text": "Scheduling like native connectors applies to Glean-hosted deployments.",
+      "excerpt": "This is applicable if the connector is deployed in the Glean cloud instance.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-046",
+      "text": "Self-hosted networking must allow pushes to Glean indexing endpoints.",
+      "excerpt": "Your environment must allow pushes to Glean's indexing endpoints.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-047",
+      "text": "Self-host when residency, isolation, or policy requires it.",
+      "excerpt": "Choose this when data-residency, network isolation, or internal security policies require the connector to run inside your infrastructure.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-045",
+      "text": "Choose hosting before building.",
+      "excerpt": "Choose where it runs before you build, because it determines how secrets, scheduling, and networking are handled.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-217",
+      "text": "Connectors can run on many schedulers.",
+      "excerpt": "It can run as a VM cron job, Cloud Run or Lambda job, Airflow task, or scheduled CI workload.",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-332",
+      "text": "glean-idx deploy generates a Docker image and Terraform for a Kubernetes CronJob on GKE or EKS.",
+      "excerpt": "glean-idx deploy generates and operates a Docker image and Terraform for a Kubernetes CronJob on GKE or EKS.",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-211",
+      "text": "Terraform does not create the foundation.",
+      "excerpt": "The generated Terraform does not create a project/account, cluster, registry, Workload Identity/IRSA foundation, or namespace.",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-212",
+      "text": "Edit glean_deployment.yaml, not Terraform.",
+      "excerpt": "Generated Terraform is an artifact, not the configuration interface.",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-213",
+      "text": "Full and incremental need separate configs.",
+      "excerpt": "A full and incremental schedule need separate deployment configurations",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-215",
+      "text": "The workload cannot enumerate secrets.",
+      "excerpt": "The workload cannot enumerate secrets.",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-214",
+      "text": "A completed Job is not proof of indexing.",
+      "excerpt": "A completed Kubernetes Job proves only that the process exited successfully",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-057",
+      "text": "Use separate tokens per environment.",
+      "excerpt": "Create separate tokens for different environments (dev/staging/prod)",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-054",
+      "text": "Indexing tokens require an expiry date.",
+      "excerpt": "An expiration date is required.",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-059",
+      "text": "IP restrictions limit tokens to known infrastructure.",
+      "excerpt": "Restrict API access to known infrastructure",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-053",
+      "text": "Minimum token rotation period is 1440 minutes.",
+      "excerpt": "Minimum rotation period: 1440 minutes (24 hours)",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-238",
+      "text": "Automate token rotation.",
+      "excerpt": "Automated indexing token rotation",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-251",
+      "text": "Prefer read-only keys.",
+      "excerpt": "read-only keys are preferred if supported for Content+Permission+Activity data",
+      "source_ids": [
+        "S-45"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-187",
+      "text": "Query params are redacted in logs.",
+      "excerpt": "PullOptions.mask_params defaults to True, so query parameters are redacted in the client's request logs.",
+      "source_ids": [
+        "S-25"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-188",
+      "text": "Redaction covers logs only.",
+      "excerpt": "Redaction covers logging only.",
+      "source_ids": [
+        "S-25"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-207",
+      "text": "teardown is irreversible.",
+      "excerpt": "teardown cannot be undone.",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-216",
+      "text": "No API to delete a datasource registration.",
+      "excerpt": "There is no Indexing API operation to delete a datasource registration.",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-165",
+      "text": "Failures exit non-zero.",
+      "excerpt": "On exception, increments the error counter and re-raises so a scheduler sees a non-zero exit.",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-204",
+      "text": "Alert on sharp drops in documents_indexed.",
+      "excerpt": "Alert on documents_indexed dropping sharply between runs",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-322",
+      "text": "glean-idx datasource status shows uploaded and indexed counts, identity counts, visibility, and recent runs.",
+      "excerpt": "Uploaded and indexed counts per object type, identity counts, visibility, and the most recent upload and processing runs.",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-072",
+      "text": "UPLOAD COMPLETED is acceptance, not searchability.",
+      "excerpt": "UPLOAD COMPLETED only means the API accepted your upload. It doesn't mean users are indexed and searchable.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-074",
+      "text": "Wrong pagination flags can make a partial upload look complete.",
+      "excerpt": "Incorrect pagination can cause partial uploads to be treated as complete.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-219",
+      "text": "Cloud telemetry plugins are mock-tested only.",
+      "excerpt": "The cloud provider plugins are currently tested only against mocks",
+      "source_ids": [
+        "S-31"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-202",
+      "text": "Four-step missing-document diagnosis.",
+      "excerpt": "Most \"the connector is broken\" reports are really one of four things",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-070",
+      "text": "Documents are searchable after processingHistory passes bulkUploadHistory.",
+      "excerpt": "After documents are uploaded, they will be queued for processing. New documents will be available in search results when the processingHistory timestamp is after the bulkUploadHistory.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-075",
+      "text": "/processalldocuments reprocesses without a new upload.",
+      "excerpt": "This re-indexes all previously uploaded documents without requiring a new upload.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-079",
+      "text": "/processalldocuments: once every 3 hours per datasource.",
+      "excerpt": "/processalldocuments1 request every 3 hours per data source",
+      "source_ids": [
+        "S-37"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-205",
+      "text": "ACLs fail without pushed identities.",
+      "excerpt": "a correct-looking ACL is still wrong if the identities it names were never pushed.",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-076",
+      "text": "Use /processallmemberships for identity problems.",
+      "excerpt": "For issues with user or group permissions rather than document content, use /processallmemberships instead.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-203",
+      "text": "'Appears then disappears' means stale deletion.",
+      "excerpt": "Appears, then disappears",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-107",
+      "text": "Stale deletion pauses 7 days above 20%.",
+      "excerpt": "we have a deletion check in place which pauses the deletion of stale documents for 7 days if the percentage of docs being deleted exceeds 20%.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-108",
+      "text": "Use /processalldocuments for immediate deletions.",
+      "excerpt": "If you wish for deletions to take effect immediately, use /processalldocuments endpoint.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-153",
+      "text": "Timestamps are epoch seconds.",
+      "excerpt": "created_at and updated_at must be epoch seconds, not ISO strings.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-331",
+      "text": "A source error swallowed inside a paging loop is a named cause of partial full crawls.",
+      "excerpt": "a source error swallowed inside a paging loop",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-328",
+      "text": "An auth token expiring mid-crawl is a named cause of partial full crawls.",
+      "excerpt": "an auth token expiring mid-crawl",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-327",
+      "text": "A max_items cap left set from local testing is a named cause of partial full crawls.",
+      "excerpt": "a max_items cap left set from local testing.",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-326",
+      "text": "max_items limits source consumption; it is not a Glean-side upload cap or a blast-radius guarantee.",
+      "excerpt": "max_items limits how many source items each registered client consumes. It is not a Glean-side upload cap or a blast-radius guarantee.",
+      "source_ids": [
+        "S-33"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-101",
+      "text": "Bulk indexing replaces the datasource; omitted documents are deleted.",
+      "excerpt": "Bulk indexing fully replaces the entire list of documents stored in Glean. After a successful bulk upload, all documents that were not a part of the most recent upload are deleted asynchronously.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-170",
+      "text": "Never let a partial fetch complete as a full crawl.",
+      "excerpt": "Never let a partial or failed fetch finish as a successful full crawl.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-080",
+      "text": "Native and custom connectors use separate namespaces.",
+      "excerpt": "Native and custom connectors occupy separate namespaces in Glean.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-083",
+      "text": "Run native and custom in parallel during migration.",
+      "excerpt": "Run both the native and custom connectors in parallel during the transition period.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-081",
+      "text": "Artifacts scoped to a native connector do not carry over.",
+      "excerpt": "agents, saved searches, app filters, and pinned results scoped to the native connector won't automatically recognize content in the custom connector.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-082",
+      "text": "Deactivating a native connector removes its content.",
+      "excerpt": "When you deactivate a native connector, its content is removed from the search index.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-272",
+      "text": "Intake form v2 supports publishing.",
+      "excerpt": "This template gathers the appropriate information needed to publish a partner-built custom connector on the Glean Connectors webpage.",
+      "source_ids": [
+        "S-49"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-275",
+      "text": "Docs must explain permission propagation.",
+      "excerpt": "Permission propagation logic",
+      "source_ids": [
+        "S-49"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-273",
+      "text": "Partner maintains published connectors.",
+      "excerpt": "Glean expects the partner to maintain and support this connector.",
+      "source_ids": [
+        "S-49"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-009",
+      "text": "Shared push connector code may have limited support.",
+      "excerpt": "Push API connector code may be shared between customers or Glean partners; support for such code may be limited.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-274",
+      "text": "Get written permission/security confirmation.",
+      "excerpt": "The partner should request written confirmation that permissions and security are meeting expectations once a custom test group has reviewed the results.",
+      "source_ids": [
+        "S-49"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-265",
+      "text": "Customer-approved maintenance plan required.",
+      "excerpt": "Complete & include a customer-approved maintenance plan",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-220",
+      "text": "Current SDK release reviewed: v1.2.0.",
+      "excerpt": "glean-indexing-sdk v1.2.0",
+      "source_ids": [
+        "S-41"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-199",
+      "text": "Counts prove nothing about permissions.",
+      "excerpt": "Counting indexed documents proves nothing about permissions.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-078",
+      "text": "Support tickets need issue, endpoint/body, connector name, timestamp/timezone.",
+      "excerpt": "Description of the issue including error message",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    }
+  ]
+}

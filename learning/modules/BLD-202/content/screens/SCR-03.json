@@ -1,0 +1,13 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "The floor",
+  "title": "The competency build minimum",
+  "body": "The Custom Connector Competency expects a build that indexes users, permissions, and documents or data; has some level of automated index updating; and handles errors with retry and backoff. That is the floor. This lab goes further, because production connectors fail in the places the minimum does not name.",
+  "claims": [
+    "C-261",
+    "C-262",
+    "C-263"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "SCR-14",
+  "archetype": "A6",
+  "objective": "OBJ-05",
+  "eyebrow": "Decision",
+  "title": "The Drive facet request",
+  "type": "choice",
+  "prompt": "A team asks for a custom Google Drive connector so they can filter by Clinic ID. Drive is already connected natively. What do you recommend?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Build a custom Drive connector that pushes Clinic ID as a custom property.",
+      "feedback": "This duplicates a supported connector and moves support to you. Native and custom connectors use separate namespaces, so filters and agents scoped to one do not see the other."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "Keep the native Drive connector and attach Clinic ID with Custom Metadata.",
+      "feedback": "Right. Use an existing connector before building a new one. Custom Metadata attaches to documents from any datasource, including native connectors, without re-indexing."
+    },
+    {
+      "id": "o3",
+      "text": "Ask users to type the Clinic ID into every file title.",
+      "feedback": "This pushes a data-model problem onto users and still creates no filterable field."
+    }
+  ],
+  "takeaway": "The cheapest connector is the one you do not have to build.",
+  "claims": [
+    "C-035",
+    "C-100",
+    "C-080",
+    "C-081"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "module_id": "OPS-108",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-04-HOTSPOT",
+      "screen_id": "SCR-04",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-01",
+      "archetype": "A4",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-306",
+        "C-225",
+        "C-312",
+        "C-313",
+        "C-316",
+        "C-224",
+        "C-315"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-06",
+      "screen_id": "SCR-06",
+      "kind": "sort",
+      "objective_id": "OBJ-02",
+      "archetype": "A9",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-305",
+        "C-224"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-08",
+      "screen_id": "SCR-08",
+      "kind": "choice",
+      "objective_id": "OBJ-03",
+      "archetype": "A12",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-307",
+        "C-305"
+      ]
+    }
+  ]
+}

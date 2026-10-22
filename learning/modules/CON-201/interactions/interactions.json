@@ -1,0 +1,90 @@
+{
+  "module_id": "CON-201",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-04-HOTSPOT",
+      "screen_id": "SCR-04",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-01",
+      "archetype": "A4",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-003",
+        "C-041",
+        "C-044",
+        "C-004",
+        "C-234",
+        "C-073",
+        "C-018",
+        "C-023",
+        "C-026"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-06-HOTSPOT",
+      "screen_id": "SCR-06",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-02",
+      "archetype": "A10",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-160",
+        "C-110",
+        "C-232",
+        "C-233",
+        "C-205",
+        "C-196"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-08-HOTSPOT",
+      "screen_id": "SCR-08",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-03",
+      "archetype": "A4",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-107",
+        "C-108",
+        "C-079",
+        "C-101",
+        "C-170",
+        "C-177"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-09",
+      "screen_id": "SCR-09",
+      "kind": "choice",
+      "objective_id": "OBJ-03",
+      "archetype": "A6",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-101",
+        "C-107",
+        "C-108",
+        "C-170"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-12",
+      "screen_id": "SCR-12",
+      "kind": "sort",
+      "objective_id": "OBJ-05",
+      "archetype": "A9",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-202",
+        "C-070",
+        "C-205",
+        "C-203",
+        "C-124"
+      ]
+    }
+  ]
+}

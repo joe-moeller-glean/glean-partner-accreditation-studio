@@ -1,0 +1,23 @@
+{
+  "id": "SCR-07",
+  "archetype": "A3",
+  "objective": "OBJ-04",
+  "eyebrow": "Identity order",
+  "title": "Users, groups, memberships, then documents",
+  "body": "When documents use non-anonymous permissions, users must be indexed before they are referenced, and a group must be indexed before its memberships. Indexing a user does not give them access to any document.",
+  "bullets": [
+    "Nested groups: use memberGroupName in place of memberUserId.",
+    "Group names cannot be empty, cannot contain whitespace, and cannot start with the prefix scio.",
+    "Permissions and memberships are processed asynchronously. For identity problems, use /processallmemberships."
+  ],
+  "asset": "CON-203-A01",
+  "claims": [
+    "C-111",
+    "C-114",
+    "C-112",
+    "C-115",
+    "C-113",
+    "C-116",
+    "C-076"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SCR-09",
+  "archetype": "A4",
+  "objective": "OBJ-04",
+  "eyebrow": "Tools and MCP",
+  "title": "MCP adds request-time tools. It does not replace the index.",
+  "hotspots": [
+    {
+      "label": "Where to set it up",
+      "detail": "Deployments created on or after September 22, 2026 use Connectors to set up catalog-backed MCP integrations. A custom or unlisted remote MCP server uses the separate Connect remote MCP servers path."
+    },
+    {
+      "label": "One app, two entries",
+      "detail": "One application can have more than one catalog entry: one entry might index content while another provides MCP tools."
+    },
+    {
+      "label": "A documented hybrid",
+      "detail": "NetSuite MCP gives real-time access with each user's own NetSuite credentials and role, and depends on the native NetSuite connector being set up."
+    },
+    {
+      "label": "When partner guidance says go live",
+      "detail": "Consider custom actions or MCP for querying live data. For large structured data lakes, use a custom action or MCP server to query the data."
+    }
+  ],
+  "footnote": "Date-sensitive: the Connectors setup path applies to deployments created on or after 2026-09-22. Re-verified 2026-09-26.",
+  "claims": [
+    "C-027",
+    "C-029",
+    "C-028",
+    "C-030",
+    "C-031",
+    "C-032",
+    "C-033"
+  ]
+}

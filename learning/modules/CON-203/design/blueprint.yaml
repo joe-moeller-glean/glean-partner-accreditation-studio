@@ -1,0 +1,41 @@
+module_id: CON-203
+title: Indexing API and the Glean Data Model
+level: 200
+target_hours: 2.6
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Distinguish the Indexing API, the Client API, and the activity endpoint, and the token each needs."
+    screens: [SCR-01, SCR-03, SCR-REF, SCR-17]
+    assessment_items: [Q-01]
+  - id: OBJ-02
+    text: "Configure a datasource correctly."
+    screens: [SCR-02, SCR-04]
+    assessment_items: [Q-02]
+  - id: OBJ-03
+    text: "Model documents within MIME, size, and timestamp constraints, and choose the right write semantics."
+    screens: [SCR-05, SCR-06, SCR-16]
+    assessment_items: [Q-03, Q-06, Q-07]
+  - id: OBJ-04
+    text: "Index users, groups, memberships, and ACLs in the correct order."
+    screens: [SCR-07, SCR-08, SCR-14]
+    assessment_items: [Q-08, Q-09, Q-11]
+  - id: OBJ-05
+    text: "Choose between custom properties and Custom Metadata, and push activity correctly."
+    screens: [SCR-09, SCR-10, SCR-11]
+    assessment_items: [Q-04, Q-05]
+  - id: OBJ-06
+    text: "Work within rate limits, read response codes, and use the debug and reprocess tools."
+    screens: [SCR-12, SCR-13, SCR-15]
+    assessment_items: [Q-10, Q-12]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 18
+distinct_archetypes: [A1, A11, A13, A14, A2, A3, A4, A5, A6, A7, A8, A9, quiz]
+assessment_type: Quiz + API lab evidence (assessor)

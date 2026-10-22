@@ -1,0 +1,62 @@
+{
+  "module_id": "BLD-201",
+  "assets": [
+    {
+      "asset_id": "BLD-201-A01",
+      "path": "assets/svg/bld-201-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Six layers: source with read-only credentials; data client with pagination, rate limiting, and retries; transform producing stable IDs, content, ACLs, and epoch timestamps; a state store; an uploader switching full and incremental with a dead-letter queue; and operations with token rotation and alerts.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-251",
+        "C-193",
+        "C-236",
+        "C-237",
+        "C-242",
+        "C-238"
+      ],
+      "alt": "Six stacked layers from source to operations, with the completeness guard highlighted.",
+      "bytes": 4080
+    },
+    {
+      "asset_id": "BLD-201-A02",
+      "path": "assets/svg/bld-201-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Four steps: fetch every page and raise on an early empty page; compare the fetched count with the source and the prior run; halt and alert on an anomaly so nothing is finalized; finalize the full run and write the checkpoint only when checks pass.",
+      "screen_id": "SCR-10",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-170",
+        "C-171",
+        "C-154",
+        "C-173"
+      ],
+      "alt": "Four-step completeness guard ending in finalize only on pass.",
+      "bytes": 4402
+    },
+    {
+      "asset_id": "BLD-201-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+module_id: ACC-107
+title: Custom Connector Competency Capstone
+level: 300
+target_hours: 5.0
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Distinguish this learning accreditation from the official Custom Connector Competency."
+    screens: [SCR-02, SCR-04, SCR-REF, SCR-12]
+    assessment_items: [Q-01]
+  - id: OBJ-02
+    text: "Assemble a portfolio mapped to the official competency requirements."
+    screens: [SCR-03, SCR-07, SCR-10]
+    assessment_items: [Q-04, Q-05, Q-06, Q-08]
+  - id: OBJ-03
+    text: "Prepare for the unseen case and the reviewer probes."
+    screens: [SCR-01, SCR-05, SCR-06, SCR-08]
+    assessment_items: [Q-10]
+  - id: OBJ-04
+    text: "Prepare the official submission package and plan for renewal."
+    screens: [SCR-09, SCR-11]
+    assessment_items: [Q-02, Q-03, Q-07, Q-09]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 13
+distinct_archetypes: [A1, A10, A11, A13, A14, A3, A4, A5, A6, A7, quiz]
+assessment_type: Self-check quiz + portfolio, unseen case, and two-reviewer review (outside the package)

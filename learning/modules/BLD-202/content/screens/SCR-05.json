@@ -1,0 +1,39 @@
+{
+  "id": "SCR-05",
+  "archetype": "A7",
+  "objective": "OBJ-02",
+  "eyebrow": "Stages 1 to 5",
+  "title": "Set up and prove the basics",
+  "steps": [
+    {
+      "title": "1 Inputs",
+      "body": "Link your intake, design record, and readiness checklist."
+    },
+    {
+      "title": "2 Datasource",
+      "body": "Configure from code, then read it back; reconcile ambiguous failures by reading state."
+    },
+    {
+      "title": "3 First run",
+      "body": "One public document visible; one permissioned document visible only to authorized personas."
+    },
+    {
+      "title": "4 Identities",
+      "body": "Users, then groups including nested, then memberships. Record identity counts."
+    },
+    {
+      "title": "5 Full run under faults",
+      "body": "Logs show 429 retries and a raised completeness error; the retry run completes."
+    }
+  ],
+  "claims": [
+    "C-209",
+    "C-049",
+    "C-111",
+    "C-114",
+    "C-115",
+    "C-322",
+    "C-170",
+    "C-194"
+  ]
+}

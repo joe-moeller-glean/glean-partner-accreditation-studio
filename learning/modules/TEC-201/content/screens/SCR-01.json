@@ -1,0 +1,10 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-02",
+  "eyebrow": "Cold open",
+  "title": "The first week, lost",
+  "body": "Week one of the build. A production token arrives by email. The datasource exists, but nobody enabled it, so nothing shows up. The customer's firewall blocks the push. Every one of these was knowable before a line of code. This module is the gate that catches them.",
+  "footnote": "Composite, fictional case used across this accreditation. Product behavior is sourced; the customer environment and its numbers are invented for practice.",
+  "claims": []
+}

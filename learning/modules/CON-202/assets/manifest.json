@@ -1,0 +1,58 @@
+{
+  "module_id": "CON-202",
+  "assets": [
+    {
+      "asset_id": "CON-202-A01",
+      "path": "assets/svg/con-202-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Content gaps produce metadata-only results that cannot ground Assistant; permission gaps create pressure for broad access; people gaps need a manual identity map; activity gaps weaken ranking.",
+      "screen_id": "SCR-05",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-241",
+        "C-195",
+        "C-240",
+        "C-135"
+      ],
+      "alt": "Four cells naming the cost of a gap in content, permissions, people, and activity.",
+      "bytes": 4346
+    },
+    {
+      "asset_id": "CON-202-A02",
+      "path": "assets/svg/con-202-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Five steps: fit check; questionnaire covering source, access, identity, environments, and changes; sizing against limits; identity and hosting decisions; risk register and decision.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-250",
+        "C-045"
+      ],
+      "alt": "Five-step scoping flow ending in a go or no-go decision.",
+      "bytes": 5116
+    },
+    {
+      "asset_id": "CON-202-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

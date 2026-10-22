@@ -1,33 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 462" width="100%" preserveAspectRatio="xMidYMid meet">
 <title>Evaluation loop</title>
 <desc>Four-step evaluation loop: define success criteria and KPIs during planning, execute comprehensive testing and refinement cycles, compare actual outcomes against targeted KPIs, then feed insights back into planning.</desc>
-<rect x="0" y="0" width="620" height="462" fill="#F6F3EB"/>
-<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#000000"/></marker></defs>
+<defs><radialGradient id="wt" cx="1.02" cy="-0.08" r="0.62" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#DEEEF0"/><stop offset="0.7" stop-color="#DEEEF0" stop-opacity="0"/></radialGradient><radialGradient id="wo" cx="-0.06" cy="1.06" r="0.45" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#F0C2F2"/><stop offset="0.72" stop-color="#F0C2F2" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="0" width="620" height="462" fill="#F6F3EB"/><rect x="0" y="0" width="620" height="462" fill="url(#wt)"/><rect x="0" y="0" width="620" height="462" fill="url(#wo)"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
 <text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">Evaluation loop</text>
-<rect x="24" y="64" width="572" height="68" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<circle cx="50" cy="98" r="15" fill="#343CED" stroke="#000000" stroke-width="2"/>
-<text x="50" y="103" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
-<text x="76" y="90" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Define success criteria first</text>
-<text x="76" y="110" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">Baseline metrics and KPIs are set during planning, not</text>
-<text x="76" y="127" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">after launch</text>
-<line x1="50" y1="132" x2="50" y2="166" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
-<rect x="24" y="166" width="572" height="68" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<circle cx="50" cy="200" r="15" fill="#343CED" stroke="#000000" stroke-width="2"/>
-<text x="50" y="205" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
-<text x="76" y="192" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Test and refine</text>
-<text x="76" y="212" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">Execute comprehensive testing and refinement cycles</text>
-<text x="76" y="229" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">before sign-off</text>
-<line x1="50" y1="234" x2="50" y2="268" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
-<rect x="24" y="268" width="572" height="68" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<circle cx="50" cy="302" r="15" fill="#343CED" stroke="#000000" stroke-width="2"/>
-<text x="50" y="307" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
-<text x="76" y="294" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Measure against target</text>
-<text x="76" y="314" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">Assess actual versus targeted KPIs and value delivered</text>
-<line x1="50" y1="336" x2="50" y2="370" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
-<rect x="24" y="370" width="572" height="68" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<circle cx="50" cy="404" r="15" fill="#343CED" stroke="#000000" stroke-width="2"/>
-<text x="50" y="409" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
-<text x="76" y="396" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Feed insights back</text>
-<text x="76" y="416" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">Results return to planning; strong agents become</text>
-<text x="76" y="433" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">templates</text>
+<rect x="24" y="64" width="572" height="68" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="50" y="102" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="13" letter-spacing="0.04em" fill="#666666" text-anchor="middle">01</text>
+<text x="76" y="92" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Define success criteria first</text>
+<text x="76" y="112" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Baseline metrics and KPIs are set during planning, not</text>
+<text x="76" y="129" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">after launch</text>
+<line x1="50" y1="136" x2="50" y2="162" stroke="#000000" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="24" y="166" width="572" height="68" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="50" y="204" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="13" letter-spacing="0.04em" fill="#666666" text-anchor="middle">02</text>
+<text x="76" y="194" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Test and refine</text>
+<text x="76" y="214" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Execute comprehensive testing and refinement cycles</text>
+<text x="76" y="231" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">before sign-off</text>
+<line x1="50" y1="238" x2="50" y2="264" stroke="#000000" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="24" y="268" width="572" height="68" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="50" y="306" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="13" letter-spacing="0.04em" fill="#666666" text-anchor="middle">03</text>
+<text x="76" y="296" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Measure against target</text>
+<text x="76" y="316" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Assess actual versus targeted KPIs and value delivered</text>
+<line x1="50" y1="340" x2="50" y2="366" stroke="#000000" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="24" y="370" width="572" height="68" rx="12" fill="#FFFFFF" stroke="#343CED" stroke-width="2"/>
+<text x="50" y="408" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="13" letter-spacing="0.04em" fill="#666666" text-anchor="middle">04</text>
+<text x="76" y="398" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Feed insights back</text>
+<text x="76" y="418" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Results return to planning; strong agents become</text>
+<text x="76" y="435" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">templates</text>
 </svg>

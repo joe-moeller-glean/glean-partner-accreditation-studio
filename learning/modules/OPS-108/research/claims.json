@@ -1,0 +1,196 @@
+{
+  "module_id": "OPS-108",
+  "claims": [
+    {
+      "claim_id": "C-303",
+      "text": "Gleaniverse is Glean's primary customer community: a secure space to ask product questions, share feedback, and discover best practices.",
+      "source_ids": [
+        "S-109"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-304",
+      "text": "Register for Gleaniverse with a work email so you receive the correct role and permissions.",
+      "source_ids": [
+        "S-109"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-302",
+      "text": "The Gleaniverse home page offers three starting points: Start a Discussion, Join a Group, and Explore Academy.",
+      "source_ids": [
+        "S-106"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-301",
+      "text": "Gleaniverse navigation includes Forum, Resources, Support Center, Events, Groups, Ask Query, and Academy.",
+      "source_ids": [
+        "S-106"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-306",
+      "text": "Look before you post: search first, because the question may already be answered.",
+      "source_ids": [
+        "S-107"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-225",
+      "text": "Glean Support runs a monthly live troubleshooting session on the second Thursday of each month, working through questions in small groups.",
+      "source_ids": [
+        "S-108",
+        "S-105"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-312",
+      "text": "The Glean Product Team hosts monthly product updates on the fourth Thursday of each month.",
+      "source_ids": [
+        "S-108"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-313",
+      "text": "Replays of previous Glean webinars and events are available on demand.",
+      "source_ids": [
+        "S-108"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-316",
+      "text": "Glean Academy in Gleaniverse offers courses to master new topics.",
+      "source_ids": [
+        "S-106"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-224",
+      "text": "Submit feature requests and product feedback on the Feedback and Ideas board in Gleaniverse.",
+      "source_ids": [
+        "S-101"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-315",
+      "text": "The Admin Hub is a restricted space for customer administrators.",
+      "source_ids": [
+        "S-109"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-305",
+      "text": "For bugs and errors in a Glean instance, file a support ticket. For questions, best practices, or feature requests, use the community.",
+      "source_ids": [
+        "S-109"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-314",
+      "text": "Community answers let Support help multiple customers at once and can reduce inbound volume.",
+      "source_ids": [
+        "S-109"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-307",
+      "text": "Keep sensitive information out: do not share confidential or personal data.",
+      "source_ids": [
+        "S-107"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-308",
+      "text": "Keep it relevant: focus on Glean and the broader AI industry. No spam, self-promotion, bots, or unsolicited outreach.",
+      "source_ids": [
+        "S-107"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-309",
+      "text": "Be kind and make it a safe space. Harassment, hate speech, or unwelcoming behavior is not tolerated.",
+      "source_ids": [
+        "S-107"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-310",
+      "text": "Make it better and build together: share feedback and learnings, and help others when they need it.",
+      "source_ids": [
+        "S-107"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-311",
+      "text": "Glean may remove content or restrict access for guideline violations. Report anything that does not feel right to the Glean team.",
+      "source_ids": [
+        "S-107"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    },
+    {
+      "claim_id": "C-212",
+      "text": "Priority levels are Low, Normal, High, and Urgent. Low covers non-critical issues such as general product inquiries and feature requests. Over-escalating priority can slow resolution for genuinely critical issues.",
+      "source_ids": [
+        "S-103"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)"
+    }
+  ]
+}

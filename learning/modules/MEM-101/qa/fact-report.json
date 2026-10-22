@@ -1,0 +1,12 @@
+{
+  "module_id":"MEM-101",
+  "run_date":"2026-09-25",
+  "claims_total":15,
+  "claims_verified":15,
+  "claims_unsourced":0,
+  "sources_total":5,
+  "tier_1":3,
+  "tier_2":2,
+  "research_method":"PowerUP deck and current Glean product documentation reviewed through Glean enterprise sources. Claims are limited to the verified Memory foundations, taxonomy, write/read paths, control model, and availability caveats.",
+  "state":"PASS"
+}

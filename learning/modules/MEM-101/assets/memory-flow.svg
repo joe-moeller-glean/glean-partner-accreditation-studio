@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+<title id="title">Glean Memory flow</title><desc id="desc">Assistant traces and enterprise activity flow through memory writers and consolidation into a retrievable memory layer around the model.</desc>
+<rect width="760" height="420" rx="24" fill="#f7f8fa"/>
+<g font-family="Arial, sans-serif" fill="#202124">
+<rect x="36" y="54" width="176" height="92" rx="14" fill="#fff" stroke="#d9dde5" stroke-width="2"/><text x="54" y="88" font-size="18" font-weight="700">Assistant traces</text><text x="54" y="116" font-size="14">chats · tools · corrections</text>
+<rect x="36" y="274" width="176" height="92" rx="14" fill="#fff" stroke="#d9dde5" stroke-width="2"/><text x="54" y="308" font-size="18" font-weight="700">Work activity</text><text x="54" y="336" font-size="14">docs · meetings · search</text>
+<path d="M214 100H276M214 320H276" stroke="#5966f2" stroke-width="4" stroke-linecap="round"/><path d="m266 92 12 8-12 8M266 312l12 8-12 8" fill="none" stroke="#5966f2" stroke-width="4"/>
+<rect x="278" y="138" width="204" height="144" rx="16" fill="#5966f2"/><text x="306" y="180" font-size="20" font-weight="700" fill="#fff">Write +</text><text x="306" y="208" font-size="20" font-weight="700" fill="#fff">consolidate</text><text x="306" y="242" font-size="14" fill="#eef0ff">session log · activity</text><text x="306" y="264" font-size="14" fill="#eef0ff">snapshot · consolidation</text>
+<path d="M482 210h62" stroke="#5966f2" stroke-width="4" stroke-linecap="round"/><path d="m534 202 12 8-12 8" fill="none" stroke="#5966f2" stroke-width="4"/>
+<rect x="546" y="118" width="178" height="184" rx="16" fill="#202124"/><text x="572" y="156" font-size="20" font-weight="700" fill="#fff">Memory layer</text><text x="572" y="188" font-size="14" fill="#dce1ff">procedural</text><text x="572" y="214" font-size="14" fill="#dce1ff">semantic</text><text x="572" y="240" font-size="14" fill="#dce1ff">episodic</text><text x="572" y="274" font-size="13" fill="#fff">selective read</text>
+</g>
+</svg>

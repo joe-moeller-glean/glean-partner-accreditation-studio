@@ -1,0 +1,10 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-02",
+  "eyebrow": "Cold open",
+  "title": "Accepted, but not found",
+  "body": "Your connector pushed a revised policy page, and the API accepted it. Forty minutes later, a nurse lead searches and gets last month's version. Nothing errored. Where is the page? This module gives you the map to answer that in minutes, not days.",
+  "footnote": "Composite, fictional case used across this accreditation. Product behavior is sourced; the customer environment and its numbers are invented for practice.",
+  "claims": []
+}

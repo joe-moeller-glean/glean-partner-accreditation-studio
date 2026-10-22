@@ -1,29 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 310" width="100%" preserveAspectRatio="xMidYMid meet">
 <title>Native and custom, paired</title>
 <desc>Comparison table pairing native and custom examples for MCP, actions, and skills.</desc>
-<rect x="0" y="0" width="620" height="310" fill="#F6F3EB"/>
+<defs><radialGradient id="wt" cx="1.02" cy="-0.08" r="0.62" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#DEEEF0"/><stop offset="0.7" stop-color="#DEEEF0" stop-opacity="0"/></radialGradient><radialGradient id="wo" cx="-0.06" cy="1.06" r="0.45" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#F0C2F2"/><stop offset="0.72" stop-color="#F0C2F2" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="0" width="620" height="310" fill="#F6F3EB"/><rect x="0" y="0" width="620" height="310" fill="url(#wt)"/><rect x="0" y="0" width="620" height="310" fill="url(#wo)"/>
 <text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">Native and custom, paired</text>
-<rect x="24" y="64" width="286" height="36" rx="8" fill="#343CED" stroke="#000000" stroke-width="2"/>
-<text x="36" y="87" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="start">Native example</text>
-<rect x="310" y="64" width="286" height="36" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="322" y="87" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Custom example</text>
-<rect x="24" y="100" width="286" height="62" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="36" y="124" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">MCP: verified GitHub, Notion,</text>
-<text x="36" y="139" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Asana, Canva, HubSpot, or</text>
-<text x="36" y="154" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">PagerDuty server</text>
-<rect x="310" y="100" width="286" height="62" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="322" y="124" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">MCP: customer-hosted internal HR,</text>
-<text x="322" y="139" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">analytics, or ticketing server</text>
-<rect x="24" y="162" width="286" height="62" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="36" y="186" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Actions: built-in Gmail or Jira</text>
-<text x="36" y="201" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">creation template</text>
-<rect x="310" y="162" width="286" height="62" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="322" y="186" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Actions: internal onboarding,</text>
-<text x="322" y="201" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">approval, or ticketing workflow</text>
-<rect x="24" y="224" width="286" height="62" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="36" y="248" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Skills: Glean platform skill</text>
-<rect x="310" y="224" width="286" height="62" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="322" y="248" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Skills: partner-authored</text>
-<text x="322" y="263" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">methodology for delivery or</text>
-<text x="322" y="278" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">research</text>
+<rect x="24" y="64" width="282" height="222" rx="12" fill="#FFFFFF" stroke="#343CED" stroke-width="2"/>
+<text x="38" y="88" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Native example</text>
+<rect x="314" y="64" width="282" height="222" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="328" y="88" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="start">Custom example</text>
+<line x1="38" y1="100" x2="292" y2="100" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="38" y="124" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">MCP: verified GitHub, Notion,</text>
+<text x="38" y="139" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Asana, Canva, HubSpot, or</text>
+<text x="38" y="154" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">PagerDuty server</text>
+<line x1="328" y1="100" x2="582" y2="100" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="328" y="124" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">MCP: customer-hosted internal HR,</text>
+<text x="328" y="139" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">analytics, or ticketing server</text>
+<line x1="38" y1="162" x2="292" y2="162" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="38" y="186" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Actions: built-in Gmail or Jira</text>
+<text x="38" y="201" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">creation template</text>
+<line x1="328" y1="162" x2="582" y2="162" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="328" y="186" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Actions: internal onboarding,</text>
+<text x="328" y="201" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">approval, or ticketing workflow</text>
+<line x1="38" y1="224" x2="292" y2="224" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="38" y="248" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Skills: Glean platform skill</text>
+<line x1="328" y1="224" x2="582" y2="224" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="328" y="248" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Skills: partner-authored</text>
+<text x="328" y="263" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">methodology for delivery or</text>
+<text x="328" y="278" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">research</text>
 </svg>

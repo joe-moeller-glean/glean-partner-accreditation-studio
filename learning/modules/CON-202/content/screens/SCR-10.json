@@ -1,0 +1,57 @@
+{
+  "id": "SCR-10",
+  "archetype": "A9",
+  "objective": "OBJ-05",
+  "eyebrow": "Practice",
+  "title": "Tag each intake finding",
+  "prompt": "Place each finding in the risk area it belongs to.",
+  "type": "sort",
+  "categories": [
+    "Permissions",
+    "Identity",
+    "Freshness and deletion",
+    "Hosting and security",
+    "Capacity"
+  ],
+  "pairs": [
+    {
+      "item": "Controlled-substance pages require both the pharmacist group and the clinic group.",
+      "category": "Permissions",
+      "why": "An AND rule maps to a group intersection: a user must belong to every group within one entry."
+    },
+    {
+      "item": "Contractor accounts use personal emails that are not in SSO.",
+      "category": "Identity",
+      "why": "Unmatched identities need a manual map or a documented exclusion."
+    },
+    {
+      "item": "Permission removals must reach Glean within one hour.",
+      "category": "Freshness and deletion",
+      "why": "Permission change frequency drives the refresh schedule."
+    },
+    {
+      "item": "No data may leave the customer network except to Glean indexing endpoints.",
+      "category": "Hosting and security",
+      "why": "A self-hosted environment must allow pushes to Glean's indexing endpoints."
+    },
+    {
+      "item": "The source allows 300 requests per minute and returns 429 with Retry-After.",
+      "category": "Capacity",
+      "why": "Pace below the quota and honor Retry-After."
+    },
+    {
+      "item": "Deletion tombstones are kept for only 30 days.",
+      "category": "Freshness and deletion",
+      "why": "A short deletion signal means a regular full run must stay in the plan to reconcile deletions."
+    }
+  ],
+  "takeaway": "Every finding lands in a design decision, or it was not worth asking.",
+  "claims": [
+    "C-198",
+    "C-240",
+    "C-257",
+    "C-046",
+    "C-193",
+    "C-176"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "SCR-10",
+  "archetype": "A10",
+  "objective": "OBJ-05",
+  "eyebrow": "Myth versus reality",
+  "title": "Four SDK surprises",
+  "hotspots": [
+    {
+      "label": "Myth: the SDK handles incremental for me.",
+      "detail": "The SDK does not persist checkpoints. Without an override of _get_last_crawl_timestamp(), since is None and the data client falls back to a full fetch."
+    },
+    {
+      "label": "Myth: streaming connectors push identities.",
+      "detail": "Their indexing implementations do not run the optional get_identities() crawl."
+    },
+    {
+      "label": "Myth: --max-items makes a live run safe.",
+      "detail": "max_items limits source consumption. It is not a Glean-side upload cap. On a full run, it makes the replacement partial, which can delete everything not included."
+    },
+    {
+      "label": "Myth: smaller batches fix out-of-memory errors.",
+      "detail": "Batching happens after transform. Switch to a streaming connector."
+    }
+  ],
+  "claims": [
+    "C-172",
+    "C-325",
+    "C-166",
+    "C-326",
+    "C-159",
+    "C-167"
+  ]
+}

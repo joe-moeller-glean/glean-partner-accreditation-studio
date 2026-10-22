@@ -18,7 +18,7 @@
         "C-49"
       ],
       "alt": "Stacked diagram of the Glean operating model with agents on top, assistant in the middle, and search over company knowledge at the base.",
-      "bytes": 2284
+      "bytes": 2919
     },
     {
       "asset_id": "FND-104-A02",
@@ -36,7 +36,22 @@
         "C-64"
       ],
       "alt": "Four cards describing skills, actions, MCP, and agents and the job each one does.",
-      "bytes": 3319
+      "bytes": 4686
+    },
+    {
+      "asset_id": "FND-104-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
     }
   ]
 }

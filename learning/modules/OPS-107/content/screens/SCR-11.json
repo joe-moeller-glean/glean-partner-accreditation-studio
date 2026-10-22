@@ -1,0 +1,36 @@
+{
+  "id": "SCR-11",
+  "archetype": "A6",
+  "objective": "OBJ-03",
+  "eyebrow": "Decision",
+  "title": "The outage from Monday: what now?",
+  "type": "choice",
+  "prompt": "Back to the cold open. Search is unavailable to all users. The customer admin is a Designated Support Contact. What do you advise?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Post in the shared chat channel and email a known contact, then open a ticket later if nobody answers.",
+      "feedback": "Not this one. Response times cannot be tracked accurately outside the support portal, so the clock does not start."
+    },
+    {
+      "id": "o1",
+      "text": "Sign in to Gleaniverse, open the support widget, create an Urgent ticket with all six details, and add any new evidence to that same ticket.",
+      "correct": true,
+      "feedback": "Correct. Only portal incidents are SLA-eligible. A complete Urgent ticket for a full outage starts the tracked response, and the ticket stays the system of record."
+    },
+    {
+      "id": "o3",
+      "text": "Open a High ticket now and a second Urgent ticket in an hour to make sure it gets seen.",
+      "feedback": "Not this one. The outage is Urgent by definition. Duplicate tickets and incorrect priority slow triage for everyone."
+    }
+  ],
+  "takeaway": "Escalate inside the portal: correct priority, complete evidence, one ticket.",
+  "footnote": "Studio guidance: if a tracked ticket needs more attention, update that ticket and confirm its priority first. For partner-specific escalation paths, confirm your path with the Glean partner team.",
+  "claims": [
+    "C-216",
+    "C-220",
+    "C-211",
+    "C-212",
+    "C-213"
+  ]
+}

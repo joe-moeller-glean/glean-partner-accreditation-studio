@@ -1,0 +1,44 @@
+{
+  "id": "SCR-10",
+  "archetype": "A3",
+  "objective": "OBJ-03",
+  "eyebrow": "Why the portal matters",
+  "title": "Only portal incidents start the SLA clock",
+  "body": "Only incidents submitted through the Glean support portal are eligible for SLA response times. Response times cannot be tracked accurately outside the portal. The customer's Order Form sets the support tier.",
+  "table": {
+    "caption": "Initial response times from the Glean Customer Support SLA (v6Mar2026)",
+    "head": [
+      "Priority",
+      "Standard",
+      "Premium"
+    ],
+    "rows": [
+      [
+        "Urgent",
+        "1 business day",
+        "1 hour"
+      ],
+      [
+        "High",
+        "2 business days",
+        "4 business hours"
+      ],
+      [
+        "Normal",
+        "1 business week",
+        "1 business day"
+      ],
+      [
+        "Low",
+        "1 business week",
+        "2 business days"
+      ]
+    ]
+  },
+  "footnote": "Standard Support provides 24x5 coverage and 1 to 4 Designated Support Contacts. Premium provides 24x7 coverage for Urgent incidents only and 1 to 10 Designated Support Contacts. These are Glean's commitments to the customer. Never present them as a partner commitment.",
+  "claims": [
+    "C-216",
+    "C-217",
+    "C-218"
+  ]
+}

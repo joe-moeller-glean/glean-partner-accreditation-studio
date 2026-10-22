@@ -1,0 +1,335 @@
+{
+  "module_id": "CON-101",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "Which pair describes the two functions an indexing connector performs?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Rendering search results and ranking them for each user"
+        },
+        {
+          "id": "a",
+          "text": "Fetching data including permissions, and parsing content and permissions"
+        },
+        {
+          "id": "c",
+          "text": "Hosting the source application and backing up its data"
+        },
+        {
+          "id": "d",
+          "text": "Answering questions with a language model at query time"
+        }
+      ],
+      "claims": [
+        "C-003",
+        "C-004"
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-01",
+      "stem": "A custom connector pushes documents and permissions but no activity data. What should the partner tell the customer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Results will work, but ranking is weaker and other sources may outrank them"
+        },
+        {
+          "id": "b",
+          "text": "Activity is optional and has no effect on relevance"
+        },
+        {
+          "id": "c",
+          "text": "Documents stay hidden from search until activity arrives"
+        },
+        {
+          "id": "d",
+          "text": "Glean will infer activity from upload timestamps"
+        }
+      ],
+      "claims": [
+        "C-016",
+        "C-135",
+        "C-136"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "A technology partner builds an integration that pushes through the Indexing API and lists it for customers. Who supports it?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Glean Support, as with native connectors"
+        },
+        {
+          "id": "c",
+          "text": "The customer's Glean admin, alone"
+        },
+        {
+          "id": "d",
+          "text": "Nobody; push connectors are unsupported"
+        },
+        {
+          "id": "a",
+          "text": "The partner organization that built it"
+        }
+      ],
+      "claims": [
+        "C-010",
+        "C-273"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "Which system is the documented fit for a push API connector?",
+      "options": [
+        {
+          "id": "b",
+          "text": "A SaaS app that already has a native Glean connector"
+        },
+        {
+          "id": "c",
+          "text": "Browsing history from users' web sessions"
+        },
+        {
+          "id": "a",
+          "text": "An in-house application behind the customer's firewall"
+        },
+        {
+          "id": "d",
+          "text": "A fast-changing feed that users must act on"
+        }
+      ],
+      "claims": [
+        "C-008",
+        "C-035",
+        "C-007"
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "Users ask what changed in the leave policy over the last three years, across many wiki pages. Which path fits best?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Live access, because policy content is sensitive"
+        },
+        {
+          "id": "a",
+          "text": "Indexed access, because the question is historical and cross-document"
+        },
+        {
+          "id": "c",
+          "text": "A tool that fetches one page at request time"
+        },
+        {
+          "id": "d",
+          "text": "Web history, because users visited the pages"
+        }
+      ],
+      "claims": [
+        "C-021",
+        "C-013",
+        "C-007"
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-03",
+      "stem": "Which data does the documentation describe as a fit for live retrieval?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Email, calendar, or chat where minutes-to-hours freshness dominates"
+        },
+        {
+          "id": "b",
+          "text": "Knowledge articles that change quarterly"
+        },
+        {
+          "id": "c",
+          "text": "Source code repositories searched by engineers"
+        },
+        {
+          "id": "d",
+          "text": "Historical wiki pages used for cited answers"
+        }
+      ],
+      "claims": [
+        "C-022",
+        "C-021"
+      ]
+    },
+    {
+      "id": "Q-07",
+      "objective_id": "OBJ-03",
+      "stem": "With indexed access, which permissions does Glean apply when a user searches?",
+      "options": [
+        {
+          "id": "b",
+          "text": "A live permission check against the source on every query"
+        },
+        {
+          "id": "c",
+          "text": "No permissions; indexed content is open to all users"
+        },
+        {
+          "id": "d",
+          "text": "Only the permissions of the connector's service account"
+        },
+        {
+          "id": "a",
+          "text": "The permission snapshot mirrored during crawling and incremental updates"
+        }
+      ],
+      "claims": [
+        "C-013",
+        "C-014",
+        "C-020",
+        "C-025"
+      ]
+    },
+    {
+      "id": "Q-08",
+      "objective_id": "OBJ-04",
+      "stem": "A team connects an MCP server to its ticketing tool and creates tickets from Glean. A week later, the tickets are not in search. Why?",
+      "options": [
+        {
+          "id": "b",
+          "text": "The MCP server has not finished its nightly crawl"
+        },
+        {
+          "id": "c",
+          "text": "Search hides content that agents create"
+        },
+        {
+          "id": "a",
+          "text": "Tools act at request time and do not make source content searchable"
+        },
+        {
+          "id": "d",
+          "text": "The tickets need Custom Metadata before they show"
+        }
+      ],
+      "claims": [
+        "C-011",
+        "C-100"
+      ]
+    },
+    {
+      "id": "Q-09",
+      "objective_id": "OBJ-04",
+      "stem": "A deployment created on 2026-10-05 needs a catalog-backed MCP integration. Where does the admin set it up?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Through the Indexing API datasource configuration"
+        },
+        {
+          "id": "a",
+          "text": "From Connectors, where catalog MCP integrations are configured"
+        },
+        {
+          "id": "c",
+          "text": "Only by writing a custom connector first"
+        },
+        {
+          "id": "d",
+          "text": "Through the Connect remote MCP servers path"
+        }
+      ],
+      "claims": [
+        "C-027",
+        "C-029"
+      ]
+    },
+    {
+      "id": "Q-10",
+      "objective_id": "OBJ-04",
+      "stem": "NetSuite MCP is an example of which design?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hybrid: the MCP entry depends on the native indexing connector"
+        },
+        {
+          "id": "b",
+          "text": "Live-only, which removes the need for an index"
+        },
+        {
+          "id": "c",
+          "text": "Indexed-only, with no request-time access"
+        },
+        {
+          "id": "d",
+          "text": "A third-party integration outside Glean's documentation"
+        }
+      ],
+      "claims": [
+        "C-030",
+        "C-031"
+      ]
+    },
+    {
+      "id": "Q-11",
+      "objective_id": "OBJ-05",
+      "stem": "Finance asks you to index 410 million claim rows so analysts can ask for denial rates by payer. What do you recommend?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Build a custom connector that indexes each row"
+        },
+        {
+          "id": "c",
+          "text": "Index a sample and let Assistant extrapolate"
+        },
+        {
+          "id": "d",
+          "text": "Use web history for the analysts' dashboards"
+        },
+        {
+          "id": "a",
+          "text": "Query the warehouse live with a custom action or MCP server"
+        }
+      ],
+      "claims": [
+        "C-033"
+      ]
+    },
+    {
+      "id": "Q-12",
+      "objective_id": "OBJ-05",
+      "stem": "Which question comes first, before any build decision?",
+      "options": [
+        {
+          "id": "b",
+          "text": "What programming language will the connector use?"
+        },
+        {
+          "id": "c",
+          "text": "How many documents will the first bulk upload hold?"
+        },
+        {
+          "id": "a",
+          "text": "Is there a native connector, or can the Glean Web Crawler cover it?"
+        },
+        {
+          "id": "d",
+          "text": "Which hosting option is cheapest?"
+        }
+      ],
+      "claims": [
+        "C-250",
+        "C-035",
+        "C-045"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-02",
+  "eyebrow": "Cold open",
+  "title": "A good question in the wrong place",
+  "body": "A customer admin asks you how other companies roll out agents to their teams. They plan to open a support ticket for it. The question is real, but a ticket is built to track one instance issue to a resolution. There is a place where many peers, and Glean staff, can answer it.",
+  "claims": []
+}

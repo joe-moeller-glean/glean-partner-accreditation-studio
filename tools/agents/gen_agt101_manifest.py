@@ -12,7 +12,7 @@ assets.append({
     "asset_id": "AGT-101-A01",
     "path": "assets/hero-flow.svg",
     "type": "svg_render",
-    "purpose": "Decorative gradient ribbon behind the hero band. Brand blues into oatmeal. Carries no information.",
+    "purpose": "Decorative ribbon behind the hero band in the brand indigo and sunset direction over an oatmeal corner wash. Carries no information.",
     "band_id": "BAND-01",
     "license": LICENSE,
     "created": CREATED,
@@ -52,7 +52,7 @@ for i, p in enumerate(sorted((BASE / "icons").glob("*.svg")), start=1):
         "asset_id": "AGT-101-I%02d" % i,
         "path": "assets/icons/" + p.name,
         "type": "svg_icon",
-        "purpose": "Hairline line icon, 24px grid, 1.5 stroke. Always paired with a visible text label; never the sole carrier of meaning.",
+        "purpose": "Hairline line icon, 24px grid, 1.75 stroke. Always paired with a visible text label; never the sole carrier of meaning.",
         "band_id": "shared",
         "license": LICENSE,
         "created": CREATED,
@@ -60,6 +60,19 @@ for i, p in enumerate(sorted((BASE / "icons").glob("*.svg")), start=1):
         "alt": "",
         "claim_ids": [],
     })
+
+assets.append({
+    "asset_id": "AGT-101-LOGO",
+    "path": "assets/brand/glean-wordmark-electric-blue.svg",
+    "type": "brand_logo",
+    "purpose": "Approved Glean wordmark in the masthead. Placed unmodified.",
+    "band_id": None,
+    "license": "Glean trademark - use per brand guidelines",
+    "created": "2026-09-25",
+    "decorative": False,
+    "alt": "Glean",
+    "claim_ids": [],
+})
 
 manifest = {
     "module_id": "AGT-101",

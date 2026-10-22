@@ -1,0 +1,32 @@
+{
+  "id": "SCR-12",
+  "archetype": "A12",
+  "objective": "OBJ-03",
+  "eyebrow": "Checkpoint",
+  "title": "Where is the company's ticket history?",
+  "type": "choice",
+  "prompt": "A Designated Support Contact wants to see every ticket their company has opened. What should they do?",
+  "options": [
+    {
+      "id": "o1",
+      "text": "Open the support widget from Gleaniverse and select the Go to customer portal banner.",
+      "correct": true,
+      "feedback": "Correct. The banner appears in the Messages and Tickets sections. The portal recognizes identity only through the authenticated Gleaniverse path."
+    },
+    {
+      "id": "o2",
+      "text": "Bookmark ticket.glean.com and go there directly.",
+      "feedback": "Not this one. The portal will not recognize the user's identity unless they arrive through the support widget."
+    },
+    {
+      "id": "o3",
+      "text": "Email help@glean.com and ask for a ticket export.",
+      "feedback": "Not this one. Company-wide history is available directly in the customer portal."
+    }
+  ],
+  "takeaway": "The Tickets section appears only after the first ticket is created.",
+  "claims": [
+    "C-215",
+    "C-214"
+  ]
+}

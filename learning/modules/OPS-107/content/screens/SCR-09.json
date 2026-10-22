@@ -1,0 +1,32 @@
+{
+  "id": "SCR-09",
+  "archetype": "A12",
+  "objective": "OBJ-02",
+  "eyebrow": "Checkpoint",
+  "title": "A new release broke two existing connectors",
+  "type": "choice",
+  "prompt": "After a new Service release, two existing connected applications stopped returning results. Most users can still search other sources. Which priority fits?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Urgent.",
+      "feedback": "Not this one. Urgent is for a complete outage, such as the Service unavailable to all users, or a security incident."
+    },
+    {
+      "id": "o3",
+      "text": "Low.",
+      "feedback": "Not this one. Low is for non-critical questions. Broken connected applications affect how people use the product."
+    },
+    {
+      "id": "o1",
+      "text": "High.",
+      "correct": true,
+      "feedback": "Correct. The SLA lists a new Service release that materially harms existing connected applications as a High example."
+    }
+  ],
+  "takeaway": "Match the priority to the documented definition. Accurate priority helps support triage every customer.",
+  "claims": [
+    "C-220",
+    "C-212"
+  ]
+}

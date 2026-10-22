@@ -1,0 +1,58 @@
+{
+  "module_id": "OPS-108",
+  "assets": [
+    {
+      "asset_id": "OPS-108-A01",
+      "path": "assets/svg/ops-108-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Six areas: Forum for discussions; Groups for peers; Events for live sessions; Academy for courses; Resources for guides and guidelines; Support Center for conversations and tickets.",
+      "screen_id": "SCR-03",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-26",
+      "claim_ids": [
+        "C-301",
+        "C-302",
+        "C-316"
+      ],
+      "alt": "Grid of six Gleaniverse areas and what each one is for.",
+      "bytes": 5538
+    },
+    {
+      "asset_id": "OPS-108-A02",
+      "path": "assets/svg/ops-108-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Two-column comparison. Community: questions, best practices, feature requests, shared answers. Support ticket: bugs and errors in a specific Glean instance, private evidence, tracked resolution.",
+      "screen_id": "SCR-05",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-26",
+      "claim_ids": [
+        "C-305",
+        "C-314",
+        "C-307"
+      ],
+      "alt": "Comparison of what belongs in the Gleaniverse community and what belongs in a Glean support ticket.",
+      "bytes": 3734
+    },
+    {
+      "asset_id": "OPS-108-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

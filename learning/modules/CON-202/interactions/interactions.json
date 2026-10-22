@@ -1,0 +1,99 @@
+{
+  "module_id": "CON-202",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-04-HOTSPOT",
+      "screen_id": "SCR-04",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-01",
+      "archetype": "A4",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-251",
+        "C-252",
+        "C-254",
+        "C-255",
+        "C-256",
+        "C-257",
+        "C-253"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-06-HOTSPOT",
+      "screen_id": "SCR-06",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-02",
+      "archetype": "A10",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-254",
+        "C-111",
+        "C-240",
+        "C-045"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-08",
+      "screen_id": "SCR-08",
+      "kind": "choice",
+      "objective_id": "OBJ-04",
+      "archetype": "A6",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-118",
+        "C-240",
+        "C-195",
+        "C-197"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-10",
+      "screen_id": "SCR-10",
+      "kind": "sort",
+      "objective_id": "OBJ-05",
+      "archetype": "A9",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-198",
+        "C-240",
+        "C-257",
+        "C-046",
+        "C-193",
+        "C-176"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-11-HOTSPOT",
+      "screen_id": "SCR-11",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-05",
+      "archetype": "A4",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-154",
+        "C-170",
+        "C-090",
+        "C-254",
+        "C-238"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-13",
+      "screen_id": "SCR-13",
+      "kind": "choice",
+      "objective_id": "OBJ-05",
+      "archetype": "A6",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-045",
+        "C-135"
+      ]
+    }
+  ]
+}

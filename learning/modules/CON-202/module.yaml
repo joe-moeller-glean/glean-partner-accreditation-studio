@@ -1,0 +1,28 @@
+module_id: CON-202
+title: "Custom Connector Scoping and Intake"
+design_system: paged-v1
+learning_path: "Custom Connector Competency"
+request_type: single
+audience: ["Builders", "Solution architects", "Delivery engineers"]
+level: 200
+learning_outcomes:
+  - "Run structured discovery with the custom connector questionnaire and record evidence, not assumptions."
+  - "Assess feasibility for content, permissions, people, and activity, and state the cost of each gap."
+  - "Size a crawl against source and Glean rate limits."
+  - "Choose an identity strategy and a hosting model with the customer."
+  - "Build a risk register and make a conditional go or no-go call."
+prerequisites: ["CON-101"]
+target_hours: 2.2
+tracker_hours: 2.2
+mastery_score: 80
+assessment_type: "Quiz + scored intake artifact (assessor)"
+wave: Wave 2
+accreditation: accred-custom-connectors
+also_counts_toward: []
+authoring_contract: "plan/custom-connectors/CON-202-scoping-and-intake.md"
+source_ledger: plan/custom-connectors/claims.json (verified verbatim; learner-facing claims only)
+sme: "Eugene Wiehahn (questionnaire owner) - confirmation pending"
+publish_mode: manual_review
+open_questions:
+  - "Partner access to Glean-hosted deployment for partner-built connectors is unconfirmed; the module tells learners to confirm with their Partner Manager."
+  - "Bulk-upload endpoint rate limit is not in the reviewed sources; sizing uses documented /indexdocument and /indexdocuments limits only."

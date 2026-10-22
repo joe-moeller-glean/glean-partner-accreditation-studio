@@ -1,0 +1,21 @@
+{
+  "id": "SCR-14",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "Query time",
+  "title": "Content quality limits answer quality",
+  "body": "At query time, results are permission-filtered, and retrieved snippets are passed to the language model. What you index is what the model can use.",
+  "bullets": [
+    "Items over 64 MB index metadata and permissions only: users can find them, but Assistant cannot summarize them.",
+    "Indexable content is truncated at 16.875 MB. Apply these limits to custom connectors too.",
+    "Validate coverage and permissions in Search before relying on Assistant or Agents."
+  ],
+  "claims": [
+    "C-026",
+    "C-090",
+    "C-241",
+    "C-091",
+    "C-093",
+    "C-024"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SCR-13",
+  "archetype": "A8",
+  "objective": "OBJ-05",
+  "eyebrow": "Worked diagnosis",
+  "title": "The stale policy page, solved",
+  "steps": [
+    {
+      "title": "Symptom",
+      "body": "Search returns last month's version 40 minutes after an accepted upload."
+    },
+    {
+      "title": "Was it sent?",
+      "body": "The upload log shows the new version posted under the same document ID."
+    },
+    {
+      "title": "Is it processed?",
+      "body": "processingHistory is still older than the upload. The page is accepted, not yet searchable."
+    },
+    {
+      "title": "Why so slow?",
+      "body": "The same hour pushed 2,000 membership changes. Documents and permissions share one queue."
+    },
+    {
+      "title": "Action",
+      "body": "Watch processing; do not re-upload. If processing is stuck, /processalldocuments reprocesses without a new upload, once every 3 hours."
+    }
+  ],
+  "claims": [
+    "C-070",
+    "C-232",
+    "C-075",
+    "C-079"
+  ]
+}

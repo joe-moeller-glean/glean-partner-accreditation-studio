@@ -1,0 +1,28 @@
+module_id: ACC-107
+title: "Custom Connector Competency Capstone"
+design_system: paged-v1
+learning_path: "Custom Connector Competency"
+request_type: single
+audience: ["Builders", "Solution architects", "Delivery engineers"]
+level: 300
+learning_outcomes:
+  - "Distinguish this learning accreditation from the official Custom Connector Competency."
+  - "Assemble a portfolio mapped to the official competency requirements."
+  - "Prepare for the unseen case and the reviewer probes."
+  - "Prepare the official submission package and plan for renewal."
+prerequisites: ["CON-101", "CON-201", "CON-202", "TEC-201", "BLD-201", "CON-203", "CON-204", "BLD-202", "CON-301"]
+target_hours: 5.0
+tracker_hours: 5.0
+mastery_score: 80
+assessment_type: "Self-check quiz + portfolio, unseen case, and two-reviewer review (outside the package)"
+wave: Wave 2
+accreditation: accred-custom-connectors
+also_counts_toward: []
+authoring_contract: "plan/custom-connectors/ACC-107-competency-capstone.md"
+source_ledger: plan/custom-connectors/claims.json (verified verbatim; learner-facing claims only)
+sme: "unassigned - needs_sme (Partner program + Partner Solutions Engineering)"
+publish_mode: manual_review
+open_questions:
+  - "OD-1: confirm which Competency Program Guide copy is the system of record before first cohort."
+  - "Reviewer rubric weights are studio-authored from internal review criteria; calibrate on the first 10 submissions."
+  - "Confirm the current official submission route with the partner program owner."

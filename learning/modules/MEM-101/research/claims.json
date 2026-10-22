@@ -1,0 +1,22 @@
+{
+  "module_id": "MEM-101",
+  "verified_on": "2026-09-25",
+  "verifier": "Fact Integrity Auditor (PowerUP and product-doc pass)",
+  "claims": [
+    {"claim_id":"C-01","text":"LLMs are stateless systems and do not retain prior prompts or responses by themselves.","source_ids":["P-01"],"verdict":"verified","evidence":"PowerUP foundations section describes LLMs as inherently stateless."},
+    {"claim_id":"C-02","text":"An agent harness is the surrounding software infrastructure that manages context, tools, memory, state, execution environments, and feedback loops around an LLM.","source_ids":["P-01"],"verdict":"verified","evidence":"PowerUP foundation and agent-harness slides."},
+    {"claim_id":"C-03","text":"Agent memory learns about a user from prior conversations and activity across connected enterprise systems.","source_ids":["P-01","D-01"],"verdict":"verified","evidence":"PowerUP definition of agent memory and current Memory documentation."},
+    {"claim_id":"C-04","text":"The PowerUP distinguishes short-term memory from long-term procedural, semantic, and episodic memory.","source_ids":["P-01"],"verdict":"verified","evidence":"PowerUP memory taxonomy slide."},
+    {"claim_id":"C-05","text":"Procedural memory is knowing how a user gets work done, semantic memory is knowing durable facts, and episodic memory is remembering when.","source_ids":["P-01"],"verdict":"verified","evidence":"PowerUP long-term memory taxonomy slide."},
+    {"claim_id":"C-06","text":"Short-term memory includes session-based working context; long-term memory carries useful context across sessions and time.","source_ids":["P-01","D-01"],"verdict":"verified","evidence":"PowerUP short-term/long-term taxonomy and Memory documentation."},
+    {"claim_id":"C-07","text":"Glean’s session log writer reads assistant traces including conversation history, tool calls, outputs, decisions, failures, and user corrections.","source_ids":["P-01"],"verdict":"verified","evidence":"PowerUP Engram write slide."},
+    {"claim_id":"C-08","text":"Glean’s activity snapshot agent extracts agent-relevant memories from enterprise activity independently of assistant usage.","source_ids":["P-01"],"verdict":"verified","evidence":"PowerUP Engram write slide."},
+    {"claim_id":"C-09","text":"A consolidation agent reads session and activity outputs and pushes them into long-term memory; the PowerUP says new context is consolidated daily.","source_ids":["P-01"],"verdict":"verified","evidence":"PowerUP Engram write and limitations slides."},
+    {"claim_id":"C-10","text":"At run time, a small high-signal memory summary can be placed in the system prompt.","source_ids":["P-01","D-01"],"verdict":"verified","evidence":"PowerUP Engram read slide and Memory documentation."},
+    {"claim_id":"C-11","text":"At run time, Glean selectively retrieves relevant sections of memory files, daily logs, and snapshots using progressive disclosure.","source_ids":["P-01","D-02"],"verdict":"verified","evidence":"PowerUP Engram read slide and current agent-building guidance."},
+    {"claim_id":"C-12","text":"The PowerUP presents personal memory management as user-controlled: users can view, edit, and delete memory details.","source_ids":["P-01"],"verdict":"verified","evidence":"PowerUP memory-management and closing slides."},
+    {"claim_id":"C-13","text":"The PowerUP positions Glean as a centrally governed memory layer across Glean Assistant, connected apps, and third-party AI tools through Gateway or MCP patterns.","source_ids":["P-01"],"verdict":"verified","evidence":"PowerUP cross-surface and shareable-memory slides."},
+    {"claim_id":"C-14","text":"The PowerUP states that current support for agent Memory is for Glean hosted and Glean Key customers, that new context may take about a day to appear, and that this differs from the per-step Memory field in Workflow Agent builder.","source_ids":["P-01"],"verdict":"verified","evidence":"PowerUP known-limitations slide."},
+    {"claim_id":"C-15","text":"Current product documentation should be checked before making a customer commitment about Memory behavior or availability.","source_ids":["D-01","D-02"],"verdict":"verified","evidence":"Studio sourcing rule: current product documentation is primary authority for product behavior."}
+  ]
+}

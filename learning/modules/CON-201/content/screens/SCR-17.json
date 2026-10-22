@@ -1,0 +1,10 @@
+{
+  "id": "SCR-17",
+  "archetype": "A14",
+  "objective": "OBJ-01",
+  "eyebrow": "Next step",
+  "title": "Next: scope the source before anyone writes code",
+  "body": "CON-202 turns a connector request into evidence: data types, sizing, identity, hosting, and a go or no-go call.",
+  "signature": true,
+  "claims": []
+}

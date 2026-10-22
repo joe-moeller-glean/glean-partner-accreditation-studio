@@ -1,0 +1,39 @@
+{
+  "id": "SCR-04",
+  "archetype": "A4",
+  "objective": "OBJ-01",
+  "eyebrow": "Tour",
+  "title": "Open each area to see when to use it",
+  "prompt": "Select an area to reveal what it is for.",
+  "hotspots": [
+    {
+      "label": "Forum",
+      "detail": "Start a discussion to exchange ideas and ask questions. Search first; your question may already have an answer."
+    },
+    {
+      "label": "Events",
+      "detail": "Glean Support runs a monthly live troubleshooting session on the second Thursday of each month. The Glean Product Team hosts monthly product updates on the fourth Thursday. Replays of earlier events are available on demand."
+    },
+    {
+      "label": "Academy",
+      "detail": "Glean Academy offers courses to master new topics."
+    },
+    {
+      "label": "Feedback and Ideas",
+      "detail": "Submit feature requests and product feedback on the Feedback and Ideas board."
+    },
+    {
+      "label": "Admin Hub",
+      "detail": "The Admin Hub is a restricted space for customer administrators."
+    }
+  ],
+  "claims": [
+    "C-306",
+    "C-225",
+    "C-312",
+    "C-313",
+    "C-316",
+    "C-224",
+    "C-315"
+  ]
+}

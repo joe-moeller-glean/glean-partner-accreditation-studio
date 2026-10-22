@@ -1,0 +1,39 @@
+{
+  "id": "SCR-14",
+  "archetype": "A8",
+  "objective": "OBJ-04",
+  "eyebrow": "API lab walkthrough",
+  "title": "The policy wiki, without the SDK",
+  "steps": [
+    {
+      "title": "Datasource",
+      "body": "Create it from code and enable it for a test group."
+    },
+    {
+      "title": "First run",
+      "body": "Index one public page and find it in search. Then one permissioned page: check it as an allowed and a denied persona."
+    },
+    {
+      "title": "Identities",
+      "body": "Index users, then groups including a nested group, then memberships."
+    },
+    {
+      "title": "Bulk replacement",
+      "body": "Bulk upload 30 lab pages. Upload again with 28. Observe 2 deleted: about 7%, under the safeguard."
+    },
+    {
+      "title": "Predict",
+      "body": "An upload of 20 of 30 would delete 33%. Predict the result and cite the rule: deletion pauses for 7 days."
+    }
+  ],
+  "footnote": "The lab runs outside this package against a disposable test datasource provided by your program. Your assessor scores the lab evidence.",
+  "claims": [
+    "C-103",
+    "C-049",
+    "C-111",
+    "C-114",
+    "C-115",
+    "C-101",
+    "C-107"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Design for the failure you will meet",
+  "bullets": [
+    "Apply the reference architecture.",
+    "Design stable IDs and a content model.",
+    "Map identities and permissions without broad fallbacks.",
+    "Guard full crawls against partial fetches.",
+    "Plan freshness and deletion for every object family.",
+    "Build reliability, state, security, and monitoring in."
+  ],
+  "claims": []
+}

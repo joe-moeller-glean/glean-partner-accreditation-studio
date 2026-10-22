@@ -1,0 +1,38 @@
+{
+  "id": "SCR-15",
+  "archetype": "A13",
+  "objective": "OBJ-03",
+  "eyebrow": "Job aid",
+  "title": "Connector fit card",
+  "cards": [
+    {
+      "tag": "Index",
+      "title": "Use an indexed connector when",
+      "body": "Content is document-like, users need search or cited answers, and permissions can be mirrored."
+    },
+    {
+      "tag": "Live",
+      "title": "Use a live tool or MCP when",
+      "body": "Freshness dominates, the data is a structured lake or telemetry, or the user must act."
+    },
+    {
+      "tag": "Hybrid",
+      "title": "Combine them when",
+      "body": "Users need recall from the index and current state or actions from the same application."
+    },
+    {
+      "tag": "Stop",
+      "title": "Do not build custom when",
+      "body": "A native connector or crawler covers it, or Custom Metadata closes the gap."
+    }
+  ],
+  "claims": [
+    "C-021",
+    "C-022",
+    "C-033",
+    "C-034",
+    "C-028",
+    "C-035",
+    "C-100"
+  ]
+}

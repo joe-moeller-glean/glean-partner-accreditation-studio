@@ -1,0 +1,36 @@
+{
+  "id": "SCR-15",
+  "archetype": "A13",
+  "objective": "OBJ-05",
+  "eyebrow": "Job aid",
+  "title": "Where is my document?",
+  "cards": [
+    {
+      "tag": "1",
+      "title": "Was it sent?",
+      "body": "Check the connector's posted documents and the upload history."
+    },
+    {
+      "tag": "2",
+      "title": "Is it processed?",
+      "body": "Compare processingHistory with bulkUploadHistory."
+    },
+    {
+      "tag": "3",
+      "title": "Can this user see it?",
+      "body": "Check datasource visibility, the ACL, and that every identity it names was pushed."
+    },
+    {
+      "tag": "4",
+      "title": "Did a full run remove it?",
+      "body": "Compare fetched counts between runs, and check the 20% safeguard."
+    }
+  ],
+  "claims": [
+    "C-202",
+    "C-070",
+    "C-205",
+    "C-203",
+    "C-107"
+  ]
+}

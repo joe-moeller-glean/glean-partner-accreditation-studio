@@ -1,0 +1,13 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "By the end of this module",
+  "bullets": [
+    "Find the Gleaniverse area that fits a goal.",
+    "Route a request to the community, a ticket, or Feedback and Ideas.",
+    "Write a post that follows the community guidelines."
+  ],
+  "claims": []
+}

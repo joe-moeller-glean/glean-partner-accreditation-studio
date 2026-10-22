@@ -1,0 +1,17 @@
+{
+  "module_id": "ACC-107",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "You have scoped, designed, built, broken, and operated a connector. Now two reviewers will ask why, for every choice, and probe the places connectors usually fail. The capstone is not a quiz about the connector. It is proof that you can build one someone else will trust.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-07",
+      "archetype": "A6",
+      "prompt": "Your portfolio is complete except for one item: no architecture review with a Glean technical resource has happened. What do you do?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

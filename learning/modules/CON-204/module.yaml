@@ -1,0 +1,30 @@
+module_id: CON-204
+title: "Glean Indexing SDK: Build, Test, Debug, Deploy"
+design_system: paged-v1
+learning_path: "Custom Connector Competency"
+request_type: single
+audience: ["Builders", "Solution architects", "Delivery engineers"]
+level: 300
+learning_outcomes:
+  - "Explain the SDK pipeline and run lifecycle, and which parts the builder writes."
+  - "Choose the correct connector base class and data client for a source."
+  - "Configure a data client with pagination, rate limiting, retries, and a completeness guard."
+  - "Implement transform with stable IDs, epoch timestamps, and ACLs, and supply identities correctly."
+  - "Configure full and incremental modes, checkpoints, and upload options safely."
+  - "Test in three phases, debug with the CLI, and review generated code and deployment."
+prerequisites: ["CON-203"]
+target_hours: 3.8
+tracker_hours: 3.8
+mastery_score: 80
+assessment_type: "Quiz + SDK build lab evidence (assessor)"
+wave: Wave 2
+accreditation: accred-custom-connectors
+also_counts_toward: []
+authoring_contract: "plan/custom-connectors/CON-204-indexing-sdk.md"
+source_ledger: plan/custom-connectors/claims.json (verified verbatim; learner-facing claims only)
+sme: "unassigned - needs_sme (Indexing SDK engineering)"
+publish_mode: manual_review
+open_questions:
+  - "SDK basis is glean-indexing-sdk v1.2.0 (C-220). Re-verify class names, options, and CLI verbs each release."
+  - "U-204-1: import paths for model classes are not taught; learners follow the installed version's reference."
+  - "Lab fixture (OD-5) must exist before learners run the build lab."

@@ -85,9 +85,37 @@ def build_assets(spec, dest):
         })
         alt_text[asset["asset_id"]] = asset["alt"]
         by_id[asset["asset_id"]] = {"src": rel, "alt": asset["alt"], "caption": asset["caption"]}
+    manifest.append(place_wordmark(spec["id"], dest))
+    alt_text[manifest[-1]["asset_id"]] = manifest[-1]["alt"]
     jdump(dest / "assets" / "manifest.json", {"module_id": spec["id"], "assets": manifest})
     jdump(dest / "assets" / "alt-text.json", alt_text)
     return by_id
+
+
+WORDMARK = "glean-wordmark-electric-blue.svg"
+
+
+def place_wordmark(module_id, dest):
+    """Place the approved Glean wordmark unmodified and return its manifest entry."""
+    src = SHARED / "assets" / "brand" / WORDMARK
+    rel = f"assets/brand/{WORDMARK}"
+    (dest / rel).parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy(src, dest / rel)
+    return {
+        "asset_id": f"{module_id}-LOGO",
+        "path": rel,
+        "type": "brand_logo",
+        "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+        "screen_id": None,
+        "generator": "Approved brand file (shared/assets/brand)",
+        "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+        "license": "Glean trademark - use per brand guidelines",
+        "creator": "Glean brand",
+        "created": "2026-09-25",
+        "claim_ids": [],
+        "alt": "Glean",
+        "bytes": src.stat().st_size,
+    }
 
 
 def build_content(spec, dest):

@@ -1,0 +1,29 @@
+{
+  "module_id": "CON-101",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "A regional healthcare group asks your team for a connector for everything: a policy wiki, a vendor learning system, a reference archive, a claims warehouse, facility telemetry, a live bed board, and a new facet on Drive files. Build all seven and you ship risk, not value. By the end of this module you will classify each one and defend the call.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-10",
+      "archetype": "A6",
+      "prompt": "Nurses want current bed availability, which changes every few minutes, and want to place a hold on a bed from Glean. What do you propose?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-13",
+      "archetype": "A8",
+      "prompt": "",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-14",
+      "archetype": "A6",
+      "prompt": "A team asks for a custom Google Drive connector so they can filter by Clinic ID. Drive is already connected natively. What do you recommend?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

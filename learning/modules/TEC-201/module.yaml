@@ -1,0 +1,27 @@
+module_id: TEC-201
+title: "Connector Deployment Prerequisites"
+design_system: paged-v1
+learning_path: "Technical Architect Path; Custom Connector Competency"
+request_type: single
+audience: ["Architects", "Delivery engineers", "Builders"]
+level: 200
+learning_outcomes:
+  - "Confirm the datasource is configured and visible to the right people before the first upload."
+  - "Issue and handle an Indexing API token correctly: scope, expiry, rotation, restrictions, and storage."
+  - "Confirm source access and network readiness with the owners who control them."
+  - "Prepare test personas and run a first-run check before scaling up."
+prerequisites: ["TEC-101", "CON-202"]
+target_hours: 1.6
+tracker_hours: 0.8
+mastery_score: 80
+assessment_type: "Quiz + readiness gate checklist (assessor)"
+wave: Wave 2
+accreditation: accred-custom-connectors
+also_counts_toward: ["accred-solution-architect"]
+authoring_contract: "plan/modules/TEC-201.md + plan/custom-connectors/TEC-201-connector-readiness-delta.md"
+source_ledger: plan/custom-connectors/claims.json (verified verbatim; learner-facing claims only)
+sme: "unassigned - needs_sme"
+publish_mode: manual_review
+open_questions:
+  - "Tracker duration is 0.8 h; this build is 1.6 h with the custom-connector delta (approval OD-3)."
+  - "Native-connector prerequisites (app owner, scopes per connector) are out of scope here; they follow each native connector's setup page."

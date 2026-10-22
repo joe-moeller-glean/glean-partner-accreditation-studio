@@ -1,0 +1,16 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-02",
+  "eyebrow": "What you will be able to do",
+  "title": "Know the protocol under the SDK",
+  "bullets": [
+    "Pick the right API and token for each call.",
+    "Configure a datasource correctly.",
+    "Model documents and choose write semantics.",
+    "Index identities and ACLs in the right order.",
+    "Choose properties or metadata; push activity.",
+    "Work within limits and debug with the right tools."
+  ],
+  "claims": []
+}

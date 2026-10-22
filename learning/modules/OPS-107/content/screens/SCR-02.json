@@ -1,0 +1,13 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "By the end of this module",
+  "bullets": [
+    "Choose between self-service, a conversation, a ticket, and the feedback board.",
+    "Build a ticket with the six details support needs, and set priority from business impact.",
+    "Keep an escalation inside the support portal so it stays tracked."
+  ],
+  "claims": []
+}

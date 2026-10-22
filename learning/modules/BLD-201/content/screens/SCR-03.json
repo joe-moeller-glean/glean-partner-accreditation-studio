@@ -1,0 +1,17 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "Reference architecture",
+  "title": "Six layers, one job each",
+  "body": "Keep the connector boring and layered. Read-only credentials at the source. A data client that paces below quota and retries. A transform that combines related records into one document where that helps. A simple database to track document state. An uploader with retries, backoff, and a dead-letter queue. Operations that rotate tokens automatically.",
+  "asset": "BLD-201-A01",
+  "claims": [
+    "C-251",
+    "C-193",
+    "C-236",
+    "C-237",
+    "C-242",
+    "C-238"
+  ]
+}

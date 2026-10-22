@@ -1,0 +1,41 @@
+{
+  "id": "SCR-12",
+  "archetype": "A8",
+  "objective": "OBJ-05",
+  "eyebrow": "Worked example",
+  "title": "The intake summary, filled in",
+  "steps": [
+    {
+      "title": "Fit",
+      "body": "No native connector; document-like policy content; cited answers required. Custom indexed connector."
+    },
+    {
+      "title": "Content",
+      "body": "Published pages in scope. Comments deferred with the sponsor's agreement. Attachments over 64 MB are metadata-only."
+    },
+    {
+      "title": "Permissions",
+      "body": "Group ACLs per page, including nested groups and AND rules. The source's admin bypass is not mirrored."
+    },
+    {
+      "title": "People",
+      "body": "Email references for 97%; unmatched contractors handled by an approved map or excluded."
+    },
+    {
+      "title": "Activity",
+      "body": "Not exposed by the API. Expect weaker ranking."
+    },
+    {
+      "title": "Hosting and freshness",
+      "body": "Self-hosted in the customer's cloud project. Incremental every hour with tombstone deletes; full run nightly."
+    }
+  ],
+  "claims": [
+    "C-040",
+    "C-021",
+    "C-090",
+    "C-135",
+    "C-175",
+    "C-176"
+  ]
+}

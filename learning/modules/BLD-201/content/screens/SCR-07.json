@@ -1,0 +1,43 @@
+{
+  "id": "SCR-07",
+  "archetype": "A9",
+  "objective": "OBJ-03",
+  "eyebrow": "Practice",
+  "title": "Map each source rule",
+  "prompt": "Choose the permission shape for each source rule.",
+  "type": "sort",
+  "categories": [
+    "allowedGroups entries",
+    "Group intersection",
+    "Nested membership",
+    "No added access"
+  ],
+  "pairs": [
+    {
+      "item": "Readable by clinical staff or pharmacists.",
+      "category": "allowedGroups entries",
+      "why": "Either group is enough: list both groups."
+    },
+    {
+      "item": "Readable only by users in both the pharmacist group and clinic 014.",
+      "category": "Group intersection",
+      "why": "A user must belong to every group within one intersection entry."
+    },
+    {
+      "item": "Nurse leads are a member group of clinical staff.",
+      "category": "Nested membership",
+      "why": "Index the membership with memberGroupName rather than flattening users."
+    },
+    {
+      "item": "Source admins can read every page through a bypass.",
+      "category": "No added access",
+      "why": "Do not mirror the bypass unless the customer decides otherwise; grant access through groups."
+    }
+  ],
+  "takeaway": "Map the rule, not the result you hope for.",
+  "claims": [
+    "C-198",
+    "C-115",
+    "C-197"
+  ]
+}

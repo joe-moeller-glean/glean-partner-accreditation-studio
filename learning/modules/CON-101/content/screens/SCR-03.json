@@ -1,0 +1,18 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "The job",
+  "title": "What a connector actually does",
+  "body": "A Glean connector integrates Glean with a platform, service, or application where content lives. An indexing connector does two jobs: it fetches data, including permissions, and it parses item content such as title, body, comments, and media, along with permissions. That lets Glean index content, mirror source permissions, and keep the data current in your isolated tenant.",
+  "bullets": [
+    "Data is encrypted in transit and written to disk only once it reaches your tenant."
+  ],
+  "claims": [
+    "C-001",
+    "C-002",
+    "C-003",
+    "C-004",
+    "C-015"
+  ]
+}

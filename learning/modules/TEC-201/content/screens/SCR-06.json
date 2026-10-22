@@ -1,0 +1,21 @@
+{
+  "id": "SCR-06",
+  "archetype": "A3",
+  "objective": "OBJ-03",
+  "eyebrow": "Source and network",
+  "title": "Access the source safely, reach Glean reliably",
+  "bullets": [
+    "Source credentials: read-only keys are preferred, where supported, for content, permission, and activity data.",
+    "A dev, test, or sandbox environment to build and validate against.",
+    "A static API URL, or a plan for when it changes.",
+    "Self-hosted: the environment must allow pushes to Glean's indexing endpoints.",
+    "Hosting is chosen before you build, because it determines secrets, scheduling, and networking."
+  ],
+  "claims": [
+    "C-251",
+    "C-254",
+    "C-256",
+    "C-046",
+    "C-045"
+  ]
+}

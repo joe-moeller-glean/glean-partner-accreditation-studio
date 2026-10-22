@@ -1,0 +1,23 @@
+{
+  "module_id": "BLD-202",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "Requirements to production handoff in one lab. The documents will appear early. That is not the finish line. The lab is done when you can prove who sees what, what happens when things change or break, and when someone else can maintain it without you.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-06",
+      "archetype": "A6",
+      "prompt": "Twenty minutes into the first full run, the source token expires. Your client starts receiving 401. What must the connector do?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-08",
+      "archetype": "A6",
+      "prompt": "An editor removes a group from a page's read groups. The page body and its updated timestamp do not change. How does your connector reflect this?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

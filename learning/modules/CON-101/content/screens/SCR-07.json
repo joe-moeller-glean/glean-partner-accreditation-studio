@@ -1,0 +1,16 @@
+{
+  "id": "SCR-07",
+  "archetype": "A3",
+  "objective": "OBJ-03",
+  "eyebrow": "Access modes",
+  "title": "Indexed, live, or hybrid",
+  "body": "Indexed data is crawled ahead of time. Live data is fetched at query time. Hybrid is a mix of both. The runtime chooses index, live, or hybrid paths per request, based on connector capabilities and the question.",
+  "asset": "CON-101-A01",
+  "claims": [
+    "C-012",
+    "C-023",
+    "C-013",
+    "C-014",
+    "C-011"
+  ]
+}

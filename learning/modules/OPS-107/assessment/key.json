@@ -1,0 +1,53 @@
+{
+  "module_id": "OPS-107",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "No. All users can start a conversation, but ticket creation is for Designated Support Contacts.",
+        "a": "Correct. Other users start a conversation or ask their Glean administrator to submit a ticket.",
+        "c": "No. Email is triaged by the AI assistant and handed to a human agent for Designated Support Contacts."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "b": "No. Instance bugs go to support, and guidelines say to keep confidential data out of the community.",
+        "c": "No. A bug needs a support path, not a product update session.",
+        "a": "Correct. If the conversation needs escalation, support can convert it into a ticket."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Timing with a timezone lets support match the event to logs.",
+        "b": "No. That is not one of the documented ticket details.",
+        "c": "No. Priority is chosen from business impact; it does not help log correlation."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "No. Urgent examples include the Service unavailable to all users or a security incident.",
+        "c": "No. Low is for non-critical issues that do not affect operations.",
+        "a": "Correct. Unavailability for a subset of users is a documented High example."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "b": "No. Other channels may exist for collaboration, but they are not SLA-tracked.",
+        "a": "Correct. Response times cannot be tracked accurately outside the portal.",
+        "c": "No. SLA eligibility depends on the portal, not on who the requester works for."
+      }
+    },
+    "Q-06": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. If it still does not appear, ticket creation may not be available for the account.",
+        "b": "No. Going directly to ticket.glean.com does not recognize the user's identity.",
+        "c": "No. Designated Support Contacts can see their own and their company's tickets."
+      }
+    }
+  }
+}

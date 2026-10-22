@@ -1,0 +1,349 @@
+{
+  "module_id": "CON-204",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-04",
+      "stem": "A streaming connector indexes every page, but restricted pages are visible to no one. What is the most likely cause?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Streaming connectors ignore ACLs entirely"
+        },
+        {
+          "id": "a",
+          "text": "Streaming connectors skip get_identities(), so the groups were never pushed"
+        },
+        {
+          "id": "c",
+          "text": "The batch size is too large for permissions"
+        },
+        {
+          "id": "d",
+          "text": "Processing takes 24 hours for streaming uploads"
+        }
+      ],
+      "claims": [
+        "C-166",
+        "C-196"
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-05",
+      "stem": "An incremental run fetches the whole source every time. Why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "_get_last_crawl_timestamp() was not overridden, so since is None"
+        },
+        {
+          "id": "b",
+          "text": "Incremental mode is not supported for this class"
+        },
+        {
+          "id": "c",
+          "text": "The SDK resets checkpoints every night"
+        },
+        {
+          "id": "d",
+          "text": "batch_size is set below 1000"
+        }
+      ],
+      "claims": [
+        "C-324",
+        "C-325"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "An in-memory connector runs out of memory at 400,000 documents. What is the fix?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Lower batch_size to 100"
+        },
+        {
+          "id": "c",
+          "text": "Raise upload_max_workers"
+        },
+        {
+          "id": "d",
+          "text": "Switch to incremental mode only"
+        },
+        {
+          "id": "a",
+          "text": "Switch to a streaming connector"
+        }
+      ],
+      "claims": [
+        "C-167"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-05",
+      "stem": "A full crawl runs successfully and returns zero documents. What happens in Glean?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Nothing; empty runs are skipped"
+        },
+        {
+          "id": "c",
+          "text": "The run fails with a validation error"
+        },
+        {
+          "id": "a",
+          "text": "All previously indexed documents are reconciled as stale"
+        },
+        {
+          "id": "d",
+          "text": "Only documents older than 30 days are removed"
+        }
+      ],
+      "claims": [
+        "C-177"
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-05",
+      "stem": "You plan a live full run against a shared datasource with --max-items 5 to keep it small. What is the risk?",
+      "options": [
+        {
+          "id": "b",
+          "text": "None; five items cannot cause harm"
+        },
+        {
+          "id": "a",
+          "text": "The replacement is partial and can delete everything not included"
+        },
+        {
+          "id": "c",
+          "text": "The run is rejected for being too small"
+        },
+        {
+          "id": "d",
+          "text": "Only the five items are re-indexed"
+        }
+      ],
+      "claims": [
+        "C-159",
+        "C-326"
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-05",
+      "stem": "When should you use force_restart?",
+      "options": [
+        {
+          "id": "a",
+          "text": "After a crashed run leaves an upload stuck"
+        },
+        {
+          "id": "b",
+          "text": "On every run, to be safe"
+        },
+        {
+          "id": "c",
+          "text": "To speed up large uploads"
+        },
+        {
+          "id": "d",
+          "text": "To skip the stale-deletion check"
+        }
+      ],
+      "claims": [
+        "C-178"
+      ]
+    },
+    {
+      "id": "Q-07",
+      "objective_id": "OBJ-05",
+      "stem": "Why does the uploader send the first and last pages of a bulk upload sequentially?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Glean accepts only one page at a time"
+        },
+        {
+          "id": "c",
+          "text": "To keep memory use low"
+        },
+        {
+          "id": "d",
+          "text": "To keep the order of documents in search"
+        },
+        {
+          "id": "a",
+          "text": "The first opens the session; the last closes it and triggers stale deletion"
+        }
+      ],
+      "claims": [
+        "C-180"
+      ]
+    },
+    {
+      "id": "Q-08",
+      "objective_id": "OBJ-05",
+      "stem": "A connector reacts to webhooks from the source. Which upload call fits?",
+      "options": [
+        {
+          "id": "b",
+          "text": "bulk_index_documents() for every event"
+        },
+        {
+          "id": "c",
+          "text": "A full crawl for every event"
+        },
+        {
+          "id": "a",
+          "text": "index_documents(), the additive call"
+        },
+        {
+          "id": "d",
+          "text": "teardown, then re-upload"
+        }
+      ],
+      "claims": [
+        "C-181"
+      ]
+    },
+    {
+      "id": "Q-09",
+      "objective_id": "OBJ-03",
+      "stem": "What does the SDK HTTP client's default max_attempts=2 mean?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Two retries after the first attempt"
+        },
+        {
+          "id": "a",
+          "text": "One retry after the first attempt"
+        },
+        {
+          "id": "c",
+          "text": "Two requests per second"
+        },
+        {
+          "id": "d",
+          "text": "Retry any status twice"
+        }
+      ],
+      "claims": [
+        "C-186",
+        "C-318"
+      ]
+    },
+    {
+      "id": "Q-10",
+      "objective_id": "OBJ-06",
+      "stem": "The CronJob shows Completed. What has that proven?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only that the process exited successfully"
+        },
+        {
+          "id": "b",
+          "text": "That every document is searchable"
+        },
+        {
+          "id": "c",
+          "text": "That permissions were validated"
+        },
+        {
+          "id": "d",
+          "text": "That the full crawl was complete"
+        }
+      ],
+      "claims": [
+        "C-214"
+      ]
+    },
+    {
+      "id": "Q-11",
+      "objective_id": "OBJ-06",
+      "stem": "Why does the integration phase reject allow_all_datasource_users_access?",
+      "options": [
+        {
+          "id": "b",
+          "text": "It is not supported by the Indexing API"
+        },
+        {
+          "id": "c",
+          "text": "It slows down the replay"
+        },
+        {
+          "id": "d",
+          "text": "It needs a Client API token"
+        },
+        {
+          "id": "a",
+          "text": "It prevents proving that a configured identity is denied"
+        }
+      ],
+      "claims": [
+        "C-319"
+      ]
+    },
+    {
+      "id": "Q-12",
+      "objective_id": "OBJ-01",
+      "stem": "90% of wall-clock time is data_fetch. What should you tune?",
+      "options": [
+        {
+          "id": "b",
+          "text": "More upload worker threads"
+        },
+        {
+          "id": "c",
+          "text": "document_batch_size_bytes"
+        },
+        {
+          "id": "a",
+          "text": "The fetch stage, which dominates"
+        },
+        {
+          "id": "d",
+          "text": "upload_timeout_ms"
+        }
+      ],
+      "claims": [
+        "C-184"
+      ]
+    },
+    {
+      "id": "Q-13",
+      "objective_id": "OBJ-01",
+      "stem": "What does GLEAN_INDEXING_API_TOKEN hold?",
+      "options": [
+        {
+          "id": "b",
+          "text": "The source system's API key"
+        },
+        {
+          "id": "a",
+          "text": "A datasource-scoped Indexing API token"
+        },
+        {
+          "id": "c",
+          "text": "A Client API token for search"
+        },
+        {
+          "id": "d",
+          "text": "An OAuth refresh token"
+        }
+      ],
+      "claims": [
+        "C-313",
+        "C-162"
+      ]
+    }
+  ]
+}

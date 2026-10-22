@@ -1,0 +1,37 @@
+{
+  "id": "SCR-04",
+  "archetype": "A7",
+  "objective": "OBJ-01",
+  "eyebrow": "Run lifecycle",
+  "title": "What happens in one run",
+  "steps": [
+    {
+      "title": "Identity crawl",
+      "body": "Users are bulk-indexed first. If groups are returned, memberships must be too, or the SDK raises InconsistentDataError."
+    },
+    {
+      "title": "Resolve since",
+      "body": "On an incremental crawl, the SDK calls _get_last_crawl_timestamp(). The base implementation returns None."
+    },
+    {
+      "title": "Fetch and transform",
+      "body": "Your data client's get_source_data(), then your transform()."
+    },
+    {
+      "title": "Upload",
+      "body": "Full: bulk_index_documents() for replacement and stale cleanup. Incremental: additive index_documents()."
+    },
+    {
+      "title": "Exit",
+      "body": "On exception, the error counter increments and the error is re-raised, so a scheduler sees a non-zero exit."
+    }
+  ],
+  "asset": "CON-204-A01",
+  "claims": [
+    "C-310",
+    "C-324",
+    "C-163",
+    "C-165",
+    "C-166"
+  ]
+}

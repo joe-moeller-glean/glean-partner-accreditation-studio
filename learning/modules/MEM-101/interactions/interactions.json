@@ -1,0 +1,14 @@
+{
+  "module_id":"MEM-101",
+  "interactions":"Defined in content.js for the runtime build.",
+  "inventory":[
+    {"id":"INT-memory-types","type":"hotspot","band":"BAND-04","scored":false},
+    {"id":"INT-layers","type":"tabs","band":"BAND-05","scored":false},
+    {"id":"INT-classify","type":"decision_set","band":"BAND-06","scored":false},
+    {"id":"INT-write","type":"stepper","band":"BAND-07","scored":false},
+    {"id":"INT-retrieve","type":"sorter","band":"BAND-08","scored":false},
+    {"id":"INT-control","type":"myth_fact","band":"BAND-09","scored":false},
+    {"id":"INT-cross-surface","type":"decision_set","band":"BAND-10","scored":false},
+    {"id":"INT-quiz","type":"quiz","band":"BAND-11","scored":true}
+  ]
+}

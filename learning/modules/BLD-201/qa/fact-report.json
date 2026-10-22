@@ -1,0 +1,158 @@
+{
+  "module_id": "BLD-201",
+  "checked_on": "2026-09-27",
+  "state": "pass",
+  "claim_count": 50,
+  "source_count": 19,
+  "verification": "Every claim excerpt matched verbatim against saved source text by plan/custom-connectors/tools/build_ledger.py.",
+  "unsourced_claims": [],
+  "internal_claims_in_module": [],
+  "verdicts": {
+    "verified": 50,
+    "unsupported": 0,
+    "stale": 0,
+    "conflicted": 0
+  },
+  "studio_guidance_disclosed": [
+    "SCR-04"
+  ],
+  "open_questions": [
+    "Tracker duration is 1.5 h; this build is 2.6 h (approval OD-3).",
+    "Full-run cadence: the best-practices deck says incremental plus monthly full (C-239); SDK guidance says nightly or weekly (C-176). The module teaches choosing by the life of the source's deletion signal."
+  ],
+  "source_ledger": [
+    {
+      "source_id": "S-02",
+      "title": "How connectors power the Glean experience",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-12",
+      "title": "Bulk Indexing",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-13",
+      "title": "Bulk Upload Model",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-15",
+      "title": "Indexing API Authentication",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-16",
+      "title": "Permissions (Indexing API guide)",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-18",
+      "title": "Setup Datasource",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-19",
+      "title": "Indexing SDK — Indexing modes",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-20",
+      "title": "Indexing SDK — Permissions",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-21",
+      "title": "Indexing SDK — Architecture",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-25",
+      "title": "Indexing SDK — HTTP client",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-26",
+      "title": "Indexing SDK — Pagination",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-27",
+      "title": "Indexing SDK — Rate limiting",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-28",
+      "title": "Indexing SDK — Status and debugging",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-29",
+      "title": "Indexing SDK — CLI",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-30",
+      "title": "Indexing SDK — Deployment overview",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-32",
+      "title": "Indexing SDK — Overview",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-44",
+      "title": "Glean Partner Content | Custom Connector Best Practices (deck, April 2026)",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2027-03-26"
+    },
+    {
+      "source_id": "S-45",
+      "title": "[External] Glean Partner Content | Custom Connector Questionnaire",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2027-03-26"
+    },
+    {
+      "source_id": "S-49",
+      "title": "[Template] Custom Connector Intake Form v2",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2027-03-26"
+    }
+  ]
+}

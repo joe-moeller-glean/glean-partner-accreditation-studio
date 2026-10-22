@@ -1,0 +1,17 @@
+{
+  "id": "SCR-05",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "Feasibility",
+  "title": "Four information types, each with a price",
+  "body": "Glean builds its graph from content, people, and activity, and every result depends on permissions. For each type, record whether the source exposes it, how, and what a gap costs. A permissions gap is never solved with an allow-all ACL on sensitive content.",
+  "asset": "CON-202-A01",
+  "claims": [
+    "C-006",
+    "C-241",
+    "C-195",
+    "C-240",
+    "C-135",
+    "C-136"
+  ]
+}

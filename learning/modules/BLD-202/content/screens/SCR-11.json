@@ -1,0 +1,33 @@
+{
+  "id": "SCR-11",
+  "archetype": "A7",
+  "objective": "OBJ-05",
+  "eyebrow": "Stages 12 to 15",
+  "title": "Observe, hand off, clean up",
+  "steps": [
+    {
+      "title": "12 Observe",
+      "body": "Read the stage timings and counts; define an alert for a sharp drop in documents_indexed."
+    },
+    {
+      "title": "13 Security",
+      "body": "Secrets in the secret store; none in code, images, or logs."
+    },
+    {
+      "title": "14 Handoff",
+      "body": "Runbook, architecture diagram, test results, and a maintenance plan draft for customer approval."
+    },
+    {
+      "title": "15 Clean up",
+      "body": "Tear down the disposable datasource or record why it stays. Remember that teardown cannot be undone. Revoke lab secrets."
+    }
+  ],
+  "claims": [
+    "C-218",
+    "C-204",
+    "C-215",
+    "C-188",
+    "C-265",
+    "C-207"
+  ]
+}

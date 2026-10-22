@@ -1,0 +1,50 @@
+{
+  "module_id": "BLD-202",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-06",
+      "screen_id": "SCR-06",
+      "kind": "choice",
+      "objective_id": "OBJ-04",
+      "archetype": "A6",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-171",
+        "C-165",
+        "C-170",
+        "C-101"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-08",
+      "screen_id": "SCR-08",
+      "kind": "choice",
+      "objective_id": "OBJ-03",
+      "archetype": "A6",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-116",
+        "C-257",
+        "C-025",
+        "C-026"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-10-HOTSPOT",
+      "screen_id": "SCR-10",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-05",
+      "archetype": "A10",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-160",
+        "C-199",
+        "C-200",
+        "C-214"
+      ]
+    }
+  ]
+}

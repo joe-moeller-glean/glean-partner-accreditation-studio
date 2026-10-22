@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 282" width="100%" preserveAspectRatio="xMidYMid meet">
+<title>Four information types, four gap costs</title>
+<desc>Content gaps produce metadata-only results that cannot ground Assistant; permission gaps create pressure for broad access; people gaps need a manual identity map; activity gaps weaken ranking.</desc>
+<defs><radialGradient id="wt" cx="1.02" cy="-0.08" r="0.62" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#DEEEF0"/><stop offset="0.7" stop-color="#DEEEF0" stop-opacity="0"/></radialGradient><radialGradient id="wo" cx="-0.06" cy="1.06" r="0.45" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#F0C2F2"/><stop offset="0.72" stop-color="#F0C2F2" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="0" width="620" height="282" fill="#F6F3EB"/><rect x="0" y="0" width="620" height="282" fill="url(#wt)"/><rect x="0" y="0" width="620" height="282" fill="url(#wo)"/>
+<text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">Four information types, four gap costs</text>
+<rect x="24" y="64" width="281" height="92" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="40" y="90" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="12" letter-spacing="0.04em" fill="#666666" text-anchor="start">01</text>
+<text x="72" y="90" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="500" fill="#000000" text-anchor="start">Content</text>
+<text x="72" y="109" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">Gap: metadata-only results cannot</text>
+<text x="72" y="123" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">ground Assistant</text>
+<rect x="315" y="64" width="281" height="92" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="331" y="90" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="12" letter-spacing="0.04em" fill="#666666" text-anchor="start">02</text>
+<text x="363" y="90" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="500" fill="#000000" text-anchor="start">Permissions</text>
+<text x="363" y="109" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">Gap: pressure for allow-all ACLs;</text>
+<text x="363" y="123" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">never for sensitive data</text>
+<rect x="24" y="166" width="281" height="92" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="40" y="192" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="12" letter-spacing="0.04em" fill="#666666" text-anchor="start">03</text>
+<text x="72" y="192" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="500" fill="#000000" text-anchor="start">People</text>
+<text x="72" y="211" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">Gap: a manual map of users to</text>
+<text x="72" y="225" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">corporate identities</text>
+<rect x="315" y="166" width="281" height="92" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="331" y="192" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="12" letter-spacing="0.04em" fill="#666666" text-anchor="start">04</text>
+<text x="363" y="192" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="500" fill="#000000" text-anchor="start">Activity</text>
+<text x="363" y="211" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">Gap: weaker ranking; other sources</text>
+<text x="363" y="225" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">may outrank you</text>
+</svg>

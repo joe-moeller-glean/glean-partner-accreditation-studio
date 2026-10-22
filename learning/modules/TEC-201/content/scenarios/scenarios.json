@@ -1,0 +1,17 @@
+{
+  "module_id": "TEC-201",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "Week one of the build. A production token arrives by email. The datasource exists, but nobody enabled it, so nothing shows up. The customer's firewall blocks the push. Every one of these was knowable before a line of code. This module is the gate that catches them.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-05",
+      "archetype": "A6",
+      "prompt": "To save time, the customer's admin offers to email you the production indexing token with global scope. You are building in dev this week. What do you ask for?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

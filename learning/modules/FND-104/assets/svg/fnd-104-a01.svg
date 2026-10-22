@@ -1,17 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" width="100%" preserveAspectRatio="xMidYMid meet">
 <title>The Glean platform operating model</title>
 <desc>Three stacked layers. Top layer: agents, the governed workflow wrapper. Middle layer: assistant with skills and actions. Bottom layer: search over the trusted AI layer on company knowledge.</desc>
-<rect x="0" y="0" width="560" height="340" fill="#F6F3EB"/>
+<defs><radialGradient id="wt" cx="1.02" cy="-0.08" r="0.62" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#DEEEF0"/><stop offset="0.7" stop-color="#DEEEF0" stop-opacity="0"/></radialGradient><radialGradient id="wo" cx="-0.06" cy="1.06" r="0.45" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#F0C2F2"/><stop offset="0.72" stop-color="#F0C2F2" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="0" width="560" height="340" fill="#F6F3EB"/><rect x="0" y="0" width="560" height="340" fill="url(#wt)"/><rect x="0" y="0" width="560" height="340" fill="url(#wo)"/>
 <text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">The Glean platform operating model</text>
-<rect x="24" y="64" width="512" height="76" rx="8" fill="#343CED" stroke="#000000" stroke-width="2"/>
-<text x="40" y="90" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">Agents</text>
-<text x="40" y="112" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" text-anchor="start">Governed workflow wrapper that packages skills, tools,</text>
-<text x="40" y="129" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" text-anchor="start">and knowledge</text>
-<rect x="24" y="152" width="512" height="76" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="40" y="178" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Assistant</text>
-<text x="40" y="200" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">Conversational surface that consumes skills and</text>
-<text x="40" y="217" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">actions</text>
-<rect x="24" y="240" width="512" height="76" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="40" y="266" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Search</text>
-<text x="40" y="288" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">Trusted AI layer over company knowledge</text>
+<rect x="24" y="64" width="512" height="76" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<rect x="24" y="64" width="4" height="76" rx="2" fill="#343CED"/>
+<text x="44" y="92" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Agents</text>
+<text x="44" y="114" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Governed workflow wrapper that packages skills, tools,</text>
+<text x="44" y="131" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">and knowledge</text>
+<rect x="24" y="152" width="512" height="76" rx="12" fill="#F8F8F8" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="44" y="180" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Assistant</text>
+<text x="44" y="202" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Conversational surface that consumes skills and</text>
+<text x="44" y="219" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">actions</text>
+<rect x="24" y="240" width="512" height="76" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="44" y="268" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Search</text>
+<text x="44" y="290" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Trusted AI layer over company knowledge</text>
 </svg>

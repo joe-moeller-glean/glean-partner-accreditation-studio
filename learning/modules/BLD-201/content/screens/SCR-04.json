@@ -1,0 +1,32 @@
+{
+  "id": "SCR-04",
+  "archetype": "A4",
+  "objective": "OBJ-02",
+  "eyebrow": "Content model",
+  "title": "Four content-model rules",
+  "hotspots": [
+    {
+      "label": "Stable IDs",
+      "detail": "Derive the document ID from the source's immutable identifier, not a title, slug, or URL. A changed ID is a different document, and bulk replacement deletes the old one."
+    },
+    {
+      "label": "One object, one document",
+      "detail": "It may be better to combine relational data into a single document object to be indexed."
+    },
+    {
+      "label": "Timestamps",
+      "detail": "Use epoch seconds. With the SDK, created_at and updated_at must be epoch seconds, not ISO strings."
+    },
+    {
+      "label": "Links",
+      "detail": "Each viewURL must match the datasource urlRegex, which must be neither too broad nor too narrow."
+    }
+  ],
+  "footnote": "The stable-ID rule is studio guidance derived from the sourced replacement behavior.",
+  "claims": [
+    "C-101",
+    "C-236",
+    "C-153",
+    "C-119"
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "module_id": "CON-202",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "What does the custom connector questionnaire ask first about a source system?",
+      "options": [
+        {
+          "id": "b",
+          "text": "How many engineers the partner can assign"
+        },
+        {
+          "id": "a",
+          "text": "Whether a native connector or the Glean Web Crawler already covers it"
+        },
+        {
+          "id": "c",
+          "text": "Which language the connector will use"
+        },
+        {
+          "id": "d",
+          "text": "Whether the statement of work is signed"
+        }
+      ],
+      "claims": [
+        "C-250"
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-01",
+      "stem": "Which credential does the questionnaire prefer for content, permission, and activity data?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Read-only keys, where the source supports them"
+        },
+        {
+          "id": "b",
+          "text": "An administrator account with write access"
+        },
+        {
+          "id": "c",
+          "text": "A developer's personal token"
+        },
+        {
+          "id": "d",
+          "text": "Any key that never expires"
+        }
+      ],
+      "claims": [
+        "C-251"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "A source exposes only file names and dates, with no body text. What is the consequence?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Results will never appear in search"
+        },
+        {
+          "id": "c",
+          "text": "Glean will fetch the body from the viewURL"
+        },
+        {
+          "id": "d",
+          "text": "Ranking improves because documents are smaller"
+        },
+        {
+          "id": "a",
+          "text": "Results can be found, but Assistant cannot summarize them"
+        }
+      ],
+      "claims": [
+        "C-241"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "The source has no identity data that maps to corporate accounts. What is needed?",
+      "options": [
+        {
+          "id": "b",
+          "text": "An allow-all ACL until identities are sorted out"
+        },
+        {
+          "id": "c",
+          "text": "Nothing; Glean resolves unknown users itself"
+        },
+        {
+          "id": "a",
+          "text": "A manual map of users to corporate identities"
+        },
+        {
+          "id": "d",
+          "text": "A people connector for employee records"
+        }
+      ],
+      "claims": [
+        "C-240",
+        "C-195",
+        "C-169"
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "The source allows 600 requests per minute. What pacing does the SDK guidance suggest?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Exactly 10 requests per second to finish fastest"
+        },
+        {
+          "id": "a",
+          "text": "About 7 to 8 requests per second, leaving room for retries"
+        },
+        {
+          "id": "c",
+          "text": "As fast as possible, relying on 429 retries"
+        },
+        {
+          "id": "d",
+          "text": "One request per second, to be safe"
+        }
+      ],
+      "claims": [
+        "C-193",
+        "C-194"
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-03",
+      "stem": "Which rate limit applies to the /indexdocuments endpoint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "600 documents per minute"
+        },
+        {
+          "id": "b",
+          "text": "10 documents per second per IP"
+        },
+        {
+          "id": "c",
+          "text": "8,000 documents per minute"
+        },
+        {
+          "id": "d",
+          "text": "Unlimited for push connectors"
+        }
+      ],
+      "claims": [
+        "C-137",
+        "C-138"
+      ]
+    },
+    {
+      "id": "Q-07",
+      "objective_id": "OBJ-04",
+      "stem": "The customer's security policy requires the connector to run inside its own network. What is the documented choice?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Glean-hosted, because it keeps data inside the network"
+        },
+        {
+          "id": "c",
+          "text": "Either; hosting can be chosen after the build"
+        },
+        {
+          "id": "d",
+          "text": "Neither; custom connectors cannot run there"
+        },
+        {
+          "id": "a",
+          "text": "Self-host it; the network must allow pushes to Glean indexing endpoints"
+        }
+      ],
+      "claims": [
+        "C-047",
+        "C-046",
+        "C-045",
+        "C-044",
+        "C-042"
+      ]
+    },
+    {
+      "id": "Q-08",
+      "objective_id": "OBJ-04",
+      "stem": "Source users and SSO users share the same email addresses. How should the datasource reference users?",
+      "options": [
+        {
+          "id": "b",
+          "text": "By the source's numeric user IDs only"
+        },
+        {
+          "id": "c",
+          "text": "By display name"
+        },
+        {
+          "id": "a",
+          "text": "By email, with isUserReferencedByEmail set to true"
+        },
+        {
+          "id": "d",
+          "text": "By group membership, with no users"
+        }
+      ],
+      "claims": [
+        "C-118",
+        "C-111"
+      ]
+    },
+    {
+      "id": "Q-09",
+      "objective_id": "OBJ-05",
+      "stem": "Why record how often permissions change in the source?",
+      "options": [
+        {
+          "id": "b",
+          "text": "It determines the datasource category"
+        },
+        {
+          "id": "a",
+          "text": "It sets how often permissions and memberships must be refreshed"
+        },
+        {
+          "id": "c",
+          "text": "It decides whether activity is needed"
+        },
+        {
+          "id": "d",
+          "text": "It fixes the viewURL format"
+        }
+      ],
+      "claims": [
+        "C-257",
+        "C-116"
+      ]
+    },
+    {
+      "id": "Q-10",
+      "objective_id": "OBJ-05",
+      "stem": "The sandbox is 11 months old and misses newer permission patterns. How should this appear in scoping?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As a risk with a condition: refresh it before validation sign-off"
+        },
+        {
+          "id": "b",
+          "text": "As acceptable, because production gets tested later"
+        },
+        {
+          "id": "c",
+          "text": "As a reason to build against production"
+        },
+        {
+          "id": "d",
+          "text": "As irrelevant to permissions testing"
+        }
+      ],
+      "claims": [
+        "C-254"
+      ]
+    }
+  ]
+}

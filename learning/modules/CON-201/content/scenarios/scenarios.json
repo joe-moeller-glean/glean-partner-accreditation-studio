@@ -1,0 +1,23 @@
+{
+  "module_id": "CON-201",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "Your connector pushed a revised policy page, and the API accepted it. Forty minutes later, a nurse lead searches and gets last month's version. Nothing errored. Where is the page? This module gives you the map to answer that in minutes, not days.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-09",
+      "archetype": "A6",
+      "prompt": "A nightly full run of the 38,400-page policy wiki returns 30,000 pages because the source token expired mid-crawl. The code still finalized the bulk upload. What happens?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-13",
+      "archetype": "A8",
+      "prompt": "",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

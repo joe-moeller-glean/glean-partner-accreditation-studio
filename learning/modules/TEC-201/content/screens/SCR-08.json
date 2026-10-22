@@ -1,0 +1,24 @@
+{
+  "id": "SCR-08",
+  "archetype": "A7",
+  "objective": "OBJ-04",
+  "eyebrow": "First run",
+  "title": "One public, one permissioned, then scale",
+  "steps": [
+    {
+      "title": "Public sample",
+      "body": "Index one public sample document. Confirm it appears in search."
+    },
+    {
+      "title": "Permissioned sample",
+      "body": "Index one permissioned document. Confirm only authorized users can see it."
+    },
+    {
+      "title": "Scale",
+      "body": "Once both behave correctly, scale up."
+    }
+  ],
+  "claims": [
+    "C-049"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "module_id": "BLD-202",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "Users and permissions are required, and so are automated updates.",
+        "a": "Right.",
+        "c": "Permissions are part of the minimum.",
+        "d": "The competency is for indexing connectors."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "Every page not fetched would be deleted.",
+        "c": "An expired token will not start working; fail and refresh it.",
+        "d": "Modes do not switch mid-run; fail the run."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "b": "The body may never change.",
+        "c": "Snippets are shown before any click.",
+        "d": "A push connector must push the change.",
+        "a": "Right. Then verify access flips after processing."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "Counts prove nothing about permissions.",
+        "c": "A correct-looking ACL can still be wrong in effect.",
+        "a": "Right. The search result is the ground truth.",
+        "d": "Prove it in Glean."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "b": "That happens only if IDs come from slugs.",
+        "a": "Right.",
+        "c": "The full run includes the page under its stable ID.",
+        "d": "Identity comes from the ID, not the link."
+      }
+    },
+    "Q-06": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. The full run catches anything the deletion signal missed.",
+        "b": "A 30-day signal can be missed; reconciliation catches it.",
+        "c": "Deletions would wait for the next full run.",
+        "d": "Incremental is additive."
+      }
+    },
+    "Q-07": {
+      "answer": "a",
+      "rationale": {
+        "b": "That is the defect the guard prevents.",
+        "c": "A 200 is not retried.",
+        "d": "The guard must stop the run before the safeguard matters.",
+        "a": "Right."
+      }
+    },
+    "Q-08": {
+      "answer": "a",
+      "rationale": {
+        "b": "Above 20%, deletion pauses.",
+        "c": "The upload succeeds; deletion pauses.",
+        "a": "Right. Use /processalldocuments if immediate deletion is intended.",
+        "d": "The pause lasts 7 days, not indefinitely."
+      }
+    },
+    "Q-09": {
+      "answer": "a",
+      "rationale": {
+        "b": "That proves only that the process exited.",
+        "a": "Right.",
+        "c": "Accepted is not searchable.",
+        "d": "Resource use proves nothing about indexing."
+      }
+    },
+    "Q-10": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "Secrets in the repository leak with it.",
+        "c": "Redaction covers query parameters in logs only.",
+        "d": "Images are copied and shared."
+      }
+    }
+  }
+}

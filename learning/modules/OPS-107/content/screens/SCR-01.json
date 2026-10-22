@@ -1,0 +1,9 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-03",
+  "eyebrow": "Cold open",
+  "title": "Search is down. Where do you report it?",
+  "body": "It is Monday morning. A customer admin tells you that Glean search is unavailable to every user. Their first idea is to post in a shared chat channel and email a contact they know. Before you agree, ask one question: which channel actually starts a tracked, SLA-eligible incident?",
+  "claims": []
+}

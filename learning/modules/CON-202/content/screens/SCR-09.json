@@ -1,0 +1,36 @@
+{
+  "id": "SCR-09",
+  "archetype": "A5",
+  "objective": "OBJ-04",
+  "eyebrow": "Hosting",
+  "title": "Decide hosting with the customer",
+  "body": "Glean places no constraints on where a custom connector runs. Choose before you build.",
+  "table": {
+    "caption": "Documented hosting options",
+    "head": [
+      "Option",
+      "What changes",
+      "Choose it when"
+    ],
+    "rows": [
+      [
+        "Glean-hosted",
+        "Runs in the Glean cloud instance; crawls can be scheduled like native connectors",
+        "The customer accepts running the connector in the Glean cloud instance"
+      ],
+      [
+        "Self-hosted",
+        "Runs in the customer's environment, which must allow pushes to Glean's indexing endpoints",
+        "Data residency, network isolation, or internal security policy requires it"
+      ]
+    ]
+  },
+  "footnote": "Before proposing Glean-hosted for a partner-built connector, confirm availability with your Partner Manager.",
+  "claims": [
+    "C-044",
+    "C-045",
+    "C-042",
+    "C-046",
+    "C-047"
+  ]
+}

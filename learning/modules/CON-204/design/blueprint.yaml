@@ -1,0 +1,41 @@
+module_id: CON-204
+title: Glean Indexing SDK: Build, Test, Debug, Deploy
+level: 300
+target_hours: 3.8
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Explain the SDK pipeline and run lifecycle, and which parts the builder writes."
+    screens: [SCR-02, SCR-03, SCR-04, SCR-REF, SCR-18]
+    assessment_items: [Q-12, Q-13]
+  - id: OBJ-02
+    text: "Choose the correct connector base class and data client for a source."
+    screens: [SCR-05, SCR-06]
+    assessment_items: [Q-03]
+  - id: OBJ-03
+    text: "Configure a data client with pagination, rate limiting, retries, and a completeness guard."
+    screens: [SCR-07, SCR-08]
+    assessment_items: [Q-09]
+  - id: OBJ-04
+    text: "Implement transform with stable IDs, epoch timestamps, and ACLs, and supply identities correctly."
+    screens: [SCR-01, SCR-09]
+    assessment_items: [Q-01]
+  - id: OBJ-05
+    text: "Configure full and incremental modes, checkpoints, and upload options safely."
+    screens: [SCR-10, SCR-11, SCR-17]
+    assessment_items: [Q-02, Q-04, Q-05, Q-06, Q-07, Q-08]
+  - id: OBJ-06
+    text: "Test in three phases, debug with the CLI, and review generated code and deployment."
+    screens: [SCR-12, SCR-13, SCR-14, SCR-15, SCR-16]
+    assessment_items: [Q-10, Q-11]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 19
+distinct_archetypes: [A1, A10, A11, A14, A2, A3, A4, A5, A6, A7, A8, quiz]
+assessment_type: Quiz + SDK build lab evidence (assessor)

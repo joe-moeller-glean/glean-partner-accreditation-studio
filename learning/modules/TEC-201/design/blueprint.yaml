@@ -1,0 +1,33 @@
+module_id: TEC-201
+title: Connector Deployment Prerequisites
+level: 200
+target_hours: 1.6
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Confirm the datasource is configured and visible to the right people before the first upload."
+    screens: [SCR-02, SCR-03, SCR-10, SCR-REF]
+    assessment_items: [Q-06, Q-08]
+  - id: OBJ-02
+    text: "Issue and handle an Indexing API token correctly: scope, expiry, rotation, restrictions, and storage."
+    screens: [SCR-01, SCR-04, SCR-05, SCR-11]
+    assessment_items: [Q-01, Q-02, Q-03, Q-04]
+  - id: OBJ-03
+    text: "Confirm source access and network readiness with the owners who control them."
+    screens: [SCR-06, SCR-07]
+    assessment_items: [Q-07, Q-09]
+  - id: OBJ-04
+    text: "Prepare test personas and run a first-run check before scaling up."
+    screens: [SCR-08, SCR-09, SCR-12]
+    assessment_items: [Q-05]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 13
+distinct_archetypes: [A1, A11, A13, A14, A2, A3, A4, A5, A6, A7, A9, quiz]
+assessment_type: Quiz + readiness gate checklist (assessor)

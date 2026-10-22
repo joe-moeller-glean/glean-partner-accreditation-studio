@@ -1,0 +1,14 @@
+{
+  "module_id": "CON-204",
+  "feedback": {
+    "SCR-06:o2": "Async streaming implementations also skip get_identities(). Without identities, the ACLs match nobody.",
+    "SCR-06:o3": "BasePeopleConnector produces employee records, which are distinct from the datasource identities that back ACLs.",
+    "SCR-06:o1": "Right. Large, paginated, synchronous: streaming. Streaming connectors do not run get_identities(), so identities are pushed separately, before content.",
+    "SCR-08:o2": "For this source, the missing cursor is the fault. A full crawl must cover the entire scope before completing.",
+    "SCR-08:o1": "Right. Cursor paging stops on a missing cursor, which is correct for honest sources. Here, stopping means a partial full crawl that deletes the rest.",
+    "SCR-08:o3": "A 200 is not a retryable status. The client never retries it.",
+    "SCR-15:o1": "Right. An allow-all default is the most consequential thing to miss, and the recorded phase rejects it because it prevents proving denial.",
+    "SCR-15:o2": "Mocked tests check transform output, not denial. Review permissions before trusting generated code.",
+    "SCR-15:o3": "Never index sensitive content with an allow-all ACL for now."
+  }
+}

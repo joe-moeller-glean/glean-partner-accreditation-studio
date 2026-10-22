@@ -1,0 +1,52 @@
+{
+  "module_id": "CON-203",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-04-HOTSPOT",
+      "screen_id": "SCR-04",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-02",
+      "archetype": "A4",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-158",
+        "C-119",
+        "C-118",
+        "C-121",
+        "C-120",
+        "C-122",
+        "C-123",
+        "C-124"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-08",
+      "screen_id": "SCR-08",
+      "kind": "sort",
+      "objective_id": "OBJ-04",
+      "archetype": "A9",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-198",
+        "C-117",
+        "C-071"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-10",
+      "screen_id": "SCR-10",
+      "kind": "choice",
+      "objective_id": "OBJ-05",
+      "archetype": "A6",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-100",
+        "C-080",
+        "C-035"
+      ]
+    }
+  ]
+}

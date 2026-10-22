@@ -1,0 +1,15 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "The community",
+  "title": "Gleaniverse is Glean's customer community",
+  "body": "Gleaniverse is Glean's primary customer community: a secure space to ask product questions, share feedback, and discover best practices. Register with a work email so you receive the correct role and permissions. The home page offers three starting points: Start a Discussion, Join a Group, and Explore Academy.",
+  "asset": "OPS-108-A01",
+  "claims": [
+    "C-303",
+    "C-304",
+    "C-302",
+    "C-301"
+  ]
+}

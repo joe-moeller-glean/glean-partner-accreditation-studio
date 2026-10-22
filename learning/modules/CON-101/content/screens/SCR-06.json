@@ -1,0 +1,33 @@
+{
+  "id": "SCR-06",
+  "archetype": "A10",
+  "objective": "OBJ-02",
+  "eyebrow": "Myth versus reality",
+  "title": "Four beliefs that cause bad connector requests",
+  "hotspots": [
+    {
+      "label": "Myth: a custom connector is supported like a native one.",
+      "detail": "Partner connectors are developed and supported by the partner organization, and shared push connector code may have limited support. Name the owner before you build."
+    },
+    {
+      "label": "Myth: connecting an MCP server makes the source searchable.",
+      "detail": "Tools retrieve current data or perform actions at request time. They do not make source content searchable."
+    },
+    {
+      "label": "Myth: a missing facet on Drive needs a custom Drive connector.",
+      "detail": "Custom Metadata attaches metadata to documents from any datasource, including native connectors, without re-indexing the source document."
+    },
+    {
+      "label": "Myth: once content is in Glean, the source never checks access again.",
+      "detail": "Glean applies the permission snapshot mirrored during crawling. Opening a result usually sends the user to the source, which may enforce access again."
+    }
+  ],
+  "claims": [
+    "C-010",
+    "C-009",
+    "C-011",
+    "C-100",
+    "C-013",
+    "C-025"
+  ]
+}

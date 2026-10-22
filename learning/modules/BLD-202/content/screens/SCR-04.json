@@ -1,0 +1,44 @@
+{
+  "id": "SCR-04",
+  "archetype": "A5",
+  "objective": "OBJ-04",
+  "eyebrow": "Lab environment",
+  "title": "What the lab kit throws at you",
+  "table": {
+    "caption": "Injected conditions in the lab kit (fictional source)",
+    "head": [
+      "Condition",
+      "What it tests"
+    ],
+    "rows": [
+      [
+        "Empty 200 pages with no cursor before the end",
+        "Your completeness guard"
+      ],
+      [
+        "429 with Retry-After on a fixed cadence",
+        "Pacing and retries"
+      ],
+      [
+        "ISO timestamps from the source",
+        "Conversion to epoch seconds"
+      ],
+      [
+        "Pages changed and deleted at start",
+        "Incremental runs and deletion paths"
+      ],
+      [
+        "Source token expires partway through the first full run",
+        "Non-zero exit with no partial finalize"
+      ]
+    ]
+  },
+  "footnote": "The lab runs outside this package, in your own repository and a disposable test datasource provided by your program. Your assessor scores the lab evidence.",
+  "claims": [
+    "C-170",
+    "C-193",
+    "C-153",
+    "C-174",
+    "C-165"
+  ]
+}

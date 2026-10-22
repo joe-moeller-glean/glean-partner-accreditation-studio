@@ -1,0 +1,8 @@
+{
+  "module_id": "CON-301",
+  "feedback": {
+    "SCR-09:o2": "The same code can swallow the next error and repeat the partial run.",
+    "SCR-09:o3": "teardown cannot be undone, and it removes everything users rely on.",
+    "SCR-09:o1": "Right. Never let a partial fetch finish as a successful full crawl. Fix the fault before you rerun."
+  }
+}

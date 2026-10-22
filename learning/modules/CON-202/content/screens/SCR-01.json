@@ -1,0 +1,10 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-01",
+  "eyebrow": "Cold open",
+  "title": "Two weeks to go live",
+  "body": "The sponsor wants the policy wiki in Glean in two weeks. The source owner says the API has everything. Nobody has asked the security architect. Scoping is where you find out what everything means, before the sponsor's date becomes your problem.",
+  "footnote": "Composite, fictional case used across this accreditation. Product behavior is sourced; the customer environment and its numbers are invented for practice.",
+  "claims": []
+}

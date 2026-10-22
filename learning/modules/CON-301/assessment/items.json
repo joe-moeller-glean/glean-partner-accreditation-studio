@@ -1,0 +1,270 @@
+{
+  "module_id": "CON-301",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-02",
+      "stem": "The deployment's Job completed, but users cannot find new pages. What do you check?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Nothing; Job success means indexed"
+        },
+        {
+          "id": "a",
+          "text": "Document status, since Job success proves only a clean exit"
+        },
+        {
+          "id": "c",
+          "text": "The container's CPU limits"
+        },
+        {
+          "id": "d",
+          "text": "The Terraform state file"
+        }
+      ],
+      "claims": [
+        "C-214"
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-02",
+      "stem": "You need an hourly incremental and a nightly full schedule. How is that deployed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two deployment configurations, one per schedule"
+        },
+        {
+          "id": "b",
+          "text": "One CronJob with both modes"
+        },
+        {
+          "id": "c",
+          "text": "One schedule; the SDK picks the mode"
+        },
+        {
+          "id": "d",
+          "text": "Edit the generated Terraform by hand"
+        }
+      ],
+      "claims": [
+        "C-213"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-01",
+      "stem": "Can you delete a datasource registration through the Indexing API?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Yes, with teardown"
+        },
+        {
+          "id": "c",
+          "text": "Yes, with /processalldocuments"
+        },
+        {
+          "id": "d",
+          "text": "Yes, by revoking the token"
+        },
+        {
+          "id": "a",
+          "text": "No; there is no Indexing API operation for that"
+        }
+      ],
+      "claims": [
+        "C-216",
+        "C-207"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-04",
+      "stem": "You ran /processalldocuments an hour ago and processing still looks stuck. What now?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Call it again immediately"
+        },
+        {
+          "id": "c",
+          "text": "Run a bulk upload to force it"
+        },
+        {
+          "id": "a",
+          "text": "Wait: it allows one request every 3 hours per datasource"
+        },
+        {
+          "id": "d",
+          "text": "Tear down and re-upload"
+        }
+      ],
+      "claims": [
+        "C-079"
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-04",
+      "stem": "An intended cleanup removed 30% of pages, but they are still in search the next day. Why?",
+      "options": [
+        {
+          "id": "b",
+          "text": "The upload failed silently"
+        },
+        {
+          "id": "a",
+          "text": "Above 20%, stale deletion pauses for 7 days"
+        },
+        {
+          "id": "c",
+          "text": "Deletions are processed monthly"
+        },
+        {
+          "id": "d",
+          "text": "The pages are cached in users' browsers"
+        }
+      ],
+      "claims": [
+        "C-107",
+        "C-108"
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-05",
+      "stem": "During migration, what happens to saved searches scoped to the native connector?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They will not recognize the custom connector's content; migrate them"
+        },
+        {
+          "id": "b",
+          "text": "They carry over automatically"
+        },
+        {
+          "id": "c",
+          "text": "They are deleted when the custom connector starts"
+        },
+        {
+          "id": "d",
+          "text": "Only pinned results are affected"
+        }
+      ],
+      "claims": [
+        "C-081"
+      ]
+    },
+    {
+      "id": "Q-07",
+      "objective_id": "OBJ-05",
+      "stem": "When should the native connector be deactivated during migration?",
+      "options": [
+        {
+          "id": "b",
+          "text": "First, to avoid duplicate results"
+        },
+        {
+          "id": "c",
+          "text": "Midway, once half the content is moved"
+        },
+        {
+          "id": "d",
+          "text": "Never; both run forever"
+        },
+        {
+          "id": "a",
+          "text": "Last, after the custom connector is populated and artifacts are migrated"
+        }
+      ],
+      "claims": [
+        "C-082",
+        "C-083"
+      ]
+    },
+    {
+      "id": "Q-08",
+      "objective_id": "OBJ-06",
+      "stem": "What must customer-facing documentation for a listed connector explain?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Its internal code structure"
+        },
+        {
+          "id": "c",
+          "text": "The partner's pricing"
+        },
+        {
+          "id": "a",
+          "text": "Its permission propagation logic"
+        },
+        {
+          "id": "d",
+          "text": "Glean's ranking algorithm"
+        }
+      ],
+      "claims": [
+        "C-275"
+      ]
+    },
+    {
+      "id": "Q-09",
+      "objective_id": "OBJ-06",
+      "stem": "Who is expected to maintain and support a listed partner-built connector?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Glean Support"
+        },
+        {
+          "id": "a",
+          "text": "The partner that built it"
+        },
+        {
+          "id": "c",
+          "text": "Each customer's admin alone"
+        },
+        {
+          "id": "d",
+          "text": "The source system vendor"
+        }
+      ],
+      "claims": [
+        "C-273"
+      ]
+    },
+    {
+      "id": "Q-10",
+      "objective_id": "OBJ-03",
+      "stem": "Which alert would have caught the day 45 incident first?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A sharp drop in documents_indexed between runs"
+        },
+        {
+          "id": "b",
+          "text": "A non-zero exit code"
+        },
+        {
+          "id": "c",
+          "text": "Rising CPU on the host"
+        },
+        {
+          "id": "d",
+          "text": "Token expiry reminders"
+        }
+      ],
+      "claims": [
+        "C-204",
+        "C-170"
+      ]
+    }
+  ]
+}

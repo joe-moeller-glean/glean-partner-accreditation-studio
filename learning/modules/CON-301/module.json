@@ -1,0 +1,14 @@
+{
+  "module_id": "CON-301",
+  "title": "Production Operations, Security, Migration, and Handoff",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "design_system": "paged-v1",
+  "accreditation_id": "accred-custom-connectors",
+  "also_counts_toward": [],
+  "level": "300",
+  "target_hours": 2.3,
+  "assessment_type": "Quiz + runbook and maintenance plan (assessor)"
+}

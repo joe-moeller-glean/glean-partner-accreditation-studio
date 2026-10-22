@@ -1,0 +1,16 @@
+{
+  "module_id": "TEC-201",
+  "title": "Connector Deployment Prerequisites",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "design_system": "paged-v1",
+  "accreditation_id": "accred-custom-connectors",
+  "also_counts_toward": [
+    "accred-solution-architect"
+  ],
+  "level": "200",
+  "target_hours": 1.6,
+  "assessment_type": "Quiz + readiness gate checklist (assessor)"
+}

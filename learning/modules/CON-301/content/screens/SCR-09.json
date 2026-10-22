@@ -1,0 +1,32 @@
+{
+  "id": "SCR-09",
+  "archetype": "A6",
+  "objective": "OBJ-04",
+  "eyebrow": "Decision",
+  "title": "Recover in the right order",
+  "type": "choice",
+  "prompt": "You have found both causes. What do you do first?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Rerun the full crawl now with the same code.",
+      "feedback": "The same code can swallow the next error and repeat the partial run."
+    },
+    {
+      "id": "o3",
+      "text": "Tear down the datasource and start clean.",
+      "feedback": "teardown cannot be undone, and it removes everything users rely on."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "Fix the client so auth errors fail the run, remove the test cap, then run a full crawl verified against expected counts.",
+      "feedback": "Right. Never let a partial fetch finish as a successful full crawl. Fix the fault before you rerun."
+    }
+  ],
+  "takeaway": "Fix the fault, then rerun a verified full crawl.",
+  "claims": [
+    "C-170",
+    "C-207"
+  ]
+}

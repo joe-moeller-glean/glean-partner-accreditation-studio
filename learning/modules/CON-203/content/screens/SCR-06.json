@@ -1,0 +1,50 @@
+{
+  "id": "SCR-06",
+  "archetype": "A5",
+  "objective": "OBJ-03",
+  "eyebrow": "Write semantics",
+  "title": "Single, incremental, or bulk",
+  "table": {
+    "caption": "Documented write paths",
+    "head": [
+      "Call",
+      "Semantics",
+      "Limits and rules"
+    ],
+    "rows": [
+      [
+        "/indexdocument",
+        "Adds or updates one document",
+        "10 requests per second"
+      ],
+      [
+        "/indexdocuments",
+        "Intended for incremental updates",
+        "600 documents per minute"
+      ],
+      [
+        "/bulkindexdocuments",
+        "Fully replaces the document list; omitted documents are deleted asynchronously",
+        "One unique uploadId per upload; no concurrent uploads; forceRestartUpload after a failed upload"
+      ],
+      [
+        "/processalldocuments",
+        "Re-indexes previously uploaded documents; makes deletions take effect immediately",
+        "One request every 3 hours per datasource"
+      ]
+    ]
+  },
+  "footnote": "Above 20% stale, deletion pauses for 7 days. For targeted deletes, use the delete operation in the API reference for your release; its limits are not in the reviewed sources.",
+  "claims": [
+    "C-137",
+    "C-102",
+    "C-101",
+    "C-109",
+    "C-105",
+    "C-106",
+    "C-075",
+    "C-108",
+    "C-079",
+    "C-107"
+  ]
+}

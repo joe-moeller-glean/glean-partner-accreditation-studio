@@ -1,0 +1,14 @@
+{
+  "id": "SCR-11",
+  "archetype": "A14",
+  "objective": "OBJ-01",
+  "eyebrow": "Carry this with you",
+  "title": "If the answer can help many, share it.",
+  "body": "Community answers let Support help multiple customers at once. Use the community for questions, best practices, and ideas, and keep instance issues in a ticket.",
+  "badge": "Gleaniverse Community: complete",
+  "signature": true,
+  "claims": [
+    "C-314",
+    "C-305"
+  ]
+}

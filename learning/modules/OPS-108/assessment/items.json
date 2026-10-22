@@ -1,0 +1,101 @@
+{
+  "module_id": "OPS-108",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "A customer admin wants live help from Glean Support in a small group. Where should they look?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Post a request on the product ideas board."
+        },
+        {
+          "id": "a",
+          "text": "Events: the monthly troubleshooting session on the second Thursday."
+        },
+        {
+          "id": "c",
+          "text": "The Admin Hub only."
+        }
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-01",
+      "stem": "Why should a user register for Gleaniverse with a work email?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Because personal email addresses are shown publicly."
+        },
+        {
+          "id": "c",
+          "text": "It is optional and has no effect."
+        },
+        {
+          "id": "a",
+          "text": "So they receive the correct role and permissions."
+        }
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-02",
+      "stem": "A customer reports an error in their own Glean instance. Where does it go?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A support ticket."
+        },
+        {
+          "id": "b",
+          "text": "A new forum thread with the error log."
+        },
+        {
+          "id": "c",
+          "text": "Submit it as a product idea for voting."
+        }
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-02",
+      "stem": "Where should a feature request go?",
+      "options": [
+        {
+          "id": "b",
+          "text": "An Urgent support ticket."
+        },
+        {
+          "id": "c",
+          "text": "An email to a Glean contact."
+        },
+        {
+          "id": "a",
+          "text": "The Feedback and Ideas board in Gleaniverse."
+        }
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-03",
+      "stem": "Which post breaks the community guidelines?",
+      "options": [
+        {
+          "id": "b",
+          "text": "A question that follows a search that found no existing thread."
+        },
+        {
+          "id": "a",
+          "text": "A post that includes a user's email address and an internal document link."
+        },
+        {
+          "id": "c",
+          "text": "A reply that shares what worked for another admin."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "SCR-11",
+  "archetype": "quiz",
+  "objective": "OBJ-04",
+  "eyebrow": "Self-check",
+  "title": "Capstone readiness self-check",
+  "type": "quiz"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "SCR-10",
+  "archetype": "A6",
+  "objective": "OBJ-04",
+  "eyebrow": "Decision",
+  "title": "The live bed board",
+  "type": "choice",
+  "prompt": "Nurses want current bed availability, which changes every few minutes, and want to place a hold on a bed from Glean. What do you propose?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "A custom indexed connector that re-crawls the bed board every 15 minutes.",
+      "feedback": "Availability would lag behind reality, and indexing cannot perform the hold. Live retrieval suits data where minutes-to-hours freshness dominates."
+    },
+    {
+      "id": "o3",
+      "text": "A web history connector so nurses can find bed board pages they visited.",
+      "feedback": "Web history makes page titles from a user's own browsing searchable. It returns no current availability and performs no action."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "A live tool or MCP integration that reads availability and places the hold at request time.",
+      "feedback": "Right. Freshness dominates and a write is required. Tools retrieve current data or perform actions at request time; an index is a snapshot and cannot place a hold."
+    }
+  ],
+  "takeaway": "When freshness dominates or the user must act, go live.",
+  "claims": [
+    "C-011",
+    "C-022",
+    "C-007"
+  ]
+}

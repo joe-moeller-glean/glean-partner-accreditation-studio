@@ -1,0 +1,14 @@
+{
+  "id": "SCR-14",
+  "archetype": "A14",
+  "objective": "OBJ-03",
+  "eyebrow": "Carry this with you",
+  "title": "Conversation first. Ticket when it needs ownership.",
+  "body": "Designated Support Contacts should know the deployment and configuration, have admin access to connected applications, prioritize accurately, and use self-service first. Glean Support also runs a monthly live troubleshooting session on the second Thursday of each month. Next: OPS-108 shows when the community is the better place to ask.",
+  "badge": "Glean Support Center: complete",
+  "signature": true,
+  "claims": [
+    "C-221",
+    "C-225"
+  ]
+}

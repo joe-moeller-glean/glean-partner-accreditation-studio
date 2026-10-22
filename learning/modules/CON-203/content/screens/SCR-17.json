@@ -1,0 +1,10 @@
+{
+  "id": "SCR-17",
+  "archetype": "A14",
+  "objective": "OBJ-01",
+  "eyebrow": "Next step",
+  "title": "Next: let the SDK do the plumbing",
+  "body": "CON-204 builds the same connector with the Indexing SDK, and shows the handful of SDK choices that silently delete or expose data.",
+  "signature": true,
+  "claims": []
+}

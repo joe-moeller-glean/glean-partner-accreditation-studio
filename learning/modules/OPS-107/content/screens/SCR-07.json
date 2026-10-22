@@ -1,0 +1,38 @@
+{
+  "id": "SCR-07",
+  "archetype": "A8",
+  "objective": "OBJ-02",
+  "eyebrow": "Worked example",
+  "title": "Build a ticket support can act on",
+  "body": "A complete ticket helps support resolve the issue faster. Here is a role-based example: members of one department no longer see results from a connected wiki.",
+  "steps": [
+    {
+      "title": "Issue description",
+      "body": "Members of the finance group stopped seeing wiki pages in search. Steps: sign in as a finance user, search for a known page title."
+    },
+    {
+      "title": "Error messages",
+      "body": "Paste the exact text or error code shown. If no error appears, say so."
+    },
+    {
+      "title": "Timing",
+      "body": "First seen at a specific date and time, with the timezone, so support can match system logs."
+    },
+    {
+      "title": "User impact",
+      "body": "State if one account or multiple users are affected."
+    },
+    {
+      "title": "Document reference",
+      "body": "Add the URL of one page that should appear but does not."
+    },
+    {
+      "title": "Visual evidence",
+      "body": "Attach a screenshot or recording of the search and its results."
+    }
+  ],
+  "asset": "OPS-107-A03",
+  "claims": [
+    "C-211"
+  ]
+}

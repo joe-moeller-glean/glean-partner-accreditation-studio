@@ -1,0 +1,34 @@
+{
+  "id": "SCR-06",
+  "archetype": "A6",
+  "objective": "OBJ-02",
+  "eyebrow": "Decision",
+  "title": "Pick the class for the policy wiki",
+  "type": "choice",
+  "prompt": "The wiki has 38,400 pages with HTML bodies, a paginated API, a synchronous HTTP client, and group-based ACLs. What do you build?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "An async streaming connector; identities take care of themselves.",
+      "feedback": "Async streaming implementations also skip get_identities(). Without identities, the ACLs match nobody."
+    },
+    {
+      "id": "o3",
+      "text": "BasePeopleConnector, because the ACLs depend on people.",
+      "feedback": "BasePeopleConnector produces employee records, which are distinct from the datasource identities that back ACLs."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "A streaming connector, plus a separate step that pushes users, groups, and memberships first.",
+      "feedback": "Right. Large, paginated, synchronous: streaming. Streaming connectors do not run get_identities(), so identities are pushed separately, before content."
+    }
+  ],
+  "takeaway": "Choosing streaming means owning the identity push.",
+  "claims": [
+    "C-315",
+    "C-166",
+    "C-196",
+    "C-169"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "SCR-07",
+  "archetype": "A4",
+  "objective": "OBJ-03",
+  "eyebrow": "Data client",
+  "title": "Pull from the source without hurting it",
+  "hotspots": [
+    {
+      "label": "Retries",
+      "detail": "The HTTP client retries 429, 500, 502, 503, and 504; everything else fails immediately. The default max_attempts=2 is one retry. Raise it to 4 or 5 against APIs that rate-limit aggressively."
+    },
+    {
+      "label": "Pacing",
+      "detail": "The rate limiter is proactive; retries are reactive. Run below the source quota: at 600 per minute, 7 to 8 per second leaves room for retries."
+    },
+    {
+      "label": "Paging",
+      "detail": "Cursor paging stops when the cursor is missing, empty, not a string, or identical to the previous cursor. Offset pagination is unstable while the source is written to. Any loop you write must terminate on a misbehaving source."
+    },
+    {
+      "label": "Logs",
+      "detail": "Query parameters are redacted in request logs by default. Redaction covers logging only."
+    }
+  ],
+  "claims": [
+    "C-318",
+    "C-186",
+    "C-317",
+    "C-194",
+    "C-193",
+    "C-323",
+    "C-190",
+    "C-191",
+    "C-187",
+    "C-188"
+  ]
+}

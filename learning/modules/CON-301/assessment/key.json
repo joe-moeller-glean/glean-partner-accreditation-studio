@@ -1,0 +1,95 @@
+{
+  "module_id": "CON-301",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "A completed Job proves only that the process exited.",
+        "a": "Right.",
+        "c": "Resources do not explain missing indexing.",
+        "d": "Terraform describes infrastructure, not indexing."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "Each CronJob has one schedule and indexing mode.",
+        "c": "The mode is set per deployment configuration.",
+        "d": "Change glean_deployment.yaml instead."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "b": "teardown clears content with an empty full crawl; it does not delete the registration.",
+        "c": "That reprocesses documents.",
+        "d": "Revoking a token stops access; the registration remains.",
+        "a": "Right. teardown clears content and cannot be undone."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "It is limited to one request every 3 hours.",
+        "c": "A bulk upload is replacement, not reprocessing.",
+        "a": "Right. Use the time to gather evidence for a ticket.",
+        "d": "teardown cannot be undone."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "b": "The safeguard explains it.",
+        "a": "Right. Use /processalldocuments if the deletion is intended.",
+        "c": "No such schedule is documented.",
+        "d": "The index still holds them."
+      }
+    },
+    "Q-06": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "Artifacts scoped to the native connector do not carry over.",
+        "c": "They remain; they simply do not see the new content.",
+        "d": "Agents, saved searches, app filters, and pinned results are all affected."
+      }
+    },
+    "Q-07": {
+      "answer": "a",
+      "rationale": {
+        "b": "Users would lose coverage.",
+        "c": "Coverage would have a gap.",
+        "d": "Parallel running is for the transition period.",
+        "a": "Right. Deactivation removes its content."
+      }
+    },
+    "Q-08": {
+      "answer": "a",
+      "rationale": {
+        "b": "Code structure is not the customer's concern.",
+        "c": "Pricing is not a documentation requirement here.",
+        "a": "Right.",
+        "d": "Ranking is Glean's, not the connector's."
+      }
+    },
+    "Q-09": {
+      "answer": "a",
+      "rationale": {
+        "b": "Glean expects the partner to maintain and support it.",
+        "a": "Right.",
+        "c": "The partner maintains and supports it.",
+        "d": "The partner built it and supports it."
+      }
+    },
+    "Q-10": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "The swallowed error meant the run exited successfully.",
+        "c": "CPU does not measure completeness.",
+        "d": "Useful, but the partial run still needed detection."
+      }
+    }
+  }
+}

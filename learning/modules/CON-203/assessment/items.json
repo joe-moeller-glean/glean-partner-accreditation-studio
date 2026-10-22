@@ -1,0 +1,325 @@
+{
+  "module_id": "CON-203",
+  "mastery_score": 80,
+  "items": [
+    {
+      "id": "Q-01",
+      "objective_id": "OBJ-01",
+      "stem": "Which token does the activity endpoint require?",
+      "options": [
+        {
+          "id": "b",
+          "text": "The datasource's Indexing API token"
+        },
+        {
+          "id": "a",
+          "text": "A global Client API token scoped to ACTIVITY"
+        },
+        {
+          "id": "c",
+          "text": "An OAuth token from the source system"
+        },
+        {
+          "id": "d",
+          "text": "No token; activity is anonymous"
+        }
+      ],
+      "claims": [
+        "C-133",
+        "C-134"
+      ]
+    },
+    {
+      "id": "Q-02",
+      "objective_id": "OBJ-02",
+      "stem": "What does isUserReferencedByEmail control?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Whether user identities are referenced directly by email"
+        },
+        {
+          "id": "b",
+          "text": "Whether Glean emails users about new documents"
+        },
+        {
+          "id": "c",
+          "text": "Whether documents must list an author email"
+        },
+        {
+          "id": "d",
+          "text": "Whether the datasource is visible to all users"
+        }
+      ],
+      "claims": [
+        "C-118"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "objective_id": "OBJ-03",
+      "stem": "A connector sends page bodies as application/json. What happens to the content?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Glean parses the JSON fields into text"
+        },
+        {
+          "id": "c",
+          "text": "Only the first 16.875 MB is indexed"
+        },
+        {
+          "id": "d",
+          "text": "It is indexed as a spreadsheet"
+        },
+        {
+          "id": "a",
+          "text": "JSON is not a supported content MIME type"
+        }
+      ],
+      "claims": [
+        "C-094"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "objective_id": "OBJ-05",
+      "stem": "A DATE custom property is not showing as a facet. What is the most likely cause?",
+      "options": [
+        {
+          "id": "b",
+          "text": "DATE properties are never faceted"
+        },
+        {
+          "id": "c",
+          "text": "The datasource category is wrong"
+        },
+        {
+          "id": "a",
+          "text": "The value is not an epoch timestamp in seconds"
+        },
+        {
+          "id": "d",
+          "text": "Activity data is missing"
+        }
+      ],
+      "claims": [
+        "C-126",
+        "C-127"
+      ]
+    },
+    {
+      "id": "Q-05",
+      "objective_id": "OBJ-05",
+      "stem": "How do you update a custom property value on an indexed document?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Send only the changed property"
+        },
+        {
+          "id": "a",
+          "text": "Re-upload the entire document via /indexdocument"
+        },
+        {
+          "id": "c",
+          "text": "Attach it as Custom Metadata"
+        },
+        {
+          "id": "d",
+          "text": "Run /processalldocuments"
+        }
+      ],
+      "claims": [
+        "C-130",
+        "C-131"
+      ]
+    },
+    {
+      "id": "Q-06",
+      "objective_id": "OBJ-03",
+      "stem": "Bulk upload A holds pages 1 to 30. Bulk upload B holds pages 1 to 28. What happens after B succeeds?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pages 29 and 30 are deleted asynchronously"
+        },
+        {
+          "id": "b",
+          "text": "Pages 29 and 30 stay until deleted explicitly"
+        },
+        {
+          "id": "c",
+          "text": "Deletion pauses for 7 days"
+        },
+        {
+          "id": "d",
+          "text": "Upload B is rejected as incomplete"
+        }
+      ],
+      "claims": [
+        "C-101",
+        "C-107"
+      ]
+    },
+    {
+      "id": "Q-07",
+      "objective_id": "OBJ-03",
+      "stem": "You start a bulk upload while the previous one is still running. What happens?",
+      "options": [
+        {
+          "id": "b",
+          "text": "The two uploads are merged"
+        },
+        {
+          "id": "c",
+          "text": "The new upload queues automatically"
+        },
+        {
+          "id": "d",
+          "text": "The newer upload silently replaces the older"
+        },
+        {
+          "id": "a",
+          "text": "It is not allowed; finish the previous upload first"
+        }
+      ],
+      "claims": [
+        "C-105"
+      ]
+    },
+    {
+      "id": "Q-08",
+      "objective_id": "OBJ-04",
+      "stem": "In what order should a permission-aware connector index identities and documents?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Documents first, then identities"
+        },
+        {
+          "id": "c",
+          "text": "Memberships, then groups, then users"
+        },
+        {
+          "id": "a",
+          "text": "Users, groups, memberships, then documents with ACLs"
+        },
+        {
+          "id": "d",
+          "text": "Order does not matter; processing sorts it out"
+        }
+      ],
+      "claims": [
+        "C-111",
+        "C-114"
+      ]
+    },
+    {
+      "id": "Q-09",
+      "objective_id": "OBJ-04",
+      "stem": "How do you express that the nurse-leads group is a member of clinical-staff?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Copy every nurse lead into clinical-staff as a user"
+        },
+        {
+          "id": "a",
+          "text": "A membership with memberGroupName set to nurse-leads"
+        },
+        {
+          "id": "c",
+          "text": "List both groups on every document"
+        },
+        {
+          "id": "d",
+          "text": "It cannot be expressed; flatten it"
+        }
+      ],
+      "claims": [
+        "C-115",
+        "C-197"
+      ]
+    },
+    {
+      "id": "Q-10",
+      "objective_id": "OBJ-06",
+      "stem": "You called /processalldocuments 40 minutes ago. Can you call it again now?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No; it allows one request every 3 hours per datasource"
+        },
+        {
+          "id": "b",
+          "text": "Yes; reprocessing is not rate limited"
+        },
+        {
+          "id": "c",
+          "text": "Yes, if you use a bulk upload instead"
+        },
+        {
+          "id": "d",
+          "text": "Yes, with a global-scope token"
+        }
+      ],
+      "claims": [
+        "C-079"
+      ]
+    },
+    {
+      "id": "Q-11",
+      "objective_id": "OBJ-04",
+      "stem": "Which group name will be rejected?",
+      "options": [
+        {
+          "id": "b",
+          "text": "clinic-014"
+        },
+        {
+          "id": "c",
+          "text": "nurseleads"
+        },
+        {
+          "id": "d",
+          "text": "pharmacy_staff"
+        },
+        {
+          "id": "a",
+          "text": "sciopharmacists"
+        }
+      ],
+      "claims": [
+        "C-113"
+      ]
+    },
+    {
+      "id": "Q-12",
+      "objective_id": "OBJ-06",
+      "stem": "User uploads show UPLOAD COMPLETED, but indexed user counts are low. What should you check?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Nothing; UPLOAD COMPLETED means users are searchable"
+        },
+        {
+          "id": "c",
+          "text": "Which category the datasource uses"
+        },
+        {
+          "id": "a",
+          "text": "Pagination flags, since wrong flags can make a partial upload look complete"
+        },
+        {
+          "id": "d",
+          "text": "The activity token"
+        }
+      ],
+      "claims": [
+        "C-074",
+        "C-072"
+      ]
+    }
+  ]
+}

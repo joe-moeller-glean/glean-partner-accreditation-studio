@@ -1,0 +1,16 @@
+{
+  "module_id": "BLD-202",
+  "title": "Custom Connector Implementation Lab",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "design_system": "paged-v1",
+  "accreditation_id": "accred-custom-connectors",
+  "also_counts_toward": [
+    "accred-builder"
+  ],
+  "level": "300",
+  "target_hours": 5.0,
+  "assessment_type": "Self-check quiz + assessor-scored lab (outside the package)"
+}

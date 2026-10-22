@@ -1,0 +1,41 @@
+module_id: BLD-201
+title: Custom Connector Best Practices
+level: 200
+target_hours: 2.6
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Apply the custom connector reference architecture."
+    screens: [SCR-02, SCR-03, SCR-REF, SCR-17]
+    assessment_items: [Q-11]
+  - id: OBJ-02
+    text: "Design stable IDs and a content model that survives renames and relations."
+    screens: [SCR-04, SCR-05]
+    assessment_items: [Q-01]
+  - id: OBJ-03
+    text: "Map source identities and permissions without broad fallbacks."
+    screens: [SCR-06, SCR-07]
+    assessment_items: [Q-02, Q-03]
+  - id: OBJ-04
+    text: "Design completeness guards that stop a partial full crawl from finishing."
+    screens: [SCR-01, SCR-10, SCR-11, SCR-16]
+    assessment_items: [Q-04]
+  - id: OBJ-05
+    text: "Choose a freshness and deletion strategy for every object family."
+    screens: [SCR-08, SCR-09, SCR-14]
+    assessment_items: [Q-05, Q-06]
+  - id: OBJ-06
+    text: "Design reliability, state, security, and monitoring for production."
+    screens: [SCR-12, SCR-13, SCR-15]
+    assessment_items: [Q-07, Q-08, Q-09, Q-10]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 18
+distinct_archetypes: [A1, A10, A11, A13, A14, A2, A3, A4, A5, A6, A7, A8, A9, quiz]
+assessment_type: Quiz + architecture decision record (assessor)

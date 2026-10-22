@@ -1,0 +1,14 @@
+{
+  "module_id": "CON-204",
+  "title": "Glean Indexing SDK: Build, Test, Debug, Deploy",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "design_system": "paged-v1",
+  "accreditation_id": "accred-custom-connectors",
+  "also_counts_toward": [],
+  "level": "300",
+  "target_hours": 3.8,
+  "assessment_type": "Quiz + SDK build lab evidence (assessor)"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "SCR-09",
+  "archetype": "A5",
+  "objective": "OBJ-04",
+  "eyebrow": "Personas",
+  "title": "Test identities you will need",
+  "body": "Denial is as important as access: plan identities that must not see a document. On a test datasource, each persona must be a beta user and still needs document permissions.",
+  "table": {
+    "caption": "Persona set for the policy wiki",
+    "head": [
+      "Persona",
+      "Proves"
+    ],
+    "rows": [
+      [
+        "Connector lead",
+        "Setup works end to end"
+      ],
+      [
+        "Clinical staff member",
+        "Plain group access"
+      ],
+      [
+        "Pharmacist at one clinic",
+        "A both-groups rule allows access"
+      ],
+      [
+        "Nurse lead in a nested group",
+        "Nested membership resolves"
+      ],
+      [
+        "Contractor",
+        "Denied pages stay hidden"
+      ],
+      [
+        "Source admin",
+        "The source's admin bypass is not mirrored"
+      ]
+    ]
+  },
+  "footnote": "Persona names are role labels in the fictional case, not real accounts.",
+  "claims": [
+    "C-124",
+    "C-199"
+  ]
+}

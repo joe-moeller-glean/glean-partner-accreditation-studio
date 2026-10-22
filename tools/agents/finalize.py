@@ -66,8 +66,12 @@ def validate(mid):
     }
 
 
-def write_qa(mid, spec, runtime_findings):
+def write_qa(mid, spec, runtime_findings, isolation_checked=False):
     d = module_dir(mid)
+    # Manual browser evidence is recorded by a human, not by this script. Keep it.
+    prior_path = d / "qa" / "report.json"
+    prior = json.loads(prior_path.read_text()) if prior_path.is_file() else {}
+    manual = prior.get("runtime_qa", {}).get("manual_browser_pass")
     lint_res = lint(mid)
     val_res = validate(mid)
     claims = SD.claims_for(spec["claims"])
@@ -151,8 +155,10 @@ def write_qa(mid, spec, runtime_findings):
                 "quiz graded at 0% then retried and graded at 100%",
                 "cmi.core.score.raw, score.min, score.max, lesson_status writes",
                 "suspend_data resume into a fresh runtime context",
-            ],
+            ] + (["cross-module storage isolation against a shared origin store"]
+                 if isolation_checked else []),
             "findings": runtime_findings,
+            **({"manual_browser_pass": manual} if manual else {}),
         },
         "structure": {
             "screens": len(screens),
@@ -166,8 +172,8 @@ def write_qa(mid, spec, runtime_findings):
         },
         "state": "built_pending_human_review",
         "publish_note": ("Deterministic gates pass. Publication is held for human review: no SME "
-                         "sign-off recorded, no LMS import test performed, and the approved Glean "
-                         "wordmark asset is not yet placed."),
+                         "sign-off recorded and no LMS import test performed. Styled to Glean "
+                         "Branding Style 2026 with the approved vector wordmark placed."),
     })
     return lint_res, val_res
 
@@ -179,7 +185,8 @@ def main():
     specs[ACCRED_ID] = BADGE
     summary = {}
     for mid in all_ids:
-        lint_res, val_res = write_qa(mid, specs[mid], runtime.get(mid, []))
+        isolation = "_cross_module_isolation" in runtime and not runtime["_cross_module_isolation"]
+        lint_res, val_res = write_qa(mid, specs[mid], runtime.get(mid, []), isolation)
         summary[mid] = {
             "lint": lint_res["state"],
             "package": val_res["state"],

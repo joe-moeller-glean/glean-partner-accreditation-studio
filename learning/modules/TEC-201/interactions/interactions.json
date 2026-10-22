@@ -1,0 +1,57 @@
+{
+  "module_id": "TEC-201",
+  "interactions": [
+    {
+      "interaction_id": "INT-SCR-04-HOTSPOT",
+      "screen_id": "SCR-04",
+      "kind": "progressive_hotspot",
+      "objective_id": "OBJ-02",
+      "archetype": "A4",
+      "keyboard": "Each hotspot is a button with aria-expanded state.",
+      "feedback_rule": "Reveals detail sourced to a claim; no hidden navigation.",
+      "claims": [
+        "C-052",
+        "C-054",
+        "C-053",
+        "C-238",
+        "C-056",
+        "C-059",
+        "C-060",
+        "C-055",
+        "C-057"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-05",
+      "screen_id": "SCR-05",
+      "kind": "choice",
+      "objective_id": "OBJ-02",
+      "archetype": "A6",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-057",
+        "C-054",
+        "C-055",
+        "C-052"
+      ]
+    },
+    {
+      "interaction_id": "INT-SCR-07",
+      "screen_id": "SCR-07",
+      "kind": "sort",
+      "objective_id": "OBJ-03",
+      "archetype": "A9",
+      "keyboard": "All controls are native button or select elements; full tab and arrow support.",
+      "feedback_rule": "Every response explains why, never correctness alone.",
+      "claims": [
+        "C-103",
+        "C-056",
+        "C-251",
+        "C-254",
+        "C-045",
+        "C-049"
+      ]
+    }
+  ]
+}

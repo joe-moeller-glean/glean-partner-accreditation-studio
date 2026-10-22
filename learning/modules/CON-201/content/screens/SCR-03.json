@@ -1,0 +1,13 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "Two ingestion paths",
+  "title": "Two ways in, one platform",
+  "body": "Native connectors call source APIs directly. Custom connectors push documents, metadata, and permissions through the Indexing API. After ingestion, both share the same machinery: documents, permissions, people data, and user activity flow through the same backend queueing and indexing system, so one type of backlog can affect another.",
+  "claims": [
+    "C-005",
+    "C-041",
+    "C-232"
+  ]
+}

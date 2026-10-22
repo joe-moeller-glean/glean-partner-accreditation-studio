@@ -1,0 +1,20 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will prove",
+  "title": "Five things you will prove",
+  "bullets": [
+    "The connector indexes users, permissions, and documents, updates automatically, and retries with backoff.",
+    "Every persona sees exactly what it should.",
+    "Updates, deletes, renames, and permission-only changes propagate.",
+    "A partial full crawl never finishes; throttling and token expiry are survived.",
+    "Counts reconcile, and the handoff package stands on its own."
+  ],
+  "asset": "BLD-202-A01",
+  "claims": [
+    "C-261",
+    "C-262",
+    "C-263"
+  ]
+}

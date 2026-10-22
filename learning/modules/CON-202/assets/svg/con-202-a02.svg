@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 564" width="100%" preserveAspectRatio="xMidYMid meet">
+<title>From request to go or no-go</title>
+<desc>Five steps: fit check; questionnaire covering source, access, identity, environments, and changes; sizing against limits; identity and hosting decisions; risk register and decision.</desc>
+<defs><radialGradient id="wt" cx="1.02" cy="-0.08" r="0.62" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#DEEEF0"/><stop offset="0.7" stop-color="#DEEEF0" stop-opacity="0"/></radialGradient><radialGradient id="wo" cx="-0.06" cy="1.06" r="0.45" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#F0C2F2"/><stop offset="0.72" stop-color="#F0C2F2" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="0" width="620" height="564" fill="#F6F3EB"/><rect x="0" y="0" width="620" height="564" fill="url(#wt)"/><rect x="0" y="0" width="620" height="564" fill="url(#wo)"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">From request to go or no-go</text>
+<rect x="24" y="64" width="572" height="68" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="50" y="102" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="13" letter-spacing="0.04em" fill="#666666" text-anchor="middle">01</text>
+<text x="76" y="92" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Fit check</text>
+<text x="76" y="112" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Native, crawler, Custom Metadata, or live option first</text>
+<line x1="50" y1="136" x2="50" y2="162" stroke="#000000" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="24" y="166" width="572" height="68" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="50" y="204" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="13" letter-spacing="0.04em" fill="#666666" text-anchor="middle">02</text>
+<text x="76" y="194" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Questionnaire</text>
+<text x="76" y="214" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Source, access, identity, environments, change rates</text>
+<line x1="50" y1="238" x2="50" y2="264" stroke="#000000" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="24" y="268" width="572" height="68" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="50" y="306" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="13" letter-spacing="0.04em" fill="#666666" text-anchor="middle">03</text>
+<text x="76" y="296" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Sizing</text>
+<text x="76" y="316" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Calls per run versus source and Glean limits</text>
+<line x1="50" y1="340" x2="50" y2="366" stroke="#000000" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="24" y="370" width="572" height="68" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="50" y="408" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="13" letter-spacing="0.04em" fill="#666666" text-anchor="middle">04</text>
+<text x="76" y="398" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Identity and hosting</text>
+<text x="76" y="418" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Email match, unmatched users, where it runs</text>
+<line x1="50" y1="442" x2="50" y2="468" stroke="#000000" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="24" y="472" width="572" height="68" rx="12" fill="#FFFFFF" stroke="#343CED" stroke-width="2"/>
+<text x="50" y="510" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="13" letter-spacing="0.04em" fill="#666666" text-anchor="middle">05</text>
+<text x="76" y="500" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Risk register and decision</text>
+<text x="76" y="520" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Go, go with conditions, or no-go</text>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "module_id": "BLD-201",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "Under load, the source API returns 200 with an empty list and no cursor, long before the real end. The connector treats it as the end, reports success, and finalizes the full run. By morning, thousands of pages are gone from search. Nothing errored. This module is about building connectors that fail loudly instead.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-11",
+      "archetype": "A6",
+      "prompt": "Last night's full run fetched 38,350 pages. Tonight's fetched 36,900. The source averages about 40 deletions a day. What does the connector do?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-14",
+      "archetype": "A8",
+      "prompt": "",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

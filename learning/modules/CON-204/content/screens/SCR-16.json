@@ -1,0 +1,54 @@
+{
+  "id": "SCR-16",
+  "archetype": "A8",
+  "objective": "OBJ-06",
+  "eyebrow": "Build lab briefing",
+  "title": "The SDK build lab, step by step",
+  "steps": [
+    {
+      "title": "01 Credentials",
+      "body": "glean-idx doctor with your datasource proves the token works."
+    },
+    {
+      "title": "02 Data client",
+      "body": "Cursor paging, a limiter below the source quota, max_attempts raised."
+    },
+    {
+      "title": "03 Guard",
+      "body": "A unit test proves an empty page before the end raises and nothing uploads."
+    },
+    {
+      "title": "04 Transform",
+      "body": "Stable IDs, epoch seconds, group and intersection ACLs."
+    },
+    {
+      "title": "05 Identities",
+      "body": "Users, groups, and memberships pushed before streaming content."
+    },
+    {
+      "title": "06 Tests",
+      "body": "Mock, then integration with negative identities configured."
+    },
+    {
+      "title": "07 Live",
+      "body": "A full run on the disposable datasource; document access checked for three personas."
+    },
+    {
+      "title": "08 Incremental",
+      "body": "Override the checkpoint; run incremental after source changes; explain why deletions need their own path."
+    }
+  ],
+  "footnote": "The lab runs outside this package, in your own repository and a disposable test datasource provided by your program. Your assessor scores the lab evidence.",
+  "claims": [
+    "C-317",
+    "C-193",
+    "C-154",
+    "C-153",
+    "C-166",
+    "C-155",
+    "C-206",
+    "C-321",
+    "C-172",
+    "C-174"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "module_id": "CON-301",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "Day 45 after go-live: 3,100 policy pages vanished overnight. Two days later, pages deleted in the source stopped disappearing from search. Two failures, two causes, and one missing alert. By the end of this module you will find both in minutes and fix them in the right order.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-08",
+      "archetype": "A8",
+      "prompt": "",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-09",
+      "archetype": "A6",
+      "prompt": "You have found both causes. What do you do first?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

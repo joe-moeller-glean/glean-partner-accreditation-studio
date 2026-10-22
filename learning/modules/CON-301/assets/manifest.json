@@ -1,0 +1,59 @@
+{
+  "module_id": "CON-301",
+  "assets": [
+    {
+      "asset_id": "CON-301-A01",
+      "path": "assets/svg/con-301-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Five steps: build the custom connector in its own namespace; run both in parallel; migrate agents, saved searches, app filters, and pinned results; verify with users at several permission levels; deactivate native last, because deactivation removes its content.",
+      "screen_id": "SCR-10",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-080",
+        "C-083",
+        "C-081",
+        "C-082"
+      ],
+      "alt": "Five-step migration flow ending with deactivating the native connector.",
+      "bytes": 5208
+    },
+    {
+      "asset_id": "CON-301-A02",
+      "path": "assets/svg/con-301-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Four cards: owner and escalation path; monitoring and alert ownership; credential rotation calendar; change management for source, API, and SDK changes.",
+      "screen_id": "SCR-12",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-265",
+        "C-238",
+        "C-220"
+      ],
+      "alt": "Four cards naming the essentials of a maintenance plan.",
+      "bytes": 4624
+    },
+    {
+      "asset_id": "CON-301-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

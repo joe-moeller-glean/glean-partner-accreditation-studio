@@ -1,0 +1,365 @@
+{
+  "module_id": "ACC-107",
+  "claims": [
+    {
+      "claim_id": "C-260",
+      "text": "Competency definition.",
+      "excerpt": "The Custom Connector Competency certifies Partners to scope, build, deploy, and maintain custom data source integrations with Glean",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-267",
+      "text": "Competencies require an audit.",
+      "excerpt": "Glean competencies require thorough experience and successful completion of an audit process.",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-266",
+      "text": "Renewal every 18 months.",
+      "excerpt": "This competency is validated every 18 months.",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-264",
+      "text": "Five technical accreditations required.",
+      "excerpt": "Complete 5 technical accreditations within the Glean Partner Portal",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-333",
+      "text": "The competency requires a Glean-delivered custom connector workshop session.",
+      "excerpt": "Complete Glean-delivered custom connector workshop session with your Glean technical team",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-269",
+      "text": "Architecture review required.",
+      "excerpt": "Complete custom connector architecture review with Glean technical resource",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-271",
+      "text": "Technical specification required.",
+      "excerpt": "Complete & include a technical specifications document",
+      "source_ids": [
+        "S-48"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-261",
+      "text": "Build must index users, permissions, documents.",
+      "excerpt": "Indexes users, permissions, and documents/data",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-262",
+      "text": "Build must auto-update.",
+      "excerpt": "Some level of automated index updating",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-263",
+      "text": "Build must handle errors with retry/backoff.",
+      "excerpt": "Error and retry/backoff handling",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-265",
+      "text": "Customer-approved maintenance plan required.",
+      "excerpt": "Complete & include a customer-approved maintenance plan",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-272",
+      "text": "Intake form v2 supports publishing.",
+      "excerpt": "This template gathers the appropriate information needed to publish a partner-built custom connector on the Glean Connectors webpage.",
+      "source_ids": [
+        "S-49"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-270",
+      "text": "Renewal feedback within 3 months.",
+      "excerpt": "Written documentation from a customer within 3 months prior to renewal",
+      "source_ids": [
+        "S-48"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-250",
+      "text": "Scoping asks about native and web-crawler options first.",
+      "excerpt": "Is there an existing Native Connector for this Source System, or can it be crawled using the native Glean Web Crawler datasource?",
+      "source_ids": [
+        "S-45"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-006",
+      "text": "Glean needs content, people, and activity data to build the Knowledge Graph.",
+      "excerpt": "Activity data Creation, modification, editing, viewing, and sharing timestamps and user information",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-137",
+      "text": "/indexdocument 10 rps; /indexdocuments 600 docs/min.",
+      "excerpt": "/indexdocument10 requests per second/indexdocuments600 documents per minute",
+      "source_ids": [
+        "S-37"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-198",
+      "text": "Intersection semantics.",
+      "excerpt": "A user must belong to every group within one entry; multiple entries are alternative intersections.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-174",
+      "text": "Incremental needs a checkpoint and a deletion signal.",
+      "excerpt": "it needs a durable checkpoint and a reliable source-side deletion signal before it is correct rather than merely faster.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-170",
+      "text": "Never let a partial fetch complete as a full crawl.",
+      "excerpt": "Never let a partial or failed fetch finish as a successful full crawl.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-154",
+      "text": "Full crawls must cover the entire scope.",
+      "excerpt": "a full crawl must cover the entire confirmed scope before completing, because stale-document deletion removes anything absent from the run.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-116",
+      "text": "Permissions and memberships process asynchronously.",
+      "excerpt": "Permissions and memberships are processed asynchronously",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-101",
+      "text": "Bulk indexing replaces the datasource; omitted documents are deleted.",
+      "excerpt": "Bulk indexing fully replaces the entire list of documents stored in Glean. After a successful bulk upload, all documents that were not a part of the most recent upload are deleted asynchronously.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-238",
+      "text": "Automate token rotation.",
+      "excerpt": "Automated indexing token rotation",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-107",
+      "text": "Stale deletion pauses 7 days above 20%.",
+      "excerpt": "we have a deletion check in place which pauses the deletion of stale documents for 7 days if the percentage of docs being deleted exceeds 20%.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-214",
+      "text": "A completed Job is not proof of indexing.",
+      "excerpt": "A completed Kubernetes Job proves only that the process exited successfully",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-195",
+      "text": "Never allow-all 'for now'.",
+      "excerpt": "Never index sensitive content with an allow-all ACL \"for now.\"",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-215",
+      "text": "The workload cannot enumerate secrets.",
+      "excerpt": "The workload cannot enumerate secrets.",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-334",
+      "text": "Partners work with their Partner Manager to select and achieve a competency.",
+      "excerpt": "Partner Manager for support with selecting and achieving a Glean Partner Competency",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-268",
+      "text": "Submit a zip with the workbook.",
+      "excerpt": "A zip file including the Competency Submission Workbook and all necessary requirements documentation",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-274",
+      "text": "Get written permission/security confirmation.",
+      "excerpt": "The partner should request written confirmation that permissions and security are meeting expectations once a custom test group has reviewed the results.",
+      "source_ids": [
+        "S-49"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    }
+  ]
+}

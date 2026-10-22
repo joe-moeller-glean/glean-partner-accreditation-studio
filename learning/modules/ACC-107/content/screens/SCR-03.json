@@ -1,0 +1,55 @@
+{
+  "id": "SCR-03",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "Portfolio",
+  "title": "Map your portfolio to the requirements",
+  "table": {
+    "caption": "Official requirements and where this path prepares them",
+    "head": [
+      "Requirement",
+      "Prepared in"
+    ],
+    "rows": [
+      [
+        "5 technical accreditations in the Glean Partner Portal",
+        "Your accreditation plan with your Partner Manager"
+      ],
+      [
+        "Glean-delivered custom connector workshop session",
+        "Scheduled with your Glean technical team"
+      ],
+      [
+        "Architecture review with a Glean technical resource",
+        "BLD-201 design record and diagram"
+      ],
+      [
+        "Technical specifications document",
+        "BLD-201 design record and CON-203 data model"
+      ],
+      [
+        "Build: users, permissions, documents; automated updates; retry and backoff",
+        "BLD-202 evidence pack"
+      ],
+      [
+        "Customer-approved maintenance plan",
+        "CON-301 plan, approved by the customer"
+      ],
+      [
+        "Intake form for publishing, where the connector is listed",
+        "CON-301 publishing and documentation"
+      ]
+    ]
+  },
+  "claims": [
+    "C-264",
+    "C-333",
+    "C-269",
+    "C-271",
+    "C-261",
+    "C-262",
+    "C-263",
+    "C-265",
+    "C-272"
+  ]
+}

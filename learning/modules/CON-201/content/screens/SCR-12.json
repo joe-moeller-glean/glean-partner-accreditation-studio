@@ -1,0 +1,51 @@
+{
+  "id": "SCR-12",
+  "archetype": "A9",
+  "objective": "OBJ-05",
+  "eyebrow": "Practice",
+  "title": "Where is it stuck?",
+  "prompt": "Match each symptom to the stage where the document is stuck.",
+  "type": "sort",
+  "categories": [
+    "Never uploaded",
+    "Accepted, not processed",
+    "Identity or permissions",
+    "Deleted by replacement",
+    "Visibility gate"
+  ],
+  "pairs": [
+    {
+      "item": "No upload record exists for the document ID.",
+      "category": "Never uploaded",
+      "why": "Check whether the connector posted it before looking inside Glean."
+    },
+    {
+      "item": "Upload accepted an hour ago; processingHistory is older than bulkUploadHistory.",
+      "category": "Accepted, not processed",
+      "why": "Documents become searchable only after processing passes the upload."
+    },
+    {
+      "item": "The page owner sees it; a nurse lead in the same group does not.",
+      "category": "Identity or permissions",
+      "why": "Check that the user, the group, and its memberships were pushed and processed."
+    },
+    {
+      "item": "It appeared yesterday and vanished after the nightly full run.",
+      "category": "Deleted by replacement",
+      "why": "Appears, then disappears usually means a later full crawl omitted it."
+    },
+    {
+      "item": "Only beta users see anything in the datasource.",
+      "category": "Visibility gate",
+      "why": "A test datasource shows results only to beta users with permissions."
+    }
+  ],
+  "takeaway": "Name the stage first. The fix follows from the stage.",
+  "claims": [
+    "C-202",
+    "C-070",
+    "C-205",
+    "C-203",
+    "C-124"
+  ]
+}

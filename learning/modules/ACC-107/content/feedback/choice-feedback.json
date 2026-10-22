@@ -1,0 +1,8 @@
+{
+  "module_id": "ACC-107",
+  "feedback": {
+    "SCR-07:o2": "The review is a requirement, not an audit step to defer.",
+    "SCR-07:o3": "Self-review is good preparation, but it does not replace the required review.",
+    "SCR-07:o1": "Right. The competency requires a custom connector architecture review with a Glean technical resource."
+  }
+}

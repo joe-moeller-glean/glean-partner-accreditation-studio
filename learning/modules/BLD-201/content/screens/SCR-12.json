@@ -1,0 +1,39 @@
+{
+  "id": "SCR-12",
+  "archetype": "A7",
+  "objective": "OBJ-06",
+  "eyebrow": "Reliability",
+  "title": "Reliability, step by step",
+  "steps": [
+    {
+      "title": "Pace",
+      "body": "A rate limiter is proactive: pace below the source quota. Retries are reactive: use both."
+    },
+    {
+      "title": "Retry",
+      "body": "The SDK default is one retry. Raise it to 4 or 5 against APIs that rate-limit aggressively."
+    },
+    {
+      "title": "Park",
+      "body": "Send items that keep failing to a dead-letter queue instead of dropping them."
+    },
+    {
+      "title": "Reconcile",
+      "body": "After an ambiguous transport failure, read state back. Never blindly repeat the write."
+    },
+    {
+      "title": "Fail visibly",
+      "body": "Exit non-zero so the scheduler sees the failure. Use forceRestart only after a crashed run leaves an upload stuck."
+    }
+  ],
+  "claims": [
+    "C-194",
+    "C-193",
+    "C-186",
+    "C-317",
+    "C-242",
+    "C-209",
+    "C-165",
+    "C-178"
+  ]
+}

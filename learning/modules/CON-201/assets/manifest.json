@@ -1,0 +1,66 @@
+{
+  "module_id": "CON-201",
+  "assets": [
+    {
+      "asset_id": "CON-201-A01",
+      "path": "assets/svg/con-201-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Six stages: fetch or push; parse content and permissions; a shared queue for documents, permissions, people, and activity; processing that verifies identities and expands groups; the index and graph; and query time with permission-filtered results grounding the model.",
+      "screen_id": "SCR-04",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-003",
+        "C-041",
+        "C-004",
+        "C-232",
+        "C-234",
+        "C-073",
+        "C-070",
+        "C-026"
+      ],
+      "alt": "Six-stage pipeline from fetch or push to a cited answer.",
+      "bytes": 6000
+    },
+    {
+      "asset_id": "CON-201-A02",
+      "path": "assets/svg/con-201-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Two columns. Bulk replaces the full document list, deletes omitted documents asynchronously, uses one uploadId, and pauses deletion for 7 days above 20%. Incremental adds or updates only what is sent and removes nothing by omission.",
+      "screen_id": "SCR-07",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-101",
+        "C-102",
+        "C-109",
+        "C-105",
+        "C-107",
+        "C-163"
+      ],
+      "alt": "Comparison of bulk replacement and incremental writes.",
+      "bytes": 4995
+    },
+    {
+      "asset_id": "CON-201-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "SCR-05",
+  "archetype": "A6",
+  "objective": "OBJ-02",
+  "eyebrow": "Decision",
+  "title": "The helpful admin",
+  "type": "choice",
+  "prompt": "To save time, the customer's admin offers to email you the production indexing token with global scope. You are building in dev this week. What do you ask for?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Accept the production token now and rotate it after go-live.",
+      "feedback": "That puts a production credential in dev and in email. Use separate tokens for each environment."
+    },
+    {
+      "id": "o3",
+      "text": "Ask for OAuth access instead, so no token is shared.",
+      "feedback": "The Indexing API supports only Glean-issued tokens. OAuth is not available."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "A separate dev token, scoped to the dev datasource, with an expiry, delivered to the secret store.",
+      "feedback": "Right. Use separate tokens per environment, set an expiry, and store the value when it is shown, because it is displayed only once."
+    }
+  ],
+  "takeaway": "One environment, one token, one secret store.",
+  "claims": [
+    "C-057",
+    "C-054",
+    "C-055",
+    "C-052"
+  ]
+}

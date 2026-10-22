@@ -1,0 +1,10 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-04",
+  "eyebrow": "Cold open",
+  "title": "Day 45",
+  "body": "Day 45 after go-live: 3,100 policy pages vanished overnight. Two days later, pages deleted in the source stopped disappearing from search. Two failures, two causes, and one missing alert. By the end of this module you will find both in minutes and fix them in the right order.",
+  "footnote": "Composite, fictional case used across this accreditation. Product behavior is sourced; the customer environment and its numbers are invented for practice.",
+  "claims": []
+}

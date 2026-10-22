@@ -1,0 +1,41 @@
+{
+  "id": "SCR-08",
+  "archetype": "A5",
+  "objective": "OBJ-03",
+  "eyebrow": "Scoring",
+  "title": "How the capstone is scored",
+  "table": {
+    "caption": "Capstone scoring (studio-authored; scored outside this package)",
+    "head": [
+      "Rule",
+      "Detail"
+    ],
+    "rows": [
+      [
+        "Hard gates",
+        "Identity handling; permissions and refresh; deletion for every object family; completeness guard and retry; security and secrets"
+      ],
+      [
+        "Pass mark",
+        "80% aggregate, with every hard gate met"
+      ],
+      [
+        "Reviewers",
+        "Two, scoring independently; a third when they differ by more than 10 points"
+      ],
+      [
+        "Retake",
+        "A different unseen case source"
+      ]
+    ]
+  },
+  "footnote": "Studio guidance: the capstone rubric is this course's design, modeled on how connector reviews assess risk.",
+  "claims": [
+    "C-261",
+    "C-263",
+    "C-195",
+    "C-174",
+    "C-170",
+    "C-215"
+  ]
+}

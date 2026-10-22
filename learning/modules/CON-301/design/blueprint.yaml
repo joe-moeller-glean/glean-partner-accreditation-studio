@@ -1,0 +1,41 @@
+module_id: CON-301
+title: Production Operations, Security, Migration, and Handoff
+level: 300
+target_hours: 2.3
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Operate a connector in Glean-hosted or self-hosted mode with correct scheduling, secrets, and networking."
+    screens: [SCR-02, SCR-03, SCR-05, SCR-REF]
+    assessment_items: [Q-03]
+  - id: OBJ-02
+    text: "Deploy and verify a rollout by document status, not job status."
+    screens: [SCR-04]
+    assessment_items: [Q-01, Q-02]
+  - id: OBJ-03
+    text: "Define monitoring that catches partial crawls, identity lag, and permission drift."
+    screens: [SCR-06]
+    assessment_items: [Q-10]
+  - id: OBJ-04
+    text: "Diagnose missing, stale, over-visible, and vanished documents, and choose the right recovery."
+    screens: [SCR-01, SCR-07, SCR-08, SCR-09, SCR-13, SCR-14]
+    assessment_items: [Q-04, Q-05]
+  - id: OBJ-05
+    text: "Plan a native-to-custom migration without losing coverage or user artifacts."
+    screens: [SCR-10]
+    assessment_items: [Q-06, Q-07]
+  - id: OBJ-06
+    text: "Write customer documentation and a maintenance and support plan the customer can approve."
+    screens: [SCR-11, SCR-12, SCR-15]
+    assessment_items: [Q-08, Q-09]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 16
+distinct_archetypes: [A1, A11, A13, A14, A2, A3, A4, A5, A6, A7, A8, quiz]
+assessment_type: Quiz + runbook and maintenance plan (assessor)

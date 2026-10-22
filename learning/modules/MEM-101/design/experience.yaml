@@ -1,0 +1,42 @@
+design_system: scroll-canvas-v1
+spec: plan/06-scroll-canvas-design-system.md
+
+navigation:
+  model: single continuous vertical scroll
+  bands: 12
+  pagination: none
+  rail:
+    visible_at: ">=1024px"
+    below_1024: bottom progress bar
+    markup: real nav with in-page anchor links, works with zero JS
+  progress:
+    definition: deepest band actually reached, measured by IntersectionObserver at 12% visibility
+    honest: true
+    note: never counts unvisited bands
+
+surface_sequence: [white, warm, white, warm, white, warm, white, warm, white, warm, ink, white]
+ink_band: BAND-11
+ink_band_position: 92% scroll depth, immediately before the assessment
+
+motion:
+  reveal: opacity 0->1 plus translateY 8px->0, 300ms, once, never re-animates
+  t3_signature_moment: stat count-up on BAND-11
+  forbidden: [scroll-jacking, parallax, pinned sequences, autoplay, ambient loops]
+  reduced_motion: all reveals render final state immediately; count-ups show final value
+
+accessibility:
+  one_h1: true
+  band_headings: h2
+  card_headings: h3
+  every_band: section with aria-labelledby
+  keyboard: full; roving tabindex on hotspot and tabs; arrow-key navigation
+  focus_ring: 3px solid action colour, 2px offset, via :focus-visible
+  live_regions: polite on decision feedback, sorter status, stepper panel
+  min_target: 24px
+  colour_alone: never the sole state signal
+  contrast: body text >=4.5:1, control borders >=3:1
+
+provenance_disclosure:
+  INT-control: >-
+    The user-control principles are product-backed. The module does not claim that
+    every Memory surface or cross-surface connector is available in every deployment.

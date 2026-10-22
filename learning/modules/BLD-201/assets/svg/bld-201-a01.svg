@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 604" width="100%" preserveAspectRatio="xMidYMid meet">
+<title>Reference architecture</title>
+<desc>Six layers: source with read-only credentials; data client with pagination, rate limiting, and retries; transform producing stable IDs, content, ACLs, and epoch timestamps; a state store; an uploader switching full and incremental with a dead-letter queue; and operations with token rotation and alerts.</desc>
+<defs><radialGradient id="wt" cx="1.02" cy="-0.08" r="0.62" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#DEEEF0"/><stop offset="0.7" stop-color="#DEEEF0" stop-opacity="0"/></radialGradient><radialGradient id="wo" cx="-0.06" cy="1.06" r="0.45" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#F0C2F2"/><stop offset="0.72" stop-color="#F0C2F2" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="0" width="560" height="604" fill="#F6F3EB"/><rect x="0" y="0" width="560" height="604" fill="url(#wt)"/><rect x="0" y="0" width="560" height="604" fill="url(#wo)"/>
+<text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">Reference architecture</text>
+<rect x="24" y="64" width="512" height="76" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="44" y="92" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Source</text>
+<text x="44" y="114" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Read-only credentials; a sandbox to validate against</text>
+<rect x="24" y="152" width="512" height="76" rx="12" fill="#F8F8F8" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<rect x="24" y="152" width="4" height="76" rx="2" fill="#343CED"/>
+<text x="44" y="180" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Data client</text>
+<text x="44" y="202" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Pagination, rate limiting, retries, completeness guard</text>
+<rect x="24" y="240" width="512" height="76" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="44" y="268" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Transform</text>
+<text x="44" y="290" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Stable IDs, content, ACLs, epoch timestamps</text>
+<rect x="24" y="328" width="512" height="76" rx="12" fill="#F8F8F8" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="44" y="356" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">State store</text>
+<text x="44" y="378" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">A simple database of document state</text>
+<rect x="24" y="416" width="512" height="76" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="44" y="444" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Uploader</text>
+<text x="44" y="466" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Full or incremental; retries, backoff, dead-letter</text>
+<rect x="24" y="504" width="512" height="76" rx="12" fill="#F8F8F8" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="44" y="532" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Operations</text>
+<text x="44" y="554" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Token rotation, alerts, runbook</text>
+</svg>

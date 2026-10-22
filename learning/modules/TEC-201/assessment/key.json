@@ -1,0 +1,86 @@
+{
+  "module_id": "TEC-201",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "OAuth authentication is not available for the Indexing API.",
+        "a": "Right. OAuth authentication is not available.",
+        "c": "Client API tokens are for the Client API and the activity endpoint.",
+        "d": "That token reads the source. Glean needs its own issued token."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. An expiration date is also required.",
+        "b": "The documented minimum is 1440 minutes.",
+        "c": "An expiration date is required.",
+        "d": "The minimum is 1440 minutes; the customer sets the period above that."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "b": "They can create tokens; only Super Admins can grant global scope.",
+        "c": "Partners do not grant scope in the customer's deployment.",
+        "d": "Scope is granted by the customer's Super Admin.",
+        "a": "Right. Setup Admins and Admins can create tokens, but not with global scope."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "The token is displayed only once after creation.",
+        "c": "Use separate tokens for each environment.",
+        "a": "Right. Store the value in the secret store as soon as it is shown.",
+        "d": "The value is shown only once. Create a new token."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "b": "No such difference is documented. The order isolates faults.",
+        "a": "Right. Each step isolates one layer before you scale up.",
+        "c": "No such requirement exists.",
+        "d": "The category is configured separately."
+      }
+    },
+    "Q-06": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. Judge ranking after the datasource is enabled normally.",
+        "b": "Ranking signals are turned off in a test datasource.",
+        "c": "No such behavior is documented.",
+        "d": "Beta users must also have permission to view each document."
+      }
+    },
+    "Q-07": {
+      "answer": "a",
+      "rationale": {
+        "b": "A push connector sends data outward to Glean.",
+        "c": "Self-hosting exists to keep the source inside the customer network.",
+        "d": "The connector's runtime environment pushes to Glean; the partner office is not in the path.",
+        "a": "Right."
+      }
+    },
+    "Q-08": {
+      "answer": "a",
+      "rationale": {
+        "b": "A too-broad regex captures other datasources' URLs.",
+        "c": "urlRegex does not change permissions.",
+        "a": "Right. Avoid regexes that are too broad or too narrow.",
+        "d": "Category is a separate setting."
+      }
+    },
+    "Q-09": {
+      "answer": "a",
+      "rationale": {
+        "b": "Read-only keys are preferred where supported.",
+        "a": "Right.",
+        "c": "Ask for a dev, test, or sandbox environment.",
+        "d": "Tie the connector to its own read-only credentials."
+      }
+    }
+  }
+}

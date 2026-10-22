@@ -1,0 +1,15 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Decide before you build",
+  "bullets": [
+    "Explain what a connector does and the three data families it brings in.",
+    "Tell native, web history, push API, and partner connectors apart, and who supports each.",
+    "Choose indexed, live, or hybrid access for a given question.",
+    "Place tools and MCP correctly: request-time actions, not search.",
+    "Justify or reject a custom connector with a five-question sequence."
+  ],
+  "claims": []
+}

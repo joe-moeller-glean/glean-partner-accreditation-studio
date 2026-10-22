@@ -1,0 +1,42 @@
+{
+  "id": "SCR-04",
+  "archetype": "A4",
+  "objective": "OBJ-01",
+  "eyebrow": "The questionnaire",
+  "title": "Six questions that change the design",
+  "hotspots": [
+    {
+      "label": "Access and keys",
+      "detail": "Read-only keys are preferred, where supported, for content, permission, and activity data."
+    },
+    {
+      "label": "Identity",
+      "detail": "Do users in the source system match users in the SSO system associated with Glean?"
+    },
+    {
+      "label": "Environments",
+      "detail": "Is there a dev, test, or sandbox environment to build and validate the connector against?"
+    },
+    {
+      "label": "Click-through",
+      "detail": "Where should users go when they click a document in Glean? That is the viewURL."
+    },
+    {
+      "label": "Stability and change",
+      "detail": "Will the API URL stay static? How often are permissions updated in the source?"
+    },
+    {
+      "label": "No API",
+      "detail": "Can the source export content to an external storage location? That is the fallback when no usable API exists."
+    }
+  ],
+  "claims": [
+    "C-251",
+    "C-252",
+    "C-254",
+    "C-255",
+    "C-256",
+    "C-257",
+    "C-253"
+  ]
+}

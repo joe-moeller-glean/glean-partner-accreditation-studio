@@ -1,0 +1,24 @@
+{
+  "id": "SCR-09",
+  "archetype": "A3",
+  "objective": "OBJ-04",
+  "eyebrow": "transform()",
+  "title": "The transform checklist",
+  "bullets": [
+    "The datasource name may contain only ASCII letters and digits.",
+    "IDs from the immutable source identifier; a changed ID is a new document.",
+    "created_at and updated_at in epoch seconds, not ISO strings.",
+    "Real ACLs with allowed groups and group intersections. An allow-all default is the most consequential thing to miss.",
+    "Groups returned must come with memberships.",
+    "extract_permission_refs() returns the user and group IDs your documents reference: push those identities, and catch dangling references."
+  ],
+  "claims": [
+    "C-158",
+    "C-101",
+    "C-153",
+    "C-198",
+    "C-152",
+    "C-201",
+    "C-320"
+  ]
+}

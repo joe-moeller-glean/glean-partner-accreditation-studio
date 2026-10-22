@@ -1,0 +1,34 @@
+{
+  "id": "SCR-08",
+  "archetype": "A6",
+  "objective": "OBJ-04",
+  "eyebrow": "Decision",
+  "title": "The unmatched 3%",
+  "type": "choice",
+  "prompt": "97% of the wiki's users have emails that match SSO. 3% are legacy contractor accounts with personal emails that do not exist in SSO. Several restricted pages list those contractors. What do you propose?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Make pages that name unmatched users visible to everyone for now.",
+      "feedback": "Never index sensitive content with an allow-all ACL for now. That turns an identity gap into an exposure."
+    },
+    {
+      "id": "o3",
+      "text": "Replace group ACLs with flattened user lists to catch everyone.",
+      "feedback": "Flattening does not fix unmatched identities, and flattened lists drift. Map groups directly."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "Reference users by email, document the unmatched 3%, and agree a customer-approved manual map or exclusion.",
+      "feedback": "Right. Email references fit a shared identity provider. Without identity data for the rest, a manual map to corporate identities is needed, or those accounts get no access."
+    }
+  ],
+  "takeaway": "Unmatched identities get a decision, never a broad ACL.",
+  "claims": [
+    "C-118",
+    "C-240",
+    "C-195",
+    "C-197"
+  ]
+}

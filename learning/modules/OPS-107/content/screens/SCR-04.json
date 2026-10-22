@@ -1,0 +1,14 @@
+{
+  "id": "SCR-04",
+  "archetype": "A3",
+  "objective": "OBJ-01",
+  "eyebrow": "Two ways to get help",
+  "title": "Conversations and tickets do different jobs",
+  "body": "Conversations are available to all users and are the best starting point for most requests. Tickets formally track issues that need follow-up or escalation, such as bug reports and outages. If a conversation needs escalation, support can convert it into a ticket.",
+  "asset": "OPS-107-A02",
+  "claims": [
+    "C-205",
+    "C-207",
+    "C-208"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "module_id": "CON-204",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "The streaming connector indexed all 38,400 policy pages. Every restricted page is invisible to everyone. The ACLs look right. The groups they name were never pushed, because streaming connectors do not run the identity crawl. The SDK removes most of the plumbing; it does not remove the need to know what it skips.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-06",
+      "archetype": "A6",
+      "prompt": "The wiki has 38,400 pages with HTML bodies, a paginated API, a synchronous HTTP client, and group-based ACLs. What do you build?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-08",
+      "archetype": "A6",
+      "prompt": "Under load, the wiki sometimes returns 200 with an empty item list and no next cursor, before the true end. How do you handle it?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-15",
+      "archetype": "A6",
+      "prompt": "The Connector Builder generated a connector, and its mocked tests pass. In review, you see every document set to allow_all_datasource_users_access. What do you do?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-16",
+      "archetype": "A8",
+      "prompt": "",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "SCR-REF",
+  "archetype": "A11",
+  "objective": "OBJ-01",
+  "eyebrow": "Sources",
+  "title": "Where every fact on these screens comes from",
+  "body": "Each screen lists claim ids such as C-025. This table maps each id to the document it was verified against on 2026-09-26. Current Glean product and developer documentation is the authority for product behavior.",
+  "table": {
+    "caption": "Claim ids by source",
+    "head": [
+      "Source",
+      "Where to find it",
+      "Claim ids"
+    ],
+    "rows": [
+      [
+        "How connectors power the Glean experience",
+        "Glean Docs (docs.glean.com)",
+        "C-025, C-026"
+      ],
+      [
+        "Set up a custom connector",
+        "Glean Docs (docs.glean.com)",
+        "C-049"
+      ],
+      [
+        "Bulk Indexing",
+        "Glean Developer docs (developers.glean.com)",
+        "C-101"
+      ],
+      [
+        "Bulk Upload Model",
+        "Glean Developer docs (developers.glean.com)",
+        "C-107, C-108"
+      ],
+      [
+        "Permissions (Indexing API guide)",
+        "Glean Developer docs (developers.glean.com)",
+        "C-111, C-114, C-115, C-116"
+      ],
+      [
+        "Indexing SDK — Indexing modes",
+        "Glean Developer docs (developers.glean.com)",
+        "C-170, C-171, C-173, C-174, C-176"
+      ],
+      [
+        "Indexing SDK — Permissions",
+        "Glean Developer docs (developers.glean.com)",
+        "C-195, C-198, C-199, C-200"
+      ],
+      [
+        "Indexing SDK — Architecture",
+        "Glean Developer docs (developers.glean.com)",
+        "C-165"
+      ],
+      [
+        "Indexing SDK — HTTP client",
+        "Glean Developer docs (developers.glean.com)",
+        "C-188"
+      ],
+      [
+        "Indexing SDK — Rate limiting",
+        "Glean Developer docs (developers.glean.com)",
+        "C-193, C-194"
+      ],
+      [
+        "Indexing SDK — Status and debugging",
+        "Glean Developer docs (developers.glean.com)",
+        "C-202, C-204"
+      ],
+      [
+        "Indexing SDK — CLI",
+        "Glean Developer docs (developers.glean.com)",
+        "C-207, C-209, C-321, C-322"
+      ],
+      [
+        "Indexing SDK — Deployment overview",
+        "Glean Developer docs (developers.glean.com)",
+        "C-214, C-215"
+      ],
+      [
+        "Indexing SDK — Observability",
+        "Glean Developer docs (developers.glean.com)",
+        "C-218"
+      ],
+      [
+        "Indexing SDK — Overview",
+        "Glean Developer docs (developers.glean.com)",
+        "C-153, C-154"
+      ],
+      [
+        "Indexing SDK — Quickstart",
+        "Glean Developer docs (developers.glean.com)",
+        "C-160"
+      ],
+      [
+        "[External] Glean Partner Content | Custom Connector Questionnaire",
+        "Glean partner document (ask your Partner Manager for access)",
+        "C-257"
+      ],
+      [
+        "Glean Partner Competency Program Guide (Feb 2026)",
+        "Glean partner document (ask your Partner Manager for access)",
+        "C-261, C-262, C-263, C-265"
+      ]
+    ]
+  },
+  "claims": []
+}

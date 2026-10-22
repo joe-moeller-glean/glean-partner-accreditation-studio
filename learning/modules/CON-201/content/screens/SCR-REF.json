@@ -1,0 +1,124 @@
+{
+  "id": "SCR-REF",
+  "archetype": "A11",
+  "objective": "OBJ-01",
+  "eyebrow": "Sources",
+  "title": "Where every fact on these screens comes from",
+  "body": "Each screen lists claim ids such as C-003. This table maps each id to the document it was verified against on 2026-09-26. Current Glean product and developer documentation is the authority for product behavior.",
+  "table": {
+    "caption": "Claim ids by source",
+    "head": [
+      "Source",
+      "Where to find it",
+      "Claim ids"
+    ],
+    "rows": [
+      [
+        "About connectors",
+        "Glean Docs (docs.glean.com)",
+        "C-003, C-004, C-005"
+      ],
+      [
+        "How connectors power the Glean experience",
+        "Glean Docs (docs.glean.com)",
+        "C-018, C-023, C-024, C-025, C-026"
+      ],
+      [
+        "Overview of custom data source",
+        "Glean Docs (docs.glean.com)",
+        "C-041"
+      ],
+      [
+        "Choose a deployment model",
+        "Glean Docs (docs.glean.com)",
+        "C-044"
+      ],
+      [
+        "Set up a custom connector",
+        "Glean Docs (docs.glean.com)",
+        "C-048"
+      ],
+      [
+        "Troubleshooting (custom connectors)",
+        "Glean Docs (docs.glean.com)",
+        "C-070, C-071, C-072, C-073, C-075"
+      ],
+      [
+        "Crawl and index limits",
+        "Glean Docs (docs.glean.com)",
+        "C-090, C-091"
+      ],
+      [
+        "Bulk Indexing",
+        "Glean Developer docs (developers.glean.com)",
+        "C-101, C-102, C-103, C-104"
+      ],
+      [
+        "Bulk Upload Model",
+        "Glean Developer docs (developers.glean.com)",
+        "C-105, C-106, C-107, C-108, C-109"
+      ],
+      [
+        "Indexing API Quickstart",
+        "Glean Developer docs (developers.glean.com)",
+        "C-110"
+      ],
+      [
+        "Permissions (Indexing API guide)",
+        "Glean Developer docs (developers.glean.com)",
+        "C-111, C-112, C-114, C-116"
+      ],
+      [
+        "Document Model",
+        "Glean Developer docs (developers.glean.com)",
+        "C-117"
+      ],
+      [
+        "Indexing SDK — Indexing modes",
+        "Glean Developer docs (developers.glean.com)",
+        "C-170, C-177"
+      ],
+      [
+        "Indexing SDK — Permissions",
+        "Glean Developer docs (developers.glean.com)",
+        "C-195, C-196, C-199, C-200"
+      ],
+      [
+        "Indexing SDK — Architecture",
+        "Glean Developer docs (developers.glean.com)",
+        "C-163"
+      ],
+      [
+        "Indexing SDK — Status and debugging",
+        "Glean Developer docs (developers.glean.com)",
+        "C-202, C-203, C-205"
+      ],
+      [
+        "Indexing SDK — Quickstart",
+        "Glean Developer docs (developers.glean.com)",
+        "C-160"
+      ],
+      [
+        "Rate Limits and Retries",
+        "Glean Developer docs (developers.glean.com)",
+        "C-079"
+      ],
+      [
+        "Test Datasource",
+        "Glean Developer docs (developers.glean.com)",
+        "C-123, C-124"
+      ],
+      [
+        "Glean Partner Content | Custom Connector Best Practices (deck, April 2026)",
+        "Glean partner document (ask your Partner Manager for access)",
+        "C-231, C-232, C-233, C-234, C-241"
+      ],
+      [
+        "Glean Custom Connector Content Package",
+        "Glean partner document (ask your Partner Manager for access)",
+        "C-093"
+      ]
+    ]
+  },
+  "claims": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "SCR-12",
+  "archetype": "A14",
+  "objective": "OBJ-01",
+  "eyebrow": "Badge",
+  "title": "Custom Connector Competency: learning accreditation",
+  "body": "Completing this module and passing the assessor-scored capstone completes the learning accreditation. Next, assemble the official submission with your Partner Manager.",
+  "badge": "Custom Connector - learning accreditation",
+  "signature": true,
+  "claims": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "SCR-09",
+  "archetype": "A7",
+  "objective": "OBJ-05",
+  "eyebrow": "Checkpoints",
+  "title": "A checkpoint that cannot skip changes",
+  "steps": [
+    {
+      "title": "Record",
+      "body": "Record the timestamp from before the crawl started."
+    },
+    {
+      "title": "Write on success",
+      "body": "Only write it after the run succeeds."
+    },
+    {
+      "title": "Overlap",
+      "body": "Overlap the next window slightly rather than risk a gap."
+    },
+    {
+      "title": "Store durably",
+      "body": "The SDK does not persist checkpoints. Keep them in your state store."
+    }
+  ],
+  "claims": [
+    "C-173",
+    "C-179",
+    "C-172",
+    "C-237"
+  ]
+}

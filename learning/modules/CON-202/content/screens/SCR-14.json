@@ -1,0 +1,36 @@
+{
+  "id": "SCR-14",
+  "archetype": "A13",
+  "objective": "OBJ-01",
+  "eyebrow": "Job aid",
+  "title": "Intake checklist",
+  "cards": [
+    {
+      "tag": "Fit",
+      "title": "Existing options ruled out",
+      "body": "Native connector, web crawler, Custom Metadata, and live options checked and recorded."
+    },
+    {
+      "tag": "Data",
+      "title": "Four types assessed",
+      "body": "Content, permissions, people, activity: where each comes from, how, and the cost of each gap."
+    },
+    {
+      "tag": "Access",
+      "title": "Keys, sandbox, URLs",
+      "body": "Read-only keys, a current sandbox, a stable API URL, and the viewURL target."
+    },
+    {
+      "tag": "Decide",
+      "title": "Sizing, identity, hosting, risks",
+      "body": "Calls per run, unmatched users, where it runs, and a signed go or no-go."
+    }
+  ],
+  "claims": [
+    "C-250",
+    "C-251",
+    "C-254",
+    "C-255",
+    "C-256"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "module_id": "ACC-107",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "The competency requires an audit process by Glean.",
+        "a": "Right. Competencies require an audit process.",
+        "c": "The capstone awards no hosting.",
+        "d": "Listing uses the intake form."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "The documented period is 18 months.",
+        "c": "It is validated every 18 months.",
+        "d": "The validation cycle is 18 months."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "b": "18 months is the validation cycle.",
+        "c": "It must be recent: within 3 months before renewal.",
+        "d": "Written customer documentation is required.",
+        "a": "Right."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "The customer must approve it.",
+        "c": "A customer-approved plan is required.",
+        "a": "Right.",
+        "d": "The customer approves it."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "b": "Five technical accreditations are required.",
+        "a": "Right.",
+        "c": "Five, in the Glean Partner Portal.",
+        "d": "Accreditations are required as well."
+      }
+    },
+    "Q-06": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "Automated updates are required.",
+        "c": "The competency is for indexing connectors.",
+        "d": "Permissions are required."
+      }
+    },
+    "Q-07": {
+      "answer": "a",
+      "rationale": {
+        "b": "The workbook and documentation are required.",
+        "c": "The course badge does not replace the workbook.",
+        "d": "The workbook and documentation are required.",
+        "a": "Right."
+      }
+    },
+    "Q-08": {
+      "answer": "a",
+      "rationale": {
+        "b": "Not a documented requirement.",
+        "c": "Not a documented requirement.",
+        "a": "Right.",
+        "d": "The architecture review is required."
+      }
+    },
+    "Q-09": {
+      "answer": "a",
+      "rationale": {
+        "b": "There is nothing to confirm yet.",
+        "a": "Right.",
+        "c": "Request it as a standard step.",
+        "d": "Request it once the test group has reviewed results."
+      }
+    },
+    "Q-10": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. Schedule it with your Glean technical team.",
+        "b": "The workshop is Glean-delivered.",
+        "c": "That belongs to a different competency.",
+        "d": "The Glean-delivered workshop is required."
+      }
+    }
+  }
+}

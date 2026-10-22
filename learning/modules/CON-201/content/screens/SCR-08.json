@@ -1,0 +1,33 @@
+{
+  "id": "SCR-08",
+  "archetype": "A4",
+  "objective": "OBJ-03",
+  "eyebrow": "The safeguard",
+  "title": "The 20% rule protects you, but only partly",
+  "hotspots": [
+    {
+      "label": "The rule",
+      "detail": "If the share of documents being deleted as stale exceeds 20%, deletion of those stale documents pauses for 7 days."
+    },
+    {
+      "label": "Immediate deletions",
+      "detail": "To make deletions take effect immediately, use /processalldocuments. It is limited to one request every 3 hours per datasource."
+    },
+    {
+      "label": "Below the threshold",
+      "detail": "A run that silently drops 8% of documents is under 20%, so those documents are deleted. The safeguard is not a completeness check."
+    },
+    {
+      "label": "Empty runs",
+      "detail": "With the Indexing SDK, a successful empty full crawl sends one complete empty page, and all previously indexed documents are reconciled as stale."
+    }
+  ],
+  "claims": [
+    "C-107",
+    "C-108",
+    "C-079",
+    "C-101",
+    "C-170",
+    "C-177"
+  ]
+}

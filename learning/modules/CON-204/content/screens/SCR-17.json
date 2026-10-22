@@ -1,0 +1,8 @@
+{
+  "id": "SCR-17",
+  "archetype": "quiz",
+  "objective": "OBJ-05",
+  "eyebrow": "Prove it",
+  "title": "Indexing SDK check",
+  "type": "quiz"
+}

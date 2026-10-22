@@ -1,0 +1,34 @@
+{
+  "id": "SCR-06",
+  "archetype": "A6",
+  "objective": "OBJ-04",
+  "eyebrow": "Decision",
+  "title": "The token expires at minute 20",
+  "type": "choice",
+  "prompt": "Twenty minutes into the first full run, the source token expires. Your client starts receiving 401. What must the connector do?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Finalize what was fetched so the index is partly fresh.",
+      "feedback": "On a full run, that deletes every page not fetched as stale."
+    },
+    {
+      "id": "o3",
+      "text": "Skip the failing pages and continue to the end.",
+      "feedback": "Skipped pages make the replacement partial."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "Fail the run with a non-zero exit, leave the upload unfinalized, and rerun after the token is refreshed.",
+      "feedback": "Right. A failed crawl is recoverable. A successful partial one deletes what it did not fetch."
+    }
+  ],
+  "takeaway": "Fail loudly; never finish a partial full run.",
+  "claims": [
+    "C-171",
+    "C-165",
+    "C-170",
+    "C-101"
+  ]
+}

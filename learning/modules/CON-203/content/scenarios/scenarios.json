@@ -1,0 +1,23 @@
+{
+  "module_id": "CON-203",
+  "scenarios": [
+    {
+      "screen_id": "SCR-01",
+      "archetype": "A1",
+      "prompt": "The indexing token uploads documents, users, and groups without a problem. Then the connector calls the activity endpoint and gets Not Authorized. Nothing is wrong with the token. It is the wrong kind of token for that call. This module is the wire protocol your SDK hides from you.",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-10",
+      "archetype": "A6",
+      "prompt": "The customer wants a Clinic ID filter on files the native Drive connector already indexes. Which mechanism fits?",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    },
+    {
+      "screen_id": "SCR-14",
+      "archetype": "A8",
+      "prompt": "",
+      "framing": "Role-based partner situation; no named customer or partner organisation."
+    }
+  ]
+}

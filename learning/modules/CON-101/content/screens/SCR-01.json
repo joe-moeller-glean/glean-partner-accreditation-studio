@@ -1,0 +1,10 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-05",
+  "eyebrow": "Cold open",
+  "title": "Seven systems, one steering meeting",
+  "body": "A regional healthcare group asks your team for a connector for everything: a policy wiki, a vendor learning system, a reference archive, a claims warehouse, facility telemetry, a live bed board, and a new facet on Drive files. Build all seven and you ship risk, not value. By the end of this module you will classify each one and defend the call.",
+  "footnote": "Composite, fictional case used across this accreditation. Product behavior is sourced; the customer environment and its numbers are invented for practice.",
+  "claims": []
+}

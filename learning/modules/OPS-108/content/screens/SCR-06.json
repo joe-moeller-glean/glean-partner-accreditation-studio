@@ -1,0 +1,36 @@
+{
+  "id": "SCR-06",
+  "archetype": "A9",
+  "objective": "OBJ-02",
+  "eyebrow": "Sort it",
+  "title": "Where does each request belong?",
+  "prompt": "Place each request where it will get the right answer.",
+  "type": "sort",
+  "categories": [
+    "Forum",
+    "Support ticket",
+    "Feedback and Ideas"
+  ],
+  "pairs": [
+    {
+      "item": "How do other admins structure an agent rollout for new teams?",
+      "category": "Forum",
+      "why": "Questions and best practices belong in the community, where many peers can answer."
+    },
+    {
+      "item": "Our connector shows a sync error for every user since this morning.",
+      "category": "Support ticket",
+      "why": "Bugs and errors in a Glean instance go to a support ticket."
+    },
+    {
+      "item": "We would like a new setting that the product does not offer today.",
+      "category": "Feedback and Ideas",
+      "why": "Feature requests and product feedback go to the Feedback and Ideas board."
+    }
+  ],
+  "takeaway": "Route by the kind of answer you need: shared knowledge, instance resolution, or product input.",
+  "claims": [
+    "C-305",
+    "C-224"
+  ]
+}

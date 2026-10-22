@@ -1,0 +1,641 @@
+{
+  "module_id": "CON-201",
+  "claims": [
+    {
+      "claim_id": "C-005",
+      "text": "Native connectors are purpose-built per application and call source APIs directly.",
+      "excerpt": "Purpose-built for specific applications (for example, Slack, Salesforce, Google Drive). They call source APIs directly",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-041",
+      "text": "Custom connectors push documents, metadata, and permissions via the Indexing API.",
+      "excerpt": "Custom connectors leverage Glean's indexing API to push documents, metadata, and permissions into the Glean platform.",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-232",
+      "text": "One shared queue: one backlog can delay another.",
+      "excerpt": "Documents, permissions, people data, and user activity all flow through the same backend queueing and indexing system at a high level, so one type of backlog can affect another.",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-003",
+      "text": "Connector function 1: data fetching, including the permissions map.",
+      "excerpt": "Data fetching: Connectors fetch data from connected applications and store the information in Glean's system.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-044",
+      "text": "No runtime or hosting constraints.",
+      "excerpt": "Glean places no constraints on where a custom connector runs",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-004",
+      "text": "Connector function 2: content and permission parsing.",
+      "excerpt": "Content parsing: Connectors parse item content (for example, title, body, comments, media) and permissions",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-234",
+      "text": "Processing checks identity and permission dependencies before results show.",
+      "excerpt": "Verifies identities and access data. Waits for required dependencies.",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-073",
+      "text": "Processing expands derived groups and memberships.",
+      "excerpt": "Glean expands derived groups and memberships. This step associates u",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-018",
+      "text": "The Enterprise Graph is layered on the index and identity/permission structures.",
+      "excerpt": "connectors populate the index and associated identity and permission structures; the graph interpretation layers on structure and signals derived from that data.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-023",
+      "text": "The runtime chooses index, live, or hybrid paths per request.",
+      "excerpt": "Choose data paths: Prefer index, live retrieval, or hybrid, per connector capabilities and query needs.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-026",
+      "text": "RAG passes retrieved, permission-filtered snippets to the model.",
+      "excerpt": "Retrieved snippets are passed to the language model to condition the answer on your data.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-110",
+      "text": "Indexing is asynchronous.",
+      "excerpt": "Indexing is asynchronous, so the document can take a few minutes to appear in search.",
+      "source_ids": [
+        "S-14"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-104",
+      "text": "Indexing can take around 15–20 minutes (varies).",
+      "excerpt": "Note that it takes around 15-20 minutes for the documents to be indexed and appear on your Glean UI.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-072",
+      "text": "UPLOAD COMPLETED is acceptance, not searchability.",
+      "excerpt": "UPLOAD COMPLETED only means the API accepted your upload. It doesn't mean users are indexed and searchable.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-070",
+      "text": "Documents are searchable after processingHistory passes bulkUploadHistory.",
+      "excerpt": "After documents are uploaded, they will be queued for processing. New documents will be available in search results when the processingHistory timestamp is after the bulkUploadHistory.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-103",
+      "text": "The datasource must be enabled for search.",
+      "excerpt": "For the indexed document to show up in Glean UI, the datasource must be enabled for search.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-200",
+      "text": "Search as the user is ground truth.",
+      "excerpt": "the search result is the ground truth, not the upload response.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-160",
+      "text": "Accepted is not searchable.",
+      "excerpt": "Indexing is asynchronous - an accepted upload is not yet a searchable document.",
+      "source_ids": [
+        "S-33"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-233",
+      "text": "Worst case latency can exceed 24 hours.",
+      "excerpt": "Worst case: several hours to 24+ hours",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-205",
+      "text": "ACLs fail without pushed identities.",
+      "excerpt": "a correct-looking ACL is still wrong if the identities it names were never pushed.",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-196",
+      "text": "Unknown groups match nobody.",
+      "excerpt": "An ACL naming a group Glean has never heard of matches nobody.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-101",
+      "text": "Bulk indexing replaces the datasource; omitted documents are deleted.",
+      "excerpt": "Bulk indexing fully replaces the entire list of documents stored in Glean. After a successful bulk upload, all documents that were not a part of the most recent upload are deleted asynchronously.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-102",
+      "text": "/indexdocuments is for incremental updates.",
+      "excerpt": "/indexdocuments: This endpoint is intended for incremental updates.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-109",
+      "text": "One unique uploadId per upload session.",
+      "excerpt": "You need to have a unique uploadId for all the paginated requests you send for an upload.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-105",
+      "text": "No concurrent bulk uploads.",
+      "excerpt": "Concurrent uploads are not allowed ie. you cannot start a new upload before the previous upload is finished.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-106",
+      "text": "After a failed upload, forceRestartUpload is required.",
+      "excerpt": "Not specifying this bit in case of an unsuccessful previous upload will fail the request.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-163",
+      "text": "Full = replacement; incremental = additive.",
+      "excerpt": "A full crawl calls PushUploader.bulk_index_documents() for replacement and stale cleanup. An incremental crawl calls additive index_documents().",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-107",
+      "text": "Stale deletion pauses 7 days above 20%.",
+      "excerpt": "we have a deletion check in place which pauses the deletion of stale documents for 7 days if the percentage of docs being deleted exceeds 20%.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-108",
+      "text": "Use /processalldocuments for immediate deletions.",
+      "excerpt": "If you wish for deletions to take effect immediately, use /processalldocuments endpoint.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-079",
+      "text": "/processalldocuments: once every 3 hours per datasource.",
+      "excerpt": "/processalldocuments1 request every 3 hours per data source",
+      "source_ids": [
+        "S-37"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-170",
+      "text": "Never let a partial fetch complete as a full crawl.",
+      "excerpt": "Never let a partial or failed fetch finish as a successful full crawl.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-177",
+      "text": "An empty full crawl clears the datasource.",
+      "excerpt": "A successful empty full crawl sends one complete empty bulk page so all previously indexed documents are reconciled as stale.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-124",
+      "text": "Beta users still need document permissions.",
+      "excerpt": "For a document to be visible to beta users, they must also have appropriate permissions to view it.",
+      "source_ids": [
+        "S-38"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-048",
+      "text": "Choose the permissions model at setup.",
+      "excerpt": "Permissions model - whether documents are permission-aware (per-user ACLs pushed with each document) or visible to everyone in the org.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-111",
+      "text": "Index users before referencing them.",
+      "excerpt": "When using non-anonymous permissions, users need to be indexed before being referenced.",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-114",
+      "text": "Index a group before its memberships.",
+      "excerpt": "groupName: A group with this particular groupName must be indexed before indexing memberships for it.",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-116",
+      "text": "Permissions and memberships process asynchronously.",
+      "excerpt": "Permissions and memberships are processed asynchronously",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-025",
+      "text": "The source may enforce access again at click time.",
+      "excerpt": "Opening a result usually sends the user to the source system, which may enforce access again at click time.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-117",
+      "text": "allowAnonymousAccess exposes the document to every signed-in user.",
+      "excerpt": "allowAnonymousAccessIf set to true, anyone who is signed into Glean can view search results for the document",
+      "source_ids": [
+        "S-17"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-071",
+      "text": "allowAllDatasourceUsersAccess requires the user to be indexed as a datasource user.",
+      "excerpt": "allowAllDatasourceUsersAccess is true and user has been indexed as a user of the connector",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-112",
+      "text": "Indexing a user grants no document access.",
+      "excerpt": "Note that this does not give permissions to the users to search for the document",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-195",
+      "text": "Never allow-all 'for now'.",
+      "excerpt": "Never index sensitive content with an allow-all ACL \"for now.\"",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-202",
+      "text": "Four-step missing-document diagnosis.",
+      "excerpt": "Most \"the connector is broken\" reports are really one of four things",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-203",
+      "text": "'Appears then disappears' means stale deletion.",
+      "excerpt": "Appears, then disappears",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-075",
+      "text": "/processalldocuments reprocesses without a new upload.",
+      "excerpt": "This re-indexes all previously uploaded documents without requiring a new upload.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-090",
+      "text": "Items over 64 MB index metadata and permissions only.",
+      "excerpt": "If the size is GREATER than 64 MB, the crawler WILL NOT download the item contents and will only download the metadata and permissions information for indexing.",
+      "source_ids": [
+        "S-10"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-241",
+      "text": "Metadata-only results cannot ground Assistant.",
+      "excerpt": "Can't be used for GenAI Glean Assistant will not be able to summarize the content",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-091",
+      "text": "Indexable text is truncated at 16.875 MB.",
+      "excerpt": "If the content is greater than 16.875 MB, then the first 16.875 MB of content will be stored and fed to the indexer.",
+      "source_ids": [
+        "S-10"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-093",
+      "text": "Apply the size limits to custom connectors too.",
+      "excerpt": "This speaks to Native Connector size limits, but should also be followed for Indexing documents into a Custom Connector",
+      "source_ids": [
+        "S-46"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-024",
+      "text": "Validate coverage and permissions in Search first.",
+      "excerpt": "Search is often the first place admins validate connector behavior (coverage and permissions) before relying on Chat, Assistant, or Agents.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-231",
+      "text": "Native full re-crawl every 4 weeks as a catch-all.",
+      "excerpt": "Glean conducts a full re-crawl of the entire datasource every 4 weeks. This is technically not needed, but is done as a default \"catch-all\".",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-123",
+      "text": "Test datasources have ranking signals off.",
+      "excerpt": "All ranking signals are turned off from a test datasource.",
+      "source_ids": [
+        "S-38"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-199",
+      "text": "Counts prove nothing about permissions.",
+      "excerpt": "Counting indexed documents proves nothing about permissions.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    }
+  ]
+}

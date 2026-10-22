@@ -27,8 +27,8 @@
   "package": {
     "state": "pass",
     "zip": "BLD-101-v1.0.0-scorm12.zip",
-    "bytes": 11761,
-    "sha256": "9944442bce938060104f61cfe8d6eeaec9ac29930832abc7890de51df1979ee7",
+    "bytes": 11776,
+    "sha256": "7c7b17fea1f28caaabef05717be29b05aa10dc74336993fbc61b68f261214ed5",
     "findings": []
   },
   "runtime_qa": {

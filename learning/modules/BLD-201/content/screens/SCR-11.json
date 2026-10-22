@@ -1,0 +1,33 @@
+{
+  "id": "SCR-11",
+  "archetype": "A6",
+  "objective": "OBJ-04",
+  "eyebrow": "Decision",
+  "title": "A 3.8% drop",
+  "type": "choice",
+  "prompt": "Last night's full run fetched 38,350 pages. Tonight's fetched 36,900. The source averages about 40 deletions a day. What does the connector do?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Finalize: the drop is below the 20% safeguard.",
+      "feedback": "Below 20%, stale documents are deleted, not paused. The safeguard is not a completeness check."
+    },
+    {
+      "id": "o3",
+      "text": "Finalize, then re-add any missing pages in tomorrow's run.",
+      "feedback": "Users lose those pages until the next run, and a bad successful crawl is not recoverable in the meantime."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "Halt before finalizing, reconcile against tombstones and a source count, then rerun.",
+      "feedback": "Right. 1,450 missing pages is far beyond normal churn. Never let a partial fetch finish as a successful full crawl."
+    }
+  ],
+  "takeaway": "Compare against expected churn, not against the safeguard.",
+  "claims": [
+    "C-170",
+    "C-107",
+    "C-171"
+  ]
+}

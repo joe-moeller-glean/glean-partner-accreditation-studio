@@ -1,0 +1,48 @@
+{
+  "id": "SCR-10",
+  "archetype": "A13",
+  "objective": "OBJ-01",
+  "eyebrow": "Job aid",
+  "title": "Readiness gate checklist",
+  "table": {
+    "caption": "Evidence required before the first upload",
+    "head": [
+      "Gate",
+      "Evidence"
+    ],
+    "rows": [
+      [
+        "Datasource",
+        "Name, urlRegex, identity references, category, permissions model; enabled for a test group"
+      ],
+      [
+        "Token",
+        "Per environment, expiring, rotation planned, IP restricted, stored as a secret"
+      ],
+      [
+        "Source access",
+        "Read-only keys, current sandbox, stable API URL"
+      ],
+      [
+        "Network",
+        "Egress to Glean indexing endpoints confirmed"
+      ],
+      [
+        "Personas",
+        "Allowed and denied identities named; first-run plan agreed"
+      ]
+    ]
+  },
+  "claims": [
+    "C-119",
+    "C-118",
+    "C-048",
+    "C-103",
+    "C-057",
+    "C-054",
+    "C-059",
+    "C-251",
+    "C-046",
+    "C-049"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "SCR-06",
+  "archetype": "A10",
+  "objective": "OBJ-02",
+  "eyebrow": "Myth versus reality",
+  "title": "Three scoping shortcuts that fail later",
+  "hotspots": [
+    {
+      "label": "Myth: 'the API has everything' is a finding.",
+      "detail": "It is a claim. Test it in the sandbox: pages, read groups, users, groups with members, and deletions."
+    },
+    {
+      "label": "Myth: identity can be sorted out after launch.",
+      "detail": "Users must be indexed before they are referenced. Without identity data, you need a manual map of users to corporate identities."
+    },
+    {
+      "label": "Myth: hosting is an operations detail for later.",
+      "detail": "Choose where the connector runs before you build: that decision determines how secrets, scheduling, and networking are handled."
+    }
+  ],
+  "claims": [
+    "C-254",
+    "C-111",
+    "C-240",
+    "C-045"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SCR-15",
+  "archetype": "A6",
+  "objective": "OBJ-06",
+  "eyebrow": "Decision",
+  "title": "The agent-generated connector",
+  "type": "choice",
+  "prompt": "The Connector Builder generated a connector, and its mocked tests pass. In review, you see every document set to allow_all_datasource_users_access. What do you do?",
+  "options": [
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "Reject it: map real ACLs and identities, then pass the recorded phase.",
+      "feedback": "Right. An allow-all default is the most consequential thing to miss, and the recorded phase rejects it because it prevents proving denial."
+    },
+    {
+      "id": "o2",
+      "text": "Accept it: the mocked tests passed.",
+      "feedback": "Mocked tests check transform output, not denial. Review permissions before trusting generated code."
+    },
+    {
+      "id": "o3",
+      "text": "Ship it and tighten the ACLs after launch.",
+      "feedback": "Never index sensitive content with an allow-all ACL for now."
+    }
+  ],
+  "takeaway": "Generated code gets the same review as yours.",
+  "claims": [
+    "C-329",
+    "C-330",
+    "C-152",
+    "C-319",
+    "C-195"
+  ]
+}

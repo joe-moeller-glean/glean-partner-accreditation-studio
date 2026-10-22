@@ -1,0 +1,62 @@
+{
+  "module_id": "TEC-201",
+  "assets": [
+    {
+      "asset_id": "TEC-201-A01",
+      "path": "assets/svg/tec-201-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Five gates before the first upload: datasource created and enabled for a test group; indexing token scoped, expiring, and stored as a secret; read-only source access and a sandbox; network open to Glean indexing endpoints; test personas and a first-run plan.",
+      "screen_id": "SCR-02",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-103",
+        "C-054",
+        "C-251",
+        "C-046",
+        "C-049"
+      ],
+      "alt": "Five-step readiness gate from datasource to personas.",
+      "bytes": 5163
+    },
+    {
+      "asset_id": "TEC-201-A02",
+      "path": "assets/svg/tec-201-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Four facts: Glean-issued tokens only, no OAuth; an expiration date is required; the minimum rotation period is 1440 minutes; only Super Admins can grant global scope.",
+      "screen_id": "SCR-04",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-052",
+        "C-054",
+        "C-053",
+        "C-056",
+        "C-055"
+      ],
+      "alt": "Four cells with Indexing API token rules.",
+      "bytes": 3934
+    },
+    {
+      "asset_id": "TEC-201-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

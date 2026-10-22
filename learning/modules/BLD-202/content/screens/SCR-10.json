@@ -1,0 +1,27 @@
+{
+  "id": "SCR-10",
+  "archetype": "A10",
+  "objective": "OBJ-05",
+  "eyebrow": "Myth versus reality",
+  "title": "Three ways to mistake progress for proof",
+  "hotspots": [
+    {
+      "label": "Myth: the documents are uploaded, so the lab is done.",
+      "detail": "An accepted upload is not yet a searchable document, and a searchable document is not yet a proven one."
+    },
+    {
+      "label": "Myth: the counts match, so permissions are right.",
+      "detail": "Counting indexed documents proves nothing about permissions. Search as each persona."
+    },
+    {
+      "label": "Myth: the scheduled job is green.",
+      "detail": "A completed Job proves only that the process exited successfully. Document status proves indexing."
+    }
+  ],
+  "claims": [
+    "C-160",
+    "C-199",
+    "C-200",
+    "C-214"
+  ]
+}

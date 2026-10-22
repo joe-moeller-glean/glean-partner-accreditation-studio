@@ -1,0 +1,11 @@
+{
+  "module_id": "BLD-202",
+  "feedback": {
+    "SCR-06:o2": "On a full run, that deletes every page not fetched as stale.",
+    "SCR-06:o3": "Skipped pages make the replacement partial.",
+    "SCR-06:o1": "Right. A failed crawl is recoverable. A successful partial one deletes what it did not fetch.",
+    "SCR-08:o2": "The body may never change. Removed users keep access until it does.",
+    "SCR-08:o1": "Right. Permissions and memberships are processed asynchronously, and permission changes need their own detection and schedule.",
+    "SCR-08:o3": "Snippets reach users and the model before any click."
+  }
+}

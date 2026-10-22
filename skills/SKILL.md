@@ -30,7 +30,7 @@ Load only what the current phase needs.
 | Who does what, routing | `references/agent-roster.md` |
 | Task contract schema | `references/agent-contracts.md` |
 | Specific agent's internal structure | `references/agents/<nn>-<agent>.md` |
-| Colors, type, logo, tone | `references/brand-system.md` |
+| Colors, type, logo, tone | `references/brand-system.md` (maps the vendored Glean Branding Style 2026 skill in `brand/`) |
 | Creative layout, archetypes, path design | `references/experience-design.md` |
 | Image/diagram/icon generation specs | `references/graphics-system.md` |
 | Scroll-canvas layout, progress, motion, and responsive rules | `references/scroll-canvas.md` |

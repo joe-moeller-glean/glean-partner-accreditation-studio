@@ -19,7 +19,7 @@
         "C-20"
       ],
       "alt": "Four-step flow diagram showing the anatomy of a production-ready agent.",
-      "bytes": 4491
+      "bytes": 5001
     },
     {
       "asset_id": "BLD-104-A02",
@@ -37,7 +37,22 @@
         "C-80"
       ],
       "alt": "Numbered diagram of three agent memory scope options and when to use each.",
-      "bytes": 3900
+      "bytes": 4187
+    },
+    {
+      "asset_id": "BLD-104-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
     }
   ]
 }

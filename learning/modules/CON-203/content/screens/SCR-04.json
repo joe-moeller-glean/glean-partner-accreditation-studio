@@ -1,0 +1,39 @@
+{
+  "id": "SCR-04",
+  "archetype": "A4",
+  "objective": "OBJ-02",
+  "eyebrow": "Datasource",
+  "title": "Datasource settings that bite later",
+  "hotspots": [
+    {
+      "label": "Name",
+      "detail": "With the SDK, the datasource name may contain only ASCII letters and digits."
+    },
+    {
+      "label": "urlRegex",
+      "detail": "Avoid regexes that are too broad and capture other datasources' URLs, or too narrow."
+    },
+    {
+      "label": "Identity references",
+      "detail": "isUserReferencedByEmail should be true if you want to refer to user identities by email."
+    },
+    {
+      "label": "Category",
+      "detail": "The right category enables enhanced ranking. Set per-object categories with objectDefinitions.docCategory. Do not use PEOPLE; use /bulkindexemployees for employee data."
+    },
+    {
+      "label": "Test datasource",
+      "detail": "All ranking signals are off, and beta users still need permission on each document."
+    }
+  ],
+  "claims": [
+    "C-158",
+    "C-119",
+    "C-118",
+    "C-121",
+    "C-120",
+    "C-122",
+    "C-123",
+    "C-124"
+  ]
+}

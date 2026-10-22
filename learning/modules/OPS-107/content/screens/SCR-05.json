@@ -1,0 +1,35 @@
+{
+  "id": "SCR-05",
+  "archetype": "A4",
+  "objective": "OBJ-01",
+  "eyebrow": "Who can do what",
+  "title": "Open each role to see its support path",
+  "prompt": "Select a role to reveal what it can do in the Support Center.",
+  "hotspots": [
+    {
+      "label": "Designated Support Contact",
+      "detail": "Ticket creation is available to Designated Support Contacts as defined in the Glean Support Agreement. To be set up as one, contact the Glean account team. To create a ticket, open the support widget, select Create a ticket, describe the issue, select a priority, and submit."
+    },
+    {
+      "label": "Any other signed-in user",
+      "detail": "Conversations are open to all users. Open the support widget and select Send us a message. The assistant triages the request. If it cannot resolve the issue, it guides you toward a ticket. You can also ask your Glean administrator to submit a ticket."
+    },
+    {
+      "label": "A user with evidence to share",
+      "detail": "Users who are not entitled to tickets can be cc'd on a conversation or ticket with a Designated Support Contact. Use this when an end user must supply screenshots or reproduction steps."
+    },
+    {
+      "label": "Email to help@glean.com",
+      "detail": "Email reaches Glean Support too. The AI assistant triages first and hands off to a human agent for Designated Support Contacts. Email is not the SLA-tracked path; the next screens explain why."
+    }
+  ],
+  "claims": [
+    "C-209",
+    "C-213",
+    "C-205",
+    "C-206",
+    "C-210",
+    "C-223",
+    "C-222"
+  ]
+}

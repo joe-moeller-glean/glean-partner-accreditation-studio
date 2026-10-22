@@ -1,0 +1,32 @@
+{
+  "id": "SCR-10",
+  "archetype": "A7",
+  "objective": "OBJ-05",
+  "eyebrow": "Migration",
+  "title": "Moving from a native connector",
+  "steps": [
+    {
+      "title": "Namespace",
+      "body": "Native and custom connectors occupy separate namespaces."
+    },
+    {
+      "title": "Parallel",
+      "body": "Run both connectors in parallel during the transition."
+    },
+    {
+      "title": "Artifacts",
+      "body": "Agents, saved searches, app filters, and pinned results scoped to the native connector will not recognize the custom connector's content. Migrate them."
+    },
+    {
+      "title": "Deactivate last",
+      "body": "Deactivating a native connector removes its content from the search index."
+    }
+  ],
+  "asset": "CON-301-A01",
+  "claims": [
+    "C-080",
+    "C-083",
+    "C-081",
+    "C-082"
+  ]
+}

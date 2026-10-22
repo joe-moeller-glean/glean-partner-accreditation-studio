@@ -1,0 +1,39 @@
+{
+  "id": "SCR-10",
+  "archetype": "A13",
+  "objective": "OBJ-02",
+  "eyebrow": "Job aid",
+  "title": "Capstone readiness checklist",
+  "cards": [
+    {
+      "tag": "Portfolio",
+      "title": "Portfolio",
+      "body": "Design record, diagram, specification, evidence pack, maintenance plan."
+    },
+    {
+      "tag": "Program",
+      "title": "Program steps",
+      "body": "Five technical accreditations, the workshop, and the architecture review."
+    },
+    {
+      "tag": "Customer",
+      "title": "Customer",
+      "body": "An approved maintenance plan and written permission and security confirmation."
+    },
+    {
+      "tag": "Submit",
+      "title": "Submit",
+      "body": "The workbook and documents in one zip; renewal on your calendar."
+    }
+  ],
+  "claims": [
+    "C-271",
+    "C-265",
+    "C-264",
+    "C-333",
+    "C-269",
+    "C-274",
+    "C-268",
+    "C-266"
+  ]
+}

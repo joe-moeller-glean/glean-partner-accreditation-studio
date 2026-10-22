@@ -28,9 +28,11 @@ def main():
         raise SystemExit(f"{dest} already exists")
     for d in DIRS:
         (dest / d).mkdir(parents=True, exist_ok=True)
-    for f in ("index.html", "styles.css", "app.js", "scorm.js"):
+    for f in ("index.html", "tokens.css", "styles.css", "app.js", "scorm.js",
+              "assets/brand/glean-wordmark-electric-blue.svg"):
         src = TEMPLATE / f
         if src.is_file():
+            (dest / f).parent.mkdir(parents=True, exist_ok=True)
             shutil.copy(src, dest / f)
 
     (dest / "module.json").write_text(json.dumps({

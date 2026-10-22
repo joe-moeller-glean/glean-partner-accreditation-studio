@@ -1,0 +1,8 @@
+{
+  "module_id": "TEC-201",
+  "feedback": {
+    "SCR-05:o2": "That puts a production credential in dev and in email. Use separate tokens for each environment.",
+    "SCR-05:o3": "The Indexing API supports only Glean-issued tokens. OAuth is not available.",
+    "SCR-05:o1": "Right. Use separate tokens per environment, set an expiry, and store the value when it is shown, because it is displayed only once."
+  }
+}

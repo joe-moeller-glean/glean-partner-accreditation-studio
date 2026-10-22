@@ -1,0 +1,113 @@
+{
+  "module_id": "CON-101",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "Ranking uses signals that connectors collect, but rendering and ranking are not connector functions.",
+        "a": "Right. Connectors fetch data from connected applications and parse item content and permissions.",
+        "c": "A connector integrates with the system where content lives. It does not host or back it up.",
+        "d": "Answer generation happens downstream of the index, not in the connector."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. With no activity pushed, limited signals make ranking suboptimal, and results are more likely to be outranked by connectors with stronger signals.",
+        "b": "Activity signals such as views, edits, and shares drive relevance ranking.",
+        "c": "Activity affects ranking, not whether a permitted document can appear.",
+        "d": "Upload times are not user activity. Nothing replaces pushed activity signals."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "b": "Native connectors are Glean's. Partner connectors are developed and supported by the partner.",
+        "c": "The admin configures it, but the partner develops and supports the integration.",
+        "d": "A listed partner connector is the partner's to maintain and support.",
+        "a": "Right. Partner connectors use the Indexing API but are developed and supported by the partner, and Glean expects the partner to maintain a listed connector."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "Use an existing connector before building a new one.",
+        "c": "That is the web history connector, delivered through the Glean browser extension.",
+        "a": "Right. Push API connectors suit custom applications, self-hosted environments, and systems behind firewalls.",
+        "d": "Freshness-dominant data with actions calls for live tools or MCP."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "b": "Sensitivity is handled by mirrored permissions. Live access does not help historical, cross-document recall.",
+        "a": "Right. Indexed mode suits bulk corpora and historical or cross-document questions.",
+        "c": "A single request-time fetch cannot search three years of pages.",
+        "d": "Web history shows page titles from a user's own browsing, not page content."
+      }
+    },
+    "Q-06": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. Live retrieval suits data where freshness dominates or continuous full indexing is impractical.",
+        "b": "Slow-changing document corpora suit indexing.",
+        "c": "Code is listed with the bulk corpora that suit indexing.",
+        "d": "Historical, cross-document content suits indexing."
+      }
+    },
+    "Q-07": {
+      "answer": "a",
+      "rationale": {
+        "b": "That describes live access, which can require each user to authenticate.",
+        "c": "Indexing mirrors source permissions. A user who cannot access an item in the source should not see it in Glean.",
+        "d": "The service account fetches data. Users see results according to the mirrored permissions.",
+        "a": "Right. The source may still enforce access again when the user opens the item."
+      }
+    },
+    "Q-08": {
+      "answer": "a",
+      "rationale": {
+        "b": "MCP servers do not crawl content into the index.",
+        "c": "No such rule exists. The tickets were never indexed.",
+        "a": "Right. Searchable content needs an indexing connector.",
+        "d": "Custom Metadata attaches to documents that are already indexed. These tickets were never indexed."
+      }
+    },
+    "Q-09": {
+      "answer": "a",
+      "rationale": {
+        "b": "The Indexing API configures push datasources, not MCP tools.",
+        "a": "Right. Deployments created on or after September 22, 2026 use Connectors for catalog-backed MCP integrations.",
+        "c": "Catalog MCP integrations need no custom connector.",
+        "d": "That path is for custom or unlisted remote MCP servers, not catalog entries."
+      }
+    },
+    "Q-10": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. NetSuite MCP uses each user's own credentials and role at request time and depends on the native NetSuite connector.",
+        "b": "It depends on the native NetSuite connector being set up.",
+        "c": "It provides real-time access at request time.",
+        "d": "It is documented in Glean product documentation alongside the native NetSuite connector."
+      }
+    },
+    "Q-11": {
+      "answer": "a",
+      "rationale": {
+        "b": "Row-level indexing of a data lake is exactly what the guidance steers away from.",
+        "c": "Extrapolating from a sample gives wrong aggregate answers.",
+        "d": "Web history returns page titles only, never the numbers.",
+        "a": "Right. For large structured data lakes, the guidance is to query with a custom action or MCP server."
+      }
+    },
+    "Q-12": {
+      "answer": "a",
+      "rationale": {
+        "b": "Implementation choices come after you decide a connector is justified.",
+        "c": "Sizing comes later, during scoping.",
+        "a": "Right. Scoping starts by checking for a native connector or web crawler option.",
+        "d": "Hosting is chosen before you build, but only after fit is established."
+      }
+    }
+  }
+}

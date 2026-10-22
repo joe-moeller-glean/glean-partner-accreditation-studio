@@ -1,0 +1,10 @@
+{
+  "id": "SCR-17",
+  "archetype": "A14",
+  "objective": "OBJ-01",
+  "eyebrow": "Next step",
+  "title": "Next: follow one document through the pipeline",
+  "body": "CON-201 traces a single page from fetch to cited answer, including the three states where it can stall and the one rule that deletes documents you did not mean to delete.",
+  "signature": true,
+  "claims": []
+}

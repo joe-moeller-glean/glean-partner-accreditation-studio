@@ -1,0 +1,34 @@
+{
+  "id": "SCR-08",
+  "archetype": "A6",
+  "objective": "OBJ-03",
+  "eyebrow": "Decision",
+  "title": "The empty page that is not the end",
+  "type": "choice",
+  "prompt": "Under load, the wiki sometimes returns 200 with an empty item list and no next cursor, before the true end. How do you handle it?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Rely on the SDK's cursor guard; a missing cursor ends paging safely.",
+      "feedback": "For this source, the missing cursor is the fault. A full crawl must cover the entire scope before completing."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "Add a source-specific guard: raise when a page is empty with no cursor before the expected total.",
+      "feedback": "Right. Cursor paging stops on a missing cursor, which is correct for honest sources. Here, stopping means a partial full crawl that deletes the rest."
+    },
+    {
+      "id": "o3",
+      "text": "Raise max_attempts to 5 so the client retries the page.",
+      "feedback": "A 200 is not a retryable status. The client never retries it."
+    }
+  ],
+  "takeaway": "The SDK guards honest sources. You guard yours.",
+  "claims": [
+    "C-323",
+    "C-154",
+    "C-318",
+    "C-170"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "SCR-11",
+  "archetype": "A5",
+  "objective": "OBJ-05",
+  "eyebrow": "Modes and uploads",
+  "title": "Full and incremental, safely",
+  "table": {
+    "caption": "Indexing modes",
+    "head": [
+      "",
+      "Full",
+      "Incremental"
+    ],
+    "rows": [
+      [
+        "Upload call",
+        "bulk_index_documents(): replacement and stale cleanup",
+        "index_documents(): additive"
+      ],
+      [
+        "Partial run",
+        "Never safe: anything absent is deleted",
+        "Safe: nothing is removed by omission"
+      ],
+      [
+        "Empty successful run",
+        "Clears the datasource",
+        "Changes nothing"
+      ],
+      [
+        "Checkpoint",
+        "Not needed",
+        "Override _get_last_crawl_timestamp(); write only after success"
+      ]
+    ]
+  },
+  "bullets": [
+    "force_restart discards an in-progress upload. Use it after a crashed run leaves an upload stuck, not as a default.",
+    "First and last pages upload sequentially: the first opens the session; the last closes it and triggers stale deletion.",
+    "index_documents() is the right call for connectors reacting to a webhook.",
+    "Tune the dominant stage only. Smaller batches usually beat longer timeouts."
+  ],
+  "claims": [
+    "C-163",
+    "C-154",
+    "C-177",
+    "C-324",
+    "C-173",
+    "C-178",
+    "C-180",
+    "C-181",
+    "C-184",
+    "C-185"
+  ]
+}

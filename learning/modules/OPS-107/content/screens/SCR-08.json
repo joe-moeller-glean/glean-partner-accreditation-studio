@@ -1,0 +1,43 @@
+{
+  "id": "SCR-08",
+  "archetype": "A3",
+  "objective": "OBJ-02",
+  "eyebrow": "Priority is a business decision",
+  "title": "Set priority from business impact, not frustration",
+  "body": "The customer must assess business impact and urgency when selecting a priority. Over-escalating priority can slow resolution for genuinely critical issues.",
+  "table": {
+    "caption": "Priority levels and examples from the Glean Support Center and Customer Support SLA",
+    "head": [
+      "Priority",
+      "Use it when",
+      "Example"
+    ],
+    "rows": [
+      [
+        "Urgent",
+        "Operations stop, business functionality is severely affected, or there is a security incident",
+        "The Service is unavailable to all users"
+      ],
+      [
+        "High",
+        "The issue seriously affects the ability to use the product",
+        "The Service is unavailable to a subset of users"
+      ],
+      [
+        "Normal",
+        "Some operations are affected, but work continues",
+        "Results are incomplete from a known connected source"
+      ],
+      [
+        "Low",
+        "Non-critical questions and requests",
+        "General product inquiries and feature requests"
+      ]
+    ]
+  },
+  "claims": [
+    "C-219",
+    "C-212",
+    "C-220"
+  ]
+}

@@ -1,0 +1,58 @@
+module_id: OPS-107
+design_system: paged-v1
+path_position:
+  accreditation: accred-agents
+  wave: Wave 2
+  prerequisites: []
+motion_budget:
+  t1: state feedback on choice, hotspot, and sort controls
+  t2: reveal of feedback panels and hotspot detail
+  t3: one signature reveal on the final screen
+  reduced_motion: all tiers collapse to static
+pacing:
+  - screen: SCR-01
+    archetype: A1
+    density: text
+  - screen: SCR-02
+    archetype: A2
+    density: text
+  - screen: SCR-03
+    archetype: A3
+    density: visual
+  - screen: SCR-04
+    archetype: A3
+    density: visual
+  - screen: SCR-05
+    archetype: A4
+    density: interactive
+  - screen: SCR-06
+    archetype: A9
+    density: interactive
+  - screen: SCR-07
+    archetype: A8
+    density: visual
+  - screen: SCR-08
+    archetype: A3
+    density: text
+  - screen: SCR-09
+    archetype: A12
+    density: interactive
+  - screen: SCR-10
+    archetype: A3
+    density: text
+  - screen: SCR-11
+    archetype: A6
+    density: interactive
+  - screen: SCR-12
+    archetype: A12
+    density: interactive
+  - screen: SCR-13
+    archetype: quiz
+    density: interactive
+  - screen: SCR-14
+    archetype: A14
+    density: text
+accessibility:
+  - keyboard complete, visible focus, no state by colour alone
+  - every diagram carries title, desc, and an alt text entry
+  - progress reflects real position, never inflated

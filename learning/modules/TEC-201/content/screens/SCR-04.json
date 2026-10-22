@@ -1,0 +1,41 @@
+{
+  "id": "SCR-04",
+  "archetype": "A4",
+  "objective": "OBJ-02",
+  "eyebrow": "The token",
+  "title": "Five rules for the indexing token",
+  "asset": "TEC-201-A02",
+  "hotspots": [
+    {
+      "label": "Issued by Glean",
+      "detail": "The Indexing API supports only Glean-issued tokens. OAuth authentication is not available."
+    },
+    {
+      "label": "Expiry and rotation",
+      "detail": "An expiration date is required. The minimum rotation period is 1440 minutes (24 hours). Automate rotation."
+    },
+    {
+      "label": "Who can create it",
+      "detail": "Setup Admins, Admins, and Super Admins can create Indexing API tokens. Only Super Admins can grant global scope."
+    },
+    {
+      "label": "Where it can be used",
+      "detail": "Restrict API access to known infrastructure with IP range restrictions."
+    },
+    {
+      "label": "Shown once",
+      "detail": "The token is displayed only once after creation. Use separate tokens for dev, staging, and production."
+    }
+  ],
+  "claims": [
+    "C-052",
+    "C-054",
+    "C-053",
+    "C-238",
+    "C-056",
+    "C-059",
+    "C-060",
+    "C-055",
+    "C-057"
+  ]
+}

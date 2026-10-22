@@ -1,0 +1,11 @@
+{
+  "module_id": "CON-202",
+  "feedback": {
+    "SCR-08:o2": "Never index sensitive content with an allow-all ACL for now. That turns an identity gap into an exposure.",
+    "SCR-08:o3": "Flattening does not fix unmatched identities, and flattened lists drift. Map groups directly.",
+    "SCR-08:o1": "Right. Email references fit a shared identity provider. Without identity data for the rest, a manual map to corporate identities is needed, or those accounts get no access.",
+    "SCR-13:o2": "Hosting determines secrets, scheduling, and networking, so it is chosen before you build.",
+    "SCR-13:o1": "Right. Each condition removes a failure you would otherwise meet later, in security review, validation, or permissions testing.",
+    "SCR-13:o3": "Missing activity weakens ranking, but it does not block a correct connector."
+  }
+}

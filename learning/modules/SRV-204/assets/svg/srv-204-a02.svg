@@ -1,37 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 384" width="100%" preserveAspectRatio="xMidYMid meet">
 <title>Five failure categories</title>
 <desc>The five-category agent failure taxonomy: instruction-following failures, retrieval and context-selection failures, action and integration failures, trigger and scheduling failures, and UI and configuration issues.</desc>
-<rect x="0" y="0" width="620" height="384" fill="#F6F3EB"/>
+<defs><radialGradient id="wt" cx="1.02" cy="-0.08" r="0.62" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#DEEEF0"/><stop offset="0.7" stop-color="#DEEEF0" stop-opacity="0"/></radialGradient><radialGradient id="wo" cx="-0.06" cy="1.06" r="0.45" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#F0C2F2"/><stop offset="0.72" stop-color="#F0C2F2" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="0" width="620" height="384" fill="#F6F3EB"/><rect x="0" y="0" width="620" height="384" fill="url(#wt)"/><rect x="0" y="0" width="620" height="384" fill="url(#wo)"/>
 <text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">Five failure categories</text>
-<rect x="24" y="64" width="281" height="92" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<rect x="24" y="64" width="34" height="92" rx="8" fill="#F6F3EB" stroke="#000000" stroke-width="2"/>
-<text x="41" y="94" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="middle">1</text>
-<text x="68" y="88" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="start">Instruction-following</text>
-<text x="68" y="107" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Wrong tools planned, ignored</text>
-<text x="68" y="121" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">instructions, sloppy final answer</text>
-<rect x="315" y="64" width="281" height="92" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<rect x="315" y="64" width="34" height="92" rx="8" fill="#F6F3EB" stroke="#000000" stroke-width="2"/>
-<text x="332" y="94" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="middle">2</text>
-<text x="359" y="88" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="start">Retrieval and context</text>
-<text x="359" y="107" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Right tool, wrong or missing</text>
-<text x="359" y="121" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">results, such as not found when it</text>
-<text x="359" y="135" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">exists</text>
-<rect x="24" y="166" width="281" height="92" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<rect x="24" y="166" width="34" height="92" rx="8" fill="#F6F3EB" stroke="#000000" stroke-width="2"/>
-<text x="41" y="196" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="middle">3</text>
-<text x="68" y="190" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="start">Action and integration</text>
-<text x="68" y="209" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">HTTP errors, validation errors,</text>
-<text x="68" y="223" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">partial writes, timeouts</text>
-<rect x="315" y="166" width="281" height="92" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<rect x="315" y="166" width="34" height="92" rx="8" fill="#F6F3EB" stroke="#000000" stroke-width="2"/>
-<text x="332" y="196" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="middle">4</text>
-<text x="359" y="190" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="start">Trigger and scheduling</text>
-<text x="359" y="209" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Never runs, runs at the wrong</text>
-<text x="359" y="223" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">time, runs on the wrong content</text>
-<rect x="24" y="268" width="281" height="92" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<rect x="24" y="268" width="34" height="92" rx="8" fill="#F6F3EB" stroke="#000000" stroke-width="2"/>
-<text x="41" y="298" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="middle">5</text>
-<text x="68" y="292" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="start">UI and configuration</text>
-<text x="68" y="311" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">Buttons not working, save</text>
-<text x="68" y="325" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#000000" text-anchor="start">failures, permissions problems</text>
+<rect x="24" y="64" width="281" height="92" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="40" y="90" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="12" letter-spacing="0.04em" fill="#666666" text-anchor="start">01</text>
+<text x="72" y="90" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="500" fill="#000000" text-anchor="start">Instruction-following</text>
+<text x="72" y="109" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">Wrong tools planned, ignored</text>
+<text x="72" y="123" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">instructions, sloppy final answer</text>
+<rect x="315" y="64" width="281" height="92" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="331" y="90" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="12" letter-spacing="0.04em" fill="#666666" text-anchor="start">02</text>
+<text x="363" y="90" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="500" fill="#000000" text-anchor="start">Retrieval and context</text>
+<text x="363" y="109" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">Right tool, wrong or missing</text>
+<text x="363" y="123" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">results, such as not found when it</text>
+<text x="363" y="137" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">exists</text>
+<rect x="24" y="166" width="281" height="92" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="40" y="192" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="12" letter-spacing="0.04em" fill="#666666" text-anchor="start">03</text>
+<text x="72" y="192" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="500" fill="#000000" text-anchor="start">Action and integration</text>
+<text x="72" y="211" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">HTTP errors, validation errors,</text>
+<text x="72" y="225" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">partial writes, timeouts</text>
+<rect x="315" y="166" width="281" height="92" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="331" y="192" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="12" letter-spacing="0.04em" fill="#666666" text-anchor="start">04</text>
+<text x="363" y="192" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="500" fill="#000000" text-anchor="start">Trigger and scheduling</text>
+<text x="363" y="211" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">Never runs, runs at the wrong</text>
+<text x="363" y="225" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">time, runs on the wrong content</text>
+<rect x="24" y="268" width="281" height="92" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="40" y="294" font-family="PolySans Mono, IBM Plex Mono, Roboto Mono, Menlo, monospace" font-size="12" letter-spacing="0.04em" fill="#666666" text-anchor="start">05</text>
+<text x="72" y="294" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="500" fill="#000000" text-anchor="start">UI and configuration</text>
+<text x="72" y="313" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">Buttons not working, save</text>
+<text x="72" y="327" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="11" font-weight="400" fill="#666666" text-anchor="start">failures, permissions problems</text>
 </svg>

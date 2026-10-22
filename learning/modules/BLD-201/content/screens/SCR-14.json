@@ -1,0 +1,43 @@
+{
+  "id": "SCR-14",
+  "archetype": "A8",
+  "objective": "OBJ-05",
+  "eyebrow": "Worked example",
+  "title": "The policy wiki design record",
+  "steps": [
+    {
+      "title": "IDs",
+      "body": "Document ID = the immutable page_id. Slugs change on rename, so they are never IDs."
+    },
+    {
+      "title": "Permissions",
+      "body": "Read groups become allowedGroups; both-groups rules become one intersection entry; nurse leads nest with memberGroupName."
+    },
+    {
+      "title": "Freshness",
+      "body": "Incremental every hour from a checkpoint written on success."
+    },
+    {
+      "title": "Deletion",
+      "body": "Tombstones delete explicitly each hour. Tombstones last 30 days, so a nightly full run reconciles anything missed."
+    },
+    {
+      "title": "Guard",
+      "body": "Raise on an empty page before the end; halt if the count falls well beyond expected churn."
+    },
+    {
+      "title": "Operations",
+      "body": "Secrets in the secret store; alert on a sharp drop in indexed documents."
+    }
+  ],
+  "footnote": "Composite, fictional case used across this accreditation. Product behavior is sourced; the customer environment and its numbers are invented for practice.",
+  "claims": [
+    "C-101",
+    "C-198",
+    "C-115",
+    "C-173",
+    "C-176",
+    "C-170",
+    "C-204"
+  ]
+}

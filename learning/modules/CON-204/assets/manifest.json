@@ -1,0 +1,59 @@
+{
+  "module_id": "CON-204",
+  "assets": [
+    {
+      "asset_id": "CON-204-A01",
+      "path": "assets/svg/con-204-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Six steps: start the run; identity crawl with users first and groups requiring memberships; resolve since on incremental runs; fetch and transform; upload with bulk replacement on full runs or additive calls on incremental runs; exit non-zero on failure.",
+      "screen_id": "SCR-04",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-310",
+        "C-324",
+        "C-163",
+        "C-165",
+        "C-166"
+      ],
+      "alt": "Six-step SDK run lifecycle from identity crawl to exit status.",
+      "bytes": 5918
+    },
+    {
+      "asset_id": "CON-204-A02",
+      "path": "assets/svg/con-204-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Mock phase with Glean mocked and source clients unchanged; integration phase with the real source recorded and replayed and Glean mocked; live phase against a disposable datasource, which requires the allow-destructive-live flag.",
+      "screen_id": "SCR-12",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-155",
+        "C-206"
+      ],
+      "alt": "Three test phases from mock to live.",
+      "bytes": 3583
+    },
+    {
+      "asset_id": "CON-204-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

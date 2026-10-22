@@ -1,0 +1,24 @@
+{
+  "id": "SCR-06",
+  "archetype": "A3",
+  "objective": "OBJ-03",
+  "eyebrow": "Identity and permissions",
+  "title": "Map the source's access model exactly",
+  "bullets": [
+    "Consider roles a type of group. Do not flatten groups into user lists.",
+    "Index a group before its memberships. Nested groups use memberGroupName.",
+    "For a both-groups rule, use one intersection entry: a user must belong to every group within it.",
+    "An ACL naming a group Glean has never heard of matches nobody.",
+    "Never index sensitive content with an allow-all ACL for now.",
+    "If the source lets its admins read everything, decide with the customer whether that bypass is mirrored. The default is not to."
+  ],
+  "claims": [
+    "C-235",
+    "C-197",
+    "C-114",
+    "C-115",
+    "C-198",
+    "C-196",
+    "C-195"
+  ]
+}

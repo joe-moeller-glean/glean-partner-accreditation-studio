@@ -1,0 +1,29 @@
+module_id: OPS-107
+title: Glean Support Center & Escalations
+level: 100
+target_hours: 0.6
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Choose the correct Glean support path for a request: self-service, conversation, ticket, or feedback."
+    screens: [SCR-02, SCR-03, SCR-04, SCR-05, SCR-06, SCR-13]
+    assessment_items: [Q-01, Q-02]
+  - id: OBJ-02
+    text: "Build a complete ticket and assign the correct priority from business impact."
+    screens: [SCR-07, SCR-08, SCR-09]
+    assessment_items: [Q-03, Q-04]
+  - id: OBJ-03
+    text: "Escalate inside the Glean support portal so the incident stays tracked and SLA-eligible."
+    screens: [SCR-01, SCR-10, SCR-11, SCR-12, SCR-14]
+    assessment_items: [Q-05, Q-06]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 14
+distinct_archetypes: [A1, A12, A14, A2, A3, A4, A6, A8, A9, quiz]
+assessment_type: Quiz

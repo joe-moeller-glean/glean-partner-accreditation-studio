@@ -1,0 +1,10 @@
+{
+  "id": "SCR-16",
+  "archetype": "A14",
+  "objective": "OBJ-05",
+  "eyebrow": "Next step",
+  "title": "Next: prove the environment is ready",
+  "body": "TEC-201 turns this intake into a readiness gate: datasource, token, source access, network, and test personas. Submit your intake summary to your assessor with the risk register attached.",
+  "signature": true,
+  "claims": []
+}

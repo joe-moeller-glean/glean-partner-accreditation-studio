@@ -1,0 +1,43 @@
+{
+  "id": "SCR-08",
+  "archetype": "A9",
+  "objective": "OBJ-04",
+  "eyebrow": "Practice",
+  "title": "Choose the permission shape",
+  "prompt": "Choose the permission shape for each source rule.",
+  "type": "sort",
+  "categories": [
+    "allowedGroups",
+    "Group intersection",
+    "allowAnonymousAccess",
+    "allowAllDatasourceUsersAccess"
+  ],
+  "pairs": [
+    {
+      "item": "Dosing guide: readable by the pharmacist group.",
+      "category": "allowedGroups",
+      "why": "One group grants access."
+    },
+    {
+      "item": "Controlled-substance log: pharmacists who are also in clinic 014.",
+      "category": "Group intersection",
+      "why": "A user must belong to every group within one entry."
+    },
+    {
+      "item": "Company holiday calendar: anyone signed into Glean may read it.",
+      "category": "allowAnonymousAccess",
+      "why": "Anyone signed into Glean can see results for the document."
+    },
+    {
+      "item": "Wiki how-to page: any user indexed for this datasource may read it.",
+      "category": "allowAllDatasourceUsersAccess",
+      "why": "Access requires the user to be indexed as a user of the connector."
+    }
+  ],
+  "takeaway": "Read each flag literally before you use it.",
+  "claims": [
+    "C-198",
+    "C-117",
+    "C-071"
+  ]
+}

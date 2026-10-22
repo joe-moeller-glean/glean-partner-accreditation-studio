@@ -1,0 +1,50 @@
+{
+  "id": "SCR-05",
+  "archetype": "A5",
+  "objective": "OBJ-02",
+  "eyebrow": "Connector types",
+  "title": "Four documented connector types",
+  "body": "The type decides who builds it, how data arrives, and who supports it after go-live.",
+  "table": {
+    "caption": "Connector types in Glean documentation",
+    "head": [
+      "Type",
+      "How data arrives",
+      "Built and supported by",
+      "Typical fit"
+    ],
+    "rows": [
+      [
+        "Native",
+        "Glean calls the source APIs directly",
+        "Glean; purpose-built per application",
+        "Applications such as Slack, Salesforce, Google Drive"
+      ],
+      [
+        "Web history",
+        "The Glean browser extension makes page titles searchable",
+        "Glean; results are private to each user",
+        "Apps where titles from a user's browsing help"
+      ],
+      [
+        "Push API",
+        "Data is pushed through the Indexing API",
+        "The implementer; shared code may have limited support",
+        "Custom apps, self-hosted systems, systems behind firewalls"
+      ],
+      [
+        "Partner",
+        "The partner pushes through the Indexing API",
+        "The technology partner organization",
+        "Partner-built, partner-supported integrations"
+      ]
+    ]
+  },
+  "claims": [
+    "C-005",
+    "C-007",
+    "C-008",
+    "C-009",
+    "C-010"
+  ]
+}

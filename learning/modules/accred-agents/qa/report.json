@@ -27,8 +27,8 @@
   "package": {
     "state": "pass",
     "zip": "accred-agents-v1.0.0-scorm12.zip",
-    "bytes": 13078,
-    "sha256": "d42351eed8b573d86a6b1a6e81d945e60daa6441ddd498beb6fd664cf0e79460",
+    "bytes": 13093,
+    "sha256": "b1c8cf0a078f2ed6c921845a21ba444500a35de574d810d81b26919999108c6b",
     "findings": []
   },
   "runtime_qa": {

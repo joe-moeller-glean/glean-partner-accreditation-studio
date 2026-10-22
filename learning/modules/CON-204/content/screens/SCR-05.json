@@ -1,0 +1,49 @@
+{
+  "id": "SCR-05",
+  "archetype": "A5",
+  "objective": "OBJ-02",
+  "eyebrow": "Base classes",
+  "title": "Choose the base class",
+  "table": {
+    "caption": "Connector base classes in the SDK",
+    "head": [
+      "Class",
+      "Peak memory",
+      "Use when"
+    ],
+    "rows": [
+      [
+        "BaseDatasourceConnector",
+        "Whole dataset",
+        "The whole dataset fits comfortably in memory"
+      ],
+      [
+        "BaseStreamingDatasourceConnector",
+        "One batch",
+        "The dataset is large or paginated and the source client is synchronous"
+      ],
+      [
+        "BaseAsyncStreamingDatasourceConnector",
+        "One batch",
+        "Same model with async generators; drive it with index_data_async()"
+      ],
+      [
+        "BasePeopleConnector",
+        "Whole dataset",
+        "Employee records, which are distinct from the identities that back ACLs"
+      ]
+    ]
+  },
+  "bullets": [
+    "If unsure, start with BaseDatasourceConnector. Switching to streaming later changes the base class and the return type of get_source_data(); transform() is unchanged.",
+    "At a few hundred thousand documents, memory binds. The fix is a streaming connector, not a smaller batch size, because batching happens after transform. batch_size defaults to 1000."
+  ],
+  "claims": [
+    "C-315",
+    "C-316",
+    "C-169",
+    "C-314",
+    "C-167",
+    "C-168"
+  ]
+}

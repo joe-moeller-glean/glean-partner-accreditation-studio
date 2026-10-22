@@ -1,0 +1,23 @@
+{
+  "id": "SCR-12",
+  "archetype": "A3",
+  "objective": "OBJ-06",
+  "eyebrow": "Maintenance plan",
+  "title": "A plan the customer can approve",
+  "body": "A customer-approved maintenance plan is a Custom Connector Competency requirement. Write it for the customer's operators, not for yourself.",
+  "bullets": [
+    "Owner, support hours, and escalation path.",
+    "Monitoring: which alerts, who receives them, and the response targets.",
+    "Credential rotation calendar, with token rotation automated.",
+    "Change management: source API changes, Glean API changes, and SDK releases. This path was built on glean-indexing-sdk v1.2.0.",
+    "A permission re-test with the persona matrix after any change to the source's permission model."
+  ],
+  "asset": "CON-301-A02",
+  "footnote": "Plan contents beyond the sourced requirement are studio guidance.",
+  "claims": [
+    "C-265",
+    "C-238",
+    "C-220",
+    "C-199"
+  ]
+}

@@ -27,8 +27,8 @@
   "package": {
     "state": "pass",
     "zip": "SOL-203-v1.0.0-scorm12.zip",
-    "bytes": 13490,
-    "sha256": "c8f31cf5ea1ed84ac61084579026dc58069d0325410a166ed011973a1954b221",
+    "bytes": 13504,
+    "sha256": "a56c5b027d4afdccd985518f818bad64d5e406c7c023ca46fddb607908db98a3",
     "findings": []
   },
   "runtime_qa": {

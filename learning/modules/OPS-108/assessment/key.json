@@ -1,0 +1,45 @@
+{
+  "module_id": "OPS-108",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "No. The Feedback and Ideas board is for feature requests and product feedback.",
+        "a": "Correct. Glean Support runs it every month and splits into small groups.",
+        "c": "No. The Admin Hub is a restricted space; the live session is listed in Events."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "b": "No. The documented reason is correct role and permission assignment.",
+        "c": "No. A work email affects the role and permissions the account receives.",
+        "a": "Correct. The work email tags the account with the right access."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "a": "Correct. Bugs and errors in a Glean instance go to a support ticket.",
+        "b": "No. Instance errors go to support, and logs can hold confidential data.",
+        "c": "No. The Feedback and Ideas board is for feature requests, not errors."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "No. Feature requests are not incidents, and over-escalating slows critical work.",
+        "c": "No. The documented path is the Feedback and Ideas board.",
+        "a": "Correct. Feature requests and product feedback go there."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "b": "No. Searching first follows the guidelines.",
+        "a": "Correct. Do not share confidential or personal data.",
+        "c": "No. Sharing learnings is encouraged."
+      }
+    }
+  }
+}

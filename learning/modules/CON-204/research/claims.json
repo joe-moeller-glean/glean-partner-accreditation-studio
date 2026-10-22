@@ -1,0 +1,905 @@
+{
+  "module_id": "CON-204",
+  "claims": [
+    {
+      "claim_id": "C-166",
+      "text": "Streaming connectors do not run get_identities().",
+      "excerpt": "their indexing implementations do not run the optional get_identities() crawl.",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-196",
+      "text": "Unknown groups match nobody.",
+      "excerpt": "An ACL naming a group Glean has never heard of matches nobody.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-157",
+      "text": "A connector is a data client plus a connector class.",
+      "excerpt": "A connector is two classes: a data client that fetches records from your source, and a connector that turns them into Glean documents.",
+      "source_ids": [
+        "S-33"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-311",
+      "text": "The SDK owns batching, retries, upload sessions, and stale-document cleanup.",
+      "excerpt": "SDK owns batching, retries, upload sessions, and stale-document cleanup.",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-150",
+      "text": "The SDK is a client for the Indexing API.",
+      "excerpt": "The SDK is a client for the Indexing API, not a replacement - the API documentation stays the reference for the wire protocol.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-161",
+      "text": "SDK config: two env vars.",
+      "excerpt": "Two environment variables. There is no configuration file.",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-312",
+      "text": "GLEAN_SERVER_URL is the Glean backend URL.",
+      "excerpt": "GLEAN_SERVER_URLYour Glean backend URL",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-313",
+      "text": "GLEAN_INDEXING_API_TOKEN is a datasource-scoped Indexing API token.",
+      "excerpt": "GLEAN_INDEXING_API_TOKENDatasource-scoped Indexing API token.",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-162",
+      "text": "Missing env vars fail at construction.",
+      "excerpt": "A missing variable raises MissingEnvironmentVariableError at client construction, not mid-upload.",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-164",
+      "text": "SDK errors derive from GleanError.",
+      "excerpt": "Every SDK exception derives from GleanError and carries a fix_suggestion",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-310",
+      "text": "In the SDK identity crawl, users are bulk-indexed first; groups without memberships raise InconsistentDataError.",
+      "excerpt": "Users are bulk-indexed first. If groups are returned, memberships must be too - otherwise the SDK raises InconsistentDataError, because groups without memberships produce ACLs that can never match anyone.",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-324",
+      "text": "On an incremental crawl the SDK calls _get_last_crawl_timestamp(); the base implementation returns None.",
+      "excerpt": "On an incremental crawl, calls _get_last_crawl_timestamp(). The base implementation returns None.",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-163",
+      "text": "Full = replacement; incremental = additive.",
+      "excerpt": "A full crawl calls PushUploader.bulk_index_documents() for replacement and stale cleanup. An incremental crawl calls additive index_documents().",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-165",
+      "text": "Failures exit non-zero.",
+      "excerpt": "On exception, increments the error counter and re-raises so a scheduler sees a non-zero exit.",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-315",
+      "text": "Use the streaming connector when the dataset is large or paginated and the source client is synchronous.",
+      "excerpt": "The dataset is large or paginated and your source client is synchronous.",
+      "source_ids": [
+        "S-22"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-316",
+      "text": "The async streaming connector uses async generators and is driven with index_data_async().",
+      "excerpt": "Same model, async generators. Drive it with index_data_async().",
+      "source_ids": [
+        "S-22"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-169",
+      "text": "Employee data is separate from ACL identities.",
+      "excerpt": "It's distinct from the datasource identities (users, groups, memberships) that back document ACLs",
+      "source_ids": [
+        "S-22"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-314",
+      "text": "Start with BaseDatasourceConnector if unsure; switching to streaming changes the base class and get_source_data() return type, not transform().",
+      "excerpt": "If you're unsure, start with BaseDatasourceConnector. Switching to a streaming variant later means changing the base class and the return type of get_source_data() - transform() is unchanged.",
+      "source_ids": [
+        "S-22"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-167",
+      "text": "Memory limits need streaming, not smaller batches.",
+      "excerpt": "the fix is a streaming connector, not a smaller batch size, because batching happens after transform.",
+      "source_ids": [
+        "S-22"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-168",
+      "text": "batch_size defaults to 1000.",
+      "excerpt": "All four classes expose batch_size, defaulting to 1000.",
+      "source_ids": [
+        "S-22"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-318",
+      "text": "The SDK HTTP client retries 429, 500, 502, 503, 504; everything else fails immediately.",
+      "excerpt": "retry_status_codes{429, 500, 502, 503, 504}Everything else fails immediately.",
+      "source_ids": [
+        "S-25"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-186",
+      "text": "Default retries: one retry.",
+      "excerpt": "The default max_attempts=2 is deliberately conservative - one retry.",
+      "source_ids": [
+        "S-25"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-317",
+      "text": "Production connectors should raise max_attempts to 4 or 5 against aggressive rate limiters.",
+      "excerpt": "production connectors should raise it to 4 or 5, particularly against APIs that rate-limit aggressively.",
+      "source_ids": [
+        "S-25"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-194",
+      "text": "Rate limiting is proactive; retries are reactive.",
+      "excerpt": "The rate limiter is proactive",
+      "source_ids": [
+        "S-27"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-193",
+      "text": "Run below the source quota.",
+      "excerpt": "A source allowing 600 requests/minute is 10/second; running at 7-8 leaves room for retries",
+      "source_ids": [
+        "S-27"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-323",
+      "text": "SDK cursor paging stops when the cursor is missing, empty, not a string, or repeated.",
+      "excerpt": "Paging stops when the cursor is missing, empty, not a string, or identical to the previous cursor.",
+      "source_ids": [
+        "S-26"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-190",
+      "text": "Offset pagination is unstable under writes.",
+      "excerpt": "Offset pagination is unstable against a source being written to during the crawl.",
+      "source_ids": [
+        "S-26"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-191",
+      "text": "Paging loops must terminate.",
+      "excerpt": "Whatever loop you write must terminate on a source that misbehaves.",
+      "source_ids": [
+        "S-26"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-187",
+      "text": "Query params are redacted in logs.",
+      "excerpt": "PullOptions.mask_params defaults to True, so query parameters are redacted in the client's request logs.",
+      "source_ids": [
+        "S-25"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-188",
+      "text": "Redaction covers logs only.",
+      "excerpt": "Redaction covers logging only.",
+      "source_ids": [
+        "S-25"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-154",
+      "text": "Full crawls must cover the entire scope.",
+      "excerpt": "a full crawl must cover the entire confirmed scope before completing, because stale-document deletion removes anything absent from the run.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-170",
+      "text": "Never let a partial fetch complete as a full crawl.",
+      "excerpt": "Never let a partial or failed fetch finish as a successful full crawl.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-158",
+      "text": "Datasource name: ASCII letters and digits only.",
+      "excerpt": "CustomDatasourceConfig.name may contain only ASCII letters and digits",
+      "source_ids": [
+        "S-33"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-101",
+      "text": "Bulk indexing replaces the datasource; omitted documents are deleted.",
+      "excerpt": "Bulk indexing fully replaces the entire list of documents stored in Glean. After a successful bulk upload, all documents that were not a part of the most recent upload are deleted asynchronously.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-153",
+      "text": "Timestamps are epoch seconds.",
+      "excerpt": "created_at and updated_at must be epoch seconds, not ISO strings.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-198",
+      "text": "Intersection semantics.",
+      "excerpt": "A user must belong to every group within one entry; multiple entries are alternative intersections.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-152",
+      "text": "Allow-all ACL defaults are the top review risk.",
+      "excerpt": "An allow-all default is the most consequential thing to miss.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-201",
+      "text": "Groups require memberships.",
+      "excerpt": "If you return groups, you must also return memberships.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-320",
+      "text": "extract_permission_refs() returns the user and group IDs the documents reference.",
+      "excerpt": "returning the deduplicated user_ids and group_ids your documents actually reference.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-172",
+      "text": "The SDK does not persist checkpoints.",
+      "excerpt": "The SDK does not persist checkpoints",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-325",
+      "text": "Without an override, since is None and the data client falls back to a full fetch.",
+      "excerpt": "which means since is None and your data client falls back to a full fetch.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-326",
+      "text": "max_items limits source consumption; it is not a Glean-side upload cap or a blast-radius guarantee.",
+      "excerpt": "max_items limits how many source items each registered client consumes. It is not a Glean-side upload cap or a blast-radius guarantee.",
+      "source_ids": [
+        "S-33"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-159",
+      "text": "--max-items is not a safety control.",
+      "excerpt": "Do not rely on --max-items to make a shared datasource safe",
+      "source_ids": [
+        "S-33"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-177",
+      "text": "An empty full crawl clears the datasource.",
+      "excerpt": "A successful empty full crawl sends one complete empty bulk page so all previously indexed documents are reconciled as stale.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-173",
+      "text": "Checkpoint: start time, written only on success.",
+      "excerpt": "Record the timestamp from before the crawl started, and only write it after the run succeeds.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-178",
+      "text": "force_restart only after a stuck upload.",
+      "excerpt": "Discards any in-progress upload session and starts a new one. Use after a crashed run leaves an upload stuck - not as a default.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-180",
+      "text": "First and last pages are sequential.",
+      "excerpt": "the first opens the upload session, the last closes it and triggers stale deletion, so neither can race.",
+      "source_ids": [
+        "S-23"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-181",
+      "text": "index_documents() suits webhook updates.",
+      "excerpt": "This is the right call for event-driven connectors reacting to a webhook.",
+      "source_ids": [
+        "S-23"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-184",
+      "text": "Tune the dominant stage only.",
+      "excerpt": "Tuning upload concurrency when 90% of wall-clock is data_fetch accomplishes nothing.",
+      "source_ids": [
+        "S-24"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-185",
+      "text": "Prefer smaller batches over longer timeouts.",
+      "excerpt": "Smaller batches are usually the better answer.",
+      "source_ids": [
+        "S-24"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-155",
+      "text": "Each test phase swaps one dependency.",
+      "excerpt": "Each phase swaps exactly one thing from mocked to real, so a failure tells you which layer broke.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-319",
+      "text": "Phase 2 rejects missing permissions, anonymous access, and all-datasource-users access because they prevent proving denial.",
+      "excerpt": "It also rejects missing permissions, allow_anonymous_access=True, and allow_all_datasource_users_access=True, because any of those prevents the harness from proving a configured identity is denied.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-206",
+      "text": "Live tests need --allow-destructive-live.",
+      "excerpt": "Every live phase requires --allow-destructive-live",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-199",
+      "text": "Counts prove nothing about permissions.",
+      "excerpt": "Counting indexed documents proves nothing about permissions.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-200",
+      "text": "Search as the user is ground truth.",
+      "excerpt": "the search result is the ground truth, not the upload response.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-202",
+      "text": "Four-step missing-document diagnosis.",
+      "excerpt": "Most \"the connector is broken\" reports are really one of four things",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-160",
+      "text": "Accepted is not searchable.",
+      "excerpt": "Indexing is asynchronous - an accepted upload is not yet a searchable document.",
+      "source_ids": [
+        "S-33"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-322",
+      "text": "glean-idx datasource status shows uploaded and indexed counts, identity counts, visibility, and recent runs.",
+      "excerpt": "Uploaded and indexed counts per object type, identity counts, visibility, and the most recent upload and processing runs.",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-321",
+      "text": "glean-idx document access checks whether a given user can see a document.",
+      "excerpt": "Whether a given user can see a document",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-205",
+      "text": "ACLs fail without pushed identities.",
+      "excerpt": "a correct-looking ACL is still wrong if the identities it names were never pushed.",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-207",
+      "text": "teardown is irreversible.",
+      "excerpt": "teardown cannot be undone.",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-208",
+      "text": "CLI exit codes are stable.",
+      "excerpt": "SDK-owned exit codes are stable.",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-209",
+      "text": "Ambiguous writes are read back, not retried.",
+      "excerpt": "An ambiguous transport failure is reconciled by reading state back, never by blindly repeating the write.",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-210",
+      "text": "A connector is a batch job.",
+      "excerpt": "A connector is a batch job: it starts, pulls from a source, pushes to Glean, and exits.",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-218",
+      "text": "Observability is built in.",
+      "excerpt": "You get stage timings, item counts, and structured logs without adding any instrumentation.",
+      "source_ids": [
+        "S-31"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-332",
+      "text": "glean-idx deploy generates a Docker image and Terraform for a Kubernetes CronJob on GKE or EKS.",
+      "excerpt": "glean-idx deploy generates and operates a Docker image and Terraform for a Kubernetes CronJob on GKE or EKS.",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-217",
+      "text": "Connectors can run on many schedulers.",
+      "excerpt": "It can run as a VM cron job, Cloud Run or Lambda job, Airflow task, or scheduled CI workload.",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-204",
+      "text": "Alert on sharp drops in documents_indexed.",
+      "excerpt": "Alert on documents_indexed dropping sharply between runs",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-219",
+      "text": "Cloud telemetry plugins are mock-tested only.",
+      "excerpt": "The cloud provider plugins are currently tested only against mocks",
+      "source_ids": [
+        "S-31"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-213",
+      "text": "Full and incremental need separate configs.",
+      "excerpt": "A full and incremental schedule need separate deployment configurations",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-214",
+      "text": "A completed Job is not proof of indexing.",
+      "excerpt": "A completed Kubernetes Job proves only that the process exited successfully",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-329",
+      "text": "The Connector Builder explores the source API, plans with you, generates the connector against the SDK, and tests it before anything is indexed.",
+      "excerpt": "It explores the source's API, plans the connector with you, generates it against this SDK, and tests it before anything reaches your index.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-330",
+      "text": "The Connector Builder runs mocked and recorded test phases before offering to index anything.",
+      "excerpt": "runs the mocked and recorded test phases before offering to index anything.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-195",
+      "text": "Never allow-all 'for now'.",
+      "excerpt": "Never index sensitive content with an allow-all ACL \"for now.\"",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-174",
+      "text": "Incremental needs a checkpoint and a deletion signal.",
+      "excerpt": "it needs a durable checkpoint and a reliable source-side deletion signal before it is correct rather than merely faster.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    }
+  ]
+}

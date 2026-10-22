@@ -1,0 +1,136 @@
+{
+  "module_id": "CON-204",
+  "checked_on": "2026-09-27",
+  "state": "pass",
+  "claim_count": 75,
+  "source_count": 16,
+  "verification": "Every claim excerpt matched verbatim against saved source text by plan/custom-connectors/tools/build_ledger.py.",
+  "unsourced_claims": [],
+  "internal_claims_in_module": [],
+  "verdicts": {
+    "verified": 75,
+    "unsupported": 0,
+    "stale": 0,
+    "conflicted": 0
+  },
+  "studio_guidance_disclosed": [],
+  "open_questions": [
+    "SDK basis is glean-indexing-sdk v1.2.0 (C-220). Re-verify class names, options, and CLI verbs each release.",
+    "U-204-1: import paths for model classes are not taught; learners follow the installed version's reference.",
+    "Lab fixture (OD-5) must exist before learners run the build lab."
+  ],
+  "source_ledger": [
+    {
+      "source_id": "S-12",
+      "title": "Bulk Indexing",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-19",
+      "title": "Indexing SDK — Indexing modes",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-20",
+      "title": "Indexing SDK — Permissions",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-21",
+      "title": "Indexing SDK — Architecture",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-22",
+      "title": "Indexing SDK — Connector types",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-23",
+      "title": "Indexing SDK — PushUploader",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-24",
+      "title": "Indexing SDK — Batching and throughput",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-25",
+      "title": "Indexing SDK — HTTP client",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-26",
+      "title": "Indexing SDK — Pagination",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-27",
+      "title": "Indexing SDK — Rate limiting",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-28",
+      "title": "Indexing SDK — Status and debugging",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-29",
+      "title": "Indexing SDK — CLI",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-30",
+      "title": "Indexing SDK — Deployment overview",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-31",
+      "title": "Indexing SDK — Observability",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-32",
+      "title": "Indexing SDK — Overview",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-33",
+      "title": "Indexing SDK — Quickstart",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    }
+  ]
+}

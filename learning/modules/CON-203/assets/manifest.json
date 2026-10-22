@@ -1,0 +1,62 @@
+{
+  "module_id": "CON-203",
+  "assets": [
+    {
+      "asset_id": "CON-203-A01",
+      "path": "assets/svg/con-203-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Five layers in order: users indexed before they are referenced; groups indexed before their memberships; memberships including nested groups via memberGroupName; documents with ACLs; asynchronous processing with processallmemberships for identity issues.",
+      "screen_id": "SCR-07",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-111",
+        "C-114",
+        "C-115",
+        "C-116",
+        "C-076"
+      ],
+      "alt": "Five stacked layers showing the order users, groups, memberships, documents, processing.",
+      "bytes": 3547
+    },
+    {
+      "asset_id": "CON-203-A02",
+      "path": "assets/svg/con-203-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Custom properties are defined before upload, updated by re-uploading the whole document, and support INT, DATE, and USERID. Custom Metadata attaches to documents from any datasource, including native ones, and is not affected by re-indexing.",
+      "screen_id": "SCR-09",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-125",
+        "C-130",
+        "C-132",
+        "C-100",
+        "C-131"
+      ],
+      "alt": "Comparison of custom properties and Custom Metadata.",
+      "bytes": 4134
+    },
+    {
+      "asset_id": "CON-203-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

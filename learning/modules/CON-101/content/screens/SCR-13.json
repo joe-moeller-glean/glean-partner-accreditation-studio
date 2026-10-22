@@ -1,0 +1,39 @@
+{
+  "id": "SCR-13",
+  "archetype": "A8",
+  "objective": "OBJ-05",
+  "eyebrow": "Worked example",
+  "title": "The policy wiki, question by question",
+  "steps": [
+    {
+      "title": "Q1 Existing option",
+      "body": "No native connector exists for the in-house wiki."
+    },
+    {
+      "title": "Q2 Data shape",
+      "body": "Policy and runbook pages: documents, not rows or telemetry."
+    },
+    {
+      "title": "Q3 Need",
+      "body": "Staff ask policy questions and need citations across many pages: an indexed use case."
+    },
+    {
+      "title": "Q4 Data types",
+      "body": "The API exposes pages, users, groups with members, and deletions. It exposes no activity, so expect weaker ranking."
+    },
+    {
+      "title": "Q5 Ownership",
+      "body": "The partner builds it and must name who supports it after go-live."
+    },
+    {
+      "title": "Decision",
+      "body": "Custom indexed connector. Record the rejected alternatives and why."
+    }
+  ],
+  "claims": [
+    "C-040",
+    "C-021",
+    "C-135",
+    "C-010"
+  ]
+}

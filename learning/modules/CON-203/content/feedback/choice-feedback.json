@@ -1,0 +1,8 @@
+{
+  "module_id": "CON-203",
+  "feedback": {
+    "SCR-10:o2": "Custom properties belong to a datasource you index. Native and custom connectors use separate namespaces.",
+    "SCR-10:o3": "That duplicates a native connector and moves support to you.",
+    "SCR-10:o1": "Right. Custom Metadata attaches to documents from any datasource, including native connectors, without re-indexing."
+  }
+}

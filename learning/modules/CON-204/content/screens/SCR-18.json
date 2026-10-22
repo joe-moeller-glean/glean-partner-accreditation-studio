@@ -1,0 +1,10 @@
+{
+  "id": "SCR-18",
+  "archetype": "A14",
+  "objective": "OBJ-01",
+  "eyebrow": "Next step",
+  "title": "Next: build it under fire",
+  "body": "BLD-202 is the end-to-end implementation lab: full and incremental runs, deletions, permission-only changes, injected faults, reconciliation, and handoff.",
+  "signature": true,
+  "claims": []
+}

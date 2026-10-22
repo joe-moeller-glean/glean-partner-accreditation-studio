@@ -1,0 +1,59 @@
+{
+  "id": "SCR-07",
+  "archetype": "A5",
+  "objective": "OBJ-04",
+  "eyebrow": "Incident table",
+  "title": "Symptom, cause, action",
+  "table": {
+    "caption": "Diagnosis decision table",
+    "head": [
+      "Symptom",
+      "Most likely cause",
+      "Action"
+    ],
+    "rows": [
+      [
+        "Never appears",
+        "Never uploaded",
+        "Fix fetch or transform"
+      ],
+      [
+        "Uploaded, not searchable",
+        "Processing not complete",
+        "Wait; if stuck, /processalldocuments, once every 3 hours"
+      ],
+      [
+        "Some users see it, others do not",
+        "ACL or identities",
+        "Push identities; /processallmemberships for identity issues"
+      ],
+      [
+        "Appears, then disappears",
+        "A later full run omitted it",
+        "Fix completeness; rerun a verified full run"
+      ],
+      [
+        "Deleted pages still visible",
+        "Stale deletion paused above 20%",
+        "If intended, /processalldocuments makes deletions take effect"
+      ],
+      [
+        "Wrong dates or sort order",
+        "ISO timestamps",
+        "Send epoch seconds"
+      ]
+    ]
+  },
+  "claims": [
+    "C-202",
+    "C-070",
+    "C-075",
+    "C-079",
+    "C-205",
+    "C-076",
+    "C-203",
+    "C-107",
+    "C-108",
+    "C-153"
+  ]
+}

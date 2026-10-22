@@ -19,7 +19,7 @@
         "C-08"
       ],
       "alt": "Stacked diagram of four agent governance layers from compliance planning down to fallback behaviour.",
-      "bytes": 3044
+      "bytes": 3689
     },
     {
       "asset_id": "BLD-208-A02",
@@ -39,7 +39,22 @@
         "C-18"
       ],
       "alt": "Four cards describing the evidence artefacts a competency review expects for each agent.",
-      "bytes": 4056
+      "bytes": 5423
+    },
+    {
+      "asset_id": "BLD-208-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
     }
   ]
 }

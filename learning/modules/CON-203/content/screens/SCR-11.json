@@ -1,0 +1,14 @@
+{
+  "id": "SCR-11",
+  "archetype": "A3",
+  "objective": "OBJ-05",
+  "eyebrow": "Activity",
+  "title": "Activity needs its own token",
+  "body": "The activity endpoint must be called with a Client API bearer token, not the Indexing API token: a global Client API token scoped to ACTIVITY. Without activity, signals are limited, ranking is suboptimal, and results are more likely to be outranked by connectors with stronger signals.",
+  "claims": [
+    "C-133",
+    "C-134",
+    "C-135",
+    "C-136"
+  ]
+}

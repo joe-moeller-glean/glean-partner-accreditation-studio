@@ -1,0 +1,37 @@
+module_id: CON-101
+title: Connector Fundamentals: Indexed, Live, Hybrid, and MCP
+level: 100
+target_hours: 1.6
+mastery_score: 80
+outcomes:
+  - id: OBJ-01
+    text: "Explain what a connector does and the data families it brings into Glean."
+    screens: [SCR-02, SCR-03, SCR-04, SCR-REF, SCR-17]
+    assessment_items: [Q-01, Q-02]
+  - id: OBJ-02
+    text: "Distinguish native, web history, push API, and partner connectors, including who builds and supports each."
+    screens: [SCR-05, SCR-06]
+    assessment_items: [Q-03, Q-04]
+  - id: OBJ-03
+    text: "Choose indexed, live, or hybrid access from the data and the question."
+    screens: [SCR-07, SCR-08, SCR-15, SCR-16]
+    assessment_items: [Q-05, Q-06, Q-07]
+  - id: OBJ-04
+    text: "Explain where tools and MCP fit, and what they do not do."
+    screens: [SCR-09, SCR-10]
+    assessment_items: [Q-08, Q-09, Q-10]
+  - id: OBJ-05
+    text: "Decide whether a custom connector is justified, using a five-question fit sequence."
+    screens: [SCR-01, SCR-11, SCR-12, SCR-13, SCR-14]
+    assessment_items: [Q-11, Q-12]
+spine:
+  - hook
+  - frame
+  - model
+  - practice
+  - apply
+  - prove
+  - carry
+screen_count: 18
+distinct_archetypes: [A1, A10, A11, A13, A14, A2, A3, A4, A5, A6, A8, A9, quiz]
+assessment_type: Quiz

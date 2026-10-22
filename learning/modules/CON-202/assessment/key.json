@@ -1,0 +1,95 @@
+{
+  "module_id": "CON-202",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "Staffing comes after fit is established.",
+        "a": "Right. Check existing options before anything else.",
+        "c": "Implementation comes after fit is established.",
+        "d": "Commercial steps are not the questionnaire's first question."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "Write access adds risk to a connector that only reads.",
+        "c": "A personal token ties the connector to one person's access and tenure.",
+        "d": "The questionnaire prefers read-only keys; expiry and rotation are still required elsewhere."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "b": "Metadata is still searchable.",
+        "c": "A push connector indexes what it sends. Fetch the body in the connector.",
+        "d": "No such effect is documented.",
+        "a": "Right. Metadata-only results cannot ground generative answers."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "Never index sensitive content with an allow-all ACL for now.",
+        "c": "Identity resolution needs identities to resolve.",
+        "a": "Right.",
+        "d": "Employee data is distinct from the datasource identities that back document ACLs."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "b": "Running at the quota leaves no room for retries.",
+        "a": "Right. 600 per minute is 10 per second; 7 to 8 leaves headroom.",
+        "c": "Retries are reactive. A rate limiter paces proactively.",
+        "d": "Over-throttling wastes the crawl window. Pace just below quota."
+      }
+    },
+    "Q-06": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. /indexdocument is limited to 10 requests per second.",
+        "b": "10 requests per second is the /indexdocument limit.",
+        "c": "8,000 requests per minute is the deployment-wide ceiling across all IPs.",
+        "d": "Indexing endpoints have documented limits."
+      }
+    },
+    "Q-07": {
+      "answer": "a",
+      "rationale": {
+        "b": "Glean-hosted runs in the Glean cloud instance.",
+        "c": "Choose hosting before you build.",
+        "d": "Glean places no constraints on where a custom connector runs.",
+        "a": "Right."
+      }
+    },
+    "Q-08": {
+      "answer": "a",
+      "rationale": {
+        "b": "Email references fit a shared identity provider; ID references need their own user records.",
+        "c": "Display names are not unique identifiers.",
+        "a": "Right.",
+        "d": "Users must be indexed before they are referenced."
+      }
+    },
+    "Q-09": {
+      "answer": "a",
+      "rationale": {
+        "b": "Category reflects the content type.",
+        "a": "Right. Permissions and memberships are processed asynchronously, so the refresh schedule must meet the customer's removal target.",
+        "c": "Activity is about ranking signals, not permission changes.",
+        "d": "The viewURL is the click-through target, not a permission setting."
+      }
+    },
+    "Q-10": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. Validation needs a representative environment.",
+        "b": "Late discovery is the expensive kind.",
+        "c": "The questionnaire asks for a sandbox precisely to avoid that.",
+        "d": "Permission patterns are exactly what an old sandbox may miss."
+      }
+    }
+  }
+}

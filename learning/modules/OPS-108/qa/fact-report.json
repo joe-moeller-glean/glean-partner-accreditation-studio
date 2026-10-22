@@ -1,0 +1,79 @@
+{
+  "module_id": "OPS-108",
+  "checked_on": "2026-09-26",
+  "state": "pass",
+  "claim_count": 19,
+  "source_count": 7,
+  "unsourced_claims": [],
+  "stale_sources": [],
+  "reverify_soon": [
+    "S-109"
+  ],
+  "verdicts": {
+    "verified": 19,
+    "unsupported": 0,
+    "stale": 0,
+    "conflicted": 0
+  },
+  "authority_ruling": "Current Glean Docs and the Customer Support SLA (tier 1) win any conflict. Tier 2 internal guidance is used only where tier 1 does not contradict it.",
+  "excluded_sources": [
+    "[External] Glean Support for Customers (2024-10) - predates 2026 support migration",
+    "Partner escalation meeting notes (2026-09-25) - not published policy"
+  ],
+  "open_sme_questions": [],
+  "attribution_notes": [
+    "SLA response times are presented as Glean's commitment to the customer, never as a partner commitment.",
+    "Partner escalation guidance beyond published docs is labelled studio guidance in the module."
+  ],
+  "source_ledger": [
+    {
+      "source_id": "S-101",
+      "title": "Glean Support Center (Glean Docs)",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-103",
+      "title": "Tickets (Glean Docs)",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-105",
+      "title": "Common Internal FAQs on Fin Support Migration",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-11-26"
+    },
+    {
+      "source_id": "S-106",
+      "title": "Gleaniverse Community (home page)",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-107",
+      "title": "Gleaniverse Community Guidelines",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-108",
+      "title": "Events - Gleaniverse",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-11-26"
+    },
+    {
+      "source_id": "S-109",
+      "title": "Community Toolkit (Gleaniverse Toolkit)",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-10-26"
+    }
+  ]
+}

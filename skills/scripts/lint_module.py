@@ -3,12 +3,20 @@
 import argparse, json, re
 from pathlib import Path
 
+# Glean Branding Style 2026 (skills/brand/references/COLOR.md): primary, secondary rows,
+# applied surfaces, gradient stops, and the accessible text gray (#666666).
 PALETTE = {"#343ced", "#d8fd49", "#f6f3eb", "#ffffff", "#000000", "#fff", "#000",
            "#00b207", "#ff7e4c", "#9300b8", "#1017b1", "#777767",
-           "#54d848", "#ffac8c", "#e16bff", "#3fa3ff", "#c7c7ab", "transparent"}
+           "#54d848", "#ffac8c", "#e16bff", "#3fa3ff", "#c7c7ab",
+           "#c3ff9e", "#ffcfbc", "#f1b7ff", "#b2e5ef", "#f8f8f8",
+           "#111314", "#faf6f4", "#666666", "#b0aea2",
+           "#deeef0", "#f0c2f2", "#4035c0", "#2b228c", "#6b5ae0", "#e8632e",
+           "#f374ad", "#d082c5", "#fa9183", "transparent"}
 PLACEHOLDERS = ["lorem ipsum", "todo", "tbd", "xxx", "placeholder", "coming soon", "insert text", "synthetic"]
 PAIRS = [("--ink", "--surface"), ("--white", "--blue"), ("--ink", "--green"),
-         ("--ink", "--oatmeal"), ("--line-control", "--surface"), ("--line-control", "--white")]
+         ("--ink", "--oatmeal"), ("--line-control", "--surface"), ("--line-control", "--white"),
+         ("--muted", "--oatmeal"), ("--muted", "--white"), ("--text-2", "--oatmeal"),
+         ("--green", "--near-black"), ("--white", "--near-black"), ("--blue", "--oatmeal")]
 
 
 def jload(p, default=None):
@@ -114,8 +122,13 @@ def check(mod):
             rel = f.relative_to(mod).as_posix()
             if rel not in listed:
                 W.append(f"asset not in manifest: {rel}")
+    # Approved logo files are placed unmodified, so they cannot carry <title>; the
+    # <img alt> in the markup provides the accessible name instead.
+    brand_paths = {a.get("path") for a in manifest.get("assets", []) if a.get("type") == "brand_logo"}
     for f in (mod / "assets").rglob("*.svg"):
         t = f.read_text(errors="ignore")
+        if f.relative_to(mod).as_posix() in brand_paths:
+            continue
         if "<title" not in t:
             W.append(f"svg without <title>: {f.name}")
     for f in (mod / "assets").rglob("*"):

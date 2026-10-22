@@ -1,0 +1,39 @@
+{
+  "id": "SCR-13",
+  "archetype": "A4",
+  "objective": "OBJ-06",
+  "eyebrow": "CLI and debugging",
+  "title": "Why is my document not in search?",
+  "hotspots": [
+    {
+      "label": "Did the connector upload it?",
+      "detail": "Check the posted documents in a mocked run first."
+    },
+    {
+      "label": "Has it finished indexing?",
+      "detail": "An accepted upload is not yet a searchable document. Use glean-idx document status."
+    },
+    {
+      "label": "Is the datasource healthy?",
+      "detail": "glean-idx datasource status shows uploaded and indexed counts per object type, identity counts, visibility, and recent runs."
+    },
+    {
+      "label": "Can this user see it?",
+      "detail": "glean-idx document access shows whether a given user can see a document. A correct-looking ACL is wrong if its identities were never pushed."
+    },
+    {
+      "label": "Careful commands",
+      "detail": "teardown cannot be undone. SDK exit codes are stable for scripting. An ambiguous failure is reconciled by reading state back, never by repeating the write."
+    }
+  ],
+  "claims": [
+    "C-202",
+    "C-160",
+    "C-322",
+    "C-321",
+    "C-205",
+    "C-207",
+    "C-208",
+    "C-209"
+  ]
+}

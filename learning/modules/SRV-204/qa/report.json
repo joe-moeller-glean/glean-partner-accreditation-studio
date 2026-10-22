@@ -27,8 +27,8 @@
   "package": {
     "state": "pass",
     "zip": "SRV-204-v1.0.0-scorm12.zip",
-    "bytes": 14011,
-    "sha256": "50a8c5e0e4af9e2adb9d77dab1ee60646588004f5d88e7634d0b0e6bec3f0763",
+    "bytes": 14028,
+    "sha256": "9e07b47d87f84382254cbb7e892902ad37015e9ce466b15fc60520a93972b50b",
     "findings": []
   },
   "runtime_qa": {

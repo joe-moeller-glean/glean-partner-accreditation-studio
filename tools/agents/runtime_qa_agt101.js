@@ -162,7 +162,10 @@ function click(node) {
   imgs.forEach((im) => {
     if (!im.hasAttribute("alt")) altOk = false;
     const dec = im.getAttribute("aria-hidden") === "true";
-    if (!dec && (im.getAttribute("alt") || "").length < 10) altOk = false;
+    // The approved wordmark's accessible name is the brand name itself.
+    const logo = /assets\/brand\/glean-wordmark/.test(im.getAttribute("src") || "") &&
+      im.getAttribute("alt") === "Glean";
+    if (!dec && !logo && (im.getAttribute("alt") || "").length < 10) altOk = false;
   });
   check("every img has alt; informative imgs have real alt", altOk,
     imgs.length + " images");

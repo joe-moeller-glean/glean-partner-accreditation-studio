@@ -1,0 +1,8 @@
+{
+  "id": "SCR-16",
+  "archetype": "quiz",
+  "objective": "OBJ-04",
+  "eyebrow": "Prove it",
+  "title": "Best practices check",
+  "type": "quiz"
+}

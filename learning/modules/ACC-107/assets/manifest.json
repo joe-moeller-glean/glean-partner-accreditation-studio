@@ -1,0 +1,57 @@
+{
+  "module_id": "ACC-107",
+  "assets": [
+    {
+      "asset_id": "ACC-107-A01",
+      "path": "assets/svg/acc-107-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Two columns. The learning accreditation is earned by an individual through modules, labs, and this capstone, scored by course assessors. The official Custom Connector Competency is earned by the partner organization through a Glean audit, and is validated every 18 months.",
+      "screen_id": "SCR-02",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-267",
+        "C-266",
+        "C-260"
+      ],
+      "alt": "Comparison of the learning accreditation and the official competency.",
+      "bytes": 3362
+    },
+    {
+      "asset_id": "ACC-107-A02",
+      "path": "assets/svg/acc-107-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Four parts: portfolio mapped to competency requirements; a two-hour unseen case on a source you have not built; a 90-minute review with two assessors; scoring at 80% with every hard gate met.",
+      "screen_id": "SCR-05",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-261",
+        "C-269"
+      ],
+      "alt": "Four-part capstone flow ending in scoring.",
+      "bytes": 4296
+    },
+    {
+      "asset_id": "ACC-107-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

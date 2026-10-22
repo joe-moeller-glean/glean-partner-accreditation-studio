@@ -34,7 +34,7 @@ Use the shared tokens and local assets:
   hairline as the only boundary of an interactive control.
 - Use two-tone display headlines, mono sentence-case eyebrows, light stat numerals, and generous
   whitespace only when the module declares this system. Keep the default brand radius at 8px.
-  Fully rounded pill CTAs are a recorded deviation, not a global default.
+  Pill CTAs follow the brand skill (`brand/references/LAYOUT.md`); shell nav buttons stay 8px.
 - Use local PolySans/DM Sans/system stacks. Never load network fonts.
 - Prefer inline or local SVG. Use the shared 24px, 2px-stroke icon family. Do not generate text,
   logos, or product UI inside raster artwork.

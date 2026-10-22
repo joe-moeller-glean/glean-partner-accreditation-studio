@@ -1,0 +1,34 @@
+{
+  "id": "SCR-04",
+  "archetype": "A4",
+  "objective": "OBJ-01",
+  "eyebrow": "What flows in",
+  "title": "Glean needs more than documents",
+  "body": "Open each data family. A connector that brings only one of them delivers a weaker experience.",
+  "hotspots": [
+    {
+      "label": "Content",
+      "detail": "Items and their metadata. If a result has no body text, users can find it, but Assistant cannot summarize it."
+    },
+    {
+      "label": "People and identity",
+      "detail": "Glean aligns identities across systems, so authorship and permissions resolve to the right person."
+    },
+    {
+      "label": "Activity",
+      "detail": "Creation, modification, viewing, and sharing timestamps and users. Signals such as views, edits, and shares rank results by relevance."
+    },
+    {
+      "label": "Freshness",
+      "detail": "Connectors capture changes as quickly as the source and connector allow, often through webhooks or incremental crawling."
+    }
+  ],
+  "claims": [
+    "C-006",
+    "C-016",
+    "C-017",
+    "C-019",
+    "C-241",
+    "C-018"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "SCR-15",
+  "archetype": "A13",
+  "objective": "OBJ-06",
+  "eyebrow": "Job aid",
+  "title": "Self-review before anyone else reviews",
+  "cards": [
+    {
+      "tag": "IDs",
+      "title": "Identity of documents",
+      "body": "IDs come from immutable source identifiers."
+    },
+    {
+      "tag": "ACL",
+      "title": "Access",
+      "body": "Users and groups indexed first; groups mapped directly; no allow-all on sensitive content."
+    },
+    {
+      "tag": "Guard",
+      "title": "Completeness",
+      "body": "A full run halts before finalizing on an early empty page or a count anomaly."
+    },
+    {
+      "tag": "Fresh",
+      "title": "Freshness and deletion",
+      "body": "Every object family has a deletion path; checkpoints written on success only."
+    },
+    {
+      "tag": "Ops",
+      "title": "Operations and security",
+      "body": "Secrets in a store; tokens per environment; alert on sharp drops."
+    }
+  ],
+  "claims": [
+    "C-101",
+    "C-111",
+    "C-114",
+    "C-195",
+    "C-170",
+    "C-174",
+    "C-173",
+    "C-057",
+    "C-204"
+  ]
+}

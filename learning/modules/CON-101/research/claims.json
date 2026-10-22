@@ -1,0 +1,545 @@
+{
+  "module_id": "CON-101",
+  "claims": [
+    {
+      "claim_id": "C-001",
+      "text": "A connector integrates Glean with a system where content lives.",
+      "excerpt": "A Glean connector integrates Glean with a platform, service, or application where your content lives",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-002",
+      "text": "Indexing connectors index content, mirror source permissions, and keep data current in the tenant.",
+      "excerpt": "They let Glean index content, mirror permissions from the source, and keep that data current in your isolated tenant.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-003",
+      "text": "Connector function 1: data fetching, including the permissions map.",
+      "excerpt": "Data fetching: Connectors fetch data from connected applications and store the information in Glean's system.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-004",
+      "text": "Connector function 2: content and permission parsing.",
+      "excerpt": "Content parsing: Connectors parse item content (for example, title, body, comments, media) and permissions",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-015",
+      "text": "Connector data is encrypted in transit and written to disk only in the tenant.",
+      "excerpt": "Data is end-to-end encrypted in transit and only written to disk once it reaches your tenant.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-006",
+      "text": "Glean needs content, people, and activity data to build the Knowledge Graph.",
+      "excerpt": "Activity data Creation, modification, editing, viewing, and sharing timestamps and user information",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-016",
+      "text": "Activity signals drive relevance ranking.",
+      "excerpt": "Connectors collect activity signals - such as views, edits, and shares - that Glean uses to rank search results by relevance",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-017",
+      "text": "Native freshness uses webhooks or incremental crawling.",
+      "excerpt": "Connectors capture changes as quickly as the source and connector allow, often through webhooks or incremental crawling.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-019",
+      "text": "Identity resolution aligns identities across systems.",
+      "excerpt": "Identity resolution: Glean aligns identities across systems",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-241",
+      "text": "Metadata-only results cannot ground Assistant.",
+      "excerpt": "Can't be used for GenAI Glean Assistant will not be able to summarize the content",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-018",
+      "text": "The Enterprise Graph is layered on the index and identity/permission structures.",
+      "excerpt": "connectors populate the index and associated identity and permission structures; the graph interpretation layers on structure and signals derived from that data.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-005",
+      "text": "Native connectors are purpose-built per application and call source APIs directly.",
+      "excerpt": "Purpose-built for specific applications (for example, Slack, Salesforce, Google Drive). They call source APIs directly",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-007",
+      "text": "Web history connectors surface page titles from a user's browsing history, private to that user.",
+      "excerpt": "The Glean browser extension makes page titles from users' browsing histories searchable for specific apps. These results are private to the individual user",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-008",
+      "text": "Push API connectors push data through the Indexing API for custom, self-hosted, or firewalled systems.",
+      "excerpt": "Ideal for custom applications, self-hosted environments, or systems behind firewalls. Data is \"pushed\" into Glean via the Indexing API",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-009",
+      "text": "Shared push connector code may have limited support.",
+      "excerpt": "Push API connector code may be shared between customers or Glean partners; support for such code may be limited.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-010",
+      "text": "Partner connectors use the Indexing API and are built and supported by the partner.",
+      "excerpt": "Built and maintained by Glean technology partners. These connectors use the Indexing API to push data into Glean, but the integration is developed and supported by the partner organization.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-011",
+      "text": "Tools (including MCP) act at request time and do not make content searchable.",
+      "excerpt": "Tools retrieve current data or perform actions at request time. They don't make source content searchable.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-100",
+      "text": "Custom Metadata works on any datasource without re-indexing.",
+      "excerpt": "It can attach metadata to documents from any datasource, including native connectors, without re-indexing the source document.",
+      "source_ids": [
+        "S-11"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-013",
+      "text": "Indexed access uses the mirrored permission snapshot.",
+      "excerpt": "Latency is typically low, and Glean applies the permission snapshot that was mirrored during crawling and incremental updates.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-025",
+      "text": "The source may enforce access again at click time.",
+      "excerpt": "Opening a result usually sends the user to the source system, which may enforce access again at click time.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-012",
+      "text": "Three access modes: indexed, live, hybrid.",
+      "excerpt": "indexed (crawled ahead of time), live (fetched at query time), or hybrid (a mix of both)",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-023",
+      "text": "The runtime chooses index, live, or hybrid paths per request.",
+      "excerpt": "Choose data paths: Prefer index, live retrieval, or hybrid, per connector capabilities and query needs.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-014",
+      "text": "Live access can require per-user authentication.",
+      "excerpt": "Some connectors require individual end users to authenticate before live access works for them.",
+      "source_ids": [
+        "S-01"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-021",
+      "text": "Indexed mode suits bulk corpora and historical or cross-document questions.",
+      "excerpt": "Docs, wikis, tickets, knowledge articles, code, and other bulk corpora; historical or cross-document questions.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-022",
+      "text": "Live retrieval suits freshness-dominant data or data impractical to index.",
+      "excerpt": "Email, calendar, chat, or other data where minutes-to-hours freshness dominates, or where continuous full indexing is impractical or undesired.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-030",
+      "text": "Example: NetSuite MCP uses each user's own credentials and role at request time.",
+      "excerpt": "NetSuite MCP provides real-time access at request time using each user's own NetSuite credentials and role.",
+      "source_ids": [
+        "S-43"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-027",
+      "text": "New deployments set up catalog MCP integrations from Connectors.",
+      "excerpt": "Glean deployments created on or after September 22, 2026, use Connectors to set up catalog-backed MCP integrations.",
+      "source_ids": [
+        "S-09"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-029",
+      "text": "Custom or unlisted MCP servers use a separate setup path.",
+      "excerpt": "For a custom or unlisted remote MCP server, use Connect remote MCP servers to Glean instead.",
+      "source_ids": [
+        "S-09"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-028",
+      "text": "One app can have separate indexing and tools entries.",
+      "excerpt": "A single application can have more than one catalog entry. For example, one entry might index content while another provides MCP tools.",
+      "source_ids": [
+        "S-09"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-031",
+      "text": "Example of a hybrid design: the MCP entry depends on the indexing connector.",
+      "excerpt": "NetSuite MCP depends on the native NetSuite connector being set up.",
+      "source_ids": [
+        "S-43"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-032",
+      "text": "For live data, consider custom actions or MCP.",
+      "excerpt": "Consider custom actions or MCP integration for querying live data",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-033",
+      "text": "For large structured data lakes, query with an action or MCP server.",
+      "excerpt": "For large structured data lakes leverage a custom action or MCP server to query the data",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-040",
+      "text": "Custom connectors ingest data from sources without native support.",
+      "excerpt": "specialized integrations built to ingest and index data from sources that are not natively supported",
+      "source_ids": [
+        "S-03"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-190",
+      "text": "Offset pagination is unstable under writes.",
+      "excerpt": "Offset pagination is unstable against a source being written to during the crawl.",
+      "source_ids": [
+        "S-26"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-253",
+      "text": "Fallback when no API: export to storage.",
+      "excerpt": "Can the Source System Export Content to an external data storage location",
+      "source_ids": [
+        "S-45"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-035",
+      "text": "Use an existing connector before building a new one.",
+      "excerpt": "Work to leverage an existing connector first before building a new one",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-034",
+      "text": "Glean is not a time-series or sensor analytics platform.",
+      "excerpt": "Glean is not a data analytics platform for time series or sensor data",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-250",
+      "text": "Scoping asks about native and web-crawler options first.",
+      "excerpt": "Is there an existing Native Connector for this Source System, or can it be crawled using the native Glean Web Crawler datasource?",
+      "source_ids": [
+        "S-45"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-135",
+      "text": "No activity means weaker ranking.",
+      "excerpt": "There would be limited signals available due to no activity being pushed, so rankings of search results will be suboptimal.",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-080",
+      "text": "Native and custom connectors use separate namespaces.",
+      "excerpt": "Native and custom connectors occupy separate namespaces in Glean.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-081",
+      "text": "Artifacts scoped to a native connector do not carry over.",
+      "excerpt": "agents, saved searches, app filters, and pinned results scoped to the native connector won't automatically recognize content in the custom connector.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-136",
+      "text": "Custom results can be outranked without signals.",
+      "excerpt": "Results from your custom connector are more likely to be outranked by results from other connectors due to stronger ranking signals.",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-273",
+      "text": "Partner maintains published connectors.",
+      "excerpt": "Glean expects the partner to maintain and support this connector.",
+      "source_ids": [
+        "S-49"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-020",
+      "text": "Permission mirroring depends on correct connector configuration.",
+      "excerpt": "If a user cannot access an item in the source, they should not see it in Glean-assuming the connector and configuration are correct.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-045",
+      "text": "Choose hosting before building.",
+      "excerpt": "Choose where it runs before you build, because it determines how secrets, scheduling, and networking are handled.",
+      "source_ids": [
+        "S-04"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    }
+  ]
+}

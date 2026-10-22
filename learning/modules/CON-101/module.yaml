@@ -1,0 +1,27 @@
+module_id: CON-101
+title: "Connector Fundamentals: Indexed, Live, Hybrid, and MCP"
+design_system: paged-v1
+learning_path: "Custom Connector Competency"
+request_type: single
+audience: ["Builders", "Solution architects", "Delivery engineers"]
+level: 100
+learning_outcomes:
+  - "Explain what a connector does and the data families it brings into Glean."
+  - "Distinguish native, web history, push API, and partner connectors, including who builds and supports each."
+  - "Choose indexed, live, or hybrid access from the data and the question."
+  - "Explain where tools and MCP fit, and what they do not do."
+  - "Decide whether a custom connector is justified, using a five-question fit sequence."
+prerequisites: []
+target_hours: 1.6
+tracker_hours: 1.6
+mastery_score: 80
+assessment_type: "Quiz"
+wave: Wave 2
+accreditation: accred-custom-connectors
+also_counts_toward: []
+authoring_contract: "plan/custom-connectors/CON-101-connector-fundamentals.md"
+source_ledger: plan/custom-connectors/claims.json (verified verbatim; learner-facing claims only)
+sme: "unassigned - needs_sme (Connectors product)"
+publish_mode: manual_review
+open_questions:
+  - "Date-sensitive: MCP setup from Connectors applies to deployments created on or after 2026-09-22 (C-027). Re-verify each release."

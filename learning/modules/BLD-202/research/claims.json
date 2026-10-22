@@ -1,0 +1,485 @@
+{
+  "module_id": "BLD-202",
+  "claims": [
+    {
+      "claim_id": "C-261",
+      "text": "Build must index users, permissions, documents.",
+      "excerpt": "Indexes users, permissions, and documents/data",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-262",
+      "text": "Build must auto-update.",
+      "excerpt": "Some level of automated index updating",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-263",
+      "text": "Build must handle errors with retry/backoff.",
+      "excerpt": "Error and retry/backoff handling",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-170",
+      "text": "Never let a partial fetch complete as a full crawl.",
+      "excerpt": "Never let a partial or failed fetch finish as a successful full crawl.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-193",
+      "text": "Run below the source quota.",
+      "excerpt": "A source allowing 600 requests/minute is 10/second; running at 7-8 leaves room for retries",
+      "source_ids": [
+        "S-27"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-153",
+      "text": "Timestamps are epoch seconds.",
+      "excerpt": "created_at and updated_at must be epoch seconds, not ISO strings.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-174",
+      "text": "Incremental needs a checkpoint and a deletion signal.",
+      "excerpt": "it needs a durable checkpoint and a reliable source-side deletion signal before it is correct rather than merely faster.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-165",
+      "text": "Failures exit non-zero.",
+      "excerpt": "On exception, increments the error counter and re-raises so a scheduler sees a non-zero exit.",
+      "source_ids": [
+        "S-21"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-209",
+      "text": "Ambiguous writes are read back, not retried.",
+      "excerpt": "An ambiguous transport failure is reconciled by reading state back, never by blindly repeating the write.",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-049",
+      "text": "First-run: one public, then one permissioned document, then scale.",
+      "excerpt": "Index a single public sample document and confirm it appears in search. Then index one permissioned document and confirm only authorized users can see it. Once both behave correctly, scale up.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-111",
+      "text": "Index users before referencing them.",
+      "excerpt": "When using non-anonymous permissions, users need to be indexed before being referenced.",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-114",
+      "text": "Index a group before its memberships.",
+      "excerpt": "groupName: A group with this particular groupName must be indexed before indexing memberships for it.",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-115",
+      "text": "Nested groups use memberGroupName.",
+      "excerpt": "that can be done by using the memberGroupName field in place of the memberUserId field",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-322",
+      "text": "glean-idx datasource status shows uploaded and indexed counts, identity counts, visibility, and recent runs.",
+      "excerpt": "Uploaded and indexed counts per object type, identity counts, visibility, and the most recent upload and processing runs.",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-194",
+      "text": "Rate limiting is proactive; retries are reactive.",
+      "excerpt": "The rate limiter is proactive",
+      "source_ids": [
+        "S-27"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-171",
+      "text": "A bad successful crawl is not recoverable.",
+      "excerpt": "A failed crawl is recoverable. A successful crawl that deleted 90% of your index is not.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-101",
+      "text": "Bulk indexing replaces the datasource; omitted documents are deleted.",
+      "excerpt": "Bulk indexing fully replaces the entire list of documents stored in Glean. After a successful bulk upload, all documents that were not a part of the most recent upload are deleted asynchronously.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-321",
+      "text": "glean-idx document access checks whether a given user can see a document.",
+      "excerpt": "Whether a given user can see a document",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-173",
+      "text": "Checkpoint: start time, written only on success.",
+      "excerpt": "Record the timestamp from before the crawl started, and only write it after the run succeeds.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-176",
+      "text": "Common schedule: full nightly or weekly.",
+      "excerpt": "Full nightly or weekly - reconciles deletions and repairs drift.",
+      "source_ids": [
+        "S-19"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-107",
+      "text": "Stale deletion pauses 7 days above 20%.",
+      "excerpt": "we have a deletion check in place which pauses the deletion of stale documents for 7 days if the percentage of docs being deleted exceeds 20%.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-116",
+      "text": "Permissions and memberships process asynchronously.",
+      "excerpt": "Permissions and memberships are processed asynchronously",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-257",
+      "text": "Ask permission change frequency.",
+      "excerpt": "How often are permissions updated in the Source System?",
+      "source_ids": [
+        "S-45"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-025",
+      "text": "The source may enforce access again at click time.",
+      "excerpt": "Opening a result usually sends the user to the source system, which may enforce access again at click time.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-026",
+      "text": "RAG passes retrieved, permission-filtered snippets to the model.",
+      "excerpt": "Retrieved snippets are passed to the language model to condition the answer on your data.",
+      "source_ids": [
+        "S-02"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-198",
+      "text": "Intersection semantics.",
+      "excerpt": "A user must belong to every group within one entry; multiple entries are alternative intersections.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-199",
+      "text": "Counts prove nothing about permissions.",
+      "excerpt": "Counting indexed documents proves nothing about permissions.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-200",
+      "text": "Search as the user is ground truth.",
+      "excerpt": "the search result is the ground truth, not the upload response.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-160",
+      "text": "Accepted is not searchable.",
+      "excerpt": "Indexing is asynchronous - an accepted upload is not yet a searchable document.",
+      "source_ids": [
+        "S-33"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-214",
+      "text": "A completed Job is not proof of indexing.",
+      "excerpt": "A completed Kubernetes Job proves only that the process exited successfully",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-218",
+      "text": "Observability is built in.",
+      "excerpt": "You get stage timings, item counts, and structured logs without adding any instrumentation.",
+      "source_ids": [
+        "S-31"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-204",
+      "text": "Alert on sharp drops in documents_indexed.",
+      "excerpt": "Alert on documents_indexed dropping sharply between runs",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-215",
+      "text": "The workload cannot enumerate secrets.",
+      "excerpt": "The workload cannot enumerate secrets.",
+      "source_ids": [
+        "S-30"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-188",
+      "text": "Redaction covers logs only.",
+      "excerpt": "Redaction covers logging only.",
+      "source_ids": [
+        "S-25"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-265",
+      "text": "Customer-approved maintenance plan required.",
+      "excerpt": "Complete & include a customer-approved maintenance plan",
+      "source_ids": [
+        "S-47"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-207",
+      "text": "teardown is irreversible.",
+      "excerpt": "teardown cannot be undone.",
+      "source_ids": [
+        "S-29"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-195",
+      "text": "Never allow-all 'for now'.",
+      "excerpt": "Never index sensitive content with an allow-all ACL \"for now.\"",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-202",
+      "text": "Four-step missing-document diagnosis.",
+      "excerpt": "Most \"the connector is broken\" reports are really one of four things",
+      "source_ids": [
+        "S-28"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-154",
+      "text": "Full crawls must cover the entire scope.",
+      "excerpt": "a full crawl must cover the entire confirmed scope before completing, because stale-document deletion removes anything absent from the run.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-108",
+      "text": "Use /processalldocuments for immediate deletions.",
+      "excerpt": "If you wish for deletions to take effect immediately, use /processalldocuments endpoint.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    }
+  ]
+}

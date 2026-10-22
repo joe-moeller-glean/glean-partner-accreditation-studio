@@ -1,0 +1,14 @@
+{
+  "module_id": "CON-201",
+  "title": "Indexing Architecture and Data Flow",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "design_system": "paged-v1",
+  "accreditation_id": "accred-custom-connectors",
+  "also_counts_toward": [],
+  "level": "200",
+  "target_hours": 2.1,
+  "assessment_type": "Quiz"
+}

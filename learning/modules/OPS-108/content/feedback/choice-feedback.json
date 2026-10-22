@@ -1,0 +1,8 @@
+{
+  "module_id": "OPS-108",
+  "feedback": {
+    "SCR-08:o2": "Not this one. The guidelines say not to share confidential or personal data, however helpful it seems.",
+    "SCR-08:o3": "Not this one. The guidelines apply everywhere in the community, and an instance error belongs in a ticket.",
+    "SCR-08:o1": "Correct. Keep confidential and personal data out of the community, and send instance bugs and errors to a support ticket."
+  }
+}

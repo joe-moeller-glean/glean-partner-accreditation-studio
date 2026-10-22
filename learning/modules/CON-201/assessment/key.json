@@ -1,0 +1,113 @@
+{
+  "module_id": "CON-201",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "Searchability follows processing, which runs after acceptance.",
+        "a": "Right. Indexing is asynchronous. An accepted upload is not yet a searchable document.",
+        "c": "Permissions and memberships are processed asynchronously, after upload.",
+        "d": "Graph structures derive from processed data, which comes later."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. That is the documented signal to read.",
+        "b": "The last page closes the upload. Processing still has to run.",
+        "c": "Around 15 to 20 minutes is typical, not guaranteed. Read the processing timestamps.",
+        "d": "The four-week re-crawl is a native connector catch-all, not a custom connector step."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "b": "Bulk indexing fully replaces the document list.",
+        "c": "The 7-day pause applies only when more than 20% would be deleted.",
+        "d": "Omitted documents are treated as stale, not as an error.",
+        "a": "Right. 400 of 38,400 is about 1%, below the 20% safeguard, so they are removed."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "It reacts only to large deletion percentages. Small silent losses are still deleted.",
+        "c": "Below 20%, omitted documents are deleted.",
+        "a": "Right.",
+        "d": "For immediate deletions, the documented path is /processalldocuments."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "b": "Each upload needs its own unique uploadId, and a failed upload must be restarted.",
+        "a": "Right.",
+        "c": "Concurrent uploads are not allowed.",
+        "d": "That re-crawl is native connector behavior."
+      }
+    },
+    "Q-06": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. One type of backlog can affect another.",
+        "b": "Incremental updates do not wait for a full run.",
+        "c": "No lock is documented. The shared queue explains the delay.",
+        "d": "No such schedule is documented. The shared queue explains the delay."
+      }
+    },
+    "Q-07": {
+      "answer": "a",
+      "rationale": {
+        "b": "That describes allowAllDatasourceUsersAccess.",
+        "c": "The user must be signed into Glean.",
+        "d": "The setting grants access on its own.",
+        "a": "Right. Use it only for content everyone in the company may see."
+      }
+    },
+    "Q-08": {
+      "answer": "a",
+      "rationale": {
+        "b": "That would require allowAllDatasourceUsersAccess.",
+        "c": "Group access needs the group, its memberships, and ACLs that name the group.",
+        "a": "Right.",
+        "d": "Other datasources are unaffected, and this one grants nothing new."
+      }
+    },
+    "Q-09": {
+      "answer": "a",
+      "rationale": {
+        "b": "They show documents to beta users who have permissions.",
+        "a": "Right. Beta users must also have permission to view each document.",
+        "c": "Ranking signals are off in a test datasource. That changes order, not visibility.",
+        "d": "Activity affects ranking, not visibility."
+      }
+    },
+    "Q-10": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. Appears, then disappears usually means a later full crawl omitted it.",
+        "b": "A changed link does not remove a document.",
+        "c": "Activity affects ranking, not presence.",
+        "d": "Client API tokens do not upload documents."
+      }
+    },
+    "Q-11": {
+      "answer": "a",
+      "rationale": {
+        "b": "Truncation applies to content that is downloaded. Over 64 MB, content is not downloaded.",
+        "c": "Metadata and permissions are still indexed.",
+        "d": "Metadata-only results cannot ground a summary.",
+        "a": "Right. Items over 64 MB index metadata and permissions only."
+      }
+    },
+    "Q-12": {
+      "answer": "a",
+      "rationale": {
+        "b": "Accepted uploads say nothing about permissions.",
+        "c": "Answers depend on retrieval. Validate retrieval in Search first.",
+        "a": "Right. Search is often the first place admins validate connector behavior.",
+        "d": "Counting indexed documents proves nothing about permissions."
+      }
+    }
+  }
+}

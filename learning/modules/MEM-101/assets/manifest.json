@@ -1,0 +1,10 @@
+{
+  "module_id":"MEM-101",
+  "design_system":"scroll-canvas-v1",
+  "generation":"deterministic local SVG, no network, no third-party assets",
+  "assets":[
+    {"asset_id":"MEM-101-A01","path":"assets/memory-flow.svg","type":"svg_diagram","purpose":"Hero diagram of assistant traces and enterprise activity flowing through writing and consolidation into a retrievable memory layer.","band_id":"BAND-01","license":"Glean internal - generated for this module, no third-party rights","created":"2026-09-25","decorative":false,"alt":"Assistant traces and enterprise activity flow through write and consolidation agents into a retrievable memory layer with procedural, semantic, and episodic memory.","claim_ids":["C-07","C-08","C-09"]},
+    {"asset_id":"MEM-101-A02","path":"assets/memory-types.svg","type":"svg_diagram","purpose":"Three-part long-term memory taxonomy used in the PowerUP.","band_id":"BAND-04","license":"Glean internal - generated for this module, no third-party rights","created":"2026-09-25","decorative":false,"alt":"Three connected circles show procedural memory as knowing how, semantic memory as knowing that, and episodic memory as remembering when.","claim_ids":["C-04","C-05"]},
+    {"asset_id":"MEM-101-LOGO","path":"assets/brand/glean-wordmark-electric-blue.svg","type":"brand_logo","purpose":"Approved Glean wordmark in the masthead. Placed unmodified.","band_id":null,"license":"Glean trademark - use per brand guidelines","created":"2026-09-25","decorative":false,"alt":"Glean","claim_ids":[]}
+  ]
+}

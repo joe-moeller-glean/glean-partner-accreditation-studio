@@ -1,0 +1,21 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Pass the gate before you build",
+  "bullets": [
+    "Confirm datasource setup and visibility.",
+    "Issue and store an indexing token correctly.",
+    "Confirm source access and network readiness with their owners.",
+    "Prepare test personas and a first-run check."
+  ],
+  "asset": "TEC-201-A01",
+  "claims": [
+    "C-103",
+    "C-054",
+    "C-251",
+    "C-046",
+    "C-049"
+  ]
+}

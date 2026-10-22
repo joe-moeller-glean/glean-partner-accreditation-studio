@@ -1,0 +1,43 @@
+{
+  "id": "SCR-05",
+  "archetype": "A7",
+  "objective": "OBJ-03",
+  "eyebrow": "Unseen case",
+  "title": "Two hours, a source you have not built",
+  "steps": [
+    {
+      "title": "Fit",
+      "body": "Apply the five-question sequence; record rejected alternatives."
+    },
+    {
+      "title": "Feasibility",
+      "body": "Content, permissions, people, activity: source, method, gap cost."
+    },
+    {
+      "title": "Capacity",
+      "body": "Calls per run against source and Glean limits."
+    },
+    {
+      "title": "Identity and ACLs",
+      "body": "Identity strategy and the ACL shape for three given records."
+    },
+    {
+      "title": "Freshness and deletion",
+      "body": "One strategy per object family, with checkpoints."
+    },
+    {
+      "title": "Guard and risks",
+      "body": "The completeness guard and a risk register."
+    }
+  ],
+  "asset": "ACC-107-A02",
+  "footnote": "You are assigned one of the other case sources at random: the vendor learning system or the reference archive.",
+  "claims": [
+    "C-250",
+    "C-006",
+    "C-137",
+    "C-198",
+    "C-174",
+    "C-170"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Read the pipeline like an engineer",
+  "bullets": [
+    "Trace a document from fetch or push to a cited answer.",
+    "Tell accepted, processed, and searchable apart, with evidence for each.",
+    "Predict what bulk and incremental writes delete, and when the safeguard applies.",
+    "Explain why one user sees a document and another does not.",
+    "Locate where a missing, stale, or over-visible document is stuck."
+  ],
+  "claims": []
+}

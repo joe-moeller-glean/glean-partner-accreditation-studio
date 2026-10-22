@@ -1,0 +1,3611 @@
+{
+  "version": "2.1.0",
+  "generated": "2026-09-27",
+  "count": 271,
+  "claims": [
+    {
+      "id": "C-001",
+      "statement": "A connector integrates Glean with a system where content lives.",
+      "source": "S-01",
+      "excerpt": "A Glean connector integrates Glean with a platform, service, or application where your content lives",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-002",
+      "statement": "Indexing connectors index content, mirror source permissions, and keep data current in the tenant.",
+      "source": "S-01",
+      "excerpt": "They let Glean index content, mirror permissions from the source, and keep that data current in your isolated tenant.",
+      "modules": [
+        "CON-101",
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-003",
+      "statement": "Connector function 1: data fetching, including the permissions map.",
+      "source": "S-01",
+      "excerpt": "Data fetching: Connectors fetch data from connected applications and store the information in Glean's system.",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-004",
+      "statement": "Connector function 2: content and permission parsing.",
+      "source": "S-01",
+      "excerpt": "Content parsing: Connectors parse item content (for example, title, body, comments, media) and permissions",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-005",
+      "statement": "Native connectors are purpose-built per application and call source APIs directly.",
+      "source": "S-01",
+      "excerpt": "Purpose-built for specific applications (for example, Slack, Salesforce, Google Drive). They call source APIs directly",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-006",
+      "statement": "Glean needs content, people, and activity data to build the Knowledge Graph.",
+      "source": "S-01",
+      "excerpt": "Activity data Creation, modification, editing, viewing, and sharing timestamps and user information",
+      "modules": [
+        "CON-101",
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-007",
+      "statement": "Web history connectors surface page titles from a user's browsing history, private to that user.",
+      "source": "S-01",
+      "excerpt": "The Glean browser extension makes page titles from users' browsing histories searchable for specific apps. These results are private to the individual user",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-008",
+      "statement": "Push API connectors push data through the Indexing API for custom, self-hosted, or firewalled systems.",
+      "source": "S-01",
+      "excerpt": "Ideal for custom applications, self-hosted environments, or systems behind firewalls. Data is \"pushed\" into Glean via the Indexing API",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-009",
+      "statement": "Shared push connector code may have limited support.",
+      "source": "S-01",
+      "excerpt": "Push API connector code may be shared between customers or Glean partners; support for such code may be limited.",
+      "modules": [
+        "CON-101",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-010",
+      "statement": "Partner connectors use the Indexing API and are built and supported by the partner.",
+      "source": "S-01",
+      "excerpt": "Built and maintained by Glean technology partners. These connectors use the Indexing API to push data into Glean, but the integration is developed and supported by the partner organization.",
+      "modules": [
+        "CON-101",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-011",
+      "statement": "Tools (including MCP) act at request time and do not make content searchable.",
+      "source": "S-01",
+      "excerpt": "Tools retrieve current data or perform actions at request time. They don't make source content searchable.",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-012",
+      "statement": "Three access modes: indexed, live, hybrid.",
+      "source": "S-01",
+      "excerpt": "indexed (crawled ahead of time), live (fetched at query time), or hybrid (a mix of both)",
+      "modules": [
+        "CON-101",
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-013",
+      "statement": "Indexed access uses the mirrored permission snapshot.",
+      "source": "S-01",
+      "excerpt": "Latency is typically low, and Glean applies the permission snapshot that was mirrored during crawling and incremental updates.",
+      "modules": [
+        "CON-101",
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-014",
+      "statement": "Live access can require per-user authentication.",
+      "source": "S-01",
+      "excerpt": "Some connectors require individual end users to authenticate before live access works for them.",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-015",
+      "statement": "Connector data is encrypted in transit and written to disk only in the tenant.",
+      "source": "S-01",
+      "excerpt": "Data is end-to-end encrypted in transit and only written to disk once it reaches your tenant.",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-016",
+      "statement": "Activity signals drive relevance ranking.",
+      "source": "S-01",
+      "excerpt": "Connectors collect activity signals - such as views, edits, and shares - that Glean uses to rank search results by relevance",
+      "modules": [
+        "CON-201",
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-017",
+      "statement": "Native freshness uses webhooks or incremental crawling.",
+      "source": "S-01",
+      "excerpt": "Connectors capture changes as quickly as the source and connector allow, often through webhooks or incremental crawling.",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-018",
+      "statement": "The Enterprise Graph is layered on the index and identity/permission structures.",
+      "source": "S-02",
+      "excerpt": "connectors populate the index and associated identity and permission structures; the graph interpretation layers on structure and signals derived from that data.",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-019",
+      "statement": "Identity resolution aligns identities across systems.",
+      "source": "S-02",
+      "excerpt": "Identity resolution: Glean aligns identities across systems",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-020",
+      "statement": "Permission mirroring depends on correct connector configuration.",
+      "source": "S-02",
+      "excerpt": "If a user cannot access an item in the source, they should not see it in Glean-assuming the connector and configuration are correct.",
+      "modules": [
+        "CON-201",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-021",
+      "statement": "Indexed mode suits bulk corpora and historical or cross-document questions.",
+      "source": "S-02",
+      "excerpt": "Docs, wikis, tickets, knowledge articles, code, and other bulk corpora; historical or cross-document questions.",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-022",
+      "statement": "Live retrieval suits freshness-dominant data or data impractical to index.",
+      "source": "S-02",
+      "excerpt": "Email, calendar, chat, or other data where minutes-to-hours freshness dominates, or where continuous full indexing is impractical or undesired.",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-023",
+      "statement": "The runtime chooses index, live, or hybrid paths per request.",
+      "source": "S-02",
+      "excerpt": "Choose data paths: Prefer index, live retrieval, or hybrid, per connector capabilities and query needs.",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-024",
+      "statement": "Validate coverage and permissions in Search first.",
+      "source": "S-02",
+      "excerpt": "Search is often the first place admins validate connector behavior (coverage and permissions) before relying on Chat, Assistant, or Agents.",
+      "modules": [
+        "CON-201",
+        "BLD-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-025",
+      "statement": "The source may enforce access again at click time.",
+      "source": "S-02",
+      "excerpt": "Opening a result usually sends the user to the source system, which may enforce access again at click time.",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-026",
+      "statement": "RAG passes retrieved, permission-filtered snippets to the model.",
+      "source": "S-02",
+      "excerpt": "Retrieved snippets are passed to the language model to condition the answer on your data.",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-027",
+      "statement": "New deployments set up catalog MCP integrations from Connectors.",
+      "source": "S-09",
+      "excerpt": "Glean deployments created on or after September 22, 2026, use Connectors to set up catalog-backed MCP integrations.",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-028",
+      "statement": "One app can have separate indexing and tools entries.",
+      "source": "S-09",
+      "excerpt": "A single application can have more than one catalog entry. For example, one entry might index content while another provides MCP tools.",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-029",
+      "statement": "Custom or unlisted MCP servers use a separate setup path.",
+      "source": "S-09",
+      "excerpt": "For a custom or unlisted remote MCP server, use Connect remote MCP servers to Glean instead.",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-030",
+      "statement": "Example: NetSuite MCP uses each user's own credentials and role at request time.",
+      "source": "S-43",
+      "excerpt": "NetSuite MCP provides real-time access at request time using each user's own NetSuite credentials and role.",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-031",
+      "statement": "Example of a hybrid design: the MCP entry depends on the indexing connector.",
+      "source": "S-43",
+      "excerpt": "NetSuite MCP depends on the native NetSuite connector being set up.",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-032",
+      "statement": "For live data, consider custom actions or MCP.",
+      "source": "S-44",
+      "excerpt": "Consider custom actions or MCP integration for querying live data",
+      "modules": [
+        "CON-101",
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-033",
+      "statement": "For large structured data lakes, query with an action or MCP server.",
+      "source": "S-44",
+      "excerpt": "For large structured data lakes leverage a custom action or MCP server to query the data",
+      "modules": [
+        "CON-101",
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-034",
+      "statement": "Glean is not a time-series or sensor analytics platform.",
+      "source": "S-44",
+      "excerpt": "Glean is not a data analytics platform for time series or sensor data",
+      "modules": [
+        "CON-101",
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-035",
+      "statement": "Use an existing connector before building a new one.",
+      "source": "S-44",
+      "excerpt": "Work to leverage an existing connector first before building a new one",
+      "modules": [
+        "CON-101",
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-036",
+      "statement": "Consider migrating data to a source with a native connector.",
+      "source": "S-44",
+      "excerpt": "Think about migrating data to a data source with a native connector",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-037",
+      "statement": "Hundreds of standalone MCPs are set up from the Connectors tab.",
+      "source": "S-60",
+      "excerpt": "600+ standalone MCPs are now set up directly from the Connectors tab",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-040",
+      "statement": "Custom connectors ingest data from sources without native support.",
+      "source": "S-03",
+      "excerpt": "specialized integrations built to ingest and index data from sources that are not natively supported",
+      "modules": [
+        "CON-101"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-041",
+      "statement": "Custom connectors push documents, metadata, and permissions via the Indexing API.",
+      "source": "S-03",
+      "excerpt": "Custom connectors leverage Glean's indexing API to push documents, metadata, and permissions into the Glean platform.",
+      "modules": [
+        "CON-101",
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-042",
+      "statement": "Scheduling like native connectors applies to Glean-hosted deployments.",
+      "source": "S-03",
+      "excerpt": "This is applicable if the connector is deployed in the Glean cloud instance.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-043",
+      "statement": "Some custom connectors can include image content.",
+      "source": "S-03",
+      "excerpt": "Some custom connectors can include image content as part of indexed content.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-044",
+      "statement": "No runtime or hosting constraints.",
+      "source": "S-04",
+      "excerpt": "Glean places no constraints on where a custom connector runs",
+      "modules": [
+        "CON-301",
+        "TEC-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-045",
+      "statement": "Choose hosting before building.",
+      "source": "S-04",
+      "excerpt": "Choose where it runs before you build, because it determines how secrets, scheduling, and networking are handled.",
+      "modules": [
+        "CON-202",
+        "TEC-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-046",
+      "statement": "Self-hosted networking must allow pushes to Glean indexing endpoints.",
+      "source": "S-04",
+      "excerpt": "Your environment must allow pushes to Glean's indexing endpoints.",
+      "modules": [
+        "TEC-201",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-047",
+      "statement": "Self-host when residency, isolation, or policy requires it.",
+      "source": "S-04",
+      "excerpt": "Choose this when data-residency, network isolation, or internal security policies require the connector to run inside your infrastructure.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-048",
+      "statement": "Choose the permissions model at setup.",
+      "source": "S-05",
+      "excerpt": "Permissions model - whether documents are permission-aware (per-user ACLs pushed with each document) or visible to everyone in the org.",
+      "modules": [
+        "TEC-201",
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-049",
+      "statement": "First-run: one public, then one permissioned document, then scale.",
+      "source": "S-05",
+      "excerpt": "Index a single public sample document and confirm it appears in search. Then index one permissioned document and confirm only authorized users can see it. Once both behave correctly, scale up.",
+      "modules": [
+        "TEC-201",
+        "BLD-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-050",
+      "statement": "The Indexing (Push) API pushes documents, users, permissions, metadata.",
+      "source": "S-06",
+      "excerpt": "The Indexing API (also known as the Push API) pushes documents, users, permissions, and metadata to Glean.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-051",
+      "statement": "The Client API is for custom client interfaces.",
+      "source": "S-06",
+      "excerpt": "The Client API enables implementation of a custom client interface to interact with the Glean system.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-052",
+      "statement": "Indexing API accepts only Glean-issued tokens.",
+      "source": "S-15",
+      "excerpt": "The Indexing API only supports Glean-issued tokens - OAuth authentication is not available.",
+      "modules": [
+        "TEC-201",
+        "CON-203",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-053",
+      "statement": "Minimum token rotation period is 1440 minutes.",
+      "source": "S-15",
+      "excerpt": "Minimum rotation period: 1440 minutes (24 hours)",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-054",
+      "statement": "Indexing tokens require an expiry date.",
+      "source": "S-15",
+      "excerpt": "An expiration date is required.",
+      "modules": [
+        "TEC-201",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-055",
+      "statement": "The token value is shown once.",
+      "source": "S-15",
+      "excerpt": "The token is only displayed once after creation.",
+      "modules": [
+        "TEC-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-056",
+      "statement": "Only Super Admins can grant global indexing scope.",
+      "source": "S-15",
+      "excerpt": "Setup Admins, Admins, and Super Admins can create Indexing API tokens (only Super Admins can grant global scope).",
+      "modules": [
+        "TEC-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-057",
+      "statement": "Use separate tokens per environment.",
+      "source": "S-15",
+      "excerpt": "Create separate tokens for different environments (dev/staging/prod)",
+      "modules": [
+        "TEC-201",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-058",
+      "statement": "413 means the request is too large; split it.",
+      "source": "S-15",
+      "excerpt": "413 Request Entity Too LargeDocument/request too largeSplit into smaller requests or use bulk operations",
+      "modules": [
+        "CON-203",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-059",
+      "statement": "IP restrictions limit tokens to known infrastructure.",
+      "source": "S-15",
+      "excerpt": "Restrict API access to known infrastructure",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-060",
+      "statement": "Indexing tokens support IP range restrictions.",
+      "source": "S-06",
+      "excerpt": "IP range restrictions for requests",
+      "modules": [
+        "TEC-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-070",
+      "statement": "Documents are searchable after processingHistory passes bulkUploadHistory.",
+      "source": "S-07",
+      "excerpt": "After documents are uploaded, they will be queued for processing. New documents will be available in search results when the processingHistory timestamp is after the bulkUploadHistory.",
+      "modules": [
+        "CON-201",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-071",
+      "statement": "allowAllDatasourceUsersAccess requires the user to be indexed as a datasource user.",
+      "source": "S-07",
+      "excerpt": "allowAllDatasourceUsersAccess is true and user has been indexed as a user of the connector",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-072",
+      "statement": "UPLOAD COMPLETED is acceptance, not searchability.",
+      "source": "S-07",
+      "excerpt": "UPLOAD COMPLETED only means the API accepted your upload. It doesn't mean users are indexed and searchable.",
+      "modules": [
+        "CON-201",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-073",
+      "statement": "Processing expands derived groups and memberships.",
+      "source": "S-07",
+      "excerpt": "Glean expands derived groups and memberships. This step associates u",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-074",
+      "statement": "Wrong pagination flags can make a partial upload look complete.",
+      "source": "S-07",
+      "excerpt": "Incorrect pagination can cause partial uploads to be treated as complete.",
+      "modules": [
+        "CON-203",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-075",
+      "statement": "/processalldocuments reprocesses without a new upload.",
+      "source": "S-07",
+      "excerpt": "This re-indexes all previously uploaded documents without requiring a new upload.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-076",
+      "statement": "Use /processallmemberships for identity problems.",
+      "source": "S-07",
+      "excerpt": "For issues with user or group permissions rather than document content, use /processallmemberships instead.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-077",
+      "statement": "Custom property validation fails fast on the first error.",
+      "source": "S-07",
+      "excerpt": "Validation stops at the first invalid custom property it encounters.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-078",
+      "statement": "Support tickets need issue, endpoint/body, connector name, timestamp/timezone.",
+      "source": "S-07",
+      "excerpt": "Description of the issue including error message",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-079",
+      "statement": "/processalldocuments: once every 3 hours per datasource.",
+      "source": "S-37",
+      "excerpt": "/processalldocuments1 request every 3 hours per data source",
+      "modules": [
+        "CON-203",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-080",
+      "statement": "Native and custom connectors use separate namespaces.",
+      "source": "S-08",
+      "excerpt": "Native and custom connectors occupy separate namespaces in Glean.",
+      "modules": [
+        "CON-101",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-081",
+      "statement": "Artifacts scoped to a native connector do not carry over.",
+      "source": "S-08",
+      "excerpt": "agents, saved searches, app filters, and pinned results scoped to the native connector won't automatically recognize content in the custom connector.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-082",
+      "statement": "Deactivating a native connector removes its content.",
+      "source": "S-08",
+      "excerpt": "When you deactivate a native connector, its content is removed from the search index.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-083",
+      "statement": "Run native and custom in parallel during migration.",
+      "source": "S-08",
+      "excerpt": "Run both the native and custom connectors in parallel during the transition period.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-090",
+      "statement": "Items over 64 MB index metadata and permissions only.",
+      "source": "S-10",
+      "excerpt": "If the size is GREATER than 64 MB, the crawler WILL NOT download the item contents and will only download the metadata and permissions information for indexing.",
+      "modules": [
+        "CON-202",
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-091",
+      "statement": "Indexable text is truncated at 16.875 MB.",
+      "source": "S-10",
+      "excerpt": "If the content is greater than 16.875 MB, then the first 16.875 MB of content will be stored and fed to the indexer.",
+      "modules": [
+        "CON-202",
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-092",
+      "statement": "Spreadsheets index about 250,000 characters.",
+      "source": "S-10",
+      "excerpt": "By default, approximately 250,000 characters of spreadsheet content are indexed.",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-093",
+      "statement": "Apply the size limits to custom connectors too.",
+      "source": "S-46",
+      "excerpt": "This speaks to Native Connector size limits, but should also be followed for Indexing documents into a Custom Connector",
+      "modules": [
+        "CON-202",
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-094",
+      "statement": "JSON and XML MIME types are not supported for content.",
+      "source": "S-39",
+      "excerpt": "application/jsonJSON fileapplication/xmlXML file",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-100",
+      "statement": "Custom Metadata works on any datasource without re-indexing.",
+      "source": "S-11",
+      "excerpt": "It can attach metadata to documents from any datasource, including native connectors, without re-indexing the source document.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-101",
+      "statement": "Bulk indexing replaces the datasource; omitted documents are deleted.",
+      "source": "S-12",
+      "excerpt": "Bulk indexing fully replaces the entire list of documents stored in Glean. After a successful bulk upload, all documents that were not a part of the most recent upload are deleted asynchronously.",
+      "modules": [
+        "CON-201",
+        "CON-203",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-102",
+      "statement": "/indexdocuments is for incremental updates.",
+      "source": "S-12",
+      "excerpt": "/indexdocuments: This endpoint is intended for incremental updates.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-103",
+      "statement": "The datasource must be enabled for search.",
+      "source": "S-12",
+      "excerpt": "For the indexed document to show up in Glean UI, the datasource must be enabled for search.",
+      "modules": [
+        "CON-203",
+        "BLD-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-104",
+      "statement": "Indexing can take around 15\u201320 minutes (varies).",
+      "source": "S-12",
+      "excerpt": "Note that it takes around 15-20 minutes for the documents to be indexed and appear on your Glean UI.",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-105",
+      "statement": "No concurrent bulk uploads.",
+      "source": "S-13",
+      "excerpt": "Concurrent uploads are not allowed ie. you cannot start a new upload before the previous upload is finished.",
+      "modules": [
+        "CON-203",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-106",
+      "statement": "After a failed upload, forceRestartUpload is required.",
+      "source": "S-13",
+      "excerpt": "Not specifying this bit in case of an unsuccessful previous upload will fail the request.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-107",
+      "statement": "Stale deletion pauses 7 days above 20%.",
+      "source": "S-13",
+      "excerpt": "we have a deletion check in place which pauses the deletion of stale documents for 7 days if the percentage of docs being deleted exceeds 20%.",
+      "modules": [
+        "CON-201",
+        "CON-203",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-108",
+      "statement": "Use /processalldocuments for immediate deletions.",
+      "source": "S-13",
+      "excerpt": "If you wish for deletions to take effect immediately, use /processalldocuments endpoint.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-109",
+      "statement": "One unique uploadId per upload session.",
+      "source": "S-13",
+      "excerpt": "You need to have a unique uploadId for all the paginated requests you send for an upload.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-110",
+      "statement": "Indexing is asynchronous.",
+      "source": "S-14",
+      "excerpt": "Indexing is asynchronous, so the document can take a few minutes to appear in search.",
+      "modules": [
+        "CON-201",
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-111",
+      "statement": "Index users before referencing them.",
+      "source": "S-16",
+      "excerpt": "When using non-anonymous permissions, users need to be indexed before being referenced.",
+      "modules": [
+        "CON-203",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-112",
+      "statement": "Indexing a user grants no document access.",
+      "source": "S-16",
+      "excerpt": "Note that this does not give permissions to the users to search for the document",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-113",
+      "statement": "Group names: no whitespace, not empty, no 'scio' prefix.",
+      "source": "S-16",
+      "excerpt": "Cannot start with the prefix \"scio\"",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-114",
+      "statement": "Index a group before its memberships.",
+      "source": "S-16",
+      "excerpt": "groupName: A group with this particular groupName must be indexed before indexing memberships for it.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-115",
+      "statement": "Nested groups use memberGroupName.",
+      "source": "S-16",
+      "excerpt": "that can be done by using the memberGroupName field in place of the memberUserId field",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-116",
+      "statement": "Permissions and memberships process asynchronously.",
+      "source": "S-16",
+      "excerpt": "Permissions and memberships are processed asynchronously",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-117",
+      "statement": "allowAnonymousAccess exposes the document to every signed-in user.",
+      "source": "S-17",
+      "excerpt": "allowAnonymousAccessIf set to true, anyone who is signed into Glean can view search results for the document",
+      "modules": [
+        "CON-203",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-118",
+      "statement": "isUserReferencedByEmail decides email vs ID references.",
+      "source": "S-18",
+      "excerpt": "This should be set to true if you want to refer to user identities using emails directly.",
+      "modules": [
+        "CON-202",
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-119",
+      "statement": "urlRegex must be neither too broad nor too narrow.",
+      "source": "S-18",
+      "excerpt": "Avoid regexes that are too broad, and will capture URLs from other datasources, or regexes that are too narrow",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-120",
+      "statement": "Set per-object category with docCategory.",
+      "source": "S-40",
+      "excerpt": "please set each category using objectDefinitions.docCategory",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-121",
+      "statement": "Datasource category affects ranking.",
+      "source": "S-40",
+      "excerpt": "Choosing the appropriate type enables enhanced ranking.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-122",
+      "statement": "Do not use the PEOPLE category.",
+      "source": "S-40",
+      "excerpt": "This should not be used, please instead use the /bulkindexemployees API to upload data about employees",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-123",
+      "statement": "Test datasources have ranking signals off.",
+      "source": "S-38",
+      "excerpt": "All ranking signals are turned off from a test datasource.",
+      "modules": [
+        "CON-203",
+        "BLD-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-124",
+      "statement": "Beta users still need document permissions.",
+      "source": "S-38",
+      "excerpt": "For a document to be visible to beta users, they must also have appropriate permissions to view it.",
+      "modules": [
+        "CON-203",
+        "BLD-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-125",
+      "statement": "Define custom properties before uploading.",
+      "source": "S-34",
+      "excerpt": "It is highly recommended to configure custom properties first and then upload documents with the custom properties.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-126",
+      "statement": "INT properties are not faceted.",
+      "source": "S-34",
+      "excerpt": "propertyType \"INT\" is not faceted.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-127",
+      "statement": "DATE facets need epoch seconds.",
+      "source": "S-34",
+      "excerpt": "propertyType \"DATE\" is only faceted if specified value is an epoch timestamp in seconds.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-128",
+      "statement": "Rendering properties in results needs Glean support.",
+      "source": "S-34",
+      "excerpt": "Contact Glean support to show the custom property to the search result as per your preference.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-129",
+      "statement": "The 'country' property is a location ranking signal.",
+      "source": "S-34",
+      "excerpt": "its value is used as a ranking signal to personalize results based on the searcher's location.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-130",
+      "statement": "Custom property updates need a full re-upload.",
+      "source": "S-35",
+      "excerpt": "Updating a custom property requires re-uploading the entire document via /indexdocument.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-131",
+      "statement": "Re-indexing does not change Custom Metadata.",
+      "source": "S-35",
+      "excerpt": "Re-indexing a document via the Indexing API does not affect Custom Metadata attached to it.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-132",
+      "statement": "Only Custom Properties support INT, DATE, USERID.",
+      "source": "S-35",
+      "excerpt": "Custom Properties support INT, DATE, and USERID types; Custom Metadata does not.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-133",
+      "statement": "Activity uses a Client API token.",
+      "source": "S-36",
+      "excerpt": "the activity endpoint needs to be called with a client API bearer token (as opposed to an indexing API bearer token for other endpoints).",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-134",
+      "statement": "Activity needs a global Client token scoped to ACTIVITY.",
+      "source": "S-36",
+      "excerpt": "we need a Global client API token scoped to ACTIVITY.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-135",
+      "statement": "No activity means weaker ranking.",
+      "source": "S-44",
+      "excerpt": "There would be limited signals available due to no activity being pushed, so rankings of search results will be suboptimal.",
+      "modules": [
+        "CON-201",
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-136",
+      "statement": "Custom results can be outranked without signals.",
+      "source": "S-44",
+      "excerpt": "Results from your custom connector are more likely to be outranked by results from other connectors due to stronger ranking signals.",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-137",
+      "statement": "/indexdocument 10 rps; /indexdocuments 600 docs/min.",
+      "source": "S-37",
+      "excerpt": "/indexdocument10 requests per second/indexdocuments600 documents per minute",
+      "modules": [
+        "CON-203",
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-138",
+      "statement": "Deployment limit: 8,000 rpm across IPs.",
+      "source": "S-37",
+      "excerpt": "8,000 requests per minute across all IP addresses",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-139",
+      "statement": "Deployment limit: 100 rps from one IP.",
+      "source": "S-37",
+      "excerpt": "100 requests per second from a single IP address",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-140",
+      "statement": "/indexdocument can return 400, 401, 409, 429.",
+      "source": "S-42",
+      "excerpt": "OK Bad Request Not Authorized Conflict Too Many Requests",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-150",
+      "statement": "The SDK is a client for the Indexing API.",
+      "source": "S-32",
+      "excerpt": "The SDK is a client for the Indexing API, not a replacement - the API documentation stays the reference for the wire protocol.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-151",
+      "statement": "When to use the API directly.",
+      "source": "S-32",
+      "excerpt": "Use the API directly when indexing from a non-Python service, pushing occasional one-off documents, or attaching custom metadata to documents already in Glean.",
+      "modules": [
+        "CON-204",
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-152",
+      "statement": "Allow-all ACL defaults are the top review risk.",
+      "source": "S-32",
+      "excerpt": "An allow-all default is the most consequential thing to miss.",
+      "modules": [
+        "CON-204",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-153",
+      "statement": "Timestamps are epoch seconds.",
+      "source": "S-32",
+      "excerpt": "created_at and updated_at must be epoch seconds, not ISO strings.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-154",
+      "statement": "Full crawls must cover the entire scope.",
+      "source": "S-32",
+      "excerpt": "a full crawl must cover the entire confirmed scope before completing, because stale-document deletion removes anything absent from the run.",
+      "modules": [
+        "CON-204",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-155",
+      "statement": "Each test phase swaps one dependency.",
+      "source": "S-32",
+      "excerpt": "Each phase swaps exactly one thing from mocked to real, so a failure tells you which layer broke.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-156",
+      "statement": "The Connector Builder uses eight skills.",
+      "source": "S-32",
+      "excerpt": "Eight skills coordinate the build.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-157",
+      "statement": "A connector is a data client plus a connector class.",
+      "source": "S-33",
+      "excerpt": "A connector is two classes: a data client that fetches records from your source, and a connector that turns them into Glean documents.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-158",
+      "statement": "Datasource name: ASCII letters and digits only.",
+      "source": "S-33",
+      "excerpt": "CustomDatasourceConfig.name may contain only ASCII letters and digits",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-159",
+      "statement": "--max-items is not a safety control.",
+      "source": "S-33",
+      "excerpt": "Do not rely on --max-items to make a shared datasource safe",
+      "modules": [
+        "CON-204",
+        "BLD-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-160",
+      "statement": "Accepted is not searchable.",
+      "source": "S-33",
+      "excerpt": "Indexing is asynchronous - an accepted upload is not yet a searchable document.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-161",
+      "statement": "SDK config: two env vars.",
+      "source": "S-21",
+      "excerpt": "Two environment variables. There is no configuration file.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-162",
+      "statement": "Missing env vars fail at construction.",
+      "source": "S-21",
+      "excerpt": "A missing variable raises MissingEnvironmentVariableError at client construction, not mid-upload.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-163",
+      "statement": "Full = replacement; incremental = additive.",
+      "source": "S-21",
+      "excerpt": "A full crawl calls PushUploader.bulk_index_documents() for replacement and stale cleanup. An incremental crawl calls additive index_documents().",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-164",
+      "statement": "SDK errors derive from GleanError.",
+      "source": "S-21",
+      "excerpt": "Every SDK exception derives from GleanError and carries a fix_suggestion",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-165",
+      "statement": "Failures exit non-zero.",
+      "source": "S-21",
+      "excerpt": "On exception, increments the error counter and re-raises so a scheduler sees a non-zero exit.",
+      "modules": [
+        "CON-204",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-166",
+      "statement": "Streaming connectors do not run get_identities().",
+      "source": "S-21",
+      "excerpt": "their indexing implementations do not run the optional get_identities() crawl.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-167",
+      "statement": "Memory limits need streaming, not smaller batches.",
+      "source": "S-22",
+      "excerpt": "the fix is a streaming connector, not a smaller batch size, because batching happens after transform.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-168",
+      "statement": "batch_size defaults to 1000.",
+      "source": "S-22",
+      "excerpt": "All four classes expose batch_size, defaulting to 1000.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-169",
+      "statement": "Employee data is separate from ACL identities.",
+      "source": "S-22",
+      "excerpt": "It's distinct from the datasource identities (users, groups, memberships) that back document ACLs",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-170",
+      "statement": "Never let a partial fetch complete as a full crawl.",
+      "source": "S-19",
+      "excerpt": "Never let a partial or failed fetch finish as a successful full crawl.",
+      "modules": [
+        "CON-204",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-171",
+      "statement": "A bad successful crawl is not recoverable.",
+      "source": "S-19",
+      "excerpt": "A failed crawl is recoverable. A successful crawl that deleted 90% of your index is not.",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-172",
+      "statement": "The SDK does not persist checkpoints.",
+      "source": "S-19",
+      "excerpt": "The SDK does not persist checkpoints",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-173",
+      "statement": "Checkpoint: start time, written only on success.",
+      "source": "S-19",
+      "excerpt": "Record the timestamp from before the crawl started, and only write it after the run succeeds.",
+      "modules": [
+        "CON-204",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-174",
+      "statement": "Incremental needs a checkpoint and a deletion signal.",
+      "source": "S-19",
+      "excerpt": "it needs a durable checkpoint and a reliable source-side deletion signal before it is correct rather than merely faster.",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-175",
+      "statement": "Common schedule: incremental 15\u201360 min.",
+      "source": "S-19",
+      "excerpt": "Incremental every 15-60 minutes - keeps search fresh at low cost.",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-176",
+      "statement": "Common schedule: full nightly or weekly.",
+      "source": "S-19",
+      "excerpt": "Full nightly or weekly - reconciles deletions and repairs drift.",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-177",
+      "statement": "An empty full crawl clears the datasource.",
+      "source": "S-19",
+      "excerpt": "A successful empty full crawl sends one complete empty bulk page so all previously indexed documents are reconciled as stale.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-178",
+      "statement": "force_restart only after a stuck upload.",
+      "source": "S-19",
+      "excerpt": "Discards any in-progress upload session and starts a new one. Use after a crashed run leaves an upload stuck - not as a default.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-179",
+      "statement": "Overlap incremental windows slightly.",
+      "source": "S-19",
+      "excerpt": "overlap the window slightly rather than risking a gap",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-180",
+      "statement": "First and last pages are sequential.",
+      "source": "S-23",
+      "excerpt": "the first opens the upload session, the last closes it and triggers stale deletion, so neither can race.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-181",
+      "statement": "index_documents() suits webhook updates.",
+      "source": "S-23",
+      "excerpt": "This is the right call for event-driven connectors reacting to a webhook.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-182",
+      "statement": "Batches close at count or byte cap.",
+      "source": "S-23",
+      "excerpt": "a batch closes when it hits batch_size documents or max_batch_bytes serialized bytes, whichever comes first.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-183",
+      "statement": "Membership bulk uploads lack a stale-deletion option.",
+      "source": "S-23",
+      "excerpt": "Membership bulk uploads do not expose a stale-deletion option",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-184",
+      "statement": "Tune the dominant stage only.",
+      "source": "S-24",
+      "excerpt": "Tuning upload concurrency when 90% of wall-clock is data_fetch accomplishes nothing.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-185",
+      "statement": "Prefer smaller batches over longer timeouts.",
+      "source": "S-24",
+      "excerpt": "Smaller batches are usually the better answer.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-186",
+      "statement": "Default retries: one retry.",
+      "source": "S-25",
+      "excerpt": "The default max_attempts=2 is deliberately conservative - one retry.",
+      "modules": [
+        "CON-204",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-187",
+      "statement": "Query params are redacted in logs.",
+      "source": "S-25",
+      "excerpt": "PullOptions.mask_params defaults to True, so query parameters are redacted in the client's request logs.",
+      "modules": [
+        "CON-204",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-188",
+      "statement": "Redaction covers logs only.",
+      "source": "S-25",
+      "excerpt": "Redaction covers logging only.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-189",
+      "statement": "get_bytes cap does not bound buffering.",
+      "source": "S-25",
+      "excerpt": "the cap bounds what you receive, not what gets buffered.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-190",
+      "statement": "Offset pagination is unstable under writes.",
+      "source": "S-26",
+      "excerpt": "Offset pagination is unstable against a source being written to during the crawl.",
+      "modules": [
+        "CON-204",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-191",
+      "statement": "Paging loops must terminate.",
+      "source": "S-26",
+      "excerpt": "Whatever loop you write must terminate on a source that misbehaves.",
+      "modules": [
+        "CON-204",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-192",
+      "statement": "Cursor mode stops on a repeated cursor.",
+      "source": "S-26",
+      "excerpt": "identical to the previous cursor",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-193",
+      "statement": "Run below the source quota.",
+      "source": "S-27",
+      "excerpt": "A source allowing 600 requests/minute is 10/second; running at 7-8 leaves room for retries",
+      "modules": [
+        "CON-204",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-194",
+      "statement": "Rate limiting is proactive; retries are reactive.",
+      "source": "S-27",
+      "excerpt": "The rate limiter is proactive",
+      "modules": [
+        "CON-204",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-195",
+      "statement": "Never allow-all 'for now'.",
+      "source": "S-20",
+      "excerpt": "Never index sensitive content with an allow-all ACL \"for now.\"",
+      "modules": [
+        "BLD-201",
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-196",
+      "statement": "Unknown groups match nobody.",
+      "source": "S-20",
+      "excerpt": "An ACL naming a group Glean has never heard of matches nobody.",
+      "modules": [
+        "CON-203",
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-197",
+      "statement": "Do not flatten groups into users.",
+      "source": "S-20",
+      "excerpt": "Don't flatten groups into user lists",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-198",
+      "statement": "Intersection semantics.",
+      "source": "S-20",
+      "excerpt": "A user must belong to every group within one entry; multiple entries are alternative intersections.",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-199",
+      "statement": "Counts prove nothing about permissions.",
+      "source": "S-20",
+      "excerpt": "Counting indexed documents proves nothing about permissions.",
+      "modules": [
+        "BLD-202",
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-200",
+      "statement": "Search as the user is ground truth.",
+      "source": "S-20",
+      "excerpt": "the search result is the ground truth, not the upload response.",
+      "modules": [
+        "BLD-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-201",
+      "statement": "Groups require memberships.",
+      "source": "S-20",
+      "excerpt": "If you return groups, you must also return memberships.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-202",
+      "statement": "Four-step missing-document diagnosis.",
+      "source": "S-28",
+      "excerpt": "Most \"the connector is broken\" reports are really one of four things",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-203",
+      "statement": "'Appears then disappears' means stale deletion.",
+      "source": "S-28",
+      "excerpt": "Appears, then disappears",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-204",
+      "statement": "Alert on sharp drops in documents_indexed.",
+      "source": "S-28",
+      "excerpt": "Alert on documents_indexed dropping sharply between runs",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-205",
+      "statement": "ACLs fail without pushed identities.",
+      "source": "S-28",
+      "excerpt": "a correct-looking ACL is still wrong if the identities it names were never pushed.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-206",
+      "statement": "Live tests need --allow-destructive-live.",
+      "source": "S-29",
+      "excerpt": "Every live phase requires --allow-destructive-live",
+      "modules": [
+        "CON-204",
+        "BLD-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-207",
+      "statement": "teardown is irreversible.",
+      "source": "S-29",
+      "excerpt": "teardown cannot be undone.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-208",
+      "statement": "CLI exit codes are stable.",
+      "source": "S-29",
+      "excerpt": "SDK-owned exit codes are stable.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-209",
+      "statement": "Ambiguous writes are read back, not retried.",
+      "source": "S-29",
+      "excerpt": "An ambiguous transport failure is reconciled by reading state back, never by blindly repeating the write.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-210",
+      "statement": "A connector is a batch job.",
+      "source": "S-30",
+      "excerpt": "A connector is a batch job: it starts, pulls from a source, pushes to Glean, and exits.",
+      "modules": [
+        "CON-204",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-211",
+      "statement": "Terraform does not create the foundation.",
+      "source": "S-30",
+      "excerpt": "The generated Terraform does not create a project/account, cluster, registry, Workload Identity/IRSA foundation, or namespace.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-212",
+      "statement": "Edit glean_deployment.yaml, not Terraform.",
+      "source": "S-30",
+      "excerpt": "Generated Terraform is an artifact, not the configuration interface.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-213",
+      "statement": "Full and incremental need separate configs.",
+      "source": "S-30",
+      "excerpt": "A full and incremental schedule need separate deployment configurations",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-214",
+      "statement": "A completed Job is not proof of indexing.",
+      "source": "S-30",
+      "excerpt": "A completed Kubernetes Job proves only that the process exited successfully",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-215",
+      "statement": "The workload cannot enumerate secrets.",
+      "source": "S-30",
+      "excerpt": "The workload cannot enumerate secrets.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-216",
+      "statement": "No API to delete a datasource registration.",
+      "source": "S-30",
+      "excerpt": "There is no Indexing API operation to delete a datasource registration.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-217",
+      "statement": "Connectors can run on many schedulers.",
+      "source": "S-30",
+      "excerpt": "It can run as a VM cron job, Cloud Run or Lambda job, Airflow task, or scheduled CI workload.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-218",
+      "statement": "Observability is built in.",
+      "source": "S-31",
+      "excerpt": "You get stage timings, item counts, and structured logs without adding any instrumentation.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-219",
+      "statement": "Cloud telemetry plugins are mock-tested only.",
+      "source": "S-31",
+      "excerpt": "The cloud provider plugins are currently tested only against mocks",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-220",
+      "statement": "Current SDK release reviewed: v1.2.0.",
+      "source": "S-41",
+      "excerpt": "glean-indexing-sdk v1.2.0",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-230",
+      "statement": "Native freshness: three tiers.",
+      "source": "S-44",
+      "excerpt": "Glean uses a 3-tier system to ensure content is continuously kept up-to-date in the index.",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-231",
+      "statement": "Native full re-crawl every 4 weeks as a catch-all.",
+      "source": "S-44",
+      "excerpt": "Glean conducts a full re-crawl of the entire datasource every 4 weeks. This is technically not needed, but is done as a default \"catch-all\".",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-232",
+      "statement": "One shared queue: one backlog can delay another.",
+      "source": "S-44",
+      "excerpt": "Documents, permissions, people data, and user activity all flow through the same backend queueing and indexing system at a high level, so one type of backlog can affect another.",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-233",
+      "statement": "Worst case latency can exceed 24 hours.",
+      "source": "S-44",
+      "excerpt": "Worst case: several hours to 24+ hours",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-234",
+      "statement": "Processing checks identity and permission dependencies before results show.",
+      "source": "S-44",
+      "excerpt": "Verifies identities and access data. Waits for required dependencies.",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-235",
+      "statement": "Model roles as groups.",
+      "source": "S-44",
+      "excerpt": "Consider roles a type of group",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-236",
+      "statement": "Combine relational data into one document.",
+      "source": "S-44",
+      "excerpt": "It may be better to combine relational data into a single document object to be indexed",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-237",
+      "statement": "Keep document state in a simple database.",
+      "source": "S-44",
+      "excerpt": "Leverage a simple database to keep track of document state to more easily ensure data freshness",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-238",
+      "statement": "Automate token rotation.",
+      "source": "S-44",
+      "excerpt": "Automated indexing token rotation",
+      "modules": [
+        "BLD-201",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-239",
+      "statement": "Deck guidance: incremental plus monthly full.",
+      "source": "S-44",
+      "excerpt": "Implement incremental and monthly indexing to keep data up to date",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-240",
+      "statement": "Without identity data, a manual user map is needed.",
+      "source": "S-44",
+      "excerpt": "Manual map of users to corporate identities needs to be provided",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-241",
+      "statement": "Metadata-only results cannot ground Assistant.",
+      "source": "S-44",
+      "excerpt": "Can't be used for GenAI Glean Assistant will not be able to summarize the content",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-242",
+      "statement": "Architecture includes retries, backoff, DLQ.",
+      "source": "S-44",
+      "excerpt": "retries, backoff, dead-letter queue",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-243",
+      "statement": "Client REST API may require extra licensing (verify).",
+      "source": "S-44",
+      "excerpt": "Client REST API functionality requires additional licensing above stand enterprise licensing",
+      "modules": [
+        "CON-203"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-250",
+      "statement": "Scoping asks about native and web-crawler options first.",
+      "source": "S-45",
+      "excerpt": "Is there an existing Native Connector for this Source System, or can it be crawled using the native Glean Web Crawler datasource?",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-251",
+      "statement": "Prefer read-only keys.",
+      "source": "S-45",
+      "excerpt": "read-only keys are preferred if supported for Content+Permission+Activity data",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-252",
+      "statement": "Check source users match SSO users.",
+      "source": "S-45",
+      "excerpt": "Do users in the Source System match users in the SSO system associated with Glean?",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-253",
+      "statement": "Fallback when no API: export to storage.",
+      "source": "S-45",
+      "excerpt": "Can the Source System Export Content to an external data storage location",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-254",
+      "statement": "Ask for a sandbox.",
+      "source": "S-45",
+      "excerpt": "Is there a Dev/Test/Sandbox environment against which connector development can be tested/validated?",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-255",
+      "statement": "Define the viewURL target.",
+      "source": "S-45",
+      "excerpt": "Where should users be redirected when they click the document in Glean (viewURL)?",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-256",
+      "statement": "Ask whether the API URL is static.",
+      "source": "S-45",
+      "excerpt": "Will the API URL stay static?",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-257",
+      "statement": "Ask permission change frequency.",
+      "source": "S-45",
+      "excerpt": "How often are permissions updated in the Source System?",
+      "modules": [
+        "CON-202"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-260",
+      "statement": "Competency definition.",
+      "source": "S-47",
+      "excerpt": "The Custom Connector Competency certifies Partners to scope, build, deploy, and maintain custom data source integrations with Glean",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-261",
+      "statement": "Build must index users, permissions, documents.",
+      "source": "S-47",
+      "excerpt": "Indexes users, permissions, and documents/data",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-262",
+      "statement": "Build must auto-update.",
+      "source": "S-47",
+      "excerpt": "Some level of automated index updating",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-263",
+      "statement": "Build must handle errors with retry/backoff.",
+      "source": "S-47",
+      "excerpt": "Error and retry/backoff handling",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-264",
+      "statement": "Five technical accreditations required.",
+      "source": "S-47",
+      "excerpt": "Complete 5 technical accreditations within the Glean Partner Portal",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-265",
+      "statement": "Customer-approved maintenance plan required.",
+      "source": "S-47",
+      "excerpt": "Complete & include a customer-approved maintenance plan",
+      "modules": [
+        "ACC-107",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-266",
+      "statement": "Renewal every 18 months.",
+      "source": "S-47",
+      "excerpt": "This competency is validated every 18 months.",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-267",
+      "statement": "Competencies require an audit.",
+      "source": "S-47",
+      "excerpt": "Glean competencies require thorough experience and successful completion of an audit process.",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-268",
+      "statement": "Submit a zip with the workbook.",
+      "source": "S-47",
+      "excerpt": "A zip file including the Competency Submission Workbook and all necessary requirements documentation",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-269",
+      "statement": "Architecture review required.",
+      "source": "S-47",
+      "excerpt": "Complete custom connector architecture review with Glean technical resource",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-270",
+      "statement": "Renewal feedback within 3 months.",
+      "source": "S-48",
+      "excerpt": "Written documentation from a customer within 3 months prior to renewal",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-271",
+      "statement": "Technical specification required.",
+      "source": "S-48",
+      "excerpt": "Complete & include a technical specifications document",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-272",
+      "statement": "Intake form v2 supports publishing.",
+      "source": "S-49",
+      "excerpt": "This template gathers the appropriate information needed to publish a partner-built custom connector on the Glean Connectors webpage.",
+      "modules": [
+        "CON-301",
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-273",
+      "statement": "Partner maintains published connectors.",
+      "source": "S-49",
+      "excerpt": "Glean expects the partner to maintain and support this connector.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-274",
+      "statement": "Get written permission/security confirmation.",
+      "source": "S-49",
+      "excerpt": "The partner should request written confirmation that permissions and security are meeting expectations once a custom test group has reviewed the results.",
+      "modules": [
+        "CON-301",
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-275",
+      "statement": "Docs must explain permission propagation.",
+      "source": "S-49",
+      "excerpt": "Permission propagation logic",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-276",
+      "statement": "Partner-led prerequisites.",
+      "source": "S-50",
+      "excerpt": "Technical accreditation, technical deep dive, and custom connector workshop",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-277",
+      "statement": "Glean reviews partner code.",
+      "source": "S-50",
+      "excerpt": "Glean team to perform code review on partner-developed connectors",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-278",
+      "statement": "2\u20134 week customer review.",
+      "source": "S-50",
+      "excerpt": "2 - 4 week customer review",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-290",
+      "statement": "Reviewers score identity and permissions separately.",
+      "source": "S-52",
+      "excerpt": "Do not let strong document indexing mask missing identity, group, or permissions coverage.",
+      "modules": [
+        "ACC-107",
+        "BLD-201"
+      ],
+      "audience": "reviewer",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-291",
+      "statement": "Bulk is a replacement strategy.",
+      "source": "S-52",
+      "excerpt": "Bulk indexing should be treated as a full-replacement strategy, not a convenience default.",
+      "modules": [
+        "BLD-201",
+        "ACC-107"
+      ],
+      "audience": "reviewer",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-292",
+      "statement": "Stable IDs from source identifiers.",
+      "source": "S-52",
+      "excerpt": "stable document IDs derived from source identifiers rather than mutable titles or URLs",
+      "modules": [
+        "BLD-201",
+        "ACC-107"
+      ],
+      "audience": "reviewer",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-293",
+      "statement": "Deletion story per object family.",
+      "source": "S-52",
+      "excerpt": "A connector needs a deletion story for every indexed object family it owns.",
+      "modules": [
+        "BLD-201",
+        "ACC-107"
+      ],
+      "audience": "reviewer",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-294",
+      "statement": "Detect permission-only changes.",
+      "source": "S-52",
+      "excerpt": "evidence that permission changes can be caught even when document text does not change",
+      "modules": [
+        "BLD-201",
+        "ACC-107"
+      ],
+      "audience": "reviewer",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-295",
+      "statement": "Reviewer scale.",
+      "source": "S-52",
+      "excerpt": "Score each category as Meets, Partially Meets, Does Not Meet, or Not Enough Evidence.",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "reviewer",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-296",
+      "statement": "Prefer email identities.",
+      "source": "S-52",
+      "excerpt": "Prefer email-based identities when the source supports them.",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "reviewer",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-297",
+      "statement": "No over-broad fallback ACLs.",
+      "source": "S-52",
+      "excerpt": "Do not accept over-broad permissions just because ACL mapping is hard.",
+      "modules": [
+        "BLD-201",
+        "ACC-107"
+      ],
+      "audience": "reviewer",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-298",
+      "statement": "Field: stable IDs flagged.",
+      "source": "S-53",
+      "excerpt": "the code review flagged specific items, including the need for content model refinements and issues with stable IDs",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-299",
+      "statement": "Field: hardcoded secrets flagged.",
+      "source": "S-53",
+      "excerpt": "the team must avoid hardcoding secrets and instead implement proper secret management systems",
+      "modules": [
+        "BLD-201",
+        "CON-301"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-300",
+      "statement": "Field: JSON-file state flagged.",
+      "source": "S-53",
+      "excerpt": "raised concerns regarding the use of JSON files for state management",
+      "modules": [
+        "BLD-201"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-301",
+      "statement": "Field: anonymous access and missing maintenance plan flagged.",
+      "source": "S-54",
+      "excerpt": "Specific concerns included a reference to \"allow anonymous access\" and the need for a documented maintenance plan.",
+      "modules": [
+        "BLD-201",
+        "ACC-107"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-302",
+      "statement": "Field: production deployment is a blocker.",
+      "source": "S-54",
+      "excerpt": "the lack of a deployment in a real-world production customer environment was identified as a key blocker",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-303",
+      "statement": "Visibility states gate results.",
+      "source": "S-56",
+      "excerpt": "If datasourceVisibility is ENABLED_FOR_TEST_GROUP, the document will only be visible to users with appropriate permissions in the test group.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-304",
+      "statement": "Field confirmation of bulk replacement.",
+      "source": "S-58",
+      "excerpt": "If they use bulk index documents - we will delete stale documents based on what was not uploaded in the latest one",
+      "modules": [
+        "CON-201"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-305",
+      "statement": "Field: safeguard kept deleted docs visible.",
+      "source": "S-59",
+      "excerpt": "this is due to the stale deletion check flag.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "internal",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": false
+    },
+    {
+      "id": "C-310",
+      "statement": "In the SDK identity crawl, users are bulk-indexed first; groups without memberships raise InconsistentDataError.",
+      "source": "S-21",
+      "excerpt": "Users are bulk-indexed first. If groups are returned, memberships must be too - otherwise the SDK raises InconsistentDataError, because groups without memberships produce ACLs that can never match anyone.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-311",
+      "statement": "The SDK owns batching, retries, upload sessions, and stale-document cleanup.",
+      "source": "S-21",
+      "excerpt": "SDK owns batching, retries, upload sessions, and stale-document cleanup.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-312",
+      "statement": "GLEAN_SERVER_URL is the Glean backend URL.",
+      "source": "S-21",
+      "excerpt": "GLEAN_SERVER_URLYour Glean backend URL",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-313",
+      "statement": "GLEAN_INDEXING_API_TOKEN is a datasource-scoped Indexing API token.",
+      "source": "S-21",
+      "excerpt": "GLEAN_INDEXING_API_TOKENDatasource-scoped Indexing API token.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-314",
+      "statement": "Start with BaseDatasourceConnector if unsure; switching to streaming changes the base class and get_source_data() return type, not transform().",
+      "source": "S-22",
+      "excerpt": "If you're unsure, start with BaseDatasourceConnector. Switching to a streaming variant later means changing the base class and the return type of get_source_data() - transform() is unchanged.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-315",
+      "statement": "Use the streaming connector when the dataset is large or paginated and the source client is synchronous.",
+      "source": "S-22",
+      "excerpt": "The dataset is large or paginated and your source client is synchronous.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-316",
+      "statement": "The async streaming connector uses async generators and is driven with index_data_async().",
+      "source": "S-22",
+      "excerpt": "Same model, async generators. Drive it with index_data_async().",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-317",
+      "statement": "Production connectors should raise max_attempts to 4 or 5 against aggressive rate limiters.",
+      "source": "S-25",
+      "excerpt": "production connectors should raise it to 4 or 5, particularly against APIs that rate-limit aggressively.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-318",
+      "statement": "The SDK HTTP client retries 429, 500, 502, 503, 504; everything else fails immediately.",
+      "source": "S-25",
+      "excerpt": "retry_status_codes{429, 500, 502, 503, 504}Everything else fails immediately.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-319",
+      "statement": "Phase 2 rejects missing permissions, anonymous access, and all-datasource-users access because they prevent proving denial.",
+      "source": "S-20",
+      "excerpt": "It also rejects missing permissions, allow_anonymous_access=True, and allow_all_datasource_users_access=True, because any of those prevents the harness from proving a configured identity is denied.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-320",
+      "statement": "extract_permission_refs() returns the user and group IDs the documents reference.",
+      "source": "S-20",
+      "excerpt": "returning the deduplicated user_ids and group_ids your documents actually reference.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-321",
+      "statement": "glean-idx document access checks whether a given user can see a document.",
+      "source": "S-29",
+      "excerpt": "Whether a given user can see a document",
+      "modules": [
+        "CON-204",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-322",
+      "statement": "glean-idx datasource status shows uploaded and indexed counts, identity counts, visibility, and recent runs.",
+      "source": "S-29",
+      "excerpt": "Uploaded and indexed counts per object type, identity counts, visibility, and the most recent upload and processing runs.",
+      "modules": [
+        "CON-204",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-323",
+      "statement": "SDK cursor paging stops when the cursor is missing, empty, not a string, or repeated.",
+      "source": "S-26",
+      "excerpt": "Paging stops when the cursor is missing, empty, not a string, or identical to the previous cursor.",
+      "modules": [
+        "CON-204",
+        "BLD-201"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-324",
+      "statement": "On an incremental crawl the SDK calls _get_last_crawl_timestamp(); the base implementation returns None.",
+      "source": "S-21",
+      "excerpt": "On an incremental crawl, calls _get_last_crawl_timestamp(). The base implementation returns None.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-325",
+      "statement": "Without an override, since is None and the data client falls back to a full fetch.",
+      "source": "S-19",
+      "excerpt": "which means since is None and your data client falls back to a full fetch.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-326",
+      "statement": "max_items limits source consumption; it is not a Glean-side upload cap or a blast-radius guarantee.",
+      "source": "S-33",
+      "excerpt": "max_items limits how many source items each registered client consumes. It is not a Glean-side upload cap or a blast-radius guarantee.",
+      "modules": [
+        "CON-204",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-327",
+      "statement": "A max_items cap left set from local testing is a named cause of partial full crawls.",
+      "source": "S-28",
+      "excerpt": "a max_items cap left set from local testing.",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-328",
+      "statement": "An auth token expiring mid-crawl is a named cause of partial full crawls.",
+      "source": "S-28",
+      "excerpt": "an auth token expiring mid-crawl",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-329",
+      "statement": "The Connector Builder explores the source API, plans with you, generates the connector against the SDK, and tests it before anything is indexed.",
+      "source": "S-32",
+      "excerpt": "It explores the source's API, plans the connector with you, generates it against this SDK, and tests it before anything reaches your index.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-330",
+      "statement": "The Connector Builder runs mocked and recorded test phases before offering to index anything.",
+      "source": "S-32",
+      "excerpt": "runs the mocked and recorded test phases before offering to index anything.",
+      "modules": [
+        "CON-204"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-331",
+      "statement": "A source error swallowed inside a paging loop is a named cause of partial full crawls.",
+      "source": "S-28",
+      "excerpt": "a source error swallowed inside a paging loop",
+      "modules": [
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-332",
+      "statement": "glean-idx deploy generates a Docker image and Terraform for a Kubernetes CronJob on GKE or EKS.",
+      "source": "S-30",
+      "excerpt": "glean-idx deploy generates and operates a Docker image and Terraform for a Kubernetes CronJob on GKE or EKS.",
+      "modules": [
+        "CON-204",
+        "CON-301"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-333",
+      "statement": "The competency requires a Glean-delivered custom connector workshop session.",
+      "source": "S-47",
+      "excerpt": "Complete Glean-delivered custom connector workshop session with your Glean technical team",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    },
+    {
+      "id": "C-334",
+      "statement": "Partners work with their Partner Manager to select and achieve a competency.",
+      "source": "S-47",
+      "excerpt": "Partner Manager for support with selecting and achieving a Glean Partner Competency",
+      "modules": [
+        "ACC-107"
+      ],
+      "audience": "partner",
+      "status": "verified-verbatim",
+      "verified_on": "2026-09-26",
+      "learner_facing": true
+    }
+  ]
+}

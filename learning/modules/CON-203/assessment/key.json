@@ -1,0 +1,113 @@
+{
+  "module_id": "CON-203",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "Other indexing endpoints use it; the activity endpoint does not.",
+        "a": "Right. It is a Client API bearer token, not an indexing token.",
+        "c": "Glean endpoints use Glean-issued tokens.",
+        "d": "The endpoint needs a Client API bearer token."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "It is an identity reference setting.",
+        "c": "It concerns how identities are referenced.",
+        "d": "Visibility is controlled separately."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "b": "JSON is not a supported MIME type.",
+        "c": "Truncation applies to supported content.",
+        "d": "Spreadsheet limits do not apply to JSON.",
+        "a": "Right. Send the text content itself."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "They are faceted when the value is epoch seconds. INT is the type that is not faceted.",
+        "c": "Category does not control facets.",
+        "a": "Right. DATE is faceted only for epoch seconds.",
+        "d": "Activity affects ranking, not facets."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "b": "Updating a custom property requires re-uploading the entire document.",
+        "a": "Right.",
+        "c": "Custom Metadata is a separate mechanism with different types.",
+        "d": "Reprocessing does not change the uploaded values."
+      }
+    },
+    "Q-06": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. About 7% is under the 20% safeguard.",
+        "b": "Bulk indexing replaces the document list.",
+        "c": "The pause applies above 20%.",
+        "d": "Omitted documents are treated as stale, not as an error."
+      }
+    },
+    "Q-07": {
+      "answer": "a",
+      "rationale": {
+        "b": "Uploads are never merged.",
+        "c": "No queueing is documented.",
+        "d": "Concurrent uploads are not allowed at all.",
+        "a": "Right. Concurrent uploads are not allowed."
+      }
+    },
+    "Q-08": {
+      "answer": "a",
+      "rationale": {
+        "b": "Users must be indexed before they are referenced.",
+        "c": "A group must be indexed before its memberships.",
+        "a": "Right.",
+        "d": "Order is documented for users and group memberships."
+      }
+    },
+    "Q-09": {
+      "answer": "a",
+      "rationale": {
+        "b": "Flattened lists drift. Map groups directly.",
+        "a": "Right. Use memberGroupName in place of memberUserId.",
+        "c": "That does not express nesting.",
+        "d": "Nested groups are supported."
+      }
+    },
+    "Q-10": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "It is limited to one request every 3 hours.",
+        "c": "A bulk upload is replacement, not reprocessing.",
+        "d": "Scope does not lift the limit."
+      }
+    },
+    "Q-11": {
+      "answer": "a",
+      "rationale": {
+        "b": "Hyphens and digits are allowed.",
+        "c": "Letters only is allowed.",
+        "d": "Underscores and letters are allowed.",
+        "a": "Right. Group names cannot start with the prefix scio."
+      }
+    },
+    "Q-12": {
+      "answer": "a",
+      "rationale": {
+        "b": "It does not mean users are indexed and searchable.",
+        "c": "Category does not affect user counts.",
+        "a": "Right. UPLOAD COMPLETED means only that the API accepted the upload.",
+        "d": "Activity does not upload users."
+      }
+    }
+  }
+}

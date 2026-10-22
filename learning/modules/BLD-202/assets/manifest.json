@@ -1,0 +1,61 @@
+{
+  "module_id": "BLD-202",
+  "assets": [
+    {
+      "asset_id": "BLD-202-A01",
+      "path": "assets/svg/bld-202-a01.svg",
+      "type": "svg_diagram",
+      "purpose": "Five blocks: set up from intake through identities; full run under injected faults; changes including updates, deletes, renames, and permission-only changes; reconcile and observe; hand off and clean up.",
+      "screen_id": "SCR-02",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-049",
+        "C-170",
+        "C-116",
+        "C-202",
+        "C-265"
+      ],
+      "alt": "Five-block lab flow from setup to handoff.",
+      "bytes": 5109
+    },
+    {
+      "asset_id": "BLD-202-A02",
+      "path": "assets/svg/bld-202-a02.svg",
+      "type": "svg_diagram",
+      "purpose": "Four gates that must be met regardless of score: identity and permissions matrix fully correct with no broad fallback; freshness and deletion proven; failure handling proven; security with secrets outside code and logs.",
+      "screen_id": "SCR-12",
+      "generator": "SVG author (tools/agents/svg_lib.py)",
+      "source": "Authored from claim library; no generated raster, no logo reproduction.",
+      "license": "Glean internal - partner enablement use",
+      "creator": "Graphics and Media agent (studio)",
+      "created": "2026-09-27",
+      "claim_ids": [
+        "C-195",
+        "C-174",
+        "C-170",
+        "C-215"
+      ],
+      "alt": "Four hard gates for the implementation lab.",
+      "bytes": 4329
+    },
+    {
+      "asset_id": "BLD-202-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "screen_id": null,
+      "generator": "Approved brand file (shared/assets/brand)",
+      "source": "Glean Branding Style 2026 skill; official vector wordmark approved 2026-09-25.",
+      "license": "Glean trademark - use per brand guidelines",
+      "creator": "Glean brand",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean",
+      "bytes": 4353
+    }
+  ]
+}

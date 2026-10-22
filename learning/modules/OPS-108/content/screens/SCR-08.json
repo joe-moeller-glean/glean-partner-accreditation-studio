@@ -1,0 +1,32 @@
+{
+  "id": "SCR-08",
+  "archetype": "A12",
+  "objective": "OBJ-03",
+  "eyebrow": "Review the draft",
+  "title": "What is wrong with this post?",
+  "type": "choice",
+  "prompt": "Draft forum post: \"Our connector fails for one user. Here is our instance URL, the user's email address, and the full error log. Can anyone help?\"",
+  "options": [
+    {
+      "id": "o2",
+      "text": "Nothing. More detail always gets a faster answer.",
+      "feedback": "Not this one. The guidelines say not to share confidential or personal data, however helpful it seems."
+    },
+    {
+      "id": "o3",
+      "text": "It should be posted in a group instead of the forum.",
+      "feedback": "Not this one. The guidelines apply everywhere in the community, and an instance error belongs in a ticket."
+    },
+    {
+      "id": "o1",
+      "text": "It shares confidential and personal data, and it describes an instance error. Remove the details and open a support ticket instead.",
+      "correct": true,
+      "feedback": "Correct. Keep confidential and personal data out of the community, and send instance bugs and errors to a support ticket."
+    }
+  ],
+  "takeaway": "Share the pattern in the community. Keep private evidence in a ticket.",
+  "claims": [
+    "C-307",
+    "C-305"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "SCR-06",
+  "archetype": "A3",
+  "objective": "OBJ-03",
+  "eyebrow": "Monitoring",
+  "title": "Alerts that catch real failures",
+  "bullets": [
+    "Non-zero exits: failures re-raise so the scheduler sees them.",
+    "A sharp drop in documents_indexed between runs: the partial-crawl signal.",
+    "A gap between uploaded and indexed counts per object type, and in identity counts.",
+    "Users show UPLOAD COMPLETED but indexed counts stay low: processing is not done, or pagination flags are wrong.",
+    "Cloud telemetry plugins are tested only against mocks: validate them in staging before you rely on them."
+  ],
+  "claims": [
+    "C-165",
+    "C-204",
+    "C-322",
+    "C-072",
+    "C-074",
+    "C-219"
+  ]
+}

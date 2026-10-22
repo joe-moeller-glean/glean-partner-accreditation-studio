@@ -1,0 +1,33 @@
+{
+  "id": "SCR-10",
+  "archetype": "A6",
+  "objective": "OBJ-05",
+  "eyebrow": "Decision",
+  "title": "A facet on someone else's documents",
+  "type": "choice",
+  "prompt": "The customer wants a Clinic ID filter on files the native Drive connector already indexes. Which mechanism fits?",
+  "options": [
+    {
+      "id": "o2",
+      "text": "A custom property on the Drive datasource.",
+      "feedback": "Custom properties belong to a datasource you index. Native and custom connectors use separate namespaces."
+    },
+    {
+      "id": "o3",
+      "text": "Re-index the Drive files through a custom connector with the property.",
+      "feedback": "That duplicates a native connector and moves support to you."
+    },
+    {
+      "id": "o1",
+      "correct": true,
+      "text": "Custom Metadata on the native Drive documents.",
+      "feedback": "Right. Custom Metadata attaches to documents from any datasource, including native connectors, without re-indexing."
+    }
+  ],
+  "takeaway": "Properties for your datasource; metadata for anyone's.",
+  "claims": [
+    "C-100",
+    "C-080",
+    "C-035"
+  ]
+}

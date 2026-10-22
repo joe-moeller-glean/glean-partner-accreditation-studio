@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Custom Connector Best Practices</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#screen">Skip to module content</a>
+<header class="bar">
+  <div class="brand"><img class="logo" src="assets/brand/glean-wordmark-electric-blue.svg" alt="Glean" width="59" height="24"></div>
+  <div class="bar-meta">
+    <span id="mtitle" class="mtitle">Loading module</span>
+    <label class="prog"><span id="ptext">0%</span>
+      <progress id="prog" max="100" value="0"></progress>
+    </label>
+  </div>
+</header>
+<div class="layout">
+  <nav class="rail" aria-label="Module path">
+    <ol id="map" class="map"></ol>
+  </nav>
+  <main id="screen" class="screen" aria-live="polite"></main>
+</div>
+<footer class="bar foot">
+  <p id="objective" class="objective"></p>
+  <div class="nav">
+    <button id="prev" type="button" class="ghost">Back</button>
+    <button id="next" type="button" class="primary">Continue</button>
+  </div>
+</footer>
+<p id="status" class="sr" role="status"></p>
+<script src="scorm.js"></script>
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

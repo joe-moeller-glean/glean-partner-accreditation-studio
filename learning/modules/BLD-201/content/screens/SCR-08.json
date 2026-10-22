@@ -1,0 +1,46 @@
+{
+  "id": "SCR-08",
+  "archetype": "A5",
+  "objective": "OBJ-05",
+  "eyebrow": "Freshness and deletion",
+  "title": "One strategy per object family",
+  "table": {
+    "caption": "Freshness and deletion mechanisms",
+    "head": [
+      "Mechanism",
+      "What it does",
+      "Watch for"
+    ],
+    "rows": [
+      [
+        "Incremental",
+        "Every 15 to 60 minutes, keeps search fresh at low cost",
+        "Needs a durable checkpoint and a reliable source-side deletion signal"
+      ],
+      [
+        "Full run",
+        "Nightly or weekly, reconciles deletions and repairs drift",
+        "Replaces everything; must be proven complete"
+      ],
+      [
+        "Explicit deletes",
+        "Removes what the source reports as deleted",
+        "Only as good as the source's deletion signal"
+      ],
+      [
+        "Permission refresh",
+        "Pushes ACL and membership changes that have no content edit",
+        "Processed asynchronously; schedule to the removal target"
+      ]
+    ]
+  },
+  "footnote": "Partner guidance suggests incremental plus monthly full runs; SDK guidance suggests nightly or weekly. Choose by how long the source keeps its deletion signal.",
+  "claims": [
+    "C-175",
+    "C-174",
+    "C-176",
+    "C-116",
+    "C-257",
+    "C-239"
+  ]
+}

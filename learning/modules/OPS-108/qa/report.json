@@ -1,0 +1,73 @@
+{
+  "module_id": "OPS-108",
+  "version": "1.0.0",
+  "built_on": "2026-09-26",
+  "design_system": "paged-v1",
+  "accreditation": null,
+  "release_state": "built_not_released",
+  "gates": {
+    "scope": "pass",
+    "identifier_resolution": "pass - new IDs approved by owner 2026-09-26",
+    "source_traceability": "pass",
+    "claim_verification": "pass",
+    "learning_alignment": "pass",
+    "editorial_quality": "pass",
+    "brand_conformance": "pass (lint)",
+    "graphics_conformance": "pass (svg_lib brand rules)",
+    "accessibility": "partial - desktop browser evidence only",
+    "scorm_structure": "pass (validate_scorm.py)",
+    "runtime_behaviour": "pass (runtime_qa.js)",
+    "regression": "n/a - first build",
+    "offline_security": "pass - no external runtime references (lint, validate)",
+    "package_hygiene": "pass - runtime files only; key.json and authoring files excluded",
+    "visual_browser_evidence": "partial - see browser_qa",
+    "release_metadata": "not started - no tag, release, or push"
+  },
+  "lint": {
+    "state": "pass"
+  },
+  "package": {
+    "state": "pass",
+    "zip": "OPS-108-v1.0.0-scorm12.zip",
+    "bytes": 18049,
+    "sha256": "70b4b8aeb15b776846d3809a9c5d4240c682cd78b9d06c9b9e09b4e5e22bc3af"
+  },
+  "runtime_qa": {
+    "state": "pass",
+    "harness": "tools/agents/runtime_qa.js",
+    "cross_module_isolation": "pass (run with both modules)"
+  },
+  "browser_qa": {
+    "browser": "Glean in-app headless browser over local HTTP (http://127.0.0.1:8765)",
+    "viewport": "1280x800",
+    "screens_rendered": [
+      "SCR-01",
+      "SCR-03",
+      "SCR-07",
+      "SCR-10"
+    ],
+    "interactions_exercised": [
+      "quiz answered correctly and submitted: 'Score 100% (mastery 80%): passed'",
+      "fresh start at 9% after OPS-107 on the same origin"
+    ],
+    "not_rendered_in_browser": [
+      "SCR-02",
+      "SCR-04",
+      "SCR-05",
+      "SCR-06",
+      "SCR-08",
+      "SCR-09",
+      "SCR-11"
+    ],
+    "blocked": "External Chrome could not start from the sandbox; page-JavaScript probes were not approved. Overflow and broken-image counts were not measured."
+  },
+  "defects_fixed_during_qa": [
+    "Quiz option text collided on the harness's 25-character match (OPS-107 Q-04, OPS-108 Q-03/Q-04); options rewritten to be distinct.",
+    "Every correct answer sat in position 1 because the shared runtime does not shuffle; positions now vary deterministically."
+  ],
+  "blockers_to_release": [
+    "SME-01 and SME-02 open (partner filing path; post-ticket escalation path)",
+    "Mobile-width and full-screen browser pass not completed",
+    "Not yet added to the Module Tracker or an accreditation"
+  ]
+}

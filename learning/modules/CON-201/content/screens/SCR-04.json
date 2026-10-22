@@ -1,0 +1,42 @@
+{
+  "id": "SCR-04",
+  "archetype": "A4",
+  "objective": "OBJ-01",
+  "eyebrow": "The pipeline",
+  "title": "Stage by stage",
+  "body": "Open each stage for what happens there.",
+  "asset": "CON-201-A01",
+  "hotspots": [
+    {
+      "label": "Fetch or push",
+      "detail": "Connectors fetch data, including permissions. A custom connector pushes instead, from wherever it runs; Glean places no constraints on where that is."
+    },
+    {
+      "label": "Parse",
+      "detail": "Item content such as title, body, comments, and media is parsed together with permissions."
+    },
+    {
+      "label": "Process",
+      "detail": "Processing verifies identities and access data and waits for required dependencies. Glean expands derived groups and memberships."
+    },
+    {
+      "label": "Index and graph",
+      "detail": "Connectors populate the index plus identity and permission structures; the graph layers structure and signals on top of that data."
+    },
+    {
+      "label": "Query",
+      "detail": "The runtime chooses index, live, or hybrid paths per request. Retrieved snippets are passed to the model to condition the answer."
+    }
+  ],
+  "claims": [
+    "C-003",
+    "C-041",
+    "C-044",
+    "C-004",
+    "C-234",
+    "C-073",
+    "C-018",
+    "C-023",
+    "C-026"
+  ]
+}

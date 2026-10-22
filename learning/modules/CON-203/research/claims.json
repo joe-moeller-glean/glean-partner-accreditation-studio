@@ -1,0 +1,785 @@
+{
+  "module_id": "CON-203",
+  "claims": [
+    {
+      "claim_id": "C-050",
+      "text": "The Indexing (Push) API pushes documents, users, permissions, metadata.",
+      "excerpt": "The Indexing API (also known as the Push API) pushes documents, users, permissions, and metadata to Glean.",
+      "source_ids": [
+        "S-06"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-051",
+      "text": "The Client API is for custom client interfaces.",
+      "excerpt": "The Client API enables implementation of a custom client interface to interact with the Glean system.",
+      "source_ids": [
+        "S-06"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-052",
+      "text": "Indexing API accepts only Glean-issued tokens.",
+      "excerpt": "The Indexing API only supports Glean-issued tokens - OAuth authentication is not available.",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-133",
+      "text": "Activity uses a Client API token.",
+      "excerpt": "the activity endpoint needs to be called with a client API bearer token (as opposed to an indexing API bearer token for other endpoints).",
+      "source_ids": [
+        "S-36"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-134",
+      "text": "Activity needs a global Client token scoped to ACTIVITY.",
+      "excerpt": "we need a Global client API token scoped to ACTIVITY.",
+      "source_ids": [
+        "S-36"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-150",
+      "text": "The SDK is a client for the Indexing API.",
+      "excerpt": "The SDK is a client for the Indexing API, not a replacement - the API documentation stays the reference for the wire protocol.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-158",
+      "text": "Datasource name: ASCII letters and digits only.",
+      "excerpt": "CustomDatasourceConfig.name may contain only ASCII letters and digits",
+      "source_ids": [
+        "S-33"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-119",
+      "text": "urlRegex must be neither too broad nor too narrow.",
+      "excerpt": "Avoid regexes that are too broad, and will capture URLs from other datasources, or regexes that are too narrow",
+      "source_ids": [
+        "S-18"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-118",
+      "text": "isUserReferencedByEmail decides email vs ID references.",
+      "excerpt": "This should be set to true if you want to refer to user identities using emails directly.",
+      "source_ids": [
+        "S-18"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-121",
+      "text": "Datasource category affects ranking.",
+      "excerpt": "Choosing the appropriate type enables enhanced ranking.",
+      "source_ids": [
+        "S-40"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-120",
+      "text": "Set per-object category with docCategory.",
+      "excerpt": "please set each category using objectDefinitions.docCategory",
+      "source_ids": [
+        "S-40"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-122",
+      "text": "Do not use the PEOPLE category.",
+      "excerpt": "This should not be used, please instead use the /bulkindexemployees API to upload data about employees",
+      "source_ids": [
+        "S-40"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-123",
+      "text": "Test datasources have ranking signals off.",
+      "excerpt": "All ranking signals are turned off from a test datasource.",
+      "source_ids": [
+        "S-38"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-124",
+      "text": "Beta users still need document permissions.",
+      "excerpt": "For a document to be visible to beta users, they must also have appropriate permissions to view it.",
+      "source_ids": [
+        "S-38"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-094",
+      "text": "JSON and XML MIME types are not supported for content.",
+      "excerpt": "application/jsonJSON fileapplication/xmlXML file",
+      "source_ids": [
+        "S-39"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-090",
+      "text": "Items over 64 MB index metadata and permissions only.",
+      "excerpt": "If the size is GREATER than 64 MB, the crawler WILL NOT download the item contents and will only download the metadata and permissions information for indexing.",
+      "source_ids": [
+        "S-10"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-091",
+      "text": "Indexable text is truncated at 16.875 MB.",
+      "excerpt": "If the content is greater than 16.875 MB, then the first 16.875 MB of content will be stored and fed to the indexer.",
+      "source_ids": [
+        "S-10"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-092",
+      "text": "Spreadsheets index about 250,000 characters.",
+      "excerpt": "By default, approximately 250,000 characters of spreadsheet content are indexed.",
+      "source_ids": [
+        "S-10"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-093",
+      "text": "Apply the size limits to custom connectors too.",
+      "excerpt": "This speaks to Native Connector size limits, but should also be followed for Indexing documents into a Custom Connector",
+      "source_ids": [
+        "S-46"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-153",
+      "text": "Timestamps are epoch seconds.",
+      "excerpt": "created_at and updated_at must be epoch seconds, not ISO strings.",
+      "source_ids": [
+        "S-32"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-058",
+      "text": "413 means the request is too large; split it.",
+      "excerpt": "413 Request Entity Too LargeDocument/request too largeSplit into smaller requests or use bulk operations",
+      "source_ids": [
+        "S-15"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-137",
+      "text": "/indexdocument 10 rps; /indexdocuments 600 docs/min.",
+      "excerpt": "/indexdocument10 requests per second/indexdocuments600 documents per minute",
+      "source_ids": [
+        "S-37"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-102",
+      "text": "/indexdocuments is for incremental updates.",
+      "excerpt": "/indexdocuments: This endpoint is intended for incremental updates.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-101",
+      "text": "Bulk indexing replaces the datasource; omitted documents are deleted.",
+      "excerpt": "Bulk indexing fully replaces the entire list of documents stored in Glean. After a successful bulk upload, all documents that were not a part of the most recent upload are deleted asynchronously.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-109",
+      "text": "One unique uploadId per upload session.",
+      "excerpt": "You need to have a unique uploadId for all the paginated requests you send for an upload.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-105",
+      "text": "No concurrent bulk uploads.",
+      "excerpt": "Concurrent uploads are not allowed ie. you cannot start a new upload before the previous upload is finished.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-106",
+      "text": "After a failed upload, forceRestartUpload is required.",
+      "excerpt": "Not specifying this bit in case of an unsuccessful previous upload will fail the request.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-075",
+      "text": "/processalldocuments reprocesses without a new upload.",
+      "excerpt": "This re-indexes all previously uploaded documents without requiring a new upload.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-108",
+      "text": "Use /processalldocuments for immediate deletions.",
+      "excerpt": "If you wish for deletions to take effect immediately, use /processalldocuments endpoint.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-079",
+      "text": "/processalldocuments: once every 3 hours per datasource.",
+      "excerpt": "/processalldocuments1 request every 3 hours per data source",
+      "source_ids": [
+        "S-37"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-107",
+      "text": "Stale deletion pauses 7 days above 20%.",
+      "excerpt": "we have a deletion check in place which pauses the deletion of stale documents for 7 days if the percentage of docs being deleted exceeds 20%.",
+      "source_ids": [
+        "S-13"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-111",
+      "text": "Index users before referencing them.",
+      "excerpt": "When using non-anonymous permissions, users need to be indexed before being referenced.",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-114",
+      "text": "Index a group before its memberships.",
+      "excerpt": "groupName: A group with this particular groupName must be indexed before indexing memberships for it.",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-112",
+      "text": "Indexing a user grants no document access.",
+      "excerpt": "Note that this does not give permissions to the users to search for the document",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-115",
+      "text": "Nested groups use memberGroupName.",
+      "excerpt": "that can be done by using the memberGroupName field in place of the memberUserId field",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-113",
+      "text": "Group names: no whitespace, not empty, no 'scio' prefix.",
+      "excerpt": "Cannot start with the prefix \"scio\"",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-116",
+      "text": "Permissions and memberships process asynchronously.",
+      "excerpt": "Permissions and memberships are processed asynchronously",
+      "source_ids": [
+        "S-16"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-076",
+      "text": "Use /processallmemberships for identity problems.",
+      "excerpt": "For issues with user or group permissions rather than document content, use /processallmemberships instead.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-198",
+      "text": "Intersection semantics.",
+      "excerpt": "A user must belong to every group within one entry; multiple entries are alternative intersections.",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-117",
+      "text": "allowAnonymousAccess exposes the document to every signed-in user.",
+      "excerpt": "allowAnonymousAccessIf set to true, anyone who is signed into Glean can view search results for the document",
+      "source_ids": [
+        "S-17"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-071",
+      "text": "allowAllDatasourceUsersAccess requires the user to be indexed as a datasource user.",
+      "excerpt": "allowAllDatasourceUsersAccess is true and user has been indexed as a user of the connector",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-125",
+      "text": "Define custom properties before uploading.",
+      "excerpt": "It is highly recommended to configure custom properties first and then upload documents with the custom properties.",
+      "source_ids": [
+        "S-34"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-130",
+      "text": "Custom property updates need a full re-upload.",
+      "excerpt": "Updating a custom property requires re-uploading the entire document via /indexdocument.",
+      "source_ids": [
+        "S-35"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-132",
+      "text": "Only Custom Properties support INT, DATE, USERID.",
+      "excerpt": "Custom Properties support INT, DATE, and USERID types; Custom Metadata does not.",
+      "source_ids": [
+        "S-35"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-100",
+      "text": "Custom Metadata works on any datasource without re-indexing.",
+      "excerpt": "It can attach metadata to documents from any datasource, including native connectors, without re-indexing the source document.",
+      "source_ids": [
+        "S-11"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-131",
+      "text": "Re-indexing does not change Custom Metadata.",
+      "excerpt": "Re-indexing a document via the Indexing API does not affect Custom Metadata attached to it.",
+      "source_ids": [
+        "S-35"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-126",
+      "text": "INT properties are not faceted.",
+      "excerpt": "propertyType \"INT\" is not faceted.",
+      "source_ids": [
+        "S-34"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-127",
+      "text": "DATE facets need epoch seconds.",
+      "excerpt": "propertyType \"DATE\" is only faceted if specified value is an epoch timestamp in seconds.",
+      "source_ids": [
+        "S-34"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-128",
+      "text": "Rendering properties in results needs Glean support.",
+      "excerpt": "Contact Glean support to show the custom property to the search result as per your preference.",
+      "source_ids": [
+        "S-34"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-129",
+      "text": "The 'country' property is a location ranking signal.",
+      "excerpt": "its value is used as a ranking signal to personalize results based on the searcher's location.",
+      "source_ids": [
+        "S-34"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-077",
+      "text": "Custom property validation fails fast on the first error.",
+      "excerpt": "Validation stops at the first invalid custom property it encounters.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-080",
+      "text": "Native and custom connectors use separate namespaces.",
+      "excerpt": "Native and custom connectors occupy separate namespaces in Glean.",
+      "source_ids": [
+        "S-08"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-035",
+      "text": "Use an existing connector before building a new one.",
+      "excerpt": "Work to leverage an existing connector first before building a new one",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-135",
+      "text": "No activity means weaker ranking.",
+      "excerpt": "There would be limited signals available due to no activity being pushed, so rankings of search results will be suboptimal.",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-136",
+      "text": "Custom results can be outranked without signals.",
+      "excerpt": "Results from your custom connector are more likely to be outranked by results from other connectors due to stronger ranking signals.",
+      "source_ids": [
+        "S-44"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-138",
+      "text": "Deployment limit: 8,000 rpm across IPs.",
+      "excerpt": "8,000 requests per minute across all IP addresses",
+      "source_ids": [
+        "S-37"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-139",
+      "text": "Deployment limit: 100 rps from one IP.",
+      "excerpt": "100 requests per second from a single IP address",
+      "source_ids": [
+        "S-37"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-140",
+      "text": "/indexdocument can return 400, 401, 409, 429.",
+      "excerpt": "OK Bad Request Not Authorized Conflict Too Many Requests",
+      "source_ids": [
+        "S-42"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-070",
+      "text": "Documents are searchable after processingHistory passes bulkUploadHistory.",
+      "excerpt": "After documents are uploaded, they will be queued for processing. New documents will be available in search results when the processingHistory timestamp is after the bulkUploadHistory.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-072",
+      "text": "UPLOAD COMPLETED is acceptance, not searchability.",
+      "excerpt": "UPLOAD COMPLETED only means the API accepted your upload. It doesn't mean users are indexed and searchable.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-074",
+      "text": "Wrong pagination flags can make a partial upload look complete.",
+      "excerpt": "Incorrect pagination can cause partial uploads to be treated as complete.",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-078",
+      "text": "Support tickets need issue, endpoint/body, connector name, timestamp/timezone.",
+      "excerpt": "Description of the issue including error message",
+      "source_ids": [
+        "S-07"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-103",
+      "text": "The datasource must be enabled for search.",
+      "excerpt": "For the indexed document to show up in Glean UI, the datasource must be enabled for search.",
+      "source_ids": [
+        "S-12"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-049",
+      "text": "First-run: one public, then one permissioned document, then scale.",
+      "excerpt": "Index a single public sample document and confirm it appears in search. Then index one permissioned document and confirm only authorized users can see it. Once both behave correctly, scale up.",
+      "source_ids": [
+        "S-05"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-197",
+      "text": "Do not flatten groups into users.",
+      "excerpt": "Don't flatten groups into user lists",
+      "source_ids": [
+        "S-20"
+      ],
+      "verdict": "verified",
+      "verified_on": "2026-09-26",
+      "checked_by": "Fact Integrity Auditor (studio)",
+      "learner_facing": true
+    }
+  ]
+}

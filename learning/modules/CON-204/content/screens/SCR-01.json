@@ -1,0 +1,13 @@
+{
+  "id": "SCR-01",
+  "archetype": "A1",
+  "objective": "OBJ-04",
+  "eyebrow": "Cold open",
+  "title": "Every page indexed, no one can see them",
+  "body": "The streaming connector indexed all 38,400 policy pages. Every restricted page is invisible to everyone. The ACLs look right. The groups they name were never pushed, because streaming connectors do not run the identity crawl. The SDK removes most of the plumbing; it does not remove the need to know what it skips.",
+  "footnote": "Composite, fictional case used across this accreditation. Product behavior is sourced; the customer environment and its numbers are invented for practice.",
+  "claims": [
+    "C-166",
+    "C-196"
+  ]
+}

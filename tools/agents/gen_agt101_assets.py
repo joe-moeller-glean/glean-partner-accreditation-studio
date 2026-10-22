@@ -4,7 +4,7 @@ BASE = pathlib.Path("learning/modules/AGT-101/assets")
 (BASE / "icons").mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- line icons
-# 24x24 grid, 1.5 stroke, currentColor, no fill. Hairline visual language.
+# 24x24 grid, 1.75 stroke (brand LOGO.md icon spec), currentColor, no fill.
 ICONS = {
  "define":  '<circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/>',
  "layers":  '<path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/>',
@@ -29,32 +29,42 @@ ICONS = {
 for name, body in ICONS.items():
     svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" '
-        f'stroke="currentColor" stroke-width="1.5" stroke-linecap="round" '
+        f'stroke="currentColor" stroke-width="1.75" stroke-linecap="round" '
         f'stroke-linejoin="round" role="img" aria-hidden="true">'
         f'<title>{name} icon</title>{body}</svg>'
     )
     (BASE / "icons" / f"{name}.svg").write_text(svg + "\n")
 
 # ---------------------------------------------------------------- hero render
-# Fluid gradient band, brand blues only, decorative.
+# Fluid band in the brand indigo/sunset hero direction over the oatmeal corner wash.
+# Decorative only; carries no information.
 hero = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 380" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
   <title>Decorative gradient ribbon</title>
   <defs>
+    <radialGradient id="wt" cx="1.02" cy="-0.08" r="0.62">
+      <stop offset="0" stop-color="#DEEEF0"/><stop offset=".7" stop-color="#DEEEF0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wo" cx="-0.06" cy="1.06" r="0.5">
+      <stop offset="0" stop-color="#F0C2F2"/><stop offset=".72" stop-color="#F0C2F2" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1017B1"/>
-      <stop offset=".45" stop-color="#343CED"/>
-      <stop offset="1" stop-color="#F6F3EB"/>
+      <stop offset="0" stop-color="#2B228C"/>
+      <stop offset=".5" stop-color="#4035C0"/>
+      <stop offset="1" stop-color="#6B5AE0" stop-opacity=".35"/>
     </linearGradient>
     <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#343CED" stop-opacity=".85"/>
-      <stop offset="1" stop-color="#F6F3EB" stop-opacity=".2"/>
+      <stop offset="0" stop-color="#F374AD" stop-opacity=".8"/>
+      <stop offset=".55" stop-color="#FA9183" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#FFCFBC" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="g3" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F6F3EB" stop-opacity=".65"/>
-      <stop offset="1" stop-color="#343CED" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <rect width="1120" height="380" fill="#F6F3EB"/>
+  <rect width="1120" height="380" fill="url(#wt)"/>
+  <rect width="1120" height="380" fill="url(#wo)"/>
   <path d="M-40 250 C 200 90, 380 330, 620 190 S 940 40, 1160 150 L 1160 380 L -40 380 Z" fill="url(#g1)"/>
   <path d="M-40 300 C 240 170, 420 360, 660 250 S 980 130, 1160 220 L 1160 380 L -40 380 Z" fill="url(#g2)"/>
   <path d="M-40 210 C 180 120, 400 260, 600 170" fill="none" stroke="url(#g3)" stroke-width="2"/>
@@ -68,35 +78,36 @@ hero = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 380" role="i
 anatomy = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 460" role="img" aria-labelledby="anatomy-title anatomy-desc">
   <title id="anatomy-title">The five building blocks of a Glean Agent</title>
   <desc id="anatomy-desc">A stacked diagram. Goal and instructions sits at the top and governs the agent. Knowledge and context feeds in from the left. Tools and actions feed in from the right. Execution sits in the centre and runs the work in either Auto mode or Workflow mode. Output and memory sits at the bottom and returns results while retaining context during the run.</desc>
-  <g fill="none" stroke="#C7C7AB" stroke-width="1">
-    <rect x="140" y="20" width="240" height="64" rx="8"/>
-    <rect x="20" y="150" width="170" height="64" rx="8"/>
-    <rect x="330" y="150" width="170" height="64" rx="8"/>
-    <rect x="140" y="196" width="240" height="84" rx="8" stroke="#000000"/>
-    <rect x="140" y="370" width="240" height="64" rx="8"/>
+  <rect width="520" height="460" rx="12" fill="#F6F3EB"/>
+  <g fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+    <rect x="140" y="20" width="240" height="64" rx="12"/>
+    <rect x="20" y="130" width="170" height="64" rx="12"/>
+    <rect x="330" y="130" width="170" height="64" rx="12"/>
+    <rect x="140" y="226" width="240" height="84" rx="12" stroke="#343CED" stroke-width="2"/>
+    <rect x="140" y="370" width="240" height="64" rx="12"/>
   </g>
-  <g stroke="#C7C7AB" stroke-width="1" fill="none" stroke-dasharray="3 3">
-    <path d="M260 84 L260 196"/>
-    <path d="M190 182 L260 182"/>
-    <path d="M330 182 L260 182"/>
-    <path d="M260 280 L260 370"/>
+  <g stroke="rgba(0,0,0,0.35)" stroke-width="1.5" fill="none" stroke-linecap="round">
+    <path d="M260 84 L260 226"/>
+    <path d="M190 162 L260 162"/>
+    <path d="M330 162 L260 162"/>
+    <path d="M260 310 L260 370"/>
   </g>
-  <g fill="#000000" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
+  <g fill="#666666" font-family="PolySans Mono,IBM Plex Mono,Roboto Mono,Menlo,monospace" font-size="11" letter-spacing="0.04em">
     <text x="156" y="42">01</text>
-    <text x="36" y="172">02</text>
-    <text x="346" y="172">03</text>
-    <text x="156" y="222">04</text>
+    <text x="36" y="152">02</text>
+    <text x="346" y="152">03</text>
+    <text x="156" y="252">04</text>
     <text x="156" y="392">05</text>
   </g>
-  <g fill="#000000" font-family="DM Sans,Arial,sans-serif" font-size="14" font-weight="500">
+  <g fill="#000000" font-family="PolySans,DM Sans,Arial,sans-serif" font-size="14" font-weight="500">
     <text x="156" y="64">Goal and instructions</text>
-    <text x="36" y="194">Knowledge and context</text>
-    <text x="346" y="194">Tools and actions</text>
-    <text x="156" y="244">Execution</text>
+    <text x="36" y="174">Knowledge and context</text>
+    <text x="346" y="174">Tools and actions</text>
+    <text x="156" y="274">Execution</text>
     <text x="156" y="414">Output and memory</text>
   </g>
-  <g fill="#3A3A3A" font-family="DM Sans,Arial,sans-serif" font-size="11">
-    <text x="156" y="264">Auto mode or Workflow mode</text>
+  <g fill="#666666" font-family="PolySans,DM Sans,Arial,sans-serif" font-size="11">
+    <text x="156" y="294">Auto mode or Workflow mode</text>
   </g>
 </svg>
 '''
@@ -105,10 +116,10 @@ anatomy = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 460" role=
 # ---------------------------------------------------------------- badge
 badge = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="badge-title">
   <title id="badge-title">Glean Agents Foundations completion mark</title>
-  <circle cx="60" cy="60" r="52" fill="none" stroke="#C7C7AB"/>
-  <circle cx="60" cy="60" r="44" fill="none" stroke="#343CED" stroke-width="2"/>
-  <path d="M46 61l10 10 20-22" fill="none" stroke="#343CED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="60" y="96" text-anchor="middle" fill="#3A3A3A" font-family="SFMono-Regular,Menlo,monospace" font-size="9">AGT-101</text>
+  <circle cx="60" cy="60" r="56" fill="#111314"/>
+  <circle cx="60" cy="60" r="44" fill="none" stroke="rgba(255,255,255,0.14)"/>
+  <path d="M46 58l10 10 20-22" fill="none" stroke="#D8FD49" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="60" y="92" text-anchor="middle" fill="#FFFFFF" font-family="PolySans Mono,IBM Plex Mono,Menlo,monospace" font-size="9" letter-spacing="0.04em">AGT-101</text>
 </svg>
 '''
 (BASE / "badge.svg").write_text(badge)

@@ -1,0 +1,128 @@
+{
+  "module_id": "CON-202",
+  "checked_on": "2026-09-27",
+  "state": "pass",
+  "claim_count": 39,
+  "source_count": 15,
+  "verification": "Every claim excerpt matched verbatim against saved source text by plan/custom-connectors/tools/build_ledger.py.",
+  "unsourced_claims": [],
+  "internal_claims_in_module": [],
+  "verdicts": {
+    "verified": 39,
+    "unsupported": 0,
+    "stale": 0,
+    "conflicted": 0
+  },
+  "studio_guidance_disclosed": [],
+  "open_questions": [
+    "Partner access to Glean-hosted deployment for partner-built connectors is unconfirmed; the module tells learners to confirm with their Partner Manager.",
+    "Bulk-upload endpoint rate limit is not in the reviewed sources; sizing uses documented /indexdocument and /indexdocuments limits only."
+  ],
+  "source_ledger": [
+    {
+      "source_id": "S-01",
+      "title": "About connectors",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-02",
+      "title": "How connectors power the Glean experience",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-03",
+      "title": "Overview of custom data source",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-04",
+      "title": "Choose a deployment model",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-10",
+      "title": "Crawl and index limits",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-16",
+      "title": "Permissions (Indexing API guide)",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-18",
+      "title": "Setup Datasource",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-19",
+      "title": "Indexing SDK — Indexing modes",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-20",
+      "title": "Indexing SDK — Permissions",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-22",
+      "title": "Indexing SDK — Connector types",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-27",
+      "title": "Indexing SDK — Rate limiting",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-32",
+      "title": "Indexing SDK — Overview",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-37",
+      "title": "Rate Limits and Retries",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-44",
+      "title": "Glean Partner Content | Custom Connector Best Practices (deck, April 2026)",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2027-03-26"
+    },
+    {
+      "source_id": "S-45",
+      "title": "[External] Glean Partner Content | Custom Connector Questionnaire",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2027-03-26"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "SCR-03",
+  "archetype": "A5",
+  "objective": "OBJ-01",
+  "eyebrow": "Operating models",
+  "title": "Hosted or self-hosted, in operation",
+  "table": {
+    "caption": "What changes in operation",
+    "head": [
+      "Model",
+      "In operation"
+    ],
+    "rows": [
+      [
+        "Glean-hosted",
+        "Runs in the Glean cloud instance; crawls can be scheduled like native connectors"
+      ],
+      [
+        "Self-hosted",
+        "Runs in the customer's environment, which must allow pushes to Glean's indexing endpoints"
+      ],
+      [
+        "Either",
+        "Hosting determines how secrets, scheduling, and networking are handled"
+      ],
+      [
+        "Scheduler",
+        "A VM cron job, a Cloud Run or Lambda job, an Airflow task, or a scheduled CI workload can run it"
+      ]
+    ]
+  },
+  "claims": [
+    "C-042",
+    "C-046",
+    "C-047",
+    "C-045",
+    "C-217"
+  ]
+}

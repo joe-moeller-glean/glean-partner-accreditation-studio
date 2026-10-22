@@ -1,0 +1,16 @@
+{
+  "id": "SCR-02",
+  "archetype": "A2",
+  "objective": "OBJ-01",
+  "eyebrow": "What you will be able to do",
+  "title": "Write only the source-specific parts",
+  "bullets": [
+    "Explain the pipeline and run lifecycle.",
+    "Choose the base class and data client.",
+    "Configure paging, pacing, retries, and a completeness guard.",
+    "Write transform with stable IDs, epoch timestamps, and ACLs.",
+    "Run full and incremental modes safely.",
+    "Test in three phases, debug with the CLI, and review generated code."
+  ],
+  "claims": []
+}

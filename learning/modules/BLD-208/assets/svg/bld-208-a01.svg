@@ -1,21 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 428" width="100%" preserveAspectRatio="xMidYMid meet">
 <title>Layers of agent governance</title>
 <desc>Four governance layers from top to bottom: compliance and security checks in the implementation plan, approval and validation logic before system writes, retrieval guardrails defining answerable scope, and explicit fallback for low-confidence or out-of-scope questions.</desc>
-<rect x="0" y="0" width="560" height="428" fill="#F6F3EB"/>
+<defs><radialGradient id="wt" cx="1.02" cy="-0.08" r="0.62" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#DEEEF0"/><stop offset="0.7" stop-color="#DEEEF0" stop-opacity="0"/></radialGradient><radialGradient id="wo" cx="-0.06" cy="1.06" r="0.45" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#F0C2F2"/><stop offset="0.72" stop-color="#F0C2F2" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="0" width="560" height="428" fill="#F6F3EB"/><rect x="0" y="0" width="560" height="428" fill="url(#wt)"/><rect x="0" y="0" width="560" height="428" fill="url(#wo)"/>
 <text x="24" y="40" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000" text-anchor="start">Layers of agent governance</text>
-<rect x="24" y="64" width="512" height="76" rx="8" fill="#343CED" stroke="#000000" stroke-width="2"/>
-<text x="40" y="90" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">Compliance and security checks</text>
-<text x="40" y="112" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" text-anchor="start">Part of the implementation plan, alongside scope and</text>
-<text x="40" y="129" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" text-anchor="start">dates</text>
-<rect x="24" y="152" width="512" height="76" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="40" y="178" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Approval and validation before writes</text>
-<text x="40" y="200" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">Custom actions carry approvals and business logic</text>
-<text x="40" y="217" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">pre-write</text>
-<rect x="24" y="240" width="512" height="76" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="40" y="266" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Retrieval guardrails</text>
-<text x="40" y="288" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">A defined source set and explicit answerable scope</text>
-<rect x="24" y="328" width="512" height="76" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
-<text x="40" y="354" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#000000" text-anchor="start">Fallback behaviour</text>
-<text x="40" y="376" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">Defined response for low-confidence or out-of-scope</text>
-<text x="40" y="393" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#000000" text-anchor="start">questions</text>
+<rect x="24" y="64" width="512" height="76" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<rect x="24" y="64" width="4" height="76" rx="2" fill="#343CED"/>
+<text x="44" y="92" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Compliance and security checks</text>
+<text x="44" y="114" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Part of the implementation plan, alongside scope and</text>
+<text x="44" y="131" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">dates</text>
+<rect x="24" y="152" width="512" height="76" rx="12" fill="#F8F8F8" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="44" y="180" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Approval and validation before writes</text>
+<text x="44" y="202" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Custom actions carry approvals and business logic</text>
+<text x="44" y="219" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">pre-write</text>
+<rect x="24" y="240" width="512" height="76" rx="12" fill="#FFFFFF" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="44" y="268" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Retrieval guardrails</text>
+<text x="44" y="290" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">A defined source set and explicit answerable scope</text>
+<rect x="24" y="328" width="512" height="76" rx="12" fill="#F8F8F8" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+<text x="44" y="356" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#000000" text-anchor="start">Fallback behaviour</text>
+<text x="44" y="378" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">Defined response for low-confidence or out-of-scope</text>
+<text x="44" y="395" font-family="PolySans, DM Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#666666" text-anchor="start">questions</text>
 </svg>

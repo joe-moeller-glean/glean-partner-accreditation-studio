@@ -1,0 +1,20 @@
+{
+  "module_id": "ACC-107",
+  "checked_on": "2026-09-27",
+  "standard": "WCAG 2.2 AA",
+  "state": "pass_static_pending_full_browser",
+  "checks": {
+    "text_contrast_4_5": "pass - token pairs checked by lint_module.py",
+    "keyboard_complete": "pass - native buttons and selects only (shared paged-v1 runtime)",
+    "state_not_by_colour_alone": "pass - verdict text prefixes and aria-pressed",
+    "reduced_motion": "pass - prefers-reduced-motion present (lint)",
+    "image_alt_text": "pass - 3 assets with manifest alt text",
+    "headings": "pass - observed in browser: one h1 on first screen, h2 thereafter",
+    "skip_link": "pass - observed in browser as first element",
+    "progress_honesty": "pass - runtime QA and browser observation",
+    "zoom_320px_and_mobile": "not verified in a browser this run"
+  },
+  "open_issues": [
+    "Full-browser mobile and zoom pass outstanding"
+  ]
+}

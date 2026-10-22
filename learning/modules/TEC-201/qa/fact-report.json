@@ -1,0 +1,100 @@
+{
+  "module_id": "TEC-201",
+  "checked_on": "2026-09-27",
+  "state": "pass",
+  "claim_count": 24,
+  "source_count": 11,
+  "verification": "Every claim excerpt matched verbatim against saved source text by plan/custom-connectors/tools/build_ledger.py.",
+  "unsourced_claims": [],
+  "internal_claims_in_module": [],
+  "verdicts": {
+    "verified": 24,
+    "unsupported": 0,
+    "stale": 0,
+    "conflicted": 0
+  },
+  "studio_guidance_disclosed": [],
+  "open_questions": [
+    "Tracker duration is 0.8 h; this build is 1.6 h with the custom-connector delta (approval OD-3).",
+    "Native-connector prerequisites (app owner, scopes per connector) are out of scope here; they follow each native connector's setup page."
+  ],
+  "source_ledger": [
+    {
+      "source_id": "S-04",
+      "title": "Choose a deployment model",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-05",
+      "title": "Set up a custom connector",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-06",
+      "title": "Glean REST APIs",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-12",
+      "title": "Bulk Indexing",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-15",
+      "title": "Indexing API Authentication",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-18",
+      "title": "Setup Datasource",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-20",
+      "title": "Indexing SDK — Permissions",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-38",
+      "title": "Test Datasource",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-40",
+      "title": "Datasource Category",
+      "tier": 1,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2026-12-26"
+    },
+    {
+      "source_id": "S-44",
+      "title": "Glean Partner Content | Custom Connector Best Practices (deck, April 2026)",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2027-03-26"
+    },
+    {
+      "source_id": "S-45",
+      "title": "[External] Glean Partner Content | Custom Connector Questionnaire",
+      "tier": 2,
+      "verified_on": "2026-09-26",
+      "reverify_by": "2027-03-26"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "module_id": "BLD-201",
+  "key": {
+    "Q-01": {
+      "answer": "a",
+      "rationale": {
+        "b": "A rename changes the slug, creating a duplicate and deleting the old document on the next full run.",
+        "a": "Right. A changed ID is a new document, and bulk replacement removes the old one.",
+        "c": "Titles change and repeat.",
+        "d": "Every edit would create a new document."
+      }
+    },
+    "Q-11": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right. A simple database of document state makes freshness easier to ensure, and the SDK does not persist checkpoints.",
+        "b": "State that disappears with the process cannot drive incremental runs.",
+        "c": "The connector owns its state. The SDK does not persist checkpoints.",
+        "d": "The viewURL is the click-through link, not a state store."
+      }
+    },
+    "Q-02": {
+      "answer": "a",
+      "rationale": {
+        "b": "Do not flatten groups into user lists; they drift.",
+        "c": "That exposes documents to anyone signed into Glean.",
+        "d": "Metadata does not control access.",
+        "a": "Right. Consider roles a type of group."
+      }
+    },
+    "Q-03": {
+      "answer": "a",
+      "rationale": {
+        "b": "That would let either group read the page.",
+        "c": "Multiple entries are alternatives, so either would grant access.",
+        "a": "Right. A user must belong to every group within one entry.",
+        "d": "Clinic staff who are not pharmacists would gain access."
+      }
+    },
+    "Q-04": {
+      "answer": "a",
+      "rationale": {
+        "b": "Everything not fetched would be deleted as stale.",
+        "a": "Right. A full crawl must cover the entire scope before completing.",
+        "c": "If the retry is also short, the run is still partial.",
+        "d": "Smaller losses are still deleted."
+      }
+    },
+    "Q-05": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "Schedule does not make it correct.",
+        "c": "Batch size affects throughput, not correctness.",
+        "d": "Bulk is replacement, the opposite of incremental."
+      }
+    },
+    "Q-06": {
+      "answer": "a",
+      "rationale": {
+        "b": "A failure after that would skip changes on the next run.",
+        "c": "A failed run must not advance the checkpoint.",
+        "d": "The SDK does not persist checkpoints.",
+        "a": "Right."
+      }
+    },
+    "Q-07": {
+      "answer": "a",
+      "rationale": {
+        "b": "The default is deliberately conservative.",
+        "c": "The client retries 429 and 5xx codes; everything else fails immediately.",
+        "a": "Right. The default of 2 is one retry.",
+        "d": "Unbounded retries hide failures from the scheduler."
+      }
+    },
+    "Q-08": {
+      "answer": "a",
+      "rationale": {
+        "b": "Never blindly repeat the write.",
+        "a": "Right. Ambiguous failures are reconciled by reading state back.",
+        "c": "There is no Indexing API operation to delete a datasource registration.",
+        "d": "Uploads against an unknown configuration compound the problem."
+      }
+    },
+    "Q-09": {
+      "answer": "a",
+      "rationale": {
+        "a": "Right.",
+        "b": "Secrets in code or config leak with the repository.",
+        "c": "Log redaction covers logging only. Keep secrets out of messages.",
+        "d": "Images are copied and shared. Keep secrets out of them."
+      }
+    },
+    "Q-10": {
+      "answer": "a",
+      "rationale": {
+        "b": "A partial crawl can exit successfully.",
+        "c": "CPU does not reflect completeness.",
+        "d": "Too slow: the documents are already gone.",
+        "a": "Right."
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SCR-11",
+  "archetype": "A5",
+  "objective": "OBJ-04",
+  "eyebrow": "Read the flags literally",
+  "title": "Three broad settings that mean different things",
+  "table": {
+    "caption": "Who each setting lets see a document",
+    "head": [
+      "Setting",
+      "Who can see the document"
+    ],
+    "rows": [
+      [
+        "allowAnonymousAccess",
+        "Anyone who is signed into Glean"
+      ],
+      [
+        "allowAllDatasourceUsersAccess",
+        "Users who have been indexed as users of this datasource"
+      ],
+      [
+        "Indexing a user, with no ACL naming them",
+        "Nobody new: indexing a user grants no document access"
+      ]
+    ]
+  },
+  "footnote": "Never index sensitive content with an allow-all ACL for now.",
+  "claims": [
+    "C-117",
+    "C-071",
+    "C-112",
+    "C-195"
+  ]
+}

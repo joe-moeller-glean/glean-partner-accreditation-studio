@@ -1,0 +1,33 @@
+{
+  "id": "SCR-05",
+  "archetype": "A10",
+  "objective": "OBJ-02",
+  "eyebrow": "Myth versus reality",
+  "title": "Four design shortcuts reviewers reject",
+  "hotspots": [
+    {
+      "label": "Myth: bulk index every run; it is simpler.",
+      "detail": "Bulk indexing replaces the document list. Anything missing from the run is deleted. Use it for full runs that you have proven complete."
+    },
+    {
+      "label": "Myth: titles and URLs make fine IDs.",
+      "detail": "They change on rename. The new ID is a new document, and the old one is removed as stale."
+    },
+    {
+      "label": "Myth: flattening groups into users is safer.",
+      "detail": "Do not flatten groups into user lists. Map groups directly, and consider roles a type of group."
+    },
+    {
+      "label": "Myth: the source checks access on click, so ACLs can be loose.",
+      "detail": "Retrieved snippets are passed to the model before anyone clicks. The source check at click time comes too late."
+    }
+  ],
+  "claims": [
+    "C-101",
+    "C-170",
+    "C-197",
+    "C-235",
+    "C-026",
+    "C-025"
+  ]
+}
