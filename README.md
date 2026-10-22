@@ -46,19 +46,31 @@ See [learning/README.md](learning/README.md) for the concise hierarchy and schem
 │   ├── accreditations.json                  tracker snapshot used for drift validation
 │   ├── accreditations/                      accreditation-level plans
 │   ├── modules/                             module-level plans
+│   ├── jobs/                                one JSON contract per worker run
+│   ├── archive/                             superseded plans, not current procedure
 │   ├── queue.json                           ordered build queue
 │   ├── status.json                          resumable portfolio status
 │   ├── dependency-graph.json                prerequisites and build ordering
 │   ├── sales-blueprinting/                  SBP source workbook, lessons, and QA evidence
+│   ├── custom-connectors/                   Custom Connectors authoring source
+│   ├── roadmap-export/                      tracker export used to rebuild the queue
 │   └── feedback-history/                    archived review decisions, when created
 ├── shared/
 │   ├── theme/                               shared tokens and visual styling
 │   ├── scorm/                               reusable SCORM runtime code
 │   ├── assets/                              approved reusable media
 │   └── components/                          proven reusable UI components
-├── skills/                                  studio playbook, references, and core scripts
+├── skills/                                  procedures, standards, and core scripts
+│   ├── SKILL.md                             studio dispatcher
+│   ├── jobs/                                research, author, verify, and refresh procedures
+│   ├── references/                          build standard and rules those jobs read
+│   ├── scripts/                             lint, package, validate, scaffold, ledger, scan
+│   └── brand/                               Glean brand system, loaded when a job needs it
+├── .agents/
+│   ├── skills/                              Cursor loaders that point at skills/
+│   └── prompts/                             headless prompt stubs, not launched
 ├── tools/                                   program-specific generators, QA, packaging, review
-│   ├── agents/                              agent accreditation build and QA tools
+│   ├── portfolio/                           catalog, connector, support, and AGT-101 generators
 │   ├── feedback/                            development-only review framework
 │   └── sbp/                                 AI Blueprinting build and QA tools
 ├── tests/                                   unit, package-isolation, browser, and container tests
@@ -74,7 +86,9 @@ See [learning/README.md](learning/README.md) for the concise hierarchy and schem
 | Module authoring and runtime | `learning/modules/<id>/` plus program-specific authoring under `plan/` | Some generators produce module runtime from structured plans; edit the authoring source, then regenerate. |
 | Accreditation membership | `learning/accreditations/<id>/accreditation.yaml` | Required modules, electives, completion rules, overview module, and publish policy. |
 | Portfolio tracker snapshot | `plan/accreditations.json` | Validated against definitions to detect organizational drift. |
-| Shared runtime and design elements | `shared/` | Promote a component only after it has proven reusable. |
+| Shared runtime and design elements | `shared/` | Promote a component only after it has proven reusable. New modules copy this shell. |
+| Studio procedure | `skills/SKILL.md` and `skills/jobs/` | `.agents/skills/` only points Cursor at those files. |
+| Worker assignment | `plan/jobs/<job-id>.json` | Schema in `skills/references/job-contract.md`. |
 | Built packages | `dist/` | Generated output. Do not treat ZIP contents as editable source. |
 | Review queue | `.feedback/feedback.db` | Local and git-ignored. Applied or rejected feedback is archived under `plan/feedback-history/`. |
 
@@ -101,8 +115,8 @@ learning/modules/<id>/
 
 Modules use either:
 
-- `paged-v1` for screen-at-a-time lessons with explicit navigation; or
-- `scroll-canvas-v1` for a continuous native-scroll experience.
+- `paged-v1` for one continuous page with semantic sections and an on-page rail; or
+- `scroll-canvas-v1` for a native-scroll page of 8–14 bands, with progress measured by the deepest band reached.
 
 The selected design system belongs in module metadata and authoring design files. All runtime assets
 must be local; shipped modules must not depend on network calls, remote fonts, or hosted media.
@@ -116,6 +130,10 @@ The prefix identifies the learning family or role in the portfolio:
 | `FND` | Foundations | `FND-104` |
 | `AGT` | Agents | `AGT-101` |
 | `BLD` | Builder | `BLD-101`, `BLD-208` |
+| `CON` | Custom Connectors | `CON-101`, `CON-301` |
+| `TEC` | Technical prerequisites | `TEC-201` |
+| `OPS` | Operations and support | `OPS-107` |
+| `MEM` | Memory | `MEM-101` |
 | `SBP` | AI Blueprinting & Value Mapping | `SBP-101`, `SBP-113`, `SBP-FINAL` |
 | `SOL`, `SRV` | Solution and services topics | `SOL-203`, `SRV-204` |
 | `ACC` | Cross-module assessment or capstone | `ACC-104`, `ACC-107` |
@@ -163,8 +181,9 @@ authoritative if this summary changes.
 
 | Accreditation ID | Name | Status | Required modules | Completion / assessment | Distribution note |
 | --- | --- | ---: | ---: | --- | --- |
-| `accred-agents` | Agents | built | 11 | `ACC-104` | Includes overview module `accred-agents`. |
+| `accred-agents` | Agents | built | 11 | `ACC-104` | Includes overview module `accred-agents`. Manual review. |
 | `accred-ai-blueprinting` | AI Blueprinting & Value Mapping | built | 14 | `SBP-FINAL` independent 15-item exam | Restricted preview; manual review. |
+| `accred-custom-connectors` | Custom Connector Competency | built | 10 | `ACC-107` | Manual review. Passing the learning package does not award the official competency. |
 | `accred-builder` | Builder | planned | 7 | `ACC-104` | Planned definition. |
 | `accred-delivery-lead` | Delivery Lead | planned | 7 | `ACC-105` | Planned definition. |
 | `accred-foundations` | Glean Foundations | planned | 4 | Defined in YAML | Planned definition. |
@@ -198,6 +217,17 @@ restricted review / LMS test / release approval
 one module release plus checksum and history
 ```
 
+That pipeline is four jobs, dispatched by [skills/SKILL.md](skills/SKILL.md):
+
+| Job | Procedure | Writes |
+| --- | --- | --- |
+| Research | [skills/jobs/research.md](skills/jobs/research.md) | Sources and claims |
+| Author | [skills/jobs/author.md](skills/jobs/author.md) | A module, or an accreditation definition |
+| Verify | [skills/jobs/verify.md](skills/jobs/verify.md) | `qa/` reports |
+| Refresh | [skills/jobs/refresh.md](skills/jobs/refresh.md) | A refresh queue |
+
+Each run stores its assignment at `plan/jobs/<job-id>.json`. Cursor loads the short pointers in `.agents/skills/`. The prompt stubs in `.agents/prompts/` are ready for a later headless runner and are not scheduled.
+
 The studio uses strict gates. Unsourced learner-facing claims, unresolved package warnings,
 network-dependent runtime behavior, answer-key leaks, major accessibility defects, or missing visual
 browser evidence block release. A module can be built and packaged for restricted testing while its
@@ -214,7 +244,7 @@ python3 skills/scripts/lint_module.py learning/modules/AGT-101
 python3 skills/scripts/build_scorm.py --module learning/modules/AGT-101 --output dist
 
 # Program-specific batch packaging.
-python3 tools/agents/package.py
+python3 tools/portfolio/package.py
 python3 tools/sbp/build_sbp.py validate
 python3 tools/sbp/build_sbp.py package
 
@@ -398,7 +428,7 @@ and SCORM validators and packagers reject packages containing any overlay marker
 python3 skills/scripts/scaffold_module.py <arguments>
 ```
 
-The script writes to `learning/modules/<id>/`. Select a stable ID, preserve screen/objective/question
+The script writes to `learning/modules/<id>/` and copies the runtime shell from `shared/`. Select a stable ID, preserve screen/objective/question
 IDs across versions, register its accreditation relationship in metadata where appropriate, and add
 it to an accreditation definition only when the membership is intentional.
 

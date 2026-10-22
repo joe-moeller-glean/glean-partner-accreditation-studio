@@ -86,7 +86,7 @@ Wave 1 (six modules), Wave 2 (SRV-204), Wave 3 (BLD-207, BLD-208, SOL-203, ACC-1
 
 ## Reproducibility
 
-Two full regenerate-and-repackage cycles produce byte-identical archives with matching SHA-256 values. This required a fix: the studio build script embeds filesystem mtimes and a fresh manifest timestamp, so `tools/agents/package.py` pins staged mtimes and rewrites each archive with one fixed stamp.
+Two full regenerate-and-repackage cycles produce byte-identical archives with matching SHA-256 values. This required a fix: the studio build script embeds filesystem mtimes and a fresh manifest timestamp, so `tools/portfolio/package.py` pins staged mtimes and rewrites each archive with one fixed stamp.
 
 ## Open items before publication
 

@@ -4,10 +4,10 @@ import argparse, csv, json, re
 from pathlib import Path
 
 STATUS_MAP = {
-    "ready for lms": "qa_only",
-    "refresh needed": "refresh",
-    "in development": "single",
-    "planned": "single",
+    "ready for lms": "verify",
+    "refresh needed": "update_module",
+    "in development": "create_module",
+    "planned": "create_module",
     "": "needs_triage",
 }
 PRIORITY = {"critical": 0, "high": 1, "medium": 2, "low": 3}

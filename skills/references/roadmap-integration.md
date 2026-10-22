@@ -14,28 +14,28 @@ Paths include Foundations, Sales & GTM, Solutions & Value, Technical & Architect
 | Column | Used by | As |
 |---|---|---|
 | `Module ID` | all | canonical `module_id` and repo directory |
-| `Academy` / `Learning Path` / `Badge / Path` | Portfolio Planner, Experience Designer | path grouping, style card, path map |
-| `Level` | Learning Architect, Assessment Builder | scaffolding depth and item mix |
-| `Description` | Intake | outcome seed (never learner copy) |
-| `Build Status` | Portfolio Planner | request type (below) |
-| `Primary Audience` / `Partner Types` | Intake, Content | audience contract and scenario casting |
-| `Delivery Format` | SCORM Engineer, Graphics and Media | package composition and media needs |
-| `Duration Hours` | Learning Architect | hard runtime budget |
-| `Assessment` | Assessment Builder | item type and rubric selection |
-| `Prerequisites` / `Dependency` | Portfolio Planner | dependency DAG |
-| `Mapped Existing Assets` / `Source Basis` / `Existing Asset Status` | Researcher | starting source set and reuse-vs-rebuild call |
-| `Priority` / `Program Wave` / `Target Quarter` | Portfolio Planner | queue ordering |
-| `Current Owner` / `Recommended SME` | Researcher, escalation ladder | named human for `needs_sme` |
-| `Notes` | Intake | explicit constraints and revamp intent |
+| `Academy` / `Learning Path` / `Badge / Path` | studio queue and author job | path grouping, style card, path map |
+| `Level` | author job | scaffolding depth and item mix |
+| `Description` | author intake | outcome seed (never learner copy) |
+| `Build Status` | `skills/scripts/plan_roadmap.py` | request type (below) |
+| `Primary Audience` / `Partner Types` | author job | audience contract and scenario casting |
+| `Delivery Format` | author job | package composition and media needs |
+| `Duration Hours` | author job | hard runtime budget |
+| `Assessment` | author job | item type and rubric selection |
+| `Prerequisites` / `Dependency` | `skills/scripts/plan_roadmap.py` | dependency DAG |
+| `Mapped Existing Assets` / `Source Basis` / `Existing Asset Status` | research job | starting source set and reuse-vs-rebuild call |
+| `Priority` / `Program Wave` / `Target Quarter` | `skills/scripts/plan_roadmap.py` | queue ordering |
+| `Current Owner` / `Recommended SME` | research job and escalation | named human for `needs_sme` |
+| `Notes` | author intake | explicit constraints and revamp intent |
 
 ## Build Status → request type
 | Status | Request type | Notes |
 |---|---|---|
-| `Ready for LMS` | `qa_only` then `repackage` | Verify before touching content |
-| `Refresh needed` | `refresh` | Re-verify all claims; honor revamp notes |
-| `In development` | `single` (continue) | Resume from existing artifacts |
-| `Planned` | `single` (net-new) | Full research required first |
-| `Partial asset` (Existing Asset Status) | `single` | Reuse what is verified, rebuild the rest |
+| `Ready for LMS` | `verify` | Confirm the package before any content edit |
+| `Refresh needed` | `update_module` | Re-verify affected claims, then patch |
+| `In development` | `create_module` | Resume from existing artifacts |
+| `Planned` | `create_module` | Research before authoring |
+| `Partial asset` (Existing Asset Status) | `create_module` | Reuse what is verified, rebuild the rest |
 | blank / unknown | `needs_triage` | Do not guess |
 
 ## Writeback

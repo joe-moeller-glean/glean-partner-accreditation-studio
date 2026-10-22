@@ -66,7 +66,7 @@ def scan_module(mod, today, rejected):
     if not findings:
         return None
     sev = score(findings, tier1, "all")
-    request_type = "refresh" if any(f["severity"] == "critical" for f in findings) else "targeted_update"
+    request_type = "update_module"
     return {
         "module_id": meta.get("module_id", mod.name),
         "title": meta.get("title", ""),

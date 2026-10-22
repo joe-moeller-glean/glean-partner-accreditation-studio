@@ -20,7 +20,7 @@ Kinds and item grammar:
 
 Every figure renders twice: a wide layout (880 units) for desktop and a narrow,
 single-column layout (400 units) served below 640px through <picture>, so text
-stays at least ~11px on a 320px screen. Brand rules follow tools/agents/svg_lib.py:
+stays at least ~11px on a 320px screen. Brand rules follow tools/portfolio/svg_lib.py:
 oatmeal canvas with teal/orchid corner washes, white hairline nodes, 2px ink
 strokes, exactly one Electric Blue emphasis, mono sequence numerals, <title> and
 <desc> on every SVG, no raster, no network references, no logos.

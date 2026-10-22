@@ -43,7 +43,7 @@ The project also contains an **Agents** accreditation composition in `plan/accre
 - `Academy`, `Learning Path`, and `Badge / Path` define grouping and path design.
 - `Prerequisites` and `Dependency` define the dependency DAG; refuse cycles.
 - `Priority` and `Program Wave` drive queue ordering after dependencies are respected.
-- `Build Status` maps to work: `Ready for LMS` → `qa_only` then `repackage`; `Refresh needed` → refresh; `In development` → continue the existing module; `Planned` → net-new single-module pipeline; blank/unknown → triage.
+- `Build Status` maps to work: `Ready for LMS` → `verify`; `Refresh needed` → `update_module`; `In development` → continue the existing module (`create_module`); `Planned` → net-new `create_module`; blank/unknown → triage.
 - `Primary Audience`, `Partner Types`, `Delivery Format`, `Duration Hours`, and `Assessment` are hard intake and architecture constraints.
 - `Mapped Existing Assets`, `Source Basis`, and `Existing Asset Status` determine reuse versus rebuild and the initial research set.
 - `Current Owner`, `Recommended SME`, and `Notes` are escalation and scope signals.

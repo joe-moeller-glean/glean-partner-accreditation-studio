@@ -1,8 +1,8 @@
 # Custom Connector Competency — curriculum source package (v2)
 
-**Status (2026-09-27):** all 10 modules built as SCORM 1.2 v1.0.0 in `learning/modules/`, packaged in `dist/`, and registered as `learning/accreditations/accred-custom-connectors/`. State: `built_pending_human_review` — not released. Build: `python3 tools/agents/build_connectors.py validate|generate|package`, then `node tools/agents/runtime_qa.js ...` and `python3 tools/agents/finalize_connectors.py`. Release blockers per module are in `learning/modules/<id>/qa/report.json`.
+**Status (2026-09-27):** all 10 modules built as SCORM 1.2 v1.0.0 in `learning/modules/`, packaged in `dist/`, and registered as `learning/accreditations/accred-custom-connectors/`. State: `built_pending_human_review` — not released. Build: `python3 tools/portfolio/build_connectors.py validate|generate|package`, then `node tools/portfolio/runtime_qa.js ...` and `python3 tools/portfolio/finalize_connectors.py`. Release blockers per module are in `learning/modules/<id>/qa/report.json`.
 
-Authoring-source status (2026-09-26): Supersedes `plan/custom-connector-accreditation-plan.md` (v1) and `plan/connectors-custom-connectors-research.md` (v1) for module content.
+Authoring-source status (2026-09-26): Supersedes `plan/archive/custom-connectors-v1/` for module content. The v1 notes stay there because a few source URLs were not copied into `sources.json`.
 
 ## What is in this folder
 
@@ -14,7 +14,7 @@ Authoring-source status (2026-09-26): Supersedes `plan/custom-connector-accredit
 | `tools/build_ledger.py` | Regenerates and re-verifies the ledger from saved source text |
 | `10-case-packet-northbeam.md` | Shared fictional case, persona accounts, and the Beacon lab-fixture specification |
 | `CON-101` … `ACC-107` | One build contract per module (outcomes, full teaching sequence, diagrams, worked example, practice, transfer, assessment, job aid, claim IDs) |
-| `accreditation.yaml` | Proposed badge definition (kept here until modules exist in `learning/modules/`) |
+| `accreditation.yaml` | Removed. The definition is `learning/accreditations/accred-custom-connectors/accreditation.yaml`. |
 
 ## Path and time
 

@@ -26,7 +26,7 @@ indigo `#4035C0`/`#2B228C` forms against coral, magenta, and salmon particles. A
 glowing brains, circuit boards, and network-node clichés.
 
 ## Diagram standards (SVG)
-- Built by `tools/agents/svg_lib.py`, per `skills/brand/references/IMAGERY.md`.
+- Built by `tools/portfolio/svg_lib.py`, per `skills/brand/references/IMAGERY.md`.
 - Oatmeal canvas with corner washes. White nodes, 12px radius, 1px `rgba(0,0,0,.12)` hairline, no shadows. Connectors 1.5px `rgba(0,0,0,.35)`, round caps, open chevron arrowheads.
 - Exactly one Electric Blue emphasis per diagram (2px node border or 4px left rule). Bright Green never on a light diagram.
 - Labels: 500-weight titles in black, `#666666` support text, mono sequence numerals `01`, `02`, `03`. Never circled digits. 8px spacing grid, sentence case.

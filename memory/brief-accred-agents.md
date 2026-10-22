@@ -26,7 +26,7 @@ Observed while building the Agents accreditation (2026-09-02, 12 packages).
 
 - **Generate, do not hand-author, at batch scale.** 12 packages from one spec set means a gate fix is one regeneration, not 12 edits.
 - **Separate the claim library from module specs.** Facts changed once propagate everywhere; module specs stay readable.
-- **Lint is necessary but not sufficient.** `lint_module.py` never executes the runtime. A DOM-shim harness (`tools/agents/runtime_qa.js`) caught behaviour the linter cannot see: quiz scoring, retry paths, resume, progress honesty, and archetype pacing.
+- **Lint is necessary but not sufficient.** `lint_module.py` never executes the runtime. A DOM-shim harness (`tools/portfolio/runtime_qa.js`) caught behaviour the linter cannot see: quiz scoring, retry paths, resume, progress honesty, and archetype pacing.
 - **Read the build script's exclude list before trusting it.** It shipped answer keys.
 
 ## Content discipline that held up
