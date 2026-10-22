@@ -8,7 +8,8 @@ const path = require('path');
 const { JSDOM } = require('jsdom');
 
 const ROOT = path.resolve(__dirname, '..', '..');
-const MODS = path.join(ROOT, 'learning', 'modules');
+// SBP_MODULES_DIR lets the containerized suite test extracted production packages instead of sources.
+const MODS = process.env.SBP_MODULES_DIR ? path.resolve(process.env.SBP_MODULES_DIR) : path.join(ROOT, 'learning', 'modules');
 const outIdx = process.argv.indexOf('--out');
 const OUT = outIdx > 0 ? process.argv[outIdx + 1] : path.join(ROOT, 'plan', 'sales-blueprinting', 'runtime-qa-results.json');
 

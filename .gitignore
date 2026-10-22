@@ -15,3 +15,10 @@ plan/refresh-queue.json
 .ruff_cache/
 .coverage
 htmlcov/
+
+# Development review feedback (tools/feedback): local SQLite queue. History in
+# plan/feedback-history/ is committed.
+.feedback/
+
+# Containerized test suite output (tests/run.sh)
+tests/.results/

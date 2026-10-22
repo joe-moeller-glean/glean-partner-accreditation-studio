@@ -1,0 +1,9 @@
+{
+  "name": "accreditation-studio-test-container",
+  "private": true,
+  "description": "Pinned test dependencies for tests/container. Playwright must match the base image tag.",
+  "dependencies": {
+    "jsdom": "29.1.1",
+    "playwright": "1.64.1"
+  }
+}

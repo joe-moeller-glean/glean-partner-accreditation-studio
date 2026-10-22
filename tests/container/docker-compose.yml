@@ -1,0 +1,23 @@
+# Containerized test suite. Run through tests/run.sh, which builds the image and sets paths.
+#
+#   docker compose -f tests/container/docker-compose.yml run --rm tests            # full suite
+#   docker compose -f tests/container/docker-compose.yml run --rm tests unit       # one stage
+#
+# The repository is mounted read-only; results land in tests/.results/. Networking is disabled,
+# so any runtime dependency on the internet fails the browser tests instead of passing silently.
+name: accreditation-studio-tests
+services:
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: accreditation-studio-tests:1
+    network_mode: none
+    init: true
+    shm_size: "1gb"
+    read_only: false
+    environment:
+      SUITE_STAGES: ${SUITE_STAGES:-}
+    volumes:
+      - ../..:/repo:ro
+      - ../.results:/results

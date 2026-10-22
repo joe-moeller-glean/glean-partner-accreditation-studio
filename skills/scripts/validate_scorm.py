@@ -15,6 +15,10 @@ AUTHORING_DIRS = {"qa", "design", "research", "interactions", "assessment", "con
 AUTHORING_NAMES = {"key.json", "claims.json", "findings.md", "conflicts.md", "sources.json", "module.yaml"}
 
 
+DEV_FEEDBACK_MARKERS = ("data-feedback-dev", "glean-feedback-overlay", "/__feedback/", "__GLEAN_FEEDBACK__")
+DEV_FEEDBACK_PATTERN = "|".join(re.escape(m) for m in DEV_FEEDBACK_MARKERS)
+
+
 def runtime_text(root):
     chunks = []
     for path in root.rglob("*"):
@@ -96,6 +100,11 @@ def check(root):
         errors.append("External dependency in runtime markup")
     if re.search(r"@import\s+url\(['\"]?https?://|fonts\.googleapis|fetch\s*\(|XMLHttpRequest|navigator\.sendBeacon", runtime_blob, re.I):
         errors.append("Network-dependent runtime call")
+    # The development review overlay (tools/feedback) must never ship. Keep in sync with
+    # tools/feedback/markers.py MARKERS; tests/test_production_isolation.py checks that.
+    dev_markers = sorted(set(re.findall(DEV_FEEDBACK_PATTERN, text + "\n" + runtime_blob)))
+    if dev_markers:
+        errors.append("Development feedback overlay in package: " + ", ".join(dev_markers))
     if "prefers-reduced-motion" not in runtime_blob:
         warnings.append("Reduced-motion rule missing")
     if "aria-label" not in runtime_blob and "aria-labelledby" not in runtime_blob:

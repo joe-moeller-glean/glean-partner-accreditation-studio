@@ -45,6 +45,9 @@ sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(ROOT / "tools" / "agents"))
 
 import workbook as W  # noqa: E402
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "feedback"))
+import markers as FEEDBACK_MARKERS  # noqa: E402
 import lessons as LS  # noqa: E402
 
 VERSION = "1.0.0"
@@ -1100,6 +1103,11 @@ def cmd_package(release=False):
         if state != "PASS":
             rc = 1
             print(v.stdout, v.stderr)
+        # Production guard: the development review overlay (tools/feedback) must never ship.
+        dev = FEEDBACK_MARKERS.scan_package(zpath)
+        if dev:
+            rc = 1
+            print(f"FAIL {sp['id']}: development feedback markers in package: {'; '.join(dev[:5])}")
     jdump(LEDGER / ("release-packages.json" if release else "preview-packages.json"),
           {"generated": TODAY, "release_state": "release" if release else "restricted_preview", "packages": rows})
     return rc
