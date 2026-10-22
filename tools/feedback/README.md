@@ -21,15 +21,15 @@ The index lists every accreditation and module with its open-comment count.
 - `/a/<accreditation-id>/` renders the accreditation definition (`accreditation.yaml`) for
   comment.
 
-Enter your name in the **Review** panel once (it is remembered in this browser). Then:
+Hold Shift and click to leave a comment in a small bubble on the page. **Review** opens the comment list on the right. Each comment shows its own status. A coding agent applies or rejects comments; the overlay does not ask for a name.
 
 | Action | How |
 | --- | --- |
-| Comment, suggest, or highlight | Select text, then choose from the toolbar. Shortcut: Ctrl/⌘+Alt+M comments on the selection. |
+| Comment | Hold Shift (the pointer becomes a comment bubble) and click. The click comments on the selection under the pointer, or on that word. Shortcut: Ctrl/⌘+Alt+M. |
+| Suggest or highlight | Select text with the normal pointer, then choose from the toolbar. |
 | Comment on a section | **Comment on this section** in the panel. |
-| Open a comment | Click its highlighted text or its card. |
-| Reply, edit, resolve, reopen, delete | Buttons on each card. |
-| Filter | **Open**, **Resolved**, **All**. |
+| Review list | **Review** opens the comments on the right. Each comment shows its status. |
+| Edit or delete | Buttons on each comment. Applying or rejecting is done by a coding agent, not in this panel. |
 
 Comments are anchored by the selected text plus surrounding context, so they re-attach after
 reloads, rebuilds, and screen changes. If the text changes, the card is marked "Text not found on

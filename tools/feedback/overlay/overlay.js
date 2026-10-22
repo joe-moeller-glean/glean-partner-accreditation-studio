@@ -3,10 +3,12 @@
  * Injected by tools/feedback/server.py into pages it serves. It is never written into a module
  * folder or a SCORM package; tools/feedback/markers.py fails any package containing it.
  *
- * Select text on the page to add a comment, suggest an edit (redline: strike the original and
- * propose replacement text), or highlight it. Comments are anchored by the selected text plus its
- * surrounding context, so they re-attach after reloads and screen changes. Highlights use the CSS
- * Custom Highlight API, so the page DOM, its text, and its event handlers are never modified.
+ * Hold Shift and the pointer becomes a comment bubble; Shift+click starts a comment on the
+ * selection under the pointer, or on the word there. Select text without Shift for the normal
+ * cursor, then use the toolbar to suggest an edit or highlight. Comments are anchored by the
+ * selected text plus its surrounding context, so they re-attach after reloads and screen changes.
+ * Highlights use the CSS Custom Highlight API, so the page DOM, its text, and its event handlers
+ * are never modified.
  */
 (function () {
   "use strict";
@@ -17,18 +19,16 @@
 
   var HOST_TAG = "glean-feedback-overlay";
   var CONTEXT = 48;
-  var LS_AUTHOR = "glean-feedback:author";
   var LS_OPEN = "glean-feedback:panel-open";
+  var AGENT_AUTHOR = "reviewer";
   var HAS_HIGHLIGHTS = typeof CSS !== "undefined" && CSS.highlights && typeof Highlight === "function";
 
   var state = {
     comments: [],
     anchors: new Map(),       // id -> Range | null
-    filter: "open",
     activeId: null,
     pending: null,            // { range, kind } while composing
     panelOpen: localStorage.getItem(LS_OPEN) === "1",
-    author: localStorage.getItem(LS_AUTHOR) || "",
     editing: null,
   };
 
@@ -146,11 +146,7 @@
   function isOrphan(c) { return !!c.quote && !state.anchors.get(c.id); }
 
   // ---------- painting: highlights and redline insertions ------------------------------------
-  function visible(c) {
-    if (state.filter === "open") return c.status === "open";
-    if (state.filter === "resolved") return c.status !== "open";
-    return true;
-  }
+  function visible() { return true; }
   function paint() {
     var groups = { "fb-comment": [], "fb-suggest": [], "fb-mark": [], "fb-resolved": [], "fb-active": [] };
     layer.textContent = "";
@@ -178,7 +174,7 @@
     el.type = "button";
     el.className = "ins";
     el.textContent = c.replacement ? c.replacement : "⌫ delete";
-    el.title = "Suggested edit by " + c.author;
+    el.title = "Suggested edit";
     el.style.left = (last.right + window.scrollX + 2) + "px";
     el.style.top = (last.top + window.scrollY) + "px";
     el.addEventListener("click", function () { focusComment(c.id, false); });
@@ -198,31 +194,29 @@
   root.innerHTML =
     '<link rel="stylesheet" href="/__feedback/overlay.css">' +
     '<div class="layer" aria-hidden="false"></div>' +
+    '<div class="cursor-bubble" hidden aria-hidden="true"><svg width="28" height="32" viewBox="0 0 28 32" aria-hidden="true">' +
+    '<path fill="#3333ff" d="M6 2h16a4 4 0 0 1 4 4v11a4 4 0 0 1-4 4H11l-7 9 1.2-9H6a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4z"/></svg></div>' +
     '<div class="toolbar" role="toolbar" aria-label="Review selection" hidden>' +
-    '<button type="button" data-act="comment" title="Comment (Ctrl+Alt+M)">Comment</button>' +
+    '<button type="button" data-act="comment" title="Comment (Shift+click, or Ctrl+Alt+M)">Comment</button>' +
     '<button type="button" data-act="suggestion" title="Suggest an edit">Suggest edit</button>' +
     '<button type="button" data-act="highlight" title="Highlight">Highlight</button></div>' +
+    '<form class="composer" role="dialog" aria-modal="false" aria-label="Comment" hidden>' +
+    '<p class="composer-kind"></p><blockquote class="composer-quote"></blockquote>' +
+    '<label class="replacement-label" hidden>Replace with<textarea class="replacement" rows="2"></textarea></label>' +
+    '<label class="body-label"><span>Comment</span><textarea class="body" rows="3"></textarea></label>' +
+    '<div class="row"><button type="submit" class="primary">Save</button><button type="button" class="cancel">Cancel</button></div></form>' +
+    '<div class="toast" role="status" aria-live="polite"></div>' +
     '<button type="button" class="fab" aria-expanded="false" aria-controls="fb-panel">Review <span class="count">0</span></button>' +
     '<aside class="panel" id="fb-panel" aria-label="Review comments" hidden>' +
     '<header><div class="title"><strong>Review</strong><span class="scope"></span>' +
     '<button type="button" class="close" aria-label="Close review panel">×</button></div>' +
-    '<label class="author">Your name <input type="text" autocomplete="name" maxlength="120"></label>' +
-    '<div class="filters" role="group" aria-label="Show">' +
-    '<button type="button" data-filter="open">Open</button><button type="button" data-filter="resolved">Resolved</button>' +
-    '<button type="button" data-filter="all">All</button></div>' +
     '<button type="button" class="section-comment">Comment on this section</button></header>' +
-    '<form class="composer" hidden><p class="composer-kind"></p><blockquote class="composer-quote"></blockquote>' +
-    '<label class="replacement-label" hidden>Replace with<textarea class="replacement" rows="3"></textarea></label>' +
-    '<label class="body-label"><span>Comment</span><textarea class="body" rows="3"></textarea></label>' +
-    '<div class="row"><button type="submit" class="primary">Save</button><button type="button" class="cancel">Cancel</button></div></form>' +
-    '<div class="toast" role="status" aria-live="polite"></div>' +
     '<ol class="cards"></ol>' +
-    '<footer>Development review overlay. Not included in SCORM packages.</footer></aside>';
+    '<footer>Open comments are for a coding agent to apply or reject. Not included in SCORM packages.</footer></aside>';
   var $ = function (s) { return root.querySelector(s); };
   var layer = $(".layer"), toolbar = $(".toolbar"), fab = $(".fab"), panel = $(".panel"), cards = $(".cards");
-  var composer = $(".composer"), authorInput = $(".author input");
+  var composer = $(".composer");
   root.querySelector(".scope").textContent = " · " + CFG.scope_id + (CFG.page && CFG.page !== "index.html" && CFG.page !== "accreditation" ? " / " + CFG.page : "");
-  authorInput.value = state.author;
 
   var pageStyle = document.createElement("style");
   pageStyle.setAttribute("data-feedback-dev", "");
@@ -232,8 +226,7 @@
     "::highlight(fb-suggest){background-color:rgba(229,57,53,.10);color:#b3261e;text-decoration:line-through;text-decoration-color:#d93025;text-decoration-thickness:2px}" +
     "::highlight(fb-resolved){background-color:rgba(140,140,150,.18)}" +
     "::highlight(fb-active){background-color:rgba(51,51,255,.28)}" +
-    "html[data-fb-open] body{margin-right:380px!important}" +
-    "@media (max-width:900px){html[data-fb-open] body{margin-right:0!important}}";
+    "html[data-fb-shift] body,html[data-fb-shift] body *{cursor:none!important}";
 
   function esc(s) { var d = document.createElement("div"); d.textContent = s == null ? "" : String(s); return d.innerHTML; }
   function when(ts) { try { return new Date(ts).toLocaleString([], { dateStyle: "medium", timeStyle: "short" }); } catch (e) { return ts; } }
@@ -243,15 +236,14 @@
     t.className = "toast show" + (isError ? " error" : "");
     clearTimeout(toast._t);
     toast._t = setTimeout(function () { t.className = "toast"; }, isError ? 6000 : 2500);
-    if (isError && !state.panelOpen) setPanel(true);
   }
   function setPanel(open) {
     state.panelOpen = open;
     localStorage.setItem(LS_OPEN, open ? "1" : "0");
     panel.hidden = !open;
+    fab.hidden = open;
     fab.setAttribute("aria-expanded", String(open));
-    if (open) document.documentElement.setAttribute("data-fb-open", "");
-    else document.documentElement.removeAttribute("data-fb-open");
+    if (!composer.hidden) placeComposer();
     queuePaint();
   }
   function updateCount() {
@@ -272,14 +264,12 @@
     });
   }
   var KIND_LABEL = { comment: "Comment", suggestion: "Suggested edit", highlight: "Highlight" };
+  var STATUS_LABEL = { open: "Open", resolved: "Resolved", applied: "Applied", rejected: "Rejected" };
   function renderCards() {
     updateCount();
-    root.querySelectorAll(".filters button").forEach(function (b) {
-      b.setAttribute("aria-pressed", String(b.dataset.filter === state.filter));
-    });
     var list = sorted();
     if (!list.length) {
-      cards.innerHTML = '<li class="empty">' + (state.filter === "open" ? "No open comments on this page. Select text to add one." : "Nothing to show.") + "</li>";
+      cards.innerHTML = '<li class="empty">No comments on this page. Hold Shift and click text to add one.</li>';
       return;
     }
     cards.innerHTML = list.map(function (c) {
@@ -297,17 +287,15 @@
         : (c.body ? '<p class="body">' + esc(c.body) + "</p>" : "");
       return '<li class="card kind-' + c.kind + " status-" + c.status + (c.id === state.activeId ? " active" : "") + (orphan ? " orphan" : "") + '" data-id="' + esc(c.id) + '" tabindex="0">' +
         '<div class="meta"><span class="badge">' + KIND_LABEL[c.kind] + "</span>" +
-        (c.status !== "open" ? '<span class="badge st">' + esc(c.status) + "</span>" : "") +
+        '<span class="badge st st-' + esc(c.status) + '">' + esc(STATUS_LABEL[c.status] || c.status) + "</span>" +
         '<span class="where">' + esc(c.section_label || c.section_id || "") + "</span></div>" +
         (orphan ? '<p class="warn">Text not found on this screen. It may have changed or be on another screen.</p>' : "") +
         quote + bodyHtml +
-        '<p class="byline">' + esc(c.author) + " · " + when(c.created_at) + "</p>" +
+        '<p class="byline"><code>' + esc(c.id) + "</code> · " + when(c.created_at) + "</p>" +
         (c.replies.length ? '<ul class="replies">' + c.replies.map(function (r) {
-          return "<li><strong>" + esc(r.author) + "</strong> " + esc(r.body) + ' <span class="muted">' + when(r.created_at) + "</span></li>";
+          return "<li>" + esc(r.body) + ' <span class="muted">' + when(r.created_at) + "</span></li>";
         }).join("") + "</ul>" : "") +
-        (c.status === "open" ? '<form class="reply"><label class="sr">Reply</label><textarea rows="1" placeholder="Reply"></textarea><button type="submit">Reply</button></form>' : "") +
         '<div class="actions">' +
-        (c.status === "open" ? '<button type="button" data-act="resolve">Resolve</button>' : '<button type="button" data-act="reopen">Reopen</button>') +
         (c.status === "open" ? '<button type="button" data-act="edit">Edit</button>' : "") +
         '<button type="button" data-act="delete" class="danger">Delete</button></div></li>';
     }).join("");
@@ -380,7 +368,6 @@
     }
     window.getSelection().removeAllRanges();
     toolbar.hidden = true;
-    setPanel(true);
     composer.hidden = false;
     $(".composer-kind").textContent = (range ? KIND_LABEL[kind] : "Comment on section") + (sec.label ? " · " + sec.label : "");
     var q = $(".composer-quote");
@@ -391,26 +378,42 @@
     $(".replacement").value = kind === "suggestion" && a ? a.quote : "";
     $(".body-label span").textContent = kind === "comment" ? "Comment" : "Comment (optional)";
     $(".body").value = "";
+    placeComposer();
     queuePaint();
     setTimeout(function () { (kind === "suggestion" ? $(".replacement") : $(".body")).focus(); }, 0);
+  }
+  function placeComposer() {
+    if (composer.hidden) return;
+    var rect = null;
+    var range = state.pending && state.pending.range;
+    if (range) {
+      var rects = range.getClientRects();
+      rect = rects.length ? rects[rects.length - 1] : null;
+    }
+    var w = composer.offsetWidth || 280;
+    var h = composer.offsetHeight || 160;
+    var panelW = state.panelOpen ? (panel.offsetWidth || 320) : 0;
+    var maxRight = window.innerWidth - panelW - 8;
+    var left = rect ? rect.left : 16;
+    var top = rect ? rect.bottom + 8 : 72;
+    if (left + w > maxRight) left = maxRight - w;
+    if (left < 8) left = 8;
+    if (top + h > window.innerHeight - 8) top = rect ? rect.top - h - 8 : 8;
+    if (top < 8) top = 8;
+    composer.style.left = left + "px";
+    composer.style.top = top + "px";
   }
   function closeComposer() {
     composer.hidden = true;
     state.pending = null;
     queuePaint();
   }
-  function requireAuthor() {
-    state.author = authorInput.value.trim();
-    if (!state.author) { authorInput.focus(); toast("Add your name first.", true); return false; }
-    localStorage.setItem(LS_AUTHOR, state.author);
-    return true;
-  }
   composer.addEventListener("submit", function (ev) {
     ev.preventDefault();
-    if (!state.pending || !requireAuthor()) return;
+    if (!state.pending) return;
     var p = state.pending, a = p.anchor;
     var payload = {
-      author: state.author, kind: p.kind, scope_type: CFG.scope_type, scope_id: CFG.scope_id, page: CFG.page,
+      author: AGENT_AUTHOR, kind: p.kind, scope_type: CFG.scope_type, scope_id: CFG.scope_id, page: CFG.page,
       accreditations: CFG.accreditations || [], section_id: p.section.id, section_label: p.section.label,
       body: $(".body").value, build_ref: CFG.build,
       quote: a ? a.quote : "", prefix: a ? a.prefix : "", suffix: a ? a.suffix : "", text_offset: a ? a.text_offset : null,
@@ -420,7 +423,6 @@
       upsert(j.comment);
       state.activeId = j.comment.id;
       closeComposer();
-      if (state.filter === "resolved") state.filter = "open";
       reanchor(true);
       toast("Saved.");
     }).catch(function (e) { toast(e.message, true); });
@@ -449,11 +451,7 @@
     var id = card.dataset.id, act = ev.target.closest("[data-act]");
     if (!act) { if (!ev.target.closest("form,textarea,button")) focusComment(id); return; }
     var a = act.dataset.act;
-    if (a === "resolve" || a === "reopen") {
-      if (!requireAuthor()) return;
-      api("PATCH", "/comments/" + encodeURIComponent(id), { status: a === "resolve" ? "resolved" : "open", by: state.author })
-        .then(function (j) { upsert(j.comment); reanchor(true); }).catch(function (e) { toast(e.message, true); });
-    } else if (a === "edit") {
+    if (a === "edit") {
       state.editing = id; renderCards();
     } else if (a === "cancel-edit") {
       state.editing = null; renderCards();
@@ -469,12 +467,7 @@
   cards.addEventListener("submit", function (ev) {
     ev.preventDefault();
     var form = ev.target, card = form.closest(".card"), id = card.dataset.id;
-    if (form.classList.contains("reply")) {
-      var text = form.querySelector("textarea").value;
-      if (!text.trim() || !requireAuthor()) return;
-      api("POST", "/comments/" + encodeURIComponent(id) + "/replies", { author: state.author, body: text })
-        .then(function (j) { upsert(j.comment); renderCards(); }).catch(function (e) { toast(e.message, true); });
-    } else if (form.classList.contains("edit")) {
+    if (form.classList.contains("edit")) {
       var body = { body: form.querySelector(".e-body").value };
       var repl = form.querySelector(".e-repl");
       if (repl) body.replacement = repl.value;
@@ -496,20 +489,131 @@
   fab.addEventListener("click", function () { setPanel(!state.panelOpen); });
   $(".close").addEventListener("click", function () { setPanel(false); });
   $(".section-comment").addEventListener("click", function () { openComposer("comment", null); });
-  authorInput.addEventListener("change", function () {
-    state.author = authorInput.value.trim();
-    localStorage.setItem(LS_AUTHOR, state.author);
-  });
-  root.querySelectorAll(".filters button").forEach(function (b) {
-    b.addEventListener("click", function () { state.filter = b.dataset.filter; reanchor(true); });
-  });
   function inOverlay(ev) { return ev.composedPath().indexOf(host) >= 0; }
-  document.addEventListener("mouseup", function (ev) { if (!inOverlay(ev)) setTimeout(showToolbar, 0); });
-  document.addEventListener("keyup", function (ev) { if (!inOverlay(ev) && ev.shiftKey) showToolbar(); });
+  function editableTarget(node) {
+    var el = node && (node.nodeType === 1 ? node : node.parentElement);
+    return !!(el && el.closest("input,textarea,select,[contenteditable=''],[contenteditable='true']"));
+  }
+  function caretAt(x, y) {
+    if (document.caretPositionFromPoint) {
+      var pos = document.caretPositionFromPoint(x, y);
+      if (pos && pos.offsetNode) return { node: pos.offsetNode, offset: pos.offset };
+    }
+    if (document.caretRangeFromPoint) {
+      var cr = document.caretRangeFromPoint(x, y);
+      if (cr) return { node: cr.startContainer, offset: cr.startOffset };
+    }
+    return null;
+  }
+  function rangeContainsPoint(r, x, y) {
+    var p = caretAt(x, y);
+    if (!p) return false;
+    var off = p.offset;
+    if (p.node.nodeType === 3) off = Math.min(off, p.node.length);
+    try { return r.isPointInRange(p.node, off) || (p.node.nodeType === 3 && off > 0 && r.isPointInRange(p.node, off - 1)); }
+    catch (e) { return false; }
+  }
+  function wordRangeAt(x, y) {
+    var p = caretAt(x, y);
+    if (!p) return null;
+    var node = p.node, off = p.offset;
+    if (node.nodeType !== 3) {
+      var at = node.childNodes && node.childNodes[off];
+      var before = off > 0 && node.childNodes && node.childNodes[off - 1];
+      var child = at && at.nodeType === 3 ? at : before;
+      if (!child || child.nodeType !== 3) return null;
+      off = child === at ? 0 : child.data.length;
+      node = child;
+    }
+    if (skip(node) || !norm(node.data)) return null;
+    var data = node.data;
+    var i = Math.max(0, Math.min(off, data.length - 1));
+    if (/\s/.test(data[i])) {
+      var left = i;
+      while (left > 0 && /\s/.test(data[left - 1])) left--;
+      if (left > 0 && !/\s/.test(data[left - 1])) i = left - 1;
+      else {
+        var right = i;
+        while (right < data.length && /\s/.test(data[right])) right++;
+        if (right >= data.length) return null;
+        i = right;
+      }
+    }
+    var s = i, e = i + 1;
+    while (s > 0 && !/\s/.test(data[s - 1])) s--;
+    while (e < data.length && !/\s/.test(data[e])) e++;
+    var r = document.createRange();
+    r.setStart(node, s);
+    r.setEnd(node, e);
+    return norm(r.toString()) ? r : null;
+  }
+  function commentRangeAt(x, y, saved) {
+    if (saved && rangeContainsPoint(saved, x, y)) return saved;
+    var sel = selectionRange();
+    if (sel && rangeContainsPoint(sel, x, y)) return sel;
+    return wordRangeAt(x, y);
+  }
+
+  // Shift turns the pointer into a comment bubble. A click then starts a comment. Without Shift
+  // the page keeps its own cursor, selection, and clicks.
+  var pointer = null;
+  var shiftAnchor = null;
+  var cursorBubble = $(".cursor-bubble");
+  function syncCommentCursor(shift) {
+    var on = !!(shift && pointer && !pointer.overlay && !pointer.editable);
+    if (!on) {
+      document.documentElement.removeAttribute("data-fb-shift");
+      cursorBubble.hidden = true;
+      return;
+    }
+    document.documentElement.setAttribute("data-fb-shift", "");
+    cursorBubble.hidden = false;
+    cursorBubble.style.left = pointer.x + "px";
+    cursorBubble.style.top = pointer.y + "px";
+  }
+  function rememberPointer(ev) {
+    pointer = { x: ev.clientX, y: ev.clientY, overlay: inOverlay(ev), editable: editableTarget(ev.target) };
+  }
+  document.addEventListener("mousemove", function (ev) {
+    rememberPointer(ev);
+    syncCommentCursor(ev.shiftKey);
+  });
+  document.addEventListener("mouseout", function (ev) {
+    if (!ev.relatedTarget) syncCommentCursor(false);
+  });
+  window.addEventListener("blur", function () { syncCommentCursor(false); });
+  document.addEventListener("mousedown", function (ev) {
+    shiftAnchor = null;
+    if (!ev.shiftKey || ev.button !== 0) return;
+    rememberPointer(ev);
+    syncCommentCursor(true);
+    if (pointer.overlay || pointer.editable) return;
+    ev.preventDefault();
+    ev.stopPropagation();
+    shiftAnchor = { x: ev.clientX, y: ev.clientY, range: selectionRange() };
+  }, true);
+  document.addEventListener("mouseup", function (ev) {
+    if (shiftAnchor && ev.shiftKey && ev.button === 0) {
+      var start = shiftAnchor;
+      shiftAnchor = null;
+      if (Math.hypot(ev.clientX - start.x, ev.clientY - start.y) <= 8 && !inOverlay(ev) && !editableTarget(ev.target)) {
+        ev.preventDefault();
+        ev.stopPropagation();
+        openComposer("comment", commentRangeAt(ev.clientX, ev.clientY, start.range));
+      }
+      return;
+    }
+    shiftAnchor = null;
+    if (!inOverlay(ev) && !ev.shiftKey) setTimeout(showToolbar, 0);
+  }, true);
   document.addEventListener("selectionchange", function () {
     if (!toolbar.hidden && !selectionRange()) toolbar.hidden = true;
   });
   document.addEventListener("keydown", function (ev) {
+    if (ev.key === "Shift") {
+      syncCommentCursor(true);
+      return;
+    }
     if ((ev.ctrlKey || ev.metaKey) && ev.altKey && (ev.key === "m" || ev.key === "M" || ev.code === "KeyM")) {
       var r = selectionRange();
       ev.preventDefault();
@@ -518,8 +622,19 @@
       closeComposer();
     }
   });
-  // Clicking highlighted text opens its comment. The click still reaches the page as normal.
+  document.addEventListener("keyup", function (ev) {
+    if (ev.key === "Shift") syncCommentCursor(false);
+  });
+  // Clicking highlighted text opens its comment. Shift+click is handled on mouseup, and the
+  // click still reaches the page when Shift is not held.
   document.addEventListener("click", function (ev) {
+    if (ev.shiftKey) {
+      if (!inOverlay(ev) && !editableTarget(ev.target)) {
+        ev.preventDefault();
+        ev.stopPropagation();
+      }
+      return;
+    }
     if (inOverlay(ev) || !HAS_HIGHLIGHTS) return;
     var sel = window.getSelection();
     if (sel && !sel.isCollapsed) return;
@@ -536,8 +651,8 @@
     });
     if (hit) focusComment(hit.id, false);
   }, true);
-  window.addEventListener("resize", queuePaint);
-  window.addEventListener("scroll", function () { toolbar.hidden = true; queuePaint(); }, true);
+  window.addEventListener("resize", function () { if (!composer.hidden) placeComposer(); queuePaint(); });
+  window.addEventListener("scroll", function () { toolbar.hidden = true; if (!composer.hidden) placeComposer(); queuePaint(); }, true);
   document.addEventListener("visibilitychange", function () { if (!document.hidden) load(); });
   var moTimer = null;
   new MutationObserver(function () {

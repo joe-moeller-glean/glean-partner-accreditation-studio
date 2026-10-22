@@ -134,7 +134,7 @@ def render_index(cat: Catalog, store: Store):
     d = cat.data()
     out = ['<h1>Accreditation review</h1>',
            '<p class="dev"><strong>Development only.</strong> Pages served here carry the review overlay: '
-           'select text to comment, suggest an edit, or highlight. Feedback is stored in '
+           'hold Shift and click to leave a comment in a small bubble. Review opens the list on the right. Feedback is stored in '
            '<code>.feedback/feedback.db</code>. SCORM packages never include the overlay.</p>']
     used = set()
     for a in d["accreditations"]:

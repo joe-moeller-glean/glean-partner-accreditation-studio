@@ -2,8 +2,8 @@
 //
 //   node tests/browser/overlay_e2e.mjs <dev-server-url> <module-id> <accreditation-id> <out.json>
 //
-// Drives the real reviewer flow: select text, suggest an edit, comment, highlight, reload and
-// re-anchor, reply, resolve, then archive with the CLI and confirm the database is emptied.
+// Drives the real reviewer flow: select text, suggest an edit, Shift+click to comment, highlight,
+// reload and re-anchor, reply, resolve, then archive with the CLI and confirm the database is emptied.
 // Also checks that the overlay never changes the page's own text or breaks its runtime.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -63,6 +63,22 @@ const selectText = (skip = 0, chars = 40) => page.evaluate(({ skip, chars }) => 
   document.dispatchEvent(new MouseEvent('mouseup', { bubbles: true }));
   return sel.toString().replace(/\s+/g, ' ').trim();
 }, { skip, chars });
+// Shift+click the current selection. The pointer stays normal until Shift is held.
+const shiftClickSelection = async () => {
+  const box = await page.evaluate(() => {
+    const sel = getSelection();
+    if (!sel.rangeCount || sel.isCollapsed) return null;
+    const rect = sel.getRangeAt(0).getBoundingClientRect();
+    return { x: rect.left + Math.min(12, rect.width / 2), y: rect.top + rect.height / 2 };
+  });
+  assert(box, 'no selection to comment on');
+  await page.keyboard.down('Shift');
+  await page.mouse.move(box.x, box.y);
+  await page.mouse.down();
+  await page.mouse.up();
+  await page.keyboard.up('Shift');
+  await ov('.composer').waitFor({ state: 'visible' });
+};
 const highlightSize = (name) => page.evaluate((n) => (CSS.highlights.get(n) || { size: 0 }).size, name);
 
 let before = '';
@@ -75,22 +91,44 @@ await step('module page loads with the overlay injected', async () => {
   before = await pageText();
   assert(before.length > 200, 'module rendered too little text');
 });
+await step('the pointer stays normal until Shift is held', async () => {
+  const box = await page.locator('main p, section p, p').first().boundingBox();
+  assert(box, 'no paragraph to hover');
+  await page.mouse.move(box.x + 16, box.y + 8);
+  assert(await page.evaluate(() => document.documentElement.hasAttribute('data-fb-shift')) === false, 'comment cursor showed without Shift');
+  assert(await ov('.cursor-bubble').isHidden(), 'comment bubble visible without Shift');
+  await page.keyboard.down('Shift');
+  await page.mouse.move(box.x + 24, box.y + 10);
+  assert(await page.evaluate(() => document.documentElement.hasAttribute('data-fb-shift')) === true, 'Shift did not switch to the comment cursor');
+  assert(await ov('.cursor-bubble').isVisible(), 'comment bubble hidden while Shift is held');
+  await page.keyboard.up('Shift');
+  assert(await page.evaluate(() => document.documentElement.hasAttribute('data-fb-shift')) === false, 'comment cursor stayed after Shift was released');
+  assert(await ov('.cursor-bubble').isHidden(), 'comment bubble stayed after Shift was released');
+});
 await step('suggest an edit on selected text', async () => {
   suggestion = await selectText(0, 40);
   assert(suggestion, 'no paragraph to select');
   await ov('.toolbar').waitFor({ state: 'visible' });
   await ov('.toolbar [data-act="suggestion"]').click();
-  await ov('.author input').fill('E2E Reviewer');
+  await ov('.composer').waitFor({ state: 'visible' });
+  const bubble = await ov('.composer').boundingBox();
+  const vp = page.viewportSize();
+  assert(bubble && bubble.width <= 320 && bubble.height < vp.height * 0.75, 'comment bubble covers the page');
+  assert(await ov('.panel').isHidden(), 'review panel opened for a new comment');
+  assert(await ov('.panel .composer').count() === 0, 'composer is inside the review panel');
+  assert(await ov('.author input').count() === 0, 'name field is shown while commenting');
   await ov('.composer .replacement').fill('A clearer replacement sentence.');
   await ov('.composer .body').fill('Shorter and clearer.');
   await ov('.composer button[type="submit"]').click();
+  await ov('.composer').waitFor({ state: 'hidden' });
+  await ov('.fab').click();
   await ov('.card.kind-suggestion').waitFor();
   const j = await api(page, `/comments?scope_type=module&scope_id=${moduleId}&page=index.html`);
   const s = j.comments.find((c) => c.kind === 'suggestion');
   assert(s, 'suggestion not stored');
   assert(s.quote === suggestion, `stored quote ${JSON.stringify(s.quote)} != selection ${JSON.stringify(suggestion)}`);
   assert(s.replacement === 'A clearer replacement sentence.', 'replacement not stored');
-  assert(s.author === 'E2E Reviewer', 'author not stored');
+  assert(s.author === 'reviewer', 'author not stored');
   assert(s.accreditations.includes(accredId), 'comment not linked to its accreditation');
   assert(await highlightSize('fb-suggest') === 1, 'suggestion is not redlined on the page');
   assert(await ov('.layer .ins').count() === 1, 'insertion bubble missing');
@@ -98,7 +136,7 @@ await step('suggest an edit on selected text', async () => {
 await step('comment and highlight on other text', async () => {
   commentQuote = await selectText(1, 30);
   assert(commentQuote, 'no second paragraph to select');
-  await ov('.toolbar [data-act="comment"]').click();
+  await shiftClickSelection();
   await ov('.composer .body').fill('Is this claim sourced?');
   await ov('.composer button[type="submit"]').click();
   await page.waitForFunction(() => (CSS.highlights.get('fb-comment') || { size: 0 }).size === 1);
@@ -112,7 +150,7 @@ await step('comment and highlight on other text', async () => {
 });
 await step('a comment without text is rejected', async () => {
   await selectText(3, 20);
-  await ov('.toolbar [data-act="comment"]').click();
+  await shiftClickSelection();
   await ov('.composer button[type="submit"]').click();
   await ov('.toast.error').waitFor({ state: 'visible' });
   await ov('.composer .cancel').click();
@@ -128,16 +166,26 @@ await step('comments re-anchor after reload', async () => {
   assert(await highlightSize('fb-mark') === 1, 'highlight did not re-anchor');
   assert(await ov('.card.orphan').count() === 0, 'a comment was orphaned after reload');
 });
-await step('reply and resolve from the panel', async () => {
-  const card = ov('.card.kind-comment');
-  await card.locator('form.reply textarea').fill('Source is S12.');
-  await card.locator('form.reply button').click();
-  await card.locator('.replies li').waitFor();
-  await card.locator('[data-act="resolve"]').click();
-  await page.waitForFunction(() => (CSS.highlights.get('fb-comment') || { size: 0 }).size === 0);
-  const j = await api(page, `/comments?scope_type=module&scope_id=${moduleId}&page=index.html&status=all`);
-  const c = j.comments.find((x) => x.kind === 'comment');
-  assert(c.status === 'resolved' && c.replies.length === 1, 'resolve or reply not stored');
+await step('review lists each comment with its status', async () => {
+  if (await ov('.panel').isHidden()) await ov('.fab').click();
+  await ov('.panel').waitFor({ state: 'visible' });
+  const layout = await page.evaluate(() => {
+    const root = document.querySelector('glean-feedback-overlay').shadowRoot;
+    const panel = root.querySelector('.panel').getBoundingClientRect();
+    return {
+      panelWidth: panel.width,
+      panelLeft: panel.left,
+      vw: innerWidth,
+      margin: getComputedStyle(document.body).marginRight,
+      statuses: [...root.querySelectorAll('.card .badge.st')].map((n) => n.textContent),
+      name: !!root.querySelector('input[autocomplete="name"]'),
+    };
+  });
+  assert(layout.panelLeft > 400, 'review panel covers the page ' + JSON.stringify(layout));
+  assert(layout.panelWidth < layout.vw * 0.5, 'review panel is full screen ' + JSON.stringify(layout));
+  assert(layout.margin !== '380px', 'review shifts the page');
+  assert(layout.name === false, 'name field is still in the review panel');
+  assert(layout.statuses.length === 3 && layout.statuses.every((s) => s === 'Open'), JSON.stringify(layout.statuses));
 });
 await step('accreditation page is annotatable', async () => {
   await page.goto(`${base}/a/${accredId}/`, { waitUntil: 'load' });
@@ -159,9 +207,9 @@ await step('apply and archive move feedback out of SQLite into history', async (
   execFileSync('python3', [cli, 'apply', s.id, '--note', 'Applied in E2E', '--by', 'E2E'], { encoding: 'utf8' });
   execFileSync('python3', [cli, 'archive'], { encoding: 'utf8' });
   const left = await api(page, `/comments?scope_type=module&scope_id=${moduleId}&page=index.html&status=all`);
-  assert(left.comments.length === 1 && left.comments[0].kind === 'highlight', 'only the open highlight should remain');
+  assert(left.comments.length === 2, 'open comment and highlight should remain');
   const hist = fs.readFileSync(path.join(process.env.FEEDBACK_HISTORY, `${moduleId}.md`), 'utf8');
-  for (const needle of [s.id, 'Applied in E2E', 'A clearer replacement sentence.', 'Source is S12.']) {
+  for (const needle of [s.id, 'Applied in E2E', 'A clearer replacement sentence.']) {
     assert(hist.includes(needle), 'history missing ' + needle);
   }
 });
