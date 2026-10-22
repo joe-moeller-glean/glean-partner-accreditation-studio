@@ -1,0 +1,211 @@
+{
+  "module_id": "SBP-110",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-110-Q001",
+      "objective_id": "SBP-110-L01",
+      "module_id": "SBP-110",
+      "stem": "Which principle should govern validation selection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Choose the option with the highest setup effort."
+        },
+        {
+          "id": "b",
+          "text": "Use the lightest option that credibly resolves the remaining buying uncertainty."
+        },
+        {
+          "id": "c",
+          "text": "Always require a full pilot."
+        },
+        {
+          "id": "d",
+          "text": "Always prohibit a pilot regardless of need."
+        }
+      ],
+      "claims": [
+        "C-0508"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q002",
+      "objective_id": "SBP-110-L02",
+      "module_id": "SBP-110",
+      "stem": "Which environment statement should an author verify before external publication?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only the deck's cover color."
+        },
+        {
+          "id": "b",
+          "text": "That all environments perfectly reproduce production."
+        },
+        {
+          "id": "c",
+          "text": "Current data handling, identity, isolation, limits and allowed validation claims."
+        },
+        {
+          "id": "d",
+          "text": "That every old price and ARR gate is permanent."
+        }
+      ],
+      "claims": [
+        "C-0509"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q003",
+      "objective_id": "SBP-110-L03",
+      "module_id": "SBP-110",
+      "stem": "What is essential before a sandbox workshop?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Authorized data/access, champion alignment, tested representative tasks and clear limits."
+        },
+        {
+          "id": "b",
+          "text": "An unbounded invitation to every user."
+        },
+        {
+          "id": "c",
+          "text": "Promising every production behavior will be identical."
+        },
+        {
+          "id": "d",
+          "text": "Uploading all customer data without review."
+        }
+      ],
+      "claims": [
+        "C-0510"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q004",
+      "objective_id": "SBP-110-L04",
+      "module_id": "SBP-110",
+      "stem": "Which situation best justifies a pilot request?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A curious contact requests free access with no owner."
+        },
+        {
+          "id": "b",
+          "text": "Prior work is complete and a scoped, important buying question cannot be resolved adequately by lighter validation."
+        },
+        {
+          "id": "c",
+          "text": "The team has not yet identified any workflow."
+        },
+        {
+          "id": "d",
+          "text": "A seller needs to inflate activity count."
+        }
+      ],
+      "claims": [
+        "C-0511"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q005",
+      "objective_id": "SBP-110-L05",
+      "module_id": "SBP-110",
+      "stem": "Readiness is 84%, but approvals and the signed required order form are absent. Can deployment begin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No; readiness evidence does not replace required approvals and commercial prerequisites."
+        },
+        {
+          "id": "b",
+          "text": "Yes; 80% automatically authorizes deployment."
+        },
+        {
+          "id": "c",
+          "text": "Yes; a sponsor's excitement replaces all approvals."
+        },
+        {
+          "id": "d",
+          "text": "Yes; a generated score overrides policy."
+        }
+      ],
+      "claims": [
+        "C-0512"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q006",
+      "objective_id": "SBP-110-L06",
+      "module_id": "SBP-110",
+      "stem": "What belongs in a validation stop rule?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Permission to expand data without review."
+        },
+        {
+          "id": "b",
+          "text": "A promise that no result can ever be a no-go."
+        },
+        {
+          "id": "c",
+          "text": "A specific unmet dependency or criterion, owner notification and a pause/narrow/defer decision."
+        },
+        {
+          "id": "d",
+          "text": "Automatic indefinite extension."
+        }
+      ],
+      "claims": [
+        "C-0513"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q008",
+      "objective_id": "SBP-110-L06",
+      "module_id": "SBP-110",
+      "stem": "The SE cannot establish permission feasibility for a priority workflow by the checkpoint. What is best?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Claim permission inheritance is guaranteed without evidence."
+        },
+        {
+          "id": "b",
+          "text": "Hide the dependency from the sponsor."
+        },
+        {
+          "id": "c",
+          "text": "Start deployment and hope it works."
+        },
+        {
+          "id": "d",
+          "text": "Pause or narrow that use case and reconfirm the validation plan with owners."
+        }
+      ],
+      "claims": [
+        "C-0514"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

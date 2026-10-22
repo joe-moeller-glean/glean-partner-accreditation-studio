@@ -1,0 +1,149 @@
+{
+  "id": "SBP-101-L04",
+  "lesson": "SBP-101-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Customer, Glean and partner value",
+  "nav": "4. Customer, Glean and partner value",
+  "objective": "Name one benefit for each party and one accountability boundary.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A Blueprint should be worth the time for everyone in the room. When each party knows what it gains and what it is accountable for, the engagement moves faster and handoffs stay clean."
+    },
+    {
+      "t": "h3",
+      "x": "What each party gains"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**The customer** gets business-level alignment and an actionable roadmap: prioritized use cases, current-state evidence, business-aligned metrics, and a group-level business case. The process also builds excitement and sponsorship across business units, which helps secure budget and resources.",
+        "**Glean** gets a better-qualified, value-led evaluation with a named sponsor and clear success criteria, rather than an open-ended trial.",
+        "**The partner** brings industry knowledge, facilitation skill, and technical context. In return, the Blueprint creates a clear delivery roadmap that can turn discovery into adoption, agent builds, and ongoing optimization."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Who does what across the lifecycle"
+    },
+    {
+      "t": "p",
+      "x": "Glean's partner enablement material sets out a responsibility split for partner-led engagements:"
+    },
+    {
+      "t": "table",
+      "caption": "Partner and Glean responsibilities (partner enablement RACI snapshot)",
+      "head": [
+        "Activity",
+        "Partner",
+        "Glean"
+      ],
+      "rows": [
+        [
+          "Use case discovery",
+          "Facilitates workshops with business stakeholders",
+          "Shares patterns and technical constraints"
+        ],
+        [
+          "Build",
+          "Leads day-to-day agent builds",
+          "Coaches, with patterns and technical guidance"
+        ],
+        [
+          "Optimize and ongoing support",
+          "Front-line advisory and small changes",
+          "Glean Support handles product issues"
+        ],
+        [
+          "Business reviews and renewals",
+          "Brings the AI outcomes story, services roadmap, and joint next-step proposals",
+          "Glean AE and SE are accountable for renewal and expansion"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Accountability boundaries"
+    },
+    {
+      "t": "p",
+      "x": "Partner participation does not transfer commercial approval, product support accountability, or permission to describe capabilities Glean has not confirmed. Agree who owns what before the first session: who facilitates, who takes notes, who answers product feasibility questions, and who owns the follow-up. Glean keeps its own processes for approving pilots and escalating product issues."
+    },
+    {
+      "t": "callout",
+      "label": "Good use of partner expertise",
+      "x": "A partner leads a departmental workshop and translates the customer's goals into grounded workflow discovery. The Glean account team supplies product patterns and feasibility guidance. The result is a clearer services scope, not just more workshops."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Each party gets something different from the same engagement. Seeing the three side by side helps you explain it."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "What each party gains from a Blueprint",
+      "alt": "Three cards. The customer gains clear, prioritized use cases and a defensible business case. Glean gains a qualified opportunity with an executive decision path. The partner gains a services roadmap tied to measured customer outcomes.",
+      "caption": "",
+      "items": [
+        {
+          "label": "The customer",
+          "detail": "Prioritized use cases and a business case they can defend internally",
+          "emph": false
+        },
+        {
+          "label": "Glean",
+          "detail": "A qualified opportunity with sponsorship and a clear validation path",
+          "emph": false
+        },
+        {
+          "label": "The partner",
+          "detail": "A services roadmap tied to measured customer outcomes",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Name one benefit for the customer, one for the partner, and one for Glean in a Blueprint you might run. Then state one accountability boundary you would agree before the first session."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Customer:** Clear priorities and evidence for an investment decision.",
+        "**Partner:** A relevant, well-defined services scope that follows from the prioritized use cases.",
+        "**Glean:** A qualified evaluation with a named sponsor and agreed success criteria.",
+        "**Boundary:** Glean keeps its internal pilot-approval and product-escalation processes. The partner does not commit to pilots, pricing, or roadmap items on Glean's behalf."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 454,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0022",
+    "C-0023",
+    "C-0024",
+    "C-0025",
+    "C-0026",
+    "C-0027",
+    "C-0028"
+  ],
+  "sources": [
+    "S05",
+    "S06",
+    "S26"
+  ]
+}

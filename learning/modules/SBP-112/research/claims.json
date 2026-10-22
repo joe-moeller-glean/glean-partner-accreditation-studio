@@ -1,0 +1,732 @@
+{
+  "module_id": "SBP-112",
+  "claims": [
+    {
+      "claim_id": "C-0565",
+      "anchor": "SBP-112-S000",
+      "text": "Using Glean agents and prompts to research accounts, draft value hypotheses, generate use case tables and DITL timelines, and check readiness - with human review",
+      "source_ids": [
+        "S37",
+        "S38",
+        "S07",
+        "S25",
+        "S28"
+      ],
+      "locator": "Module overview synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0566",
+      "anchor": "SBP-112-L01#00",
+      "text": "AI can make Blueprint preparation much faster. Its output is a draft that people review, never a decision.",
+      "source_ids": [
+        "S07",
+        "S37",
+        "S38",
+        "S47"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0567",
+      "anchor": "SBP-112-L01#01",
+      "text": "Account research | A claim register from authorized sources | Check facts, freshness, and sharing permissions Value hypothesis | Three Whys, proposed PBOs, and candidate metrics | Validate relevance and evidence with the account team Visioning preparation | A run of show and open discovery questions | Review timing and remove leading wording Use-case log | Structured entries extracted from notes | Confirm priorities with customer owners DITL timeline | Current and future step tables | Verify steps, timings, and capabilities Readiness review | An evidence-versus-criteria matrix | Use the live a",
+      "source_ids": [
+        "S07",
+        "S37",
+        "S38",
+        "S47"
+      ],
+      "locator": "Where AI helps",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0568",
+      "anchor": "SBP-112-L01#02",
+      "text": "Glean's internal tools include a Value Hypothesis Agent, which drafts strategic priorities, risks, and Positive Business Outcomes, and a Day-in-the-Life point-of-view generator, which drafts current and future timeline tables. Tool availability and permissions vary. An internal agent link doesn't mean a partner is entitled to use it. This course provides a prompt library with equivalent structured prompts, so you can do the same work in any approved environment. Boundary Each tool produces a reviewed draft, not a decision or an approval.",
+      "source_ids": [
+        "S37",
+        "S38"
+      ],
+      "locator": "Glean tools and equivalent prompts",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0569",
+      "anchor": "SBP-112-L01#03",
+      "text": "AI speeds up preparation and drafting. People still own the facts, the judgments, and the commitments. AI can help draft People must own Account research summaries Which facts are verified Interview notes and recaps What the customer actually agreed First-draft workflow maps Whether the steps are right Value model arithmetic The assumptions and the claims made",
+      "source_ids": [
+        "S07",
+        "S37",
+        "S38",
+        "S47"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0570",
+      "anchor": "SBP-112-L01#04",
+      "text": "Choose the appropriate AI assistance for three tasks: account research, DITL drafting, and pilot readiness.",
+      "source_ids": [
+        "S07",
+        "S37",
+        "S38",
+        "S47"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0571",
+      "anchor": "SBP-112-L01#05",
+      "text": "Account research: a research or point-of-view prompt using authorized sources only, with a claim register as output. DITL drafting: a timeline-drafting prompt fed with verified interview notes. Pilot readiness: an evidence-versus-criteria review that the account team uses with the approved scorecard. Every output is a draft for human review. None is a decision or an approval.",
+      "source_ids": [
+        "S07",
+        "S37",
+        "S38",
+        "S47"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0572",
+      "anchor": "SBP-112-L02#00",
+      "text": "AI output is only as good as its prompt. A grounded prompt specifies what the model may use, what it must produce, and what it must not invent.",
+      "source_ids": [
+        "S13",
+        "S25",
+        "S37"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0573",
+      "anchor": "SBP-112-L02#01",
+      "text": "Glean's use-case scoping prep template shows the pattern. It states the source (\"Using only that transcript…\"), defines the output structure, and sets limits (\"Do not add recommendations, new questions, or coaching\"). A grounded prompt contains: Task: what to produce. Authorized inputs: which sources the model may use. Known facts and unknowns: what is already established and what isn't. Output structure: the table or schema to fill in. Guardrails: no invented baselines, owners, capabilities, or commitments. Citations: a reference for each factual claim. Separation: customer statements, infere",
+      "source_ids": [
+        "S25"
+      ],
+      "locator": "The parts of a grounded prompt",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S25",
+      "excerpt": "Using only that transcript, provide a clear, concise synopsis of the call. / Do not add recommendations, new questions, or coaching — only describe what happened on the call.",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0574",
+      "anchor": "SBP-112-L02#02",
+      "text": "A citation can be irrelevant or out of date. Read the passage it points to and check access rights. Instructions that appear inside retrieved documents are data, not new instructions for the model.",
+      "source_ids": [
+        "S13",
+        "S25",
+        "S37"
+      ],
+      "locator": "Check the citation, not just its presence",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0575",
+      "anchor": "SBP-112-L02#03",
+      "text": "A grounded prompt states the task and also what the model may use and what it must not invent. Task What to produce, for whom Authorized inputs Only approved sources Facts and unknowns State both explicitly Output structure A schema or template Guardrails What must not be invented Citations Every claim points to a source Separation Facts, estimates, and assumptions kept apart",
+      "source_ids": [
+        "S13",
+        "S25",
+        "S37"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0576",
+      "anchor": "SBP-112-L02#04",
+      "text": "Improve this prompt: \"Make a convincing ROI case.\"",
+      "source_ids": [
+        "S13",
+        "S25",
+        "S37"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0577",
+      "anchor": "SBP-112-L02#05",
+      "text": "\"Using only the attached workflow notes and metric cards, draft a value model. Include the current and future workflow, each assumption labeled with its evidence and source, explicit units, and conservative, base, and upside ranges. List any missing evidence and the questions needed to validate it. Don't invent customer facts, baselines, or capabilities. Mark this output as a draft requiring financial and technical review.\"",
+      "source_ids": [
+        "S13",
+        "S25",
+        "S37"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0578",
+      "anchor": "SBP-112-L03#00",
+      "text": "AI drafting tools sometimes pull in other customers' outcomes. A peer's result is not evidence about the prospect.",
+      "source_ids": [
+        "S13",
+        "S36",
+        "S37"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0579",
+      "anchor": "SBP-112-L03#01",
+      "text": "Use the customer's strategy, meeting notes, and stated priorities to draft strategic priorities, risks, and proposed Positive Business Outcomes. A safe draft is labeled \"hypothesis to validate\" and links to the customer evidence it is based on. Glean's Value Playbook warns against the failure where teams present benchmarks as proof.",
+      "source_ids": [
+        "S13",
+        "S36"
+      ],
+      "locator": "Build from the customer's own evidence",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Without clear evidence standards, teams either present benchmarks as proof or fail to tell strong stories with real data.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0580",
+      "anchor": "SBP-112-L03#02",
+      "text": "A peer example can be used as an analogy only when it is approved for that use. Keep a possible support-efficiency opportunity for this prospect separate from a proven outcome at another company. Boundary Never turn another customer's success into the prospect's own result. Remove uncleared names, figures, and confidential details before sharing with partners or customers.",
+      "source_ids": [
+        "S13",
+        "S36",
+        "S37"
+      ],
+      "locator": "Peer examples are analogies at most",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0581",
+      "anchor": "SBP-112-L03#03",
+      "text": "Another customer's result is an analogy at most. The hypothesis has to be built from this customer's evidence. Copied outcome Grounded hypothesis Reuses a peer's percentage Uses this customer's volumes and times Implies a promise States assumptions and a range No owner for the claim Labels evidence and names an owner",
+      "source_ids": [
+        "S13",
+        "S36",
+        "S37"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0582",
+      "anchor": "SBP-112-L03#04",
+      "text": "Repair this AI-drafted sentence: \"This customer saved 40% because a peer did.\"",
+      "source_ids": [
+        "S13",
+        "S36",
+        "S37"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0583",
+      "anchor": "SBP-112-L03#05",
+      "text": "Replace it with a hypothesis tied to the prospect's own workflow, for example: \"Hypothesis to validate: agents' search time for access cases could fall, based on what the team described in Visioning. We'll measure handle time against a four-week baseline.\" Remove the peer's percentage and name. Use a peer example only if it is approved, and label it clearly as an external example.",
+      "source_ids": [
+        "S13",
+        "S36",
+        "S37"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0584",
+      "anchor": "SBP-112-L04#00",
+      "text": "AI can produce a tidy DITL timeline in seconds. Treat it as a discussion starter until the customer's real workflow evidence replaces the generic content.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S38"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0585",
+      "anchor": "SBP-112-L04#01",
+      "text": "An AI draft can organize as-is and to-be steps, durations, applications, and possible Glean assistance. Give it real interview evidence, and ask it to: Keep current and future timelines separate. Include the actor, system, active time, waiting time, evidence, handoff, control, and exception for each step. Mark any unknown as \"unknown.\" Never fill gaps with estimates.",
+      "source_ids": [
+        "S38"
+      ],
+      "locator": "Draft from evidence",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0586",
+      "anchor": "SBP-112-L04#02",
+      "text": "A model working from general role knowledge may produce a plausible workflow, but it isn't the customer's observed process. Replace generic steps with steps confirmed in the interviews, and keep the revisions traceable. The SE reviews each proposed capability, and the workflow owner validates the sequence and timings. Boundary Don't accept generated timings as baseline data. Don't remove approval or security controls because a model suggests automating them.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S38"
+      ],
+      "locator": "Review every step",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0587",
+      "anchor": "SBP-112-L04#03",
+      "text": "Glean's DITL training describes a practical pattern for a seller without an SE on the call: give Glean the department and the current steps, and ask for a step-by-step optimized workflow. That gives you a starting draft for the future state. It is a draft, not evidence. The SE verifies each capability, and the workflow owner confirms the sequence and timings. Provide the evidence Department and current steps Ask for a draft A step-by-step future state SE verifies Each proposed capability Owner confirms Sequence, ranges, and exceptions",
+      "source_ids": [
+        "S64"
+      ],
+      "locator": "A practical drafting pattern",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0588",
+      "anchor": "SBP-112-L04#04",
+      "text": "You've been handed a generated DITL timeline with precise times for each step, but no citations. Review it.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S38"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0589",
+      "anchor": "SBP-112-L04#05",
+      "text": "Mark every time as unverified. Seek interview or observation evidence for each one, and check the step sequence and systems with the workflow owner. Review the future-state claims with the technical owners. Only then use the timeline in a value model.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S38"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0590",
+      "anchor": "SBP-112-L05#00",
+      "text": "People remain accountable for anything that goes to a customer, and for every decision. Review AI output systematically before you use it.",
+      "source_ids": [
+        "S13",
+        "S15",
+        "S37",
+        "S55"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0591",
+      "anchor": "SBP-112-L05#01",
+      "text": "Factual support: does the cited passage actually support the claim? Freshness: is the source current? Permissions: may this content be shared with this audience? Confidentiality: does it contain customer or internal information that must not be shared? Technical feasibility: has the SE verified each capability? Arithmetic and units: are the calculations correct? Bias and framing: are downside results kept? Claims and clearance: are external claims approved?",
+      "source_ids": [
+        "S13",
+        "S15",
+        "S37",
+        "S55"
+      ],
+      "locator": "The review checklist",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0592",
+      "anchor": "SBP-112-L05#02",
+      "text": "A draft can pass citation review and still fail, for example because it includes internal pilot thresholds or restricted customer details. Classify each section as learner-safe, author-only, or pending clearance. Boundary Never give AI authority to submit pilot approvals, send customer messages, change systems, or produce an SME sign-off. Consequential actions go through authorized human processes.",
+      "source_ids": [
+        "S13",
+        "S15",
+        "S37",
+        "S55"
+      ],
+      "locator": "Classify content before publishing",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0593",
+      "anchor": "SBP-112-L05#03",
+      "text": "Polish isn't proof. Run every AI-assisted output through the same checks before anyone outside the team sees it. Factual support Every claim traced Freshness Sources still current Permissions Allowed to use this input Confidentiality Nothing restricted exposed Feasibility Verified by a technical owner Arithmetic and units Recalculated Bias and framing Fair to the evidence Claims clearance Approved before sharing",
+      "source_ids": [
+        "S13",
+        "S15",
+        "S37",
+        "S55"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0594",
+      "anchor": "SBP-112-L05#04",
+      "text": "Give three reasons to reject a polished, AI-generated executive deck.",
+      "source_ids": [
+        "S13",
+        "S15",
+        "S37",
+        "S55"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0595",
+      "anchor": "SBP-112-L05#05",
+      "text": "Unsupported customer metrics: figures with no customer source or baseline. Unverified product commitments: capabilities that no SE has confirmed for this environment. Internal or restricted content: for example, internal pilot policy or another customer's details. Correct each one, recheck the source passages, and get the appropriate review before sharing.",
+      "source_ids": [
+        "S13",
+        "S15",
+        "S37",
+        "S55"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0596",
+      "anchor": "SBP-112-L06#00",
+      "text": "Make AI preparation repeatable: a set sequence of steps, with human review at each gate and a safe stop when something is missing.",
+      "source_ids": [
+        "S25",
+        "S37",
+        "S38",
+        "S55"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0597",
+      "anchor": "SBP-112-L06#01",
+      "text": "Collect the permitted sources, and record their versions. Extract claims, each with its source passage. Draft structured outputs: hypothesis, use-case log, DITL tables, and value model. List gaps and open questions. Check the calculations and units. Route reviews to the AE, the SE, and customer owners. Log the approval status before anything is published. This course's prompt library has separate prompts for research, hypotheses, discovery, DITL, value QA, and readiness review. Together they produce a draft artifact pack and a list of open questions, not an approved Blueprint.",
+      "source_ids": [
+        "S25",
+        "S37",
+        "S38",
+        "S55"
+      ],
+      "locator": "A reusable preparation flow",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0598",
+      "anchor": "SBP-112-L06#02",
+      "text": "If an internal tool isn't available, use the equivalent structured prompt in an approved environment. If required evidence or reviewers are missing, stop. Don't proceed with gaps.",
+      "source_ids": [
+        "S25",
+        "S37",
+        "S38",
+        "S55"
+      ],
+      "locator": "Fail safely",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0599",
+      "anchor": "SBP-112-L06#03",
+      "text": "A reusable workflow puts the human review steps in the process, so they aren't skipped under time pressure. Collect Authorized inputs only Extract Facts with sources Draft Structured output List gaps What's still unknown Check Against the review list Route reviews To the right owners Log Decisions and changes",
+      "source_ids": [
+        "S25",
+        "S37",
+        "S38",
+        "S55"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0600",
+      "anchor": "SBP-112-L06#04",
+      "text": "Design a stop condition for an AI-assisted build pipeline.",
+      "source_ids": [
+        "S25",
+        "S37",
+        "S38",
+        "S55"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0601",
+      "anchor": "SBP-112-L06#05",
+      "text": "\"Stop external publication if any required source is missing, any customer claim is unsupported, any capability is unverified, any clearance is pending, or any review is incomplete. Produce an exception report listing each item, its owner, and the next action.\"",
+      "source_ids": [
+        "S25",
+        "S37",
+        "S38",
+        "S55"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0602",
+      "anchor": "SBP-112-S999",
+      "text": "Review your artifacts and proceed to the required assessment or capstone submission.",
+      "source_ids": [
+        "S37",
+        "S38",
+        "S07",
+        "S25",
+        "S28"
+      ],
+      "locator": "Assessment design; S55/S56 build framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0603",
+      "anchor": "SBP-112-TEMPLATES",
+      "text": "Reusable templates: A19",
+      "source_ids": [
+        "S13",
+        "S37",
+        "S38"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0604",
+      "anchor": "SBP-112-Q001",
+      "text": "Training should be usable without unauthorized tool access; access must be checked and alternatives supplied.",
+      "source_ids": [
+        "S37",
+        "S38",
+        "S47",
+        "S07"
+      ],
+      "locator": "Agent resources; Pilot Readiness Scorecard",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0605",
+      "anchor": "SBP-112-Q002",
+      "text": "Structured provenance and explicit unknowns improve reviewability and reduce fabricated claims.",
+      "source_ids": [
+        "S25",
+        "S37",
+        "S13"
+      ],
+      "locator": "Scoping prep; value-hypothesis warnings; authored prompt guardrails",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0606",
+      "anchor": "SBP-112-Q003",
+      "text": "Peer stories are not prospect facts, and external names/claims also need clearance.",
+      "source_ids": [
+        "S37",
+        "S36",
+        "S13"
+      ],
+      "locator": "Value Hypothesis Agent guardrail; value evidence",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0607",
+      "anchor": "SBP-112-Q004",
+      "text": "A generated draft is a starting hypothesis, not a measured or technically approved workflow.",
+      "source_ids": [
+        "S38",
+        "S22",
+        "S02"
+      ],
+      "locator": "As-Is and To-Be generator; DITL workflow evidence",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0608",
+      "anchor": "SBP-112-Q005",
+      "text": "AI assistance does not grant authority to approve, send or change external systems.",
+      "source_ids": [
+        "S37",
+        "S15",
+        "S13",
+        "S55"
+      ],
+      "locator": "Source-based controls plus authored AI governance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0609",
+      "anchor": "SBP-112-Q006",
+      "text": "A safe workflow emits an exception report rather than shipping unsupported or unauthorized material.",
+      "source_ids": [
+        "S25",
+        "S37",
+        "S38",
+        "S55"
+      ],
+      "locator": "AI-assisted preparation; authored workflow controls",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0610",
+      "anchor": "SBP-112-Q007",
+      "text": "Citation presence is not citation validity; the support must match the claim and be current enough.",
+      "source_ids": [
+        "S25",
+        "S37",
+        "S38",
+        "S55"
+      ],
+      "locator": "AI-assisted preparation; authored workflow controls",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0611",
+      "anchor": "SBP-112-Q008",
+      "text": "Retrieved content supplies evidence, not new authority or permission for consequential actions.",
+      "source_ids": [
+        "S25",
+        "S37"
+      ],
+      "locator": "AI-assisted preparation; authored workflow controls",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "SBP-109-L03",
+  "lesson": "SBP-109-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "A decision-focused 60-minute readout",
+  "nav": "3. A decision-focused 60-minute readout",
+  "objective": "Cut a 40-slide product introduction down to an executive opening.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Executives give you an hour. Spend most of it on their workflows, their value, and the decision, not on a product tour."
+    },
+    {
+      "t": "h3",
+      "x": "The narrative"
+    },
+    {
+      "t": "p",
+      "x": "Glean's checklist frames the readout as a sequence: use case readout → future state → value → decision and next steps. A concise executive narrative covers:"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "The objective and context, including why this decision now.",
+        "The prioritized workflows, with before and after.",
+        "The business value and its assumptions.",
+        "Success criteria and the recommended validation path.",
+        "The decision and commitments."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "A suggested time plan"
+    },
+    {
+      "t": "table",
+      "caption": "A 60-minute readout (course design)",
+      "head": [
+        "Segment",
+        "Minutes"
+      ],
+      "rows": [
+        [
+          "Context and objective",
+          "5"
+        ],
+        [
+          "Workflow evidence: current vs. future, cost of inaction",
+          "15"
+        ],
+        [
+          "Value: range, assumptions, evidence",
+          "15"
+        ],
+        [
+          "Success criteria and validation recommendation",
+          "10"
+        ],
+        [
+          "Decision and mutual action plan",
+          "15"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "x": "These timings are this course's design and fit a 60-minute session. They are not a mandated agenda."
+    },
+    {
+      "t": "h3",
+      "x": "Keep the product reintroduction short"
+    },
+    {
+      "t": "p",
+      "x": "Glean's playbook says repositioning Glean matters, especially with a new executive sponsor, but should take no more than five minutes. Give a high-level overview, then move to the customer's work."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A readout is a decision meeting. Most of the time goes to the customer's evidence and the decision, not the product."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "A decision-focused readout narrative",
+      "alt": "A five-part readout narrative: restate the three whys, play back what was heard, show the value range and assumptions, show a short tailored demonstration, and ask for the decision and validation path.",
+      "caption": "",
+      "items": [
+        {
+          "label": "The three whys",
+          "detail": "In the customer's words",
+          "emph": false
+        },
+        {
+          "label": "What we heard",
+          "detail": "Priorities and workflows from DITL",
+          "emph": false
+        },
+        {
+          "label": "Value and assumptions",
+          "detail": "A range, with evidence labels",
+          "emph": false
+        },
+        {
+          "label": "A short tailored demo",
+          "detail": "Only the priority workflows",
+          "emph": false
+        },
+        {
+          "label": "The decision",
+          "detail": "Sponsorship, criteria, and the validation path",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Your colleague's draft readout opens with a 40-slide product introduction. Cut it down to an executive opening."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Keep four things: the customer's problem in their words, why now, why Glean in this context (one slide, about five minutes at most), and the decision you'll ask for at the end."
+    },
+    {
+      "t": "p",
+      "x": "Move the product background to an appendix or a separate link. Go straight to the customer's prioritized workflows and the evidence from DITL."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 309,
+  "eyebrow": "Lesson 3 · about 6 min",
+  "claims": [
+    "C-0427",
+    "C-0428",
+    "C-0429",
+    "C-0430",
+    "C-0431",
+    "C-0432",
+    "C-0433"
+  ],
+  "sources": [
+    "S02",
+    "S14"
+  ]
+}

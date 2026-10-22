@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-101",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-101-Q001",
+      "objective_id": "SBP-101-L01",
+      "module_id": "SBP-101",
+      "stem": "What is the primary purpose of the Blueprint Consultation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guarantee a financial return before discovery."
+        },
+        {
+          "id": "b",
+          "text": "Provide a free production deployment to every interested prospect."
+        },
+        {
+          "id": "c",
+          "text": "Replace qualification with a long product demonstration."
+        },
+        {
+          "id": "d",
+          "text": "Connect prioritized workflows and measurable value to a sponsored investment and validation decision."
+        }
+      ],
+      "claims": [
+        "C-0044"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q002",
+      "objective_id": "SBP-101-L02",
+      "module_id": "SBP-101",
+      "stem": "Which sequence best represents the Blueprint customer conversations?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Visioning, DITL interviews, Executive Validation."
+        },
+        {
+          "id": "b",
+          "text": "Architecture certification, agent build, renewal."
+        },
+        {
+          "id": "c",
+          "text": "Pilot approval, general product training, procurement."
+        },
+        {
+          "id": "d",
+          "text": "Executive Validation, pilot deployment, Visioning."
+        }
+      ],
+      "claims": [
+        "C-0045"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q003",
+      "objective_id": "SBP-101-L03",
+      "module_id": "SBP-101",
+      "stem": "Which statement is a business outcome rather than merely an activity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reduce support handling cost while maintaining resolution quality."
+        },
+        {
+          "id": "b",
+          "text": "Create ten agent ideas."
+        },
+        {
+          "id": "c",
+          "text": "Connect one more repository regardless of use."
+        },
+        {
+          "id": "d",
+          "text": "Hold three AI brainstorming meetings."
+        }
+      ],
+      "claims": [
+        "C-0046"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q004",
+      "objective_id": "SBP-101-L04",
+      "module_id": "SBP-101",
+      "stem": "A partner has strong industry knowledge. What is the best use of it in Blueprint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Translate customer goals into grounded workflow discovery and an agreed services roadmap."
+        },
+        {
+          "id": "b",
+          "text": "Bypass the Glean account team on pilot approvals."
+        },
+        {
+          "id": "c",
+          "text": "Treat every discovery finding as signed delivery scope."
+        },
+        {
+          "id": "d",
+          "text": "Promise unsupported features to differentiate the proposal."
+        }
+      ],
+      "claims": [
+        "C-0047"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q005",
+      "objective_id": "SBP-101-L05",
+      "module_id": "SBP-101",
+      "stem": "How does Sales Blueprinting differ from a post-sales implementation blueprint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is simply another name for a connector configuration guide."
+        },
+        {
+          "id": "b",
+          "text": "It replaces all architecture review and security work."
+        },
+        {
+          "id": "c",
+          "text": "It is only a technical diagram with no business owner."
+        },
+        {
+          "id": "d",
+          "text": "It centers on outcomes, discovery, value and the evaluation decision."
+        }
+      ],
+      "claims": [
+        "C-0048"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q006",
+      "objective_id": "SBP-101-L06",
+      "module_id": "SBP-101",
+      "stem": "Which pack is most decision-ready?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A customer logo and an internal benchmark."
+        },
+        {
+          "id": "b",
+          "text": "A list of product features with no workflow context."
+        },
+        {
+          "id": "c",
+          "text": "A polished demo and an unexplained savings headline."
+        },
+        {
+          "id": "d",
+          "text": "Priorities, owners, workflow evidence, labeled value, success criteria and next decisions."
+        }
+      ],
+      "claims": [
+        "C-0049"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q007",
+      "objective_id": "SBP-101-L06",
+      "module_id": "SBP-101",
+      "stem": "A sponsor asks whether Blueprint guarantees a pilot. What should you say?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No; it helps agree the lightest sufficient validation, with pilots justified and separately gated."
+        },
+        {
+          "id": "b",
+          "text": "Yes; all customers must run a pilot after Visioning."
+        },
+        {
+          "id": "c",
+          "text": "No validation can happen until a full production contract is signed."
+        },
+        {
+          "id": "d",
+          "text": "Yes; completion automatically creates a pilot entitlement."
+        }
+      ],
+      "claims": [
+        "C-0050"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q008",
+      "objective_id": "SBP-101-L06",
+      "module_id": "SBP-101",
+      "stem": "A learner sees AISBS in this workbook. What is its status?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A replacement for all technical certifications."
+        },
+        {
+          "id": "b",
+          "text": "A proposed credential name and design requiring program-owner confirmation."
+        },
+        {
+          "id": "c",
+          "text": "An already approved global Glean certification policy."
+        },
+        {
+          "id": "d",
+          "text": "A promise that Impartner has already published the course."
+        }
+      ],
+      "claims": [
+        "C-0051"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

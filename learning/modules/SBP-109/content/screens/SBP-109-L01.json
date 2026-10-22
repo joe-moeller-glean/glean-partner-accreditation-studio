@@ -1,0 +1,140 @@
+{
+  "id": "SBP-109-L01",
+  "lesson": "SBP-109-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Executive Validation readiness",
+  "nav": "1. Executive Validation readiness",
+  "objective": "Review readiness when workflow maps are complete but value inputs have no owner.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Executive Validation, also called the Executive Readout, is the last step of the Blueprint Consultation. It is where leadership decides whether the value justifies investing more time and resources, and how it will be proven."
+    },
+    {
+      "t": "h3",
+      "x": "Why this meeting matters"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Blueprint playbook describes the Executive Readout as a mandatory step before moving forward with a pilot or proof of value. It ensures alignment between the Glean team and the customer's leadership before more time and resources go into the evaluation."
+    },
+    {
+      "t": "h3",
+      "x": "The preflight, one to three business days before"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Executive Validation checklist asks the team to confirm, one to three business days ahead:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Prerequisites:** economic buyer alignment, a value hypothesis, and Positive Business Outcomes tied to near-term priorities.",
+        "**Current and future workflows** documented for the prioritized use cases.",
+        "**An initial value estimate** built with the ROI calculator.",
+        "**A tailored demo or Glean Lab scenario** that illustrates the future state.",
+        "**Meeting objectives and success criteria**, so there is a clear go or no-go for sponsorship.",
+        "**Attendees confirmed:** the executive sponsor, the technical champion, and the AE and SE owners.",
+        "**Logistics:** a 60-minute session with the agenda circulated.",
+        "**The decision process and timeline**, including any cloud partner."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Ask four preflight questions"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "Which decision do we need?",
+        "What evidence supports it?",
+        "Who can make it?",
+        "What happens next if the answer is yes, and if it is no?"
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Share the gaps early enough to resolve them. Don't surprise the sponsor."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "An unfinished ROI hypothesis is acceptable if it is framed transparently. An unsupported claim of realized savings is not. If the decision-makers won't attend, the session is preparation, not Executive Validation."
+    },
+    {
+      "t": "h3",
+      "x": "Why sponsorship comes before validation"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Executive Readout training gives three reasons to secure executive sponsorship before any pilot or evaluation. You know what you are validating up front, so nothing is missed. You know there is budget. And you have agreement that if the validation succeeds, the customer will move forward into procurement and purchasing."
+    },
+    {
+      "t": "p",
+      "x": "The same training notes that account teams can deliver the readout themselves with approved templates and the ROI calculator, bringing in value specialists for larger or more complex deals."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "What sponsorship secures",
+      "alt": "Three cards naming what executive sponsorship secures before validation: clarity on what will be validated, confirmation that budget exists, and agreement to move into procurement if validation succeeds.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Clear scope",
+          "detail": "You know what you're validating, and nothing is missed",
+          "emph": false
+        },
+        {
+          "label": "Budget",
+          "detail": "There is money, or a path to it",
+          "emph": false
+        },
+        {
+          "label": "A commitment",
+          "detail": "Success leads to procurement and purchase",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Two days before the readout, the workflow maps are complete, but nobody owns the value inputs (time per case, population, frequency). Review readiness."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Not fully ready. Assign an owner for each value input, such as the support operations analyst for volumes and times, and review the assumptions with that owner before the readout. In the readout, state what remains directional and present the measurement plan."
+    },
+    {
+      "t": "p",
+      "x": "Don't record the session as fully ready until sponsor attendance and decision coverage are confirmed."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 462,
+  "eyebrow": "Lesson 1 · about 6 min",
+  "claims": [
+    "C-0413",
+    "C-0414",
+    "C-0415",
+    "C-0416",
+    "C-0417",
+    "C-0418",
+    "C-0419"
+  ],
+  "sources": [
+    "S02",
+    "S04",
+    "S14",
+    "S74"
+  ]
+}

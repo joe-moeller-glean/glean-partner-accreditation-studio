@@ -1,0 +1,61 @@
+{
+  "module_id": "SBP-102",
+  "key": {
+    "SBP-102-Q001": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Stage 2 builds use case and workflow evidence; Executive Validation is associated with Stage 3.",
+        "incorrect": "Review the relevant lesson and evidence. Stage 2 builds use case and workflow evidence; Executive Validation is associated with Stage 3."
+      }
+    },
+    "SBP-102-Q002": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. Stage progression reflects evidence, not attendance, and gaps need targeted corrective work.",
+        "incorrect": "Review the relevant lesson and evidence. Stage progression reflects evidence, not attendance, and gaps need targeted corrective work."
+      }
+    },
+    "SBP-102-Q003": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Executive Validation is about value, sponsorship and the path forward; other approvals remain distinct.",
+        "incorrect": "Review the relevant lesson and evidence. Executive Validation is about value, sponsorship and the path forward; other approvals remain distinct."
+      }
+    },
+    "SBP-102-Q004": {
+      "answer": "b",
+      "rationale": {
+        "correct": "Correct. A metric card creates explicit measurable evidence; a field or invite alone does not.",
+        "incorrect": "Review the relevant lesson and evidence. A metric card creates explicit measurable evidence; a field or invite alone does not."
+      }
+    },
+    "SBP-102-Q005": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. Close the specific evidence gap and label assumptions; do not fabricate customer measurements.",
+        "incorrect": "Review the relevant lesson and evidence. Close the specific evidence gap and label assumptions; do not fabricate customer measurements."
+      }
+    },
+    "SBP-102-Q006": {
+      "answer": "b",
+      "rationale": {
+        "correct": "Correct. Business alignment does not complete technical, security, procurement or authority checks.",
+        "incorrect": "Review the relevant lesson and evidence. Business alignment does not complete technical, security, procurement or authority checks."
+      }
+    },
+    "SBP-102-Q007": {
+      "answer": "b",
+      "rationale": {
+        "correct": "Correct. Stage labels and workflows are time-sensitive internal details; the durable learning is evidence and decision quality.",
+        "incorrect": "Review the relevant lesson and evidence. Stage labels and workflows are time-sensitive internal details; the durable learning is evidence and decision quality."
+      }
+    },
+    "SBP-102-Q008": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Sponsorship and account qualification need human account ownership, not automated assumptions.",
+        "incorrect": "Review the relevant lesson and evidence. Sponsorship and account qualification need human account ownership, not automated assumptions."
+      }
+    }
+  }
+}

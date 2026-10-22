@@ -1,0 +1,227 @@
+{
+  "module_id": "SBP-109",
+  "assets": [
+    {
+      "asset_id": "SBP-109-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    },
+    {
+      "asset_id": "SBP-109-L01-F1-wide",
+      "path": "assets/fig/SBP-109-L01-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: What sponsorship secures (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0413",
+        "C-0414",
+        "C-0415",
+        "C-0416",
+        "C-0417",
+        "C-0418",
+        "C-0419"
+      ],
+      "alt": "Three cards naming what executive sponsorship secures before validation: clarity on what will be validated, confirmation that budget exists, and agreement to move into procurement if validation succeeds."
+    },
+    {
+      "asset_id": "SBP-109-L01-F1-narrow",
+      "path": "assets/fig/SBP-109-L01-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: What sponsorship secures (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0413",
+        "C-0414",
+        "C-0415",
+        "C-0416",
+        "C-0417",
+        "C-0418",
+        "C-0419"
+      ],
+      "alt": "Three cards naming what executive sponsorship secures before validation: clarity on what will be validated, confirmation that budget exists, and agreement to move into procurement if validation succeeds."
+    },
+    {
+      "asset_id": "SBP-109-L02-F1-wide",
+      "path": "assets/fig/SBP-109-L02-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: Three kinds of authority (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0420",
+        "C-0421",
+        "C-0422",
+        "C-0423",
+        "C-0424",
+        "C-0425",
+        "C-0426"
+      ],
+      "alt": "Three stacked kinds of authority that often sit with different people: sponsorship, which backs the priority; budget authority, which funds it; and signature and procurement authority, which commits the organization."
+    },
+    {
+      "asset_id": "SBP-109-L02-F1-narrow",
+      "path": "assets/fig/SBP-109-L02-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: Three kinds of authority (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0420",
+        "C-0421",
+        "C-0422",
+        "C-0423",
+        "C-0424",
+        "C-0425",
+        "C-0426"
+      ],
+      "alt": "Three stacked kinds of authority that often sit with different people: sponsorship, which backs the priority; budget authority, which funds it; and signature and procurement authority, which commits the organization."
+    },
+    {
+      "asset_id": "SBP-109-L03-F1-wide",
+      "path": "assets/fig/SBP-109-L03-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: A decision-focused readout narrative (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0427",
+        "C-0428",
+        "C-0429",
+        "C-0430",
+        "C-0431",
+        "C-0432",
+        "C-0433"
+      ],
+      "alt": "A five-part readout narrative: restate the three whys, play back what was heard, show the value range and assumptions, show a short tailored demonstration, and ask for the decision and validation path."
+    },
+    {
+      "asset_id": "SBP-109-L03-F1-narrow",
+      "path": "assets/fig/SBP-109-L03-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: A decision-focused readout narrative (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0427",
+        "C-0428",
+        "C-0429",
+        "C-0430",
+        "C-0431",
+        "C-0432",
+        "C-0433"
+      ],
+      "alt": "A five-part readout narrative: restate the three whys, play back what was heard, show the value range and assumptions, show a short tailored demonstration, and ask for the decision and validation path."
+    },
+    {
+      "asset_id": "SBP-109-L04-F1-wide",
+      "path": "assets/fig/SBP-109-L04-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Answering an executive challenge (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0434",
+        "C-0435",
+        "C-0436",
+        "C-0437",
+        "C-0438",
+        "C-0439"
+      ],
+      "alt": "A comparison of weak and strong responses when an executive challenges a value estimate. A weak response defends the number or cites a benchmark. A strong response shows the input sources, names the key assumption, and agrees how it will be measured."
+    },
+    {
+      "asset_id": "SBP-109-L04-F1-narrow",
+      "path": "assets/fig/SBP-109-L04-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Answering an executive challenge (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0434",
+        "C-0435",
+        "C-0436",
+        "C-0437",
+        "C-0438",
+        "C-0439"
+      ],
+      "alt": "A comparison of weak and strong responses when an executive challenges a value estimate. A weak response defends the number or cites a benchmark. A strong response shows the input sources, names the key assumption, and agrees how it will be measured."
+    },
+    {
+      "asset_id": "SBP-109-L05-F1-wide",
+      "path": "assets/fig/SBP-109-L05-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: What to confirm before leaving the readout (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0440",
+        "C-0441",
+        "C-0442",
+        "C-0443",
+        "C-0444",
+        "C-0445",
+        "C-0446"
+      ],
+      "alt": "Four cards naming what to confirm at the end of Executive Validation: sponsorship, success criteria, scope, and the next decision."
+    },
+    {
+      "asset_id": "SBP-109-L05-F1-narrow",
+      "path": "assets/fig/SBP-109-L05-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: What to confirm before leaving the readout (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0440",
+        "C-0441",
+        "C-0442",
+        "C-0443",
+        "C-0444",
+        "C-0445",
+        "C-0446"
+      ],
+      "alt": "Four cards naming what to confirm at the end of Executive Validation: sponsorship, success criteria, scope, and the next decision."
+    },
+    {
+      "asset_id": "SBP-109-L06-F1-wide",
+      "path": "assets/fig/SBP-109-L06-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: After the readout (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0447",
+        "C-0448",
+        "C-0449",
+        "C-0450",
+        "C-0451",
+        "C-0452"
+      ],
+      "alt": "A four-step after-work sequence within 24 hours: send a concise recap, update the opportunity records, refresh the business case and close plan, and set the sponsor cadence and next validation step."
+    },
+    {
+      "asset_id": "SBP-109-L06-F1-narrow",
+      "path": "assets/fig/SBP-109-L06-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: After the readout (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0447",
+        "C-0448",
+        "C-0449",
+        "C-0450",
+        "C-0451",
+        "C-0452"
+      ],
+      "alt": "A four-step after-work sequence within 24 hours: send a concise recap, update the opportunity records, refresh the business case and close plan, and set the sponsor cadence and next validation step."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "SBP-107-X02",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · AI prompts",
+  "title": "AI-assisted preparation prompts",
+  "nav": "AI prompts",
+  "body": "Tool-agnostic prompts. AI drafts; a named human reviews facts, sharing, and capability claims before anything is used or sent.",
+  "cards": [
+    {
+      "tag": "P05",
+      "title": "DITL map draft",
+      "lines": [
+        {
+          "label": "Authorized inputs",
+          "text": "Verified interview notes, current steps and systems; provided timings with evidence labels."
+        },
+        {
+          "label": "Prompt",
+          "text": "Draft separate current and proposed future timeline tables: step, actor, system, active time, elapsed wait, evidence, handoff, control and exception. Leave unknowns blank/marked unknown. Never invent measured timings or unsupported write actions. Preserve source review, approvals and escalation. List SE/customer validation questions."
+        },
+        {
+          "label": "Required output",
+          "text": "Two-state maps; assumption log; measurement gaps."
+        },
+        {
+          "label": "Human review",
+          "text": "SE checks feasibility; workflow owner validates sequence and time basis."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0351"
+  ],
+  "sources": [
+    "S02",
+    "S22",
+    "S38"
+  ],
+  "required": true
+}

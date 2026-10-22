@@ -1,0 +1,3544 @@
+{
+  "generated": "2026-10-22",
+  "results": [
+    {
+      "module_id": "SBP-101",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 8 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-101:cmi.core.lesson_status,scorm:SBP-101:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "8"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "463"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.03"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "478"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "f3fb9b0de045cdb7c6d6b4ca84843e85b5a6096ef1cae331d7712e15d9cbc58b"
+    },
+    {
+      "module_id": "SBP-102",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 7 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-102:cmi.core.lesson_status,scorm:SBP-102:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "7"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "462"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.02"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "477"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "e75e19bf7fe6303262df2fac2d32303e633f26a66bdef3cb6bfbe4b7e8a2f144"
+    },
+    {
+      "module_id": "SBP-103",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 8 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-103:cmi.core.lesson_status,scorm:SBP-103:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "8"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "463"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.02"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "478"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "7a7906da90569e968c6b468b26105f2c76acf7bf6b1ae3ead3d7044f2bb1f3d4"
+    },
+    {
+      "module_id": "SBP-104",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 9 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-104:cmi.core.lesson_status,scorm:SBP-104:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "9"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "464"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.02"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "479"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "6c186d0edb09bdf665de35e89c17eba1c049e6808ac174b5666bfd33191b9394"
+    },
+    {
+      "module_id": "SBP-105",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 9 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-105:cmi.core.lesson_status,scorm:SBP-105:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "9"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "464"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.02"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "479"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "09b1d337a4790a39eda818c01209ad433568bd00e8df95644abe40b33f1d0000"
+    },
+    {
+      "module_id": "SBP-106",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 10 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-106:cmi.core.lesson_status,scorm:SBP-106:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "10"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "466"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.02"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "481"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "94a4a5b9600fe2bb1cb0117f07f9296a534ed39742d5bed5f4d41d723d01a473"
+    },
+    {
+      "module_id": "SBP-107",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 9 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-107:cmi.core.lesson_status,scorm:SBP-107:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "9"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "464"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.02"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "479"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "dfafd20ff8eebb99685ef81397b9d13a1d26121bfea358bb2dee59c38e2d14d4"
+    },
+    {
+      "module_id": "SBP-108",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 10 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-108:cmi.core.lesson_status,scorm:SBP-108:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "10"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "466"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.03"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "481"
+        },
+        {
+          "name": "ROI Lab matches workbook oracle",
+          "pass": true,
+          "detail": "13608/41472/176904"
+        },
+        {
+          "name": "ROI base net, ROI, payback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "ROI Lab renders base value",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "ROI Lab blocks invalid inputs",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "ROI input keeps focus while outputs update",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "642f50bb4c49e24391ac4ae3af8eea327053d0a0d525fc03f7775e5822eb5c31"
+    },
+    {
+      "module_id": "SBP-109",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 9 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-109:cmi.core.lesson_status,scorm:SBP-109:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "9"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "464"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.02"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "479"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "837c7e031dda9da6d958beb219cc3232b35d1bbaebc4b22c4ba428016f1c2669"
+    },
+    {
+      "module_id": "SBP-110",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 9 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-110:cmi.core.lesson_status,scorm:SBP-110:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "9"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "464"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.02"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "479"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "0bdb3599078b47ad196ecd2f3a39966af434c8c18cd23135e5201ac352b61901"
+    },
+    {
+      "module_id": "SBP-111",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 9 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-111:cmi.core.lesson_status,scorm:SBP-111:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "9"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "464"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.02"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "479"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "4fb986c811f5982ec89c15eafb846c443613935822cdab1a0262d5e8ba3487da"
+    },
+    {
+      "module_id": "SBP-112",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 8 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-112:cmi.core.lesson_status,scorm:SBP-112:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "8"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "463"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.02"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "478"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "6d1422a191e953dc0c3d6e72a78dc1b3e7eb6b6a9f31f8dd685b10598eb79c0b"
+    },
+    {
+      "module_id": "SBP-113",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 7 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-113:cmi.core.lesson_status,scorm:SBP-113:cmi.core.lesson_location"
+        },
+        {
+          "name": "unread sections block the check",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "check lists unread sections as jump links",
+          "pass": true,
+          "detail": "7"
+        },
+        {
+          "name": "jump link moves focus to that section heading",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "jump link does not count the section as read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "5 vs 5"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "4/5 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "80"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "462"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.01"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "3/5 fails",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "60"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "477"
+        },
+        {
+          "name": "scroll: nothing read at the top of the page",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: section counted once its end is on screen",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: skipped sections are not counted",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "scroll: current section follows the viewport",
+          "pass": true,
+          "detail": "3"
+        }
+      ],
+      "failures": [],
+      "build": "fac51a3dce3fae8868f8c2239df8a22ef53396dcfab8dadcd1675c6593b60460"
+    },
+    {
+      "module_id": "SBP-200",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 12 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-200:cmi.core.lesson_status,scorm:SBP-200:cmi.core.lesson_location"
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "practice draft not in suspend_data",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response hidden before reveal",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worked response revealed in place",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "capstone completes once every section is read",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "capstone completes, never passes",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "capstone writes no score",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "capstone formative has all 8 items",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "LMSFinish once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no second LMSFinish on pagehide",
+          "pass": true,
+          "detail": ""
+        }
+      ],
+      "failures": [],
+      "build": "d5c42b0253242d0a00b181d7f578c0200e3b41a7cf55ac3f6771dea9abd668c6"
+    },
+    {
+      "module_id": "SBP-FINAL",
+      "checks": [
+        {
+          "name": "no script errors (preview)",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "untracked preview notice",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "restricted preview banner",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "single page: every section renders with correct heading level and labels",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "no source, claim, or open-question IDs shown to learners",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "progress starts at zero sections read",
+          "pass": true,
+          "detail": "0 of 1 sections read"
+        },
+        {
+          "name": "progress counts a read section",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "standalone keys namespaced per module",
+          "pass": true,
+          "detail": "scorm:SBP-FINAL:cmi.core.lesson_status,scorm:SBP-FINAL:cmi.core.lesson_location"
+        },
+        {
+          "name": "new attempt sets incomplete",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson_location is a section id",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "start attempt available after all screens visited",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "draw size matches settings",
+          "pass": true,
+          "detail": "44 vs 44"
+        },
+        {
+          "name": "no duplicate items in attempt",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "final draw stratified by module",
+          "pass": true,
+          "detail": "{\"SBP-101\":3,\"SBP-102\":3,\"SBP-103\":3,\"SBP-104\":3,\"SBP-105\":4,\"SBP-106\":4,\"SBP-107\":4,\"SBP-108\":4,\"SBP-109\":4,\"SBP-110\":3,\"SBP-111\":3,\"SBP-112\":3,\"SBP-113\":3}"
+        },
+        {
+          "name": "options shuffled for at least one item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "shuffle preserves option identity",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "radios rendered per item",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "36/44 passes",
+          "pass": true,
+          "detail": "passed"
+        },
+        {
+          "name": "score raw on 0-100 scale",
+          "pass": true,
+          "detail": "81.82"
+        },
+        {
+          "name": "interactions recorded with SCORM 1.2 vocabulary",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "suspend_data within 4096",
+          "pass": true,
+          "detail": "2646"
+        },
+        {
+          "name": "result announced and focused",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "exit empty when passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "session_time CMITimespan",
+          "pass": true,
+          "detail": "0000:00:00.02"
+        },
+        {
+          "name": "LMSFinish exactly once",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume does not overwrite passed",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores reading progress",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "passed survives a resumed exit",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "35/44 fails",
+          "pass": true,
+          "detail": "79.55"
+        },
+        {
+          "name": "fail score below mastery without rounding up",
+          "pass": true,
+          "detail": "79.55"
+        },
+        {
+          "name": "retry offered after first failure",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "retry draws a new set",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank submit asks for confirmation",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "blank items score incorrect",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "locked after two graded attempts",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores drawn items and answers",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "resume restores location",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "worst-case suspend_data within 4096",
+          "pass": true,
+          "detail": "2662"
+        }
+      ],
+      "failures": [],
+      "build": "2f2bd9c74e1e563149c3ae3b8f3007c312ce265ca98e10190562926d70977093"
+    }
+  ],
+  "extra": {
+    "cross_module_isolation": true,
+    "cross_origin_parent_safe": true
+  }
+}

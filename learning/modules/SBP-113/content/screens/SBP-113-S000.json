@@ -1,0 +1,31 @@
+{
+  "id": "SBP-113-S000",
+  "claims": [
+    "C-0612"
+  ],
+  "sources": [
+    "S05",
+    "S13",
+    "S18",
+    "S23",
+    "S20"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-113 · Practitioner (proposed)",
+  "title": "Facilitation, Objections & Pitfalls",
+  "nav": "Overview",
+  "body": "Workshop facilitation craft, handling common objections to Blueprint and to value claims, and avoiding the anti-patterns that stall deals",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Apply facilitation techniques that keep sessions consultative and on time.",
+    "Handle objections such as 'just give us a pilot' and 'these are just benchmarks'.",
+    "Recognize and correct common Blueprint anti-patterns.",
+    "Recover a stalled Blueprint."
+  ],
+  "footnote": "Recommended before this module: SBP-105. Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

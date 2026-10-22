@@ -1,0 +1,41 @@
+{
+  "id": "SBP-110-X02",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · AI prompts",
+  "title": "AI-assisted preparation prompts",
+  "nav": "AI prompts",
+  "body": "Tool-agnostic prompts. AI drafts; a named human reviews facts, sharing, and capability claims before anything is used or sent.",
+  "cards": [
+    {
+      "tag": "P08",
+      "title": "Readiness exception review",
+      "lines": [
+        {
+          "label": "Authorized inputs",
+          "text": "Approved readiness criteria, evidence and current process reference."
+        },
+        {
+          "label": "Prompt",
+          "text": "Review evidence against each supplied readiness criterion. Report supported/partial/missing, source and corrective action. Do not invent a score rubric, assume the source workflow is live or submit any request. Distinguish readiness, leadership approval and signed commercial prerequisites."
+        },
+        {
+          "label": "Required output",
+          "text": "Evidence matrix; missing gates; proposed owners/dates; no approval action."
+        },
+        {
+          "label": "Human review",
+          "text": "Only authorized account owners use the live process and approvals."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0507"
+  ],
+  "sources": [
+    "S15",
+    "S47"
+  ],
+  "required": true
+}

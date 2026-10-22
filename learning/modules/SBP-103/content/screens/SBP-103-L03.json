@@ -1,0 +1,151 @@
+{
+  "id": "SBP-103-L03",
+  "lesson": "SBP-103-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "Stakeholder coverage and RACI",
+  "nav": "3. Stakeholder coverage and RACI",
+  "objective": "Identify the gap in an interview containing only the AE and an IT administrator.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Blueprint conclusions are only as good as the people who informed them. You need business sponsorship, functional leadership, front-line workflow knowledge, and technical or data ownership. Security and compliance join when they are relevant."
+    },
+    {
+      "t": "h3",
+      "x": "The voices you need"
+    },
+    {
+      "t": "table",
+      "caption": "Stakeholder roles in a Blueprint",
+      "head": [
+        "Stakeholder",
+        "What they contribute",
+        "Typical session"
+      ],
+      "rows": [
+        [
+          "Executive sponsor",
+          "Aligns the investment with strategy; makes the decision",
+          "Executive Validation"
+        ],
+        [
+          "Business or functional owner",
+          "Defines impact, owns the outcome metric",
+          "Visioning, DITL"
+        ],
+        [
+          "Power user or front-line employee",
+          "Explains how the work really happens",
+          "DITL"
+        ],
+        [
+          "IT or data owner",
+          "Confirms systems, access, and data quality",
+          "DITL, technical follow-up"
+        ],
+        [
+          "Security or compliance",
+          "Sets data-handling and review requirements",
+          "Technical and security alignment"
+        ],
+        [
+          "Procurement",
+          "Owns purchasing steps and timing",
+          "Paper-process checkpoints"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Build a stakeholder map"
+    },
+    {
+      "t": "p",
+      "x": "For each person, record which of four things they hold: a **decision**, an **input**, a **metric**, or a **dependency**. Invite the right voices to each meeting, not everyone to every meeting. A DITL session with ten observers and one user produces less evidence than a session with two users and a note-taker."
+    },
+    {
+      "t": "callout",
+      "label": "Watch for",
+      "x": "Mistaking seniority for workflow expertise. A director can describe the target state, but often only the people doing the work can describe today's friction accurately. Respect recording, privacy, and access constraints when notes are shared between organizations."
+    },
+    {
+      "t": "h3",
+      "x": "Who to interview depends on the account"
+    },
+    {
+      "t": "p",
+      "x": "Glean's DITL training notes that the right interviewee shifts with account size. In corporate and commercial accounts, the person one level below the VP often understands the workflow well enough to walk through it step by step. In enterprise and strategic accounts, you usually need the people who do the work every day, the employees whose work would actually change."
+    },
+    {
+      "t": "p",
+      "x": "Either way, ask the question directly: \"Who touches this workflow, and who would be using the new process?\""
+    },
+    {
+      "t": "figure",
+      "kind": "matrix",
+      "title": "Stakeholder coverage by influence and workflow knowledge",
+      "alt": "A two-by-two matrix with workflow knowledge on the horizontal axis and decision influence on the vertical axis. High influence and high knowledge: business owners, who define impact. High influence and low knowledge: the executive sponsor, who makes the decision. Low influence and high knowledge: front-line users, who explain the real work. Low influence and low knowledge: inform as needed.",
+      "caption": "",
+      "axes": {
+        "x": "Workflow knowledge (low to high)",
+        "y": "Decision influence"
+      },
+      "quads": {
+        "tl": {
+          "label": "Executive sponsor",
+          "detail": "Aligns investment and makes the decision"
+        },
+        "tr": {
+          "label": "Business owner",
+          "detail": "Defines impact and owns the metric"
+        },
+        "bl": {
+          "label": "Inform as needed",
+          "detail": "Procurement, wider stakeholders"
+        },
+        "br": {
+          "label": "Front-line users",
+          "detail": "Explain how the work really happens"
+        }
+      }
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A DITL interview for a fictional HR service-desk use case is attended only by the AE and an IT administrator. What is missing, and who would you add?"
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Missing: ownership of the business outcome and metric, and evidence of the front-line workflow. The IT administrator can confirm systems and access but can't speak for how HR agents handle cases or which measures matter."
+    },
+    {
+      "t": "p",
+      "x": "Add the HR service-delivery lead (outcome and metric owner) and two or three representative HR agents (workflow). Keep the IT administrator for systems and data questions, and maintain the path to the executive sponsor through the AE."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 436,
+  "eyebrow": "Lesson 3 · about 6 min",
+  "claims": [
+    "C-0114",
+    "C-0115",
+    "C-0116",
+    "C-0117",
+    "C-0118",
+    "C-0119"
+  ],
+  "sources": [
+    "S05",
+    "S07",
+    "S14",
+    "S64"
+  ]
+}

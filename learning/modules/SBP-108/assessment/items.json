@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-108",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-108-Q001",
+      "objective_id": "SBP-108-L01",
+      "module_id": "SBP-108",
+      "stem": "Which four parts form the Value Playbook's business case architecture?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pipeline, forecast, invoice and renewal."
+        },
+        {
+          "id": "b",
+          "text": "Agent count, connector count, slide count and meeting count."
+        },
+        {
+          "id": "c",
+          "text": "Logo, product tour, discount and signature."
+        },
+        {
+          "id": "d",
+          "text": "Problem Statement, Justification, ROI and Plan."
+        }
+      ],
+      "claims": [
+        "C-0404"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q002",
+      "objective_id": "SBP-108-L02",
+      "module_id": "SBP-108",
+      "stem": "When does salary-equivalent time become hard-dollar savings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only when a defensible actual cost/business action supports that classification."
+        },
+        {
+          "id": "b",
+          "text": "As soon as an AI model estimates minutes."
+        },
+        {
+          "id": "c",
+          "text": "Whenever any user says the product feels faster."
+        },
+        {
+          "id": "d",
+          "text": "Whenever a vendor benchmark is published."
+        }
+      ],
+      "claims": [
+        "C-0405"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q003",
+      "objective_id": "SBP-108-L03",
+      "module_id": "SBP-108",
+      "stem": "What can survey-only presale evidence safely support?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A guaranteed CFO-grade realized saving."
+        },
+        {
+          "id": "b",
+          "text": "A measured baseline for every user without sampling caveats."
+        },
+        {
+          "id": "c",
+          "text": "A directional self-reported hypothesis with explicit limitations."
+        },
+        {
+          "id": "d",
+          "text": "A causal proof of revenue increase."
+        }
+      ],
+      "claims": [
+        "C-0406"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q004",
+      "objective_id": "SBP-108-L04",
+      "module_id": "SBP-108",
+      "stem": "What does the recapture rate describe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The percentage of users who can log in."
+        },
+        {
+          "id": "b",
+          "text": "The tax rate on software purchases."
+        },
+        {
+          "id": "c",
+          "text": "The share of saved capacity converted into useful business output."
+        },
+        {
+          "id": "d",
+          "text": "The number of connectors in the architecture."
+        }
+      ],
+      "claims": [
+        "C-0407"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q005",
+      "objective_id": "SBP-108-L05",
+      "module_id": "SBP-108",
+      "stem": "For annual benefit B and annual all-in cost C greater than zero, which net ROI formula is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B × C."
+        },
+        {
+          "id": "b",
+          "text": "B + C."
+        },
+        {
+          "id": "c",
+          "text": "C / B without any interpretation."
+        },
+        {
+          "id": "d",
+          "text": "(B − C) / C."
+        }
+      ],
+      "claims": [
+        "C-0408"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q006",
+      "objective_id": "SBP-108-L06",
+      "module_id": "SBP-108",
+      "stem": "A metric has no historical timing data. What belongs in its baseline field?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The desired target relabeled as baseline."
+        },
+        {
+          "id": "b",
+          "text": "Not yet measured, with an owner and collection plan."
+        },
+        {
+          "id": "c",
+          "text": "A generated exact number with no evidence."
+        },
+        {
+          "id": "d",
+          "text": "A peer company's result labeled customer actual."
+        }
+      ],
+      "claims": [
+        "C-0409"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q007",
+      "objective_id": "SBP-108-L06",
+      "module_id": "SBP-108",
+      "stem": "Why must the author check the meaning of the time-saved input before applying efficiency?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Applying efficiency to an already measured saving may double-discount the same effect."
+        },
+        {
+          "id": "b",
+          "text": "A larger number is always more accurate."
+        },
+        {
+          "id": "c",
+          "text": "Efficiency is always a legal tax deduction."
+        },
+        {
+          "id": "d",
+          "text": "Minutes never need conversion to hours."
+        }
+      ],
+      "claims": [
+        "C-0410"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q008",
+      "objective_id": "SBP-108-L06",
+      "module_id": "SBP-108",
+      "stem": "The downside scenario is negative. What should the learner do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increase recapture until all scenarios look positive."
+        },
+        {
+          "id": "b",
+          "text": "Keep it visible, explain the drivers and use it to refine the decision and validation plan."
+        },
+        {
+          "id": "c",
+          "text": "Rename negative return as guaranteed savings."
+        },
+        {
+          "id": "d",
+          "text": "Delete it before the executive meeting."
+        }
+      ],
+      "claims": [
+        "C-0411"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

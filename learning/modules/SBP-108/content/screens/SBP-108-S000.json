@@ -1,0 +1,31 @@
+{
+  "id": "SBP-108-S000",
+  "claims": [
+    "C-0360"
+  ],
+  "sources": [
+    "S13",
+    "S06",
+    "S19",
+    "S39",
+    "S34"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-108 · Practitioner (proposed)",
+  "title": "Business Value, Metrics & ROI",
+  "nav": "Overview",
+  "body": "Turning DITL findings into credible value: value architecture, translation paths to cost, revenue and risk, metrics, evidence tiers, recapture rate, and the Value Calculator",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Structure a business case with the four-part value architecture.",
+    "Translate time savings into cost, revenue or risk impact.",
+    "Apply the recapture rate and present ranges with labeled evidence.",
+    "Define metrics with baseline, target, system of record and owner."
+  ],
+  "footnote": "Recommended before this module: SBP-107. Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

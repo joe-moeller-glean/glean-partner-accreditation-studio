@@ -1,0 +1,30 @@
+{
+  "id": "SBP-101-S000",
+  "claims": [
+    "C-0001"
+  ],
+  "sources": [
+    "S02",
+    "S04",
+    "S06",
+    "S26"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-101 · Practitioner (proposed)",
+  "title": "Blueprint Fundamentals",
+  "nav": "Overview",
+  "body": "What the Glean Blueprint Consultation is, why it exists, its three steps, and the outcomes it produces for customers, partners, and Glean",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Define the Blueprint Consultation and its purpose.",
+    "Name the three steps and the default validation path.",
+    "Explain why Blueprint replaces open-ended AI experimentation.",
+    "Distinguish the Sales Blueprint from post-sales SA blueprints."
+  ],
+  "footnote": "Recommended before this module: Glean Foundations (FND-101/102/103); Sales Accreditation (SAL-103). Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

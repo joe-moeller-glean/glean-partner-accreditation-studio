@@ -1,0 +1,103 @@
+{
+  "id": "SBP-106-X03",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Practice set",
+  "title": "Eight fictional use cases, rated",
+  "nav": "Practice set",
+  "body": "Ratings are provisional facilitation examples. Medium ratings are discussed directionally, not forced into a quadrant.",
+  "table": {
+    "caption": "Fictional use cases with impact, effort, and proposed quadrant",
+    "head": [
+      "ID",
+      "Workflow",
+      "Impact",
+      "Effort",
+      "Proposed quadrant",
+      "Dependency or uncertainty",
+      "Next step"
+    ],
+    "rows": [
+      [
+        "UC-01",
+        "Find approved support troubleshooting guidance",
+        "H",
+        "M",
+        "Candidate quick win; validate effort",
+        "Permission/content quality and baseline not confirmed.",
+        "DITL + permission/content review; choose feasible read-only slice."
+      ],
+      [
+        "UC-02",
+        "Prepare a sales customer-meeting brief",
+        "M",
+        "M",
+        "Provisional; insufficient evidence",
+        "Frequency, access and baseline unknown; no monetized benefit yet.",
+        "DITL with sales user and manager; define comparable meeting cohort."
+      ],
+      [
+        "UC-03",
+        "Search approved new-hire policies",
+        "M",
+        "L",
+        "Potential quick win subject to evidence",
+        "HR content ownership, audience and current permissions need confirmation.",
+        "Validate source freshness and cohort before selecting."
+      ],
+      [
+        "UC-04",
+        "Autonomously approve refunds",
+        "H",
+        "H",
+        "Strategic bet / not first wave",
+        "Authority, write actions, audit, partial failure and controls unverified.",
+        "Reframe as reviewed information preparation; validate policies."
+      ],
+      [
+        "UC-05",
+        "Perfect cross-system revenue joins in chat",
+        "H",
+        "H",
+        "Unresolved / strategic bet",
+        "Deterministic analytics, data ownership and joins not established.",
+        "Route to appropriate data/analytics validation; do not promise RAG precision."
+      ],
+      [
+        "UC-06",
+        "Agent over a custom legacy data source",
+        "M",
+        "H",
+        "Later phase until feasible",
+        "API/network/access/connector support unverified.",
+        "Assign technical feasibility owner; do not count as low effort."
+      ],
+      [
+        "UC-07",
+        "Summarize a low-volume newsletter",
+        "L",
+        "L",
+        "Nice-to-have",
+        "Low impact relative to first-wave goals.",
+        "Park for later; do not let novelty displace strategic outcomes."
+      ],
+      [
+        "UC-08",
+        "Multi-system automation for an infrequent niche task",
+        "L",
+        "H",
+        "Deprioritize",
+        "Low reach, uncertain outcome, substantial integration/control effort.",
+        "Defer unless new business evidence changes impact."
+      ]
+    ]
+  },
+  "claims": [
+    "C-0299"
+  ],
+  "sources": [
+    "S05",
+    "S02"
+  ],
+  "required": true
+}

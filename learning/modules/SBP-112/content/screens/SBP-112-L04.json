@@ -1,0 +1,114 @@
+{
+  "id": "SBP-112-L04",
+  "lesson": "SBP-112-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "AI-assisted DITL timeline drafting",
+  "nav": "4. AI-assisted DITL timeline drafting",
+  "objective": "Review a generated timeline with precise times but no citations.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "AI can produce a tidy DITL timeline in seconds. Treat it as a discussion starter until the customer's real workflow evidence replaces the generic content."
+    },
+    {
+      "t": "h3",
+      "x": "Draft from evidence"
+    },
+    {
+      "t": "p",
+      "x": "An AI draft can organize as-is and to-be steps, durations, applications, and possible Glean assistance. Give it real interview evidence, and ask it to:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Keep current and future timelines separate.",
+        "Include the actor, system, active time, waiting time, evidence, handoff, control, and exception for each step.",
+        "Mark any unknown as \"unknown.\" Never fill gaps with estimates."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Review every step"
+    },
+    {
+      "t": "p",
+      "x": "A model working from general role knowledge may produce a plausible workflow, but it isn't the customer's observed process. Replace generic steps with steps confirmed in the interviews, and keep the revisions traceable. The SE reviews each proposed capability, and the workflow owner validates the sequence and timings."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't accept generated timings as baseline data. Don't remove approval or security controls because a model suggests automating them."
+    },
+    {
+      "t": "h3",
+      "x": "A practical drafting pattern"
+    },
+    {
+      "t": "p",
+      "x": "Glean's DITL training describes a practical pattern for a seller without an SE on the call: give Glean the department and the current steps, and ask for a step-by-step optimized workflow. That gives you a starting draft for the future state. It is a draft, not evidence. The SE verifies each capability, and the workflow owner confirms the sequence and timings."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "AI-assisted DITL drafting",
+      "alt": "A four-step pattern: provide the department and current steps from the interview, ask AI for a step-by-step future-state draft, have the SE verify each capability, and have the workflow owner confirm the sequence and timings.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Provide the evidence",
+          "detail": "Department and current steps",
+          "emph": false
+        },
+        {
+          "label": "Ask for a draft",
+          "detail": "A step-by-step future state",
+          "emph": false
+        },
+        {
+          "label": "SE verifies",
+          "detail": "Each proposed capability",
+          "emph": false
+        },
+        {
+          "label": "Owner confirms",
+          "detail": "Sequence, ranges, and exceptions",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "You've been handed a generated DITL timeline with precise times for each step, but no citations. Review it."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Mark every time as unverified. Seek interview or observation evidence for each one, and check the step sequence and systems with the workflow owner. Review the future-state claims with the technical owners. Only then use the timeline in a value model."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 305,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0584",
+    "C-0585",
+    "C-0586",
+    "C-0587",
+    "C-0588",
+    "C-0589"
+  ],
+  "sources": [
+    "S02",
+    "S22",
+    "S38",
+    "S64"
+  ]
+}

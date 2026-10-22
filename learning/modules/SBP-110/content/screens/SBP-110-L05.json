@@ -1,0 +1,108 @@
+{
+  "id": "SBP-110-L05",
+  "lesson": "SBP-110-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Readiness score and approval workflow",
+  "nav": "5. Readiness score and approval workflow",
+  "objective": "A score is 84%, but leadership approval and the signed pilot order form are missing. Can deployment start?.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Glean uses an internal readiness check before a pilot is approved. Readiness evidence matters, but it never replaces approval."
+    },
+    {
+      "t": "h3",
+      "x": "The readiness scorecard"
+    },
+    {
+      "t": "p",
+      "x": "Glean's dated pilot guide describes an evidence-based readiness scorecard that the SE runs, with a threshold of 80%. The SE works on the failing gates and reruns the scorecard as new evidence comes in. The SE submits the pilot approval request well before the planned kickoff (at least two weeks in that guide), with AE support. The tools and steps for submitting approvals are internal and change over time. Always follow the live approved process."
+    },
+    {
+      "t": "h3",
+      "x": "Approval and commercial prerequisites"
+    },
+    {
+      "t": "p",
+      "x": "The same guide sets out non-negotiable rules:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**No approval, no pilot.** Leadership approval is required.",
+        "**No signed pilot order form, no pilot.** The AE owns the pilot quote, order-form signature, and Deal Desk steps.",
+        "**Order forms come after approval.** Pilot order forms aren't approved or sent before the pilot approval is complete.",
+        "**Deployment comes last.** It is created only after approval and the signed order form."
+      ]
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "A readiness score of 80% or more is evidence of readiness, not authorization. Partners don't approve, promise, or provision pilots. Confirm current policy with the Glean account team."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A strong score is only one of three prerequisites. Each must be in place before a pilot starts."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Three pilot prerequisites",
+      "alt": "Three cards naming the pilot prerequisites in the dated pilot guide: a readiness scorecard at or above the threshold, pilot approval, and a signed pilot order form. A score alone does not authorize a pilot.",
+      "caption": "Follow the live approved process; confirm current policy with the Glean account team.",
+      "items": [
+        {
+          "label": "Readiness scorecard",
+          "detail": "Evidence, not authorization",
+          "emph": false
+        },
+        {
+          "label": "Pilot approval",
+          "detail": "No approval, no pilot",
+          "emph": true
+        },
+        {
+          "label": "Signed pilot order form",
+          "detail": "No signed form, no pilot",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "The readiness score is 84%, but leadership approval and the signed pilot order form are missing. Can deployment start?"
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "No. The score shows readiness, but it doesn't authorize anything. Resolve the required approvals and commercial prerequisites first. Under the dated guide, deployment begins only after the pilot approval is approved and the pilot order form is signed."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 307,
+  "eyebrow": "Lesson 5 · about 6 min",
+  "claims": [
+    "C-0493",
+    "C-0494",
+    "C-0495",
+    "C-0496",
+    "C-0497",
+    "C-0498"
+  ],
+  "sources": [
+    "S15",
+    "S47"
+  ]
+}

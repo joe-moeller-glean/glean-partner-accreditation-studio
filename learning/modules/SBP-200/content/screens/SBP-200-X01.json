@@ -1,0 +1,37 @@
+{
+  "id": "SBP-200-X01",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Templates",
+  "title": "Templates for this module",
+  "nav": "Templates",
+  "body": "Copy-ready structures you can reuse in your own engagements. Examples are fictional.",
+  "cards": [
+    {
+      "tag": "A20",
+      "title": "Capstone submission manifest",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Learner ID, asset ID, artifact/version, evidence location, required fields complete, assumptions, source IDs, self-score, assessor, revision history"
+        },
+        {
+          "label": "Fictional example",
+          "text": "One versioned package with A01–A19 as applicable, two workflow pairs, value model and live/recorded executive readout."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "All required evidence present; no real customer names/data in the simulation."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0699"
+  ],
+  "sources": [
+    "S54",
+    "S55"
+  ],
+  "required": true
+}

@@ -1,0 +1,112 @@
+{
+  "id": "SBP-101-L05",
+  "lesson": "SBP-101-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Sales Blueprint versus solution architecture",
+  "nav": "5. Sales Blueprint versus solution architecture",
+  "objective": "Classify 'prioritized use case list', 'implementation reference architecture' and 'executive value readout'.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "\"Blueprint\" means two different things at Glean. Keep them separate so customers know which conversation they are in."
+    },
+    {
+      "t": "h3",
+      "x": "Two kinds of blueprint"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**The Sales Blueprint (Blueprint Consultation)** is a pre-sales process. It covers discovery, workflow prioritization, business value, and the evaluation decision. Its outputs include a prioritized use case list, current-state and future-state workflow maps, an evidence-labeled value case, and an executive validation decision.",
+        "**The Customer Blueprint Framework** is a post-sales program led by Glean Solutions Architecture. Each blueprint is a reusable package for a recurring post-sales challenge: a problem statement, reference architecture and integration patterns, a recommended implementation path and governance model, and example assets. Examples include patterns for building many custom connectors and for optimizing infrastructure cost."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "How they relate"
+    },
+    {
+      "t": "p",
+      "x": "Architecture patterns can inform feasibility and delivery. If DITL shows that a use case depends on several custom connectors, a post-sales pattern may shape the effort estimate and the handoff plan. But an architecture pattern does not replace customer discovery or executive alignment. A connector pattern explains how something can be built. The Sales Blueprint explains why it matters to a specific team, how their work changes, and how success will be measured."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Do not present architecture diagrams as proof of value. This accreditation does not replace technical architecture or connector accreditation."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "The two artifacts share a word but answer different questions. Keep them separate in your notes and your scope."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Two kinds of blueprint",
+      "alt": "A comparison of the Sales Blueprint, which decides whether and where to invest, with the Customer Blueprint Framework, which designs how the solution will be built and run.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Sales Blueprint",
+          "b": "Customer Blueprint Framework",
+          "emph": false
+        },
+        {
+          "a": "Should the customer invest, and where?",
+          "b": "How will the solution be built and run?",
+          "emph": false
+        },
+        {
+          "a": "Use cases, workflows, value, executive decision",
+          "b": "Architecture, data sources, governance, rollout",
+          "emph": false
+        },
+        {
+          "a": "Pre-sale, led by the account team",
+          "b": "Delivery planning, led by technical owners",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Classify each item as a Sales Blueprint output or an adjacent technical-delivery asset: a prioritized use case list, an implementation reference architecture, and an executive value readout."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Prioritized use case list:** Sales Blueprint output (from Visioning).",
+        "**Executive value readout:** Sales Blueprint output (from Executive Validation).",
+        "**Implementation reference architecture:** An adjacent technical-delivery asset. It may be linked in the handoff when it informs feasibility, but it is not evidence that the customer will get value."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 353,
+  "eyebrow": "Lesson 5 · about 6 min",
+  "claims": [
+    "C-0029",
+    "C-0030",
+    "C-0031",
+    "C-0032",
+    "C-0033",
+    "C-0034"
+  ],
+  "sources": [
+    "S02",
+    "S51",
+    "S54"
+  ]
+}

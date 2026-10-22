@@ -1,0 +1,31 @@
+{
+  "id": "SBP-110-S000",
+  "claims": [
+    "C-0464"
+  ],
+  "sources": [
+    "S16",
+    "S15",
+    "S14",
+    "S41",
+    "S61"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-110 · Practitioner (proposed)",
+  "title": "Technical Validation Paths",
+  "nav": "Overview",
+  "body": "Choosing between a custom demo, Glean Lab, sandbox and pilot/PoC; pilot gating, readiness scoring, and approval",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Compare custom demo, Glean Lab, sandbox and pilot on data, prep, duration and cost.",
+    "Default to the lightest validation that proves value.",
+    "Apply the pilot entry criteria and readiness scorecard.",
+    "Frame a sandbox correctly with the champion."
+  ],
+  "footnote": "Recommended before this module: SBP-109. Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

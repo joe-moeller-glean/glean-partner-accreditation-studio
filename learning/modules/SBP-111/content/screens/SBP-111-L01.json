@@ -1,0 +1,124 @@
+{
+  "id": "SBP-111-L01",
+  "lesson": "SBP-111-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Assemble the Blueprint deliverable set",
+  "nav": "1. Assemble the Blueprint deliverable set",
+  "objective": "Audit a pack with a great ROI model but no workflow or owner records.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A Blueprint engagement produces a connected set of artifacts. Together they let someone who wasn't in the room understand the priorities, the evidence, the decisions, and what happens next."
+    },
+    {
+      "t": "h3",
+      "x": "The complete pack"
+    },
+    {
+      "t": "p",
+      "x": "This course proposes a standard pack, assembled from Glean's Blueprint and value materials:"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "**The value hypothesis**, in the customer's language.",
+        "**The stakeholder map:** sponsor, economic buyer, champion, technical owners, and workflow owners.",
+        "**The prioritized use-case log and matrix**, with scores and the rationale for each.",
+        "**DITL maps:** the current and future state for each priority workflow.",
+        "**Metric cards**, with baselines, sources, and owners.",
+        "**The value estimate:** ranges, assumptions, and evidence labels.",
+        "**Executive decisions:** what was accepted, conditional, or deferred.",
+        "**The validation recommendation.**",
+        "**The mutual action plan (MAP).**"
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Include the assumptions and a version history. Glean sources don't all require the same set of files or the same layout. Treat this as a proposed standard, not a mandate."
+    },
+    {
+      "t": "h3",
+      "x": "Make every priority traceable"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Value Playbook names a common failure: pre-sales value hypotheses are often lost after the deal closes. Avoid it by making each priority traceable from the business outcome, through the workflow change, to a measure and an accountable owner. The executive summary should link to the evidence, not repeat every detail."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "The pack should let a delivery team or customer success manager pick up the account without re-running discovery."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "How the Blueprint pack builds",
+      "alt": "A five-step build of the Blueprint deliverable set: the value hypothesis and stakeholder map, the prioritized use case log and matrix, DITL maps and metric cards, the value estimate and executive decisions, and the validation recommendation with the mutual action plan.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Hypothesis and stakeholders",
+          "detail": "Why change, and who decides",
+          "emph": false
+        },
+        {
+          "label": "Use case log and matrix",
+          "detail": "Agreed priorities",
+          "emph": false
+        },
+        {
+          "label": "DITL maps and metric cards",
+          "detail": "How the work happens; how value is measured",
+          "emph": false
+        },
+        {
+          "label": "Value and decisions",
+          "detail": "Ranges and executive commitments",
+          "emph": false
+        },
+        {
+          "label": "Validation and MAP",
+          "detail": "What happens next, and who owns it",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Audit a pack that has an excellent ROI model but no workflow records and no named owners."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "The pack is incomplete. Add the prioritized log and matrix, the current and future workflow maps, named business and technical owners, metric and evidence cards, the decision log, the validation plan, and the MAP. A financial model on its own is not a handoff."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 331,
+  "eyebrow": "Lesson 1 · about 6 min",
+  "claims": [
+    "C-0516",
+    "C-0517",
+    "C-0518",
+    "C-0519",
+    "C-0520",
+    "C-0521"
+  ],
+  "sources": [
+    "S05",
+    "S13",
+    "S14",
+    "S45"
+  ]
+}

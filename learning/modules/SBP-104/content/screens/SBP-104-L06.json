@@ -1,0 +1,123 @@
+{
+  "id": "SBP-104-L06",
+  "lesson": "SBP-104-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Internal rehearsal and session readiness",
+  "nav": "6. Internal rehearsal and session readiness",
+  "objective": "Run a five-minute readiness review and name one reason to delay.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A short internal rehearsal prevents the most common Visioning failures: unclear roles, a product pitch disguised as discovery, and broken tools."
+    },
+    {
+      "t": "h3",
+      "x": "What to align on"
+    },
+    {
+      "t": "p",
+      "x": "The AE, SE, partner, and any value specialist should agree on:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The value hypothesis and what is known, assumed, and missing.",
+        "The agenda and who leads each segment.",
+        "Example use cases to offer if the customer is stuck.",
+        "The tools: test the shared worksheet or whiteboard, and agree a fallback note-taking method.",
+        "The expected outputs and the next decision."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Rehearse three moments"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "**The opening:** purpose, outcomes, and a collaborative tone.",
+        "**One diagnostic question:** for example, \"Walk me through the last time this took longer than it should have.\"",
+        "**The transition to prioritization:** how you will move from brainstorm to ranking."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Pre-seed plausible use cases from approved patterns, but mark them as hypotheses. The customer should feel heard, not steered into a product pitch."
+    },
+    {
+      "t": "callout",
+      "label": "Note on timing",
+      "x": "Durations differ across Glean playbooks. This course uses a 60-minute working agenda. If you get less time, cut scope deliberately. For example, prioritize one department rather than pretending everything still fits."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Rehearse the three moments that most often go wrong. They are the ones that set the tone, test your discovery, and secure the outcome."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "Rehearse three moments",
+      "alt": "Three moments to rehearse before Visioning: the opening, which states purpose and the decision; one diagnostic question, asked about a real recent example; and the transition to prioritization, which moves from ideas to choices.",
+      "caption": "",
+      "items": [
+        {
+          "label": "The opening",
+          "detail": "Purpose, agenda, and the decision needed",
+          "emph": false
+        },
+        {
+          "label": "A diagnostic question",
+          "detail": "About a real, recent example",
+          "emph": false
+        },
+        {
+          "label": "The transition",
+          "detail": "From ideas to ranked choices",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Run a five-minute readiness review for tomorrow's Visioning session. List what you check, and name one reason that would justify delaying."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Check: the sponsor path, the returned worksheet, the attendee list against the lines of business, the hypotheses, the roles, the tools and fallback, and the expected outputs."
+    },
+    {
+      "t": "p",
+      "x": "Delay if no one can confirm the business outcome the session supports, or if the workflow owners can't attend. Without them, the use case list will have no owners and no credible path to DITL."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 315,
+  "eyebrow": "Lesson 6 · about 6 min",
+  "claims": [
+    "C-0185",
+    "C-0186",
+    "C-0187",
+    "C-0188",
+    "C-0189",
+    "C-0190"
+  ],
+  "sources": [
+    "S02",
+    "S05",
+    "S07",
+    "S26"
+  ]
+}

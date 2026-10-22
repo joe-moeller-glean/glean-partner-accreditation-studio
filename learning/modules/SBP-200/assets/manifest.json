@@ -1,0 +1,225 @@
+{
+  "module_id": "SBP-200",
+  "assets": [
+    {
+      "asset_id": "SBP-200-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    },
+    {
+      "asset_id": "SBP-200-L01-F1-wide",
+      "path": "assets/fig/SBP-200-L01-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Three kinds of scenario input (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0659",
+        "C-0660",
+        "C-0661",
+        "C-0662",
+        "C-0663",
+        "C-0664",
+        "C-0665"
+      ],
+      "alt": "Three cards naming the kinds of input in the capstone scenario: facts, which you may use as stated; estimates, which you must show as ranges with assumptions; and unknowns, which you must turn into open questions with owners."
+    },
+    {
+      "asset_id": "SBP-200-L01-F1-narrow",
+      "path": "assets/fig/SBP-200-L01-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Three kinds of scenario input (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0659",
+        "C-0660",
+        "C-0661",
+        "C-0662",
+        "C-0663",
+        "C-0664",
+        "C-0665"
+      ],
+      "alt": "Three cards naming the kinds of input in the capstone scenario: facts, which you may use as stated; estimates, which you must show as ranges with assumptions; and unknowns, which you must turn into open questions with owners."
+    },
+    {
+      "asset_id": "SBP-200-L02-F1-wide",
+      "path": "assets/fig/SBP-200-L02-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Visioning simulation submission (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0666",
+        "C-0667",
+        "C-0668",
+        "C-0669",
+        "C-0670",
+        "C-0671",
+        "C-0672"
+      ],
+      "alt": "Six parts of the Visioning submission in order: value hypothesis, stakeholder map, readiness review, timed agenda, use case log and matrix, and a five-minute facilitation segment."
+    },
+    {
+      "asset_id": "SBP-200-L02-F1-narrow",
+      "path": "assets/fig/SBP-200-L02-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Visioning simulation submission (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0666",
+        "C-0667",
+        "C-0668",
+        "C-0669",
+        "C-0670",
+        "C-0671",
+        "C-0672"
+      ],
+      "alt": "Six parts of the Visioning submission in order: value hypothesis, stakeholder map, readiness review, timed agenda, use case log and matrix, and a five-minute facilitation segment."
+    },
+    {
+      "asset_id": "SBP-200-L03-F1-wide",
+      "path": "assets/fig/SBP-200-L03-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Bars diagram: Current-state active time per case (scenario) (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0673",
+        "C-0674",
+        "C-0675",
+        "C-0676",
+        "C-0677",
+        "C-0678"
+      ],
+      "alt": "A bar chart of the capstone's current-state support workflow in active minutes per case: read the case 2, find approved guidance 8, consult a colleague 3, draft a response 5, and review and send 2. Finding guidance is the largest step."
+    },
+    {
+      "asset_id": "SBP-200-L03-F1-narrow",
+      "path": "assets/fig/SBP-200-L03-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Bars diagram: Current-state active time per case (scenario) (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0673",
+        "C-0674",
+        "C-0675",
+        "C-0676",
+        "C-0677",
+        "C-0678"
+      ],
+      "alt": "A bar chart of the capstone's current-state support workflow in active minutes per case: read the case 2, find approved guidance 8, consult a colleague 3, draft a response 5, and review and send 2. Finding guidance is the largest step."
+    },
+    {
+      "asset_id": "SBP-200-L04-F1-wide",
+      "path": "assets/fig/SBP-200-L04-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: What the value defense must explain (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0679",
+        "C-0680",
+        "C-0681",
+        "C-0682",
+        "C-0683",
+        "C-0684"
+      ],
+      "alt": "Six cards naming what the capstone value defense must explain: units, adoption versus population, recapture, the three scenarios, sensitivity, and metric cards."
+    },
+    {
+      "asset_id": "SBP-200-L04-F1-narrow",
+      "path": "assets/fig/SBP-200-L04-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: What the value defense must explain (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0679",
+        "C-0680",
+        "C-0681",
+        "C-0682",
+        "C-0683",
+        "C-0684"
+      ],
+      "alt": "Six cards naming what the capstone value defense must explain: units, adoption versus population, recapture, the three scenarios, sensitivity, and metric cards."
+    },
+    {
+      "asset_id": "SBP-200-L05-F1-wide",
+      "path": "assets/fig/SBP-200-L05-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: From readout to handoff (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0685",
+        "C-0686",
+        "C-0687",
+        "C-0688",
+        "C-0689",
+        "C-0690"
+      ],
+      "alt": "A four-step flow for the capstone's final deliverables: an 8- to 10-minute executive readout, a validation recommendation, a mutual action plan, and a recap with the delivery and value handoff."
+    },
+    {
+      "asset_id": "SBP-200-L05-F1-narrow",
+      "path": "assets/fig/SBP-200-L05-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: From readout to handoff (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0685",
+        "C-0686",
+        "C-0687",
+        "C-0688",
+        "C-0689",
+        "C-0690"
+      ],
+      "alt": "A four-step flow for the capstone's final deliverables: an 8- to 10-minute executive readout, a validation recommendation, a mutual action plan, and a recap with the delivery and value handoff."
+    },
+    {
+      "asset_id": "SBP-200-L06-F1-wide",
+      "path": "assets/fig/SBP-200-L06-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Review and remediation (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0691",
+        "C-0692",
+        "C-0693",
+        "C-0694",
+        "C-0695",
+        "C-0696",
+        "C-0697"
+      ],
+      "alt": "A four-step review path: self-audit against the rubric, assessor review, a critical-gate check, then either pass or remediate and resubmit. A failed critical gate requires remediation regardless of the score."
+    },
+    {
+      "asset_id": "SBP-200-L06-F1-narrow",
+      "path": "assets/fig/SBP-200-L06-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Review and remediation (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0691",
+        "C-0692",
+        "C-0693",
+        "C-0694",
+        "C-0695",
+        "C-0696",
+        "C-0697"
+      ],
+      "alt": "A four-step review path: self-audit against the rubric, assessor review, a critical-gate check, then either pass or remediate and resubmit. A failed critical gate requires remediation regardless of the score."
+    }
+  ]
+}

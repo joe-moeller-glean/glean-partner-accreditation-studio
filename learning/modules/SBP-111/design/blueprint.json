@@ -1,0 +1,85 @@
+{
+  "module_id": "SBP-111",
+  "module_objectives": [
+    "Produce the standard Blueprint deliverables.",
+    "Build a MAP and success plan from Blueprint outputs.",
+    "Hand off value commitments so they can be measured after go-live.",
+    "Attach partner services to the prioritized roadmap."
+  ],
+  "objective_map": [
+    {
+      "lesson_id": "SBP-111-L01",
+      "objective": "Given the supplied customer-neutral scenario and sources, audit a pack with a great ROI model but no workflow or owner records. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-111-L01"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-111-Q001"
+      ]
+    },
+    {
+      "lesson_id": "SBP-111-L02",
+      "objective": "Given the supplied customer-neutral scenario and sources, turn 'technical validation next month' into measurable MAP entries. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-111-L02"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-111-Q002"
+      ]
+    },
+    {
+      "lesson_id": "SBP-111-L03",
+      "objective": "Given the supplied customer-neutral scenario and sources, rewrite 'everyone loved it and we're ready for rollout' into an evidence-based recap. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-111-L03"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-111-Q003"
+      ]
+    },
+    {
+      "lesson_id": "SBP-111-L04",
+      "objective": "Given the supplied customer-neutral scenario and sources, propose a services sequence for a workflow with poor content quality and low adoption readiness. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-111-L04"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-111-Q004"
+      ]
+    },
+    {
+      "lesson_id": "SBP-111-L05",
+      "objective": "Given the supplied customer-neutral scenario and sources, identify what CS needs from a presale ROI estimate. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-111-L05"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-111-Q005"
+      ]
+    },
+    {
+      "lesson_id": "SBP-111-L06",
+      "objective": "Given the supplied customer-neutral scenario and sources, decide what to do when adoption rises but the business KPI does not move. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-111-L06"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-111-Q006",
+        "SBP-111-Q007",
+        "SBP-111-Q008"
+      ]
+    }
+  ]
+}

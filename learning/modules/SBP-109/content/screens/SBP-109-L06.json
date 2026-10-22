@@ -1,0 +1,124 @@
+{
+  "id": "SBP-109-L06",
+  "lesson": "SBP-109-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "After-work and opportunity update",
+  "nav": "6. After-work and opportunity update",
+  "objective": "Draft the checklist for executive-validation follow-up.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Momentum depends on fast, accurate follow-up. Commitments that aren't written down tend to drift."
+    },
+    {
+      "t": "h3",
+      "x": "Same day to 24 hours"
+    },
+    {
+      "t": "p",
+      "x": "Glean's checklist asks for this within the same day to 24 hours after the meeting:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**A concise recap:** decisions, success criteria, the validation path, the timeline, and owners.",
+        "**Access** to the tailored demo or Glean Lab assets.",
+        "**Updated records:** the opportunity workbook and stage criteria, reflecting the executive confirmations.",
+        "**Business case and close plan:** built or refined.",
+        "**Sponsor cadence:** the executive sponsor, technical champion, and partner engagement steps logged, and upcoming checkpoints confirmed.",
+        "**Next validation:** if a pilot is needed, its scope, success metrics, and duration documented and kickoff scheduled. Otherwise, technical validation dates locked."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Commitments versus open questions"
+    },
+    {
+      "t": "p",
+      "x": "The recap should separate accepted commitments from open questions. Link only approved, customer-facing assets. Reconfirm access permissions for every shared artifact."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Never send internal account judgments, scores, pricing policy, or private notes to the customer."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Send the recap within a day, and keep commitments separate from open questions."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "After the readout",
+      "alt": "A four-step after-work sequence within 24 hours: send a concise recap, update the opportunity records, refresh the business case and close plan, and set the sponsor cadence and next validation step.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Send the recap",
+          "detail": "Decisions, commitments, open questions",
+          "emph": false
+        },
+        {
+          "label": "Update records",
+          "detail": "Opportunity and mutual action plan",
+          "emph": false
+        },
+        {
+          "label": "Refresh the business case",
+          "detail": "With what the executive said",
+          "emph": false
+        },
+        {
+          "label": "Set the cadence",
+          "detail": "Sponsor check-ins and the next validation",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Draft the follow-up checklist for the day after Executive Validation."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ol",
+      "items": [
+        "Send the recap: decisions, success criteria, validation path, owners, and timeline.",
+        "Share the approved demo or Lab assets, and confirm access works.",
+        "Update the opportunity record and mutual action plan.",
+        "Log sponsor, champion, and partner actions and checkpoints.",
+        "Assign each open dependency an owner and date.",
+        "Schedule the validation event and the decision readout.",
+        "Start internal pilot approval only if a pilot is justified."
+      ]
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 276,
+  "eyebrow": "Lesson 6 · about 5 min",
+  "claims": [
+    "C-0447",
+    "C-0448",
+    "C-0449",
+    "C-0450",
+    "C-0451",
+    "C-0452"
+  ],
+  "sources": [
+    "S14",
+    "S45",
+    "S46"
+  ]
+}

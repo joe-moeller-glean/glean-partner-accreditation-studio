@@ -1,0 +1,156 @@
+{
+  "id": "SBP-112-L01",
+  "lesson": "SBP-112-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "AI task map for Blueprint",
+  "nav": "1. AI task map for Blueprint",
+  "objective": "Choose appropriate assistance for research, DITL drafting and pilot readiness.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "AI can make Blueprint preparation much faster. Its output is a draft that people review, never a decision."
+    },
+    {
+      "t": "h3",
+      "x": "Where AI helps"
+    },
+    {
+      "t": "table",
+      "caption": "AI assistance across the Blueprint",
+      "head": [
+        "Task",
+        "AI can draft",
+        "A person must"
+      ],
+      "rows": [
+        [
+          "Account research",
+          "A claim register from authorized sources",
+          "Check facts, freshness, and sharing permissions"
+        ],
+        [
+          "Value hypothesis",
+          "Three Whys, proposed PBOs, and candidate metrics",
+          "Validate relevance and evidence with the account team"
+        ],
+        [
+          "Visioning preparation",
+          "A run of show and open discovery questions",
+          "Review timing and remove leading wording"
+        ],
+        [
+          "Use-case log",
+          "Structured entries extracted from notes",
+          "Confirm priorities with customer owners"
+        ],
+        [
+          "DITL timeline",
+          "Current and future step tables",
+          "Verify steps, timings, and capabilities"
+        ],
+        [
+          "Readiness review",
+          "An evidence-versus-criteria matrix",
+          "Use the live approval process; AI never approves"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Glean tools and equivalent prompts"
+    },
+    {
+      "t": "p",
+      "x": "Glean's internal tools include a Value Hypothesis Agent, which drafts strategic priorities, risks, and Positive Business Outcomes, and a Day-in-the-Life point-of-view generator, which drafts current and future timeline tables. Tool availability and permissions vary. An internal agent link doesn't mean a partner is entitled to use it. This course provides a prompt library with equivalent structured prompts, so you can do the same work in any approved environment."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Each tool produces a reviewed draft, not a decision or an approval."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "AI speeds up preparation and drafting. People still own the facts, the judgments, and the commitments."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "What AI drafts, what people own",
+      "alt": "A comparison of Blueprint tasks AI can help draft, such as account research summaries, interview notes, and first-draft workflow maps, with what people must own: verified facts, value judgments, and customer commitments.",
+      "caption": "",
+      "items": [
+        {
+          "a": "AI can help draft",
+          "b": "People must own",
+          "emph": false
+        },
+        {
+          "a": "Account research summaries",
+          "b": "Which facts are verified",
+          "emph": false
+        },
+        {
+          "a": "Interview notes and recaps",
+          "b": "What the customer actually agreed",
+          "emph": false
+        },
+        {
+          "a": "First-draft workflow maps",
+          "b": "Whether the steps are right",
+          "emph": false
+        },
+        {
+          "a": "Value model arithmetic",
+          "b": "The assumptions and the claims made",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Choose the appropriate AI assistance for three tasks: account research, DITL drafting, and pilot readiness."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Account research:** a research or point-of-view prompt using authorized sources only, with a claim register as output.",
+        "**DITL drafting:** a timeline-drafting prompt fed with verified interview notes.",
+        "**Pilot readiness:** an evidence-versus-criteria review that the account team uses with the approved scorecard."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Every output is a draft for human review. None is a decision or an approval."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 333,
+  "eyebrow": "Lesson 1 · about 6 min",
+  "claims": [
+    "C-0566",
+    "C-0567",
+    "C-0568",
+    "C-0569",
+    "C-0570",
+    "C-0571"
+  ],
+  "sources": [
+    "S07",
+    "S37",
+    "S38",
+    "S47"
+  ]
+}

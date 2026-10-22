@@ -1,0 +1,61 @@
+{
+  "module_id": "SBP-107",
+  "key": {
+    "SBP-107-Q001": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Direct workflow evidence needs practitioners, supplemented by business and technical owners.",
+        "incorrect": "Review the relevant lesson and evidence. Direct workflow evidence needs practitioners, supplemented by business and technical owners."
+      }
+    },
+    "SBP-107-Q002": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. Labor and cycle time are different and support different value mechanisms.",
+        "incorrect": "Review the relevant lesson and evidence. Labor and cycle time are different and support different value mechanisms."
+      }
+    },
+    "SBP-107-Q003": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. Distinguish the measure and mechanism rather than inflating savings through incompatible units.",
+        "incorrect": "Review the relevant lesson and evidence. Distinguish the measure and mechanism rather than inflating savings through incompatible units."
+      }
+    },
+    "SBP-107-Q004": {
+      "answer": "b",
+      "rationale": {
+        "correct": "Correct. A credible future state preserves required controls and labels unvalidated assumptions.",
+        "incorrect": "Review the relevant lesson and evidence. A credible future state preserves required controls and labels unvalidated assumptions."
+      }
+    },
+    "SBP-107-Q005": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. Playback is conditional and decision-oriented, not a mandatory endless demo cycle.",
+        "incorrect": "Review the relevant lesson and evidence. Playback is conditional and decision-oriented, not a mandatory endless demo cycle."
+      }
+    },
+    "SBP-107-Q006": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Executives need the business meaning, with detailed evidence available behind the summary.",
+        "incorrect": "Review the relevant lesson and evidence. Executives need the business meaning, with detailed evidence available behind the summary."
+      }
+    },
+    "SBP-107-Q007": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. Divergence may reflect real differences or weak evidence; preserve uncertainty and validate it.",
+        "incorrect": "Review the relevant lesson and evidence. Divergence may reflect real differences or weak evidence; preserve uncertainty and validate it."
+      }
+    },
+    "SBP-107-Q008": {
+      "answer": "b",
+      "rationale": {
+        "correct": "Correct. Generated plausibility is not observation or a customer baseline.",
+        "incorrect": "Review the relevant lesson and evidence. Generated plausibility is not observation or a customer baseline."
+      }
+    }
+  }
+}

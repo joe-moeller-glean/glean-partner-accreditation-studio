@@ -1,0 +1,111 @@
+{
+  "generated": "2026-10-21",
+  "release_state": "restricted_preview",
+  "packages": [
+    {
+      "module_id": "SBP-101",
+      "zip": "dist/restricted-preview/SBP-101-v1.0.0-scorm12.zip",
+      "sha256": "23c83b13c97a80939974105475f71f6b818bd09576aa75d5284e87c55090a4b5",
+      "bytes": 49818,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-102",
+      "zip": "dist/restricted-preview/SBP-102-v1.0.0-scorm12.zip",
+      "sha256": "5d85c2584ed131d63abedfec67021cfa7a5f2e68c3881ea14153785614e0608c",
+      "bytes": 47417,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-103",
+      "zip": "dist/restricted-preview/SBP-103-v1.0.0-scorm12.zip",
+      "sha256": "f91c95caafad1fc1adb25259a76ff6fbb73163293077c8bf8988ac834f5db86f",
+      "bytes": 46092,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-104",
+      "zip": "dist/restricted-preview/SBP-104-v1.0.0-scorm12.zip",
+      "sha256": "34c66e92b582cd3b0c6aab4a10e9c1c8d92228056886d04917e0ea517c8c4e64",
+      "bytes": 45911,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-105",
+      "zip": "dist/restricted-preview/SBP-105-v1.0.0-scorm12.zip",
+      "sha256": "25f5d1643dd4b23bbc99f6c9d199ab8cc65176f7974757235060e71ddde886cd",
+      "bytes": 45354,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-106",
+      "zip": "dist/restricted-preview/SBP-106-v1.0.0-scorm12.zip",
+      "sha256": "e6ae81d9e012d68bb6d6c34938b07ffe93aa13c54ffb02c4d2ef8393364abd13",
+      "bytes": 46888,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-107",
+      "zip": "dist/restricted-preview/SBP-107-v1.0.0-scorm12.zip",
+      "sha256": "dd3a6d64c08096511f9e6fb6fb2d84bd80649eeea8bbb9f0bdfbd44fec981007",
+      "bytes": 45433,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-108",
+      "zip": "dist/restricted-preview/SBP-108-v1.0.0-scorm12.zip",
+      "sha256": "71de8b999715ef6e95a89d3df748cf0b32a8c9587e2f33fe367bef193c4bee21",
+      "bytes": 45398,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-109",
+      "zip": "dist/restricted-preview/SBP-109-v1.0.0-scorm12.zip",
+      "sha256": "afad03a1a5d5314a75f59c27ada123586a471bf5333f9af609fe643fc174cc01",
+      "bytes": 44624,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-110",
+      "zip": "dist/restricted-preview/SBP-110-v1.0.0-scorm12.zip",
+      "sha256": "dc4782be6b0dee0b317cb3fe8e929b65b55bcb116f4137340e3e5a6da32857ef",
+      "bytes": 44623,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-111",
+      "zip": "dist/restricted-preview/SBP-111-v1.0.0-scorm12.zip",
+      "sha256": "b11145c6cd1901dfc572629bdb71e3a179d7e900d1b04bb2c522af0d9a78aec6",
+      "bytes": 45230,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-112",
+      "zip": "dist/restricted-preview/SBP-112-v1.0.0-scorm12.zip",
+      "sha256": "a31dad5264b5a4166955a7daf921c6d5eb5b889a62a1b2eb6d28c80dbd98d44a",
+      "bytes": 44411,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-113",
+      "zip": "dist/restricted-preview/SBP-113-v1.0.0-scorm12.zip",
+      "sha256": "5b9cad189795e2710a28cdd76c56f3006eb4e6586d2e1982a4bd13da2732fbcb",
+      "bytes": 44150,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-200",
+      "zip": "dist/restricted-preview/SBP-200-v1.0.0-scorm12.zip",
+      "sha256": "a065acaa4734f104352623e868030eccc532f163dce43bd7807778fd8fd03841",
+      "bytes": 47993,
+      "validate_scorm": "PASS"
+    },
+    {
+      "module_id": "SBP-FINAL",
+      "zip": "dist/restricted-preview/SBP-FINAL-v1.0.0-scorm12.zip",
+      "sha256": "ac555bdd138a1e7bb2815b7cc01de0264c4da69f656f8510e249ba8902718c74",
+      "bytes": 42493,
+      "validate_scorm": "PASS"
+    }
+  ]
+}

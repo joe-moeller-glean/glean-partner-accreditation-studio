@@ -1,0 +1,834 @@
+{
+  "module_id": "SBP-101",
+  "claims": [
+    {
+      "claim_id": "C-0001",
+      "anchor": "SBP-101-S000",
+      "text": "What the Glean Blueprint Consultation is, why it exists, its three steps, and the outcomes it produces for customers, partners, and Glean",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S06",
+        "S26"
+      ],
+      "locator": "Module overview synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0002",
+      "anchor": "SBP-101-L01#00",
+      "text": "Most enterprises have already experimented with AI. Many have run assistants, chatbots, or internal pilots. Far fewer can point to a result their finance team accepts: more revenue, lower cost, or lower risk for a specific part of the business. That gap is why the Blueprint Consultation exists.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S06"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0003",
+      "anchor": "SBP-101-L01#01",
+      "text": "The Glean playbook describes the market plainly: the time of experimentation is ending. Buyers increasingly expect a new AI investment to prove the return they were promised, not just impress in a demo. \"Pilot purgatory\" is the failure mode you are trying to avoid: a long trial with no agreed success measure, no executive owner, and no decision at the end. The Blueprint Consultation lets the account team partner with the customer early, before anyone discusses a pilot. Together you find the strongest use cases and work out how to show their value quickly.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S06"
+      ],
+      "locator": "Why the Blueprint Consultation exists",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S02",
+      "excerpt": "The time of experimentation is ending. / Many companies have tested, experimented with, or even launched AI, but have not seen results directly tied to Return on Investment in the form of increased revenue, reduced costs, or reduced risk for a part of the business.",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0004",
+      "anchor": "SBP-101-L01#02",
+      "text": "The Blueprint Consultation is a structured series of customer conversations. It creates a defined process for evaluating AI, identifies high-value workflows with the people who do the work, and builds alignment with an executive sponsor. The goal is to move to a pilot only when one is truly needed. The playbook frames three jobs for the process: Cut through ambiguity. Anchor each use case to a business outcome, prioritize by impact and effort, set clear success metrics, and confirm executive sponsorship with mutual action plan checkpoints. Validate value fast. Quantify value from what you lear",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S06"
+      ],
+      "locator": "What it is",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S02",
+      "excerpt": "The Blueprint Consultation is a series of meetings that happen with the client to create a defined process around evaluating and testing AI, helping to identify high- value workflows/ use cases with them, and generating alignment with the Executive Sponsor, all with the goal of only moving to a pilot when absolutely essential.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0005",
+      "anchor": "SBP-101-L01#03",
+      "text": "It is not a free pilot, a general product tour, or an open-ended brainstorm. A compelling demo is not a validated business case. The deliverable is a decision-ready plan: prioritized workflows, an evidence-labeled value case, and an agreed way to validate. It is never a promise of guaranteed savings. In plain language \"We will agree the outcomes that matter to you, look at how the work happens today, and bring leadership an evidence-labeled value case and a recommendation for how to validate it.\"",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S06"
+      ],
+      "locator": "What it is not",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0006",
+      "anchor": "SBP-101-L01#04",
+      "text": "Glean's internal Blueprint training is candid about a common mistake. Sellers who are uncomfortable with the process pitch it apologetically, and the customer hears \"a lot of work.\" The stronger framing is consultative. The Blueprint is a structured analysis of where AI can change real work, run with the customer's own teams. Most business leaders can't easily do that analysis across their departments themselves. The same training describes the Blueprint as a way to \"slow down to speed up.\" Teams that jump straight to a pilot often stall later on scope, value, or sponsorship. A few focused ses",
+      "source_ids": [
+        "S68",
+        "S69"
+      ],
+      "locator": "How to position it",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S68",
+      "excerpt": "This will help us slow down to speed up.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0007",
+      "anchor": "SBP-101-L01#05",
+      "text": "A champion asks, \"What is this Blueprint thing, and why should my team give you time for it?\" Write a two-sentence answer without product jargon. Then add one sentence on what remains uncertain at this point.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S06"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0008",
+      "anchor": "SBP-101-L01#06",
+      "text": "\"We will identify and prioritize the workflows most tied to your business goals, then map how that work happens today and how it could work in future, with the people who do it. Together we will agree success measures and the lightest validation needed for an investment decision.\" Uncertainty to name: until you have spoken with the business owners and end users, the value is a hypothesis, not a result.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S06"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0009",
+      "anchor": "SBP-101-L02#00",
+      "text": "The Blueprint Consultation has three customer-facing steps. Preparation comes before them, and an agreed validation path and action plan comes after.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S26"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0010",
+      "anchor": "SBP-101-L02#01",
+      "text": "Visioning. A session with business leadership, or the champion when leaders are not available. You align on priorities, brainstorm use cases tied to outcomes, and leave with a ranked shortlist of hero use cases. Glean guidance on length varies from 30 to 60 minutes. The Visioning playbook recommends a standalone 60-minute session that is not combined with an intro demo. Day-in-the-Life (DITL) interviews and playback. One or more sessions with the leaders and front-line employees for each prioritized use case. You document how the work happens today, show what it could look like with Glean, and",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S05",
+        "S07",
+        "S26"
+      ],
+      "locator": "The three steps",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S05, S07",
+      "excerpt": "Phase 1: Visioning Workshop / Schedule a focused, 60-minute standalone visioning session ( do not combine with Glean intro demos or other meetings ). / Phase 2: Day-in-the-Life (DITL) / Use Case Workshop / Phase 3: Business Value Analysis / Executive Readout",
+      "note": "4 of 4 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0011",
+      "anchor": "SBP-101-L02#02",
+      "text": "Preparation comes first. Glean guidance says that before you start, you need early economic buyer alignment, a value hypothesis, and identified Positive Business Outcomes (PBOs) tied to the company's near-term priorities. Value analysis is not a separate customer meeting. It runs through the whole process: you form a hypothesis in preparation, test it in Visioning, size it with DITL data, and confirm it in Executive Validation. After Executive Validation, the customer chooses how to validate the solution. The usual options are a tailored demo, a hands-on Glean Lab or sandbox, or a trial or pro",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S26"
+      ],
+      "locator": "Before and after the steps",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S04",
+      "excerpt": "Before starting, you need: EB alignment , a value hypothesis, and identified PBOs aligned to the company/EB’s objective & near-term priority.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0012",
+      "anchor": "SBP-101-L02#03",
+      "text": "Glean's onboarding training summarizes the sequence simply: each step answers a different question. Visioning asks what matters to the business. DITL asks how the work actually happens today. Executive Validation asks whether there is enough value to invest. If you can't say which question you are answering, you are probably in the wrong step. The training also notes that the sequence flexes by segment. A corporate deal may compress Visioning into one session. A strategic, wall-to-wall deal may run several Visioning sessions with different department heads and several DITL interviews. The orde",
+      "source_ids": [
+        "S04",
+        "S68"
+      ],
+      "locator": "Three questions, three steps",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S68",
+      "excerpt": "So each of these steps is going to answer a different question.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0013",
+      "anchor": "SBP-101-L02#04",
+      "text": "Put these five items in order and explain in one line why each comes where it does: executive decision, DITL interviews, validation event, Visioning, preparation.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S26"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0014",
+      "anchor": "SBP-101-L02#05",
+      "text": "Preparation → Visioning → DITL interviews and value analysis → Executive Validation (executive decision) → agreed validation event and mutual action plan. Preparation gives you a hypothesis to test. Visioning narrows the field to a few hero use cases. DITL supplies the workflow evidence and metric inputs. The executive decides with that evidence in hand, and only then is a validation event scheduled.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S26"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0015",
+      "anchor": "SBP-101-L03#00",
+      "text": "Blueprint conversations fall apart when \"outcome\", \"use case\", \"workflow\", and \"metric\" are used interchangeably. Keep them separate. Each answers a different question, and an executive case needs all four.",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S13"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0016",
+      "anchor": "SBP-101-L03#01",
+      "text": "Positive Business Outcome (PBO) | What improves for the business, and who owns it? | Lower support cost without a drop in resolution quality, owned by the VP of Support Use case | What job needs doing? | Find approved troubleshooting guidance for a live case Workflow | What are the steps, people, and systems involved today? | Case opens → agent searches three systems → asks a peer → drafts a reply → reply is reviewed Metric | How will we judge improvement? | Average handle time, paired with resolution quality and escalation rate Glean's partner discovery framework chains these in one direction",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "locator": "Four terms, four questions",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S05",
+      "excerpt": "A simple discovery framework: business outcomes → use cases → workflows → data → success metrics.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0017",
+      "anchor": "SBP-101-L03#02",
+      "text": "Business impact should connect to cost, revenue, or risk, because those are what executive sponsors fund. The Glean Value Playbook puts it directly: time saved is an input, not an outcome. The outcome is what happens with the time: revenue influenced, costs avoided, risks reduced, capacity redeployed, or quality improved. Compare two statements. \"Save 30 minutes a day\" is an activity claim. \"Cut RFP response time so the team can answer more RFPs each quarter\" is a value story, because it names a business result and a way to measure it.",
+      "source_ids": [
+        "S02",
+        "S13"
+      ],
+      "locator": "Connect to cost, revenue, or risk",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Time saved is an input, not an outcome.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0018",
+      "anchor": "SBP-101-L03#03",
+      "text": "Meetings held, agent ideas generated, and connectors added are activities or enablers. They may be necessary, but they are not outcomes. \"Fewer clicks\" is not automatically an outcome either. To make it one, name the business owner and the operational or financial consequence. Test yourself If you can't say who would notice the improvement and what it would change on their scorecard, you have an activity, not an outcome.",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S13"
+      ],
+      "locator": "Activities are not outcomes",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0019",
+      "anchor": "SBP-101-L03#04",
+      "text": "Glean's business-case training pushes one test hard: who cares? A faster slide deck matters to its author but not to a CFO. A CFO cares about revenue, cost, and risk. The training's message is that value starts at day one. If the first conversations anchor on personal productivity, the deal is later compared with cheap point tools. Use the vocabulary to climb from the activity to the outcome an executive would fund. If you can't name who would care about a metric and why, keep climbing. Positive Business Outcome What improves for the business, and who funds it Metric How improvement will be ju",
+      "source_ids": [
+        "S66",
+        "S71"
+      ],
+      "locator": "Pass the \"who cares?\" test",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S71",
+      "excerpt": "value starts at day one.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0020",
+      "anchor": "SBP-101-L03#05",
+      "text": "A customer says, \"We need an AI assistant.\" Translate that into an outcome, a use case, a workflow, and a metric. Use the support example or a fictional team of your choice.",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S13"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0021",
+      "anchor": "SBP-101-L03#06",
+      "text": "Outcome: Lower support cost without lowering resolution quality. Use case: Retrieve approved resolutions for live cases. Workflow: Case context → search → review the suggested answer → respond. Metric: Handle time, paired with resolution quality and escalation rate so speed does not come at the cost of quality. Uncertainty to name: you still need a baseline for handle time and confirmation that the approved resolutions exist in systems Glean can reach.",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S13"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0022",
+      "anchor": "SBP-101-L04#00",
+      "text": "A Blueprint should be worth the time for everyone in the room. When each party knows what it gains and what it is accountable for, the engagement moves faster and handoffs stay clean.",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S26"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-0023",
+      "anchor": "SBP-101-L04#01",
+      "text": "The customer gets business-level alignment and an actionable roadmap: prioritized use cases, current-state evidence, business-aligned metrics, and a group-level business case. The process also builds excitement and sponsorship across business units, which helps secure budget and resources. Glean gets a better-qualified, value-led evaluation with a named sponsor and clear success criteria, rather than an open-ended trial. The partner brings industry knowledge, facilitation skill, and technical context. In return, the Blueprint creates a clear delivery roadmap that can turn discovery into adopti",
+      "source_ids": [
+        "S05",
+        "S26"
+      ],
+      "locator": "What each party gains",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-0024",
+      "anchor": "SBP-101-L04#02",
+      "text": "Glean's partner enablement material sets out a responsibility split for partner-led engagements: Use case discovery | Facilitates workshops with business stakeholders | Shares patterns and technical constraints Build | Leads day-to-day agent builds | Coaches, with patterns and technical guidance Optimize and ongoing support | Front-line advisory and small changes | Glean Support handles product issues Business reviews and renewals | Brings the AI outcomes story, services roadmap, and joint next-step proposals | Glean AE and SE are accountable for renewal and expansion",
+      "source_ids": [
+        "S05"
+      ],
+      "locator": "Who does what across the lifecycle",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": true,
+      "excerpt_source": "S05",
+      "excerpt": "Partner owns day-to-day agent builds and optimization, while Glean provides patterns, technical guidance, and product support. / Glean AE/SE: Accountable for renewal and expansion",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0025",
+      "anchor": "SBP-101-L04#03",
+      "text": "Partner participation does not transfer commercial approval, product support accountability, or permission to describe capabilities Glean has not confirmed. Agree who owns what before the first session: who facilitates, who takes notes, who answers product feasibility questions, and who owns the follow-up. Glean keeps its own processes for approving pilots and escalating product issues. Good use of partner expertise A partner leads a departmental workshop and translates the customer's goals into grounded workflow discovery. The Glean account team supplies product patterns and feasibility guida",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S26"
+      ],
+      "locator": "Accountability boundaries",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-0026",
+      "anchor": "SBP-101-L04#04",
+      "text": "Each party gets something different from the same engagement. Seeing the three side by side helps you explain it. The customer Prioritized use cases and a business case they can defend internally Glean A qualified opportunity with sponsorship and a clear validation path The partner A services roadmap tied to measured customer outcomes",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S26"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-0027",
+      "anchor": "SBP-101-L04#05",
+      "text": "Name one benefit for the customer, one for the partner, and one for Glean in a Blueprint you might run. Then state one accountability boundary you would agree before the first session.",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S26"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-0028",
+      "anchor": "SBP-101-L04#06",
+      "text": "Customer: Clear priorities and evidence for an investment decision. Partner: A relevant, well-defined services scope that follows from the prioritized use cases. Glean: A qualified evaluation with a named sponsor and agreed success criteria. Boundary: Glean keeps its internal pilot-approval and product-escalation processes. The partner does not commit to pilots, pricing, or roadmap items on Glean's behalf.",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S26"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-0029",
+      "anchor": "SBP-101-L05#00",
+      "text": "\"Blueprint\" means two different things at Glean. Keep them separate so customers know which conversation they are in.",
+      "source_ids": [
+        "S02",
+        "S51",
+        "S54"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0030",
+      "anchor": "SBP-101-L05#01",
+      "text": "The Sales Blueprint (Blueprint Consultation) is a pre-sales process. It covers discovery, workflow prioritization, business value, and the evaluation decision. Its outputs include a prioritized use case list, current-state and future-state workflow maps, an evidence-labeled value case, and an executive validation decision. The Customer Blueprint Framework is a post-sales program led by Glean Solutions Architecture. Each blueprint is a reusable package for a recurring post-sales challenge: a problem statement, reference architecture and integration patterns, a recommended implementation path an",
+      "source_ids": [
+        "S02",
+        "S51"
+      ],
+      "locator": "Two kinds of blueprint",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S51",
+      "excerpt": "The Customer Blueprint Framework provides SA-led, opinionated patterns for solving complex post-sales challenges.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0031",
+      "anchor": "SBP-101-L05#02",
+      "text": "Architecture patterns can inform feasibility and delivery. If DITL shows that a use case depends on several custom connectors, a post-sales pattern may shape the effort estimate and the handoff plan. But an architecture pattern does not replace customer discovery or executive alignment. A connector pattern explains how something can be built. The Sales Blueprint explains why it matters to a specific team, how their work changes, and how success will be measured. Boundary Do not present architecture diagrams as proof of value. This accreditation does not replace technical architecture or connec",
+      "source_ids": [
+        "S02",
+        "S51",
+        "S54"
+      ],
+      "locator": "How they relate",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0032",
+      "anchor": "SBP-101-L05#03",
+      "text": "The two artifacts share a word but answer different questions. Keep them separate in your notes and your scope. Sales Blueprint Customer Blueprint Framework Should the customer invest, and where? How will the solution be built and run? Use cases, workflows, value, executive decision Architecture, data sources, governance, rollout Pre-sale, led by the account team Delivery planning, led by technical owners",
+      "source_ids": [
+        "S02",
+        "S51",
+        "S54"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0033",
+      "anchor": "SBP-101-L05#04",
+      "text": "Classify each item as a Sales Blueprint output or an adjacent technical-delivery asset: a prioritized use case list, an implementation reference architecture, and an executive value readout.",
+      "source_ids": [
+        "S02",
+        "S51",
+        "S54"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0034",
+      "anchor": "SBP-101-L05#05",
+      "text": "Prioritized use case list: Sales Blueprint output (from Visioning). Executive value readout: Sales Blueprint output (from Executive Validation). Implementation reference architecture: An adjacent technical-delivery asset. It may be linked in the handoff when it informs feasibility, but it is not evidence that the customer will get value.",
+      "source_ids": [
+        "S02",
+        "S51",
+        "S54"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0035",
+      "anchor": "SBP-101-L06#00",
+      "text": "A Blueprint is judged by the decision it enables, not by the number of meetings held. Use the checklist below before any executive readout. This course asks you to produce these outputs and show the evidence behind them.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S14",
+        "S54",
+        "S55"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0036",
+      "anchor": "SBP-101-L06#01",
+      "text": "A documented outcome hypothesis, tied to a named business priority and a business owner. Prioritized workflows, with the rationale for impact and effort. Current-state and future-state workflow maps for each prioritized use case. Transparent value assumptions, labeled by evidence type, with risk adjustments. Success criteria and a plan for the baseline, meaning how and when the \"before\" will be measured. A recommended validation path that is the lightest option able to answer the customer's open questions. An agreed next decision, with owners and dates in a mutual action plan.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S14"
+      ],
+      "locator": "What a credible Blueprint contains",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S14",
+      "excerpt": "Current vs. Future workflows documented for prioritized use cases / Meeting objectives and success criteria defined",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0037",
+      "anchor": "SBP-101-L06#02",
+      "text": "Pre-sales value is only credible if there is a measurable path to prove it later. Every claim should name the evidence that will validate it. Survey data alone is directional. Corroborate it with system data or product telemetry where you can. A missing baseline is an action to resolve, not a number to invent. Audit habit Before the executive readout, check that every top use case has a business owner, its data dependencies, a baseline plan, and a value rationale. Treat any gap as an open action with an owner.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Evidence standards",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "If you don't know the \"before,\" the \"after\" is meaningless. / Every pre-sales claim must identify the evidence source that will validate it.",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0038",
+      "anchor": "SBP-101-L06#03",
+      "text": "This preview teaches and assesses the outputs above using fictional scenarios. It requires evidence, not attendance alone: each module ends with a check, and the practical is scored by a qualified human assessor. The proposed credential name, AI Sales Blueprinting Specialist (AISBS), and its pass rules are instructional-design proposals. They are not approved Glean policy, and the program owner must confirm them before release.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S14",
+        "S54",
+        "S55"
+      ],
+      "locator": "Scope of this course",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0039",
+      "anchor": "SBP-101-L06#04",
+      "text": "A credible Blueprint holds up when someone who wasn't in the room reads it. Use these four checks before any readout. Agreed priorities Ranked with named business owners Real workflows Mapped from interviews, not assumptions Labeled value Ranges, assumptions, and evidence levels A decision Executive commitment and a defined next step",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S14",
+        "S54",
+        "S55"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0040",
+      "anchor": "SBP-101-L06#05",
+      "text": "A colleague's draft for an executive readout contains only a demo deck and a headline: \"Projected savings: $2M per year.\" Audit it. What would you return, and what must be added?",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S14",
+        "S54",
+        "S55"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0041",
+      "anchor": "SBP-101-L06#06",
+      "text": "Return it for completion. A demo alone is not a business case, and the savings headline has no stated assumptions, evidence, or owner. Add: The prioritized workflows, with current-state and future-state evidence from DITL. Named business and technical owners. The value model with each assumption labeled by evidence type, plus a risk adjustment. A measurement plan, including the baseline. The sponsor decision being requested, the recommended validation path, and the mutual action plan.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S14",
+        "S54",
+        "S55"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0042",
+      "anchor": "SBP-101-S999",
+      "text": "Review your artifacts and proceed to the required assessment or capstone submission.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S06",
+        "S26"
+      ],
+      "locator": "Assessment design; S55/S56 build framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0043",
+      "anchor": "SBP-101-GLOSSARY",
+      "text": "Course glossary",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S22",
+        "S26",
+        "S28",
+        "S34",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S41",
+        "S45",
+        "S55",
+        "S56",
+        "S61"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0044",
+      "anchor": "SBP-101-Q001",
+      "text": "Blueprint is a structured value-led decision process, not a deployment entitlement, qualification replacement or guarantee.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S06"
+      ],
+      "locator": "Blueprint Consultation – What & Why; Why the Blueprint Consultation",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0045",
+      "anchor": "SBP-101-Q002",
+      "text": "The three named steps are Visioning, DITL and Executive Validation, preceded by preparation and followed by an agreed validation path.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S26"
+      ],
+      "locator": "Process overview; AI Transformation Made Simple",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0046",
+      "anchor": "SBP-101-Q003",
+      "text": "An outcome describes business change; meetings, ideas and connectors are activities or enablers unless linked to that change.",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S13"
+      ],
+      "locator": "Business outcomes → use cases → workflows → data → success metrics",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0047",
+      "anchor": "SBP-101-Q004",
+      "text": "Partner expertise improves relevance, but does not override feasibility, approval or contracting boundaries.",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S26"
+      ],
+      "locator": "Partner engagement phases; RACI Snapshot",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-0048",
+      "anchor": "SBP-101-Q005",
+      "text": "The sales process may link to architecture patterns but must establish customer-specific purpose, evidence and decisions.",
+      "source_ids": [
+        "S02",
+        "S51",
+        "S54"
+      ],
+      "locator": "What & Why; Customer Blueprint Framework introduction",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0049",
+      "anchor": "SBP-101-Q006",
+      "text": "Decision readiness requires traceable customer evidence and commitments, not presentation quality alone.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S54",
+        "S55"
+      ],
+      "locator": "Blueprint outputs; discovery handoff artifacts; program design synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0050",
+      "anchor": "SBP-101-Q007",
+      "text": "Blueprint determines the evaluation need; it does not grant approval or require a full pilot.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S54",
+        "S55"
+      ],
+      "locator": "Blueprint outputs; discovery handoff artifacts; program design synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0051",
+      "anchor": "SBP-101-Q008",
+      "text": "The name and course governance are design proposals, not evidence of approval or publication.",
+      "source_ids": [
+        "S54",
+        "S59"
+      ],
+      "locator": "Blueprint outputs; discovery handoff artifacts; program design synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "SBP-111-L06",
+  "lesson": "SBP-111-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Measure and expand responsibly",
+  "nav": "6. Measure and expand responsibly",
+  "objective": "Decide what to do when adoption rises but the business KPI does not move.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "After go-live, compare what was projected with what is emerging. Let observed outcomes, not the best-case pre-sales scenario, guide expansion."
+    },
+    {
+      "t": "h3",
+      "x": "The post-go-live review"
+    },
+    {
+      "t": "p",
+      "x": "A review at around 60 or 90 days can inspect:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Adoption:** who is using the workflow, and how often.",
+        "**Workflow quality:** whether answers are correct and trusted.",
+        "**System-of-record outcomes:** whether the business metric moved.",
+        "**Reallocation:** whether capacity was deliberately redeployed."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Then decide: remediate, scale the current use case, or move on to the next strategic priority."
+    },
+    {
+      "t": "h3",
+      "x": "Usage is not value"
+    },
+    {
+      "t": "p",
+      "x": "Early activity is not full financial ROI. Timing, evidence, and attribution determine what can be claimed. Before using a customer result in an external story, confirm the customer's permission and refresh the sources."
+    },
+    {
+      "t": "h3",
+      "x": "Measure three ways"
+    },
+    {
+      "t": "p",
+      "x": "Glean's example business value analysis describes three complementary measurement methods. User feedback comes from short surveys before and after, and across an evaluation. Product telemetry gives concrete usage data, including at a feature level. Stakeholder interviews give a deeper understanding of existing bottlenecks and where time saved is actually recaptured. Telemetry shows use. Only the interviews and the business's own systems show whether the outcome moved."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Three ways to measure value",
+      "alt": "Three cards naming complementary measurement methods: user feedback through short pre- and post-surveys, product telemetry for concrete usage data, and stakeholder interviews to learn where saved time is actually recaptured.",
+      "caption": "",
+      "items": [
+        {
+          "label": "User feedback",
+          "detail": "Short pre- and post-surveys",
+          "emph": false
+        },
+        {
+          "label": "Product telemetry",
+          "detail": "Usage, including at a feature level",
+          "emph": false
+        },
+        {
+          "label": "Stakeholder interviews",
+          "detail": "Where saved time is actually recaptured",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Adoption is rising, but the business KPI hasn't moved. What should happen?"
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Investigate before claiming value. Check:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Workflow fit: does the new flow match how the work is done?",
+        "Data coverage and answer quality.",
+        "Measurement lag.",
+        "Whether the freed capacity was actually reallocated."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Then update the hypothesis and the plan. Don't treat usage as proof of realized financial value."
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 266,
+  "eyebrow": "Lesson 6 · about 5 min",
+  "claims": [
+    "C-0548",
+    "C-0549",
+    "C-0550",
+    "C-0551",
+    "C-0552",
+    "C-0553"
+  ],
+  "sources": [
+    "S05",
+    "S13",
+    "S28",
+    "S72"
+  ]
+}

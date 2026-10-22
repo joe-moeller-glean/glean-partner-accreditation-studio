@@ -1,0 +1,150 @@
+{
+  "id": "SBP-113-L05",
+  "lesson": "SBP-113-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Correct the common anti-patterns",
+  "nav": "5. Correct the common anti-patterns",
+  "objective": "Diagnose a workshop ending with twenty agent ideas and no next steps.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Most failed Blueprints fail in predictable ways. Recognize the pattern early and correct course."
+    },
+    {
+      "t": "h3",
+      "x": "Common pitfalls"
+    },
+    {
+      "t": "table",
+      "caption": "Common pitfalls and corrections",
+      "head": [
+        "Pitfall",
+        "Correction"
+      ],
+      "rows": [
+        [
+          "Product tour instead of discovery",
+          "Lead with the customer's workflows and outcomes"
+        ],
+        [
+          "A long wishlist, no priorities",
+          "Score, rank, and pick a small set of heroes"
+        ],
+        [
+          "Generic DITL steps",
+          "Interview real participants about real recent cases"
+        ],
+        [
+          "Benchmarks presented as proof",
+          "Label the evidence; measure the customer's baseline"
+        ],
+        [
+          "Readout with no decision-maker",
+          "Treat it as preparation; secure the sponsor separately"
+        ],
+        [
+          "A pilot as the default",
+          "Choose the lightest sufficient validation"
+        ],
+        [
+          "The value case lost at handoff",
+          "Metric cards, owners, and an accepted handoff"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Diagnose before you fix"
+    },
+    {
+      "t": "p",
+      "x": "For each pitfall, ask what evidence or decision is missing, who owns it, and what the smallest corrective step is."
+    },
+    {
+      "t": "h3",
+      "x": "Pitch it with confidence"
+    },
+    {
+      "t": "p",
+      "x": "Glean's onboarding training highlights a pitfall that happens before the Blueprint starts. Teams that lack confidence in the process present it as a burden, and customers decline. The fix is to position it consultatively, as a structured way to find where AI will matter most, and to show what the customer gets at the end."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Common Blueprint pitfalls",
+      "alt": "Six cards naming common Blueprint pitfalls: pitching the Blueprint apologetically, Visioning without prioritization, DITL skipped before a trial, value claimed without baselines, a readout with no decision, and a pilot with no success criteria.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Apologetic pitch",
+          "detail": "Positioned as a burden",
+          "emph": false
+        },
+        {
+          "label": "Endless Visioning",
+          "detail": "Ideas, but no priorities",
+          "emph": false
+        },
+        {
+          "label": "DITL skipped",
+          "detail": "Straight to a trial",
+          "emph": false
+        },
+        {
+          "label": "Value without baselines",
+          "detail": "Numbers no one owns",
+          "emph": false
+        },
+        {
+          "label": "Readout without a decision",
+          "detail": "A presentation, not a meeting",
+          "emph": false
+        },
+        {
+          "label": "Pilot without criteria",
+          "detail": "A test with no path to a decision",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Diagnose this situation: three Visioning sessions have produced 40 use cases, but no business owner has prioritized any of them."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "This is the wishlist pitfall. Run a scoring session with the business owners to select a small set of hero use cases. Each hero needs an owner, an outcome, and a target, and the rest stay in a backlog."
+    },
+    {
+      "t": "p",
+      "x": "Confirm the hero choices with the sponsor before scheduling DITL interviews."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 303,
+  "eyebrow": "Lesson 5 · about 6 min",
+  "claims": [
+    "C-0637",
+    "C-0638",
+    "C-0639",
+    "C-0640",
+    "C-0641",
+    "C-0642"
+  ],
+  "sources": [
+    "S02",
+    "S05",
+    "S13",
+    "S68",
+    "S69"
+  ]
+}

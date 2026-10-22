@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-109",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-109-Q001",
+      "objective_id": "SBP-109-L01",
+      "module_id": "SBP-109",
+      "stem": "When does the checklist recommend completing Executive Validation pre-work?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One to three business days before the meeting."
+        },
+        {
+          "id": "b",
+          "text": "Only after a full pilot is finished."
+        },
+        {
+          "id": "c",
+          "text": "Never; all preparation should be live."
+        },
+        {
+          "id": "d",
+          "text": "Exactly eighteen months in advance."
+        }
+      ],
+      "claims": [
+        "C-0456"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q002",
+      "objective_id": "SBP-109-L02",
+      "module_id": "SBP-109",
+      "stem": "Only the champion attends the executive readout. What should the team do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Assume the champion has signature authority."
+        },
+        {
+          "id": "b",
+          "text": "Start a pilot without further checks."
+        },
+        {
+          "id": "c",
+          "text": "Record Economic Buyer approval anyway."
+        },
+        {
+          "id": "d",
+          "text": "Treat it as preparation and obtain the actual sponsor decision separately."
+        }
+      ],
+      "claims": [
+        "C-0457"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q003",
+      "objective_id": "SBP-109-L03",
+      "module_id": "SBP-109",
+      "stem": "How much initial Glean repositioning does the PDF suggest at most?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The entire 60-minute session."
+        },
+        {
+          "id": "b",
+          "text": "At least 45 minutes before discussing workflows."
+        },
+        {
+          "id": "c",
+          "text": "About five minutes, especially for a new executive audience."
+        },
+        {
+          "id": "d",
+          "text": "No customer context at all."
+        }
+      ],
+      "claims": [
+        "C-0458"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q004",
+      "objective_id": "SBP-109-L04",
+      "module_id": "SBP-109",
+      "stem": "A CFO says the estimate is not realized savings. What is the best answer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Remove the caveats to make the deck persuasive."
+        },
+        {
+          "id": "b",
+          "text": "Blame the customer for asking about evidence."
+        },
+        {
+          "id": "c",
+          "text": "Insist every presale model is a confirmed result."
+        },
+        {
+          "id": "d",
+          "text": "Agree, show the labeled assumptions and define what evidence will validate the case."
+        }
+      ],
+      "claims": [
+        "C-0459"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q005",
+      "objective_id": "SBP-109-L05",
+      "module_id": "SBP-109",
+      "stem": "The sponsor wants proof of one workflow. What should guide the validation choice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The lightest sufficient event that answers the unresolved buying question."
+        },
+        {
+          "id": "b",
+          "text": "An environment selected without security or data review."
+        },
+        {
+          "id": "c",
+          "text": "The option with the most connectors regardless of need."
+        },
+        {
+          "id": "d",
+          "text": "Always the longest available pilot."
+        }
+      ],
+      "claims": [
+        "C-0460"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q006",
+      "objective_id": "SBP-109-L06",
+      "module_id": "SBP-109",
+      "stem": "What belongs in same-day to 24-hour follow-up?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only a thank-you GIF."
+        },
+        {
+          "id": "b",
+          "text": "A statement that security is complete without review."
+        },
+        {
+          "id": "c",
+          "text": "Decisions, success criteria, validation path, owners, timeline and updated records."
+        },
+        {
+          "id": "d",
+          "text": "Internal account scores sent broadly to the customer."
+        }
+      ],
+      "claims": [
+        "C-0461"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q007",
+      "objective_id": "SBP-109-L06",
+      "module_id": "SBP-109",
+      "stem": "What should an executive success criterion include?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A defined metric/quality threshold, owner, evidence source and timeframe."
+        },
+        {
+          "id": "b",
+          "text": "Only the vendor's enthusiasm."
+        },
+        {
+          "id": "c",
+          "text": "Only the word successful."
+        },
+        {
+          "id": "d",
+          "text": "A retrospective target chosen after seeing results."
+        }
+      ],
+      "claims": [
+        "C-0462"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q008",
+      "objective_id": "SBP-109-L06",
+      "module_id": "SBP-109",
+      "stem": "The sponsor accepts value but not the permission-sensitive future state. What should be recorded?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Conditional acceptance plus a scoped technical validation dependency and owner."
+        },
+        {
+          "id": "b",
+          "text": "A claim that permissions no longer matter."
+        },
+        {
+          "id": "c",
+          "text": "Unconditional production approval."
+        },
+        {
+          "id": "d",
+          "text": "A requirement to abandon all discovery evidence."
+        }
+      ],
+      "claims": [
+        "C-0463"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "SBP-101-L01",
+  "lesson": "SBP-101-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Purpose and customer promise",
+  "nav": "1. Purpose and customer promise",
+  "objective": "Write a two-sentence customer explanation without product jargon.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Most enterprises have already experimented with AI. Many have run assistants, chatbots, or internal pilots. Far fewer can point to a result their finance team accepts: more revenue, lower cost, or lower risk for a specific part of the business. That gap is why the Blueprint Consultation exists."
+    },
+    {
+      "t": "h3",
+      "x": "Why the Blueprint Consultation exists"
+    },
+    {
+      "t": "p",
+      "x": "The Glean playbook describes the market plainly: the time of experimentation is ending. Buyers increasingly expect a new AI investment to prove the return they were promised, not just impress in a demo. \"Pilot purgatory\" is the failure mode you are trying to avoid: a long trial with no agreed success measure, no executive owner, and no decision at the end."
+    },
+    {
+      "t": "p",
+      "x": "The Blueprint Consultation lets the account team partner with the customer early, before anyone discusses a pilot. Together you find the strongest use cases and work out how to show their value quickly."
+    },
+    {
+      "t": "h3",
+      "x": "What it is"
+    },
+    {
+      "t": "p",
+      "x": "The Blueprint Consultation is a structured series of customer conversations. It creates a defined process for evaluating AI, identifies high-value workflows with the people who do the work, and builds alignment with an executive sponsor. The goal is to move to a pilot only when one is truly needed."
+    },
+    {
+      "t": "p",
+      "x": "The playbook frames three jobs for the process:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Cut through ambiguity.** Anchor each use case to a business outcome, prioritize by impact and effort, set clear success metrics, and confirm executive sponsorship with mutual action plan checkpoints.",
+        "**Validate value fast.** Quantify value from what you learn in Day-in-the-Life sessions, and plan for the change management that drives adoption.",
+        "**Create budget-ready clarity.** Show where value comes from, including tool-consolidation offsets where they genuinely apply, in a form that fits the customer's governance and security needs."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "What it is not"
+    },
+    {
+      "t": "p",
+      "x": "It is not a free pilot, a general product tour, or an open-ended brainstorm. A compelling demo is not a validated business case. The deliverable is a decision-ready plan: prioritized workflows, an evidence-labeled value case, and an agreed way to validate. It is never a promise of guaranteed savings."
+    },
+    {
+      "t": "callout",
+      "label": "In plain language",
+      "x": "\"We will agree the outcomes that matter to you, look at how the work happens today, and bring leadership an evidence-labeled value case and a recommendation for how to validate it.\""
+    },
+    {
+      "t": "h3",
+      "x": "How to position it"
+    },
+    {
+      "t": "p",
+      "x": "Glean's internal Blueprint training is candid about a common mistake. Sellers who are uncomfortable with the process pitch it apologetically, and the customer hears \"a lot of work.\" The stronger framing is consultative. The Blueprint is a structured analysis of where AI can change real work, run with the customer's own teams. Most business leaders can't easily do that analysis across their departments themselves."
+    },
+    {
+      "t": "p",
+      "x": "The same training describes the Blueprint as a way to \"slow down to speed up.\" Teams that jump straight to a pilot often stall later on scope, value, or sponsorship. A few focused sessions up front make the later decision faster and easier to defend."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Two ways to start an AI evaluation",
+      "alt": "A comparison of a product-led start with a Blueprint-led start. The product-led start leads with features, a generic demo, and a trial request. The Blueprint-led start leads with business priorities, real workflows, measured value, and an executive decision.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Product-led start",
+          "b": "Blueprint-led start",
+          "emph": false
+        },
+        {
+          "a": "Leads with features and a generic demo",
+          "b": "Leads with the customer's strategic priorities",
+          "emph": false
+        },
+        {
+          "a": "Use cases guessed by the seller",
+          "b": "Use cases ranked with the business owners",
+          "emph": false
+        },
+        {
+          "a": "Value claimed from benchmarks",
+          "b": "Value estimated from the customer's own workflows",
+          "emph": false
+        },
+        {
+          "a": "Ends with a trial request",
+          "b": "Ends with an executive decision and a validation path",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A champion asks, \"What is this Blueprint thing, and why should my team give you time for it?\" Write a two-sentence answer without product jargon. Then add one sentence on what remains uncertain at this point."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"We will identify and prioritize the workflows most tied to your business goals, then map how that work happens today and how it could work in future, with the people who do it. Together we will agree success measures and the lightest validation needed for an investment decision.\""
+    },
+    {
+      "t": "p",
+      "x": "Uncertainty to name: until you have spoken with the business owners and end users, the value is a hypothesis, not a result."
+    }
+  ],
+  "minutes": 7,
+  "expanded": true,
+  "words": 644,
+  "eyebrow": "Lesson 1 · about 7 min",
+  "claims": [
+    "C-0002",
+    "C-0003",
+    "C-0004",
+    "C-0005",
+    "C-0006",
+    "C-0007",
+    "C-0008"
+  ],
+  "sources": [
+    "S02",
+    "S04",
+    "S06",
+    "S68",
+    "S69"
+  ]
+}

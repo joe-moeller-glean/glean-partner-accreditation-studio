@@ -1,0 +1,114 @@
+{
+  "id": "SBP-103-L04",
+  "lesson": "SBP-103-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Business Value Consulting engagement",
+  "nav": "4. Business Value Consulting engagement",
+  "objective": "Choose support for a simple two-use-case estimate versus a complex multi-BU case.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Not every value case needs a specialist. Match the depth of value support to the opportunity's complexity, decision timing, data availability, and what the sponsor needs."
+    },
+    {
+      "t": "h3",
+      "x": "Value support comes in levels"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Value Playbook sets out tiered engagement levels that match the intensity of value work to the deal. At the light end, AE and SE teams use playbook materials, standard talking points, and the self-serve calculator. At the deeper end, a Business Value Consultant builds a customer-specific hypothesis, runs discovery, models value, and produces an executive business case."
+    },
+    {
+      "t": "h3",
+      "x": "What a BVC engagement looks like"
+    },
+    {
+      "t": "p",
+      "x": "Glean's BVC enablement describes a value engagement as a sequence: triage and qualify the request, frame the hypothesis, run discovery, pull the evidence, build the model, build and quality-check the readout, then present it and track realization. A BVC engagement begins with an AE and SE intake request. It is qualified against the tiering model before scope, deliverables, and dates are agreed."
+    },
+    {
+      "t": "h3",
+      "x": "Choosing the right level"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Self-serve** is enough for a straightforward, directional estimate on one or two use cases with available inputs.",
+        "**Expert review** is worth requesting for multi-department attribution, complex cost or revenue models, or a high-stakes executive business case."
+      ]
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't promise customers a dedicated value consultant. Engagement thresholds and capacity are internal routing details, not customer entitlements. Use the live intake path and agree ownership and timing before committing externally."
+    },
+    {
+      "t": "h3",
+      "x": "Match value effort to the deal"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Value Playbook gives a practical timing check: a full business case takes two to three weeks. If the decision is next week, go lightweight. The playbook also asks whether there is at least one workflow with a measurable before and after. If the value is purely qualitative, a business case won't strengthen the deal."
+    },
+    {
+      "t": "figure",
+      "kind": "stack",
+      "title": "Levels of value support",
+      "alt": "Three stacked levels of value support, from lightest to heaviest: self-serve estimates using the approved calculator, expert review of an account team's model, and a full Business Value Consulting engagement for complex, high-stakes cases.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Self-serve",
+          "detail": "Account team builds the estimate with approved tools",
+          "emph": false
+        },
+        {
+          "label": "Expert review",
+          "detail": "A value specialist checks the model and story",
+          "emph": false
+        },
+        {
+          "label": "Full BVC engagement",
+          "detail": "Complex, high-stakes cases; about two to three weeks",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Choose value support for two situations: a simple two-use-case estimate for one support team, and a multi-business-unit case that the CFO will review."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Simple case:** use the standard calculator, with the AE and SE reviewing the assumptions and evidence labels.",
+        "**Multi-business-unit case:** submit a BVC intake request for scoping and review. Agree who owns the model and the timing before telling the customer when the business case will be ready."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 390,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0120",
+    "C-0121",
+    "C-0122",
+    "C-0123",
+    "C-0124",
+    "C-0125",
+    "C-0126"
+  ],
+  "sources": [
+    "S13",
+    "S28"
+  ]
+}

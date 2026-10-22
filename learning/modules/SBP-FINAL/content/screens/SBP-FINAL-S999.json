@@ -1,0 +1,18 @@
+{
+  "id": "SBP-FINAL-S999",
+  "lesson": "check",
+  "type": "quiz",
+  "eyebrow": "Final exam",
+  "title": "Final exam",
+  "nav": "Final exam",
+  "body": "",
+  "wrap": "",
+  "claims": [
+    "C-0711"
+  ],
+  "sources": [
+    "S56",
+    "S54"
+  ],
+  "required": true
+}

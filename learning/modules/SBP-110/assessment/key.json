@@ -1,0 +1,54 @@
+{
+  "module_id": "SBP-110",
+  "key": {
+    "SBP-110-Q001": {
+      "answer": "b",
+      "rationale": {
+        "correct": "Correct. The sources favor lighter validation but the actual choice depends on what must be proven.",
+        "incorrect": "Review the relevant lesson and evidence. The sources favor lighter validation but the actual choice depends on what must be proven."
+      }
+    },
+    "SBP-110-Q002": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Environment descriptions and commercial rules change; old decks should not become evergreen policy.",
+        "incorrect": "Review the relevant lesson and evidence. Environment descriptions and commercial rules change; old decks should not become evergreen policy."
+      }
+    },
+    "SBP-110-Q003": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. A controlled, scoped and dry-run experience is more useful and safer than open experimentation.",
+        "incorrect": "Review the relevant lesson and evidence. A controlled, scoped and dry-run experience is more useful and safer than open experimentation."
+      }
+    },
+    "SBP-110-Q004": {
+      "answer": "b",
+      "rationale": {
+        "correct": "Correct. A pilot requires a qualified decision context, sponsor path, scope and evidence need.",
+        "incorrect": "Review the relevant lesson and evidence. A pilot requires a qualified decision context, sponsor path, scope and evidence need."
+      }
+    },
+    "SBP-110-Q005": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. The retrieved guide distinguishes score, approval and order-form requirements; no score alone authorizes a pilot.",
+        "incorrect": "Review the relevant lesson and evidence. The retrieved guide distinguishes score, approval and order-form requirements; no score alone authorizes a pilot."
+      }
+    },
+    "SBP-110-Q006": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Stop rules protect time, scope and risk and keep the buying decision explicit.",
+        "incorrect": "Review the relevant lesson and evidence. Stop rules protect time, scope and risk and keep the buying decision explicit."
+      }
+    },
+    "SBP-110-Q008": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. Unresolved feasibility should change scope or sequencing, not be concealed.",
+        "incorrect": "Review the relevant lesson and evidence. Unresolved feasibility should change scope or sequencing, not be concealed."
+      }
+    }
+  }
+}

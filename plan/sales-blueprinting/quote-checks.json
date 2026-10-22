@@ -1,0 +1,776 @@
+{
+  "checked": "2026-10-21",
+  "method": "whitespace- and typography-normalized exact substring",
+  "quotes": {
+    "a0b2e4c85f2aaf93": {
+      "lesson": "SBP-101-L01",
+      "section": "Why the Blueprint Consultation exists",
+      "source": "S02",
+      "text": "The time of experimentation is ending.",
+      "found": true
+    },
+    "ac91d7f70d8581df": {
+      "lesson": "SBP-101-L01",
+      "section": "Why the Blueprint Consultation exists",
+      "source": "S02",
+      "text": "Many companies have tested, experimented with, or even launched AI, but have not seen results directly tied to Return on Investment in the form of increased revenue, reduced costs, or reduced risk for a part of the business.",
+      "found": true
+    },
+    "83f39ec2ba427234": {
+      "lesson": "SBP-101-L01",
+      "section": "What it is",
+      "source": "S02",
+      "text": "The Blueprint Consultation is a series of meetings that happen with the client to create a defined process around evaluating and testing AI, helping to identify high- value workflows/ use cases with them, and generating alignment with the Executive Sponsor, all with the goal of only moving to a pilot when absolutely essential.",
+      "found": true
+    },
+    "d0b29c64d7333b2f": {
+      "lesson": "SBP-101-L01",
+      "section": "How to position it",
+      "source": "S68",
+      "text": "This will help us slow down to speed up.",
+      "found": true
+    },
+    "e3c56dc9fcdb979c": {
+      "lesson": "SBP-101-L02",
+      "section": "The three steps",
+      "source": "S05",
+      "text": "Phase 1: Visioning Workshop",
+      "found": true
+    },
+    "7373da3b906ff56a": {
+      "lesson": "SBP-101-L02",
+      "section": "The three steps",
+      "source": "S07",
+      "text": "Schedule a focused, 60-minute standalone visioning session ( do not combine with Glean intro demos or other meetings ).",
+      "found": true
+    },
+    "dd8e1f56903fb2a9": {
+      "lesson": "SBP-101-L02",
+      "section": "The three steps",
+      "source": "S05",
+      "text": "Phase 2: Day-in-the-Life (DITL) / Use Case Workshop",
+      "found": true
+    },
+    "6fb153ca457882ec": {
+      "lesson": "SBP-101-L02",
+      "section": "The three steps",
+      "source": "S05",
+      "text": "Phase 3: Business Value Analysis / Executive Readout",
+      "found": true
+    },
+    "6136847786f6e814": {
+      "lesson": "SBP-101-L02",
+      "section": "Before and after the steps",
+      "source": "S04",
+      "text": "Before starting, you need: EB alignment , a value hypothesis, and identified PBOs aligned to the company/EB’s objective & near-term priority.",
+      "found": true
+    },
+    "82340114d6724068": {
+      "lesson": "SBP-101-L02",
+      "section": "Three questions, three steps",
+      "source": "S68",
+      "text": "So each of these steps is going to answer a different question.",
+      "found": true
+    },
+    "048743aebde8f43d": {
+      "lesson": "SBP-106-L01",
+      "section": "The chain",
+      "source": "S05",
+      "text": "A simple discovery framework: business outcomes → use cases → workflows → data → success metrics.",
+      "found": true
+    },
+    "89a729c83b8a9ba7": {
+      "lesson": "SBP-101-L03",
+      "section": "Connect to cost, revenue, or risk",
+      "source": "S13",
+      "text": "Time saved is an input, not an outcome.",
+      "found": true
+    },
+    "d639d108f19c672a": {
+      "lesson": "SBP-101-L03",
+      "section": "Pass the \"who cares?\" test",
+      "source": "S71",
+      "text": "value starts at day one.",
+      "found": true
+    },
+    "b0b5219c7c8d12f9": {
+      "lesson": "SBP-103-L02",
+      "section": "Three models",
+      "source": "S05",
+      "text": "Partner owns day-to-day agent builds and optimization, while Glean provides patterns, technical guidance, and product support.",
+      "found": true
+    },
+    "4cf738fbbd0ea20d": {
+      "lesson": "SBP-101-L04",
+      "section": "Who does what across the lifecycle",
+      "source": "S05",
+      "text": "Glean AE/SE: Accountable for renewal and expansion",
+      "found": true
+    },
+    "14e1b4cad4ff71dc": {
+      "lesson": "SBP-101-L05",
+      "section": "Two kinds of blueprint",
+      "source": "S51",
+      "text": "The Customer Blueprint Framework provides SA-led, opinionated patterns for solving complex post-sales challenges.",
+      "found": true
+    },
+    "adeee5735524a669": {
+      "lesson": "SBP-101-L06",
+      "section": "What a credible Blueprint contains",
+      "source": "S14",
+      "text": "Current vs. Future workflows documented for prioritized use cases",
+      "found": true
+    },
+    "1c94111b211cdf52": {
+      "lesson": "SBP-101-L06",
+      "section": "What a credible Blueprint contains",
+      "source": "S14",
+      "text": "Meeting objectives and success criteria defined",
+      "found": true
+    },
+    "57e9f5100bab6e31": {
+      "lesson": "SBP-102-L05",
+      "section": "Progress means a better-informed decision",
+      "source": "S13",
+      "text": "If you don't know the \"before,\" the \"after\" is meaningless.",
+      "found": true
+    },
+    "c0a311905e4bb196": {
+      "lesson": "SBP-101-L06",
+      "section": "Evidence standards",
+      "source": "S13",
+      "text": "Every pre-sales claim must identify the evidence source that will validate it.",
+      "found": true
+    },
+    "2fba47ea47e1432b": {
+      "lesson": "SBP-102-L01",
+      "section": "Where the Blueprint sits",
+      "source": "S11",
+      "text": "S2 Blueprint (Use Case Mapping) S3 Executive Alignment S4 Technical & Security Alignment S5 Validation Event S6 Business Value Justification S7 Procurement",
+      "found": true
+    },
+    "c9bd165d64fb707b": {
+      "lesson": "SBP-102-L01",
+      "section": "Where the Blueprint sits",
+      "source": "S11",
+      "text": "Stage 2 begins after a successful NBM confirms the business problem, champion path, and commitment to a formal evaluation.",
+      "found": true
+    },
+    "800f915b882a757a": {
+      "lesson": "SBP-102-L02",
+      "section": "What Stage 2 should produce",
+      "source": "S11",
+      "text": "Use case workshops + visioning to lock scope, define Positive Business Outcomes (PBOs), and align on timeline and decision criteria.",
+      "found": true
+    },
+    "f2f0f494ea0bfe8a": {
+      "lesson": "SBP-102-L03",
+      "section": "What the executive conversation does",
+      "source": "S11",
+      "text": "Engage executive sponsors and the economic buyer; align on the commercial path.",
+      "found": true
+    },
+    "95cda40847b179f6": {
+      "lesson": "SBP-102-L03",
+      "section": "What the executive conversation does",
+      "source": "S14",
+      "text": "Confirm success criteria and Executive Sponsorship",
+      "found": true
+    },
+    "ab0d4204be2e58d9": {
+      "lesson": "SBP-102-L03",
+      "section": "Who counts as the executive",
+      "source": "S74",
+      "text": "someone with some form of power above our champion can say, yes",
+      "found": true
+    },
+    "034a5f4fe373695c": {
+      "lesson": "SBP-102-L04",
+      "section": "The elements and where Blueprint evidence comes from",
+      "source": "S17",
+      "text": "Quantifiable measures that indicate the success of the solution and the business.",
+      "found": true
+    },
+    "cd7299c9eb5cbe31": {
+      "lesson": "SBP-102-L04",
+      "section": "The elements and where Blueprint evidence comes from",
+      "source": "S17",
+      "text": "The Decision Criteria is what the decision will be based on and the Decision Process is how the decision will be made.",
+      "found": true
+    },
+    "099971f37ea82a03": {
+      "lesson": "SBP-113-L03",
+      "section": "Give the champion a story they can carry",
+      "source": "S65",
+      "text": "Am I giving them a strong enough story to go sell this internally?",
+      "found": true
+    },
+    "432f7f7970c644d8": {
+      "lesson": "SBP-102-L06",
+      "section": "Three streams after the value decision",
+      "source": "S11",
+      "text": "Complete security/IT reviews and evaluation planning so there are no late‑stage surprises.",
+      "found": true
+    },
+    "adb3cfbc31e3bd4c": {
+      "lesson": "SBP-102-L06",
+      "section": "What a pilot requires",
+      "source": "S16",
+      "text": "Technical Use cases and test plan documented and mutually agreed upon",
+      "found": true
+    },
+    "08c41f0c1efea626": {
+      "lesson": "SBP-103-L01",
+      "section": "Who normally does what",
+      "source": "S03",
+      "text": "AE should lead this conversation with SE adding technical questions and support",
+      "found": true
+    },
+    "616ba92427750f49": {
+      "lesson": "SBP-103-L01",
+      "section": "Who normally does what",
+      "source": "S14",
+      "text": "Enable a joint AE/SE run‑of‑show with decision‑makers present.",
+      "found": true
+    },
+    "b42007e17bccd1a5": {
+      "lesson": "SBP-103-L03",
+      "section": "The voices you need",
+      "source": "S07",
+      "text": "Finalize relevant stakeholder list (representing all necessary lines of business).",
+      "found": true
+    },
+    "da176161d51a4687": {
+      "lesson": "SBP-103-L04",
+      "section": "Value support comes in levels",
+      "source": "S13",
+      "text": "framework to match value work intensity to deal characteristics.",
+      "found": true
+    },
+    "ab2d784c1f8f3122": {
+      "lesson": "SBP-103-L04",
+      "section": "What a BVC engagement looks like",
+      "source": "S28",
+      "text": "Take the AE/SE intake; qualify it against the tiering model",
+      "found": true
+    },
+    "e3db45c9a0126805": {
+      "lesson": "SBP-103-L04",
+      "section": "Match value effort to the deal",
+      "source": "S13",
+      "text": "A full business case takes 2-3 weeks.",
+      "found": true
+    },
+    "05f57a6324ecd36d": {
+      "lesson": "SBP-111-L04",
+      "section": "Why partner-led services",
+      "source": "S43",
+      "text": "Partners own outcome delivery, rollout enablement, and change management.",
+      "found": true
+    },
+    "376799f3c87a4693": {
+      "lesson": "SBP-103-L05",
+      "section": "Scope before delivery",
+      "source": "S44",
+      "text": "must be documented in a written amendment or change order signed by the applicable parties.",
+      "found": true
+    },
+    "6248db1e656049f6": {
+      "lesson": "SBP-104-L01",
+      "section": "Fit the narrative to the organization",
+      "source": "S66",
+      "text": "Adapt your value narrative to your prospect's organizational life cycle for maximum relevance.",
+      "found": true
+    },
+    "813c00476049e5d4": {
+      "lesson": "SBP-104-L02",
+      "section": "The three whys",
+      "source": "S04",
+      "text": "The output is a value hypothesis identified pain, champions, and access to power within the",
+      "found": true
+    },
+    "e0bcddc395e6c147": {
+      "lesson": "SBP-104-L02",
+      "section": "The three whys",
+      "source": "S16",
+      "text": "Why Change? – What changes if they do nothing?",
+      "found": true
+    },
+    "2cab148c32d9b4e2": {
+      "lesson": "SBP-104-L03",
+      "section": "From priority to outcome to metric",
+      "source": "S34",
+      "text": "DON'T use the same metrics for every persona.",
+      "found": true
+    },
+    "8a8649807d65d2cd": {
+      "lesson": "SBP-104-L04",
+      "section": "What to confirm",
+      "source": "S07",
+      "text": "Decline or reschedule if pre-work, survey responses, or executive sponsor alignment are missing.",
+      "found": true
+    },
+    "c4c8a712f29bef7b": {
+      "lesson": "SBP-104-L05",
+      "section": "What the invitation should say",
+      "source": "S08",
+      "text": "please complete the attached pre-work worksheet by [Due Date: 2 days before session]",
+      "found": true
+    },
+    "046a1e154e704a22": {
+      "lesson": "SBP-104-L05",
+      "section": "A 60-minute agenda",
+      "source": "S08",
+      "text": "Use Case Prioritization (15-20 min): Rank opportunities by business impact and effort",
+      "found": true
+    },
+    "562b9ab95e58ceb6": {
+      "lesson": "SBP-104-L06",
+      "section": "What to align on",
+      "source": "S07",
+      "text": "Reviews worksheet input, prior meeting notes, and aligns on session objectives and preparation with AE.",
+      "found": true
+    },
+    "8fb2f3931e76e2ea": {
+      "lesson": "SBP-105-L01",
+      "section": "Two starting points",
+      "source": "S02",
+      "text": "In some cases, you will need to run a mini visioning session with each department to better understand what their priority use",
+      "found": true
+    },
+    "0c11546a150037aa": {
+      "lesson": "SBP-105-L02",
+      "section": "A 60-minute working agenda",
+      "source": "S07",
+      "text": "Recap & Next Steps (5 min): Summarize priorities, assign action owners, confirm next steps for agent workshops or demos.",
+      "found": true
+    },
+    "e6bcccc3d6f67db5": {
+      "lesson": "SBP-200-L02",
+      "section": "The role-play",
+      "source": "S07",
+      "text": "Set an open, consultative, and strategic tone—avoid checklist-style or interrogative discovery.",
+      "found": true
+    },
+    "8d88d76b9a75a988": {
+      "lesson": "SBP-105-L03",
+      "section": "Ask about work, friction, and consequences",
+      "source": "S07",
+      "text": "Can you recall a recent workflow/process",
+      "found": true
+    },
+    "443f4526964c98eb": {
+      "lesson": "SBP-105-L04",
+      "section": "What each row captures",
+      "source": "S05",
+      "text": "Use Case Log: Use case name, persona/team, current workflow, pain, impact (H/M/L), effort (H/M/L), notes",
+      "found": true
+    },
+    "891d92c4bfa5b16f": {
+      "lesson": "SBP-105-L04",
+      "section": "Rate with evidence, not opinion",
+      "source": "S02",
+      "text": "Be sure to be realistic on Effort, and ask things like: How many connectors? How much historical data needs to be crawled?",
+      "found": true
+    },
+    "4997ef987df187b1": {
+      "lesson": "SBP-105-L05",
+      "section": "Use the impact/effort 2x2",
+      "source": "S02",
+      "text": "The result of the visioning should you will spend the majority of your be a list of prioritized use cases placed on the table",
+      "found": true
+    },
+    "1094db0929c3b68f": {
+      "lesson": "SBP-105-L05",
+      "section": "Turn a wishlist into choices",
+      "source": "S68",
+      "text": "So what this helps us avoid is treating every single use case as equally as important.",
+      "found": true
+    },
+    "b2d6d379c3e645d2": {
+      "lesson": "SBP-105-L06",
+      "section": "The recap",
+      "source": "S07",
+      "text": "Share session notes, prioritized use case table, and next steps (custom demos or deeper workshops) within 24 hours to all attendees.",
+      "found": true
+    },
+    "18d1c440eff45721": {
+      "lesson": "SBP-106-L02",
+      "section": "Ask about a real, recent example",
+      "source": "S05",
+      "text": "\"Day in the life\" of key personas; pain points, failure modes, and current workarounds; what \"good\" looks like 6–12 months out.",
+      "found": true
+    },
+    "81fedcc73589f65b": {
+      "lesson": "SBP-106-L02",
+      "section": "Four questions for every use case",
+      "source": "S13",
+      "text": "For every use case, answer these four questions",
+      "found": true
+    },
+    "a2acec0a1f670e39": {
+      "lesson": "SBP-107-L03",
+      "section": "Three inputs, explicit units",
+      "source": "S13",
+      "text": "Volume × per-event impact = total value. Low volume kills ROI.",
+      "found": true
+    },
+    "23b1855d5f3867f8": {
+      "lesson": "SBP-106-L03",
+      "section": "The parts of impact",
+      "source": "S05",
+      "text": "Impact: How much positive change this use case creates for the business and users.",
+      "found": true
+    },
+    "0c8aadcff5801683": {
+      "lesson": "SBP-106-L03",
+      "section": "Combine value drivers, carefully",
+      "source": "S66",
+      "text": "Most use cases deliver multiple value drivers",
+      "found": true
+    },
+    "6b8b71c6bcd2edb4": {
+      "lesson": "SBP-106-L04",
+      "section": "What drives effort",
+      "source": "S05",
+      "text": "write actions into critical systems trigger a whole new review path and delay.",
+      "found": true
+    },
+    "cf84fb45e7b9c33c": {
+      "lesson": "SBP-106-L04",
+      "section": "What drives effort",
+      "source": "S05",
+      "text": "stakeholder expects perfect joins and aggregations from a chat prompt when the use case needs deterministic SQL/BI.",
+      "found": true
+    },
+    "8094907c509fc490": {
+      "lesson": "SBP-106-L05",
+      "section": "The four quadrants",
+      "source": "S05",
+      "text": "Score gut-feel H/M/L, place use cases, then circle 2–3 quick wins and 1–2 strategic bets.",
+      "found": true
+    },
+    "c25e07e563996b4b": {
+      "lesson": "SBP-106-L06",
+      "section": "What each first-wave use case needs",
+      "source": "S13",
+      "text": "Can the customer provide baseline data? Do they track the KPIs we'd want to measure?",
+      "found": true
+    },
+    "4333c56e0da6decf": {
+      "lesson": "SBP-107-L01",
+      "section": "What DITL answers",
+      "source": "S02",
+      "text": "What does the reality on the ground of 3 - 4 prioritized use cases look like?",
+      "found": true
+    },
+    "7957f4dc9697a6e7": {
+      "lesson": "SBP-107-L01",
+      "section": "What DITL answers",
+      "source": "S22",
+      "text": "Create output deliverables that will be reviewed with EB, Champions, and users",
+      "found": true
+    },
+    "8591d51c79a09445": {
+      "lesson": "SBP-107-L02",
+      "section": "Active effort is not elapsed time",
+      "source": "S22",
+      "text": "Turnaround time (including delays)",
+      "found": true
+    },
+    "8872b31e31cf4786": {
+      "lesson": "SBP-107-L02",
+      "section": "Be conservative, and give ranges",
+      "source": "S64",
+      "text": "So you can put a range in here.",
+      "found": true
+    },
+    "1be677a0d57e04d1": {
+      "lesson": "SBP-107-L03",
+      "section": "Cost of inaction",
+      "source": "S14",
+      "text": "Make business impact concrete and quantify the cost of inaction.",
+      "found": true
+    },
+    "8008c1618ee127f6": {
+      "lesson": "SBP-107-L05",
+      "section": "When a playback helps",
+      "source": "S02",
+      "text": "Day-in-the -Life (DITL) Interview(s) + Playback",
+      "found": true
+    },
+    "c37787f4fd67fc8d": {
+      "lesson": "SBP-107-L06",
+      "section": "The DITL summary",
+      "source": "S14",
+      "text": "Present current vs. future workflows including cost of inaction",
+      "found": true
+    },
+    "b6d68fde842daea3": {
+      "lesson": "SBP-108-L01",
+      "section": "The four parts",
+      "source": "S13",
+      "text": "Business cases connect four things: problem statement, justification, ROI, and plan.",
+      "found": true
+    },
+    "5679acf328733503": {
+      "lesson": "SBP-108-L01",
+      "section": "The four parts",
+      "source": "S13",
+      "text": "Every business case must answer: what problem, why Glean, how much impact, and how we'll prove it.",
+      "found": true
+    },
+    "38b64257288eb5d1": {
+      "lesson": "SBP-108-L01",
+      "section": "Use the customer's language",
+      "source": "S13",
+      "text": "Not \"they need better search\" — that's our language.",
+      "found": true
+    },
+    "55c46a9d72a818ef": {
+      "lesson": "SBP-108-L01",
+      "section": "Hard, soft, and directional value",
+      "source": "S13",
+      "text": "Directional value — hypothesis-grade, backed by benchmarks rather than customer data",
+      "found": true
+    },
+    "5bb44fa52efb38e9": {
+      "lesson": "SBP-108-L01",
+      "section": "Combine growth and cost reduction",
+      "source": "S66",
+      "text": "Cost reduction is easier to quantify",
+      "found": true
+    },
+    "d0e3a92959aefd95": {
+      "lesson": "SBP-108-L02",
+      "section": "Four translation paths",
+      "source": "S13",
+      "text": "Hours saved don't appear on the P&L. What the customer does with those hours does.",
+      "found": true
+    },
+    "07fb90e022253b99": {
+      "lesson": "SBP-108-L03",
+      "section": "Three evidence layers",
+      "source": "S13",
+      "text": "Value should be triangulated across three evidence layers. Platform telemetry, user voice, and system-of-record outcomes. Any single layer can mislead. All three converging is proof.",
+      "found": true
+    },
+    "fa25a536cfa163a2": {
+      "lesson": "SBP-108-L03",
+      "section": "Use the customer's own data",
+      "source": "S73",
+      "text": "Present multiple ROI scenarios and use company-specific surveys to anchor calculations",
+      "found": true
+    },
+    "9f6b67da8d90e153": {
+      "lesson": "SBP-108-L04",
+      "section": "The inputs",
+      "source": "S13",
+      "text": "The productivity recapture rate (ρ) is the most consequential assumption in any Glean value model.",
+      "found": true
+    },
+    "a574787d9e03f080": {
+      "lesson": "SBP-200-L01",
+      "section": "Evidence rules",
+      "source": "S13",
+      "text": "Every ROI estimate must carry its assumptions, risk adjustments, and evidence tier transparently.",
+      "found": true
+    },
+    "656c329e02013c9a": {
+      "lesson": "SBP-108-L06",
+      "section": "The metric card",
+      "source": "S13",
+      "text": "Pre-sales value is only credible if it creates a measurable path for post-sales proof.",
+      "found": true
+    },
+    "1bc82ee7fb2bbe82": {
+      "lesson": "SBP-109-L01",
+      "section": "Why this meeting matters",
+      "source": "S02",
+      "text": "It is a mandatory step in moving forward with a Pilot or Proof of Value and ensuring that there is alignment with our team and client leadership before we invest more time and resources into the evaluation of Glean.",
+      "found": true
+    },
+    "cb2037e79cb48e63": {
+      "lesson": "SBP-109-L01",
+      "section": "The preflight, one to three business days before",
+      "source": "S14",
+      "text": "Pre‑Work (complete 1–3 business days before)",
+      "found": true
+    },
+    "7d9039ee5dcc85c0": {
+      "lesson": "SBP-109-L02",
+      "section": "Who should attend",
+      "source": "S02",
+      "text": "Key Players from DITL (dept heads, front-line employees who had strong reactions that were pro-Glean, etc...) AE & SE Glean Sales Leader if necessary",
+      "found": true
+    },
+    "dc0cd3605309e937": {
+      "lesson": "SBP-109-L03",
+      "section": "The narrative",
+      "source": "S14",
+      "text": "Cover use‑case readout → future state → value → decision and next steps.",
+      "found": true
+    },
+    "62830046318bbe8f": {
+      "lesson": "SBP-109-L03",
+      "section": "Keep the product reintroduction short",
+      "source": "S02",
+      "text": "this should be no more than 5 minutes, more of a high-level overview of what Glean is and what value we provide to our clients.",
+      "found": true
+    },
+    "f631e076066c8174": {
+      "lesson": "SBP-200-L05",
+      "section": "The sponsor's three questions",
+      "source": "S14",
+      "text": "Decide validation path (Glean Lab by default; Pilot/PoC only if necessary)",
+      "found": true
+    },
+    "5c4dd1c1a46f3f8e": {
+      "lesson": "SBP-109-L06",
+      "section": "Same day to 24 hours",
+      "source": "S14",
+      "text": "Send concise recap: decisions, success criteria, validation path, timeline, and owners",
+      "found": true
+    },
+    "7887bf3b0f5b9323": {
+      "lesson": "SBP-110-L01",
+      "section": "Start from the buying question",
+      "source": "S14",
+      "text": "Avoid unnecessary pilots and accelerate.",
+      "found": true
+    },
+    "8d1a27de77d5587e": {
+      "lesson": "SBP-110-L01",
+      "section": "The options, lightest to heaviest",
+      "source": "S16",
+      "text": "Technical Validation Options Custom Tailored Demo(s) Sandbox Pilot / PoC",
+      "found": true
+    },
+    "ad7471000e9d1f05": {
+      "lesson": "SBP-110-L02",
+      "section": "Build an option card",
+      "source": "S41",
+      "text": "Users will have Member-level access, without admin privileges and will not be able to add additional data sources.",
+      "found": true
+    },
+    "b0c26664c019cb25": {
+      "lesson": "SBP-110-L02",
+      "section": "Watch the terminology",
+      "source": "S67",
+      "text": "We are not setting up any connectors.",
+      "found": true
+    },
+    "45725385ac6471f8": {
+      "lesson": "SBP-110-L03",
+      "section": "Frame it with the champion first",
+      "source": "S16",
+      "text": "1:1 with your champion to re-validate pain, use cases & value, buying criteria & process, Glean’s technical differentiators/required capabilities, and set expectation that sandbox won’t show personalization, knowledge graph, etc",
+      "found": true
+    },
+    "9e37f40ac3fad58a": {
+      "lesson": "SBP-110-L03",
+      "section": "Run the workshop with the champion",
+      "source": "S16",
+      "text": "Start with the pain/problem and the value of the platform",
+      "found": true
+    },
+    "7bd7a1e70601bfdb": {
+      "lesson": "SBP-110-L04",
+      "section": "When a pilot is justified",
+      "source": "S16",
+      "text": "Real EB is identified and had an exec alignment meeting to confirm the project is budgeted and need confirmed",
+      "found": true
+    },
+    "80cf328e7d89eac7": {
+      "lesson": "SBP-110-L04",
+      "section": "When a pilot is justified",
+      "source": "S15",
+      "text": "Once there is a clear need for a pilot and the pilot has been approved, AEs & SEs should use this guide navigate the pilot process.",
+      "found": true
+    },
+    "2da2c4f8c3f10297": {
+      "lesson": "SBP-110-L05",
+      "section": "The readiness scorecard",
+      "source": "S15",
+      "text": "The scorecard's readiness threshold is 80% (B-).",
+      "found": true
+    },
+    "072de5a63558b21e": {
+      "lesson": "SBP-113-L04",
+      "section": "The pilot request",
+      "source": "S15",
+      "text": "No approval = no pilot.",
+      "found": true
+    },
+    "8a5f37cc26038e90": {
+      "lesson": "SBP-110-L05",
+      "section": "Approval and commercial prerequisites",
+      "source": "S15",
+      "text": "No signed pilot order form = no pilot.",
+      "found": true
+    },
+    "70ed461c52fccf32": {
+      "lesson": "SBP-111-L01",
+      "section": "Make every priority traceable",
+      "source": "S13",
+      "text": "Pre-sales value hypotheses are often lost after the deal closes.",
+      "found": true
+    },
+    "38a1b357a3af8b93": {
+      "lesson": "SBP-111-L04",
+      "section": "Scope is a framework, not a promise of everything",
+      "source": "S44",
+      "text": "The package level is a sizing and delivery framework; it is not a commitment to connect all possible data sources or deliver every identified use case.",
+      "found": true
+    },
+    "f29186407f6ca735": {
+      "lesson": "SBP-111-L05",
+      "section": "What customer success needs from the value model",
+      "source": "S13",
+      "text": "The number one measurement failure is launching without a baseline.",
+      "found": true
+    },
+    "1535c49188117eee": {
+      "lesson": "SBP-111-L06",
+      "section": "The post-go-live review",
+      "source": "S13",
+      "text": "This playbook creates explicit handoff protocols so post-sales teams can validate what pre-sales promised.",
+      "found": true
+    },
+    "eb94d633c51058dd": {
+      "lesson": "SBP-112-L02",
+      "section": "The parts of a grounded prompt",
+      "source": "S25",
+      "text": "Using only that transcript, provide a clear, concise synopsis of the call.",
+      "found": true
+    },
+    "bff70619deabd295": {
+      "lesson": "SBP-112-L02",
+      "section": "The parts of a grounded prompt",
+      "source": "S25",
+      "text": "Do not add recommendations, new questions, or coaching — only describe what happened on the call.",
+      "found": true
+    },
+    "6597017b8afec353": {
+      "lesson": "SBP-112-L03",
+      "section": "Build from the customer's own evidence",
+      "source": "S13",
+      "text": "Without clear evidence standards, teams either present benchmarks as proof or fail to tell strong stories with real data.",
+      "found": true
+    },
+    "18b05115f7be8747": {
+      "lesson": "SBP-113-L02",
+      "section": "Keep groups focused",
+      "source": "S07",
+      "text": "Limit participant size (ideally 1-3 per session) to maximize candor and focus; run additional sessions by line of business if needed.",
+      "found": true
+    },
+    "097c325e91e6f515": {
+      "lesson": "SBP-113-L03",
+      "section": "The common challenges",
+      "source": "S13",
+      "text": "Always identify which assumptions are benchmark-based vs. customer-specific",
+      "found": true
+    }
+  }
+}

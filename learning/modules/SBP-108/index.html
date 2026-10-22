@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Business Value, Metrics & ROI</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="sbp.css">
+</head>
+<body>
+<a class="skip" href="#screen">Skip to module content</a>
+<header class="bar">
+  <div class="brand"><img class="logo" src="assets/brand/glean-wordmark-electric-blue.svg" alt="Glean" width="59" height="24"></div>
+  <div class="bar-meta">
+    <span id="mtitle" class="mtitle">Loading module</span>
+    <label class="prog"><span id="ptext">0 sections read</span>
+      <progress id="prog" max="1" value="0" aria-label="Sections read"></progress>
+    </label>
+  </div>
+</header>
+<div class="notice" role="note">
+  <p><strong>Restricted internal preview.</strong> Content is in review and not cleared for partner distribution. Examples are fictional.</p>
+  <p id="track"></p>
+</div>
+<div class="layout">
+  <nav class="rail" aria-label="On this page">
+    <details class="toc" open>
+      <summary><span class="toc-label">On this page</span> <span id="where" class="where"></span></summary>
+      <ol id="map" class="map"></ol>
+    </details>
+  </nav>
+  <main id="screen" class="screen page"></main>
+</div>
+<footer class="bar foot">
+  <p class="objective">Scroll to read each section. The knowledge check is at the end of the page.</p>
+  <div class="nav">
+    <button id="top" type="button" class="ghost">Back to top</button>
+    <button id="finish" type="button" class="primary">Save and exit</button>
+  </div>
+</footer>
+<p id="status" class="sr" role="status" aria-live="polite"></p>
+<script src="scorm.js"></script>
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

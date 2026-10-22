@@ -1,0 +1,125 @@
+{
+  "id": "SBP-108-L02",
+  "lesson": "SBP-108-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Translate time to business impact",
+  "nav": "2. Translate time to business impact",
+  "objective": "Classify saved analyst hours, a cancelled tool contract and an estimated increase in win rate.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Saved time is where most value cases start, but it isn't where they should end. Executives fund outcomes, so the case must explain what happens with the time."
+    },
+    {
+      "t": "h3",
+      "x": "Four translation paths"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Value Playbook describes four paths from productivity to business impact:"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "**Capacity created → business metric impact.** Freed time is redeployed to more cases, more deals, or higher-value work.",
+        "**Cost avoidance.** Tickets deflected, tools consolidated, hires avoided.",
+        "**Revenue acceleration.** Faster deal preparation, higher win rates, shorter sales cycles.",
+        "**Risk reduction.** Faster incident resolution, better compliance, fewer errors."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "For each path, ask what the customer will actually do with the saved time and which system-of-record metric should change. A benefit mechanism needs an owner, not just a multiplier."
+    },
+    {
+      "t": "h3",
+      "x": "Classify carefully"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Saved support effort may let a team handle more cases. If the customer confirms an avoided hire, that becomes hard-dollar cost avoidance, with evidence.",
+        "Faster preparation might create selling capacity. Claiming revenue requires much stronger, customer-specific attribution."
+      ]
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't label all salary-equivalent time as cash savings, assume layoffs, or claim capacity value and a fully overlapping business benefit for the same minutes. State your exclusions to prevent double counting."
+    },
+    {
+      "t": "h3",
+      "x": "Ask who cares"
+    },
+    {
+      "t": "p",
+      "x": "Glean's business-case training uses one test for every translation: who cares? An individual cares about saved minutes. A CFO cares about revenue, cost, and risk. Each path below moves a time estimate into terms a budget holder recognizes, and each needs a named owner who confirms the link."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Four translation paths",
+      "alt": "Four cards showing how capacity can translate into business impact: capacity redeployed to a business metric, cost avoided, revenue accelerated, and risk reduced. Each needs an owner who confirms the link.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Capacity to a business metric",
+          "detail": "Redeployed time moves a KPI",
+          "emph": true
+        },
+        {
+          "label": "Cost avoidance",
+          "detail": "Hiring, contractors, or spend avoided",
+          "emph": false
+        },
+        {
+          "label": "Revenue acceleration",
+          "detail": "Faster cycles or higher conversion",
+          "emph": false
+        },
+        {
+          "label": "Risk reduction",
+          "detail": "Fewer errors, exposures, or incidents",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Classify three benefits: 500 saved analyst hours a year, a cancelled contract for an overlapping tool, and an estimated increase in win rate."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Saved analyst hours:** capacity, or soft-dollar value, until a specific action, such as absorbing growth without a new hire, realizes it.",
+        "**Cancelled tool contract:** hard-dollar, supported by the contract value and the cancellation evidence.",
+        "**Win-rate increase:** directional, unless a credible customer-specific measurement links the change to Glean."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 341,
+  "eyebrow": "Lesson 2 · about 6 min",
+  "claims": [
+    "C-0368",
+    "C-0369",
+    "C-0370",
+    "C-0371",
+    "C-0372",
+    "C-0373"
+  ],
+  "sources": [
+    "S13",
+    "S19",
+    "S71"
+  ]
+}

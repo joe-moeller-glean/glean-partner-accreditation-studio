@@ -1,0 +1,140 @@
+{
+  "id": "SBP-104-L04",
+  "lesson": "SBP-104-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Sponsor and readiness pressure test",
+  "nav": "4. Sponsor and readiness pressure test",
+  "objective": "Decide go, narrow or reschedule when the worksheet is empty and sponsorship is unconfirmed.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Before Visioning, test whether the session can succeed. A workshop without the basics wastes the customer's goodwill and produces a use case list nobody owns."
+    },
+    {
+      "t": "h3",
+      "x": "What to confirm"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Sponsor alignment, or a credible and documented path to it.",
+        "Completed pre-work from the customer.",
+        "The relevant stakeholders invited, with the right lines of business represented.",
+        "A clear outcome for the session, an agenda, and working facilitation tools."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Glean's Visioning playbook is direct: decline or reschedule if pre-work, survey responses, or executive sponsor alignment are missing."
+    },
+    {
+      "t": "h3",
+      "x": "Three pressure-test questions"
+    },
+    {
+      "t": "p",
+      "x": "Ask the champion:"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "\"Which initiative does this work support?\"",
+        "\"Who owns the KPI we would move?\"",
+        "\"Who can sponsor the next investment decision?\""
+      ]
+    },
+    {
+      "t": "p",
+      "x": "If the answers are vague, schedule a narrower alignment conversation before the full workshop."
+    },
+    {
+      "t": "h3",
+      "x": "Go, narrow, or reschedule"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Go:** basics are in place.",
+        "**Narrow:** some basics are missing but the meeting is valuable. Convert it into a qualification and alignment conversation, and say so.",
+        "**Reschedule:** pre-work is empty and the sponsor path is unknown."
+      ]
+    },
+    {
+      "t": "callout",
+      "label": "Note on sponsor attendance",
+      "x": "Glean sources differ on whether the executive sponsor should attend early Visioning. Champion-led Visioning can work, but Executive Validation must still resolve executive alignment. Don't turn a preferred attendance pattern into a universal rule."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "The readiness review ends in one of three decisions. Make the call explicitly, and tell the champion why."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Go, narrow, or reschedule",
+      "alt": "A comparison of the three readiness decisions with when each applies: go when the sponsor, priorities, and attendees are confirmed; narrow when only part of the scope is ready; reschedule when the decision-makers or business owners can't attend.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Decision",
+          "b": "When it applies",
+          "emph": false
+        },
+        {
+          "a": "Go",
+          "b": "Sponsor, priorities, and the right attendees are confirmed",
+          "emph": false
+        },
+        {
+          "a": "Narrow",
+          "b": "Only one team or use case area is ready",
+          "emph": false
+        },
+        {
+          "a": "Reschedule",
+          "b": "Decision-makers or business owners can't attend",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Two days before Visioning, the worksheet is still empty and the champion can't say who would sponsor an investment. Decide whether to go, narrow, or reschedule, and assign owners."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Reschedule the full workshop, or narrow the slot to a qualification and alignment conversation with the champion. The AE owns the sponsor path and collecting the pre-work, with a new date agreed. Don't record the readiness gate as passed. Note in the action plan what must be in place before the workshop is rebooked."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 336,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0171",
+    "C-0172",
+    "C-0173",
+    "C-0174",
+    "C-0175",
+    "C-0176",
+    "C-0177"
+  ],
+  "sources": [
+    "S02",
+    "S04",
+    "S07",
+    "S18"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "SBP-112-X01",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Templates",
+  "title": "Templates for this module",
+  "nav": "Templates",
+  "body": "Copy-ready structures you can reuse in your own engagements. Examples are fictional.",
+  "cards": [
+    {
+      "tag": "A19",
+      "title": "AI preparation QA",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Claim, source passage/date, factual/inference/unknown, access class, capability verified, unit check, reviewer, clearance, action"
+        },
+        {
+          "label": "Fictional example",
+          "text": "A generated timing without a source fails baseline review and is marked unverified."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "No invented facts, automated approvals, restricted data disclosure or unsupported external claims."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0603"
+  ],
+  "sources": [
+    "S13",
+    "S37",
+    "S38"
+  ],
+  "required": true
+}

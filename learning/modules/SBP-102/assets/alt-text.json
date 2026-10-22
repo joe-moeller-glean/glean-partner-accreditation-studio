@@ -1,0 +1,17 @@
+{
+  "by_asset_id": {
+    "SBP-102-LOGO": "Glean",
+    "SBP-102-L01-F1-wide": "A four-step entry check before starting the Blueprint: confirm a business priority, confirm stakeholder access, draft a value hypothesis, and answer the three whys. Only then does the Blueprint begin.",
+    "SBP-102-L01-F1-narrow": "A four-step entry check before starting the Blueprint: confirm a business priority, confirm stakeholder access, draft a value hypothesis, and answer the three whys. Only then does the Blueprint begin.",
+    "SBP-102-L02-F1-wide": "Six cards listing the evidence Stage 2 should leave behind: a use case log and matrix, a named owner per use case, current and future workflow maps, metric definitions and draft baselines, data and connector dependencies, and a scheduled executive decision meeting.",
+    "SBP-102-L02-F1-narrow": "Six cards listing the evidence Stage 2 should leave behind: a use case log and matrix, a named owner per use case, current and future workflow maps, metric definitions and draft baselines, data and connector dependencies, and a scheduled executive decision meeting.",
+    "SBP-102-L03-F1-wide": "Four cards listing what the executive conversation must confirm: sponsorship, success criteria, the validation path, and the decision process.",
+    "SBP-102-L03-F1-narrow": "Four cards listing what the executive conversation must confirm: sponsorship, success criteria, the validation path, and the decision process.",
+    "SBP-102-L04-F1-wide": "Six cards linking Blueprint evidence to qualification elements: metrics from DITL and metric cards, the economic buyer from Executive Validation, decision criteria from success criteria, implicate pain from the cost of inaction, the champion from who carries the story, and the success plan from the handoff.",
+    "SBP-102-L04-F1-narrow": "Six cards linking Blueprint evidence to qualification elements: metrics from DITL and metric cards, the economic buyer from Executive Validation, decision criteria from success criteria, implicate pain from the cost of inaction, the champion from who carries the story, and the success plan from the handoff.",
+    "SBP-102-L05-F1-wide": "A comparison listing common gaps in stage evidence with the smallest corrective action for each, such as a prioritization session for missing priorities and a sponsor-alignment meeting for a missing sponsor path.",
+    "SBP-102-L05-F1-narrow": "A comparison listing common gaps in stage evidence with the smallest corrective action for each, such as a prioritization session for missing priorities and a sponsor-alignment meeting for a missing sponsor path.",
+    "SBP-102-L06-F1-wide": "A comparison of the three parallel streams after Executive Validation, with their typical owners: feasibility and validation, owned by the SE with the customer's technical owner; security and IT review, owned by the customer's security team with Glean support; and the commercial and paper process, owned by the AE with procurement.",
+    "SBP-102-L06-F1-narrow": "A comparison of the three parallel streams after Executive Validation, with their typical owners: feasibility and validation, owned by the SE with the customer's technical owner; security and IT review, owned by the customer's security team with Glean support; and the commercial and paper process, owned by the AE with procurement."
+  }
+}

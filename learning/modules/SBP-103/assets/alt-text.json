@@ -1,0 +1,17 @@
+{
+  "by_asset_id": {
+    "SBP-103-LOGO": "Glean",
+    "SBP-103-L01-F1-wide": "Five cards showing typical ownership: the AE leads Visioning with SE support; the SE leads DITL workflow mapping; the AE and SE jointly lead Executive Validation; the Business Value Consultant supports complex value cases; and the partner assists, co-leads, or leads by agreement.",
+    "SBP-103-L01-F1-narrow": "Five cards showing typical ownership: the AE leads Visioning with SE support; the SE leads DITL workflow mapping; the AE and SE jointly lead Executive Validation; the Business Value Consultant supports complex value cases; and the partner assists, co-leads, or leads by agreement.",
+    "SBP-103-L02-F1-wide": "A three-step progression of partner engagement models: assist in Glean-led sessions, co-lead parts of Visioning and DITL, then lead agreed discovery with Glean coaching. Each step requires evidence from the previous one.",
+    "SBP-103-L02-F1-narrow": "A three-step progression of partner engagement models: assist in Glean-led sessions, co-lead parts of Visioning and DITL, then lead agreed discovery with Glean coaching. Each step requires evidence from the previous one.",
+    "SBP-103-L03-F1-wide": "A two-by-two matrix with workflow knowledge on the horizontal axis and decision influence on the vertical axis. High influence and high knowledge: business owners, who define impact. High influence and low knowledge: the executive sponsor, who makes the decision. Low influence and high knowledge: front-line users, who explain the real work. Low influence and low knowledge: inform as needed.",
+    "SBP-103-L03-F1-narrow": "A two-by-two matrix with workflow knowledge on the horizontal axis and decision influence on the vertical axis. High influence and high knowledge: business owners, who define impact. High influence and low knowledge: the executive sponsor, who makes the decision. Low influence and high knowledge: front-line users, who explain the real work. Low influence and low knowledge: inform as needed.",
+    "SBP-103-L04-F1-wide": "Three stacked levels of value support, from lightest to heaviest: self-serve estimates using the approved calculator, expert review of an account team's model, and a full Business Value Consulting engagement for complex, high-stakes cases.",
+    "SBP-103-L04-F1-narrow": "Three stacked levels of value support, from lightest to heaviest: self-serve estimates using the approved calculator, expert review of an account team's model, and a full Business Value Consulting engagement for complex, high-stakes cases.",
+    "SBP-103-L05-F1-wide": "A three-step lifecycle split. Discovery captures and prioritizes the finding. Build scopes and delivers it under an agreed statement of work. Optimize and support improves it after go-live.",
+    "SBP-103-L05-F1-narrow": "A three-step lifecycle split. Discovery captures and prioritizes the finding. Build scopes and delivers it under an agreed statement of work. Optimize and support improves it after go-live.",
+    "SBP-103-L06-F1-wide": "Six cards listing what Glean and the partner agree up front: who sends customer communications, where artifacts are stored, who answers technical questions, who reviews value claims, who approves commitments, and who owns follow-up.",
+    "SBP-103-L06-F1-narrow": "Six cards listing what Glean and the partner agree up front: who sends customer communications, where artifacts are stored, who answers technical questions, who reviews value claims, who approves commitments, and who owns follow-up."
+  }
+}

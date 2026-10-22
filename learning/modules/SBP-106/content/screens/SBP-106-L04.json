@@ -1,0 +1,170 @@
+{
+  "id": "SBP-106-L04",
+  "lesson": "SBP-106-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Effort and technical gotchas",
+  "nav": "4. Effort and technical gotchas",
+  "objective": "Identify four effort risks for a cross-system agent that updates a CRM record.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Effort is where optimistic use cases fail. A simple-sounding request can depend on several systems, complex permissions, or actions that require security review. Surface these risks in discovery, not after a demo."
+    },
+    {
+      "t": "h3",
+      "x": "What drives effort"
+    },
+    {
+      "t": "p",
+      "x": "Glean's partner enablement lists technical gotchas to surface in discovery:"
+    },
+    {
+      "t": "table",
+      "caption": "Technical gotchas",
+      "head": [
+        "Area",
+        "What to watch for",
+        "Question to ask"
+      ],
+      "rows": [
+        [
+          "Data and connectors",
+          "The source of truth is unclear; no native connector; immature or rate-limited APIs; on-premises systems",
+          "\"Where is the canonical record, and which system wins on conflicts?\""
+        ],
+        [
+          "Data footprint",
+          "A small-sounding use case needs legacy systems, archives, or large files",
+          "\"How much history does this need?\""
+        ],
+        [
+          "Permissions and identity",
+          "Row- or field-level permissions; multiple directories; shared mailboxes; exceptions",
+          "\"Who can see what, and are there exceptions?\""
+        ],
+        [
+          "Structured expectations",
+          "Expecting exact joins and aggregations from a chat prompt when the use case needs deterministic SQL or BI",
+          "\"Is this a lookup or a calculation?\""
+        ],
+        [
+          "Freshness",
+          "Needing real-time results for data indexed periodically",
+          "\"How current must the answer be?\""
+        ],
+        [
+          "Actions and write-backs",
+          "Assuming the agent can update any system; multi-step transactions; security review of write actions",
+          "\"What exactly would be written, by whom, with what audit?\""
+        ],
+        [
+          "Data quality and taxonomy",
+          "Inconsistent labels; knowledge only in private chats or local drives",
+          "\"Where does the real answer live today?\""
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Ask the system owners"
+    },
+    {
+      "t": "p",
+      "x": "Validate feasibility with the people who own the systems. Don't infer it from a use case description. Also consider change management. A technically easy use case still takes effort if it changes how a team works."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't claim that generic retrieval will perform deterministic joins, or that an agent can write to any system. Verify current capabilities with the Glean account team, and get owner commitments before rating a use case as easy."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Effort hides in the data. Ask system owners about these areas before you rank a use case as low effort."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Where effort hides",
+      "alt": "Six cards naming common sources of hidden effort: unclear sources of truth and connectors, permissions and identity, structured data expectations, data freshness, actions and write-backs, and data quality.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Connectors",
+          "detail": "Is there a clear source of truth and a connector?",
+          "emph": false
+        },
+        {
+          "label": "Permissions",
+          "detail": "Row- or field-level rules; multiple identities",
+          "emph": false
+        },
+        {
+          "label": "Structured data",
+          "detail": "Exact joins and aggregations expected",
+          "emph": false
+        },
+        {
+          "label": "Freshness",
+          "detail": "Real-time needs versus periodic indexing",
+          "emph": false
+        },
+        {
+          "label": "Write-backs",
+          "detail": "Which systems may the agent update?",
+          "emph": true
+        },
+        {
+          "label": "Data quality",
+          "detail": "Labels, ownership, and tribal knowledge",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A use case calls for an agent that reads five systems and updates a CRM record after each customer call. Identify at least four effort risks."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Connector availability** for all five systems, and whether each source is canonical.",
+        "**Identity and permissions:** whether users see only the records they're entitled to.",
+        "**Data consistency** across systems, such as conflicting account names or fields.",
+        "**An approved write-action model:** what is written, and the audit trail, idempotency, and handling of partial failures.",
+        "**Security review** of write actions into the CRM."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Mark each as unresolved and assign a validation owner before rating effort."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 460,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0277",
+    "C-0278",
+    "C-0279",
+    "C-0280",
+    "C-0281",
+    "C-0282"
+  ],
+  "sources": [
+    "S05",
+    "S23"
+  ]
+}

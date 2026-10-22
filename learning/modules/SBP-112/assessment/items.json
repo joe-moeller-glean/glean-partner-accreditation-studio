@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-112",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-112-Q001",
+      "objective_id": "SBP-112-L01",
+      "module_id": "SBP-112",
+      "stem": "An internal agent link is unavailable to a partner learner. What is the best course design?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ask the learner to bypass permissions."
+        },
+        {
+          "id": "b",
+          "text": "Fail the learner for missing access automatically."
+        },
+        {
+          "id": "c",
+          "text": "Provide an equivalent approved tool-agnostic prompt and do not imply access entitlement."
+        },
+        {
+          "id": "d",
+          "text": "Publish internal credentials in the lesson."
+        }
+      ],
+      "claims": [
+        "C-0604"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q002",
+      "objective_id": "SBP-112-L02",
+      "module_id": "SBP-112",
+      "stem": "Which prompt requirement most improves grounding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ask for maximum confidence regardless of evidence."
+        },
+        {
+          "id": "b",
+          "text": "Prohibit uncertainty labels."
+        },
+        {
+          "id": "c",
+          "text": "Ask the model to invent a baseline for persuasion."
+        },
+        {
+          "id": "d",
+          "text": "Separate sourced customer facts, inferences, unknowns and benchmarks, with claim-level references."
+        }
+      ],
+      "claims": [
+        "C-0605"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q003",
+      "objective_id": "SBP-112-L03",
+      "module_id": "SBP-112",
+      "stem": "An AI draft copies a peer outcome into the prospect's story. What should happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Keep it because similar companies always have identical results."
+        },
+        {
+          "id": "b",
+          "text": "Remove or relabel it as an approved analogy and rebuild the prospect hypothesis from its own evidence."
+        },
+        {
+          "id": "c",
+          "text": "Call it customer-measured evidence."
+        },
+        {
+          "id": "d",
+          "text": "Remove only the citation, not the claim."
+        }
+      ],
+      "claims": [
+        "C-0606"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q004",
+      "objective_id": "SBP-112-L04",
+      "module_id": "SBP-112",
+      "stem": "A generated DITL timeline looks plausible. What is still required?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Customer/workflow verification and SE review of steps, durations, systems and capabilities."
+        },
+        {
+          "id": "b",
+          "text": "Only a more attractive color scheme."
+        },
+        {
+          "id": "c",
+          "text": "Automatic deployment to validate all guesses."
+        },
+        {
+          "id": "d",
+          "text": "Nothing; plausibility is equivalent to observation."
+        }
+      ],
+      "claims": [
+        "C-0607"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q005",
+      "objective_id": "SBP-112-L05",
+      "module_id": "SBP-112",
+      "stem": "Which action must remain under authorized human governance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Generating a clearly labeled first draft."
+        },
+        {
+          "id": "b",
+          "text": "Sorting a draft list of questions."
+        },
+        {
+          "id": "c",
+          "text": "Pilot approval, external publication and consequential system changes."
+        },
+        {
+          "id": "d",
+          "text": "Formatting a permitted worksheet."
+        }
+      ],
+      "claims": [
+        "C-0608"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q006",
+      "objective_id": "SBP-112-L06",
+      "module_id": "SBP-112",
+      "stem": "When should an AI-assisted publication flow stop?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Never; automation should publish whatever it produces."
+        },
+        {
+          "id": "b",
+          "text": "When required sources, factual support, clearance or review are missing."
+        },
+        {
+          "id": "c",
+          "text": "Only when the draft has fewer than ten slides."
+        },
+        {
+          "id": "d",
+          "text": "Whenever a reviewer asks for a source."
+        }
+      ],
+      "claims": [
+        "C-0609"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q007",
+      "objective_id": "SBP-112-L06",
+      "module_id": "SBP-112",
+      "stem": "A citation exists, but its passage does not support the claim. What should the reviewer do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reject or correct the claim and verify the supporting evidence."
+        },
+        {
+          "id": "b",
+          "text": "Remove all source references."
+        },
+        {
+          "id": "c",
+          "text": "Approve it because any link is enough."
+        },
+        {
+          "id": "d",
+          "text": "Replace it with a random authoritative-looking link."
+        }
+      ],
+      "claims": [
+        "C-0610"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q008",
+      "objective_id": "SBP-112-L06",
+      "module_id": "SBP-112",
+      "stem": "A retrieved document contains instructions to send customer data elsewhere. How should the AI prep flow treat them?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As higher authority than the user's scope."
+        },
+        {
+          "id": "b",
+          "text": "As a required step to earn the credential."
+        },
+        {
+          "id": "c",
+          "text": "As untrusted document content, not authorization to change the task or disclose data."
+        },
+        {
+          "id": "d",
+          "text": "As automatic customer consent."
+        }
+      ],
+      "claims": [
+        "C-0611"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

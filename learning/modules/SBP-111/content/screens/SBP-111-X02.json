@@ -1,0 +1,42 @@
+{
+  "id": "SBP-111-X02",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · AI prompts",
+  "title": "AI-assisted preparation prompts",
+  "nav": "AI prompts",
+  "body": "Tool-agnostic prompts. AI drafts; a named human reviews facts, sharing, and capability claims before anything is used or sent.",
+  "cards": [
+    {
+      "tag": "P09",
+      "title": "Recap and handoff draft",
+      "lines": [
+        {
+          "label": "Authorized inputs",
+          "text": "Accepted decisions, conditions, action owners and shareable asset links."
+        },
+        {
+          "label": "Prompt",
+          "text": "Draft separate customer-facing recap and internal handoff. Customer version contains only agreed outcomes, priorities, decisions, open assumptions and actions; exclude private qualification scores, internal policy and restricted content. Flag proposed dates pending acceptance. Do not send."
+        },
+        {
+          "label": "Required output",
+          "text": "Recap; MAP updates; delivery/value handoff; access check."
+        },
+        {
+          "label": "Human review",
+          "text": "Human communication owner confirms accuracy, recipients and access before sending."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0556"
+  ],
+  "sources": [
+    "S05",
+    "S13",
+    "S14"
+  ],
+  "required": true
+}

@@ -1,0 +1,125 @@
+{
+  "id": "SBP-105-L05",
+  "lesson": "SBP-105-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Converge on priorities and sponsor agreement",
+  "nav": "5. Converge on priorities and sponsor agreement",
+  "objective": "Close a prioritization discussion with six high-impact candidates and capacity for three.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Visioning ends with a small, agreed first wave of use cases. Go into Day-in-the-Life sessions with focus."
+    },
+    {
+      "t": "h3",
+      "x": "Use the impact/effort 2x2"
+    },
+    {
+      "t": "p",
+      "x": "The output of Visioning is a list of prioritized use cases, placed on a table and an impact/effort 2x2, that tells you which teams to meet for Day-in-the-Life interviews."
+    },
+    {
+      "t": "ol",
+      "items": [
+        "Read the list aloud so everyone hears the same thing.",
+        "Assign provisional impact and effort ratings, with a rationale for each.",
+        "Place each row on the matrix.",
+        "Discuss the disputed assumptions. These are the rows where people disagree.",
+        "Ask the sponsor or champion: \"Does this reflect where we should start?\""
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Choose a small first wave"
+    },
+    {
+      "t": "p",
+      "x": "Glean sources recommend a small first wave, described as three to four hero use cases in one place and three to five priorities in another. Size the wave to the interview capacity you actually have. High-impact, lower-effort use cases are your quick wins. A selected high-impact, higher-effort item can be a strategic bet that deserves deeper discovery. Partner guidance warns against prioritizing complexity, such as slow, hard-to-ship multi-system agents, for initial deployments."
+    },
+    {
+      "t": "h3",
+      "x": "Park, don't discard"
+    },
+    {
+      "t": "p",
+      "x": "Items that don't make the first wave go into a parked list, with the conditions for revisiting them. Examples: \"when the data owner is available,\" or \"after the first wave proves the measurement approach.\""
+    },
+    {
+      "t": "h3",
+      "x": "Turn a wishlist into choices"
+    },
+    {
+      "t": "p",
+      "x": "Glean's onboarding training describes the impact/effort matrix as the tool that stops a customer's wishlist from being treated as equally important. Impact is the potential business value against the priority you discussed. Effort covers complexity, data readiness, integrations, and the change required. The training also describes placing items on the matrix as a kind of negotiation with the customer about where to spend effort first."
+    },
+    {
+      "t": "p",
+      "x": "Glean's Visioning training sets the expected output: two to three use cases per line-of-business leader, an impact/effort analysis for each, and agreement on prioritization and the validation event."
+    },
+    {
+      "t": "figure",
+      "kind": "matrix",
+      "title": "The impact/effort matrix",
+      "alt": "A two-by-two matrix with effort on the horizontal axis and impact on the vertical axis. High impact and low effort: quick wins, prime first-wave candidates. High impact and high effort: strategic bets, select one or two. Low impact and low effort: nice-to-haves, keep for later. Low impact and high effort: deprioritize, with reasons.",
+      "caption": "",
+      "axes": {
+        "x": "Effort (low to high)",
+        "y": "Impact"
+      },
+      "quads": {
+        "tl": {
+          "label": "Quick wins",
+          "detail": "Prime first-wave candidates"
+        },
+        "tr": {
+          "label": "Strategic bets",
+          "detail": "Pick one or two for deeper discovery"
+        },
+        "bl": {
+          "label": "Nice-to-haves",
+          "detail": "Keep for later"
+        },
+        "br": {
+          "label": "Deprioritize",
+          "detail": "Park, with reasons"
+        }
+      }
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Six high-impact candidates remain. You have DITL capacity for three. Close the prioritization discussion."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Choose three using evidence, feasibility, and whether the owners can attend. For example, keep the two quick wins with available owners plus one strategic bet the sponsor cares about. Park the other three with revisit conditions. Ask for explicit agreement: \"Are we agreed these three go to Day-in-the-Life interviews?\" Then assign DITL participants and dates before the session ends."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 412,
+  "eyebrow": "Lesson 5 · about 6 min",
+  "claims": [
+    "C-0231",
+    "C-0232",
+    "C-0233",
+    "C-0234",
+    "C-0235",
+    "C-0236",
+    "C-0237"
+  ],
+  "sources": [
+    "S02",
+    "S04",
+    "S05",
+    "S29",
+    "S68"
+  ]
+}

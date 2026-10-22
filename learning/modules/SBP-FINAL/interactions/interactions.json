@@ -1,0 +1,16 @@
+{
+  "module_id": "SBP-FINAL",
+  "interactions": [
+    {
+      "interaction_id": "INT-SBP-FINAL-S999",
+      "screen_id": "SBP-FINAL-S999",
+      "kind": "graded_choice",
+      "lesson_id": "check",
+      "claims": [
+        "C-0711"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    }
+  ]
+}

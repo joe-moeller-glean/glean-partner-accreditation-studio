@@ -1,0 +1,216 @@
+{
+  "generated": "2026-10-22",
+  "tool": "tools/sbp/visual_qa.html",
+  "browser": "Chromium (Chrome/152.0.7977.167), Glean Tau headless in-app browser",
+  "packages": "learning/modules/<SCO>/ (the generated SCO folders zipped by build_sbp.py package), served from 127.0.0.1:8767",
+  "checks": [
+    "page horizontal scroll at 1280px and 320px (WCAG 1.4.10 reflow)",
+    "content spilling past the lesson panel outside an intentional scroll container",
+    "text contrast on settled styles: 4.5:1 normal, 3:1 large, 3:1 disabled controls",
+    "minimum font size 12px",
+    "clipped text in overflow:hidden containers",
+    "target size 24x24 for buttons, inputs, selects, textareas, summaries, radio labels",
+    "focus-visible outline rule and prefers-reduced-motion rule present",
+    "single full page per SCO: initial render, all worked responses revealed, and knowledge-check items started",
+    "lesson figures: each loads, fits inside the lesson panel, wide SVG above 640px and narrow SVG at or below 640px",
+    "figure SVG geometry (tools/sbp/figure_qa.html): 168 SVGs, 2633 text elements inside the viewBox and their boxes, no text overlap"
+  ],
+  "not_covered": "Pixel-level human review of screenshots. Local headless Chrome could not start inside the command sandbox, and the in-app headless screenshot is not returned for inspection.",
+  "results": [
+    {
+      "module_id": "SBP-101",
+      "build": "f3fb9b0de045cdb7c6d6b4ca84843e85b5a6096ef1cae331d7712e15d9cbc58b",
+      "sections": 9,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-102",
+      "build": "e75e19bf7fe6303262df2fac2d32303e633f26a66bdef3cb6bfbe4b7e8a2f144",
+      "sections": 8,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-103",
+      "build": "7a7906da90569e968c6b468b26105f2c76acf7bf6b1ae3ead3d7044f2bb1f3d4",
+      "sections": 9,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-104",
+      "build": "6c186d0edb09bdf665de35e89c17eba1c049e6808ac174b5666bfd33191b9394",
+      "sections": 10,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-105",
+      "build": "09b1d337a4790a39eda818c01209ad433568bd00e8df95644abe40b33f1d0000",
+      "sections": 10,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-106",
+      "build": "94a4a5b9600fe2bb1cb0117f07f9296a534ed39742d5bed5f4d41d723d01a473",
+      "sections": 11,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-107",
+      "build": "dfafd20ff8eebb99685ef81397b9d13a1d26121bfea358bb2dee59c38e2d14d4",
+      "sections": 10,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-108",
+      "build": "642f50bb4c49e24391ac4ae3af8eea327053d0a0d525fc03f7775e5822eb5c31",
+      "sections": 11,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-109",
+      "build": "837c7e031dda9da6d958beb219cc3232b35d1bbaebc4b22c4ba428016f1c2669",
+      "sections": 10,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-110",
+      "build": "0bdb3599078b47ad196ecd2f3a39966af434c8c18cd23135e5201ac352b61901",
+      "sections": 10,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-111",
+      "build": "4fb986c811f5982ec89c15eafb846c443613935822cdab1a0262d5e8ba3487da",
+      "sections": 10,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-112",
+      "build": "6d1422a191e953dc0c3d6e72a78dc1b3e7eb6b6a9f31f8dd685b10598eb79c0b",
+      "sections": 9,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-113",
+      "build": "fac51a3dce3fae8868f8c2239df8a22ef53396dcfab8dadcd1675c6593b60460",
+      "sections": 8,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-200",
+      "build": "d5c42b0253242d0a00b181d7f578c0200e3b41a7cf55ac3f6771dea9abd668c6",
+      "sections": 12,
+      "figures": 12,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    },
+    {
+      "module_id": "SBP-FINAL",
+      "build": "2f2bd9c74e1e563149c3ae3b8f3007c312ce265ca98e10190562926d70977093",
+      "sections": 2,
+      "figures": 0,
+      "widths": [
+        1280,
+        320
+      ],
+      "focus_visible_rule": true,
+      "reduced_motion_rule": true,
+      "failures": []
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "SBP-105-L02",
+  "lesson": "SBP-105-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Facilitate a timed agenda",
+  "nav": "2. Facilitate a timed agenda",
+  "objective": "Adapt the agenda to a 45-minute slot without dropping commitments.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Visioning time goes quickly. A timed agenda with visible checkpoints keeps the session on track toward its decisions."
+    },
+    {
+      "t": "h3",
+      "x": "A 60-minute working agenda"
+    },
+    {
+      "t": "table",
+      "caption": "A practical 60-minute agenda (course default)",
+      "head": [
+        "Segment",
+        "Minutes",
+        "Output"
+      ],
+      "rows": [
+        [
+          "Welcome and purpose",
+          "5",
+          "Shared understanding of the decision the group will make"
+        ],
+        [
+          "Context and outcomes",
+          "10",
+          "Business goals confirmed in the customer's words"
+        ],
+        [
+          "Opportunity discovery",
+          "20",
+          "Candidate workflows captured in the use case log"
+        ],
+        [
+          "Prioritization",
+          "20",
+          "Impact/effort placement and rationale agreed"
+        ],
+        [
+          "Commitments",
+          "5",
+          "Owners, next steps, and Day-in-the-Life participants"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "x": "This timing is the course's recommended default. It sits within the ranges in Glean's Visioning playbook, which allows 10–15 minutes for context, 15–20 for discovery, 15–20 for prioritization, and 5 for recap and next steps."
+    },
+    {
+      "t": "h3",
+      "x": "Use visible checkpoints"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**By minute 15:** the business outcome is clear.",
+        "**By minute 35:** the candidate list is captured.",
+        "**By minute 55:** priorities and their rationale are agreed."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Assign a dedicated note-taker so the facilitator can listen."
+    },
+    {
+      "t": "h3",
+      "x": "When you get less time"
+    },
+    {
+      "t": "p",
+      "x": "Durations differ across Glean sources. When you have less time, cut scope deliberately: cover fewer departments, pre-populate the list from pre-work, and shorten context. Always keep **prioritization** and the **owner and next-step commitments**. Without them, the session produces no decision. If you can't complete enough discovery properly, schedule a second session rather than rushing."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Visible checkpoints keep a 60-minute session on track. If you miss one, cut discovery, not prioritization."
+    },
+    {
+      "t": "figure",
+      "kind": "bars",
+      "title": "Where the 60 minutes go",
+      "alt": "A bar chart of the 60-minute Visioning agenda: welcome and purpose 5 minutes, context and outcomes 10, opportunity discovery 20, prioritization 20, and commitments 5. Prioritization is emphasized because it should never be cut.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Welcome and purpose",
+          "value": 5.0,
+          "note": "min",
+          "emph": false
+        },
+        {
+          "label": "Context and outcomes",
+          "value": 10.0,
+          "note": "min",
+          "emph": false
+        },
+        {
+          "label": "Opportunity discovery",
+          "value": 20.0,
+          "note": "min",
+          "emph": false
+        },
+        {
+          "label": "Prioritization",
+          "value": 20.0,
+          "note": "min",
+          "emph": true
+        },
+        {
+          "label": "Commitments",
+          "value": 5.0,
+          "note": "min",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "The customer can only give you 45 minutes. Adapt the agenda without dropping commitments."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "Welcome and purpose: 3 minutes.",
+        "Context: 5 minutes, using a list pre-populated from pre-work.",
+        "Discovery: 12 minutes, limited to one department.",
+        "Prioritization: 20 minutes.",
+        "Commitments: 5 minutes."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "If discovery isn't complete, agree a short second session for the remaining department rather than skipping prioritization or owners."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 307,
+  "eyebrow": "Lesson 2 · about 6 min",
+  "claims": [
+    "C-0210",
+    "C-0211",
+    "C-0212",
+    "C-0213",
+    "C-0214",
+    "C-0215",
+    "C-0216"
+  ],
+  "sources": [
+    "S02",
+    "S07",
+    "S08",
+    "S26"
+  ]
+}

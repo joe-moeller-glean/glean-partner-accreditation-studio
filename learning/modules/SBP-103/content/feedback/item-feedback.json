@@ -1,0 +1,37 @@
+{
+  "module_id": "SBP-103",
+  "feedback": {
+    "SBP-103-Q001": {
+      "correct": "Correct. The referenced process is generally SE-led for DITL while roles collaborate and may adapt with preparation.",
+      "incorrect": "Review the relevant lesson and evidence. The referenced process is generally SE-led for DITL while roles collaborate and may adapt with preparation."
+    },
+    "SBP-103-Q002": {
+      "correct": "Correct. A co-led progression uses domain strength while managing product and process knowledge gaps.",
+      "incorrect": "Review the relevant lesson and evidence. A co-led progression uses domain strength while managing product and process knowledge gaps."
+    },
+    "SBP-103-Q003": {
+      "correct": "Correct. Impact, real work and feasibility require complementary customer evidence and accountability.",
+      "incorrect": "Review the relevant lesson and evidence. Impact, real work and feasibility require complementary customer evidence and accountability."
+    },
+    "SBP-103-Q004": {
+      "correct": "Correct. Engagement depth depends on need and capacity; internal routing and commitments require confirmation.",
+      "incorrect": "Review the relevant lesson and evidence. Engagement depth depends on need and capacity; internal routing and commitments require confirmation."
+    },
+    "SBP-103-Q005": {
+      "correct": "Correct. Product support accountability is distinct from the partner's advisory or scoped build services.",
+      "incorrect": "Review the relevant lesson and evidence. Product support accountability is distinct from the partner's advisory or scoped build services."
+    },
+    "SBP-103-Q006": {
+      "correct": "Correct. Product feasibility, write controls and scope need verification; a draft or enthusiasm is not evidence.",
+      "incorrect": "Review the relevant lesson and evidence. Product feasibility, write controls and scope need verification; a draft or enthusiasm is not evidence."
+    },
+    "SBP-103-Q007": {
+      "correct": "Correct. Clear responsibility prevents ambiguous commitments and lost actions.",
+      "incorrect": "Review the relevant lesson and evidence. Clear responsibility prevents ambiguous commitments and lost actions."
+    },
+    "SBP-103-Q008": {
+      "correct": "Correct. Services need explicit outcomes, dependencies, exclusions and contractual review.",
+      "incorrect": "Review the relevant lesson and evidence. Services need explicit outcomes, dependencies, exclusions and contractual review."
+    }
+  }
+}

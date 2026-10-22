@@ -1,0 +1,37 @@
+{
+  "module_id": "SBP-106",
+  "feedback": {
+    "SBP-106-Q001": {
+      "correct": "Correct. The chain starts with customer purpose and exposes workflow and evidence dependencies.",
+      "incorrect": "Review the relevant lesson and evidence. The chain starts with customer purpose and exposes workflow and evidence dependencies."
+    },
+    "SBP-106-Q002": {
+      "correct": "Correct. A recent specific example yields testable detail without leading the witness.",
+      "incorrect": "Review the relevant lesson and evidence. A recent specific example yields testable detail without leading the witness."
+    },
+    "SBP-106-Q003": {
+      "correct": "Correct. Impact needs reach and consequence; implementation complexity belongs in effort.",
+      "incorrect": "Review the relevant lesson and evidence. Impact needs reach and consequence; implementation complexity belongs in effort."
+    },
+    "SBP-106-Q004": {
+      "correct": "Correct. Simple wording does not imply simple delivery; feasibility and control requirements matter.",
+      "incorrect": "Review the relevant lesson and evidence. Simple wording does not imply simple delivery; feasibility and control requirements matter."
+    },
+    "SBP-106-Q005": {
+      "correct": "Correct. The matrix separates business impact from implementation effort; strategic bets can be phased.",
+      "incorrect": "Review the relevant lesson and evidence. The matrix separates business impact from implementation effort; strategic bets can be phased."
+    },
+    "SBP-106-Q006": {
+      "correct": "Correct. A prioritized idea needs accountable discovery and measurement steps to become actionable.",
+      "incorrect": "Review the relevant lesson and evidence. A prioritized idea needs accountable discovery and measurement steps to become actionable."
+    },
+    "SBP-106-Q007": {
+      "correct": "Correct. Impact can include risk; defensible rationale matters more than a single volume proxy.",
+      "incorrect": "Review the relevant lesson and evidence. Impact can include risk; defensible rationale matters more than a single volume proxy."
+    },
+    "SBP-106-Q008": {
+      "correct": "Correct. The richer framework is useful but its dimensions require interpretation; do not automate ambiguous scoring.",
+      "incorrect": "Review the relevant lesson and evidence. The richer framework is useful but its dimensions require interpretation; do not automate ambiguous scoring."
+    }
+  }
+}

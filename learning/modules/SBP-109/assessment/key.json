@@ -1,0 +1,61 @@
+{
+  "module_id": "SBP-109",
+  "key": {
+    "SBP-109-Q001": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. The retrieved checklist specifies 1–3 business days for the readiness work.",
+        "incorrect": "Review the relevant lesson and evidence. The retrieved checklist specifies 1–3 business days for the readiness work."
+      }
+    },
+    "SBP-109-Q002": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. Champion support is not the same as executive alignment or investment authority.",
+        "incorrect": "Review the relevant lesson and evidence. Champion support is not the same as executive alignment or investment authority."
+      }
+    },
+    "SBP-109-Q003": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. The executive meeting should focus on customer evidence and decisions, not a long product tour.",
+        "incorrect": "Review the relevant lesson and evidence. The executive meeting should focus on customer evidence and decisions, not a long product tour."
+      }
+    },
+    "SBP-109-Q004": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. A hypothesis should be defended through transparency and a measurement plan, not overstated certainty.",
+        "incorrect": "Review the relevant lesson and evidence. A hypothesis should be defended through transparency and a measurement plan, not overstated certainty."
+      }
+    },
+    "SBP-109-Q005": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. Validation scope should follow the decision and necessary evidence; pilots need separate justification and gates.",
+        "incorrect": "Review the relevant lesson and evidence. Validation scope should follow the decision and necessary evidence; pilots need separate justification and gates."
+      }
+    },
+    "SBP-109-Q006": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. The checklist requires concrete commitments and opportunity/plan updates while protecting internal data.",
+        "incorrect": "Review the relevant lesson and evidence. The checklist requires concrete commitments and opportunity/plan updates while protecting internal data."
+      }
+    },
+    "SBP-109-Q007": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. Pre-agreed criteria make evaluation interpretable and reduce scope or success-definition drift.",
+        "incorrect": "Review the relevant lesson and evidence. Pre-agreed criteria make evaluation interpretable and reduce scope or success-definition drift."
+      }
+    },
+    "SBP-109-Q008": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. Decisions can be conditional; document exactly what is accepted and what must still be proven.",
+        "incorrect": "Review the relevant lesson and evidence. Decisions can be conditional; document exactly what is accepted and what must still be proven."
+      }
+    }
+  }
+}

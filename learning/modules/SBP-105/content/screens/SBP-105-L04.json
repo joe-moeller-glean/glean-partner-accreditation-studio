@@ -1,0 +1,165 @@
+{
+  "id": "SBP-105-L04",
+  "lesson": "SBP-105-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Capture the broad use case inventory",
+  "nav": "4. Capture the broad use case inventory",
+  "objective": "Turn three vague wishes into rows: better onboarding, faster sales, smarter support.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The use case log is Visioning's main artifact. Each row should be specific enough to explore in a Day-in-the-Life session."
+    },
+    {
+      "t": "h3",
+      "x": "What each row captures"
+    },
+    {
+      "t": "table",
+      "caption": "Use case log fields",
+      "head": [
+        "Field",
+        "Example (fictional support team)"
+      ],
+      "rows": [
+        [
+          "Use case (job to be done)",
+          "Find approved troubleshooting guidance for a newly opened case"
+        ],
+        [
+          "Persona and department",
+          "Tier 1 support agent, customer support"
+        ],
+        [
+          "Current workflow",
+          "Searches the knowledge base, ticket history, and team chat; asks a peer"
+        ],
+        [
+          "Pain",
+          "Slow first response; inconsistent answers"
+        ],
+        [
+          "Data sources",
+          "Knowledge base, ticketing system, team chat"
+        ],
+        [
+          "Impact rationale",
+          "High volume; affects customer satisfaction and cost"
+        ],
+        [
+          "Effort rationale",
+          "Content sources likely reachable; article quality unknown"
+        ],
+        [
+          "Uncertainties",
+          "Is the knowledge base current? Who owns it?"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Specific, not vague"
+    },
+    {
+      "t": "p",
+      "x": "\"Improve support\" is too broad. \"Find approved troubleshooting guidance for a newly opened support case\" names an actor, a trigger, and a task you can observe. When participants describe the same need differently, cluster the duplicates but keep a link to the original speaker or team."
+    },
+    {
+      "t": "h3",
+      "x": "Rate with evidence, not opinion"
+    },
+    {
+      "t": "p",
+      "x": "Don't settle impact and effort on the facilitator's opinion. Ask users, business owners, and technical owners for the evidence behind each rating. Glean's Blueprint guidance says to be realistic about effort: ask how many connectors are needed, how much historical data must be crawled, and what else must be set up for the workflow."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A use case row is specific enough when someone else could interview the right people about it tomorrow."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Anatomy of a use case row",
+      "alt": "Six cards showing what a use case row captures: the job to be done, the persona and department, the current workflow, the pain, the data sources, and the impact and effort rationale with uncertainties.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Job to be done",
+          "detail": "A specific task, not a wish",
+          "emph": false
+        },
+        {
+          "label": "Persona and department",
+          "detail": "Who does the work",
+          "emph": false
+        },
+        {
+          "label": "Current workflow",
+          "detail": "How it happens today",
+          "emph": false
+        },
+        {
+          "label": "Pain",
+          "detail": "What goes wrong, and what it costs",
+          "emph": false
+        },
+        {
+          "label": "Data sources",
+          "detail": "Where the knowledge lives",
+          "emph": false
+        },
+        {
+          "label": "Rationale and unknowns",
+          "detail": "Why it ranks where it does",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Turn three vague wishes into specific use case rows: \"better onboarding,\" \"faster sales,\" and \"smarter support.\""
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Onboarding:** a new HR generalist finds the correct procedure for a leave request in their first month. Systems: HR knowledge base and policy documents. Outcome: time to proficiency. Measurement gap: there is no current baseline.",
+        "**Sales:** an account executive prepares for a renewal call with the account's open issues and usage notes. Systems: CRM, support tickets, and notes. Outcome: preparation time and renewal quality. Gap: who owns the measure.",
+        "**Support:** a tier 1 agent finds approved troubleshooting guidance for a new case. Systems: knowledge base, tickets, and chat. Outcome: handle time, with resolution quality as a guardrail. Gap: knowledge-base currency."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "The final scope stays customer-confirmed; these rows are drafts."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 411,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0224",
+    "C-0225",
+    "C-0226",
+    "C-0227",
+    "C-0228",
+    "C-0229",
+    "C-0230"
+  ],
+  "sources": [
+    "S02",
+    "S05",
+    "S26"
+  ]
+}

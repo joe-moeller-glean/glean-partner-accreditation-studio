@@ -1,0 +1,102 @@
+{
+  "id": "SBP-200-X04",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Capstone · Rubric",
+  "title": "How assessors score your submission",
+  "nav": "Rubric",
+  "body": "Proposed pass rule: Proposed: ≥80/100 and every critical gate Passed; all dimensions must be scored.",
+  "table": {
+    "caption": "Capstone rubric (proposed, 100 points)",
+    "head": [
+      "ID",
+      "Dimension",
+      "Points",
+      "Required evidence",
+      "Full-credit anchor",
+      "Insufficient anchor"
+    ],
+    "rows": [
+      [
+        "R01",
+        "Preparation and value hypothesis",
+        "10",
+        "A01; A02; A03; A04",
+        "Clear hypothesis tied to scenario evidence; all critical roles and go/narrow logic included.",
+        "Generic pitch, unsupported customer facts or no readiness review."
+      ],
+      [
+        "R02",
+        "Visioning facilitation",
+        "10",
+        "A05; live/recorded segment",
+        "Outcome-led, non-leading, captures evidence and obtains next-step agreement.",
+        "Product tour or unbounded brainstorming with no customer evidence."
+      ],
+      [
+        "R03",
+        "Use case inventory and prioritization",
+        "15",
+        "A06; A07",
+        "Priorities defensible; business/technical owners, dependencies and metric plan present.",
+        "All ideas marked quick wins or major blockers ignored."
+      ],
+      [
+        "R04",
+        "Current-state workflow evidence",
+        "10",
+        "A08; A09 (two workflows)",
+        "Two detailed traceable maps with no unit confusion and honest gaps.",
+        "Missing map, invented baseline or conflated wait and labor."
+      ],
+      [
+        "R05",
+        "Future-state feasibility and controls",
+        "10",
+        "A09; playback log",
+        "Two feasible hypothesis maps; retained controls and reviewed corrections.",
+        "Unsupported automation, removed essential controls or hidden access risks."
+      ],
+      [
+        "R06",
+        "Business value model and uncertainty",
+        "20",
+        "A10; A11; A12; ROI model",
+        "All material assumptions traceable; downside visible; benefit type and sensitivity explained.",
+        "Material formula/unit error, guaranteed ROI, invented evidence or capacity claimed as cash."
+      ],
+      [
+        "R07",
+        "Executive decision story",
+        "10",
+        "A13; 8–10-minute readout",
+        "Concise decision-led narrative, credible challenge handling and conditional decisions captured.",
+        "Generic demo, misleading claims or no decision request."
+      ],
+      [
+        "R08",
+        "Validation path and MAP",
+        "10",
+        "A14; A15; A16",
+        "Recommendation fits unresolved question; stop rules and agreed/proposed dates clear.",
+        "Unqualified pilot promise, absent criteria or no accountable action plan."
+      ],
+      [
+        "R09",
+        "Handoff, sources and responsible AI",
+        "5",
+        "A17; A18; A19; A20",
+        "Complete versioned manifest, risks/exclusions and source/AI review record.",
+        "Core artifacts missing, confidential data exposed or AI treated as approver."
+      ]
+    ]
+  },
+  "claims": [
+    "C-0701"
+  ],
+  "sources": [
+    "S54",
+    "S55"
+  ],
+  "required": true
+}

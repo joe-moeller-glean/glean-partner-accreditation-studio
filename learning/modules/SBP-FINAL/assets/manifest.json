@@ -1,0 +1,15 @@
+{
+  "module_id": "SBP-FINAL",
+  "assets": [
+    {
+      "asset_id": "SBP-FINAL-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    }
+  ]
+}

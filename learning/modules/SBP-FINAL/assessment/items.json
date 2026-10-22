@@ -1,0 +1,3009 @@
+{
+  "module_id": "SBP-FINAL",
+  "mastery_score": 80,
+  "draw": 44,
+  "final_draws": {
+    "SBP-101": 3,
+    "SBP-102": 3,
+    "SBP-103": 3,
+    "SBP-104": 3,
+    "SBP-105": 4,
+    "SBP-106": 4,
+    "SBP-107": 4,
+    "SBP-108": 4,
+    "SBP-109": 4,
+    "SBP-110": 3,
+    "SBP-111": 3,
+    "SBP-112": 3,
+    "SBP-113": 3
+  },
+  "items": [
+    {
+      "id": "SBP-101-Q001",
+      "objective_id": "SBP-101-L01",
+      "module_id": "SBP-101",
+      "stem": "What is the primary purpose of the Blueprint Consultation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guarantee a financial return before discovery."
+        },
+        {
+          "id": "b",
+          "text": "Provide a free production deployment to every interested prospect."
+        },
+        {
+          "id": "c",
+          "text": "Replace qualification with a long product demonstration."
+        },
+        {
+          "id": "d",
+          "text": "Connect prioritized workflows and measurable value to a sponsored investment and validation decision."
+        }
+      ],
+      "claims": [
+        "C-0044"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q002",
+      "objective_id": "SBP-101-L02",
+      "module_id": "SBP-101",
+      "stem": "Which sequence best represents the Blueprint customer conversations?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Visioning, DITL interviews, Executive Validation."
+        },
+        {
+          "id": "b",
+          "text": "Architecture certification, agent build, renewal."
+        },
+        {
+          "id": "c",
+          "text": "Pilot approval, general product training, procurement."
+        },
+        {
+          "id": "d",
+          "text": "Executive Validation, pilot deployment, Visioning."
+        }
+      ],
+      "claims": [
+        "C-0045"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q003",
+      "objective_id": "SBP-101-L03",
+      "module_id": "SBP-101",
+      "stem": "Which statement is a business outcome rather than merely an activity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reduce support handling cost while maintaining resolution quality."
+        },
+        {
+          "id": "b",
+          "text": "Create ten agent ideas."
+        },
+        {
+          "id": "c",
+          "text": "Connect one more repository regardless of use."
+        },
+        {
+          "id": "d",
+          "text": "Hold three AI brainstorming meetings."
+        }
+      ],
+      "claims": [
+        "C-0046"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q004",
+      "objective_id": "SBP-101-L04",
+      "module_id": "SBP-101",
+      "stem": "A partner has strong industry knowledge. What is the best use of it in Blueprint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Translate customer goals into grounded workflow discovery and an agreed services roadmap."
+        },
+        {
+          "id": "b",
+          "text": "Bypass the Glean account team on pilot approvals."
+        },
+        {
+          "id": "c",
+          "text": "Treat every discovery finding as signed delivery scope."
+        },
+        {
+          "id": "d",
+          "text": "Promise unsupported features to differentiate the proposal."
+        }
+      ],
+      "claims": [
+        "C-0047"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q005",
+      "objective_id": "SBP-101-L05",
+      "module_id": "SBP-101",
+      "stem": "How does Sales Blueprinting differ from a post-sales implementation blueprint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is simply another name for a connector configuration guide."
+        },
+        {
+          "id": "b",
+          "text": "It replaces all architecture review and security work."
+        },
+        {
+          "id": "c",
+          "text": "It is only a technical diagram with no business owner."
+        },
+        {
+          "id": "d",
+          "text": "It centers on outcomes, discovery, value and the evaluation decision."
+        }
+      ],
+      "claims": [
+        "C-0048"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q006",
+      "objective_id": "SBP-101-L06",
+      "module_id": "SBP-101",
+      "stem": "Which pack is most decision-ready?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A customer logo and an internal benchmark."
+        },
+        {
+          "id": "b",
+          "text": "A list of product features with no workflow context."
+        },
+        {
+          "id": "c",
+          "text": "A polished demo and an unexplained savings headline."
+        },
+        {
+          "id": "d",
+          "text": "Priorities, owners, workflow evidence, labeled value, success criteria and next decisions."
+        }
+      ],
+      "claims": [
+        "C-0049"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q007",
+      "objective_id": "SBP-101-L06",
+      "module_id": "SBP-101",
+      "stem": "A sponsor asks whether Blueprint guarantees a pilot. What should you say?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No; it helps agree the lightest sufficient validation, with pilots justified and separately gated."
+        },
+        {
+          "id": "b",
+          "text": "Yes; all customers must run a pilot after Visioning."
+        },
+        {
+          "id": "c",
+          "text": "No validation can happen until a full production contract is signed."
+        },
+        {
+          "id": "d",
+          "text": "Yes; completion automatically creates a pilot entitlement."
+        }
+      ],
+      "claims": [
+        "C-0050"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-101-Q008",
+      "objective_id": "SBP-101-L06",
+      "module_id": "SBP-101",
+      "stem": "A learner sees AISBS in this workbook. What is its status?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A replacement for all technical certifications."
+        },
+        {
+          "id": "b",
+          "text": "A proposed credential name and design requiring program-owner confirmation."
+        },
+        {
+          "id": "c",
+          "text": "An already approved global Glean certification policy."
+        },
+        {
+          "id": "d",
+          "text": "A promise that Impartner has already published the course."
+        }
+      ],
+      "claims": [
+        "C-0051"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q001",
+      "objective_id": "SBP-102-L01",
+      "module_id": "SBP-102",
+      "stem": "Which activities primarily occur in Stage 2 in the referenced sales motion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only renewal pricing negotiations."
+        },
+        {
+          "id": "b",
+          "text": "Contract signature and booked revenue recognition."
+        },
+        {
+          "id": "c",
+          "text": "Visioning and DITL use case mapping."
+        },
+        {
+          "id": "d",
+          "text": "Production incident remediation."
+        }
+      ],
+      "claims": [
+        "C-0092"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q002",
+      "objective_id": "SBP-102-L02",
+      "module_id": "SBP-102",
+      "stem": "A workshop happened but no priorities or owners were captured. What is the right action?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resolve the missing evidence before claiming the gate is complete."
+        },
+        {
+          "id": "b",
+          "text": "Move the stage because the meeting occurred."
+        },
+        {
+          "id": "c",
+          "text": "Invent plausible priorities in the CRM."
+        },
+        {
+          "id": "d",
+          "text": "Launch a pilot to discover the priorities later."
+        }
+      ],
+      "claims": [
+        "C-0093"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q003",
+      "objective_id": "SBP-102-L03",
+      "module_id": "SBP-102",
+      "stem": "What is a core Stage 3 decision?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Authorize all future custom development."
+        },
+        {
+          "id": "b",
+          "text": "Prove that procurement is automatically complete."
+        },
+        {
+          "id": "c",
+          "text": "Confirm executive sponsorship, success criteria and the validation path."
+        },
+        {
+          "id": "d",
+          "text": "Choose the slide theme for a generic demo."
+        }
+      ],
+      "claims": [
+        "C-0094"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q004",
+      "objective_id": "SBP-102-L04",
+      "module_id": "SBP-102",
+      "stem": "Which Blueprint artifact most directly supports the Metrics dimension of MEDDPICCS?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An unverified list of competitor logos."
+        },
+        {
+          "id": "b",
+          "text": "A metric card with definition, baseline plan, target, source and owner."
+        },
+        {
+          "id": "c",
+          "text": "A generic product overview."
+        },
+        {
+          "id": "d",
+          "text": "A meeting invite without notes."
+        }
+      ],
+      "claims": [
+        "C-0095"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q005",
+      "objective_id": "SBP-102-L05",
+      "module_id": "SBP-102",
+      "stem": "A strong use case lacks a baseline owner. Which recovery is best?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ignore the issue if the demo is impressive."
+        },
+        {
+          "id": "b",
+          "text": "Restart every workshop with a larger audience."
+        },
+        {
+          "id": "c",
+          "text": "Use an industry average as the measured customer baseline."
+        },
+        {
+          "id": "d",
+          "text": "Assign the customer data owner and a focused measurement-design action."
+        }
+      ],
+      "claims": [
+        "C-0096"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q006",
+      "objective_id": "SBP-102-L06",
+      "module_id": "SBP-102",
+      "stem": "A sponsor accepts value, but security and signing authority are unresolved. How should the MAP treat them?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mark them complete because value was accepted."
+        },
+        {
+          "id": "b",
+          "text": "Separate workstreams with named owners, dependencies and decision dates."
+        },
+        {
+          "id": "c",
+          "text": "Hide them until after deployment."
+        },
+        {
+          "id": "d",
+          "text": "Assign them to the AI drafting tool without review."
+        }
+      ],
+      "claims": [
+        "C-0097"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q007",
+      "objective_id": "SBP-102-L06",
+      "module_id": "SBP-102",
+      "stem": "Which statement about the referenced CRM stages is safest to publish to partners?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Older enablement decks override the live process."
+        },
+        {
+          "id": "b",
+          "text": "Teach the business gates and revalidate dated internal labels and navigation."
+        },
+        {
+          "id": "c",
+          "text": "Every current Salesforce field is permanently fixed."
+        },
+        {
+          "id": "d",
+          "text": "A partner may self-approve any internal stage gate."
+        }
+      ],
+      "claims": [
+        "C-0098"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q008",
+      "objective_id": "SBP-102-L06",
+      "module_id": "SBP-102",
+      "stem": "Who should resolve a missing sponsor path before expensive validation work?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The customer support queue alone."
+        },
+        {
+          "id": "b",
+          "text": "The SCORM runtime automatically."
+        },
+        {
+          "id": "c",
+          "text": "The account team, with AE ownership of sponsor access and qualification."
+        },
+        {
+          "id": "d",
+          "text": "The learner by inventing an Economic Buyer."
+        }
+      ],
+      "claims": [
+        "C-0099"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q001",
+      "objective_id": "SBP-103-L01",
+      "module_id": "SBP-103",
+      "stem": "Which role normally leads technical/workflow depth in DITL?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An uninformed observer."
+        },
+        {
+          "id": "b",
+          "text": "A certificate-generation script."
+        },
+        {
+          "id": "c",
+          "text": "Procurement alone."
+        },
+        {
+          "id": "d",
+          "text": "SE, with AE and agreed partner contributions."
+        }
+      ],
+      "claims": [
+        "C-0142"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q002",
+      "objective_id": "SBP-103-L02",
+      "module_id": "SBP-103",
+      "stem": "A domain expert partner is new to Glean. Which model is most appropriate initially?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Require the customer to certify the partner first."
+        },
+        {
+          "id": "b",
+          "text": "Make unilateral product and commercial commitments."
+        },
+        {
+          "id": "c",
+          "text": "Skip all preparation because industry expertise is enough."
+        },
+        {
+          "id": "d",
+          "text": "Co-facilitate with Glean technical backup and reviewed outputs."
+        }
+      ],
+      "claims": [
+        "C-0143"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q003",
+      "objective_id": "SBP-103-L03",
+      "module_id": "SBP-103",
+      "stem": "Which stakeholder mix best covers workflow discovery?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only the vendor's sales team."
+        },
+        {
+          "id": "b",
+          "text": "Only procurement and legal."
+        },
+        {
+          "id": "c",
+          "text": "Business owner, representative frontline user and relevant technical/data owner, with sponsor path."
+        },
+        {
+          "id": "d",
+          "text": "Only senior executives with no workflow experience."
+        }
+      ],
+      "claims": [
+        "C-0144"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q004",
+      "objective_id": "SBP-103-L04",
+      "module_id": "SBP-103",
+      "stem": "When should value-specialist help be considered?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Never; all estimates must be generated without review."
+        },
+        {
+          "id": "b",
+          "text": "Only after all contracts expire."
+        },
+        {
+          "id": "c",
+          "text": "When complexity, attribution or executive stakes exceed a simple self-serve case."
+        },
+        {
+          "id": "d",
+          "text": "For every deal as a guaranteed customer entitlement."
+        }
+      ],
+      "claims": [
+        "C-0145"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q005",
+      "objective_id": "SBP-103-L05",
+      "module_id": "SBP-103",
+      "stem": "A partner-built agent appears to expose a platform defect. What is the best route?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Use the Glean product support path with safe diagnostic evidence."
+        },
+        {
+          "id": "b",
+          "text": "Expand access to every repository to work around it."
+        },
+        {
+          "id": "c",
+          "text": "Promise the partner will change the Glean platform code."
+        },
+        {
+          "id": "d",
+          "text": "Ignore the defect and call it a feature."
+        }
+      ],
+      "claims": [
+        "C-0146"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q006",
+      "objective_id": "SBP-103-L06",
+      "module_id": "SBP-103",
+      "stem": "A partner wants to promise an unverified write-back integration. What should happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tell the customer write actions never need review."
+        },
+        {
+          "id": "b",
+          "text": "Move it into the SOW without an assumption note."
+        },
+        {
+          "id": "c",
+          "text": "Pause the claim and assign feasibility/security validation before commitment."
+        },
+        {
+          "id": "d",
+          "text": "Approve it because it appears in a generated diagram."
+        }
+      ],
+      "claims": [
+        "C-0147"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q007",
+      "objective_id": "SBP-103-L06",
+      "module_id": "SBP-103",
+      "stem": "What should a deal-specific operating agreement clarify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "That all decisions are jointly owned with no accountable person."
+        },
+        {
+          "id": "b",
+          "text": "Only the meeting background image."
+        },
+        {
+          "id": "c",
+          "text": "Communication, artifact ownership, technical answers, approvals and follow-up owners."
+        },
+        {
+          "id": "d",
+          "text": "That the partner may bypass all internal gates."
+        }
+      ],
+      "claims": [
+        "C-0148"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q008",
+      "objective_id": "SBP-103-L06",
+      "module_id": "SBP-103",
+      "stem": "Which statement about partner services is accurate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A services catalog guarantees any custom capability."
+        },
+        {
+          "id": "b",
+          "text": "Partner-led means Glean has no account responsibility."
+        },
+        {
+          "id": "c",
+          "text": "Every workshop automatically creates a signed SOW."
+        },
+        {
+          "id": "d",
+          "text": "Discovery can inform a reviewed scope but does not itself authorize delivery work."
+        }
+      ],
+      "claims": [
+        "C-0149"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q001",
+      "objective_id": "SBP-104-L01",
+      "module_id": "SBP-104",
+      "stem": "Two account sources disagree on the current priority. What should the prep pack do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Silently choose the more exciting claim."
+        },
+        {
+          "id": "b",
+          "text": "Delete all citations so no conflict is visible."
+        },
+        {
+          "id": "c",
+          "text": "Invent a third priority that combines them."
+        },
+        {
+          "id": "d",
+          "text": "Record both sources and dates, flag the conflict and validate with the customer."
+        }
+      ],
+      "claims": [
+        "C-0194"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q002",
+      "objective_id": "SBP-104-L02",
+      "module_id": "SBP-104",
+      "stem": "What belongs in the three-Whys value hypothesis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Why Change, Why Now and Why Glean for this specific problem."
+        },
+        {
+          "id": "b",
+          "text": "Only a list of product features."
+        },
+        {
+          "id": "c",
+          "text": "Guaranteed ROI, guaranteed adoption and guaranteed timing."
+        },
+        {
+          "id": "d",
+          "text": "Why a longer slide deck, why a bigger room and why more meetings."
+        }
+      ],
+      "claims": [
+        "C-0195"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q003",
+      "objective_id": "SBP-104-L03",
+      "module_id": "SBP-104",
+      "stem": "Which metric hypothesis is best formed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Productivity will improve a lot."
+        },
+        {
+          "id": "b",
+          "text": "Every user will be active all day."
+        },
+        {
+          "id": "c",
+          "text": "Handle time for an agreed case class, measured in ITSM, linked to throughput and quality."
+        },
+        {
+          "id": "d",
+          "text": "The customer already saves 40% because a peer does."
+        }
+      ],
+      "claims": [
+        "C-0196"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q004",
+      "objective_id": "SBP-104-L04",
+      "module_id": "SBP-104",
+      "stem": "The pre-work is empty and sponsorship is unconfirmed. What is best?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Start provisioning a pilot immediately."
+        },
+        {
+          "id": "b",
+          "text": "Fill in the worksheet with invented customer facts."
+        },
+        {
+          "id": "c",
+          "text": "Reschedule the full workshop or narrow it to qualification/alignment."
+        },
+        {
+          "id": "d",
+          "text": "Proceed and mark every prerequisite passed."
+        }
+      ],
+      "claims": [
+        "C-0197"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q005",
+      "objective_id": "SBP-104-L05",
+      "module_id": "SBP-104",
+      "stem": "What does the supplied customer email template request about pre-work timing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Return it two days before the session."
+        },
+        {
+          "id": "b",
+          "text": "Return it only after the contract is signed."
+        },
+        {
+          "id": "c",
+          "text": "Return it exactly six months before the session."
+        },
+        {
+          "id": "d",
+          "text": "Do not send pre-work to customers."
+        }
+      ],
+      "claims": [
+        "C-0198"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q006",
+      "objective_id": "SBP-104-L06",
+      "module_id": "SBP-104",
+      "stem": "Which rehearsal output is most useful?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agreed hypothesis, roles, agenda, known gaps, tools and expected decisions."
+        },
+        {
+          "id": "b",
+          "text": "A promise that all customer questions will have immediate answers."
+        },
+        {
+          "id": "c",
+          "text": "A more dramatic transition animation."
+        },
+        {
+          "id": "d",
+          "text": "An internal benchmark presented as customer fact."
+        }
+      ],
+      "claims": [
+        "C-0199"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q007",
+      "objective_id": "SBP-104-L06",
+      "module_id": "SBP-104",
+      "stem": "A peer case study suggests a large benefit. How should it be used in prep?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As the prospect's measured baseline."
+        },
+        {
+          "id": "b",
+          "text": "As permission to omit DITL."
+        },
+        {
+          "id": "c",
+          "text": "As an approved analogy or hypothesis, not as this prospect's achieved outcome."
+        },
+        {
+          "id": "d",
+          "text": "As a guarantee that the same result will occur."
+        }
+      ],
+      "claims": [
+        "C-0200"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q008",
+      "objective_id": "SBP-104-L06",
+      "module_id": "SBP-104",
+      "stem": "Who must confirm a proposed customer's baseline and measurement feasibility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The certificate template."
+        },
+        {
+          "id": "b",
+          "text": "The slide-generation model alone."
+        },
+        {
+          "id": "c",
+          "text": "The relevant customer metric/data owner with the account team."
+        },
+        {
+          "id": "d",
+          "text": "Any unrelated prospect with a similar logo."
+        }
+      ],
+      "claims": [
+        "C-0201"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q001",
+      "objective_id": "SBP-105-L01",
+      "module_id": "SBP-105",
+      "stem": "A customer already has a useful workflow list. How should Visioning change?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ignore it and run a generic AI lecture."
+        },
+        {
+          "id": "b",
+          "text": "Assume all listed workflows are equally feasible."
+        },
+        {
+          "id": "c",
+          "text": "Skip the business outcome discussion permanently."
+        },
+        {
+          "id": "d",
+          "text": "Spend more time clarifying and prioritizing the list."
+        }
+      ],
+      "claims": [
+        "C-0248"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q002",
+      "objective_id": "SBP-105-L02",
+      "module_id": "SBP-105",
+      "stem": "Which segment must be preserved when shortening a Visioning agenda?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decorative slide transitions."
+        },
+        {
+          "id": "b",
+          "text": "Prioritization and explicit owner/next-step commitments."
+        },
+        {
+          "id": "c",
+          "text": "A long product-history section."
+        },
+        {
+          "id": "d",
+          "text": "Unrelated feature announcements."
+        }
+      ],
+      "claims": [
+        "C-0249"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q003",
+      "objective_id": "SBP-105-L03",
+      "module_id": "SBP-105",
+      "stem": "Which opening question is most consultative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Which ten features should we sell you today?"
+        },
+        {
+          "id": "b",
+          "text": "Can we agree now to start an unscoped pilot?"
+        },
+        {
+          "id": "c",
+          "text": "Which outcome matters this quarter, and where does information friction block it?"
+        },
+        {
+          "id": "d",
+          "text": "Would our agent definitely save you three hours daily?"
+        }
+      ],
+      "claims": [
+        "C-0250"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q004",
+      "objective_id": "SBP-105-L04",
+      "module_id": "SBP-105",
+      "stem": "Which use case is most specific enough for DITL?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Find approved troubleshooting guidance for a newly opened support case."
+        },
+        {
+          "id": "b",
+          "text": "Deploy AI for everything."
+        },
+        {
+          "id": "c",
+          "text": "Improve support everywhere."
+        },
+        {
+          "id": "d",
+          "text": "Be more innovative."
+        }
+      ],
+      "claims": [
+        "C-0251"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q005",
+      "objective_id": "SBP-105-L05",
+      "module_id": "SBP-105",
+      "stem": "Six promising use cases exceed available interview capacity. What should the facilitator do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ask the AI tool to choose without customer review."
+        },
+        {
+          "id": "b",
+          "text": "Select the most complex case for prestige alone."
+        },
+        {
+          "id": "c",
+          "text": "Pretend all six can be investigated without time."
+        },
+        {
+          "id": "d",
+          "text": "Agree a smaller first wave using evidence and owners, and park the rest with revisit conditions."
+        }
+      ],
+      "claims": [
+        "C-0252"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q006",
+      "objective_id": "SBP-105-L06",
+      "module_id": "SBP-105",
+      "stem": "Which follow-up best matches the referenced practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wait until a pilot ends before confirming owners."
+        },
+        {
+          "id": "b",
+          "text": "Send only a thank-you note next month."
+        },
+        {
+          "id": "c",
+          "text": "Send the internal qualification score to all customer users."
+        },
+        {
+          "id": "d",
+          "text": "Within 24 hours, share the log, matrix, decisions, open assumptions and actions."
+        }
+      ],
+      "claims": [
+        "C-0253"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q007",
+      "objective_id": "SBP-105-L06",
+      "module_id": "SBP-105",
+      "stem": "Two sources use different Visioning durations. What should the course author do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Claim both sources mandate the same exact duration."
+        },
+        {
+          "id": "b",
+          "text": "Delete the source dates and choose silently."
+        },
+        {
+          "id": "c",
+          "text": "Test learners on one universal duration without context."
+        },
+        {
+          "id": "d",
+          "text": "Teach a proposed default and documented scoped variants, and seek canonical SME confirmation."
+        }
+      ],
+      "claims": [
+        "C-0254"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q008",
+      "objective_id": "SBP-105-L06",
+      "module_id": "SBP-105",
+      "stem": "A champion says the recap is wrong. How should the facilitator respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Treat silence from others as proof the original was correct."
+        },
+        {
+          "id": "b",
+          "text": "Delete all evidence links."
+        },
+        {
+          "id": "c",
+          "text": "Correct the artifact with version history and reconfirm changed decisions."
+        },
+        {
+          "id": "d",
+          "text": "Proceed to a pilot without resolving the disagreement."
+        }
+      ],
+      "claims": [
+        "C-0255"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q001",
+      "objective_id": "SBP-106-L01",
+      "module_id": "SBP-106",
+      "stem": "Which discovery sequence is most useful?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agent architecture → promised ROI → optional customer evidence."
+        },
+        {
+          "id": "b",
+          "text": "Outcomes → use cases → workflows → data → success metrics."
+        },
+        {
+          "id": "c",
+          "text": "Pilot deployment → discover the problem later."
+        },
+        {
+          "id": "d",
+          "text": "Connector count → logo selection → certificate."
+        }
+      ],
+      "claims": [
+        "C-0300"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q002",
+      "objective_id": "SBP-106-L02",
+      "module_id": "SBP-106",
+      "stem": "Which question best reveals current workflow evidence?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Which feature would make the deck more exciting?"
+        },
+        {
+          "id": "b",
+          "text": "Wouldn't AI make this perfect?"
+        },
+        {
+          "id": "c",
+          "text": "Walk me through the last time this happened, including systems, handoffs and time."
+        },
+        {
+          "id": "d",
+          "text": "Can we assume every user has the same permissions?"
+        }
+      ],
+      "claims": [
+        "C-0301"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q003",
+      "objective_id": "SBP-106-L03",
+      "module_id": "SBP-106",
+      "stem": "Which impact assessment is strongest?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only the workshop attendance count."
+        },
+        {
+          "id": "b",
+          "text": "Only the number of systems to connect."
+        },
+        {
+          "id": "c",
+          "text": "Affected population, frequency, business consequence and evidence status."
+        },
+        {
+          "id": "d",
+          "text": "The most senior person's favorite idea."
+        }
+      ],
+      "claims": [
+        "C-0302"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q004",
+      "objective_id": "SBP-106-L04",
+      "module_id": "SBP-106",
+      "stem": "A use case needs five systems and an unverified write action. What should happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Record technical, permission and action dependencies before rating effort low."
+        },
+        {
+          "id": "b",
+          "text": "Omit security to keep the workshop moving."
+        },
+        {
+          "id": "c",
+          "text": "Assume all writes are supported automatically."
+        },
+        {
+          "id": "d",
+          "text": "Call it a quick win because the user request is one sentence."
+        }
+      ],
+      "claims": [
+        "C-0303"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q005",
+      "objective_id": "SBP-106-L05",
+      "module_id": "SBP-106",
+      "stem": "Where does a high-impact, high-effort use case belong on the standard matrix?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nice-to-have."
+        },
+        {
+          "id": "b",
+          "text": "Low-impact/high-effort deprioritize quadrant."
+        },
+        {
+          "id": "c",
+          "text": "Strategic bet."
+        },
+        {
+          "id": "d",
+          "text": "Quick win."
+        }
+      ],
+      "claims": [
+        "C-0304"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q006",
+      "objective_id": "SBP-106-L06",
+      "module_id": "SBP-106",
+      "stem": "What should accompany a final first-wave use case?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A fixed ROI copied from an unrelated customer."
+        },
+        {
+          "id": "b",
+          "text": "Business/technical owners, metric plan, dependencies, uncertainties and next milestone."
+        },
+        {
+          "id": "c",
+          "text": "A guarantee of full automation."
+        },
+        {
+          "id": "d",
+          "text": "Only an attractive title."
+        }
+      ],
+      "claims": [
+        "C-0305"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q007",
+      "objective_id": "SBP-106-L06",
+      "module_id": "SBP-106",
+      "stem": "A rare compliance workflow has low reach but potentially high severity. How should it be assessed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Discuss severity and controls explicitly instead of using seat count as the only impact measure."
+        },
+        {
+          "id": "b",
+          "text": "Always discard it because few users are involved."
+        },
+        {
+          "id": "c",
+          "text": "Ignore risk because only time savings count."
+        },
+        {
+          "id": "d",
+          "text": "Assign a huge monetary saving without evidence."
+        }
+      ],
+      "claims": [
+        "C-0306"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q008",
+      "objective_id": "SBP-106-L06",
+      "module_id": "SBP-106",
+      "stem": "Should the source's eight-dimension score be an automatic universal feasibility gate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No; complexity score direction and aggregation need SME review, and rationale remains essential."
+        },
+        {
+          "id": "b",
+          "text": "No prioritization method can ever be useful."
+        },
+        {
+          "id": "c",
+          "text": "Yes; source conflicts never need resolution."
+        },
+        {
+          "id": "d",
+          "text": "Yes; a high complexity score proves easy implementation."
+        }
+      ],
+      "claims": [
+        "C-0307"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q001",
+      "objective_id": "SBP-107-L01",
+      "module_id": "SBP-107",
+      "stem": "Who is essential for a credible DITL interview?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only someone who has never seen the workflow."
+        },
+        {
+          "id": "b",
+          "text": "Only a generic industry report."
+        },
+        {
+          "id": "c",
+          "text": "A representative person who actually does the prioritized work."
+        },
+        {
+          "id": "d",
+          "text": "Only the certificate administrator."
+        }
+      ],
+      "claims": [
+        "C-0352"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q002",
+      "objective_id": "SBP-107-L02",
+      "module_id": "SBP-107",
+      "stem": "How should active effort and elapsed waiting be recorded?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ignored because only screen count matters."
+        },
+        {
+          "id": "b",
+          "text": "Both automatically multiplied by every employee's salary."
+        },
+        {
+          "id": "c",
+          "text": "Added together and called removable labor."
+        },
+        {
+          "id": "d",
+          "text": "Separately, with units, evidence status and the relevant business consequence."
+        }
+      ],
+      "claims": [
+        "C-0353"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q003",
+      "objective_id": "SBP-107-L03",
+      "module_id": "SBP-107",
+      "stem": "A 30-minute search and a two-day approval wait are reported. Which modeling approach is best?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Model search as active effort and waiting as cycle delay, with separate causal assumptions."
+        },
+        {
+          "id": "b",
+          "text": "Treat the full two days as paid labor saved per case."
+        },
+        {
+          "id": "c",
+          "text": "Ignore both because neither is useful evidence."
+        },
+        {
+          "id": "d",
+          "text": "Assume the wait disappears without process change."
+        }
+      ],
+      "claims": [
+        "C-0354"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q004",
+      "objective_id": "SBP-107-L04",
+      "module_id": "SBP-107",
+      "stem": "Which future-state map is most defensible?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All approval controls are removed to maximize ROI."
+        },
+        {
+          "id": "b",
+          "text": "Grounded retrieval/drafting with human review, exceptions and stated data dependencies."
+        },
+        {
+          "id": "c",
+          "text": "Every current step becomes zero minutes automatically."
+        },
+        {
+          "id": "d",
+          "text": "A diagram with unsupported write actions and no owners."
+        }
+      ],
+      "claims": [
+        "C-0355"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q005",
+      "objective_id": "SBP-107-L05",
+      "module_id": "SBP-107",
+      "stem": "When is a playback useful?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Never, even when the future state is disputed."
+        },
+        {
+          "id": "b",
+          "text": "Only after the customer has fully deployed."
+        },
+        {
+          "id": "c",
+          "text": "Always as an extra meeting with no objective."
+        },
+        {
+          "id": "d",
+          "text": "When it resolves a specific workflow, feasibility or alignment uncertainty."
+        }
+      ],
+      "claims": [
+        "C-0356"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q006",
+      "objective_id": "SBP-107-L06",
+      "module_id": "SBP-107",
+      "stem": "Which DITL summary is executive-ready?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only a product feature list."
+        },
+        {
+          "id": "b",
+          "text": "Every click shown with no business consequence."
+        },
+        {
+          "id": "c",
+          "text": "Outcome, pain, future change, evidence, metric plan and unresolved dependencies."
+        },
+        {
+          "id": "d",
+          "text": "An unqualified savings percentage."
+        }
+      ],
+      "claims": [
+        "C-0357"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q007",
+      "objective_id": "SBP-107-L06",
+      "module_id": "SBP-107",
+      "stem": "Two interviews give very different task times. What is the best response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Investigate persona/workflow differences and present a supported range or separate models."
+        },
+        {
+          "id": "b",
+          "text": "Keep only the faster estimate to improve the story."
+        },
+        {
+          "id": "c",
+          "text": "Average them blindly and claim precision."
+        },
+        {
+          "id": "d",
+          "text": "Treat both as guaranteed measured baselines."
+        }
+      ],
+      "claims": [
+        "C-0358"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q008",
+      "objective_id": "SBP-107-L06",
+      "module_id": "SBP-107",
+      "stem": "The AI DITL generator invents exact step durations. What should the learner do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Present them as stopwatch measurements."
+        },
+        {
+          "id": "b",
+          "text": "Mark them unverified and obtain customer evidence before modeling."
+        },
+        {
+          "id": "c",
+          "text": "Remove citations so the estimates cannot be challenged."
+        },
+        {
+          "id": "d",
+          "text": "Use them because precision implies accuracy."
+        }
+      ],
+      "claims": [
+        "C-0359"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q001",
+      "objective_id": "SBP-108-L01",
+      "module_id": "SBP-108",
+      "stem": "Which four parts form the Value Playbook's business case architecture?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pipeline, forecast, invoice and renewal."
+        },
+        {
+          "id": "b",
+          "text": "Agent count, connector count, slide count and meeting count."
+        },
+        {
+          "id": "c",
+          "text": "Logo, product tour, discount and signature."
+        },
+        {
+          "id": "d",
+          "text": "Problem Statement, Justification, ROI and Plan."
+        }
+      ],
+      "claims": [
+        "C-0404"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q002",
+      "objective_id": "SBP-108-L02",
+      "module_id": "SBP-108",
+      "stem": "When does salary-equivalent time become hard-dollar savings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only when a defensible actual cost/business action supports that classification."
+        },
+        {
+          "id": "b",
+          "text": "As soon as an AI model estimates minutes."
+        },
+        {
+          "id": "c",
+          "text": "Whenever any user says the product feels faster."
+        },
+        {
+          "id": "d",
+          "text": "Whenever a vendor benchmark is published."
+        }
+      ],
+      "claims": [
+        "C-0405"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q003",
+      "objective_id": "SBP-108-L03",
+      "module_id": "SBP-108",
+      "stem": "What can survey-only presale evidence safely support?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A guaranteed CFO-grade realized saving."
+        },
+        {
+          "id": "b",
+          "text": "A measured baseline for every user without sampling caveats."
+        },
+        {
+          "id": "c",
+          "text": "A directional self-reported hypothesis with explicit limitations."
+        },
+        {
+          "id": "d",
+          "text": "A causal proof of revenue increase."
+        }
+      ],
+      "claims": [
+        "C-0406"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q004",
+      "objective_id": "SBP-108-L04",
+      "module_id": "SBP-108",
+      "stem": "What does the recapture rate describe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The percentage of users who can log in."
+        },
+        {
+          "id": "b",
+          "text": "The tax rate on software purchases."
+        },
+        {
+          "id": "c",
+          "text": "The share of saved capacity converted into useful business output."
+        },
+        {
+          "id": "d",
+          "text": "The number of connectors in the architecture."
+        }
+      ],
+      "claims": [
+        "C-0407"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q005",
+      "objective_id": "SBP-108-L05",
+      "module_id": "SBP-108",
+      "stem": "For annual benefit B and annual all-in cost C greater than zero, which net ROI formula is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B × C."
+        },
+        {
+          "id": "b",
+          "text": "B + C."
+        },
+        {
+          "id": "c",
+          "text": "C / B without any interpretation."
+        },
+        {
+          "id": "d",
+          "text": "(B − C) / C."
+        }
+      ],
+      "claims": [
+        "C-0408"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q006",
+      "objective_id": "SBP-108-L06",
+      "module_id": "SBP-108",
+      "stem": "A metric has no historical timing data. What belongs in its baseline field?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The desired target relabeled as baseline."
+        },
+        {
+          "id": "b",
+          "text": "Not yet measured, with an owner and collection plan."
+        },
+        {
+          "id": "c",
+          "text": "A generated exact number with no evidence."
+        },
+        {
+          "id": "d",
+          "text": "A peer company's result labeled customer actual."
+        }
+      ],
+      "claims": [
+        "C-0409"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q007",
+      "objective_id": "SBP-108-L06",
+      "module_id": "SBP-108",
+      "stem": "Why must the author check the meaning of the time-saved input before applying efficiency?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Applying efficiency to an already measured saving may double-discount the same effect."
+        },
+        {
+          "id": "b",
+          "text": "A larger number is always more accurate."
+        },
+        {
+          "id": "c",
+          "text": "Efficiency is always a legal tax deduction."
+        },
+        {
+          "id": "d",
+          "text": "Minutes never need conversion to hours."
+        }
+      ],
+      "claims": [
+        "C-0410"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-108-Q008",
+      "objective_id": "SBP-108-L06",
+      "module_id": "SBP-108",
+      "stem": "The downside scenario is negative. What should the learner do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increase recapture until all scenarios look positive."
+        },
+        {
+          "id": "b",
+          "text": "Keep it visible, explain the drivers and use it to refine the decision and validation plan."
+        },
+        {
+          "id": "c",
+          "text": "Rename negative return as guaranteed savings."
+        },
+        {
+          "id": "d",
+          "text": "Delete it before the executive meeting."
+        }
+      ],
+      "claims": [
+        "C-0411"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q001",
+      "objective_id": "SBP-109-L01",
+      "module_id": "SBP-109",
+      "stem": "When does the checklist recommend completing Executive Validation pre-work?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One to three business days before the meeting."
+        },
+        {
+          "id": "b",
+          "text": "Only after a full pilot is finished."
+        },
+        {
+          "id": "c",
+          "text": "Never; all preparation should be live."
+        },
+        {
+          "id": "d",
+          "text": "Exactly eighteen months in advance."
+        }
+      ],
+      "claims": [
+        "C-0456"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q002",
+      "objective_id": "SBP-109-L02",
+      "module_id": "SBP-109",
+      "stem": "Only the champion attends the executive readout. What should the team do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Assume the champion has signature authority."
+        },
+        {
+          "id": "b",
+          "text": "Start a pilot without further checks."
+        },
+        {
+          "id": "c",
+          "text": "Record Economic Buyer approval anyway."
+        },
+        {
+          "id": "d",
+          "text": "Treat it as preparation and obtain the actual sponsor decision separately."
+        }
+      ],
+      "claims": [
+        "C-0457"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q003",
+      "objective_id": "SBP-109-L03",
+      "module_id": "SBP-109",
+      "stem": "How much initial Glean repositioning does the PDF suggest at most?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The entire 60-minute session."
+        },
+        {
+          "id": "b",
+          "text": "At least 45 minutes before discussing workflows."
+        },
+        {
+          "id": "c",
+          "text": "About five minutes, especially for a new executive audience."
+        },
+        {
+          "id": "d",
+          "text": "No customer context at all."
+        }
+      ],
+      "claims": [
+        "C-0458"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q004",
+      "objective_id": "SBP-109-L04",
+      "module_id": "SBP-109",
+      "stem": "A CFO says the estimate is not realized savings. What is the best answer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Remove the caveats to make the deck persuasive."
+        },
+        {
+          "id": "b",
+          "text": "Blame the customer for asking about evidence."
+        },
+        {
+          "id": "c",
+          "text": "Insist every presale model is a confirmed result."
+        },
+        {
+          "id": "d",
+          "text": "Agree, show the labeled assumptions and define what evidence will validate the case."
+        }
+      ],
+      "claims": [
+        "C-0459"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q005",
+      "objective_id": "SBP-109-L05",
+      "module_id": "SBP-109",
+      "stem": "The sponsor wants proof of one workflow. What should guide the validation choice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The lightest sufficient event that answers the unresolved buying question."
+        },
+        {
+          "id": "b",
+          "text": "An environment selected without security or data review."
+        },
+        {
+          "id": "c",
+          "text": "The option with the most connectors regardless of need."
+        },
+        {
+          "id": "d",
+          "text": "Always the longest available pilot."
+        }
+      ],
+      "claims": [
+        "C-0460"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q006",
+      "objective_id": "SBP-109-L06",
+      "module_id": "SBP-109",
+      "stem": "What belongs in same-day to 24-hour follow-up?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only a thank-you GIF."
+        },
+        {
+          "id": "b",
+          "text": "A statement that security is complete without review."
+        },
+        {
+          "id": "c",
+          "text": "Decisions, success criteria, validation path, owners, timeline and updated records."
+        },
+        {
+          "id": "d",
+          "text": "Internal account scores sent broadly to the customer."
+        }
+      ],
+      "claims": [
+        "C-0461"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q007",
+      "objective_id": "SBP-109-L06",
+      "module_id": "SBP-109",
+      "stem": "What should an executive success criterion include?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A defined metric/quality threshold, owner, evidence source and timeframe."
+        },
+        {
+          "id": "b",
+          "text": "Only the vendor's enthusiasm."
+        },
+        {
+          "id": "c",
+          "text": "Only the word successful."
+        },
+        {
+          "id": "d",
+          "text": "A retrospective target chosen after seeing results."
+        }
+      ],
+      "claims": [
+        "C-0462"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-109-Q008",
+      "objective_id": "SBP-109-L06",
+      "module_id": "SBP-109",
+      "stem": "The sponsor accepts value but not the permission-sensitive future state. What should be recorded?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Conditional acceptance plus a scoped technical validation dependency and owner."
+        },
+        {
+          "id": "b",
+          "text": "A claim that permissions no longer matter."
+        },
+        {
+          "id": "c",
+          "text": "Unconditional production approval."
+        },
+        {
+          "id": "d",
+          "text": "A requirement to abandon all discovery evidence."
+        }
+      ],
+      "claims": [
+        "C-0463"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q001",
+      "objective_id": "SBP-110-L01",
+      "module_id": "SBP-110",
+      "stem": "Which principle should govern validation selection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Choose the option with the highest setup effort."
+        },
+        {
+          "id": "b",
+          "text": "Use the lightest option that credibly resolves the remaining buying uncertainty."
+        },
+        {
+          "id": "c",
+          "text": "Always require a full pilot."
+        },
+        {
+          "id": "d",
+          "text": "Always prohibit a pilot regardless of need."
+        }
+      ],
+      "claims": [
+        "C-0508"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q002",
+      "objective_id": "SBP-110-L02",
+      "module_id": "SBP-110",
+      "stem": "Which environment statement should an author verify before external publication?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only the deck's cover color."
+        },
+        {
+          "id": "b",
+          "text": "That all environments perfectly reproduce production."
+        },
+        {
+          "id": "c",
+          "text": "Current data handling, identity, isolation, limits and allowed validation claims."
+        },
+        {
+          "id": "d",
+          "text": "That every old price and ARR gate is permanent."
+        }
+      ],
+      "claims": [
+        "C-0509"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q003",
+      "objective_id": "SBP-110-L03",
+      "module_id": "SBP-110",
+      "stem": "What is essential before a sandbox workshop?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Authorized data/access, champion alignment, tested representative tasks and clear limits."
+        },
+        {
+          "id": "b",
+          "text": "An unbounded invitation to every user."
+        },
+        {
+          "id": "c",
+          "text": "Promising every production behavior will be identical."
+        },
+        {
+          "id": "d",
+          "text": "Uploading all customer data without review."
+        }
+      ],
+      "claims": [
+        "C-0510"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q004",
+      "objective_id": "SBP-110-L04",
+      "module_id": "SBP-110",
+      "stem": "Which situation best justifies a pilot request?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A curious contact requests free access with no owner."
+        },
+        {
+          "id": "b",
+          "text": "Prior work is complete and a scoped, important buying question cannot be resolved adequately by lighter validation."
+        },
+        {
+          "id": "c",
+          "text": "The team has not yet identified any workflow."
+        },
+        {
+          "id": "d",
+          "text": "A seller needs to inflate activity count."
+        }
+      ],
+      "claims": [
+        "C-0511"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q005",
+      "objective_id": "SBP-110-L05",
+      "module_id": "SBP-110",
+      "stem": "Readiness is 84%, but approvals and the signed required order form are absent. Can deployment begin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No; readiness evidence does not replace required approvals and commercial prerequisites."
+        },
+        {
+          "id": "b",
+          "text": "Yes; 80% automatically authorizes deployment."
+        },
+        {
+          "id": "c",
+          "text": "Yes; a sponsor's excitement replaces all approvals."
+        },
+        {
+          "id": "d",
+          "text": "Yes; a generated score overrides policy."
+        }
+      ],
+      "claims": [
+        "C-0512"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q006",
+      "objective_id": "SBP-110-L06",
+      "module_id": "SBP-110",
+      "stem": "What belongs in a validation stop rule?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Permission to expand data without review."
+        },
+        {
+          "id": "b",
+          "text": "A promise that no result can ever be a no-go."
+        },
+        {
+          "id": "c",
+          "text": "A specific unmet dependency or criterion, owner notification and a pause/narrow/defer decision."
+        },
+        {
+          "id": "d",
+          "text": "Automatic indefinite extension."
+        }
+      ],
+      "claims": [
+        "C-0513"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-110-Q008",
+      "objective_id": "SBP-110-L06",
+      "module_id": "SBP-110",
+      "stem": "The SE cannot establish permission feasibility for a priority workflow by the checkpoint. What is best?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Claim permission inheritance is guaranteed without evidence."
+        },
+        {
+          "id": "b",
+          "text": "Hide the dependency from the sponsor."
+        },
+        {
+          "id": "c",
+          "text": "Start deployment and hope it works."
+        },
+        {
+          "id": "d",
+          "text": "Pause or narrow that use case and reconfirm the validation plan with owners."
+        }
+      ],
+      "claims": [
+        "C-0514"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q001",
+      "objective_id": "SBP-111-L01",
+      "module_id": "SBP-111",
+      "stem": "Which artifact pack best supports a complete handoff?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hypothesis, priorities, workflow maps, value assumptions, metrics, decisions, validation and MAP."
+        },
+        {
+          "id": "b",
+          "text": "Only a signed attendance sheet."
+        },
+        {
+          "id": "c",
+          "text": "Only a deck cover and a large savings number."
+        },
+        {
+          "id": "d",
+          "text": "Only a product release list."
+        }
+      ],
+      "claims": [
+        "C-0557"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q002",
+      "objective_id": "SBP-111-L02",
+      "module_id": "SBP-111",
+      "stem": "What makes an action plan mutual?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The seller writes dates privately."
+        },
+        {
+          "id": "b",
+          "text": "The AI tool marks it mutually accepted."
+        },
+        {
+          "id": "c",
+          "text": "The customer and relevant owners agree commitments, dependencies and dates."
+        },
+        {
+          "id": "d",
+          "text": "Every milestone is assigned to the customer without discussion."
+        }
+      ],
+      "claims": [
+        "C-0558"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q003",
+      "objective_id": "SBP-111-L03",
+      "module_id": "SBP-111",
+      "stem": "How should conditional and deferred decisions be documented?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Removed from the record."
+        },
+        {
+          "id": "b",
+          "text": "All relabeled as approved."
+        },
+        {
+          "id": "c",
+          "text": "Sent without context to unrelated customer users."
+        },
+        {
+          "id": "d",
+          "text": "Explicit status, rationale, decision owner and follow-up condition/date."
+        }
+      ],
+      "claims": [
+        "C-0559"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q004",
+      "objective_id": "SBP-111-L04",
+      "module_id": "SBP-111",
+      "stem": "How should partner services attach to the roadmap?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Through automatic contract acceptance after discovery."
+        },
+        {
+          "id": "b",
+          "text": "Through scoped outcomes and dependencies tied to the prioritized customer needs."
+        },
+        {
+          "id": "c",
+          "text": "By promising unsupported custom features."
+        },
+        {
+          "id": "d",
+          "text": "By selling every available SKU regardless of need."
+        }
+      ],
+      "claims": [
+        "C-0560"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q005",
+      "objective_id": "SBP-111-L05",
+      "module_id": "SBP-111",
+      "stem": "What must accompany a presale ROI model in a CS handoff?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Definitions, baselines/plans, cohort, data owners, assumptions, caveats and review cadence."
+        },
+        {
+          "id": "b",
+          "text": "Only the optimistic total."
+        },
+        {
+          "id": "c",
+          "text": "A statement that future measurement is unnecessary."
+        },
+        {
+          "id": "d",
+          "text": "Only the spreadsheet password."
+        }
+      ],
+      "claims": [
+        "C-0561"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q006",
+      "objective_id": "SBP-111-L06",
+      "module_id": "SBP-111",
+      "stem": "Usage increases but the business KPI is flat. What should happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Claim financial ROI based only on usage."
+        },
+        {
+          "id": "b",
+          "text": "Delete the KPI."
+        },
+        {
+          "id": "c",
+          "text": "Expand the model by assuming every run creates revenue."
+        },
+        {
+          "id": "d",
+          "text": "Investigate workflow fit, quality, data, measurement lag and reallocation before claiming value."
+        }
+      ],
+      "claims": [
+        "C-0562"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q007",
+      "objective_id": "SBP-111-L06",
+      "module_id": "SBP-111",
+      "stem": "Which statement is appropriate for a recap after conditional sponsor alignment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rollout is fully approved and all risks are closed."
+        },
+        {
+          "id": "b",
+          "text": "The pilot is approved because people liked the session."
+        },
+        {
+          "id": "c",
+          "text": "The outcome hypothesis is accepted subject to named access and baseline validation actions."
+        },
+        {
+          "id": "d",
+          "text": "Every customer user has accepted the implementation scope."
+        }
+      ],
+      "claims": [
+        "C-0563"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q008",
+      "objective_id": "SBP-111-L06",
+      "module_id": "SBP-111",
+      "stem": "Who should accept the discovery-to-delivery handoff?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An unrelated event attendee."
+        },
+        {
+          "id": "b",
+          "text": "Only an automated ZIP checksum tool."
+        },
+        {
+          "id": "c",
+          "text": "The named receiving delivery/value owner with unresolved risks documented."
+        },
+        {
+          "id": "d",
+          "text": "No one; a file upload proves acceptance."
+        }
+      ],
+      "claims": [
+        "C-0564"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q001",
+      "objective_id": "SBP-112-L01",
+      "module_id": "SBP-112",
+      "stem": "An internal agent link is unavailable to a partner learner. What is the best course design?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ask the learner to bypass permissions."
+        },
+        {
+          "id": "b",
+          "text": "Fail the learner for missing access automatically."
+        },
+        {
+          "id": "c",
+          "text": "Provide an equivalent approved tool-agnostic prompt and do not imply access entitlement."
+        },
+        {
+          "id": "d",
+          "text": "Publish internal credentials in the lesson."
+        }
+      ],
+      "claims": [
+        "C-0604"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q002",
+      "objective_id": "SBP-112-L02",
+      "module_id": "SBP-112",
+      "stem": "Which prompt requirement most improves grounding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ask for maximum confidence regardless of evidence."
+        },
+        {
+          "id": "b",
+          "text": "Prohibit uncertainty labels."
+        },
+        {
+          "id": "c",
+          "text": "Ask the model to invent a baseline for persuasion."
+        },
+        {
+          "id": "d",
+          "text": "Separate sourced customer facts, inferences, unknowns and benchmarks, with claim-level references."
+        }
+      ],
+      "claims": [
+        "C-0605"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q003",
+      "objective_id": "SBP-112-L03",
+      "module_id": "SBP-112",
+      "stem": "An AI draft copies a peer outcome into the prospect's story. What should happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Keep it because similar companies always have identical results."
+        },
+        {
+          "id": "b",
+          "text": "Remove or relabel it as an approved analogy and rebuild the prospect hypothesis from its own evidence."
+        },
+        {
+          "id": "c",
+          "text": "Call it customer-measured evidence."
+        },
+        {
+          "id": "d",
+          "text": "Remove only the citation, not the claim."
+        }
+      ],
+      "claims": [
+        "C-0606"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q004",
+      "objective_id": "SBP-112-L04",
+      "module_id": "SBP-112",
+      "stem": "A generated DITL timeline looks plausible. What is still required?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Customer/workflow verification and SE review of steps, durations, systems and capabilities."
+        },
+        {
+          "id": "b",
+          "text": "Only a more attractive color scheme."
+        },
+        {
+          "id": "c",
+          "text": "Automatic deployment to validate all guesses."
+        },
+        {
+          "id": "d",
+          "text": "Nothing; plausibility is equivalent to observation."
+        }
+      ],
+      "claims": [
+        "C-0607"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q005",
+      "objective_id": "SBP-112-L05",
+      "module_id": "SBP-112",
+      "stem": "Which action must remain under authorized human governance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Generating a clearly labeled first draft."
+        },
+        {
+          "id": "b",
+          "text": "Sorting a draft list of questions."
+        },
+        {
+          "id": "c",
+          "text": "Pilot approval, external publication and consequential system changes."
+        },
+        {
+          "id": "d",
+          "text": "Formatting a permitted worksheet."
+        }
+      ],
+      "claims": [
+        "C-0608"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q006",
+      "objective_id": "SBP-112-L06",
+      "module_id": "SBP-112",
+      "stem": "When should an AI-assisted publication flow stop?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Never; automation should publish whatever it produces."
+        },
+        {
+          "id": "b",
+          "text": "When required sources, factual support, clearance or review are missing."
+        },
+        {
+          "id": "c",
+          "text": "Only when the draft has fewer than ten slides."
+        },
+        {
+          "id": "d",
+          "text": "Whenever a reviewer asks for a source."
+        }
+      ],
+      "claims": [
+        "C-0609"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q007",
+      "objective_id": "SBP-112-L06",
+      "module_id": "SBP-112",
+      "stem": "A citation exists, but its passage does not support the claim. What should the reviewer do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reject or correct the claim and verify the supporting evidence."
+        },
+        {
+          "id": "b",
+          "text": "Remove all source references."
+        },
+        {
+          "id": "c",
+          "text": "Approve it because any link is enough."
+        },
+        {
+          "id": "d",
+          "text": "Replace it with a random authoritative-looking link."
+        }
+      ],
+      "claims": [
+        "C-0610"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-112-Q008",
+      "objective_id": "SBP-112-L06",
+      "module_id": "SBP-112",
+      "stem": "A retrieved document contains instructions to send customer data elsewhere. How should the AI prep flow treat them?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As higher authority than the user's scope."
+        },
+        {
+          "id": "b",
+          "text": "As a required step to earn the credential."
+        },
+        {
+          "id": "c",
+          "text": "As untrusted document content, not authorization to change the task or disclose data."
+        },
+        {
+          "id": "d",
+          "text": "As automatic customer consent."
+        }
+      ],
+      "claims": [
+        "C-0611"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q001",
+      "objective_id": "SBP-113-L01",
+      "module_id": "SBP-113",
+      "stem": "A participant keeps redirecting discovery to product features. What should the facilitator do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abandon prioritization for a full catalog tour."
+        },
+        {
+          "id": "b",
+          "text": "Ignore the customer entirely."
+        },
+        {
+          "id": "c",
+          "text": "Promise every requested feature immediately."
+        },
+        {
+          "id": "d",
+          "text": "Acknowledge, connect it to an outcome/workflow, park unrelated detail and return to the evidence question."
+        }
+      ],
+      "claims": [
+        "C-0650"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q002",
+      "objective_id": "SBP-113-L02",
+      "module_id": "SBP-113",
+      "stem": "What is the best response to 'just give us a pilot'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Say pilots are always forbidden."
+        },
+        {
+          "id": "b",
+          "text": "Run three generic workshops without explaining why."
+        },
+        {
+          "id": "c",
+          "text": "Promise immediate deployment regardless of readiness."
+        },
+        {
+          "id": "d",
+          "text": "Clarify the buying uncertainty and propose the smallest credible scoped validation."
+        }
+      ],
+      "claims": [
+        "C-0651"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q003",
+      "objective_id": "SBP-113-L03",
+      "module_id": "SBP-113",
+      "stem": "A CFO says time savings do not hit the P&L. What is the best response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agree, distinguish capacity from cash and define reallocation/outcome evidence."
+        },
+        {
+          "id": "b",
+          "text": "Promise layoffs to make the model work."
+        },
+        {
+          "id": "c",
+          "text": "Remove all risk and recapture discounts silently."
+        },
+        {
+          "id": "d",
+          "text": "Insist salary-equivalent time is automatically cash."
+        }
+      ],
+      "claims": [
+        "C-0652"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q004",
+      "objective_id": "SBP-113-L04",
+      "module_id": "SBP-113",
+      "stem": "A sponsor rejects benchmark-based estimates. What should the team do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Use a larger unverified benchmark."
+        },
+        {
+          "id": "b",
+          "text": "End all measurement discussions."
+        },
+        {
+          "id": "c",
+          "text": "Call the benchmark a measured customer result."
+        },
+        {
+          "id": "d",
+          "text": "Label them directional and agree customer-specific baseline and validation steps."
+        }
+      ],
+      "claims": [
+        "C-0653"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q005",
+      "objective_id": "SBP-113-L05",
+      "module_id": "SBP-113",
+      "stem": "A workshop ends with twenty agent ideas and no owners. What is the corrective action?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Start every agent build immediately."
+        },
+        {
+          "id": "b",
+          "text": "Re-anchor on outcomes, prioritize a small first wave and assign metrics, owners and next sessions."
+        },
+        {
+          "id": "c",
+          "text": "Ask the customer to choose randomly."
+        },
+        {
+          "id": "d",
+          "text": "Treat the idea count as a successful business case."
+        }
+      ],
+      "claims": [
+        "C-0654"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q006",
+      "objective_id": "SBP-113-L06",
+      "module_id": "SBP-113",
+      "stem": "DITL sessions have been cancelled twice. What is the best recovery?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continue building ROI from invented data."
+        },
+        {
+          "id": "b",
+          "text": "Mark the work complete."
+        },
+        {
+          "id": "c",
+          "text": "Revalidate urgency and sponsorship, seek a named owner/date and set a continue-or-pause checkpoint."
+        },
+        {
+          "id": "d",
+          "text": "Provision a pilot to force engagement."
+        }
+      ],
+      "claims": [
+        "C-0655"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q007",
+      "objective_id": "SBP-113-L06",
+      "module_id": "SBP-113",
+      "stem": "A custom connector blocks the favorite first-wave case. What should happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Delete every other use case."
+        },
+        {
+          "id": "b",
+          "text": "Claim all connectors are equivalent."
+        },
+        {
+          "id": "c",
+          "text": "Consider a narrower feasible slice or a later strategic bet with explicit validation dependencies."
+        },
+        {
+          "id": "d",
+          "text": "Hide the blocker to preserve excitement."
+        }
+      ],
+      "claims": [
+        "C-0656"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q008",
+      "objective_id": "SBP-113-L06",
+      "module_id": "SBP-113",
+      "stem": "What is a valid successful outcome of Blueprint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only the largest optimistic ROI."
+        },
+        {
+          "id": "b",
+          "text": "A well-supported proceed, narrow, pause or no-go decision."
+        },
+        {
+          "id": "c",
+          "text": "Only unanimous praise for the slide deck."
+        },
+        {
+          "id": "d",
+          "text": "Only immediate pilot deployment."
+        }
+      ],
+      "claims": [
+        "C-0657"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

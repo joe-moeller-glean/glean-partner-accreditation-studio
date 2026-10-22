@@ -1,0 +1,128 @@
+{
+  "id": "SBP-112-L06",
+  "lesson": "SBP-112-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Build a reusable human-reviewed workflow",
+  "nav": "6. Build a reusable human-reviewed workflow",
+  "objective": "Design a stop condition for an AI-assisted build pipeline.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Make AI preparation repeatable: a set sequence of steps, with human review at each gate and a safe stop when something is missing."
+    },
+    {
+      "t": "h3",
+      "x": "A reusable preparation flow"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "**Collect** the permitted sources, and record their versions.",
+        "**Extract** claims, each with its source passage.",
+        "**Draft** structured outputs: hypothesis, use-case log, DITL tables, and value model.",
+        "**List gaps** and open questions.",
+        "**Check** the calculations and units.",
+        "**Route reviews** to the AE, the SE, and customer owners.",
+        "**Log** the approval status before anything is published."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "This course's prompt library has separate prompts for research, hypotheses, discovery, DITL, value QA, and readiness review. Together they produce a draft artifact pack and a list of open questions, not an approved Blueprint."
+    },
+    {
+      "t": "h3",
+      "x": "Fail safely"
+    },
+    {
+      "t": "p",
+      "x": "If an internal tool isn't available, use the equivalent structured prompt in an approved environment. If required evidence or reviewers are missing, stop. Don't proceed with gaps."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A reusable workflow puts the human review steps in the process, so they aren't skipped under time pressure."
+    },
+    {
+      "t": "figure",
+      "kind": "cycle",
+      "title": "A reusable, human-reviewed workflow",
+      "alt": "A seven-step loop: collect authorized inputs, extract facts, draft, list gaps, check, route reviews, and log decisions, then repeat for the next account.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Collect",
+          "detail": "Authorized inputs only",
+          "emph": false
+        },
+        {
+          "label": "Extract",
+          "detail": "Facts with sources",
+          "emph": false
+        },
+        {
+          "label": "Draft",
+          "detail": "Structured output",
+          "emph": false
+        },
+        {
+          "label": "List gaps",
+          "detail": "What's still unknown",
+          "emph": false
+        },
+        {
+          "label": "Check",
+          "detail": "Against the review list",
+          "emph": false
+        },
+        {
+          "label": "Route reviews",
+          "detail": "To the right owners",
+          "emph": true
+        },
+        {
+          "label": "Log",
+          "detail": "Decisions and changes",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Design a stop condition for an AI-assisted build pipeline."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"Stop external publication if any required source is missing, any customer claim is unsupported, any capability is unverified, any clearance is pending, or any review is incomplete. Produce an exception report listing each item, its owner, and the next action.\""
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 245,
+  "eyebrow": "Lesson 6 · about 5 min",
+  "claims": [
+    "C-0596",
+    "C-0597",
+    "C-0598",
+    "C-0599",
+    "C-0600",
+    "C-0601"
+  ],
+  "sources": [
+    "S25",
+    "S37",
+    "S38",
+    "S55"
+  ]
+}

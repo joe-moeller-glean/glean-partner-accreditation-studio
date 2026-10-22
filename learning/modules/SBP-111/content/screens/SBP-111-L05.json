@@ -1,0 +1,133 @@
+{
+  "id": "SBP-111-L05",
+  "lesson": "SBP-111-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Handoff to delivery and customer success",
+  "nav": "5. Handoff to delivery and customer success",
+  "objective": "Identify what CS needs from a presale ROI estimate.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A good handoff means delivery and customer success don't have to restart discovery. The receiving owners also get what they need to prove value later."
+    },
+    {
+      "t": "h3",
+      "x": "What to hand off"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The business problem, the sponsor, and the champion.",
+        "The prioritized workflows, with current and future maps.",
+        "Data sources and permission considerations.",
+        "Value assumptions and success measures.",
+        "Validation findings.",
+        "The scope, including exclusions, unverified capabilities, and customer obligations.",
+        "The MAP."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "What customer success needs from the value model"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Value Playbook calls launching without a baseline the number one measurement failure. Customer success and value owners need:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Metric definitions and the cohort.",
+        "The baseline period, or the plan to create a baseline.",
+        "Targets and data owners.",
+        "Evidence labels, plus the recapture and reallocation assumptions.",
+        "Costs and attribution caveats.",
+        "A review cadence and a named, accountable value owner."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Acceptance"
+    },
+    {
+      "t": "p",
+      "x": "The receiving owner must accept the handoff explicitly. Record any unresolved dependencies and risks."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't hand over an aspirational future-state diagram as an implementation commitment."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Customer success inherits the value model. Hand it over with its assumptions, not just its headline."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "Value handoff to customer success",
+      "alt": "A four-step handoff of the value model: share the metric cards and baselines, explain the assumptions and evidence levels, agree the measurement cadence, and confirm acceptance by the delivery and customer success owners.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Metric cards and baselines",
+          "detail": "What will be tracked",
+          "emph": false
+        },
+        {
+          "label": "Assumptions and evidence",
+          "detail": "What still needs proof",
+          "emph": false
+        },
+        {
+          "label": "Measurement cadence",
+          "detail": "When results are reviewed",
+          "emph": false
+        },
+        {
+          "label": "Acceptance",
+          "detail": "Delivery and CS confirm they own it",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "List what customer success needs from a pre-sales ROI estimate."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Metric definitions, the baseline period, the cohort, targets, data owners, evidence labels, the recapture and reallocation assumptions, costs, attribution caveats, a review cadence, and a named, accountable value owner who accepts the handoff."
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 253,
+  "eyebrow": "Lesson 5 · about 5 min",
+  "claims": [
+    "C-0541",
+    "C-0542",
+    "C-0543",
+    "C-0544",
+    "C-0545",
+    "C-0546",
+    "C-0547"
+  ],
+  "sources": [
+    "S13",
+    "S28",
+    "S44"
+  ]
+}

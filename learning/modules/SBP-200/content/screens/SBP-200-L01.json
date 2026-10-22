@@ -1,0 +1,145 @@
+{
+  "id": "SBP-200-L01",
+  "lesson": "SBP-200-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Read the fictional scenario and evidence rules",
+  "nav": "1. Read the fictional scenario and evidence rules",
+  "objective": "Annotate the Scenario Data sheet as fact, estimate or unknown.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The capstone puts the whole Blueprint method into practice on one realistic case. Before you start, understand what the scenario gives you, what it deliberately leaves out, and how evidence will be judged."
+    },
+    {
+      "t": "h3",
+      "x": "The organization"
+    },
+    {
+      "t": "p",
+      "x": "The case is an unnamed, fictional knowledge-work organization with 2,000 employees. It is not a real customer, and no external research is needed."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**The COO** is the simulated executive sponsor and wants more support capacity this quarter, without losing quality.",
+        "**The CRO** wants more consistent meeting preparation in sales.",
+        "**Support Operations** owns the first metric.",
+        "**A technical champion** coordinates the platform owners.",
+        "**The procurement and signature process** is unknown."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Three kinds of input"
+    },
+    {
+      "t": "table",
+      "caption": "How to treat scenario inputs",
+      "head": [
+        "Kind",
+        "Example from the case",
+        "How to use it"
+      ],
+      "rows": [
+        [
+          "Scenario fact",
+          "200 potential support users; 240 workdays a year",
+          "A training fact, labeled as such"
+        ],
+        [
+          "Estimate",
+          "Interview timings, such as eight minutes to find approved guidance",
+          "An estimate, not a measured baseline"
+        ],
+        [
+          "Deliberate unknown",
+          "Connector and permission behavior; procurement dates; the baseline",
+          "An open question with an owner and a validation step"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Evidence rules"
+    },
+    {
+      "t": "p",
+      "x": "Label every figure you use. Any assumption you add yourself must be recorded with an owner and a validation plan. The assessor answers questions using only the scenario's facts and will say \"unknown, must validate\" for anything the scenario doesn't contain."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't invent a customer name, a real case study, an approved product capability, or a measured outcome. Real customer stories and internal images are not required, and shouldn't be used."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Every input in the scenario has a status. Use it exactly as labeled."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Three kinds of scenario input",
+      "alt": "Three cards naming the kinds of input in the capstone scenario: facts, which you may use as stated; estimates, which you must show as ranges with assumptions; and unknowns, which you must turn into open questions with owners.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Facts",
+          "detail": "Use as stated",
+          "emph": false
+        },
+        {
+          "label": "Estimates",
+          "detail": "Show as ranges, with assumptions",
+          "emph": false
+        },
+        {
+          "label": "Unknowns",
+          "detail": "Open questions, each with an owner",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Annotate three scenario items as fact, estimate, or unknown: the 200 support users, the eight-minute search time, and connector permission behavior."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**200 support users:** a scenario fact for training purposes. It is the addressable population, not the adopted population.",
+        "**Eight-minute search time:** an interview estimate of active work, not a measured baseline.",
+        "**Connector permission behavior:** unknown. Record it as an open technical question for the technical owner, with a validation step."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 345,
+  "eyebrow": "Lesson 1 · about 6 min",
+  "claims": [
+    "C-0659",
+    "C-0660",
+    "C-0661",
+    "C-0662",
+    "C-0663",
+    "C-0664",
+    "C-0665"
+  ],
+  "sources": [
+    "S02",
+    "S13",
+    "S54"
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "module_id": "SBP-101",
+  "assets": [
+    {
+      "asset_id": "SBP-101-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    },
+    {
+      "asset_id": "SBP-101-L01-F1-wide",
+      "path": "assets/fig/SBP-101-L01-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Two ways to start an AI evaluation (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0002",
+        "C-0003",
+        "C-0004",
+        "C-0005",
+        "C-0006",
+        "C-0007",
+        "C-0008"
+      ],
+      "alt": "A comparison of a product-led start with a Blueprint-led start. The product-led start leads with features, a generic demo, and a trial request. The Blueprint-led start leads with business priorities, real workflows, measured value, and an executive decision."
+    },
+    {
+      "asset_id": "SBP-101-L01-F1-narrow",
+      "path": "assets/fig/SBP-101-L01-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Two ways to start an AI evaluation (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0002",
+        "C-0003",
+        "C-0004",
+        "C-0005",
+        "C-0006",
+        "C-0007",
+        "C-0008"
+      ],
+      "alt": "A comparison of a product-led start with a Blueprint-led start. The product-led start leads with features, a generic demo, and a trial request. The Blueprint-led start leads with business priorities, real workflows, measured value, and an executive decision."
+    },
+    {
+      "asset_id": "SBP-101-L02-F1-wide",
+      "path": "assets/fig/SBP-101-L02-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Where the Blueprint sits in the sale (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0009",
+        "C-0010",
+        "C-0011",
+        "C-0012",
+        "C-0013",
+        "C-0014"
+      ],
+      "alt": "A five-step flow from Discovery to Visioning, then Day-in-the-Life interviews and playback, then Executive Validation, and finally a validation event chosen to answer the remaining buying question."
+    },
+    {
+      "asset_id": "SBP-101-L02-F1-narrow",
+      "path": "assets/fig/SBP-101-L02-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Where the Blueprint sits in the sale (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0009",
+        "C-0010",
+        "C-0011",
+        "C-0012",
+        "C-0013",
+        "C-0014"
+      ],
+      "alt": "A five-step flow from Discovery to Visioning, then Day-in-the-Life interviews and playback, then Executive Validation, and finally a validation event chosen to answer the remaining buying question."
+    },
+    {
+      "asset_id": "SBP-101-L03-F1-wide",
+      "path": "assets/fig/SBP-101-L03-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: From job to business outcome (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0015",
+        "C-0016",
+        "C-0017",
+        "C-0018",
+        "C-0019",
+        "C-0020",
+        "C-0021"
+      ],
+      "alt": "Four stacked layers showing how the value vocabulary connects. At the top is the Positive Business Outcome, then the metric that measures it, then the workflow where the work happens, and at the base the use case, the job that needs doing."
+    },
+    {
+      "asset_id": "SBP-101-L03-F1-narrow",
+      "path": "assets/fig/SBP-101-L03-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: From job to business outcome (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0015",
+        "C-0016",
+        "C-0017",
+        "C-0018",
+        "C-0019",
+        "C-0020",
+        "C-0021"
+      ],
+      "alt": "Four stacked layers showing how the value vocabulary connects. At the top is the Positive Business Outcome, then the metric that measures it, then the workflow where the work happens, and at the base the use case, the job that needs doing."
+    },
+    {
+      "asset_id": "SBP-101-L04-F1-wide",
+      "path": "assets/fig/SBP-101-L04-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: What each party gains from a Blueprint (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0022",
+        "C-0023",
+        "C-0024",
+        "C-0025",
+        "C-0026",
+        "C-0027",
+        "C-0028"
+      ],
+      "alt": "Three cards. The customer gains clear, prioritized use cases and a defensible business case. Glean gains a qualified opportunity with an executive decision path. The partner gains a services roadmap tied to measured customer outcomes."
+    },
+    {
+      "asset_id": "SBP-101-L04-F1-narrow",
+      "path": "assets/fig/SBP-101-L04-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: What each party gains from a Blueprint (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0022",
+        "C-0023",
+        "C-0024",
+        "C-0025",
+        "C-0026",
+        "C-0027",
+        "C-0028"
+      ],
+      "alt": "Three cards. The customer gains clear, prioritized use cases and a defensible business case. Glean gains a qualified opportunity with an executive decision path. The partner gains a services roadmap tied to measured customer outcomes."
+    },
+    {
+      "asset_id": "SBP-101-L05-F1-wide",
+      "path": "assets/fig/SBP-101-L05-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Two kinds of blueprint (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0029",
+        "C-0030",
+        "C-0031",
+        "C-0032",
+        "C-0033",
+        "C-0034"
+      ],
+      "alt": "A comparison of the Sales Blueprint, which decides whether and where to invest, with the Customer Blueprint Framework, which designs how the solution will be built and run."
+    },
+    {
+      "asset_id": "SBP-101-L05-F1-narrow",
+      "path": "assets/fig/SBP-101-L05-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Two kinds of blueprint (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0029",
+        "C-0030",
+        "C-0031",
+        "C-0032",
+        "C-0033",
+        "C-0034"
+      ],
+      "alt": "A comparison of the Sales Blueprint, which decides whether and where to invest, with the Customer Blueprint Framework, which designs how the solution will be built and run."
+    },
+    {
+      "asset_id": "SBP-101-L06-F1-wide",
+      "path": "assets/fig/SBP-101-L06-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Four quality checks for a Blueprint (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0035",
+        "C-0036",
+        "C-0037",
+        "C-0038",
+        "C-0039",
+        "C-0040",
+        "C-0041"
+      ],
+      "alt": "Four cards listing the quality checks: priorities agreed with named business owners, workflows mapped from real interviews, value estimated with labeled evidence, and an executive decision with a defined next step."
+    },
+    {
+      "asset_id": "SBP-101-L06-F1-narrow",
+      "path": "assets/fig/SBP-101-L06-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Four quality checks for a Blueprint (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0035",
+        "C-0036",
+        "C-0037",
+        "C-0038",
+        "C-0039",
+        "C-0040",
+        "C-0041"
+      ],
+      "alt": "Four cards listing the quality checks: priorities agreed with named business owners, workflows mapped from real interviews, value estimated with labeled evidence, and an executive decision with a defined next step."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+module_id: SBP-104
+title: "Blueprint Preparation & Value Hypothesis"
+design_system: paged-v1
+learning_path: "AI Blueprinting & Value Mapping"
+request_type: batch
+audience: ["Partner sellers", "Partner solution consultants and SEs", "Practice leads", "Glean field collaborators"]
+level: "Practitioner (proposed)"
+learning_outcomes:
+  - "Build a value hypothesis (Why Change, Why Now, Why Glean) tied to strategic priorities."
+  - "Write PBOs and a 3-5 metric hypothesis per line of business."
+  - "Run the prerequisites checklist and decide go / reschedule."
+  - "Send pre-work and agenda that set a consultative tone."
+lesson_objectives:
+  SBP-104-L01: "Given the supplied customer-neutral scenario and sources, create a prep outline from a meeting note and an annual report with conflicting priorities. Successful output matches the worked response and states remaining uncertainty."
+  SBP-104-L02: "Given the supplied customer-neutral scenario and sources, draft the three Whys for the fictional support scenario. Successful output matches the worked response and states remaining uncertainty."
+  SBP-104-L03: "Given the supplied customer-neutral scenario and sources, write one complete metric hypothesis using What/How/Why. Successful output matches the worked response and states remaining uncertainty."
+  SBP-104-L04: "Given the supplied customer-neutral scenario and sources, decide go, narrow or reschedule when the worksheet is empty and sponsorship is unconfirmed. Successful output matches the worked response and states remaining uncertainty."
+  SBP-104-L05: "Given the supplied customer-neutral scenario and sources, draft the essential content of a Visioning invitation. Successful output matches the worked response and states remaining uncertainty."
+  SBP-104-L06: "Given the supplied customer-neutral scenario and sources, run a five-minute readiness review and name one reason to delay. Successful output matches the worked response and states remaining uncertainty."
+prerequisites: "SBP-103"
+roadmap_alignment: "SOL-101; SAL-202"  # semantic alignment only (O12)
+target_hours: 0.75
+mastery_score: 80
+accreditation: accred-ai-blueprinting
+authoring_contract: "https://docs.google.com/spreadsheets/d/1FNFUQAzKl1BgMlyMgR8zygEvmLtnf7V5s-bhaL-3-48"
+authoring_snapshot: plan/sales-blueprinting/workbook/
+review_status: "In review"
+partner_clearance: "Pending partner clearance"
+sme_signoff: "Not signed"
+sme: unassigned - needs_sme (Blueprint SME, BVC / value engineering)
+publish_mode: manual_review
+release_state: restricted_preview

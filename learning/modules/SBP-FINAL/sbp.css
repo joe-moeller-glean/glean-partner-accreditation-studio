@@ -1,0 +1,126 @@
+/* Sales Blueprinting additions to the shared paged-v1 theme.
+   Every colour is a var() reference to tokens.css. */
+.notice{background:var(--oatmeal);border-bottom:1px solid var(--hairline);
+padding:calc(var(--space)*1.25) calc(var(--space)*4);font-size:.875rem}
+.notice p{margin:0;max-width:none}
+.notice p+p{margin-top:calc(var(--space)*.5);color:var(--text-2)}
+
+.maplink{display:flex;align-items:center;gap:calc(var(--space)*1.25);width:100%;min-height:var(--target);
+text-align:left;background:transparent;border:1px solid transparent;border-radius:var(--radius);
+padding:calc(var(--space)*.75) var(--space);color:inherit;font-weight:inherit;font-size:inherit}
+.maplink:hover{background:var(--off-white);border-color:var(--hairline-strong)}
+.maplink:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.map li{padding:0;border:0}
+.map li .dot{border:2px solid var(--line-control);background:var(--white)}
+
+.kicker{font-family:var(--font-mono);font-size:.8125rem;color:var(--text-2);margin:0}
+.boundary{border-left:4px solid var(--ink);padding-left:calc(var(--space)*2)}
+.boundary::before{content:"Boundary: ";font-weight:700}
+.lookfor{margin:0;background:var(--wash-teal);border-radius:var(--radius);
+padding:calc(var(--space)*1.5) calc(var(--space)*2)}
+.note{font-size:.875rem;color:var(--text-2);margin:0}
+.verdict-line{font-weight:700}
+
+details.script{width:100%;max-width:var(--line);border:1px solid var(--hairline);border-radius:var(--radius);
+padding:var(--space) calc(var(--space)*2);background:var(--off-white)}
+details.script summary{cursor:pointer;font-weight:500;min-height:var(--target);display:flex;align-items:center}
+details.script summary:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+details.script p{margin:var(--space) 0}
+
+.draft-label{font-weight:500}
+.draft{width:100%;max-width:var(--line);font:inherit;font-size:1rem;padding:calc(var(--space)*1.5);
+border:1px solid var(--line-control);border-radius:var(--radius);background:var(--white);color:var(--ink)}
+.draft:focus-visible,input:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.reveal-btn{border-radius:var(--radius);padding:0 calc(var(--space)*2.5)}
+.feedback{width:100%;max-width:var(--line)}
+.feedback[hidden]{display:none}
+
+.tbl-wrap{width:100%;overflow-x:auto}
+.tbl-wrap:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.tbl th[scope=row]{font-family:var(--font);font-size:.9375rem;color:var(--ink);font-weight:500}
+.tbl td,.tbl th{vertical-align:top}
+
+fieldset.item{width:100%;max-width:var(--line);border:1px solid var(--hairline);border-radius:var(--radius-md);
+padding:calc(var(--space)*2);margin:0;display:grid;gap:var(--space)}
+fieldset.item legend{font-weight:500;padding:0 var(--space);max-width:100%}
+.opt{display:grid;grid-template-columns:auto 1fr;gap:calc(var(--space)*1.25);align-items:start;
+min-height:var(--target);padding:var(--space);border:1px solid var(--hairline);border-radius:var(--radius);background:var(--white)}
+.opt input{width:20px;height:20px;margin:2px 0 0;accent-color:var(--blue)}
+.opt label{cursor:pointer}
+.opt input:disabled+label{cursor:default;color:var(--ink)}
+.jump{padding-left:calc(var(--space)*2.5)}
+.linkish{background:transparent;border:0;color:var(--blue);text-decoration:underline;padding:0;min-height:var(--target);text-align:left}
+.linkish:hover{color:var(--dark-blue)}
+
+.preset{display:flex;flex-wrap:wrap;gap:var(--space)}
+.preset button{border-radius:var(--radius);padding:0 calc(var(--space)*2)}
+.roi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(16rem,100%),1fr));gap:calc(var(--space)*1.5);width:100%}
+.roi-field{display:grid;grid-template-columns:1fr 7rem;grid-template-areas:"l i" "u u";gap:calc(var(--space)*.5) var(--space);
+align-items:center;padding:var(--space);border:1px solid var(--hairline);border-radius:var(--radius);background:var(--off-white)}
+.roi-field label{grid-area:l;font-size:.9375rem}
+.roi-field input{grid-area:i;font:inherit;min-height:var(--target);padding:0 var(--space);border:1px solid var(--line-control);
+border-radius:var(--radius);background:var(--white);color:var(--ink);width:100%}
+.roi-field .unit{grid-area:u;font-family:var(--font-mono);font-size:.75rem;color:var(--text-2)}
+.roi-out{width:100%}
+/* Single-page module: sections stacked inside the page card. */
+.page{display:grid;gap:0;padding-top:0;padding-bottom:0}
+.sec{padding:calc(var(--space)*6) 0;border-top:1px solid var(--hairline);scroll-margin-top:calc(var(--space)*2)}
+.sec:first-child{border-top:0}
+.sec h2:focus,.sec h1:focus{outline:none}
+.sec h2:focus-visible,.sec h1:focus-visible{outline:2px solid var(--blue);outline-offset:4px}
+.sec-body{display:grid;gap:calc(var(--space)*2.5);justify-items:start;width:100%}
+.seen-mark{height:1px}
+/* Grid items default to min-width:auto, so one wide table would widen every section on small screens. */
+.page>*,.sec-body>*,.prose>*,.a-canvas>*{min-width:0}
+.prose{display:grid;gap:calc(var(--space)*2);width:100%;justify-items:start}
+.prose p,.prose .bullets,.sec-body>p,.sec-body>.bullets{max-width:var(--line);margin:0}
+.prose h3{margin:calc(var(--space)*2) 0 0;font-size:1.25rem}
+.prose .bullets{margin:0}
+.objective-line{margin:0;max-width:var(--line);font-size:.9375rem;background:var(--wash-teal);
+border-radius:var(--radius);padding:calc(var(--space)*1.25) calc(var(--space)*2)}
+.list-label{font-weight:500}
+.callout{width:100%;max-width:var(--line);border-left:4px solid var(--blue);background:var(--off-white);
+border-radius:0 var(--radius) var(--radius) 0;padding:calc(var(--space)*1.5) calc(var(--space)*2)}
+.callout p{margin:0}
+.practice{width:100%;max-width:var(--line);display:grid;gap:calc(var(--space)*1.5);justify-items:start;
+background:var(--oatmeal);border:1px solid var(--hairline);border-radius:var(--radius-md);padding:calc(var(--space)*3)}
+.practice h3{margin:0}
+.practice p{margin:0}
+.worked{display:grid;gap:var(--space);background:var(--white);border:1px solid var(--hairline);
+border-radius:var(--radius);padding:calc(var(--space)*2)}
+.worked h4{margin:0;font-size:1rem}
+.worked p,.worked .bullets{margin:0}
+.result:focus{outline:2px solid var(--blue);outline-offset:2px}
+
+/* "On this page" rail: sticky on wide screens; collapsible above the content on narrow ones. */
+.rail{position:sticky;top:calc(var(--space)*2);align-self:start;max-height:calc(100vh - var(--space)*16);overflow:auto}
+.toc summary{list-style:none;font-family:var(--font-mono);font-size:.8125rem;color:var(--text-2);
+min-height:var(--target);display:flex;align-items:center;gap:var(--space);cursor:default}
+.toc summary::-webkit-details-marker{display:none}
+.toc .where{display:none}
+.maplink{text-decoration:none}
+.sec[data-type=roi]{background:var(--surface)}
+/* Let grid tracks shrink below content width so wide content cannot stretch the lesson map
+   past the viewport at 320px (WCAG 1.4.10 reflow). Scoped to SBP; the shared brand sheet is untouched. */
+.layout{grid-template-columns:minmax(200px,15rem) minmax(0,1fr)}
+.layout>.rail,.layout>.screen{min-width:0}
+.screen{overflow-wrap:anywhere}
+
+@media (min-width:901px){.toc summary{pointer-events:none}}
+@media (max-width:900px){.notice{padding:var(--space) calc(var(--space)*2)}.layout{grid-template-columns:minmax(0,1fr)}
+.rail{order:0;position:static;max-height:none;overflow:visible;border:1px solid var(--hairline);border-radius:var(--radius-md);
+background:var(--surface);padding:0 calc(var(--space)*1.5)}
+.toc summary{cursor:pointer;color:var(--ink)}
+.toc summary::before{content:"\25B8";font-size:.75rem}.toc[open] summary::before{content:"\25BE"}
+.toc .where{display:inline;color:var(--text-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.toc[open] .where{display:none}
+.toc .map{padding-bottom:calc(var(--space)*1.5)}
+.page{padding-top:0;padding-bottom:0}.sec{padding:calc(var(--space)*4) 0}
+.practice{padding:calc(var(--space)*2)}}
+@media (max-width:560px){.roi-field{grid-template-columns:1fr 6rem}}
+@media (prefers-reduced-motion:reduce){details.script,.feedback{animation:none!important}}
+
+/* Lesson figures: original SVG diagrams served through <picture>. */
+.fig{margin:calc(var(--space)*3) 0;width:100%;max-width:880px}
+.fig img{display:block;width:100%;height:auto;border-radius:var(--radius-md);border:1px solid var(--hairline)}
+.fig figcaption{margin-top:var(--space);font-size:.875rem;color:var(--text-2);max-width:var(--line)}

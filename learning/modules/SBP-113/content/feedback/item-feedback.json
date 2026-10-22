@@ -1,0 +1,37 @@
+{
+  "module_id": "SBP-113",
+  "feedback": {
+    "SBP-113-Q001": {
+      "correct": "Correct. Good facilitation acknowledges input while maintaining the decision and evidence structure.",
+      "incorrect": "Review the relevant lesson and evidence. Good facilitation acknowledges input while maintaining the decision and evidence structure."
+    },
+    "SBP-113-Q002": {
+      "correct": "Correct. The aim is to protect customer time and reach a decision, not impose arbitrary process or skip qualification.",
+      "incorrect": "Review the relevant lesson and evidence. The aim is to protect customer time and reach a decision, not impose arbitrary process or skip qualification."
+    },
+    "SBP-113-Q003": {
+      "correct": "Correct. Recapture and actual business actions bridge capacity to outcomes without overstating hard-dollar value.",
+      "incorrect": "Review the relevant lesson and evidence. Recapture and actual business actions bridge capacity to outcomes without overstating hard-dollar value."
+    },
+    "SBP-113-Q004": {
+      "correct": "Correct. Benchmarks are hypotheses; better evidence and transparent assumptions strengthen or invalidate the case.",
+      "incorrect": "Review the relevant lesson and evidence. Benchmarks are hypotheses; better evidence and transparent assumptions strengthen or invalidate the case."
+    },
+    "SBP-113-Q005": {
+      "correct": "Correct. A usable Blueprint yields decisions, evidence and accountability, not just ideas.",
+      "incorrect": "Review the relevant lesson and evidence. A usable Blueprint yields decisions, evidence and accountability, not just ideas."
+    },
+    "SBP-113-Q006": {
+      "correct": "Correct. Repeated access failures may indicate weak priority or sponsorship and call for requalification.",
+      "incorrect": "Review the relevant lesson and evidence. Repeated access failures may indicate weak priority or sponsorship and call for requalification."
+    },
+    "SBP-113-Q007": {
+      "correct": "Correct. Honest phasing preserves value and feasibility without unsupported promises.",
+      "incorrect": "Review the relevant lesson and evidence. Honest phasing preserves value and feasibility without unsupported promises."
+    },
+    "SBP-113-Q008": {
+      "correct": "Correct. Decision quality and resource discipline matter even when the right answer is not to proceed.",
+      "incorrect": "Review the relevant lesson and evidence. Decision quality and resource discipline matter even when the right answer is not to proceed."
+    }
+  }
+}

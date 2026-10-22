@@ -1,0 +1,143 @@
+{
+  "id": "SBP-105-L06",
+  "lesson": "SBP-105-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Close and follow up within 24 hours",
+  "nav": "6. Close and follow up within 24 hours",
+  "objective": "Review a recap that says only 'great meeting, deck attached'.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The recap turns a good conversation into shared commitments. Send it while the context is fresh."
+    },
+    {
+      "t": "h3",
+      "x": "Close the session"
+    },
+    {
+      "t": "p",
+      "x": "Before people leave, restate the priorities, the open questions, the business and technical owners, and the scheduled next steps."
+    },
+    {
+      "t": "h3",
+      "x": "The recap"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Visioning playbook asks you to share session notes, the prioritized use case table, and next steps with all attendees within 24 hours. A strong recap includes:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The purpose of the session, in one line.",
+        "Three to five key takeaways.",
+        "The prioritized use cases, with a short rationale.",
+        "A summary of quick wins and strategic bets.",
+        "Actions, with owners and dates, including the DITL sessions.",
+        "Open assumptions for participants to correct."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Attach the editable use case log and a snapshot of the matrix, not just a deck."
+    },
+    {
+      "t": "h3",
+      "x": "Silence is not confirmation"
+    },
+    {
+      "t": "p",
+      "x": "Ask explicitly for corrections to assumptions, and track changes with version history. Distinguish tentative next steps from accepted commitments. If the champion says the recap is wrong, correct the artifact, note what changed, and reconfirm any changed decisions with the people affected."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Keep internal qualification notes, such as deal stage, competitive notes, and internal assessments, out of the customer recap."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A recap that arrives within 24 hours keeps commitments fresh. Silence after it isn't agreement, so follow up."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "The 24-hour Visioning follow-up",
+      "alt": "A four-step follow-up after Visioning: send the recap with priorities and owners, confirm DITL participants and dates, update the mutual action plan, and chase any unconfirmed items.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Send the recap",
+          "detail": "Priorities, owners, open questions",
+          "emph": false
+        },
+        {
+          "label": "Confirm DITL",
+          "detail": "Participants and dates",
+          "emph": false
+        },
+        {
+          "label": "Update the plan",
+          "detail": "Mutual action plan and records",
+          "emph": false
+        },
+        {
+          "label": "Chase silence",
+          "detail": "Unconfirmed is not agreed",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A colleague's Visioning recap reads: \"Great meeting, deck attached.\" Improve it."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Add:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The three agreed priorities and why they were chosen.",
+        "The open assumptions, for example: \"We assumed the knowledge base is the main source. Please correct us if not.\"",
+        "Action owners and due dates.",
+        "The DITL sessions, with participants and dates.",
+        "A request to correct anything within two working days."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Attach the editable use case log and the matrix snapshot, and keep internal deal notes out."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 316,
+  "eyebrow": "Lesson 6 · about 6 min",
+  "claims": [
+    "C-0238",
+    "C-0239",
+    "C-0240",
+    "C-0241",
+    "C-0242",
+    "C-0243",
+    "C-0244"
+  ],
+  "sources": [
+    "S05",
+    "S07",
+    "S08"
+  ]
+}

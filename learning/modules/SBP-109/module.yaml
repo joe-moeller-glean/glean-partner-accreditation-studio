@@ -1,0 +1,32 @@
+module_id: SBP-109
+title: "Step 3: Executive Validation"
+design_system: paged-v1
+learning_path: "AI Blueprinting & Value Mapping"
+request_type: batch
+audience: ["Partner sellers", "Partner solution consultants and SEs", "Practice leads", "Glean field collaborators"]
+level: "Practitioner (proposed)"
+learning_outcomes:
+  - "Complete the executive validation pre-work checklist."
+  - "Run the 60-minute readout agenda."
+  - "Secure sponsorship, success criteria and the validation path decision."
+  - "Send the recap and update opportunity records within 24 hours."
+lesson_objectives:
+  SBP-109-L01: "Given the supplied customer-neutral scenario and sources, review readiness when workflow maps are complete but value inputs have no owner. Successful output matches the worked response and states remaining uncertainty."
+  SBP-109-L02: "Given the supplied customer-neutral scenario and sources, what do you do if only the champion attends the planned executive readout?. Successful output matches the worked response and states remaining uncertainty."
+  SBP-109-L03: "Given the supplied customer-neutral scenario and sources, cut a 40-slide product introduction down to an executive opening. Successful output matches the worked response and states remaining uncertainty."
+  SBP-109-L04: "Given the supplied customer-neutral scenario and sources, respond when the CFO says 'these are estimates, not savings'. Successful output matches the worked response and states remaining uncertainty."
+  SBP-109-L05: "Given the supplied customer-neutral scenario and sources, write the decision log when a sponsor accepts value but wants a permission-sensitive workflow tested. Successful output matches the worked response and states remaining uncertainty."
+  SBP-109-L06: "Given the supplied customer-neutral scenario and sources, draft the checklist for executive-validation follow-up. Successful output matches the worked response and states remaining uncertainty."
+prerequisites: "SBP-108"
+roadmap_alignment: "SAL-201; SOL-201"  # semantic alignment only (O12)
+target_hours: 0.75
+mastery_score: 80
+accreditation: accred-ai-blueprinting
+authoring_contract: "https://docs.google.com/spreadsheets/d/1FNFUQAzKl1BgMlyMgR8zygEvmLtnf7V5s-bhaL-3-48"
+authoring_snapshot: plan/sales-blueprinting/workbook/
+review_status: "In review"
+partner_clearance: "Pending partner clearance"
+sme_signoff: "Not signed"
+sme: unassigned - needs_sme (Blueprint SME, BVC / value engineering)
+publish_mode: manual_review
+release_state: restricted_preview

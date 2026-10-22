@@ -1,0 +1,31 @@
+{
+  "id": "SBP-103-S000",
+  "claims": [
+    "C-0100"
+  ],
+  "sources": [
+    "S03",
+    "S05",
+    "S06",
+    "S21",
+    "S13"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-103 · Practitioner (proposed)",
+  "title": "Roles, Ownership & Partner Engagement",
+  "nav": "Overview",
+  "body": "Who owns each Blueprint step (AE, SE, BVC, partner), partner engagement models, RACI, and how partners accelerate and differentiate through Blueprint",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Assign AE, SE, BVC and partner ownership for each Blueprint step.",
+    "Select a partner engagement model for a deal.",
+    "Explain how partner-led discovery shortens the Blueprint cycle.",
+    "Describe when to request BVC support."
+  ],
+  "footnote": "Recommended before this module: SBP-102. Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

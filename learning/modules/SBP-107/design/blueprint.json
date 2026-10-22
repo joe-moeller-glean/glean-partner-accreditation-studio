@@ -1,0 +1,85 @@
+{
+  "module_id": "SBP-107",
+  "module_objectives": [
+    "Prepare DITL interviews for the prioritized use cases.",
+    "Map current-state steps, systems, time and bottlenecks.",
+    "Draft the future-state workflow with Glean and the time saved.",
+    "Decide when a playback session is needed."
+  ],
+  "objective_map": [
+    {
+      "lesson_id": "SBP-107-L01",
+      "objective": "Given the supplied customer-neutral scenario and sources, create an interview brief for approved-answer discovery. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-107-L01"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-107-Q001"
+      ]
+    },
+    {
+      "lesson_id": "SBP-107-L02",
+      "objective": "Given the supplied customer-neutral scenario and sources, map 'read case, search wiki, ask colleague, draft answer, review' with missing timings. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-107-L02"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-107-Q002"
+      ]
+    },
+    {
+      "lesson_id": "SBP-107-L03",
+      "objective": "Given the supplied customer-neutral scenario and sources, distinguish '30 minutes searching' from 'two days waiting for approval'. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-107-L03"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-107-Q003"
+      ]
+    },
+    {
+      "lesson_id": "SBP-107-L04",
+      "objective": "Given the supplied customer-neutral scenario and sources, redesign a five-step case-answer process and identify retained controls. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-107-L04"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-107-Q004"
+      ]
+    },
+    {
+      "lesson_id": "SBP-107-L05",
+      "objective": "Given the supplied customer-neutral scenario and sources, decide whether a workflow with disputed permissions needs a playback. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-107-L05"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-107-Q005"
+      ]
+    },
+    {
+      "lesson_id": "SBP-107-L06",
+      "objective": "Given the supplied customer-neutral scenario and sources, write a six-line DITL summary for the support case. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-107-L06"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-107-Q006",
+        "SBP-107-Q007",
+        "SBP-107-Q008"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "SBP-104-L02",
+  "lesson": "SBP-104-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Why Change, Why Now, Why Glean",
+  "nav": "2. Why Change, Why Now, Why Glean",
+  "objective": "Draft the three Whys for the fictional support scenario.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A value hypothesis is an informed point of view that you bring to the customer to test. It is not a claim that discovery is complete. The three whys give it structure."
+    },
+    {
+      "t": "h3",
+      "x": "The three whys"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Why change?** What is the business problem, and what happens if the customer does nothing?",
+        "**Why now?** Why is it a priority this quarter or year, rather than someday?",
+        "**Why Glean?** Why might Glean be relevant to this problem in this customer's environment?"
+      ]
+    },
+    {
+      "t": "p",
+      "x": "In Glean's sales process, discovery is AE-led and produces a value hypothesis, identified pain, champions, and access to power. The Blueprint then tests and refines that hypothesis with the people who do the work."
+    },
+    {
+      "t": "h3",
+      "x": "Keep the causal claim honest"
+    },
+    {
+      "t": "p",
+      "x": "Separate what the customer has confirmed, such as \"service cost is under review,\" from what you are proposing, such as \"unified access to approved knowledge might reduce search time.\" The proposal is the part you will test. Phrase it as a hypothesis and attach a feasibility check."
+    },
+    {
+      "t": "callout",
+      "label": "Example (fictional support team)",
+      "x": "**Why change:** fragmented guidance across several systems increases support effort and inconsistency. **Why now:** service cost is under formal review this year. **Why Glean:** permission-aware access to relevant knowledge across existing systems may make approved answers easier to find. This depends on the content being in reachable systems, which we will validate."
+    },
+    {
+      "t": "h3",
+      "x": "Avoid feature lists"
+    },
+    {
+      "t": "p",
+      "x": "A list of capabilities is not a hypothesis. If your \"Why Glean\" would read the same for any customer, it isn't specific enough. Tie it to the systems, people, and workflow you expect to find."
+    },
+    {
+      "t": "h3",
+      "x": "Use them in every meeting"
+    },
+    {
+      "t": "p",
+      "x": "Glean's onboarding training notes that many teams open every customer meeting with the three whys, then move to the executive summary. By the executive readout, the three whys are no longer the seller's hypothesis. They are restated from what the customer said in Visioning and DITL."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "The three whys",
+      "alt": "A three-step sequence: why change, which names the business problem and its cost; why now, which names the trigger and deadline; and why Glean, which names the differentiators that matter for this problem.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Why change?",
+          "detail": "The problem and what it costs today",
+          "emph": false
+        },
+        {
+          "label": "Why now?",
+          "detail": "The trigger, deadline, or priority that makes it urgent",
+          "emph": false
+        },
+        {
+          "label": "Why Glean?",
+          "detail": "The differentiators that matter for this problem",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Draft the three whys for a fictional IT service desk that handles employee questions about laptops, access, and software."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Why change:** agents repeat the same searches and escalate questions that existing articles already answer, so employees wait longer.",
+        "**Why now:** IT leadership wants to absorb a headcount freeze without lowering service levels this fiscal year (to confirm with the IT director).",
+        "**Why Glean:** test whether unified, permission-aware access to approved knowledge reduces search effort and avoidable escalations, while keeping answer quality and access controls in place."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Uncertainty: we don't yet know where the approved knowledge lives, or how current it is."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 439,
+  "eyebrow": "Lesson 2 · about 6 min",
+  "claims": [
+    "C-0158",
+    "C-0159",
+    "C-0160",
+    "C-0161",
+    "C-0162",
+    "C-0163",
+    "C-0164"
+  ],
+  "sources": [
+    "S04",
+    "S06",
+    "S16",
+    "S36",
+    "S68"
+  ]
+}

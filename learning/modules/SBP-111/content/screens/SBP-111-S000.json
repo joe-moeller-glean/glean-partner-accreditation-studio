@@ -1,0 +1,31 @@
+{
+  "id": "SBP-111-S000",
+  "claims": [
+    "C-0515"
+  ],
+  "sources": [
+    "S05",
+    "S13",
+    "S45",
+    "S44",
+    "S20"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-111 · Practitioner (proposed)",
+  "title": "Deliverables, MAP & Handoff",
+  "nav": "Overview",
+  "body": "The Blueprint deliverable set, recap communications, Mutual Action Plan, success plan, and handoff to delivery, services and customer success",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Produce the standard Blueprint deliverables.",
+    "Build a MAP and success plan from Blueprint outputs.",
+    "Hand off value commitments so they can be measured after go-live.",
+    "Attach partner services to the prioritized roadmap."
+  ],
+  "footnote": "Recommended before this module: SBP-110. Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

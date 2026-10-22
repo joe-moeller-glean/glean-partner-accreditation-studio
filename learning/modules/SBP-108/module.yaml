@@ -1,0 +1,32 @@
+module_id: SBP-108
+title: "Business Value, Metrics & ROI"
+design_system: paged-v1
+learning_path: "AI Blueprinting & Value Mapping"
+request_type: batch
+audience: ["Partner sellers", "Partner solution consultants and SEs", "Practice leads", "Glean field collaborators"]
+level: "Practitioner (proposed)"
+learning_outcomes:
+  - "Structure a business case with the four-part value architecture."
+  - "Translate time savings into cost, revenue or risk impact."
+  - "Apply the recapture rate and present ranges with labeled evidence."
+  - "Define metrics with baseline, target, system of record and owner."
+lesson_objectives:
+  SBP-108-L01: "Given the supplied customer-neutral scenario and sources, sort a workflow map, a risk-adjusted benefit, a baseline plan and a strategic priority into the four parts. Successful output matches the worked response and states remaining uncertainty."
+  SBP-108-L02: "Given the supplied customer-neutral scenario and sources, classify saved analyst hours, a cancelled tool contract and an estimated increase in win rate. Successful output matches the worked response and states remaining uncertainty."
+  SBP-108-L03: "Given the supplied customer-neutral scenario and sources, choose a defensible claim for ten user survey responses with no baseline or operational data. Successful output matches the worked response and states remaining uncertainty."
+  SBP-108-L04: "Given the supplied customer-neutral scenario and sources, explain why 'users \u00d7 minutes \u00d7 hourly rate' is incomplete. Successful output matches the worked response and states remaining uncertainty."
+  SBP-108-L05: "Given the supplied customer-neutral scenario and sources, name the first assumptions to validate when the ROI range changes widely. Successful output matches the worked response and states remaining uncertainty."
+  SBP-108-L06: "Given the supplied customer-neutral scenario and sources, complete a metric card with no historical timing data. Successful output matches the worked response and states remaining uncertainty."
+prerequisites: "SBP-107"
+roadmap_alignment: "SOL-103"  # semantic alignment only (O12)
+target_hours: 0.75
+mastery_score: 80
+accreditation: accred-ai-blueprinting
+authoring_contract: "https://docs.google.com/spreadsheets/d/1FNFUQAzKl1BgMlyMgR8zygEvmLtnf7V5s-bhaL-3-48"
+authoring_snapshot: plan/sales-blueprinting/workbook/
+review_status: "In review"
+partner_clearance: "Pending partner clearance"
+sme_signoff: "Not signed"
+sme: unassigned - needs_sme (Blueprint SME, BVC / value engineering)
+publish_mode: manual_review
+release_state: restricted_preview

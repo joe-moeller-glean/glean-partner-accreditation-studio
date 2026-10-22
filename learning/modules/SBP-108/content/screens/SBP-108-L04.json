@@ -1,0 +1,135 @@
+{
+  "id": "SBP-108-L04",
+  "lesson": "SBP-108-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Recapture, adoption and unit-safe calculation",
+  "nav": "4. Recapture, adoption and unit-safe calculation",
+  "objective": "Explain why 'users × minutes × hourly rate' is incomplete.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A capacity model is a chain of explicit assumptions. Every link needs a unit and an evidence label, and none should be quietly assumed to be 100%."
+    },
+    {
+      "t": "h3",
+      "x": "The inputs"
+    },
+    {
+      "t": "p",
+      "x": "A defensible capacity model accounts for:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Population:** addressable users.",
+        "**Adoption:** the share who actively use the capability.",
+        "**Frequency:** events per active user per workday.",
+        "**Time:** minutes per event, converted once to hours.",
+        "**Period:** workdays per year.",
+        "**Removable share and coverage:** how much of the burden Glean can realistically remove, and for what share of events.",
+        "**Recapture:** the share of freed capacity that becomes useful business output.",
+        "**Loaded rate:** the value of an hour, labeled as capacity value, not cash.",
+        "**Uncertainty:** a risk adjustment."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "What recapture means"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Value Playbook calls the productivity recapture rate the most consequential assumption in any value model. It answers this question: of the time Glean saves, how much actually converts into measurable business output? The honest answer is not all of it. Recapture is not the share of users who log in; that is adoption. Ask the business owner for a reallocation plan, meaning what the team will do with the time, before choosing a recapture assumption."
+    },
+    {
+      "t": "h3",
+      "x": "Avoid double discounting"
+    },
+    {
+      "t": "p",
+      "x": "If the time-saved input is already measured, for example as minutes saved per event, don't apply a removable-share discount to it again. Check what each input means before applying a factor."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "This module's ROI Lab uses fictional values. Glean's internal calculator defaults are not customer facts. Don't present them as the customer's numbers without validation."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Each factor narrows the estimate. Apply each one once, in a visible formula."
+    },
+    {
+      "t": "figure",
+      "kind": "bars",
+      "title": "How the inputs narrow the estimate (fictional)",
+      "alt": "A bar chart showing a fictional estimate narrowing as each factor is applied: 100 percent of the eligible population's time, 70 percent after adoption, 42 percent after the removable share, and 21 percent after recapture.",
+      "caption": "Fictional percentages for illustration. Apply each factor once.",
+      "items": [
+        {
+          "label": "Eligible population time",
+          "value": 100.0,
+          "note": "%",
+          "emph": false
+        },
+        {
+          "label": "After adoption",
+          "value": 70.0,
+          "note": "%",
+          "emph": false
+        },
+        {
+          "label": "After removable share",
+          "value": 42.0,
+          "note": "%",
+          "emph": false
+        },
+        {
+          "label": "After recapture",
+          "value": 21.0,
+          "note": "%",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A colleague's model is \"users × minutes saved × hourly rate.\" Explain why it is incomplete."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "It leaves out adoption, event frequency, and the time period. It doesn't convert minutes to hours explicitly. It ignores how much of the work is really removable, and assumes 100% recapture with no uncertainty adjustment."
+    },
+    {
+      "t": "p",
+      "x": "Document each input with its evidence label, convert units once, and make sure discounts don't overlap."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 355,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0380",
+    "C-0381",
+    "C-0382",
+    "C-0383",
+    "C-0384",
+    "C-0385",
+    "C-0386"
+  ],
+  "sources": [
+    "S13",
+    "S39"
+  ]
+}

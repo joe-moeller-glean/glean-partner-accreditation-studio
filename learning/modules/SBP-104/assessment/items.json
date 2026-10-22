@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-104",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-104-Q001",
+      "objective_id": "SBP-104-L01",
+      "module_id": "SBP-104",
+      "stem": "Two account sources disagree on the current priority. What should the prep pack do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Silently choose the more exciting claim."
+        },
+        {
+          "id": "b",
+          "text": "Delete all citations so no conflict is visible."
+        },
+        {
+          "id": "c",
+          "text": "Invent a third priority that combines them."
+        },
+        {
+          "id": "d",
+          "text": "Record both sources and dates, flag the conflict and validate with the customer."
+        }
+      ],
+      "claims": [
+        "C-0194"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q002",
+      "objective_id": "SBP-104-L02",
+      "module_id": "SBP-104",
+      "stem": "What belongs in the three-Whys value hypothesis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Why Change, Why Now and Why Glean for this specific problem."
+        },
+        {
+          "id": "b",
+          "text": "Only a list of product features."
+        },
+        {
+          "id": "c",
+          "text": "Guaranteed ROI, guaranteed adoption and guaranteed timing."
+        },
+        {
+          "id": "d",
+          "text": "Why a longer slide deck, why a bigger room and why more meetings."
+        }
+      ],
+      "claims": [
+        "C-0195"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q003",
+      "objective_id": "SBP-104-L03",
+      "module_id": "SBP-104",
+      "stem": "Which metric hypothesis is best formed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Productivity will improve a lot."
+        },
+        {
+          "id": "b",
+          "text": "Every user will be active all day."
+        },
+        {
+          "id": "c",
+          "text": "Handle time for an agreed case class, measured in ITSM, linked to throughput and quality."
+        },
+        {
+          "id": "d",
+          "text": "The customer already saves 40% because a peer does."
+        }
+      ],
+      "claims": [
+        "C-0196"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q004",
+      "objective_id": "SBP-104-L04",
+      "module_id": "SBP-104",
+      "stem": "The pre-work is empty and sponsorship is unconfirmed. What is best?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Start provisioning a pilot immediately."
+        },
+        {
+          "id": "b",
+          "text": "Fill in the worksheet with invented customer facts."
+        },
+        {
+          "id": "c",
+          "text": "Reschedule the full workshop or narrow it to qualification/alignment."
+        },
+        {
+          "id": "d",
+          "text": "Proceed and mark every prerequisite passed."
+        }
+      ],
+      "claims": [
+        "C-0197"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q005",
+      "objective_id": "SBP-104-L05",
+      "module_id": "SBP-104",
+      "stem": "What does the supplied customer email template request about pre-work timing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Return it two days before the session."
+        },
+        {
+          "id": "b",
+          "text": "Return it only after the contract is signed."
+        },
+        {
+          "id": "c",
+          "text": "Return it exactly six months before the session."
+        },
+        {
+          "id": "d",
+          "text": "Do not send pre-work to customers."
+        }
+      ],
+      "claims": [
+        "C-0198"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q006",
+      "objective_id": "SBP-104-L06",
+      "module_id": "SBP-104",
+      "stem": "Which rehearsal output is most useful?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agreed hypothesis, roles, agenda, known gaps, tools and expected decisions."
+        },
+        {
+          "id": "b",
+          "text": "A promise that all customer questions will have immediate answers."
+        },
+        {
+          "id": "c",
+          "text": "A more dramatic transition animation."
+        },
+        {
+          "id": "d",
+          "text": "An internal benchmark presented as customer fact."
+        }
+      ],
+      "claims": [
+        "C-0199"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q007",
+      "objective_id": "SBP-104-L06",
+      "module_id": "SBP-104",
+      "stem": "A peer case study suggests a large benefit. How should it be used in prep?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As the prospect's measured baseline."
+        },
+        {
+          "id": "b",
+          "text": "As permission to omit DITL."
+        },
+        {
+          "id": "c",
+          "text": "As an approved analogy or hypothesis, not as this prospect's achieved outcome."
+        },
+        {
+          "id": "d",
+          "text": "As a guarantee that the same result will occur."
+        }
+      ],
+      "claims": [
+        "C-0200"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-104-Q008",
+      "objective_id": "SBP-104-L06",
+      "module_id": "SBP-104",
+      "stem": "Who must confirm a proposed customer's baseline and measurement feasibility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The certificate template."
+        },
+        {
+          "id": "b",
+          "text": "The slide-generation model alone."
+        },
+        {
+          "id": "c",
+          "text": "The relevant customer metric/data owner with the account team."
+        },
+        {
+          "id": "d",
+          "text": "Any unrelated prospect with a similar logo."
+        }
+      ],
+      "claims": [
+        "C-0201"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

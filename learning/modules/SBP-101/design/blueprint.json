@@ -1,0 +1,85 @@
+{
+  "module_id": "SBP-101",
+  "module_objectives": [
+    "Define the Blueprint Consultation and its purpose.",
+    "Name the three steps and the default validation path.",
+    "Explain why Blueprint replaces open-ended AI experimentation.",
+    "Distinguish the Sales Blueprint from post-sales SA blueprints."
+  ],
+  "objective_map": [
+    {
+      "lesson_id": "SBP-101-L01",
+      "objective": "Given the supplied customer-neutral scenario and sources, write a two-sentence customer explanation without product jargon. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-101-L01"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-101-Q001"
+      ]
+    },
+    {
+      "lesson_id": "SBP-101-L02",
+      "objective": "Given the supplied customer-neutral scenario and sources, sequence preparation, executive decision, DITL, validation and Visioning. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-101-L02"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-101-Q002"
+      ]
+    },
+    {
+      "lesson_id": "SBP-101-L03",
+      "objective": "Given the supplied customer-neutral scenario and sources, translate 'we need an AI assistant' into outcome, use case, workflow and metric. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-101-L03"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-101-Q003"
+      ]
+    },
+    {
+      "lesson_id": "SBP-101-L04",
+      "objective": "Given the supplied customer-neutral scenario and sources, name one benefit for each party and one accountability boundary. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-101-L04"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-101-Q004"
+      ]
+    },
+    {
+      "lesson_id": "SBP-101-L05",
+      "objective": "Given the supplied customer-neutral scenario and sources, classify 'prioritized use case list', 'implementation reference architecture' and 'executive value readout'. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-101-L05"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-101-Q005"
+      ]
+    },
+    {
+      "lesson_id": "SBP-101-L06",
+      "objective": "Given the supplied customer-neutral scenario and sources, audit a draft containing only a demo deck and a projected savings headline. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-101-L06"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-101-Q006",
+        "SBP-101-Q007",
+        "SBP-101-Q008"
+      ]
+    }
+  ]
+}

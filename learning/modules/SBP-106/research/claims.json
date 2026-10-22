@@ -1,0 +1,776 @@
+{
+  "module_id": "SBP-106",
+  "claims": [
+    {
+      "claim_id": "C-0256",
+      "anchor": "SBP-106-S000",
+      "text": "Discovery framework, high-leverage questions, the use case table, impact-vs-effort scoring, technical gotchas, and choosing hero use cases",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S21",
+        "S20",
+        "S26"
+      ],
+      "locator": "Module overview synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0257",
+      "anchor": "SBP-106-L01#00",
+      "text": "Discovery runs in one direction: from what the business needs to how you would measure it. Starting from a solution, such as \"let's build an agent,\" skips the facts that decide whether it will work.",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0258",
+      "anchor": "SBP-106-L01#01",
+      "text": "Business outcome: what changes for the business, and who owns that result. Use case: the actor and the job they need to do. Workflow: how the job is done today, with its steps, handoffs, and systems. Data: the information the job needs, where it lives, and who can access it. Success metrics: the evidence that the outcome improved.",
+      "source_ids": [
+        "S05"
+      ],
+      "locator": "The chain",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": true,
+      "excerpt_source": "S05",
+      "excerpt": "A simple discovery framework: business outcomes → use cases → workflows → data → success metrics.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0259",
+      "anchor": "SBP-106-L01#02",
+      "text": "Outcome | Higher support throughput without lower quality Use case | A support agent finds the approved answer for a case Workflow | Review case → search sources → check with a peer → draft → respond Data | Case context, knowledge base articles, past resolutions Metric | Handle time, paired with resolution quality checks",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "locator": "A worked chain (fictional support team)",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0260",
+      "anchor": "SBP-106-L01#03",
+      "text": "If you start with a complex agent design, you lock in assumptions before you know the data or the workflow. Following the chain exposes missing facts and dependencies, such as an unowned knowledge base or a permission model nobody has checked, while the design can still change. An agent idea is one possible implementation. It is never the starting requirement.",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "locator": "Why order matters",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0261",
+      "anchor": "SBP-106-L01#04",
+      "text": "Work the chain from the top. Starting at connectors or agent ideas produces technology in search of a problem. Business outcome Higher support throughput, same quality Use case An agent finds the approved answer Workflow Review, search, check with a peer, draft Data Case context, articles, past resolutions Success metrics Handle time, with quality checks",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0262",
+      "anchor": "SBP-106-L01#05",
+      "text": "Put these in discovery order: connectors, outcome, metrics, agent idea, workflow. Explain where the agent idea belongs.",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0263",
+      "anchor": "SBP-106-L01#06",
+      "text": "Outcome → a specific use case → workflow evidence → data and connector feasibility → metrics. The agent idea comes last, as a possible implementation once you understand the work and the data. It is not the starting requirement, and it might not be the right answer at all.",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0264",
+      "anchor": "SBP-106-L02#00",
+      "text": "Good questions produce evidence: real examples, frequency, the people affected, and consequences. Weak questions produce opinions.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S13"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0265",
+      "anchor": "SBP-106-L02#01",
+      "text": "\"Walk me through the last time this happened\" gets far more useful detail than \"Is search painful?\" Follow up with: Where did the information live? Who else was involved? How did you decide the answer was trustworthy? How often does this happen, and how long does it take? What happens when it goes wrong? Glean's partner question bank covers four areas: strategic goals and current success metrics, the day in the life of key personas, pain points and workarounds, and what \"good\" looks like 6 to 12 months out.",
+      "source_ids": [
+        "S05",
+        "S07"
+      ],
+      "locator": "Ask about a real, recent example",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S05",
+      "excerpt": "\"Day in the life\" of key personas; pain points, failure modes, and current workarounds; what \"good\" looks like 6–12 months out.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0266",
+      "anchor": "SBP-106-L02#02",
+      "text": "Glean's Value Playbook answers four questions for every use case: How does it happen today? Walk through the current workflow step by step to find the friction and the systems involved. How often? How many times per day, week, or month, and across how many people? Volume multiplied by per-event impact gives total value, and low volume kills ROI. What does it cost today? The time, money, or risk cost of the current approach. This sets the baseline for a before-and-after comparison. What does good look like? What success would look like, and which metric would move. Then ask where the proof woul",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Four questions for every use case",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "For every use case, answer these four questions / Volume × per-event impact = total value. Low volume kills ROI.",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0267",
+      "anchor": "SBP-106-L02#03",
+      "text": "Four questions, asked about a real recent example, give you the evidence for impact and effort. How does it happen today? Walk through the last real example How often? Volume and frequency, with a source What does it cost today? Time, delay, errors, and risk What does good look like? The outcome and how you'd measure it",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S13"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0268",
+      "anchor": "SBP-106-L02#04",
+      "text": "Write three questions for a support workflow that would reveal both its impact and its effort.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S13"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0269",
+      "anchor": "SBP-106-L02#05",
+      "text": "\"Walk me through what happens from when a case arrives to when you send the answer. Where do you search, and what access do you need?\" \"How often does this happen each day, how long does it take, and how many agents do it?\" \"Who tracks how quickly and how well cases are resolved, and in which system?\" The first exposes effort, meaning the systems and permissions involved. The second exposes reach and volume. The third finds the metric owner and the source of proof.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S13"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0270",
+      "anchor": "SBP-106-L03#00",
+      "text": "Impact is more than how many people a use case touches. It combines reach, frequency, and the business consequence: cost, revenue, risk, or quality.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S13",
+        "S21"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0271",
+      "anchor": "SBP-106-L03#01",
+      "text": "Reach: the affected users. Frequency: how often the event occurs. Consequence: what happens to cost, revenue, risk, or quality when it goes well or badly. A workflow used by 200 people twice a day may be a bigger capacity opportunity than a weekly task for five people. But a rare compliance event can still matter a great deal. Record the rationale rather than forcing every impact into a seat count.",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "locator": "The parts of impact",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S05",
+      "excerpt": "Impact: How much positive change this use case creates for the business and users.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0272",
+      "anchor": "SBP-106-L03#02",
+      "text": "High, medium, and low ratings are useful in a workshop, but each needs a short rationale and an evidence status. \"High, because about 200 agents do this several times a day (champion's estimate, to confirm with the ticketing data)\" is defensible. \"High\" on its own is not.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S13",
+        "S21"
+      ],
+      "locator": "Directional ratings need reasons",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0273",
+      "anchor": "SBP-106-L03#03",
+      "text": "Treating addressable users as active users. Not everyone who could use a capability will. Double-counting. The same saved minutes can't be claimed twice under two benefit lines. Monetizing too early. Use financial modeling only after the assumptions are explicit and labeled.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Avoid three common errors",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0274",
+      "anchor": "SBP-106-L03#04",
+      "text": "Glean's value-selling training notes that most use cases deliver multiple value drivers. A complete customer view, for example, can improve both growth and efficiency. Mapping those connections makes a stronger narrative and speaks to several stakeholders at once. It also raises the risk of double counting, so state which driver each number belongs to. Reach How many people the work affects Frequency How often it happens Consequence What each occurrence costs in time, quality, or risk",
+      "source_ids": [
+        "S66"
+      ],
+      "locator": "Combine value drivers, carefully",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S66",
+      "excerpt": "Most use cases deliver multiple value drivers",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0275",
+      "anchor": "SBP-106-L03#05",
+      "text": "Compare two use cases: a broad, low-friction policy lookup used by most employees, and a rare, high-risk approval process in finance.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S13",
+        "S21"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0276",
+      "anchor": "SBP-106-L03#06",
+      "text": "Policy lookup: record the population and frequency, such as \"most employees, a few times a month\" (to confirm), and the time per lookup. Impact is mainly capacity and experience. Approval process: record its severity and controls, such as what an error costs and which controls apply. Impact is mainly risk, and seat count understates it. Discuss value and feasibility separately for each. Leave unsupported monetary claims unquantified until the inputs are confirmed.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S13",
+        "S21"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0277",
+      "anchor": "SBP-106-L04#00",
+      "text": "Effort is where optimistic use cases fail. A simple-sounding request can depend on several systems, complex permissions, or actions that require security review. Surface these risks in discovery, not after a demo.",
+      "source_ids": [
+        "S05",
+        "S23"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0278",
+      "anchor": "SBP-106-L04#01",
+      "text": "Glean's partner enablement lists technical gotchas to surface in discovery: Data and connectors | The source of truth is unclear; no native connector; immature or rate-limited APIs; on-premises systems | \"Where is the canonical record, and which system wins on conflicts?\" Data footprint | A small-sounding use case needs legacy systems, archives, or large files | \"How much history does this need?\" Permissions and identity | Row- or field-level permissions; multiple directories; shared mailboxes; exceptions | \"Who can see what, and are there exceptions?\" Structured expectations | Expecting exact",
+      "source_ids": [
+        "S05"
+      ],
+      "locator": "What drives effort",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": true,
+      "excerpt_source": "S05",
+      "excerpt": "write actions into critical systems trigger a whole new review path and delay. / stakeholder expects perfect joins and aggregations from a chat prompt when the use case needs deterministic SQL/BI.",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0279",
+      "anchor": "SBP-106-L04#02",
+      "text": "Validate feasibility with the people who own the systems. Don't infer it from a use case description. Also consider change management. A technically easy use case still takes effort if it changes how a team works. Boundary Don't claim that generic retrieval will perform deterministic joins, or that an agent can write to any system. Verify current capabilities with the Glean account team, and get owner commitments before rating a use case as easy.",
+      "source_ids": [
+        "S05",
+        "S23"
+      ],
+      "locator": "Ask the system owners",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0280",
+      "anchor": "SBP-106-L04#03",
+      "text": "Effort hides in the data. Ask system owners about these areas before you rank a use case as low effort. Connectors Is there a clear source of truth and a connector? Permissions Row- or field-level rules; multiple identities Structured data Exact joins and aggregations expected Freshness Real-time needs versus periodic indexing Write-backs Which systems may the agent update? Data quality Labels, ownership, and tribal knowledge",
+      "source_ids": [
+        "S05",
+        "S23"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0281",
+      "anchor": "SBP-106-L04#04",
+      "text": "A use case calls for an agent that reads five systems and updates a CRM record after each customer call. Identify at least four effort risks.",
+      "source_ids": [
+        "S05",
+        "S23"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0282",
+      "anchor": "SBP-106-L04#05",
+      "text": "Connector availability for all five systems, and whether each source is canonical. Identity and permissions: whether users see only the records they're entitled to. Data consistency across systems, such as conflicting account names or fields. An approved write-action model: what is written, and the audit trail, idempotency, and handling of partial failures. Security review of write actions into the CRM. Mark each as unresolved and assign a validation owner before rating effort.",
+      "source_ids": [
+        "S05",
+        "S23"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0283",
+      "anchor": "SBP-106-L05#00",
+      "text": "The 2x2 matrix makes prioritization visible and fast. It is a tool for directional agreement, not a calculator.",
+      "source_ids": [
+        "S02",
+        "S05"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0284",
+      "anchor": "SBP-106-L05#01",
+      "text": "Quick wins | High | Low | Prime candidates for the first wave Strategic bets | High | High | Select one or two for deeper discovery and phasing Nice-to-haves | Low | Low | Keep for later; don't let them crowd out quick wins Deprioritize | Low | High | Park, with reasons",
+      "source_ids": [
+        "S05"
+      ],
+      "locator": "The four quadrants",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": true,
+      "excerpt_source": "S05",
+      "excerpt": "Score gut-feel H/M/L, place use cases, then circle 2–3 quick wins and 1–2 strategic bets.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0285",
+      "anchor": "SBP-106-L05#02",
+      "text": "Review the list in the shared document. Score quickly: high, medium, or low for impact and effort. Place on the grid as text boxes or sticky notes. Highlight picks: two or three quick wins and one or two bets, where appropriate. These counts are guidance, not a rule. Validate with the sponsor: \"Does this reflect where to start?\" Keep each use case's evidence and rationale next to the visual.",
+      "source_ids": [
+        "S05"
+      ],
+      "locator": "Five steps, live with the customer",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-0286",
+      "anchor": "SBP-106-L05#03",
+      "text": "A matrix is not a numerical ROI calculation. New evidence can and should move a use case. Never hide a connector blocker to keep a favorite in the quick-win quadrant.",
+      "source_ids": [
+        "S02",
+        "S05"
+      ],
+      "locator": "The matrix is not ROI",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0287",
+      "anchor": "SBP-106-L05#04",
+      "text": "Score live with the customer, then validate the picks with the sponsor. The matrix ranks options; it is not an ROI model. Review the list Confirm each row is specific Score quickly Impact and effort, with reasons Place on the grid Make disagreements visible Highlight picks A small first wave Validate with the sponsor Agreement, not assumption",
+      "source_ids": [
+        "S02",
+        "S05"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0288",
+      "anchor": "SBP-106-L05#05",
+      "text": "A workflow has very high reach, but it depends on a custom connector that nobody has verified. Where do you place it?",
+      "source_ids": [
+        "S02",
+        "S05"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0289",
+      "anchor": "SBP-106-L05#06",
+      "text": "Not in quick wins. Treat it as a strategic bet, or mark its effort as unresolved. Assign feasibility discovery for the connector. Consider a narrower first wave that uses sources already available, for example the same workflow limited to content in reachable systems, while the connector question is answered.",
+      "source_ids": [
+        "S02",
+        "S05"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0290",
+      "anchor": "SBP-106-L06#00",
+      "text": "The first wave is the set of use cases that go into Day-in-the-Life interviews and, later, the executive case. Each needs enough detail to be owned, measured, and tested.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S26"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0291",
+      "anchor": "SBP-106-L06#01",
+      "text": "A business owner and a technical owner. A metric and baseline plan: what will be measured, where, and over what period. Dependencies: connectors, permissions, content quality, and actions. Uncertainties: what is still assumed. DITL participants and dates. The next milestone.",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "locator": "What each first-wave use case needs",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Can the customer provide baseline data? Do they track the KPIs we'd want to measure?",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0292",
+      "anchor": "SBP-106-L06#02",
+      "text": "A simple matrix is usually enough for live alignment. Glean's Value Playbook also provides an eight-dimension scoring model that covers factors such as business value potential, measurability, time to value, and cross-functional applicability. This can help expose differences between close candidates. Caution The playbook's scoring model rates some complexity dimensions so that a higher score is better. Interpret those dimensions carefully before adding scores together. Don't turn the raw total into an automated feasibility gate. This course uses explicit rationale and human review.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "When to use richer scoring",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0293",
+      "anchor": "SBP-106-L06#03",
+      "text": "A first-wave use case is ready for DITL when every field below is filled in or explicitly marked unknown. Owners A business owner and a technical owner Metric and baseline What will be measured, and how Dependencies Data, connectors, and access Uncertainties Named, each with an owner DITL participants People and dates confirmed Next milestone The decision this work feeds",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S26"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0294",
+      "anchor": "SBP-106-L06#04",
+      "text": "Write a first-wave row for \"approved support guidance lookup\" in the fictional support scenario.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S26"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0295",
+      "anchor": "SBP-106-L06#05",
+      "text": "Business owner: support operations director. Technical owner: knowledge-base and platform owner. Data: the approved knowledge base and past case resolutions. Assumption: agents' permissions mirror the knowledge-base groups, to be confirmed. Metric plan: handle time for an agreed case class from the ticketing system, plus a resolution-quality guardrail and an agreed baseline window. DITL: two tier 1 agents and one team lead, with dates booked. Risks: article currency and ownership; content that lives only in team chat.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S26"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0296",
+      "anchor": "SBP-106-S999",
+      "text": "Review your artifacts and proceed to the required assessment or capstone submission.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S21",
+        "S20",
+        "S26"
+      ],
+      "locator": "Assessment design; S55/S56 build framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0297",
+      "anchor": "SBP-106-TEMPLATES",
+      "text": "Reusable templates: A06; A07",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S26"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0298",
+      "anchor": "SBP-106-PROMPTS",
+      "text": "Prompt library entries: P04",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S13"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0299",
+      "anchor": "SBP-106-USECASES",
+      "text": "Use case practice set (fictional)",
+      "source_ids": [
+        "S05",
+        "S02"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0300",
+      "anchor": "SBP-106-Q001",
+      "text": "The chain starts with customer purpose and exposes workflow and evidence dependencies.",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "locator": "Discovery framework; workflow decomposition",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0301",
+      "anchor": "SBP-106-Q002",
+      "text": "A recent specific example yields testable detail without leading the witness.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S13"
+      ],
+      "locator": "Five discovery themes; high-leverage questions",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0302",
+      "anchor": "SBP-106-Q003",
+      "text": "Impact needs reach and consequence; implementation complexity belongs in effort.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S13",
+        "S21"
+      ],
+      "locator": "Impact rationale; discovery volume and value",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0303",
+      "anchor": "SBP-106-Q004",
+      "text": "Simple wording does not imply simple delivery; feasibility and control requirements matter.",
+      "source_ids": [
+        "S05",
+        "S23"
+      ],
+      "locator": "Technical Gotchas to Surface in Discovery",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0304",
+      "anchor": "SBP-106-Q005",
+      "text": "The matrix separates business impact from implementation effort; strategic bets can be phased.",
+      "source_ids": [
+        "S05",
+        "S02"
+      ],
+      "locator": "Prioritization Framework; Running the Matrix Virtually",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0305",
+      "anchor": "SBP-106-Q006",
+      "text": "A prioritized idea needs accountable discovery and measurement steps to become actionable.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S26"
+      ],
+      "locator": "From Matrix to Next Steps; eight-dimension framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0306",
+      "anchor": "SBP-106-Q007",
+      "text": "Impact can include risk; defensible rationale matters more than a single volume proxy.",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "locator": "From Matrix to Next Steps; eight-dimension framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0307",
+      "anchor": "SBP-106-Q008",
+      "text": "The richer framework is useful but its dimensions require interpretation; do not automate ambiguous scoring.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "From Matrix to Next Steps; eight-dimension framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    }
+  ]
+}

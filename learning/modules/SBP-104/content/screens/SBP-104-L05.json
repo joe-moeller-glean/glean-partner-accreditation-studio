@@ -1,0 +1,132 @@
+{
+  "id": "SBP-104-L05",
+  "lesson": "SBP-104-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Pre-work, agenda and invitation",
+  "nav": "5. Pre-work, agenda and invitation",
+  "objective": "Draft the essential content of a Visioning invitation.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The invitation sets expectations. A clear one brings the right people, prepared, to a session with a defined outcome."
+    },
+    {
+      "t": "h3",
+      "x": "What the invitation should say"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Purpose:** align AI work with the customer's business outcomes.",
+        "**Expected outcomes:** prioritized use cases, named owners, and next steps for deeper workflow interviews.",
+        "**Attendees and roles:** who will facilitate and who will capture outputs.",
+        "**Preparation:** the pre-work worksheet, due two days before the session in Glean's template.",
+        "**The next decision:** what happens after the session."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "What the pre-work asks for"
+    },
+    {
+      "t": "p",
+      "x": "Glean's template asks customers to cover their department's core goals and success metrics, current workflow challenges and bottlenecks, desired business outcomes, and stakeholder priorities. A practical worksheet has one row per candidate workflow, with columns for the systems used, how often the work happens, the time it takes, and the pain it causes. A few relevant example use cases help as thought starters. Tell customers they can edit or discard them."
+    },
+    {
+      "t": "h3",
+      "x": "A 60-minute agenda"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "Welcome and context setting (5 minutes)",
+        "Business context review based on pre-work (10–15 minutes)",
+        "Opportunity discovery: day-in-the-life workflows and bottlenecks (15–20 minutes)",
+        "Use case prioritization by business impact and effort (15–20 minutes)",
+        "Next steps and action planning, with owners (5 minutes)"
+      ]
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't attach internal playbooks, private account research, or uncleared peer-customer details. Localize times, ask about accessibility needs, and get recording consent through the proper process."
+    },
+    {
+      "t": "h3",
+      "x": "Prime the conversation before the meeting"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Blueprint training recommends a pre-Visioning email. It tells the prospect the first meeting will focus on use cases and asks them to think in advance about the bottlenecks their teams face. Participants who arrive with real examples make the session far more productive than a blank-canvas brainstorm."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "A 60-minute Visioning agenda",
+      "alt": "A five-part agenda: welcome and purpose for 5 minutes, context and outcomes for 10, opportunity discovery for 20, prioritization for 20, and commitments for 5.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Welcome and purpose",
+          "detail": "5 minutes",
+          "emph": false
+        },
+        {
+          "label": "Context and outcomes",
+          "detail": "10 minutes",
+          "emph": false
+        },
+        {
+          "label": "Opportunity discovery",
+          "detail": "20 minutes",
+          "emph": false
+        },
+        {
+          "label": "Prioritization",
+          "detail": "20 minutes",
+          "emph": false
+        },
+        {
+          "label": "Commitments",
+          "detail": "5 minutes; owners and next steps",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Draft the essential content of a Visioning invitation for a fictional HR operations team."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"**Purpose:** a 60-minute working session to align AI opportunities with your HR operations goals. **Please bring:** your team's goals and KPIs, two recurring workflows that take significant time, the systems involved, and where the friction is. **Pre-work:** please return the attached worksheet two days before the session. **Outcome:** a prioritized list of use cases with owners, and agreed next steps for short workflow interviews. **Roles:** [partner name] facilitates; Glean captures notes and answers technical questions.\""
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 392,
+  "eyebrow": "Lesson 5 · about 6 min",
+  "claims": [
+    "C-0178",
+    "C-0179",
+    "C-0180",
+    "C-0181",
+    "C-0182",
+    "C-0183",
+    "C-0184"
+  ],
+  "sources": [
+    "S07",
+    "S08",
+    "S09",
+    "S69"
+  ]
+}

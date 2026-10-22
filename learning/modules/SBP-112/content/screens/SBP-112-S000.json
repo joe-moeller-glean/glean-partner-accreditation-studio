@@ -1,0 +1,31 @@
+{
+  "id": "SBP-112-S000",
+  "claims": [
+    "C-0565"
+  ],
+  "sources": [
+    "S37",
+    "S38",
+    "S07",
+    "S25",
+    "S28"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-112 · Practitioner (proposed)",
+  "title": "AI-Assisted Blueprinting",
+  "nav": "Overview",
+  "body": "Using Glean agents and prompts to research accounts, draft value hypotheses, generate use case tables and DITL timelines, and check readiness - with human review",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Select the right Glean agent or prompt for each Blueprint task.",
+    "Ground AI outputs in sources and verify them.",
+    "Apply guardrails so customer stories are not presented as the prospect's outcomes.",
+    "Build a reusable AI-assisted Blueprint prep flow."
+  ],
+  "footnote": "Recommended before this module: SBP-104. Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

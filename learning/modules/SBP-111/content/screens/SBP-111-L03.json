@@ -1,0 +1,143 @@
+{
+  "id": "SBP-111-L03",
+  "lesson": "SBP-111-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "Recap and decision documentation",
+  "nav": "3. Recap and decision documentation",
+  "objective": "Rewrite 'everyone loved it and we're ready for rollout' into an evidence-based recap.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Recaps and decision logs are the record of what was actually agreed. Write them precisely, and keep internal judgments separate."
+    },
+    {
+      "t": "h3",
+      "x": "Two kinds of record"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Customer-facing recap:** purpose, priorities, evidence, decisions, open items, and actions.",
+        "**Internal record:** qualification judgments, scores, and restricted process information. Glean's opportunity workbook is an example of an internal record."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Keep versions and ownership clear for every artifact."
+    },
+    {
+      "t": "h3",
+      "x": "The decision log"
+    },
+    {
+      "t": "table",
+      "caption": "Decision log statuses",
+      "head": [
+        "Status",
+        "Meaning",
+        "Record"
+      ],
+      "rows": [
+        [
+          "Accepted",
+          "Agreed as stated",
+          "Rationale and approver"
+        ],
+        [
+          "Conditional",
+          "Agreed, subject to a named condition",
+          "The condition, its owner, and the date"
+        ],
+        [
+          "Deferred",
+          "Postponed, not rejected",
+          "The reason and the revisit date"
+        ],
+        [
+          "Rejected",
+          "Not pursued",
+          "The rationale"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "x": "When the scope is revised, point to the version used in the value model and the validation criteria. This keeps the numbers and the scope consistent."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't overstate tentative agreement or expose internal scores. Verify recipients and access permissions before sharing. A draft does not authorize sending."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "The customer recap and the internal record serve different readers. Keep both, and keep them consistent."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Two kinds of record",
+      "alt": "A comparison of the customer-facing recap and the internal record. The recap confirms decisions, commitments, and next steps in customer language. The internal record adds evidence levels, risks, and open questions for the account team.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Customer-facing recap",
+          "b": "Internal record",
+          "emph": false
+        },
+        {
+          "a": "Decisions and commitments, in their words",
+          "b": "Evidence level behind each decision",
+          "emph": false
+        },
+        {
+          "a": "Next steps with owners and dates",
+          "b": "Risks, gaps, and open questions",
+          "emph": false
+        },
+        {
+          "a": "Sent within a day",
+          "b": "Updated in the opportunity and MAP",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Rewrite this recap line: \"Everyone loved it and we're ready for rollout.\""
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"The team prioritized three workflows. The sponsor accepted the outcome hypothesis, subject to two validations: confirming access behavior for restricted content, and establishing the handle-time baseline. [Owner names] will resolve these before the go or no-go checkpoint on [date].\""
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 262,
+  "eyebrow": "Lesson 3 · about 5 min",
+  "claims": [
+    "C-0528",
+    "C-0529",
+    "C-0530",
+    "C-0531",
+    "C-0532",
+    "C-0533"
+  ],
+  "sources": [
+    "S05",
+    "S14",
+    "S46"
+  ]
+}

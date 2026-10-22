@@ -1,0 +1,150 @@
+{
+  "id": "SBP-110-L02",
+  "lesson": "SBP-110-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Distinguish demo, Lab, sandbox and pilot",
+  "nav": "2. Distinguish demo, Lab, sandbox and pilot",
+  "objective": "Which facts must be rechecked before offering a customer a sandbox?.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The validation options differ in what data they use, how faithfully they reflect permissions, who can use them, and what their results can prove. Know the differences, and check the current details before you offer one."
+    },
+    {
+      "t": "h3",
+      "x": "What each option can show"
+    },
+    {
+      "t": "table",
+      "caption": "Validation options compared (verify current details before use)",
+      "head": [
+        "Option",
+        "Data",
+        "What it can show",
+        "What it cannot show"
+      ],
+      "rows": [
+        [
+          "Tailored demo",
+          "Prepared scenario, often sample data",
+          "How the future workflow could look",
+          "Behavior on the customer's own systems and permissions"
+        ],
+        [
+          "Glean Lab",
+          "Curated or sample-data experience",
+          "Hands-on feel for the prioritized tasks",
+          "Production fidelity"
+        ],
+        [
+          "Sandbox",
+          "Sample data, plus customer-uploaded test content where permitted",
+          "Hands-on use with selected content",
+          "Personalization or permissions at production fidelity"
+        ],
+        [
+          "Pilot or proof of concept",
+          "The customer's systems and data, scoped",
+          "Behavior with real integrations, for a defined cohort",
+          "A full rollout's adoption or value"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Build an option card"
+    },
+    {
+      "t": "p",
+      "x": "Before offering an option, write down its current, approved description: data type, permission fidelity, allowed users, duration, setup owner, security, cost, and what the result can prove. Environment details change between versions of Glean's guides. For example, sandbox access, data options, and limits have been described differently over time. Flag any differences you find."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't teach dated pricing, revenue thresholds, shared-login behavior, or environment limits as permanent facts. Confirm the live terms with the Glean account team before offering an option to a customer."
+    },
+    {
+      "t": "h3",
+      "x": "Watch the terminology"
+    },
+    {
+      "t": "p",
+      "x": "Teams use these names inconsistently, so confirm what each person means. In Glean's validation-events training, \"Glean Lab\" is described as another name for the sandbox option, and \"POC\" is often used for a pilot, though a proof of concept can also be a sandbox. The same training notes that a customer can separately purchase a sandbox instance after becoming a customer, which is different from a sandbox used for validation."
+    },
+    {
+      "t": "p",
+      "x": "The training also clarifies the data behind the lighter options. A custom demo late in the sale often uses customer files that have been uploaded, and the sandbox uses uploaded files too. In both cases, no connectors are set up. A pilot is the first option that connects to the customer's systems."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "What each validation option uses",
+      "alt": "A comparison of validation options and the data each uses. A tailored demo uses a prepared scenario or uploaded customer files, with no connectors. A sandbox uses uploaded files for an allotted group of users, with no connectors. A pilot connects to the customer's systems for a defined cohort.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Option",
+          "b": "Data and connections",
+          "emph": false
+        },
+        {
+          "a": "Tailored demo",
+          "b": "Prepared scenario or uploaded files; no connectors",
+          "emph": false
+        },
+        {
+          "a": "Sandbox",
+          "b": "Uploaded files for an allotted user group; no connectors",
+          "emph": false
+        },
+        {
+          "a": "Pilot or POC",
+          "b": "Connected to the customer's systems, for a defined cohort",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "List the facts you must recheck before offering a customer a sandbox."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "Data isolation and handling, including whether other organizations share the environment.",
+        "Identity and access: individual or shared logins.",
+        "Which content may be uploaded, and by whom.",
+        "Duration and user limits.",
+        "Who sets it up.",
+        "Security review and commercial terms.",
+        "Which capabilities the environment can and cannot validate, such as personalization and permission fidelity."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 447,
+  "eyebrow": "Lesson 2 · about 6 min",
+  "claims": [
+    "C-0472",
+    "C-0473",
+    "C-0474",
+    "C-0475",
+    "C-0476",
+    "C-0477"
+  ],
+  "sources": [
+    "S16",
+    "S41",
+    "S61",
+    "S67"
+  ]
+}

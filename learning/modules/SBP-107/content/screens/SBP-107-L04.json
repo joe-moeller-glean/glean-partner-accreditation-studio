@@ -1,0 +1,129 @@
+{
+  "id": "SBP-107-L04",
+  "lesson": "SBP-107-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Design a feasible future-state workflow",
+  "nav": "4. Design a feasible future-state workflow",
+  "objective": "Redesign a five-step case-answer process and identify retained controls.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The future state shows how the work could change with Glean. A defensible future-state map is specific about what changes, what stays, and what it depends on."
+    },
+    {
+      "t": "h3",
+      "x": "Step by step, ask what could change"
+    },
+    {
+      "t": "p",
+      "x": "For each current step, ask whether Glean could help to:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Retrieve** the relevant information across permitted sources.",
+        "**Synthesize** it into a summary or comparison.",
+        "**Draft** a first version for a person to review.",
+        "**Route** the work, where an approved integration exists."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Keep human review wherever judgment, approval, or accountability is needed. Name the data sources, permission boundaries, and technical dependencies for each changed step. Label any capability you haven't validated with the Glean team."
+    },
+    {
+      "t": "h3",
+      "x": "Show the exceptions"
+    },
+    {
+      "t": "p",
+      "x": "A future support flow might retrieve approved guidance and draft a response, while the agent checks relevance and sends it. The map should show the review step and the exception path, such as what happens when no approved answer exists. It should never show a magical one-click resolution. Glean's partner guidance suggests marking complex, unconnected automations as \"future state\" rather than phase one."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't remove controls, promise unsupported write-backs, or assume a step's duration drops to zero. Future-state timings are hypotheses until they are tested."
+    },
+    {
+      "t": "h3",
+      "x": "Draft the future state, then verify it"
+    },
+    {
+      "t": "p",
+      "x": "Glean's DITL training suggests a practical way to draft the post-Glean workflow when no SE is on the call: describe the current steps and the department to Glean, and ask for a step-by-step optimized version. Treat the result as a first draft. The SE then reviews each proposed capability and the workflow owner validates the sequence. The same training says to do the value thinking after the interview, so you arrive at the readout with an outcome story, not just a list of steps."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Current and future state (fictional)",
+      "alt": "A comparison of a fictional support workflow before and after. Before: search several systems, ask a colleague and wait, then draft and review. After: ask once and get an answer that cites the approved article, escalate only when the answer is missing, and the agent still reviews and sends.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Current state",
+          "b": "Future state hypothesis",
+          "emph": false
+        },
+        {
+          "a": "Search several systems for guidance",
+          "b": "Ask once; the answer cites the approved article",
+          "emph": false
+        },
+        {
+          "a": "Message a colleague and wait",
+          "b": "Escalate only when no approved answer exists",
+          "emph": false
+        },
+        {
+          "a": "Draft the response from scratch",
+          "b": "Start from a grounded draft",
+          "emph": false
+        },
+        {
+          "a": "Agent reviews and sends",
+          "b": "Agent still reviews and sends",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Redesign the five-step case-answer process from lesson 2 (read, search, ask a colleague, draft, review). Identify the controls you would keep."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Future state:** read case → Glean retrieves approved guidance and past resolutions and drafts a response → the agent verifies the sources and edits → review, only for flagged case types → send.",
+        "**Controls kept:** source verification by the agent, approval for flagged case types, and escalation when no approved answer exists.",
+        "**Assumptions:** the knowledge base is current and reachable, and agents' permissions are mapped correctly.",
+        "**Measurement:** time the new active effort on a sample of cases."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 435,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0330",
+    "C-0331",
+    "C-0332",
+    "C-0333",
+    "C-0334",
+    "C-0335"
+  ],
+  "sources": [
+    "S02",
+    "S05",
+    "S22",
+    "S64"
+  ]
+}

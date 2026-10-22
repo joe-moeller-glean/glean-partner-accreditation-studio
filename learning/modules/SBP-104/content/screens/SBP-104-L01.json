@@ -1,0 +1,175 @@
+{
+  "id": "SBP-104-L01",
+  "lesson": "SBP-104-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Build the account evidence pack",
+  "nav": "1. Build the account evidence pack",
+  "objective": "Create a prep outline from a meeting note and an annual report with conflicting priorities.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Good Blueprints are won before the first workshop. Preparation turns what you already know into a short, sourced pack. It tells the team what is confirmed, what is assumed, and what still needs to be asked."
+    },
+    {
+      "t": "h3",
+      "x": "What to gather"
+    },
+    {
+      "t": "p",
+      "x": "Draw only on account context you are permitted to use:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The customer's strategy and stated initiatives, such as annual reports, investor materials, and leadership statements.",
+        "Industry pressures and regulation that shape priorities.",
+        "Stakeholders and their known goals, from prior meetings and the champion.",
+        "Existing tools and systems, and any known pain with them.",
+        "Notes from previous calls, in the customer's own words where possible."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Label every fact by its origin"
+    },
+    {
+      "t": "p",
+      "x": "Separate four kinds of information, and record the date and access limits for each:"
+    },
+    {
+      "t": "table",
+      "caption": "Kinds of information in a prep pack",
+      "head": [
+        "Kind",
+        "Example",
+        "How to treat it"
+      ],
+      "rows": [
+        [
+          "Customer statement",
+          "\"Our VP said handle time is the top support KPI.\" (call notes, March)",
+          "Strongest; still confirm it is current"
+        ],
+        [
+          "Public research",
+          "An annual report names cost efficiency as a priority",
+          "Context; may be dated or high-level"
+        ],
+        [
+          "Internal hypothesis",
+          "\"Support agents probably search several systems per case.\"",
+          "Test in Visioning and DITL"
+        ],
+        [
+          "Unknown",
+          "Who owns the support budget",
+          "An open question with an owner"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "A simple four-part structure"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "**Verified priorities:** what the customer has said matters, with sources and dates.",
+        "**Stakeholder map:** who decides, who informs, who owns metrics, and who controls dependencies.",
+        "**Systems and data landscape:** known tools, likely content sources, and access constraints.",
+        "**Open questions:** what you must learn, and from whom."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Every customer fact should link to its source, not to a generated summary of it."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't move restricted customer data into a partner workspace, and don't present a peer customer's story as this prospect's expected result. Use only authorized tools and sources."
+    },
+    {
+      "t": "h3",
+      "x": "Fit the narrative to the organization"
+    },
+    {
+      "t": "p",
+      "x": "Glean's value-selling training adds a useful lens for research: different organizations prioritize different kinds of value. Startups tend to focus on growth, mid-stage companies on efficiency, and large enterprises on risk and differentiation. Use these as prompts for what to look for, then confirm what this customer actually says."
+    },
+    {
+      "t": "p",
+      "x": "The same training notes that most use cases deliver several value drivers at once, and that strong business cases combine growth and cost reduction. Cost reduction is easier to quantify. Growth drivers tend to have stronger executive impact."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Label every fact by its origin",
+      "alt": "Four cards for the four kinds of account evidence: customer statements, which are the strongest; public research, which needs a date; internal hypotheses, which must be validated; and unknowns, which become open questions with owners.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Customer statement",
+          "detail": "Strongest; record who said it and when",
+          "emph": true
+        },
+        {
+          "label": "Public research",
+          "detail": "Useful context; note its date",
+          "emph": false
+        },
+        {
+          "label": "Internal hypothesis",
+          "detail": "Label it; validate before relying on it",
+          "emph": false
+        },
+        {
+          "label": "Unknown",
+          "detail": "An open question with an owner",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Your call notes say the customer's top priority is \"faster customer support.\" The annual report, published eight months earlier, emphasizes \"cost discipline across operations.\" Outline the prep pack entry for priorities."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Priority A:** faster customer support. Evidence: call notes with the support director, with the date. A customer statement.",
+        "**Priority B:** cost discipline across operations. Evidence: annual report, eight months old. Public research.",
+        "**Conflict flagged:** these may be the same initiative described differently, since faster support can lower cost per case, or two competing priorities.",
+        "**Action:** ask the champion in Visioning prep which initiative is current and who owns it. Keep the value hypothesis conditional until the champion confirms."
+      ]
+    }
+  ],
+  "minutes": 7,
+  "expanded": true,
+  "words": 523,
+  "eyebrow": "Lesson 1 · about 7 min",
+  "claims": [
+    "C-0151",
+    "C-0152",
+    "C-0153",
+    "C-0154",
+    "C-0155",
+    "C-0156",
+    "C-0157"
+  ],
+  "sources": [
+    "S05",
+    "S25",
+    "S36",
+    "S37",
+    "S66"
+  ]
+}

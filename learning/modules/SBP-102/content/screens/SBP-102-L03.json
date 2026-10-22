@@ -1,0 +1,132 @@
+{
+  "id": "SBP-102-L03",
+  "lesson": "SBP-102-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "Stage 3 Executive Validation",
+  "nav": "3. Stage 3 Executive Validation",
+  "objective": "Write Stage 3 exit evidence in customer-neutral language.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Stage 3 is where leadership decides whether the value case justifies further investment and how it will be proven. It is not a replay of the product overview."
+    },
+    {
+      "t": "h3",
+      "x": "What the executive conversation does"
+    },
+    {
+      "t": "p",
+      "x": "In the documented sales motion, Stage 3 is Executive Alignment. It engages the executive sponsor and the economic buyer and aligns on the commercial path. The joint AE and SE conversation connects the prioritized workflows and their value to leadership's objectives. It then asks for four commitments:"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "**Sponsorship.** The executive will back the effort and its resourcing.",
+        "**Success criteria.** The measures that define a successful outcome.",
+        "**The validation path.** How value and feasibility will be proven, using the lightest sufficient option.",
+        "**The decision process.** Who decides, what happens next, and when."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Evidence the stage should leave behind"
+    },
+    {
+      "t": "p",
+      "x": "By the time Stage 3 closes, the record should show the economic buyer and executive sponsor, metrics tied to Positive Business Outcomes, the decision process (steps and influencers), and the decision criteria (formal and informal). Capture the sponsor's commitments in the opportunity record and the mutual action plan."
+    },
+    {
+      "t": "p",
+      "x": "The sponsor should be able to say in their own words what business change matters, how progress will be judged, and what happens after the validation event."
+    },
+    {
+      "t": "h3",
+      "x": "Champion approval is not executive alignment"
+    },
+    {
+      "t": "p",
+      "x": "A champion's enthusiasm is valuable, but it is not a decision. If the decision-maker can't attend, call the meeting what it is: a preparatory review. Don't record it as executive validation. Reschedule the decision with the executive rather than proceeding on a proxy's approval."
+    },
+    {
+      "t": "h3",
+      "x": "Who counts as the executive"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Executive Readout training acknowledges that a C-suite sponsor isn't always available, especially in large accounts. What matters is that someone with power above the champion confirms the priority, ideally a person who holds the budget or can shift it. The champion's enthusiasm alone doesn't meet the bar."
+    },
+    {
+      "t": "p",
+      "x": "The same training places the readout after DITL and before any pilot or evaluation is agreed. That is the point where the executive confirms what will be validated and why."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "What Executive Validation must confirm",
+      "alt": "Four cards listing what the executive conversation must confirm: sponsorship, success criteria, the validation path, and the decision process.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Sponsorship",
+          "detail": "Someone above the champion backs the effort",
+          "emph": false
+        },
+        {
+          "label": "Success criteria",
+          "detail": "Measurable, with owners and dates",
+          "emph": false
+        },
+        {
+          "label": "Validation path",
+          "detail": "The lightest event that answers the open question",
+          "emph": true
+        },
+        {
+          "label": "Decision process",
+          "detail": "Who decides, how, and when",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Write the Stage 3 exit evidence for a fictional legal department evaluation. Use customer-neutral language that you could paste into a recap."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"Executive sponsorship confirmed by the General Counsel. The business case and its assumptions were reviewed and accepted as directional. Success criteria agreed: contract-review cycle time and the rate of escalations to outside counsel, each with a baseline plan. Validation path agreed: a tailored demo on representative, non-confidential documents, followed by a decision meeting. Owners, decision process, and timeline are recorded in the mutual action plan.\""
+    },
+    {
+      "t": "p",
+      "x": "Uncertainty to name: the baseline for outside-counsel escalations depends on a data export that the legal operations lead has not yet confirmed."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 479,
+  "eyebrow": "Lesson 3 · about 6 min",
+  "claims": [
+    "C-0066",
+    "C-0067",
+    "C-0068",
+    "C-0069",
+    "C-0070",
+    "C-0071",
+    "C-0072"
+  ],
+  "sources": [
+    "S02",
+    "S11",
+    "S12",
+    "S14",
+    "S74"
+  ]
+}

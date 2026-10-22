@@ -1,0 +1,41 @@
+{
+  "id": "SBP-108-X02",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · AI prompts",
+  "title": "AI-assisted preparation prompts",
+  "nav": "AI prompts",
+  "body": "Tool-agnostic prompts. AI drafts; a named human reviews facts, sharing, and capability claims before anything is used or sent.",
+  "cards": [
+    {
+      "tag": "P06",
+      "title": "Value model quality review",
+      "lines": [
+        {
+          "label": "Authorized inputs",
+          "text": "Workbook formulas, assumption register, metric cards, costs and evidence."
+        },
+        {
+          "label": "Prompt",
+          "text": "Audit units, periods, adoption/population, event frequency, raw burden versus measured saving, efficiency, coverage, recapture, risk and cost scope. Identify overlapping benefits and repeated discounts. Reproduce no new customer facts. Explain downside/base/upside and distinguish capacity, hard-dollar and directional value. Flag source-methodology conflicts."
+        },
+        {
+          "label": "Required output",
+          "text": "QA findings with cell/assumption IDs, severity, correction and owner."
+        },
+        {
+          "label": "Human review",
+          "text": "Human value reviewer verifies arithmetic and business interpretation."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0402"
+  ],
+  "sources": [
+    "S13",
+    "S39"
+  ],
+  "required": true
+}

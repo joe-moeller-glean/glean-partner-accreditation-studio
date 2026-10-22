@@ -1,0 +1,812 @@
+{
+  "module_id": "SBP-104",
+  "claims": [
+    {
+      "claim_id": "C-0150",
+      "anchor": "SBP-104-S000",
+      "text": "Entry prerequisites, building the value hypothesis and PBOs, pressure-testing sponsorship, customer pre-work, and session readiness checks",
+      "source_ids": [
+        "S04",
+        "S06",
+        "S07",
+        "S08",
+        "S13"
+      ],
+      "locator": "Module overview synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0151",
+      "anchor": "SBP-104-L01#00",
+      "text": "Good Blueprints are won before the first workshop. Preparation turns what you already know into a short, sourced pack. It tells the team what is confirmed, what is assumed, and what still needs to be asked.",
+      "source_ids": [
+        "S05",
+        "S25",
+        "S36",
+        "S37"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0152",
+      "anchor": "SBP-104-L01#01",
+      "text": "Draw only on account context you are permitted to use: The customer's strategy and stated initiatives, such as annual reports, investor materials, and leadership statements. Industry pressures and regulation that shape priorities. Stakeholders and their known goals, from prior meetings and the champion. Existing tools and systems, and any known pain with them. Notes from previous calls, in the customer's own words where possible.",
+      "source_ids": [
+        "S05",
+        "S25",
+        "S36",
+        "S37"
+      ],
+      "locator": "What to gather",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0153",
+      "anchor": "SBP-104-L01#02",
+      "text": "Separate four kinds of information, and record the date and access limits for each: Customer statement | \"Our VP said handle time is the top support KPI.\" (call notes, March) | Strongest; still confirm it is current Public research | An annual report names cost efficiency as a priority | Context; may be dated or high-level Internal hypothesis | \"Support agents probably search several systems per case.\" | Test in Visioning and DITL Unknown | Who owns the support budget | An open question with an owner",
+      "source_ids": [
+        "S05",
+        "S25",
+        "S36",
+        "S37"
+      ],
+      "locator": "Label every fact by its origin",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0154",
+      "anchor": "SBP-104-L01#03",
+      "text": "Verified priorities: what the customer has said matters, with sources and dates. Stakeholder map: who decides, who informs, who owns metrics, and who controls dependencies. Systems and data landscape: known tools, likely content sources, and access constraints. Open questions: what you must learn, and from whom. Every customer fact should link to its source, not to a generated summary of it. Boundary Don't move restricted customer data into a partner workspace, and don't present a peer customer's story as this prospect's expected result. Use only authorized tools and sources.",
+      "source_ids": [
+        "S05",
+        "S25",
+        "S36",
+        "S37"
+      ],
+      "locator": "A simple four-part structure",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0155",
+      "anchor": "SBP-104-L01#04",
+      "text": "Glean's value-selling training adds a useful lens for research: different organizations prioritize different kinds of value. Startups tend to focus on growth, mid-stage companies on efficiency, and large enterprises on risk and differentiation. Use these as prompts for what to look for, then confirm what this customer actually says. The same training notes that most use cases deliver several value drivers at once, and that strong business cases combine growth and cost reduction. Cost reduction is easier to quantify. Growth drivers tend to have stronger executive impact. Customer statement Stro",
+      "source_ids": [
+        "S66"
+      ],
+      "locator": "Fit the narrative to the organization",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S66",
+      "excerpt": "Adapt your value narrative to your prospect's organizational life cycle for maximum relevance.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0156",
+      "anchor": "SBP-104-L01#05",
+      "text": "Your call notes say the customer's top priority is \"faster customer support.\" The annual report, published eight months earlier, emphasizes \"cost discipline across operations.\" Outline the prep pack entry for priorities.",
+      "source_ids": [
+        "S05",
+        "S25",
+        "S36",
+        "S37"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0157",
+      "anchor": "SBP-104-L01#06",
+      "text": "Priority A: faster customer support. Evidence: call notes with the support director, with the date. A customer statement. Priority B: cost discipline across operations. Evidence: annual report, eight months old. Public research. Conflict flagged: these may be the same initiative described differently, since faster support can lower cost per case, or two competing priorities. Action: ask the champion in Visioning prep which initiative is current and who owns it. Keep the value hypothesis conditional until the champion confirms.",
+      "source_ids": [
+        "S05",
+        "S25",
+        "S36",
+        "S37"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0158",
+      "anchor": "SBP-104-L02#00",
+      "text": "A value hypothesis is an informed point of view that you bring to the customer to test. It is not a claim that discovery is complete. The three whys give it structure.",
+      "source_ids": [
+        "S04",
+        "S06",
+        "S36"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0159",
+      "anchor": "SBP-104-L02#01",
+      "text": "Why change? What is the business problem, and what happens if the customer does nothing? Why now? Why is it a priority this quarter or year, rather than someday? Why Glean? Why might Glean be relevant to this problem in this customer's environment? In Glean's sales process, discovery is AE-led and produces a value hypothesis, identified pain, champions, and access to power. The Blueprint then tests and refines that hypothesis with the people who do the work.",
+      "source_ids": [
+        "S04",
+        "S16"
+      ],
+      "locator": "The three whys",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S04, S16",
+      "excerpt": "The output is a value hypothesis identified pain, champions, and access to power within the / Why Change? – What changes if they do nothing?",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0160",
+      "anchor": "SBP-104-L02#02",
+      "text": "Separate what the customer has confirmed, such as \"service cost is under review,\" from what you are proposing, such as \"unified access to approved knowledge might reduce search time.\" The proposal is the part you will test. Phrase it as a hypothesis and attach a feasibility check. Example (fictional support team) Why change: fragmented guidance across several systems increases support effort and inconsistency. Why now: service cost is under formal review this year. Why Glean: permission-aware access to relevant knowledge across existing systems may make approved answers easier to find. This de",
+      "source_ids": [
+        "S04",
+        "S06",
+        "S36"
+      ],
+      "locator": "Keep the causal claim honest",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0161",
+      "anchor": "SBP-104-L02#03",
+      "text": "A list of capabilities is not a hypothesis. If your \"Why Glean\" would read the same for any customer, it isn't specific enough. Tie it to the systems, people, and workflow you expect to find.",
+      "source_ids": [
+        "S04",
+        "S06",
+        "S36"
+      ],
+      "locator": "Avoid feature lists",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0162",
+      "anchor": "SBP-104-L02#04",
+      "text": "Glean's onboarding training notes that many teams open every customer meeting with the three whys, then move to the executive summary. By the executive readout, the three whys are no longer the seller's hypothesis. They are restated from what the customer said in Visioning and DITL. Why change? The problem and what it costs today Why now? The trigger, deadline, or priority that makes it urgent Why Glean? The differentiators that matter for this problem",
+      "source_ids": [
+        "S68"
+      ],
+      "locator": "Use them in every meeting",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0163",
+      "anchor": "SBP-104-L02#05",
+      "text": "Draft the three whys for a fictional IT service desk that handles employee questions about laptops, access, and software.",
+      "source_ids": [
+        "S04",
+        "S06",
+        "S36"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0164",
+      "anchor": "SBP-104-L02#06",
+      "text": "Why change: agents repeat the same searches and escalate questions that existing articles already answer, so employees wait longer. Why now: IT leadership wants to absorb a headcount freeze without lowering service levels this fiscal year (to confirm with the IT director). Why Glean: test whether unified, permission-aware access to approved knowledge reduces search effort and avoidable escalations, while keeping answer quality and access controls in place. Uncertainty: we don't yet know where the approved knowledge lives, or how current it is.",
+      "source_ids": [
+        "S04",
+        "S06",
+        "S36"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0165",
+      "anchor": "SBP-104-L03#00",
+      "text": "Positive Business Outcomes (PBOs) translate strategy into results a business owner would recognize. Metrics make them measurable. In preparation, both are hypotheses.",
+      "source_ids": [
+        "S06",
+        "S13",
+        "S34"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0166",
+      "anchor": "SBP-104-L03#01",
+      "text": "For each relevant line of business, draft one or two PBOs and three to five candidate metrics. Glean's Metrics Library groups metrics by function and warns against using the same metrics for every persona. A CIO cares about different measures than a sales director. For each metric, write down three things: What is measured: a precise definition, such as \"mean handle time for password and access cases.\" How it will be measured: the system, the time window, and who supplies the data. Why it connects to the outcome: the logic linking the metric to the PBO.",
+      "source_ids": [
+        "S13",
+        "S34"
+      ],
+      "locator": "From priority to outcome to metric",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S34",
+      "excerpt": "DON'T use the same metrics for every persona.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0167",
+      "anchor": "SBP-104-L03#02",
+      "text": "Choose a small, balanced set. A speed metric needs a quality guardrail, so that \"faster\" doesn't turn into \"faster but worse.\" For support, a balanced set might pair handle time with resolution rate, escalation rate, and cost per resolved case. Mean handle time (agreed case class) | Efficiency | Captures effort per case First-contact resolution rate | Quality guardrail | Shows answers are still right Escalation rate to tier 2 | Quality and cost | Detects pushed-down complexity Cost per resolved case | Financial | Connects to the cost outcome Boundary These are hypotheses until the metric owner",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Balance speed with quality",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0168",
+      "anchor": "SBP-104-L03#03",
+      "text": "Glean's value-selling training highlights the question that often matters most: \"What are you tracking today?\" Metrics the customer already measures are easier to baseline and more credible to finance. If a strong champion already has an analysis for their team, build on it rather than starting from scratch. Mean handle time Efficiency; captures effort per case First-contact resolution Quality guardrail Escalation rate Detects work pushed to tier 2 Cost per resolved case Connects to the financial outcome",
+      "source_ids": [
+        "S65"
+      ],
+      "locator": "Ask what they track today",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0169",
+      "anchor": "SBP-104-L03#04",
+      "text": "Write one complete metric hypothesis for the fictional IT service desk, using What, How, and Why.",
+      "source_ids": [
+        "S06",
+        "S13",
+        "S34"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0170",
+      "anchor": "SBP-104-L03#05",
+      "text": "What: mean handle time for access-request tickets. How: compare consistent open-to-resolve timestamps in the IT service-management system over an agreed baseline period and a matching validation period. The service-desk manager supplies the export. Why: if agents find approved procedures faster, effort per ticket should fall and free capacity, provided first-contact resolution stays stable. Uncertainty: the definition of the ticket class and the data export must be confirmed by the metric owner.",
+      "source_ids": [
+        "S06",
+        "S13",
+        "S34"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0171",
+      "anchor": "SBP-104-L04#00",
+      "text": "Before Visioning, test whether the session can succeed. A workshop without the basics wastes the customer's goodwill and produces a use case list nobody owns.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S07",
+        "S18"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0172",
+      "anchor": "SBP-104-L04#01",
+      "text": "Sponsor alignment, or a credible and documented path to it. Completed pre-work from the customer. The relevant stakeholders invited, with the right lines of business represented. A clear outcome for the session, an agenda, and working facilitation tools. Glean's Visioning playbook is direct: decline or reschedule if pre-work, survey responses, or executive sponsor alignment are missing.",
+      "source_ids": [
+        "S04",
+        "S07"
+      ],
+      "locator": "What to confirm",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S07",
+      "excerpt": "Decline or reschedule if pre-work, survey responses, or executive sponsor alignment are missing.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0173",
+      "anchor": "SBP-104-L04#02",
+      "text": "Ask the champion: \"Which initiative does this work support?\" \"Who owns the KPI we would move?\" \"Who can sponsor the next investment decision?\" If the answers are vague, schedule a narrower alignment conversation before the full workshop.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S07",
+        "S18"
+      ],
+      "locator": "Three pressure-test questions",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0174",
+      "anchor": "SBP-104-L04#03",
+      "text": "Go: basics are in place. Narrow: some basics are missing but the meeting is valuable. Convert it into a qualification and alignment conversation, and say so. Reschedule: pre-work is empty and the sponsor path is unknown. Note on sponsor attendance Glean sources differ on whether the executive sponsor should attend early Visioning. Champion-led Visioning can work, but Executive Validation must still resolve executive alignment. Don't turn a preferred attendance pattern into a universal rule.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S07",
+        "S18"
+      ],
+      "locator": "Go, narrow, or reschedule",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0175",
+      "anchor": "SBP-104-L04#04",
+      "text": "The readiness review ends in one of three decisions. Make the call explicitly, and tell the champion why. Decision When it applies Go Sponsor, priorities, and the right attendees are confirmed Narrow Only one team or use case area is ready Reschedule Decision-makers or business owners can't attend",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S07",
+        "S18"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0176",
+      "anchor": "SBP-104-L04#05",
+      "text": "Two days before Visioning, the worksheet is still empty and the champion can't say who would sponsor an investment. Decide whether to go, narrow, or reschedule, and assign owners.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S07",
+        "S18"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0177",
+      "anchor": "SBP-104-L04#06",
+      "text": "Reschedule the full workshop, or narrow the slot to a qualification and alignment conversation with the champion. The AE owns the sponsor path and collecting the pre-work, with a new date agreed. Don't record the readiness gate as passed. Note in the action plan what must be in place before the workshop is rebooked.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S07",
+        "S18"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0178",
+      "anchor": "SBP-104-L05#00",
+      "text": "The invitation sets expectations. A clear one brings the right people, prepared, to a session with a defined outcome.",
+      "source_ids": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0179",
+      "anchor": "SBP-104-L05#01",
+      "text": "Purpose: align AI work with the customer's business outcomes. Expected outcomes: prioritized use cases, named owners, and next steps for deeper workflow interviews. Attendees and roles: who will facilitate and who will capture outputs. Preparation: the pre-work worksheet, due two days before the session in Glean's template. The next decision: what happens after the session.",
+      "source_ids": [
+        "S08"
+      ],
+      "locator": "What the invitation should say",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S08",
+      "excerpt": "please complete the attached pre-work worksheet by [Due Date: 2 days before session]",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0180",
+      "anchor": "SBP-104-L05#02",
+      "text": "Glean's template asks customers to cover their department's core goals and success metrics, current workflow challenges and bottlenecks, desired business outcomes, and stakeholder priorities. A practical worksheet has one row per candidate workflow, with columns for the systems used, how often the work happens, the time it takes, and the pain it causes. A few relevant example use cases help as thought starters. Tell customers they can edit or discard them.",
+      "source_ids": [
+        "S08"
+      ],
+      "locator": "What the pre-work asks for",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0181",
+      "anchor": "SBP-104-L05#03",
+      "text": "Welcome and context setting (5 minutes) Business context review based on pre-work (10–15 minutes) Opportunity discovery: day-in-the-life workflows and bottlenecks (15–20 minutes) Use case prioritization by business impact and effort (15–20 minutes) Next steps and action planning, with owners (5 minutes) Boundary Don't attach internal playbooks, private account research, or uncleared peer-customer details. Localize times, ask about accessibility needs, and get recording consent through the proper process.",
+      "source_ids": [
+        "S08"
+      ],
+      "locator": "A 60-minute agenda",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S08",
+      "excerpt": "Use Case Prioritization (15-20 min): Rank opportunities by business impact and effort",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0182",
+      "anchor": "SBP-104-L05#04",
+      "text": "Glean's Blueprint training recommends a pre-Visioning email. It tells the prospect the first meeting will focus on use cases and asks them to think in advance about the bottlenecks their teams face. Participants who arrive with real examples make the session far more productive than a blank-canvas brainstorm. Welcome and purpose 5 minutes Context and outcomes 10 minutes Opportunity discovery 20 minutes Prioritization 20 minutes Commitments 5 minutes; owners and next steps",
+      "source_ids": [
+        "S69"
+      ],
+      "locator": "Prime the conversation before the meeting",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0183",
+      "anchor": "SBP-104-L05#05",
+      "text": "Draft the essential content of a Visioning invitation for a fictional HR operations team.",
+      "source_ids": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0184",
+      "anchor": "SBP-104-L05#06",
+      "text": "\"Purpose: a 60-minute working session to align AI opportunities with your HR operations goals. Please bring: your team's goals and KPIs, two recurring workflows that take significant time, the systems involved, and where the friction is. Pre-work: please return the attached worksheet two days before the session. Outcome: a prioritized list of use cases with owners, and agreed next steps for short workflow interviews. Roles: [partner name] facilitates; Glean captures notes and answers technical questions.\"",
+      "source_ids": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0185",
+      "anchor": "SBP-104-L06#00",
+      "text": "A short internal rehearsal prevents the most common Visioning failures: unclear roles, a product pitch disguised as discovery, and broken tools.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S07",
+        "S26"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0186",
+      "anchor": "SBP-104-L06#01",
+      "text": "The AE, SE, partner, and any value specialist should agree on: The value hypothesis and what is known, assumed, and missing. The agenda and who leads each segment. Example use cases to offer if the customer is stuck. The tools: test the shared worksheet or whiteboard, and agree a fallback note-taking method. The expected outputs and the next decision.",
+      "source_ids": [
+        "S07"
+      ],
+      "locator": "What to align on",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S07",
+      "excerpt": "Reviews worksheet input, prior meeting notes, and aligns on session objectives and preparation with AE.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0187",
+      "anchor": "SBP-104-L06#02",
+      "text": "The opening: purpose, outcomes, and a collaborative tone. One diagnostic question: for example, \"Walk me through the last time this took longer than it should have.\" The transition to prioritization: how you will move from brainstorm to ranking. Pre-seed plausible use cases from approved patterns, but mark them as hypotheses. The customer should feel heard, not steered into a product pitch. Note on timing Durations differ across Glean playbooks. This course uses a 60-minute working agenda. If you get less time, cut scope deliberately. For example, prioritize one department rather than pretendi",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S07",
+        "S26"
+      ],
+      "locator": "Rehearse three moments",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0188",
+      "anchor": "SBP-104-L06#03",
+      "text": "Rehearse the three moments that most often go wrong. They are the ones that set the tone, test your discovery, and secure the outcome. The opening Purpose, agenda, and the decision needed A diagnostic question About a real, recent example The transition From ideas to ranked choices",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S07",
+        "S26"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0189",
+      "anchor": "SBP-104-L06#04",
+      "text": "Run a five-minute readiness review for tomorrow's Visioning session. List what you check, and name one reason that would justify delaying.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S07",
+        "S26"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0190",
+      "anchor": "SBP-104-L06#05",
+      "text": "Check: the sponsor path, the returned worksheet, the attendee list against the lines of business, the hypotheses, the roles, the tools and fallback, and the expected outputs. Delay if no one can confirm the business outcome the session supports, or if the workflow owners can't attend. Without them, the use case list will have no owners and no credible path to DITL.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S07",
+        "S26"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0191",
+      "anchor": "SBP-104-S999",
+      "text": "Review your artifacts and proceed to the required assessment or capstone submission.",
+      "source_ids": [
+        "S04",
+        "S06",
+        "S07",
+        "S08",
+        "S13"
+      ],
+      "locator": "Assessment design; S55/S56 build framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0192",
+      "anchor": "SBP-104-TEMPLATES",
+      "text": "Reusable templates: A01; A03; A04",
+      "source_ids": [
+        "S04",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S36",
+        "S37"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0193",
+      "anchor": "SBP-104-PROMPTS",
+      "text": "Prompt library entries: P01; P02",
+      "source_ids": [
+        "S06",
+        "S25",
+        "S36",
+        "S37"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0194",
+      "anchor": "SBP-104-Q001",
+      "text": "Source transparency and customer confirmation are better than confident synthesis of conflicting facts.",
+      "source_ids": [
+        "S05",
+        "S25",
+        "S36",
+        "S37"
+      ],
+      "locator": "Facilitator preparation; value-hypothesis workflow",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0195",
+      "anchor": "SBP-104-Q002",
+      "text": "The hypothesis links problem, urgency and relevant differentiation to customer context.",
+      "source_ids": [
+        "S04",
+        "S06",
+        "S36"
+      ],
+      "locator": "Prerequisites; value hypothesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0196",
+      "anchor": "SBP-104-Q003",
+      "text": "A useful metric specifies what, how and why; vague or borrowed claims do not establish a baseline.",
+      "source_ids": [
+        "S06",
+        "S34",
+        "S13"
+      ],
+      "locator": "Metrics What/How/Why; discovery output fields",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0197",
+      "anchor": "SBP-104-Q004",
+      "text": "Missing readiness basics need resolution; an alignment conversation may be useful but is not a completed full workshop.",
+      "source_ids": [
+        "S04",
+        "S07",
+        "S02",
+        "S18"
+      ],
+      "locator": "Prerequisites; Visioning sponsor caveat",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0198",
+      "anchor": "SBP-104-Q005",
+      "text": "The two-day lead is in the specific template, not a universal legal rule.",
+      "source_ids": [
+        "S08",
+        "S09",
+        "S07"
+      ],
+      "locator": "Pre-work email; worksheet fields",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0199",
+      "anchor": "SBP-104-Q006",
+      "text": "Rehearsal improves coordinated evidence gathering and honest handling of unknowns.",
+      "source_ids": [
+        "S07",
+        "S05",
+        "S02",
+        "S26"
+      ],
+      "locator": "Preparation checklist; duration variants",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0200",
+      "anchor": "SBP-104-Q007",
+      "text": "Peer evidence does not establish customer-specific facts or causation.",
+      "source_ids": [
+        "S37",
+        "S13"
+      ],
+      "locator": "Preparation checklist; duration variants",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0201",
+      "anchor": "SBP-104-Q008",
+      "text": "Baseline quality requires customer data ownership and an agreed collection method.",
+      "source_ids": [
+        "S13",
+        "S34"
+      ],
+      "locator": "Preparation checklist; duration variants",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    }
+  ]
+}

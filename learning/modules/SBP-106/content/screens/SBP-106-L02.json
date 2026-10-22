@@ -1,0 +1,140 @@
+{
+  "id": "SBP-106-L02",
+  "lesson": "SBP-106-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Ask for diagnostic evidence",
+  "nav": "2. Ask for diagnostic evidence",
+  "objective": "Write three questions for a support workflow that expose impact and effort.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Good questions produce evidence: real examples, frequency, the people affected, and consequences. Weak questions produce opinions."
+    },
+    {
+      "t": "h3",
+      "x": "Ask about a real, recent example"
+    },
+    {
+      "t": "p",
+      "x": "\"Walk me through the last time this happened\" gets far more useful detail than \"Is search painful?\" Follow up with:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Where did the information live?",
+        "Who else was involved?",
+        "How did you decide the answer was trustworthy?",
+        "How often does this happen, and how long does it take?",
+        "What happens when it goes wrong?"
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Glean's partner question bank covers four areas: strategic goals and current success metrics, the day in the life of key personas, pain points and workarounds, and what \"good\" looks like 6 to 12 months out."
+    },
+    {
+      "t": "h3",
+      "x": "Four questions for every use case"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Value Playbook answers four questions for every use case:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**How does it happen today?** Walk through the current workflow step by step to find the friction and the systems involved.",
+        "**How often?** How many times per day, week, or month, and across how many people? Volume multiplied by per-event impact gives total value, and low volume kills ROI.",
+        "**What does it cost today?** The time, money, or risk cost of the current approach. This sets the baseline for a before-and-after comparison.",
+        "**What does good look like?** What success would look like, and which metric would move."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Then ask where the proof would come from: telemetry, surveys, or a system of record."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't ask customers to guess the ROI before you understand their process. Avoid leading the witness, and keep disagreements in the notes rather than smoothing them over."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Four questions, asked about a real recent example, give you the evidence for impact and effort."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Four diagnostic questions",
+      "alt": "Four cards with the diagnostic questions to ask for every use case: how it happens today, how often, what it costs today, and what good looks like.",
+      "caption": "",
+      "items": [
+        {
+          "label": "How does it happen today?",
+          "detail": "Walk through the last real example",
+          "emph": false
+        },
+        {
+          "label": "How often?",
+          "detail": "Volume and frequency, with a source",
+          "emph": false
+        },
+        {
+          "label": "What does it cost today?",
+          "detail": "Time, delay, errors, and risk",
+          "emph": false
+        },
+        {
+          "label": "What does good look like?",
+          "detail": "The outcome and how you'd measure it",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Write three questions for a support workflow that would reveal both its impact and its effort."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ol",
+      "items": [
+        "\"Walk me through what happens from when a case arrives to when you send the answer. Where do you search, and what access do you need?\"",
+        "\"How often does this happen each day, how long does it take, and how many agents do it?\"",
+        "\"Who tracks how quickly and how well cases are resolved, and in which system?\""
+      ]
+    },
+    {
+      "t": "p",
+      "x": "The first exposes effort, meaning the systems and permissions involved. The second exposes reach and volume. The third finds the metric owner and the source of proof."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 418,
+  "eyebrow": "Lesson 2 · about 6 min",
+  "claims": [
+    "C-0264",
+    "C-0265",
+    "C-0266",
+    "C-0267",
+    "C-0268",
+    "C-0269"
+  ],
+  "sources": [
+    "S05",
+    "S07",
+    "S13"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "by_asset_id": {
+    "SBP-107-LOGO": "Glean",
+    "SBP-107-L01-F1-wide": "Three cards naming the people a DITL interview needs: someone who does the work every day, someone who understands the KPI the work affects, and a platform or data owner who knows the systems involved.",
+    "SBP-107-L01-F1-narrow": "Three cards naming the people a DITL interview needs: someone who does the work every day, someone who understands the KPI the work affects, and a platform or data owner who knows the systems involved.",
+    "SBP-107-L02-F1-wide": "A bar chart of active minutes per support case in a fictional current-state workflow: read the case 2 minutes, find approved guidance 8, consult a colleague 3, draft a response 5, and review and send 2. Finding guidance is emphasized as the largest step.",
+    "SBP-107-L02-F1-narrow": "A bar chart of active minutes per support case in a fictional current-state workflow: read the case 2 minutes, find approved guidance 8, consult a colleague 3, draft a response 5, and review and send 2. Finding guidance is emphasized as the largest step.",
+    "SBP-107-L03-F1-wide": "A four-step calculation: frequency per person per day, multiplied by the affected population, multiplied by unit effort in hours, multiplied by working days, gives annual hours of burden. That result is capacity, not cash.",
+    "SBP-107-L03-F1-narrow": "A four-step calculation: frequency per person per day, multiplied by the affected population, multiplied by unit effort in hours, multiplied by working days, gives annual hours of burden. That result is capacity, not cash.",
+    "SBP-107-L04-F1-wide": "A comparison of a fictional support workflow before and after. Before: search several systems, ask a colleague and wait, then draft and review. After: ask once and get an answer that cites the approved article, escalate only when the answer is missing, and the agent still reviews and sends.",
+    "SBP-107-L04-F1-narrow": "A comparison of a fictional support workflow before and after. Before: search several systems, ask a colleague and wait, then draft and review. After: ask once and get an answer that cites the approved article, escalate only when the answer is missing, and the agent still reviews and sends.",
+    "SBP-107-L05-F1-wide": "A three-step loop: show the mapped workflow to the people who do the work, collect corrections, and update the map and log, then repeat until the owners confirm it.",
+    "SBP-107-L05-F1-narrow": "A three-step loop: show the mapped workflow to the people who do the work, collect corrections, and update the map and log, then repeat until the owners confirm it.",
+    "SBP-107-L06-F1-wide": "Six stacked lines of a DITL summary: the business outcome, the current pain, the future change, the value inputs, the evidence strength, and the metric plan with open dependencies.",
+    "SBP-107-L06-F1-narrow": "Six stacked lines of a DITL summary: the business outcome, the current pain, the future change, the value inputs, the evidence strength, and the metric plan with open dependencies."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "module_id": "SBP-200",
+  "module_objectives": [
+    "Execute every Blueprint step on a realistic scenario.",
+    "Produce the full deliverable set.",
+    "Defend value assumptions and the validation path in a live or recorded readout.",
+    "Meet the rubric threshold for the Specialist tier."
+  ],
+  "objective_map": [
+    {
+      "lesson_id": "SBP-200-L01",
+      "objective": "Given the supplied customer-neutral scenario and sources, annotate the Scenario Data sheet as fact, estimate or unknown. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Create",
+      "screens": [
+        "SBP-200-L01"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-200-Q001"
+      ]
+    },
+    {
+      "lesson_id": "SBP-200-L02",
+      "objective": "Given the supplied customer-neutral scenario and sources, produce the preparation pack, use case log, matrix and a 5-minute facilitation recording or live segment. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Create",
+      "screens": [
+        "SBP-200-L02"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-200-Q002"
+      ]
+    },
+    {
+      "lesson_id": "SBP-200-L03",
+      "objective": "Given the supplied customer-neutral scenario and sources, submit two current/future map pairs and one playback correction log. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Create",
+      "screens": [
+        "SBP-200-L03"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-200-Q003"
+      ]
+    },
+    {
+      "lesson_id": "SBP-200-L04",
+      "objective": "Given the supplied customer-neutral scenario and sources, submit the model, assumption log, metric cards and a short sensitivity explanation. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Create",
+      "screens": [
+        "SBP-200-L04"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-200-Q004"
+      ]
+    },
+    {
+      "lesson_id": "SBP-200-L05",
+      "objective": "Given the supplied customer-neutral scenario and sources, submit an 8–10-minute live/recorded readout, recommendation, MAP and recap. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Create",
+      "screens": [
+        "SBP-200-L05"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-200-Q005"
+      ]
+    },
+    {
+      "lesson_id": "SBP-200-L06",
+      "objective": "Given the supplied customer-neutral scenario and sources, complete the submission manifest and explain one corrected weakness. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Create",
+      "screens": [
+        "SBP-200-L06"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-200-Q006",
+        "SBP-200-Q007",
+        "SBP-200-Q008"
+      ]
+    }
+  ]
+}

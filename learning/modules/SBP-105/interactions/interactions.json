@@ -1,0 +1,220 @@
+{
+  "module_id": "SBP-105",
+  "interactions": [
+    {
+      "interaction_id": "INT-SBP-105-L01-DRAFT",
+      "screen_id": "SBP-105-L01",
+      "kind": "local_draft",
+      "lesson_id": "SBP-105-L01",
+      "claims": [
+        "C-0203",
+        "C-0204",
+        "C-0205",
+        "C-0206",
+        "C-0207",
+        "C-0208",
+        "C-0209"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-105-L01-REVEAL",
+      "screen_id": "SBP-105-L01",
+      "kind": "reveal",
+      "lesson_id": "SBP-105-L01",
+      "claims": [
+        "C-0203",
+        "C-0204",
+        "C-0205",
+        "C-0206",
+        "C-0207",
+        "C-0208",
+        "C-0209"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-105-L02-DRAFT",
+      "screen_id": "SBP-105-L02",
+      "kind": "local_draft",
+      "lesson_id": "SBP-105-L02",
+      "claims": [
+        "C-0210",
+        "C-0211",
+        "C-0212",
+        "C-0213",
+        "C-0214",
+        "C-0215",
+        "C-0216"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-105-L02-REVEAL",
+      "screen_id": "SBP-105-L02",
+      "kind": "reveal",
+      "lesson_id": "SBP-105-L02",
+      "claims": [
+        "C-0210",
+        "C-0211",
+        "C-0212",
+        "C-0213",
+        "C-0214",
+        "C-0215",
+        "C-0216"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-105-L03-DRAFT",
+      "screen_id": "SBP-105-L03",
+      "kind": "local_draft",
+      "lesson_id": "SBP-105-L03",
+      "claims": [
+        "C-0217",
+        "C-0218",
+        "C-0219",
+        "C-0220",
+        "C-0221",
+        "C-0222",
+        "C-0223"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-105-L03-REVEAL",
+      "screen_id": "SBP-105-L03",
+      "kind": "reveal",
+      "lesson_id": "SBP-105-L03",
+      "claims": [
+        "C-0217",
+        "C-0218",
+        "C-0219",
+        "C-0220",
+        "C-0221",
+        "C-0222",
+        "C-0223"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-105-L04-DRAFT",
+      "screen_id": "SBP-105-L04",
+      "kind": "local_draft",
+      "lesson_id": "SBP-105-L04",
+      "claims": [
+        "C-0224",
+        "C-0225",
+        "C-0226",
+        "C-0227",
+        "C-0228",
+        "C-0229",
+        "C-0230"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-105-L04-REVEAL",
+      "screen_id": "SBP-105-L04",
+      "kind": "reveal",
+      "lesson_id": "SBP-105-L04",
+      "claims": [
+        "C-0224",
+        "C-0225",
+        "C-0226",
+        "C-0227",
+        "C-0228",
+        "C-0229",
+        "C-0230"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-105-L05-DRAFT",
+      "screen_id": "SBP-105-L05",
+      "kind": "local_draft",
+      "lesson_id": "SBP-105-L05",
+      "claims": [
+        "C-0231",
+        "C-0232",
+        "C-0233",
+        "C-0234",
+        "C-0235",
+        "C-0236",
+        "C-0237"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-105-L05-REVEAL",
+      "screen_id": "SBP-105-L05",
+      "kind": "reveal",
+      "lesson_id": "SBP-105-L05",
+      "claims": [
+        "C-0231",
+        "C-0232",
+        "C-0233",
+        "C-0234",
+        "C-0235",
+        "C-0236",
+        "C-0237"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-105-L06-DRAFT",
+      "screen_id": "SBP-105-L06",
+      "kind": "local_draft",
+      "lesson_id": "SBP-105-L06",
+      "claims": [
+        "C-0238",
+        "C-0239",
+        "C-0240",
+        "C-0241",
+        "C-0242",
+        "C-0243",
+        "C-0244"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-105-L06-REVEAL",
+      "screen_id": "SBP-105-L06",
+      "kind": "reveal",
+      "lesson_id": "SBP-105-L06",
+      "claims": [
+        "C-0238",
+        "C-0239",
+        "C-0240",
+        "C-0241",
+        "C-0242",
+        "C-0243",
+        "C-0244"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-105-S999",
+      "screen_id": "SBP-105-S999",
+      "kind": "graded_choice",
+      "lesson_id": "check",
+      "claims": [
+        "C-0245"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    }
+  ]
+}

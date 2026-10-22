@@ -1,0 +1,120 @@
+{
+  "id": "SBP-105-L01",
+  "lesson": "SBP-105-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Choose the Visioning deck path",
+  "nav": "1. Choose the Visioning deck path",
+  "objective": "Select the approach for a customer with ten candidate workflows and for one with none.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Visioning should start where the customer is. Some customers arrive with a list of AI ideas. Others have no list at all. Each needs a different path through the session."
+    },
+    {
+      "t": "h3",
+      "x": "Two starting points"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**The customer has a use case list.** Validate and prioritize it. Spend most of the session completing the use case fields: persona, workflow, pain, data sources, impact and effort rationale, and uncertainties. Then negotiate placement on the impact/effort 2x2.",
+        "**The customer has no list.** Bring an informed hypothesis and relevant departmental examples, then draw out real workflows tied to outcomes. Glean's Blueprint material provides sample department 2x2s for this. Sometimes you will need a mini Visioning session with each department to understand its priorities."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Avoid the blank-canvas think tank"
+    },
+    {
+      "t": "p",
+      "x": "\"What could AI do for you?\" invites vague wishes. Use departmental thought starters and focused questions about recurring work instead. Ask what takes time, what goes wrong, and what the consequence is."
+    },
+    {
+      "t": "h3",
+      "x": "Examples are prompts, not proof"
+    },
+    {
+      "t": "p",
+      "x": "Example use cases help customers recognize their own work. They do not prove that a use case is feasible or valuable for this customer. Don't replace listening with a tour of a use case catalog."
+    },
+    {
+      "t": "callout",
+      "label": "Tip",
+      "x": "If you show examples, present a few that are relevant to the department in the room and say plainly that they are there to be changed, merged, or discarded."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "The customer's starting point decides the deck path. Either way, you end with ranked use cases and owners."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Two Visioning starting points",
+      "alt": "A comparison of the two Visioning paths. When the customer has a use case list, validate and rank it against outcomes. When the customer has no list, start from priorities and pain, use relevant examples as prompts, and build the list together.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Customer has a list",
+          "b": "Customer has no list",
+          "emph": false
+        },
+        {
+          "a": "Validate each item against outcomes",
+          "b": "Start from priorities and pain points",
+          "emph": false
+        },
+        {
+          "a": "Fill gaps in owners, data, and metrics",
+          "b": "Use relevant examples as prompts, not proof",
+          "emph": false
+        },
+        {
+          "a": "Rank with impact and effort",
+          "b": "Build and rank the list together",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Choose the approach for two fictional customers: a finance team that arrives with ten candidate workflows, and a legal team that has none."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Finance, ten workflows:** clarify each one, cluster duplicates, complete the use case fields, and prioritize on the 2x2. Spend the time on evidence and ranking, not idea generation.",
+        "**Legal, no list:** bring outcome-led hypotheses and two or three relevant examples, such as finding the approved clause language for a contract type. Then draw out the team's actual jobs to be done and the evidence for each, such as frequency, time taken, and consequences."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 385,
+  "eyebrow": "Lesson 1 · about 6 min",
+  "claims": [
+    "C-0203",
+    "C-0204",
+    "C-0205",
+    "C-0206",
+    "C-0207",
+    "C-0208",
+    "C-0209"
+  ],
+  "sources": [
+    "S02",
+    "S03",
+    "S33"
+  ]
+}

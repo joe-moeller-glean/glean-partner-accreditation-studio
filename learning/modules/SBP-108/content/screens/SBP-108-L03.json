@@ -1,0 +1,136 @@
+{
+  "id": "SBP-108-L03",
+  "lesson": "SBP-108-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "Evidence quality and measurement design",
+  "nav": "3. Evidence quality and measurement design",
+  "objective": "Choose a defensible claim for ten user survey responses with no baseline or operational data.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The strength of a value claim depends on its evidence. Label the evidence honestly and design the measurement before you need it."
+    },
+    {
+      "t": "h3",
+      "x": "Three evidence layers"
+    },
+    {
+      "t": "table",
+      "caption": "Evidence layers",
+      "head": [
+        "Layer",
+        "Examples",
+        "What it can show"
+      ],
+      "rows": [
+        [
+          "Platform telemetry",
+          "Usage, active users, queries, agent runs",
+          "Adoption and engagement, not revenue"
+        ],
+        [
+          "User voice",
+          "Interviews, surveys, observations",
+          "Perceived benefit and qualitative insight; directional"
+        ],
+        [
+          "System-of-record outcomes",
+          "Ticketing, CRM, HR, finance data",
+          "Operational and financial change"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Any single layer can mislead. Glean's Value Playbook treats self-report as directional at best, and says to corroborate it with telemetry or system-of-record data. Survey data alone is never sufficient proof."
+    },
+    {
+      "t": "h3",
+      "x": "Design the measurement"
+    },
+    {
+      "t": "p",
+      "x": "For every metric, define:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Baseline:** the \"before,\" with its period.",
+        "**Target:** the hypothesis for the \"after.\"",
+        "**Data origin:** the system of record.",
+        "**Period:** a comparable window before and after.",
+        "**Owner:** the person who supplies and validates the data."
+      ]
+    },
+    {
+      "t": "callout",
+      "label": "Note",
+      "x": "Evidence-strength terminology varies across Glean materials. Describe the evidence explicitly (\"ten self-reported survey responses, no baseline\") rather than relying on a label alone. Don't publish internal benchmark figures or weights unless they have been cleared."
+    },
+    {
+      "t": "h3",
+      "x": "Use the customer's own data"
+    },
+    {
+      "t": "p",
+      "x": "Glean's business-case training recommends anchoring calculations in company-specific data, such as a short survey of the people who do the work, rather than generic benchmarks. For time savings, it advises acknowledging that value conversion is imperfect and using conservative recapture rates alongside the survey data. A customer's own numbers are easier for finance to accept and harder to dismiss."
+    },
+    {
+      "t": "figure",
+      "kind": "stack",
+      "title": "Three evidence layers",
+      "alt": "Three stacked evidence layers, strongest at the top: measured data from the customer's systems, customer estimates from interviews or surveys, and assumptions that are labeled and still need validation.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Measured",
+          "detail": "From the customer's systems of record",
+          "emph": true
+        },
+        {
+          "label": "Customer estimate",
+          "detail": "From interviews or company surveys",
+          "emph": false
+        },
+        {
+          "label": "Assumption",
+          "detail": "Labeled; must be validated",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "You have ten user survey responses saying the tool \"saves time,\" with no baseline and no operational data. What claim can you defensibly make?"
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "A directional, self-reported benefit only, for example: \"Ten surveyed users report time savings. This is not yet measured.\" Before presenting any realized financial claim, establish a baseline and corroborate the result with telemetry and system-of-record outcomes, such as handle time in the ticketing system."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 325,
+  "eyebrow": "Lesson 3 · about 6 min",
+  "claims": [
+    "C-0374",
+    "C-0375",
+    "C-0376",
+    "C-0377",
+    "C-0378",
+    "C-0379"
+  ],
+  "sources": [
+    "S13",
+    "S34",
+    "S73"
+  ]
+}

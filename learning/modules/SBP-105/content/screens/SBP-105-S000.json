@@ -1,0 +1,31 @@
+{
+  "id": "SBP-105-S000",
+  "claims": [
+    "C-0202"
+  ],
+  "sources": [
+    "S02",
+    "S07",
+    "S08",
+    "S04",
+    "S05"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-105 · Practitioner (proposed)",
+  "title": "Step 1: Visioning Session",
+  "nav": "Overview",
+  "body": "Purpose, audience, agenda, facilitation and outputs of the Visioning Session that builds the broad use case list and secures executive alignment",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Plan a Visioning agenda with timed segments.",
+    "Facilitate a consultative, outcome-led conversation.",
+    "Capture a broad use case list and agree 3-5 priorities.",
+    "Deliver the recap and next steps within 24 hours."
+  ],
+  "footnote": "Recommended before this module: SBP-104. Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

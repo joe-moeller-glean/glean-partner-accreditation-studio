@@ -1,0 +1,179 @@
+{
+  "id": "SBP-107-L02",
+  "lesson": "SBP-107-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Map current-state work accurately",
+  "nav": "2. Map current-state work accurately",
+  "objective": "Map 'read case, search wiki, ask colleague, draft answer, review' with missing timings.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A current-state map is the evidence base for everything that follows. If it is wrong, the future state and the value case will be wrong too."
+    },
+    {
+      "t": "h3",
+      "x": "What to capture for each step"
+    },
+    {
+      "t": "table",
+      "caption": "Current-state map fields",
+      "head": [
+        "Field",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Trigger",
+          "A new case is assigned"
+        ],
+        [
+          "Actor",
+          "Tier 1 agent"
+        ],
+        [
+          "Step",
+          "Search the wiki for a known fix"
+        ],
+        [
+          "System",
+          "Wiki, ticketing system"
+        ],
+        [
+          "Input and output",
+          "Case description in; candidate article out"
+        ],
+        [
+          "Active time",
+          "8 minutes (agent's estimate)"
+        ],
+        [
+          "Frequency",
+          "About 20 times a day per agent (to confirm)"
+        ],
+        [
+          "Wait time",
+          "None"
+        ],
+        [
+          "Handoff",
+          "To a senior agent if nothing is found"
+        ],
+        [
+          "Failure or rework",
+          "Article outdated; answer reworked after review"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Active effort is not elapsed time"
+    },
+    {
+      "t": "p",
+      "x": "Keep two measures apart. A task may take 30 minutes of active work but wait two days for an approval. Glean's DITL training examples report the total time people spend separately from the turnaround time including delays. The two measures support different value claims: capacity versus cycle time. They must not be added together or both claimed as labor savings."
+    },
+    {
+      "t": "h3",
+      "x": "Label the evidence"
+    },
+    {
+      "t": "p",
+      "x": "Mark each timing as **observed** (measured or seen) or **estimated** (someone's recollection). Record the sample size, the time period, and who can validate the map. A single person's estimate is not the team's measured baseline."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't add up overlapping steps, and don't invent a timing because a cell is empty. A missing value becomes a measurement task."
+    },
+    {
+      "t": "h3",
+      "x": "Be conservative, and give ranges"
+    },
+    {
+      "t": "p",
+      "x": "Glean's DITL training gives two practical habits for recording time. First, be conservative. People's estimates of familiar tasks often creep, so record what they're confident of and note when it varies. Second, use ranges, especially for future-state steps. An AI agent's processing time can vary with the model and the task, so a range such as \"2 to 10 minutes\" is more honest than a single figure."
+    },
+    {
+      "t": "p",
+      "x": "The number of steps varies too. A simple workflow may have five steps and a complex one fourteen. Capture what is actually there."
+    },
+    {
+      "t": "figure",
+      "kind": "bars",
+      "title": "Current-state active time per case (fictional)",
+      "alt": "A bar chart of active minutes per support case in a fictional current-state workflow: read the case 2 minutes, find approved guidance 8, consult a colleague 3, draft a response 5, and review and send 2. Finding guidance is emphasized as the largest step.",
+      "caption": "Fictional interview estimates of active work. Waiting time is recorded separately.",
+      "items": [
+        {
+          "label": "Read the case",
+          "value": 2.0,
+          "note": "min",
+          "emph": false
+        },
+        {
+          "label": "Find approved guidance",
+          "value": 8.0,
+          "note": "min",
+          "emph": true
+        },
+        {
+          "label": "Consult a colleague",
+          "value": 3.0,
+          "note": "min",
+          "emph": false
+        },
+        {
+          "label": "Draft a response",
+          "value": 5.0,
+          "note": "min",
+          "emph": false
+        },
+        {
+          "label": "Review and send",
+          "value": 2.0,
+          "note": "min",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "An agent describes the process as: read the case, search the wiki, ask a colleague, draft an answer, and have it reviewed. They gave timings for only two steps. Map it."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Create one row per action: read case; search wiki; ask colleague; draft answer; review. Name the owner and system for each."
+    },
+    {
+      "t": "p",
+      "x": "Label the two timings as estimates, and mark the other three \"not yet measured.\" Add a measurement task, such as a timed sample of ten cases or timestamps from the ticketing system. Show the wait for the colleague's reply and for review as elapsed time, separately from active effort."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 464,
+  "eyebrow": "Lesson 2 · about 6 min",
+  "claims": [
+    "C-0316",
+    "C-0317",
+    "C-0318",
+    "C-0319",
+    "C-0320",
+    "C-0321",
+    "C-0322"
+  ],
+  "sources": [
+    "S02",
+    "S22",
+    "S35",
+    "S64"
+  ]
+}

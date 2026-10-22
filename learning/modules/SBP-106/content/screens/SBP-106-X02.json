@@ -1,0 +1,42 @@
+{
+  "id": "SBP-106-X02",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · AI prompts",
+  "title": "AI-assisted preparation prompts",
+  "nav": "AI prompts",
+  "body": "Tool-agnostic prompts. AI drafts; a named human reviews facts, sharing, and capability claims before anything is used or sent.",
+  "cards": [
+    {
+      "tag": "P04",
+      "title": "Use case log and prioritization draft",
+      "lines": [
+        {
+          "label": "Authorized inputs",
+          "text": "Meeting notes and authorized workflow inventory."
+        },
+        {
+          "label": "Prompt",
+          "text": "Extract discrete use cases into ID, outcome, persona, trigger, workflow, data, impact/effort rationale, uncertainty, metric and owner. Cite the notes. Mark suggested ratings provisional. Do not infer feasibility from a one-line request or rank an unverified connector as easy. Present a proposed first wave and reasons to validate with the sponsor."
+        },
+        {
+          "label": "Required output",
+          "text": "Use case log; matrix placement; disputed assumptions; next actions."
+        },
+        {
+          "label": "Human review",
+          "text": "Customer business/technical owners and sponsor confirm priorities."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0298"
+  ],
+  "sources": [
+    "S02",
+    "S05",
+    "S13"
+  ],
+  "required": true
+}

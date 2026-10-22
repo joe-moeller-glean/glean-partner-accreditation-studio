@@ -1,0 +1,225 @@
+{
+  "module_id": "SBP-103",
+  "assets": [
+    {
+      "asset_id": "SBP-103-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    },
+    {
+      "asset_id": "SBP-103-L01-F1-wide",
+      "path": "assets/fig/SBP-103-L01-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Who leads each step (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0101",
+        "C-0102",
+        "C-0103",
+        "C-0104",
+        "C-0105",
+        "C-0106"
+      ],
+      "alt": "Five cards showing typical ownership: the AE leads Visioning with SE support; the SE leads DITL workflow mapping; the AE and SE jointly lead Executive Validation; the Business Value Consultant supports complex value cases; and the partner assists, co-leads, or leads by agreement."
+    },
+    {
+      "asset_id": "SBP-103-L01-F1-narrow",
+      "path": "assets/fig/SBP-103-L01-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Who leads each step (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0101",
+        "C-0102",
+        "C-0103",
+        "C-0104",
+        "C-0105",
+        "C-0106"
+      ],
+      "alt": "Five cards showing typical ownership: the AE leads Visioning with SE support; the SE leads DITL workflow mapping; the AE and SE jointly lead Executive Validation; the Business Value Consultant supports complex value cases; and the partner assists, co-leads, or leads by agreement."
+    },
+    {
+      "asset_id": "SBP-103-L02-F1-wide",
+      "path": "assets/fig/SBP-103-L02-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Progressing through engagement models (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0107",
+        "C-0108",
+        "C-0109",
+        "C-0110",
+        "C-0111",
+        "C-0112",
+        "C-0113"
+      ],
+      "alt": "A three-step progression of partner engagement models: assist in Glean-led sessions, co-lead parts of Visioning and DITL, then lead agreed discovery with Glean coaching. Each step requires evidence from the previous one."
+    },
+    {
+      "asset_id": "SBP-103-L02-F1-narrow",
+      "path": "assets/fig/SBP-103-L02-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Progressing through engagement models (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0107",
+        "C-0108",
+        "C-0109",
+        "C-0110",
+        "C-0111",
+        "C-0112",
+        "C-0113"
+      ],
+      "alt": "A three-step progression of partner engagement models: assist in Glean-led sessions, co-lead parts of Visioning and DITL, then lead agreed discovery with Glean coaching. Each step requires evidence from the previous one."
+    },
+    {
+      "asset_id": "SBP-103-L03-F1-wide",
+      "path": "assets/fig/SBP-103-L03-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Matrix diagram: Stakeholder coverage by influence and workflow knowledge (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0114",
+        "C-0115",
+        "C-0116",
+        "C-0117",
+        "C-0118",
+        "C-0119"
+      ],
+      "alt": "A two-by-two matrix with workflow knowledge on the horizontal axis and decision influence on the vertical axis. High influence and high knowledge: business owners, who define impact. High influence and low knowledge: the executive sponsor, who makes the decision. Low influence and high knowledge: front-line users, who explain the real work. Low influence and low knowledge: inform as needed."
+    },
+    {
+      "asset_id": "SBP-103-L03-F1-narrow",
+      "path": "assets/fig/SBP-103-L03-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Matrix diagram: Stakeholder coverage by influence and workflow knowledge (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0114",
+        "C-0115",
+        "C-0116",
+        "C-0117",
+        "C-0118",
+        "C-0119"
+      ],
+      "alt": "A two-by-two matrix with workflow knowledge on the horizontal axis and decision influence on the vertical axis. High influence and high knowledge: business owners, who define impact. High influence and low knowledge: the executive sponsor, who makes the decision. Low influence and high knowledge: front-line users, who explain the real work. Low influence and low knowledge: inform as needed."
+    },
+    {
+      "asset_id": "SBP-103-L04-F1-wide",
+      "path": "assets/fig/SBP-103-L04-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: Levels of value support (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0120",
+        "C-0121",
+        "C-0122",
+        "C-0123",
+        "C-0124",
+        "C-0125",
+        "C-0126"
+      ],
+      "alt": "Three stacked levels of value support, from lightest to heaviest: self-serve estimates using the approved calculator, expert review of an account team's model, and a full Business Value Consulting engagement for complex, high-stakes cases."
+    },
+    {
+      "asset_id": "SBP-103-L04-F1-narrow",
+      "path": "assets/fig/SBP-103-L04-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: Levels of value support (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0120",
+        "C-0121",
+        "C-0122",
+        "C-0123",
+        "C-0124",
+        "C-0125",
+        "C-0126"
+      ],
+      "alt": "Three stacked levels of value support, from lightest to heaviest: self-serve estimates using the approved calculator, expert review of an account team's model, and a full Business Value Consulting engagement for complex, high-stakes cases."
+    },
+    {
+      "asset_id": "SBP-103-L05-F1-wide",
+      "path": "assets/fig/SBP-103-L05-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Where a discovery finding goes (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0127",
+        "C-0128",
+        "C-0129",
+        "C-0130",
+        "C-0131",
+        "C-0132",
+        "C-0133"
+      ],
+      "alt": "A three-step lifecycle split. Discovery captures and prioritizes the finding. Build scopes and delivers it under an agreed statement of work. Optimize and support improves it after go-live."
+    },
+    {
+      "asset_id": "SBP-103-L05-F1-narrow",
+      "path": "assets/fig/SBP-103-L05-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Where a discovery finding goes (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0127",
+        "C-0128",
+        "C-0129",
+        "C-0130",
+        "C-0131",
+        "C-0132",
+        "C-0133"
+      ],
+      "alt": "A three-step lifecycle split. Discovery captures and prioritizes the finding. Build scopes and delivers it under an agreed statement of work. Optimize and support improves it after go-live."
+    },
+    {
+      "asset_id": "SBP-103-L06-F1-wide",
+      "path": "assets/fig/SBP-103-L06-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Joint operating agreement (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0134",
+        "C-0135",
+        "C-0136",
+        "C-0137",
+        "C-0138",
+        "C-0139"
+      ],
+      "alt": "Six cards listing what Glean and the partner agree up front: who sends customer communications, where artifacts are stored, who answers technical questions, who reviews value claims, who approves commitments, and who owns follow-up."
+    },
+    {
+      "asset_id": "SBP-103-L06-F1-narrow",
+      "path": "assets/fig/SBP-103-L06-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Joint operating agreement (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0134",
+        "C-0135",
+        "C-0136",
+        "C-0137",
+        "C-0138",
+        "C-0139"
+      ],
+      "alt": "Six cards listing what Glean and the partner agree up front: who sends customer communications, where artifacts are stored, who answers technical questions, who reviews value claims, who approves commitments, and who owns follow-up."
+    }
+  ]
+}

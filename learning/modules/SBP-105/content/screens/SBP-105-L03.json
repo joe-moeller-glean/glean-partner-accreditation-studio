@@ -1,0 +1,127 @@
+{
+  "id": "SBP-105-L03",
+  "lesson": "SBP-105-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "Open consultatively and anchor outcomes",
+  "nav": "3. Open consultatively and anchor outcomes",
+  "objective": "Rewrite a product-led question into an outcome-led question.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The first ten minutes set the tone. A consultative opening makes the session about the customer's goals rather than the product."
+    },
+    {
+      "t": "h3",
+      "x": "Start with the shared decision"
+    },
+    {
+      "t": "p",
+      "x": "Open by explaining the decision the group will make together: which few workflows deserve deeper discovery, and why. Then confirm the business goals in the customer's language. Glean's Visioning playbook asks for an open, consultative, strategic tone, and warns against checklist-style or interrogative discovery."
+    },
+    {
+      "t": "h3",
+      "x": "Ask about work, friction, and consequences"
+    },
+    {
+      "t": "p",
+      "x": "Useful questions from Glean's discovery bank include:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "\"What are your team's core responsibilities and KPIs?\"",
+        "\"How is success measured, for you and for your team?\"",
+        "\"What recurring challenges or bottlenecks reduce efficiency or cause risk?\"",
+        "\"Can you recall a recent workflow that took longer than it should have?\""
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Reflect the answer back before you explore solutions: \"So the priority this quarter is faster onboarding for new hires, and the friction is finding the right procedure across three systems. Is that right?\""
+    },
+    {
+      "t": "h3",
+      "x": "Avoid leading questions"
+    },
+    {
+      "t": "p",
+      "x": "\"Would our agent save you hours?\" is a leading question. It invites a polite yes and produces no evidence. In your notes, keep three things separate: what the customer **observed**, what they **hope for**, and what the facilitator **hypothesizes**."
+    },
+    {
+      "t": "h3",
+      "x": "Aim for \"amazing,\" not just \"good\""
+    },
+    {
+      "t": "p",
+      "x": "Glean's onboarding training encourages a strategic conversation about what amazing would look like for the business, not only what good looks like. Ask leaders to describe the outcome a year from now if this went exceptionally well. Their answer gives you the outcome language, and often the metric, for everything that follows."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Product-led versus outcome-led questions",
+      "alt": "A comparison of product-led questions with outcome-led rewrites. For example, asking which Glean features interest the customer becomes asking where the team loses time today and what that delay costs.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Product-led",
+          "b": "Outcome-led",
+          "emph": false
+        },
+        {
+          "a": "Which Glean features interest you?",
+          "b": "Where does your team lose time today, and what does it cost?",
+          "emph": false
+        },
+        {
+          "a": "Would an AI assistant help?",
+          "b": "What would amazing look like here a year from now?",
+          "emph": false
+        },
+        {
+          "a": "Do you want agents?",
+          "b": "Which decisions or handoffs slow this work down?",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Rewrite this product-led question as an outcome-led one: \"Which Glean agents would you like to build?\""
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"Which recurring workflow most limits your team's goals this quarter? And if the friction in it disappeared, what measurable result would improve?\""
+    },
+    {
+      "t": "p",
+      "x": "A good follow-up asks for evidence: \"How often does that happen, and how long does it take today?\""
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 359,
+  "eyebrow": "Lesson 3 · about 6 min",
+  "claims": [
+    "C-0217",
+    "C-0218",
+    "C-0219",
+    "C-0220",
+    "C-0221",
+    "C-0222",
+    "C-0223"
+  ],
+  "sources": [
+    "S05",
+    "S07",
+    "S29",
+    "S68"
+  ]
+}

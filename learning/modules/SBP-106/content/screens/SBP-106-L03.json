@@ -1,0 +1,125 @@
+{
+  "id": "SBP-106-L03",
+  "lesson": "SBP-106-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "Impact, reach and value rationale",
+  "nav": "3. Impact, reach and value rationale",
+  "objective": "Compare a broad low-friction lookup and a rare high-risk approval process.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Impact is more than how many people a use case touches. It combines reach, frequency, and the business consequence: cost, revenue, risk, or quality."
+    },
+    {
+      "t": "h3",
+      "x": "The parts of impact"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Reach:** the affected users.",
+        "**Frequency:** how often the event occurs.",
+        "**Consequence:** what happens to cost, revenue, risk, or quality when it goes well or badly."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "A workflow used by 200 people twice a day may be a bigger capacity opportunity than a weekly task for five people. But a rare compliance event can still matter a great deal. Record the rationale rather than forcing every impact into a seat count."
+    },
+    {
+      "t": "h3",
+      "x": "Directional ratings need reasons"
+    },
+    {
+      "t": "p",
+      "x": "High, medium, and low ratings are useful in a workshop, but each needs a short rationale and an evidence status. \"High, because about 200 agents do this several times a day (champion's estimate, to confirm with the ticketing data)\" is defensible. \"High\" on its own is not."
+    },
+    {
+      "t": "h3",
+      "x": "Avoid three common errors"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Treating addressable users as active users.** Not everyone who could use a capability will.",
+        "**Double-counting.** The same saved minutes can't be claimed twice under two benefit lines.",
+        "**Monetizing too early.** Use financial modeling only after the assumptions are explicit and labeled."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Combine value drivers, carefully"
+    },
+    {
+      "t": "p",
+      "x": "Glean's value-selling training notes that most use cases deliver multiple value drivers. A complete customer view, for example, can improve both growth and efficiency. Mapping those connections makes a stronger narrative and speaks to several stakeholders at once. It also raises the risk of double counting, so state which driver each number belongs to."
+    },
+    {
+      "t": "figure",
+      "kind": "stack",
+      "title": "The parts of impact",
+      "alt": "Three stacked parts of impact: reach, the number of people affected; frequency, how often the work happens; and consequence, what each occurrence costs in time, quality, or risk.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Reach",
+          "detail": "How many people the work affects",
+          "emph": false
+        },
+        {
+          "label": "Frequency",
+          "detail": "How often it happens",
+          "emph": false
+        },
+        {
+          "label": "Consequence",
+          "detail": "What each occurrence costs in time, quality, or risk",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Compare two use cases: a broad, low-friction policy lookup used by most employees, and a rare, high-risk approval process in finance."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Policy lookup:** record the population and frequency, such as \"most employees, a few times a month\" (to confirm), and the time per lookup. Impact is mainly capacity and experience.",
+        "**Approval process:** record its severity and controls, such as what an error costs and which controls apply. Impact is mainly risk, and seat count understates it."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Discuss value and feasibility separately for each. Leave unsupported monetary claims unquantified until the inputs are confirmed."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 367,
+  "eyebrow": "Lesson 3 · about 6 min",
+  "claims": [
+    "C-0270",
+    "C-0271",
+    "C-0272",
+    "C-0273",
+    "C-0274",
+    "C-0275",
+    "C-0276"
+  ],
+  "sources": [
+    "S02",
+    "S05",
+    "S13",
+    "S21",
+    "S66"
+  ]
+}

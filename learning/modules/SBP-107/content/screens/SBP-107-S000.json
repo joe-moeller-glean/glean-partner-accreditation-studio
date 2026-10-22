@@ -1,0 +1,31 @@
+{
+  "id": "SBP-107-S000",
+  "claims": [
+    "C-0308"
+  ],
+  "sources": [
+    "S02",
+    "S22",
+    "S04",
+    "S09",
+    "S38"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-107 · Practitioner (proposed)",
+  "title": "Step 2: Day-in-the-Life & Playback",
+  "nav": "Overview",
+  "body": "Running SE-led Day-in-the-Life interviews, mapping current and future workflows, quantifying cost of inaction, and the optional playback",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Prepare DITL interviews for the prioritized use cases.",
+    "Map current-state steps, systems, time and bottlenecks.",
+    "Draft the future-state workflow with Glean and the time saved.",
+    "Decide when a playback session is needed."
+  ],
+  "footnote": "Recommended before this module: SBP-106. Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

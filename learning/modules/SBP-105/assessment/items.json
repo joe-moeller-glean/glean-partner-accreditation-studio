@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-105",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-105-Q001",
+      "objective_id": "SBP-105-L01",
+      "module_id": "SBP-105",
+      "stem": "A customer already has a useful workflow list. How should Visioning change?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ignore it and run a generic AI lecture."
+        },
+        {
+          "id": "b",
+          "text": "Assume all listed workflows are equally feasible."
+        },
+        {
+          "id": "c",
+          "text": "Skip the business outcome discussion permanently."
+        },
+        {
+          "id": "d",
+          "text": "Spend more time clarifying and prioritizing the list."
+        }
+      ],
+      "claims": [
+        "C-0248"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q002",
+      "objective_id": "SBP-105-L02",
+      "module_id": "SBP-105",
+      "stem": "Which segment must be preserved when shortening a Visioning agenda?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decorative slide transitions."
+        },
+        {
+          "id": "b",
+          "text": "Prioritization and explicit owner/next-step commitments."
+        },
+        {
+          "id": "c",
+          "text": "A long product-history section."
+        },
+        {
+          "id": "d",
+          "text": "Unrelated feature announcements."
+        }
+      ],
+      "claims": [
+        "C-0249"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q003",
+      "objective_id": "SBP-105-L03",
+      "module_id": "SBP-105",
+      "stem": "Which opening question is most consultative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Which ten features should we sell you today?"
+        },
+        {
+          "id": "b",
+          "text": "Can we agree now to start an unscoped pilot?"
+        },
+        {
+          "id": "c",
+          "text": "Which outcome matters this quarter, and where does information friction block it?"
+        },
+        {
+          "id": "d",
+          "text": "Would our agent definitely save you three hours daily?"
+        }
+      ],
+      "claims": [
+        "C-0250"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q004",
+      "objective_id": "SBP-105-L04",
+      "module_id": "SBP-105",
+      "stem": "Which use case is most specific enough for DITL?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Find approved troubleshooting guidance for a newly opened support case."
+        },
+        {
+          "id": "b",
+          "text": "Deploy AI for everything."
+        },
+        {
+          "id": "c",
+          "text": "Improve support everywhere."
+        },
+        {
+          "id": "d",
+          "text": "Be more innovative."
+        }
+      ],
+      "claims": [
+        "C-0251"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q005",
+      "objective_id": "SBP-105-L05",
+      "module_id": "SBP-105",
+      "stem": "Six promising use cases exceed available interview capacity. What should the facilitator do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ask the AI tool to choose without customer review."
+        },
+        {
+          "id": "b",
+          "text": "Select the most complex case for prestige alone."
+        },
+        {
+          "id": "c",
+          "text": "Pretend all six can be investigated without time."
+        },
+        {
+          "id": "d",
+          "text": "Agree a smaller first wave using evidence and owners, and park the rest with revisit conditions."
+        }
+      ],
+      "claims": [
+        "C-0252"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q006",
+      "objective_id": "SBP-105-L06",
+      "module_id": "SBP-105",
+      "stem": "Which follow-up best matches the referenced practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wait until a pilot ends before confirming owners."
+        },
+        {
+          "id": "b",
+          "text": "Send only a thank-you note next month."
+        },
+        {
+          "id": "c",
+          "text": "Send the internal qualification score to all customer users."
+        },
+        {
+          "id": "d",
+          "text": "Within 24 hours, share the log, matrix, decisions, open assumptions and actions."
+        }
+      ],
+      "claims": [
+        "C-0253"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q007",
+      "objective_id": "SBP-105-L06",
+      "module_id": "SBP-105",
+      "stem": "Two sources use different Visioning durations. What should the course author do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Claim both sources mandate the same exact duration."
+        },
+        {
+          "id": "b",
+          "text": "Delete the source dates and choose silently."
+        },
+        {
+          "id": "c",
+          "text": "Test learners on one universal duration without context."
+        },
+        {
+          "id": "d",
+          "text": "Teach a proposed default and documented scoped variants, and seek canonical SME confirmation."
+        }
+      ],
+      "claims": [
+        "C-0254"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-105-Q008",
+      "objective_id": "SBP-105-L06",
+      "module_id": "SBP-105",
+      "stem": "A champion says the recap is wrong. How should the facilitator respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Treat silence from others as proof the original was correct."
+        },
+        {
+          "id": "b",
+          "text": "Delete all evidence links."
+        },
+        {
+          "id": "c",
+          "text": "Correct the artifact with version history and reconfirm changed decisions."
+        },
+        {
+          "id": "d",
+          "text": "Proceed to a pilot without resolving the disagreement."
+        }
+      ],
+      "claims": [
+        "C-0255"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

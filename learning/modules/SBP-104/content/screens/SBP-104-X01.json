@@ -1,0 +1,78 @@
+{
+  "id": "SBP-104-X01",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Templates",
+  "title": "Templates for this module",
+  "nav": "Templates",
+  "body": "Copy-ready structures you can reuse in your own engagements. Examples are fictional.",
+  "cards": [
+    {
+      "tag": "A01",
+      "title": "Value hypothesis",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Strategic priority, Why Change, Why Now, Why Glean, PBO, supporting source/date, evidence class, unknown, validation owner"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Hypothesis: approved support guidance may reduce repeated search; outcome and baseline remain to be confirmed."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Customer confirms priority and relevant workflow; hypotheses remain labeled."
+        }
+      ]
+    },
+    {
+      "tag": "A03",
+      "title": "Readiness checklist",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Prerequisite, evidence/link, status, gap, owner, due, go/narrow/reschedule decision, rationale"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Sponsor path not confirmed → AE to arrange alignment → narrow to qualification rather than full workshop."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "No false completed gates; missing readiness has an explicit action."
+        }
+      ]
+    },
+    {
+      "tag": "A04",
+      "title": "Pre-work and invitation",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Purpose, expected outputs, attendees/roles, agenda, requested workflows/KPIs/tools, pre-work deadline, access/recording arrangements"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Please share goals, two recurring workflows, current systems and pain two days before the session; we will leave with priorities and next interviews."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Customer-facing only; no internal benchmarks or restricted research."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0192"
+  ],
+  "sources": [
+    "S04",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S36",
+    "S37"
+  ],
+  "required": true
+}

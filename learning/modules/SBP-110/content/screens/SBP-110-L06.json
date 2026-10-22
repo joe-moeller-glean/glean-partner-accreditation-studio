@@ -1,0 +1,127 @@
+{
+  "id": "SBP-110-L06",
+  "lesson": "SBP-110-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Validation recommendation and stop rules",
+  "nav": "6. Validation recommendation and stop rules",
+  "objective": "Write a stop rule for a validation dependent on an unapproved connector.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Every validation needs a short written recommendation and clear rules for when to stop, narrow, or escalate. Without them, evaluations drift and expand."
+    },
+    {
+      "t": "h3",
+      "x": "The recommendation"
+    },
+    {
+      "t": "p",
+      "x": "Write a one-page recommendation that states:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**The buying question** it answers.",
+        "**The chosen option**, and why lighter alternatives do or don't suffice.",
+        "**Scope:** use cases, data, and users.",
+        "**Evidence:** what will be measured or demonstrated.",
+        "**Owners and dates**, on both sides.",
+        "**Costs and approvals** required.",
+        "**Go or no-go criteria.**"
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Stop and escalation rules"
+    },
+    {
+      "t": "p",
+      "x": "Agree in advance what happens if things change. If a test fails because the intended source is unavailable, that calls for a decision about the dependency. It doesn't mean an automatic extension. Revisit the hypothesis, the scope, and the sponsor's commitment before investing more."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't continue an evaluation indefinitely, and don't quietly expand data or users. Changes need agreement from the owners, a risk review, and updated decision criteria."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A recommendation is complete when someone outside the account could approve or reject it from the page alone."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "A complete validation recommendation",
+      "alt": "Six cards listing the parts of a validation recommendation: the buying question, the chosen option, the scope, the evidence it will produce, owners and dates, and the go or no-go criteria.",
+      "caption": "",
+      "items": [
+        {
+          "label": "The buying question",
+          "detail": "What is still uncertain",
+          "emph": false
+        },
+        {
+          "label": "The chosen option",
+          "detail": "And why it is the lightest sufficient one",
+          "emph": false
+        },
+        {
+          "label": "Scope",
+          "detail": "Workflows, users, data, and duration",
+          "emph": false
+        },
+        {
+          "label": "Evidence",
+          "detail": "What the result will prove",
+          "emph": false
+        },
+        {
+          "label": "Owners and dates",
+          "detail": "For each step",
+          "emph": false
+        },
+        {
+          "label": "Go or no-go criteria",
+          "detail": "Agreed before it starts",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Write a stop rule for a validation that depends on a connector that hasn't been approved."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"If connector feasibility and permitted access aren't confirmed by the readiness checkpoint on [date], we will pause this use case and notify the sponsor. Then, together with the owners, we will either choose a narrower path using already-available sources or defer the use case. We won't start an unapproved deployment.\""
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 279,
+  "eyebrow": "Lesson 6 · about 5 min",
+  "claims": [
+    "C-0499",
+    "C-0500",
+    "C-0501",
+    "C-0502",
+    "C-0503",
+    "C-0504"
+  ],
+  "sources": [
+    "S14",
+    "S15",
+    "S16"
+  ]
+}

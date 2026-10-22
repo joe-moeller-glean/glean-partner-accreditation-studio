@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>SBP visual QA harness (not shipped)</title></head>
+<body>
+<!-- Serve next to extracted SCO folders. Loads each SCO in iframes at 1280px and 320px
+     and checks every screen for overflow, text contrast, target size, and clipped text.
+     Results land in window.RESULT. Not part of any package. -->
+<div id="host"></div>
+<script>
+const MODS = ['SBP-101','SBP-102','SBP-103','SBP-104','SBP-105','SBP-106','SBP-107','SBP-108','SBP-109',
+              'SBP-110','SBP-111','SBP-112','SBP-113','SBP-200','SBP-FINAL'];
+const WIDTHS = [1280, 320];
+window.RESULT = { done: false, modules: {} };
+
+function rgba(s) { const m = s.match(/[\d.]+/g) || [0, 0, 0, 0]; return m.map(Number).concat(m.length < 4 ? [1] : []); }
+function lum(c) {
+  const f = (v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); };
+  return 0.2126 * f(c[0]) + 0.7152 * f(c[1]) + 0.0722 * f(c[2]);
+}
+function bgOf(el, w) {
+  let layers = [];
+  for (let e = el; e; e = e.parentElement) {
+    const c = rgba(w.getComputedStyle(e).backgroundColor);
+    if (c[3] > 0) { layers.push(c); if (c[3] >= 1) break; }
+  }
+  let out = [255, 255, 255];
+  for (let i = layers.length - 1; i >= 0; i--) {
+    const a = layers[i][3];
+    out = out.map((v, k) => layers[i][k] * a + v * (1 - a));
+  }
+  return out;
+}
+function ratio(a, b) { const x = lum(a), y = lum(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); }
+
+function checkScreen(w, d, sid, width, issues) {
+  const root = d.documentElement;
+  if (root.scrollWidth > root.clientWidth + 1) {
+    const vw = root.clientWidth;
+    const wide = Array.from(d.querySelectorAll('#screen *')).filter((e) => e.getBoundingClientRect().right > vw + 1)
+      .filter((e) => !Array.from(e.children).some((c) => c.getBoundingClientRect().right > vw + 1))
+      .slice(0, 2).map((e) => `<${e.tagName.toLowerCase()}${e.className ? '.' + e.className : ''}> "${e.textContent.trim().slice(0, 50)}"`);
+    issues.push(`${width}px ${sid}: page scrolls horizontally (${root.scrollWidth}) ${wide.join(' ')}`);
+  }
+  // Content must also stay inside the lesson panel unless it sits in an intentional scroll container.
+  const scr = d.getElementById('screen'), sr = scr.getBoundingClientRect();
+  const spill = Array.from(scr.querySelectorAll('*')).filter((e) => {
+    if (e.getBoundingClientRect().right <= sr.right + 1) return false;
+    for (let p = e.parentElement; p && p !== scr; p = p.parentElement) {
+      const ox = w.getComputedStyle(p).overflowX;
+      if (ox === 'auto' || ox === 'scroll') return false;
+    }
+    return true;
+  });
+  if (spill.length) issues.push(`${width}px ${sid}: ${spill.length} element(s) spill past the lesson panel, e.g. <${spill[0].tagName.toLowerCase()}.${spill[0].className}>`);
+  if (scr.scrollWidth > scr.clientWidth + 1 && w.getComputedStyle(scr).overflowX !== 'visible') issues.push(`${width}px ${sid}: lesson panel clips content horizontally`);
+  const els = Array.from(d.querySelectorAll('body *')).filter((e) => {
+    const r = e.getBoundingClientRect();
+    // Skip visually-hidden screen-reader text: it is clipped on purpose.
+    if (e.closest('.sr, .sr-only, .visually-hidden')) return false;
+    return r.width > 0 && r.height > 0 && w.getComputedStyle(e).visibility !== 'hidden' &&
+      Array.from(e.childNodes).some((n) => n.nodeType === 3 && n.textContent.trim());
+  });
+  for (const e of els) {
+    const cs = w.getComputedStyle(e);
+    const fg = rgba(cs.color), bg = bgOf(e, w);
+    const size = parseFloat(cs.fontSize), bold = parseInt(cs.fontWeight, 10) >= 700;
+    const large = size >= 24 || (bold && size >= 18.66);
+    const r = ratio(fg.slice(0, 3), bg);
+    // Disabled controls are WCAG-exempt, but must stay legible so learners see why they cannot proceed.
+    const min = e.closest(':disabled') ? 3 : (large ? 3 : 4.5);
+    if (r < min) issues.push(`${width}px ${sid}: contrast ${r.toFixed(2)} on <${e.tagName.toLowerCase()}> "${e.textContent.trim().slice(0, 40)}"`);
+    if (size < 12) issues.push(`${width}px ${sid}: font ${size}px on "${e.textContent.trim().slice(0, 30)}"`);
+    if (cs.overflow === 'hidden' && e.scrollWidth > e.clientWidth + 1 && cs.textOverflow !== 'ellipsis')
+      issues.push(`${width}px ${sid}: clipped text "${e.textContent.trim().slice(0, 30)}"`);
+  }
+  for (const b of d.querySelectorAll('button, input[type=number], select, textarea, summary')) {
+    const r = b.getBoundingClientRect();
+    if (r.width && (r.height < 24 || r.width < 24)) issues.push(`${width}px ${sid}: small target ${b.tagName} ${Math.round(r.width)}x${Math.round(r.height)} "${(b.textContent || b.id).trim().slice(0, 30)}"`);
+  }
+  for (const i of d.querySelectorAll('input[type=radio]')) {
+    const lab = d.querySelector(`label[for="${i.id}"]`);
+    const r = (lab || i).getBoundingClientRect();
+    if (r.height < 24) issues.push(`${width}px ${sid}: small radio target ${Math.round(r.height)}px`);
+  }
+}
+
+function load(mod, width) {
+  return new Promise((res) => {
+    const f = document.createElement('iframe');
+    f.style.width = width + 'px'; f.style.height = '900px'; f.style.border = '0';
+    f.src = `${mod}/index.html`;
+    f.onload = () => {
+      // Measure the settled state: transitions would sample mid-animation colors.
+      const s = f.contentDocument.createElement('style');
+      s.textContent = '*,*::before,*::after{transition:none!important;animation:none!important}';
+      f.contentDocument.head.appendChild(s);
+      res(f);
+    };
+    document.getElementById('host').appendChild(f);
+  });
+}
+
+// Lesson figures: each must load, fit inside the lesson panel, and use the narrow
+// variant at small widths. Lazy images are forced to load so off-screen figures are checked.
+async function figurePass(w, d, mod, width, rec) {
+  const imgs = Array.from(d.querySelectorAll('#screen figure.fig img'));
+  rec.figures = (rec.figures || 0) + imgs.length;
+  // Let the iframe settle at its final width before <picture> chooses a source.
+  await new Promise((r) => setTimeout(r, 400));
+  imgs.forEach((i) => { i.loading = 'eager'; });
+  await Promise.all(imgs.map((i) => i.complete && i.naturalWidth ? null : new Promise((r) => { i.onload = i.onerror = r; setTimeout(r, 3000); })));
+  const sr = d.getElementById('screen').getBoundingClientRect();
+  imgs.forEach((i) => {
+    const id = (i.closest('section.sec') || {}).id || '?';
+    if (!i.naturalWidth) rec.issues.push(`${width}px ${id}: figure did not load ${i.currentSrc || i.src}`);
+    const r = i.getBoundingClientRect();
+    if (r.right > sr.right + 1 || r.width < 200) rec.issues.push(`${width}px ${id}: figure size ${Math.round(r.width)}px does not fit the panel`);
+    if (width <= 640 && !/-narrow\.svg$/.test(i.currentSrc)) rec.issues.push(`${width}px ${id}: wide figure used on a narrow screen`);
+    if (width > 640 && !/-wide\.svg$/.test(i.currentSrc)) rec.issues.push(`${width}px ${id}: narrow figure used on a wide screen (${i.currentSrc.split('/').pop() || 'none'}, ${i.naturalWidth})`);
+  });
+}
+
+async function run() {
+  localStorage.clear();
+  // Refresh the HTTP cache so iframes measure the build being served, not a stale copy.
+  const files = ['index.html', 'tokens.css', 'styles.css', 'sbp.css', 'scorm.js', 'content.js', 'app.js'];
+  await Promise.all(MODS.flatMap((m) => files.map((f) => fetch(`${m}/${f}`, { cache: 'reload' }))));
+  for (const mod of MODS) {
+    const rec = { screens: 0, issues: [], focusRule: false, reducedMotion: false };
+    for (const width of WIDTHS) {
+      const f = await load(mod, width);
+      const w = f.contentWindow, d = f.contentDocument, M = w.MODULE;
+      rec.screens = M.screens.length;
+      for (const sh of d.styleSheets) {
+        try {
+          for (const rule of sh.cssRules) {
+            if (/:focus-visible/.test(rule.cssText) && /outline/.test(rule.cssText)) rec.focusRule = true;
+            if (/prefers-reduced-motion/.test(rule.cssText)) rec.reducedMotion = true;
+          }
+        } catch (e) { /* same origin; should not throw */ }
+      }
+      // Single-page runtime: every section is rendered at once, so check the whole page,
+      // then with every worked response revealed, then with the knowledge check started.
+      await figurePass(w, d, mod, width, rec);
+      checkScreen(w, d, 'page', width, rec.issues);
+      d.querySelectorAll('#screen .reveal-btn').forEach((b) => b.click());
+      checkScreen(w, d, 'page+reveal', width, rec.issues);
+      const start = Array.from(d.querySelectorAll('#screen button')).find((b) => /^Start attempt/.test(b.textContent));
+      if (start) { start.click(); checkScreen(w, d, 'page+items', width, rec.issues); }
+      f.remove();
+      Object.keys(localStorage).filter((k) => k.startsWith(`scorm:${mod}:`)).forEach((k) => localStorage.removeItem(k));
+    }
+    rec.issueCount = rec.issues.length;
+    rec.issues = rec.issues.slice(0, 12);
+    // Same fingerprint as tools/sbp/build_sbp.py build_fingerprint(): sha256 over the shipped runtime files.
+    const parts = await Promise.all(['index.html', 'scorm.js', 'content.js', 'app.js', 'sbp.css']
+      .map((f) => fetch(`${mod}/${f}`, { cache: 'no-store' }).then((r) => r.arrayBuffer())));
+    const all = new Uint8Array(parts.reduce((a, b) => a + b.byteLength, 0));
+    let off = 0; for (const p of parts) { all.set(new Uint8Array(p), off); off += p.byteLength; }
+    rec.build = Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', all))).map((b) => b.toString(16).padStart(2, '0')).join('');
+    window.RESULT.modules[mod] = rec;
+  }
+  window.RESULT.done = true;
+}
+run().catch((e) => { window.RESULT.error = String(e && e.stack || e); window.RESULT.done = true; });
+</script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+{
+  "id": "SBP-103-L06",
+  "lesson": "SBP-103-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Joint operating agreement and escalation",
+  "nav": "6. Joint operating agreement and escalation",
+  "objective": "Resolve a disagreement about promising a write-back integration.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "When two organizations work one account, ambiguity costs time and credibility. A short operating agreement before delivery prevents most problems."
+    },
+    {
+      "t": "h3",
+      "x": "What to agree up front"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Customer communications:** who sends what, and who is copied.",
+        "**Artifact storage:** where the use case log, workflow maps, and value model live, and who can see them.",
+        "**Technical answers:** who answers feasibility and product questions, and how unresolved ones are tracked.",
+        "**Value review:** who checks assumptions and evidence labels before anything reaches the customer.",
+        "**Approvals:** which decisions need Glean's internal approval, such as pilots, pricing, and roadmap statements.",
+        "**Follow-up:** who owns the recap and the mutual action plan after each session."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Disagreements and unverified claims"
+    },
+    {
+      "t": "p",
+      "x": "Keep a decision log. When the team disagrees, or a product or policy question is unresolved, escalate it. Don't guess in front of the customer. One accountable owner per decision is better than shared ambiguity."
+    },
+    {
+      "t": "callout",
+      "label": "Example",
+      "x": "A partner believes a custom data source is supported, but the SE hasn't verified it. Log feasibility as unresolved, assign technical validation, and keep the first-wave scope conditional until the answer is documented."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Agree the operating rules before the first customer session, not during an escalation."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Joint operating agreement",
+      "alt": "Six cards listing what Glean and the partner agree up front: who sends customer communications, where artifacts are stored, who answers technical questions, who reviews value claims, who approves commitments, and who owns follow-up.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Customer communications",
+          "detail": "Who sends what, and when",
+          "emph": false
+        },
+        {
+          "label": "Artifact storage",
+          "detail": "One agreed, access-controlled location",
+          "emph": false
+        },
+        {
+          "label": "Technical answers",
+          "detail": "Only verified answers; park the rest",
+          "emph": true
+        },
+        {
+          "label": "Value review",
+          "detail": "Who checks numbers before they are shared",
+          "emph": false
+        },
+        {
+          "label": "Approvals",
+          "detail": "Who can commit to scope or terms",
+          "emph": false
+        },
+        {
+          "label": "Follow-up",
+          "detail": "Who sends the recap and updates the plan",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A partner consultant wants to tell the customer that a write-back integration to their ticketing system \"will be in the first release.\" The SE hasn't verified it. Resolve the disagreement."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Pause the commitment. Describe the integration as an unverified dependency in the decision log. Assign product and SE validation, including security review, if write-back changes data in a customer system. Leave it out of the roadmap and value case until the result is documented."
+    },
+    {
+      "t": "p",
+      "x": "If the customer asks in the meantime, say: \"We're validating that integration and will confirm by the date in our action plan.\""
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 338,
+  "eyebrow": "Lesson 6 · about 6 min",
+  "claims": [
+    "C-0134",
+    "C-0135",
+    "C-0136",
+    "C-0137",
+    "C-0138",
+    "C-0139"
+  ],
+  "sources": [
+    "S05",
+    "S16",
+    "S44"
+  ]
+}

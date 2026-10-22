@@ -1,0 +1,143 @@
+{
+  "id": "SBP-112-L05",
+  "lesson": "SBP-112-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Verify, protect and approve AI output",
+  "nav": "5. Verify, protect and approve AI output",
+  "objective": "Find three reasons to reject a polished generated executive deck.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "People remain accountable for anything that goes to a customer, and for every decision. Review AI output systematically before you use it."
+    },
+    {
+      "t": "h3",
+      "x": "The review checklist"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Factual support:** does the cited passage actually support the claim?",
+        "**Freshness:** is the source current?",
+        "**Permissions:** may this content be shared with this audience?",
+        "**Confidentiality:** does it contain customer or internal information that must not be shared?",
+        "**Technical feasibility:** has the SE verified each capability?",
+        "**Arithmetic and units:** are the calculations correct?",
+        "**Bias and framing:** are downside results kept?",
+        "**Claims and clearance:** are external claims approved?"
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Classify content before publishing"
+    },
+    {
+      "t": "p",
+      "x": "A draft can pass citation review and still fail, for example because it includes internal pilot thresholds or restricted customer details. Classify each section as learner-safe, author-only, or pending clearance."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Never give AI authority to submit pilot approvals, send customer messages, change systems, or produce an SME sign-off. Consequential actions go through authorized human processes."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Polish isn't proof. Run every AI-assisted output through the same checks before anyone outside the team sees it."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Review checks for AI output",
+      "alt": "Eight cards listing review checks for AI-assisted output: factual support, freshness, permissions, confidentiality, technical feasibility, arithmetic and units, bias and framing, and claims clearance.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Factual support",
+          "detail": "Every claim traced",
+          "emph": false
+        },
+        {
+          "label": "Freshness",
+          "detail": "Sources still current",
+          "emph": false
+        },
+        {
+          "label": "Permissions",
+          "detail": "Allowed to use this input",
+          "emph": false
+        },
+        {
+          "label": "Confidentiality",
+          "detail": "Nothing restricted exposed",
+          "emph": false
+        },
+        {
+          "label": "Feasibility",
+          "detail": "Verified by a technical owner",
+          "emph": false
+        },
+        {
+          "label": "Arithmetic and units",
+          "detail": "Recalculated",
+          "emph": false
+        },
+        {
+          "label": "Bias and framing",
+          "detail": "Fair to the evidence",
+          "emph": false
+        },
+        {
+          "label": "Claims clearance",
+          "detail": "Approved before sharing",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Give three reasons to reject a polished, AI-generated executive deck."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ol",
+      "items": [
+        "**Unsupported customer metrics:** figures with no customer source or baseline.",
+        "**Unverified product commitments:** capabilities that no SE has confirmed for this environment.",
+        "**Internal or restricted content:** for example, internal pilot policy or another customer's details."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Correct each one, recheck the source passages, and get the appropriate review before sharing."
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 272,
+  "eyebrow": "Lesson 5 · about 5 min",
+  "claims": [
+    "C-0590",
+    "C-0591",
+    "C-0592",
+    "C-0593",
+    "C-0594",
+    "C-0595"
+  ],
+  "sources": [
+    "S13",
+    "S15",
+    "S37",
+    "S55"
+  ]
+}

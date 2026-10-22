@@ -1,0 +1,61 @@
+{
+  "module_id": "SBP-105",
+  "key": {
+    "SBP-105-Q001": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. Existing ideas accelerate capture, but still need outcome, impact, effort and scope validation.",
+        "incorrect": "Review the relevant lesson and evidence. Existing ideas accelerate capture, but still need outcome, impact, effort and scope validation."
+      }
+    },
+    "SBP-105-Q002": {
+      "answer": "b",
+      "rationale": {
+        "correct": "Correct. The session must still yield decisions; reduce scope or add a session rather than silently dropping commitments.",
+        "incorrect": "Review the relevant lesson and evidence. The session must still yield decisions; reduce scope or add a session rather than silently dropping commitments."
+      }
+    },
+    "SBP-105-Q003": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Open outcome-led questions elicit evidence without presupposing the answer.",
+        "incorrect": "Review the relevant lesson and evidence. Open outcome-led questions elicit evidence without presupposing the answer."
+      }
+    },
+    "SBP-105-Q004": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. A concrete actor, trigger and job make workflow investigation possible.",
+        "incorrect": "Review the relevant lesson and evidence. A concrete actor, trigger and job make workflow investigation possible."
+      }
+    },
+    "SBP-105-Q005": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. Prioritization is a joint capacity-aware decision with rationale and an explicit backlog.",
+        "incorrect": "Review the relevant lesson and evidence. Prioritization is a joint capacity-aware decision with rationale and an explicit backlog."
+      }
+    },
+    "SBP-105-Q006": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. Prompt concrete follow-up preserves context and enables correction without exposing restricted notes.",
+        "incorrect": "Review the relevant lesson and evidence. Prompt concrete follow-up preserves context and enables correction without exposing restricted notes."
+      }
+    },
+    "SBP-105-Q007": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. Source conflicts should be transparent; duration choices must preserve outcomes and appropriate scope.",
+        "incorrect": "Review the relevant lesson and evidence. Source conflicts should be transparent; duration choices must preserve outcomes and appropriate scope."
+      }
+    },
+    "SBP-105-Q008": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Recaps are working records; customer corrections should improve the evidence and be traceable.",
+        "incorrect": "Review the relevant lesson and evidence. Recaps are working records; customer corrections should improve the evidence and be traceable."
+      }
+    }
+  }
+}

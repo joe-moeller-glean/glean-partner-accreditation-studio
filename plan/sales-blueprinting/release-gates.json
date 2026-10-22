@@ -1,0 +1,166 @@
+{
+  "accreditation": "accred-ai-blueprinting",
+  "version": "1.0.0",
+  "generated": "2026-10-21",
+  "release_state": "restricted_preview",
+  "program_blockers": [
+    "O01 Credential name and levels: Proposed, not approved",
+    "O02 Credential award and assessment policy: Requires owner approval",
+    "O03 Canonical Visioning duration and participant pattern: Source variation",
+    "O04 Hero use case count: Source variation",
+    "O05 Default validation preference: Context variation",
+    "O06 Pilot approval transition: Rollout status unverified",
+    "O07 Pilot commercial/environment terms: Time-sensitive / restricted",
+    "O08 Value formula coverage and annualization: Methodology ambiguity",
+    "O09 Proof-grade label and weights: Source inconsistency",
+    "O10 Eight-dimension score direction: Scoring ambiguity",
+    "O11 Partner clearance and redistribution: Release blocker",
+    "O12 Roadmap equivalency and prerequisites: Mapping unconfirmed",
+    "O13 Internal agents and partner access: Access-dependent",
+    "O14 Impartner completion, certificate and capstone integration: Implementation validation",
+    "O15 Validity and renewal: Policy mapping needed",
+    "O16 Assessment bank exposure and exam security: Design limitation",
+    "B22: Impartner restricted test (launch, score, status, resume, reporting) not performed"
+  ],
+  "module_blockers": {
+    "SBP-101": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-101-S000)",
+      "8 items not 'Looks good' (first: SBP-101-Q001)",
+      "38 of 51 claims not independently verified",
+      "43 claims rest on internal-only sources (B16, O11)",
+      "Cites do-not-ship source S24/S61: SBP-101-X03"
+    ],
+    "SBP-102": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-102-S000)",
+      "8 items not 'Looks good' (first: SBP-102-Q001)",
+      "39 of 48 claims not independently verified",
+      "48 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-103": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-103-S000)",
+      "8 items not 'Looks good' (first: SBP-103-Q001)",
+      "42 of 50 claims not independently verified",
+      "49 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-104": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-104-S000)",
+      "8 items not 'Looks good' (first: SBP-104-Q001)",
+      "45 of 52 claims not independently verified",
+      "52 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-105": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-105-S000)",
+      "8 items not 'Looks good' (first: SBP-105-Q001)",
+      "45 of 54 claims not independently verified",
+      "54 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-106": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-106-S000)",
+      "8 items not 'Looks good' (first: SBP-106-Q001)",
+      "44 of 52 claims not independently verified",
+      "48 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-107": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-107-S000)",
+      "8 items not 'Looks good' (first: SBP-107-Q001)",
+      "45 of 52 claims not independently verified",
+      "51 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-108": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-108-S000)",
+      "8 items not 'Looks good' (first: SBP-108-Q001)",
+      "42 of 52 claims not independently verified",
+      "52 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-109": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-109-S000)",
+      "8 items not 'Looks good' (first: SBP-109-Q001)",
+      "44 of 52 claims not independently verified",
+      "52 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-110": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-110-S000)",
+      "7 items not 'Looks good' (first: SBP-110-Q001)",
+      "42 of 51 claims not independently verified",
+      "51 claims rest on internal-only sources (B16, O11)",
+      "Cites do-not-ship source S24/S61: SBP-110-S000, SBP-110-L02, SBP-110-S999, SBP-110-Q002",
+      "Held item SBP-110-Q007 (O06)"
+    ],
+    "SBP-111": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-111-S000)",
+      "8 items not 'Looks good' (first: SBP-111-Q001)",
+      "45 of 50 claims not independently verified",
+      "50 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-112": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-112-S000)",
+      "8 items not 'Looks good' (first: SBP-112-Q001)",
+      "45 of 47 claims not independently verified",
+      "47 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-113": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-113-S000)",
+      "8 items not 'Looks good' (first: SBP-113-Q001)",
+      "41 of 46 claims not independently verified",
+      "46 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-200": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "8 storyboard rows not 'Looks good' (first: SBP-200-S000)",
+      "8 items not 'Looks good' (first: SBP-200-Q001)",
+      "50 of 53 claims not independently verified",
+      "53 claims rest on internal-only sources (B16, O11)"
+    ],
+    "SBP-FINAL": [
+      "Settings review status is 'In review'",
+      "Partner clearance: Pending partner clearance",
+      "SME sign-off: Not signed",
+      "103 items not 'Looks good' (first: SBP-101-Q001)",
+      "104 of 104 claims not independently verified",
+      "103 claims rest on internal-only sources (B16, O11)",
+      "Cites do-not-ship source S24/S61: SBP-110-Q002",
+      "Held item SBP-110-Q007 (O06)"
+    ]
+  }
+}

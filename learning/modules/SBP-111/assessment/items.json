@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-111",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-111-Q001",
+      "objective_id": "SBP-111-L01",
+      "module_id": "SBP-111",
+      "stem": "Which artifact pack best supports a complete handoff?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hypothesis, priorities, workflow maps, value assumptions, metrics, decisions, validation and MAP."
+        },
+        {
+          "id": "b",
+          "text": "Only a signed attendance sheet."
+        },
+        {
+          "id": "c",
+          "text": "Only a deck cover and a large savings number."
+        },
+        {
+          "id": "d",
+          "text": "Only a product release list."
+        }
+      ],
+      "claims": [
+        "C-0557"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q002",
+      "objective_id": "SBP-111-L02",
+      "module_id": "SBP-111",
+      "stem": "What makes an action plan mutual?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The seller writes dates privately."
+        },
+        {
+          "id": "b",
+          "text": "The AI tool marks it mutually accepted."
+        },
+        {
+          "id": "c",
+          "text": "The customer and relevant owners agree commitments, dependencies and dates."
+        },
+        {
+          "id": "d",
+          "text": "Every milestone is assigned to the customer without discussion."
+        }
+      ],
+      "claims": [
+        "C-0558"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q003",
+      "objective_id": "SBP-111-L03",
+      "module_id": "SBP-111",
+      "stem": "How should conditional and deferred decisions be documented?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Removed from the record."
+        },
+        {
+          "id": "b",
+          "text": "All relabeled as approved."
+        },
+        {
+          "id": "c",
+          "text": "Sent without context to unrelated customer users."
+        },
+        {
+          "id": "d",
+          "text": "Explicit status, rationale, decision owner and follow-up condition/date."
+        }
+      ],
+      "claims": [
+        "C-0559"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q004",
+      "objective_id": "SBP-111-L04",
+      "module_id": "SBP-111",
+      "stem": "How should partner services attach to the roadmap?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Through automatic contract acceptance after discovery."
+        },
+        {
+          "id": "b",
+          "text": "Through scoped outcomes and dependencies tied to the prioritized customer needs."
+        },
+        {
+          "id": "c",
+          "text": "By promising unsupported custom features."
+        },
+        {
+          "id": "d",
+          "text": "By selling every available SKU regardless of need."
+        }
+      ],
+      "claims": [
+        "C-0560"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q005",
+      "objective_id": "SBP-111-L05",
+      "module_id": "SBP-111",
+      "stem": "What must accompany a presale ROI model in a CS handoff?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Definitions, baselines/plans, cohort, data owners, assumptions, caveats and review cadence."
+        },
+        {
+          "id": "b",
+          "text": "Only the optimistic total."
+        },
+        {
+          "id": "c",
+          "text": "A statement that future measurement is unnecessary."
+        },
+        {
+          "id": "d",
+          "text": "Only the spreadsheet password."
+        }
+      ],
+      "claims": [
+        "C-0561"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q006",
+      "objective_id": "SBP-111-L06",
+      "module_id": "SBP-111",
+      "stem": "Usage increases but the business KPI is flat. What should happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Claim financial ROI based only on usage."
+        },
+        {
+          "id": "b",
+          "text": "Delete the KPI."
+        },
+        {
+          "id": "c",
+          "text": "Expand the model by assuming every run creates revenue."
+        },
+        {
+          "id": "d",
+          "text": "Investigate workflow fit, quality, data, measurement lag and reallocation before claiming value."
+        }
+      ],
+      "claims": [
+        "C-0562"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q007",
+      "objective_id": "SBP-111-L06",
+      "module_id": "SBP-111",
+      "stem": "Which statement is appropriate for a recap after conditional sponsor alignment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rollout is fully approved and all risks are closed."
+        },
+        {
+          "id": "b",
+          "text": "The pilot is approved because people liked the session."
+        },
+        {
+          "id": "c",
+          "text": "The outcome hypothesis is accepted subject to named access and baseline validation actions."
+        },
+        {
+          "id": "d",
+          "text": "Every customer user has accepted the implementation scope."
+        }
+      ],
+      "claims": [
+        "C-0563"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-111-Q008",
+      "objective_id": "SBP-111-L06",
+      "module_id": "SBP-111",
+      "stem": "Who should accept the discovery-to-delivery handoff?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An unrelated event attendee."
+        },
+        {
+          "id": "b",
+          "text": "Only an automated ZIP checksum tool."
+        },
+        {
+          "id": "c",
+          "text": "The named receiving delivery/value owner with unresolved risks documented."
+        },
+        {
+          "id": "d",
+          "text": "No one; a file upload proves acceptance."
+        }
+      ],
+      "claims": [
+        "C-0564"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

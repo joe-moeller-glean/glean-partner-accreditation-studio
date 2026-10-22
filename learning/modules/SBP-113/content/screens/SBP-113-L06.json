@@ -1,0 +1,115 @@
+{
+  "id": "SBP-113-L06",
+  "lesson": "SBP-113-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Recover a stalled Blueprint",
+  "nav": "6. Recover a stalled Blueprint",
+  "objective": "Create a recovery plan when DITL interviews have been cancelled twice.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Blueprint engagements stall when the urgency, the sponsor, or the next step disappears. Recover by diagnosing which one is missing, not by sending more material."
+    },
+    {
+      "t": "h3",
+      "x": "Diagnose the stall"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Urgency:** is the business problem still a priority? Has something changed?",
+        "**Sponsor:** is the executive still engaged? Has the champion lost access or influence?",
+        "**Next step:** is there an agreed, dated action with an owner?",
+        "**Evidence:** is the case blocked by a missing baseline, a source, or a feasibility question?"
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Act on the diagnosis"
+    },
+    {
+      "t": "p",
+      "x": "Re-engage the champion with a specific, useful offer, such as a short recap of the agreed priorities with a proposed next decision. Confirm or replace the sponsor path. If the priority has really changed, record that honestly. A clear \"not now\" is better than a false forecast."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't flood the customer with generic content or invent urgency. Update the opportunity record accurately."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Name the cause before choosing the fix. Each of the four causes has a different recovery."
+    },
+    {
+      "t": "figure",
+      "kind": "matrix",
+      "title": "Diagnosing a stalled engagement",
+      "alt": "A two-by-two grid of the four causes of a stall: urgency, the sponsor, the next step, and the evidence. Each quadrant names the recovery action.",
+      "caption": "",
+      "axes": {
+        "x": "Commitment gap",
+        "y": "Clarity gap"
+      },
+      "quads": {
+        "tl": {
+          "label": "Urgency",
+          "detail": "Revisit why now with the sponsor"
+        },
+        "tr": {
+          "label": "Sponsor",
+          "detail": "Re-engage or find a new sponsor"
+        },
+        "bl": {
+          "label": "Next step",
+          "detail": "Propose one specific, owned step"
+        },
+        "br": {
+          "label": "Evidence",
+          "detail": "Close the gap with the smallest session"
+        }
+      }
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "The champion has gone quiet for three weeks after DITL interviews. Write your recovery plan."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ol",
+      "items": [
+        "Send the champion a concise draft of the DITL findings for their team, with one question: \"Is this still the priority, and what would help you take it to the sponsor?\"",
+        "Offer a short working session to finalize the findings together.",
+        "If there's no response, ask the AE to check the sponsor path, for example through the executive relationship.",
+        "Update the MAP and the forecast to reflect what is actually known."
+      ]
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 283,
+  "eyebrow": "Lesson 6 · about 5 min",
+  "claims": [
+    "C-0643",
+    "C-0644",
+    "C-0645",
+    "C-0646",
+    "C-0647",
+    "C-0648"
+  ],
+  "sources": [
+    "S05",
+    "S12",
+    "S14"
+  ]
+}

@@ -1,0 +1,771 @@
+{
+  "module_id": "SBP-111",
+  "claims": [
+    {
+      "claim_id": "C-0515",
+      "anchor": "SBP-111-S000",
+      "text": "The Blueprint deliverable set, recap communications, Mutual Action Plan, success plan, and handoff to delivery, services and customer success",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S45",
+        "S44",
+        "S20"
+      ],
+      "locator": "Module overview synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0516",
+      "anchor": "SBP-111-L01#00",
+      "text": "A Blueprint engagement produces a connected set of artifacts. Together they let someone who wasn't in the room understand the priorities, the evidence, the decisions, and what happens next.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S14",
+        "S45"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0517",
+      "anchor": "SBP-111-L01#01",
+      "text": "This course proposes a standard pack, assembled from Glean's Blueprint and value materials: The value hypothesis, in the customer's language. The stakeholder map: sponsor, economic buyer, champion, technical owners, and workflow owners. The prioritized use-case log and matrix, with scores and the rationale for each. DITL maps: the current and future state for each priority workflow. Metric cards, with baselines, sources, and owners. The value estimate: ranges, assumptions, and evidence labels. Executive decisions: what was accepted, conditional, or deferred. The validation recommendation. The ",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S14",
+        "S45"
+      ],
+      "locator": "The complete pack",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0518",
+      "anchor": "SBP-111-L01#02",
+      "text": "Glean's Value Playbook names a common failure: pre-sales value hypotheses are often lost after the deal closes. Avoid it by making each priority traceable from the business outcome, through the workflow change, to a measure and an accountable owner. The executive summary should link to the evidence, not repeat every detail.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Make every priority traceable",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Pre-sales value hypotheses are often lost after the deal closes.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0519",
+      "anchor": "SBP-111-L01#03",
+      "text": "The pack should let a delivery team or customer success manager pick up the account without re-running discovery. Hypothesis and stakeholders Why change, and who decides Use case log and matrix Agreed priorities DITL maps and metric cards How the work happens; how value is measured Value and decisions Ranges and executive commitments Validation and MAP What happens next, and who owns it",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S14",
+        "S45"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0520",
+      "anchor": "SBP-111-L01#04",
+      "text": "Audit a pack that has an excellent ROI model but no workflow records and no named owners.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S14",
+        "S45"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0521",
+      "anchor": "SBP-111-L01#05",
+      "text": "The pack is incomplete. Add the prioritized log and matrix, the current and future workflow maps, named business and technical owners, metric and evidence cards, the decision log, the validation plan, and the MAP. A financial model on its own is not a handoff.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S14",
+        "S45"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0522",
+      "anchor": "SBP-111-L02#00",
+      "text": "A mutual action plan (MAP) is the joint sequence of commitments, from both the customer and the Glean and partner team, that leads from the next validation to a decision and beyond.",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S45"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0523",
+      "anchor": "SBP-111-L02#01",
+      "text": "Glean's MAP template lists the evaluation committee (executive sponsor, economic buyer, champion, procurement contact, and implementation contacts), restates the problem and the agreed measures of success, and then sets out dated activities, each with an owner and a purpose. Every MAP entry should capture: The milestone, as a concrete event. The owner, on the customer or Glean and partner side. Dependencies. The target date, accepted by the owner. Acceptance evidence: how everyone will know it's done. Status.",
+      "source_ids": [
+        "S45"
+      ],
+      "locator": "What each entry records",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0524",
+      "anchor": "SBP-111-L02#02",
+      "text": "Instead of \"do the pilot,\" list: Readiness and approval. Kickoff. The scoped tests. The findings review. The executive decision. The next commercial or delivery milestone, such as security review, order form, or onboarding. For a demo or Lab validation, use a smaller plan with the same shape. Boundary A seller's private close plan isn't automatically mutual. The champion and the relevant decision-makers must confirm their own commitments. Never invent dates on their behalf.",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S45"
+      ],
+      "locator": "Make \"do the pilot\" specific",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0525",
+      "anchor": "SBP-111-L02#03",
+      "text": "Every MAP entry answers the same six questions. If one is blank, the entry isn't a commitment yet. Milestone A specific, observable step Owner One named person Dependencies What must happen first Target date Agreed, not assumed Acceptance evidence How everyone will know it's done Status Kept current after every meeting",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S45"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0526",
+      "anchor": "SBP-111-L02#04",
+      "text": "Turn \"technical validation next month\" into measurable MAP entries.",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S45"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0527",
+      "anchor": "SBP-111-L02#05",
+      "text": "Confirm scope and readiness. Owners: the SE and the customer's IT lead. Target: [date]. Evidence: a signed-off scope note. Run the agreed validation event. Owners: the SE and the champion. Target: [date]. Evidence: completed test tasks. Review findings against the criteria. Owners: the joint team. Target: [date]. Record the sponsor's decision. Owner: the sponsor. Target: [date]. Schedule the next gate. Owner: the AE. Ask each customer owner to accept their dates.",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S45"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0528",
+      "anchor": "SBP-111-L03#00",
+      "text": "Recaps and decision logs are the record of what was actually agreed. Write them precisely, and keep internal judgments separate.",
+      "source_ids": [
+        "S05",
+        "S14",
+        "S46"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0529",
+      "anchor": "SBP-111-L03#01",
+      "text": "Customer-facing recap: purpose, priorities, evidence, decisions, open items, and actions. Internal record: qualification judgments, scores, and restricted process information. Glean's opportunity workbook is an example of an internal record. Keep versions and ownership clear for every artifact.",
+      "source_ids": [
+        "S05",
+        "S14",
+        "S46"
+      ],
+      "locator": "Two kinds of record",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0530",
+      "anchor": "SBP-111-L03#02",
+      "text": "Accepted | Agreed as stated | Rationale and approver Conditional | Agreed, subject to a named condition | The condition, its owner, and the date Deferred | Postponed, not rejected | The reason and the revisit date Rejected | Not pursued | The rationale When the scope is revised, point to the version used in the value model and the validation criteria. This keeps the numbers and the scope consistent. Boundary Don't overstate tentative agreement or expose internal scores. Verify recipients and access permissions before sharing. A draft does not authorize sending.",
+      "source_ids": [
+        "S05",
+        "S14",
+        "S46"
+      ],
+      "locator": "The decision log",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0531",
+      "anchor": "SBP-111-L03#03",
+      "text": "The customer recap and the internal record serve different readers. Keep both, and keep them consistent. Customer-facing recap Internal record Decisions and commitments, in their words Evidence level behind each decision Next steps with owners and dates Risks, gaps, and open questions Sent within a day Updated in the opportunity and MAP",
+      "source_ids": [
+        "S05",
+        "S14",
+        "S46"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0532",
+      "anchor": "SBP-111-L03#04",
+      "text": "Rewrite this recap line: \"Everyone loved it and we're ready for rollout.\"",
+      "source_ids": [
+        "S05",
+        "S14",
+        "S46"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0533",
+      "anchor": "SBP-111-L03#05",
+      "text": "\"The team prioritized three workflows. The sponsor accepted the outcome hypothesis, subject to two validations: confirming access behavior for restricted content, and establishing the handle-time baseline. [Owner names] will resolve these before the go or no-go checkpoint on [date].\"",
+      "source_ids": [
+        "S05",
+        "S14",
+        "S46"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0534",
+      "anchor": "SBP-111-L04#00",
+      "text": "Partners add the most value when their services address what the customer's roadmap actually needs. Every service should have a clear causal link to a customer outcome.",
+      "source_ids": [
+        "S05",
+        "S43",
+        "S44"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0535",
+      "anchor": "SBP-111-L04#01",
+      "text": "Glean's partner-led services model has partners owning outcome delivery, rollout enablement, and change management. Glean retains governance, deployment quality, and technical authority.",
+      "source_ids": [
+        "S43"
+      ],
+      "locator": "Why partner-led services",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S43",
+      "excerpt": "Partners own outcome delivery, rollout enablement, and change management.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0536",
+      "anchor": "SBP-111-L04#02",
+      "text": "Map the prioritized roadmap to the services it requires: Discovery facilitation, to expand the Blueprint to new teams. Deployment and connectors. Agent design and implementation. Adoption and change management. Governance and knowledge readiness. Value measurement and optimization. Define the outcomes, deliverables, responsibilities, assumptions, and exclusions in a scope that has been reviewed.",
+      "source_ids": [
+        "S05",
+        "S43",
+        "S44"
+      ],
+      "locator": "Map services to needs",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0537",
+      "anchor": "SBP-111-L04#03",
+      "text": "Glean's partner SOW template states that a package level is a sizing and delivery framework, not a commitment to connect every possible data source or deliver every identified use case. Discovery outputs don't authorize delivery work or set contractual terms. Boundary Don't attach a generic services SKU unless it clearly causes the customer outcome.",
+      "source_ids": [
+        "S44"
+      ],
+      "locator": "Scope is a framework, not a promise of everything",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S44",
+      "excerpt": "The package level is a sizing and delivery framework; it is not a commitment to connect all possible data sources or deliver every identified use case.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0538",
+      "anchor": "SBP-111-L04#04",
+      "text": "Map each service to a need found in the Blueprint, so scope follows evidence. Discovery facilitation More Visioning or DITL work Deployment and connectors Getting the data in Agent design Building the priority workflows Adoption and change Getting people to use it Knowledge readiness Governance and content quality Value measurement Proving the outcome",
+      "source_ids": [
+        "S05",
+        "S43",
+        "S44"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0539",
+      "anchor": "SBP-111-L04#05",
+      "text": "Propose a services sequence for a priority workflow with poor content quality and low adoption readiness.",
+      "source_ids": [
+        "S05",
+        "S43",
+        "S44"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0540",
+      "anchor": "SBP-111-L04#06",
+      "text": "Readiness and content ownership: clean up the source content and assign owners. Scoped solution and configuration for the workflow. Training and adoption, with team leads. Value measurement and optimization against the agreed baseline. Confirm each phase's scope and owner, and get it reviewed, before any commitment.",
+      "source_ids": [
+        "S05",
+        "S43",
+        "S44"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0541",
+      "anchor": "SBP-111-L05#00",
+      "text": "A good handoff means delivery and customer success don't have to restart discovery. The receiving owners also get what they need to prove value later.",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S44"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0542",
+      "anchor": "SBP-111-L05#01",
+      "text": "The business problem, the sponsor, and the champion. The prioritized workflows, with current and future maps. Data sources and permission considerations. Value assumptions and success measures. Validation findings. The scope, including exclusions, unverified capabilities, and customer obligations. The MAP.",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S44"
+      ],
+      "locator": "What to hand off",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0543",
+      "anchor": "SBP-111-L05#02",
+      "text": "Glean's Value Playbook calls launching without a baseline the number one measurement failure. Customer success and value owners need: Metric definitions and the cohort. The baseline period, or the plan to create a baseline. Targets and data owners. Evidence labels, plus the recapture and reallocation assumptions. Costs and attribution caveats. A review cadence and a named, accountable value owner.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "What customer success needs from the value model",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "The number one measurement failure is launching without a baseline.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0544",
+      "anchor": "SBP-111-L05#03",
+      "text": "The receiving owner must accept the handoff explicitly. Record any unresolved dependencies and risks. Boundary Don't hand over an aspirational future-state diagram as an implementation commitment.",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S44"
+      ],
+      "locator": "Acceptance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0545",
+      "anchor": "SBP-111-L05#04",
+      "text": "Customer success inherits the value model. Hand it over with its assumptions, not just its headline. Metric cards and baselines What will be tracked Assumptions and evidence What still needs proof Measurement cadence When results are reviewed Acceptance Delivery and CS confirm they own it",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S44"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0546",
+      "anchor": "SBP-111-L05#05",
+      "text": "List what customer success needs from a pre-sales ROI estimate.",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S44"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0547",
+      "anchor": "SBP-111-L05#06",
+      "text": "Metric definitions, the baseline period, the cohort, targets, data owners, evidence labels, the recapture and reallocation assumptions, costs, attribution caveats, a review cadence, and a named, accountable value owner who accepts the handoff.",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S44"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0548",
+      "anchor": "SBP-111-L06#00",
+      "text": "After go-live, compare what was projected with what is emerging. Let observed outcomes, not the best-case pre-sales scenario, guide expansion.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S28"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0549",
+      "anchor": "SBP-111-L06#01",
+      "text": "A review at around 60 or 90 days can inspect: Adoption: who is using the workflow, and how often. Workflow quality: whether answers are correct and trusted. System-of-record outcomes: whether the business metric moved. Reallocation: whether capacity was deliberately redeployed. Then decide: remediate, scale the current use case, or move on to the next strategic priority.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "The post-go-live review",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "This playbook creates explicit handoff protocols so post-sales teams can validate what pre-sales promised.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0550",
+      "anchor": "SBP-111-L06#02",
+      "text": "Early activity is not full financial ROI. Timing, evidence, and attribution determine what can be claimed. Before using a customer result in an external story, confirm the customer's permission and refresh the sources.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S28"
+      ],
+      "locator": "Usage is not value",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0551",
+      "anchor": "SBP-111-L06#03",
+      "text": "Glean's example business value analysis describes three complementary measurement methods. User feedback comes from short surveys before and after, and across an evaluation. Product telemetry gives concrete usage data, including at a feature level. Stakeholder interviews give a deeper understanding of existing bottlenecks and where time saved is actually recaptured. Telemetry shows use. Only the interviews and the business's own systems show whether the outcome moved. User feedback Short pre- and post-surveys Product telemetry Usage, including at a feature level Stakeholder interviews Where sa",
+      "source_ids": [
+        "S72"
+      ],
+      "locator": "Measure three ways",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0552",
+      "anchor": "SBP-111-L06#04",
+      "text": "Adoption is rising, but the business KPI hasn't moved. What should happen?",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S28"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0553",
+      "anchor": "SBP-111-L06#05",
+      "text": "Investigate before claiming value. Check: Workflow fit: does the new flow match how the work is done? Data coverage and answer quality. Measurement lag. Whether the freed capacity was actually reallocated. Then update the hypothesis and the plan. Don't treat usage as proof of realized financial value.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S28"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0554",
+      "anchor": "SBP-111-S999",
+      "text": "Review your artifacts and proceed to the required assessment or capstone submission.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S45",
+        "S44",
+        "S20"
+      ],
+      "locator": "Assessment design; S55/S56 build framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0555",
+      "anchor": "SBP-111-TEMPLATES",
+      "text": "Reusable templates: A15; A16; A17; A18",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S14",
+        "S15",
+        "S28",
+        "S43",
+        "S44",
+        "S45"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0556",
+      "anchor": "SBP-111-PROMPTS",
+      "text": "Prompt library entries: P09",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S14"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0557",
+      "anchor": "SBP-111-Q001",
+      "text": "Receiving teams need evidence, owners and constraints as well as the executive story.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S14",
+        "S45"
+      ],
+      "locator": "Outputs to Capture; discovery outputs; executive follow-up",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0558",
+      "anchor": "SBP-111-Q002",
+      "text": "Mutuality requires agreement and accountable owners, not just a seller-created schedule.",
+      "source_ids": [
+        "S45",
+        "S15",
+        "S14"
+      ],
+      "locator": "Mutual Action Plan template; pilot readiness MAP",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0559",
+      "anchor": "SBP-111-Q003",
+      "text": "A decision log should preserve nuance and traceability instead of overstating agreement.",
+      "source_ids": [
+        "S05",
+        "S14",
+        "S46"
+      ],
+      "locator": "Follow-up email; after-work; opportunity workbook",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0560",
+      "anchor": "SBP-111-Q004",
+      "text": "Service relevance and a reviewed scope connect discovery to responsible delivery.",
+      "source_ids": [
+        "S43",
+        "S44",
+        "S05"
+      ],
+      "locator": "Partner-led services catalog; Deploy & Activate SOW",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0561",
+      "anchor": "SBP-111-Q005",
+      "text": "Post-go-live value review needs the original measurement contract and evidence limits.",
+      "source_ids": [
+        "S13",
+        "S44",
+        "S28"
+      ],
+      "locator": "Value lifecycle handoff; services scope; 60/90-day remeasurement",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0562",
+      "anchor": "SBP-111-Q006",
+      "text": "Usage is diagnostic evidence, not sufficient proof of the intended business outcome.",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S05"
+      ],
+      "locator": "Value lifecycle; BVC remeasurement; ongoing optimization",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0563",
+      "anchor": "SBP-111-Q007",
+      "text": "A recap must reflect what was actually agreed and preserve conditions.",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S05"
+      ],
+      "locator": "Value lifecycle; BVC remeasurement; ongoing optimization",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0564",
+      "anchor": "SBP-111-Q008",
+      "text": "An accountable receiving owner prevents lost assumptions, duplicated discovery and unowned dependencies.",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S05"
+      ],
+      "locator": "Value lifecycle; BVC remeasurement; ongoing optimization",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    }
+  ]
+}

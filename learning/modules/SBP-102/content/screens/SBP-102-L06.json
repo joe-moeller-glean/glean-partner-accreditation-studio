@@ -1,0 +1,126 @@
+{
+  "id": "SBP-102-L06",
+  "lesson": "SBP-102-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "From executive decision to technical alignment",
+  "nav": "6. From executive decision to technical alignment",
+  "objective": "Separate three outstanding issues: workflow feasibility, security review and signature authority.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "After the executive accepts the value case, the work splits into parallel streams. Keep them linked but distinct, so that one stream's success isn't mistaken for another's."
+    },
+    {
+      "t": "h3",
+      "x": "Three streams after the value decision"
+    },
+    {
+      "t": "p",
+      "x": "In the documented sales motion, Technical and Security Alignment follows Executive Alignment. Its purpose is to complete security and IT reviews and plan the evaluation so there are no late surprises. In parallel, the account team manages the commercial path."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Feasibility and validation.** Answer specific, unresolved buying questions with the lightest sufficient option. Glean's technical validation options range from a custom tailored demo, which needs little customer preparation, through a hands-on sandbox to a pilot or proof of concept, which needs much more preparation and time.",
+        "**Security and IT review.** Follow the customer's approved review path, with named owners on both sides.",
+        "**Commercial and paper process.** Signature authority, procurement steps, and legal review stay with the AE and the customer's procurement team."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "What a pilot requires"
+    },
+    {
+      "t": "p",
+      "x": "If a pilot is truly needed, Glean's guidance expects groundwork first: the three whys, an identified economic buyer who has confirmed the need in an executive alignment meeting, agreement on the value hypothesis and pilot goals, documented technical use cases and a test plan, and measurable success criteria agreed with the customer. Pilots also go through Glean's internal review and approval. Partners should not promise one."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Value alignment is not technical sign-off, and a successful demo is not procurement approval. Do not promise product capabilities or support based on old decks; confirm current behavior with the Glean account team."
+    },
+    {
+      "t": "h3",
+      "x": "Why pilots convert, and what that implies"
+    },
+    {
+      "t": "p",
+      "x": "Glean's validation-events training offers a useful explanation of why pilots usually convert. By the time a pilot can start, almost everything a closed deal needs has already happened: a security review, the Blueprint, an economic buyer who has said what matters, executive buy-in, pricing and budget conversations, and IT ready to set up connectors."
+    },
+    {
+      "t": "p",
+      "x": "The lesson isn't that pilots are magic. It's that the work in these three streams is what makes a deal real. A pilot started without them is a test with no path to a decision."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Three streams after the value decision",
+      "alt": "A comparison of the three parallel streams after Executive Validation, with their typical owners: feasibility and validation, owned by the SE with the customer's technical owner; security and IT review, owned by the customer's security team with Glean support; and the commercial and paper process, owned by the AE with procurement.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Stream",
+          "b": "What it resolves",
+          "emph": false
+        },
+        {
+          "a": "Feasibility and validation",
+          "b": "Can the priority workflows work on this customer's systems?",
+          "emph": false
+        },
+        {
+          "a": "Security and IT review",
+          "b": "Is data handling acceptable to the customer?",
+          "emph": false
+        },
+        {
+          "a": "Commercial and paper process",
+          "b": "Budget, terms, and the path to signature",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "After Executive Validation, three issues remain: whether a critical workflow is feasible, a pending security review, and unclear signature authority. Assign each to a stream and an owner."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Workflow feasibility:** a scoped validation, such as a tailored demo on representative data with agreed test cases. The SE owns it.",
+        "**Security review:** the customer's approved review path, with a named security contact and a Glean counterpart.",
+        "**Signature authority and procurement sequencing:** the AE and customer procurement, as MAP milestones with dates."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Each is a separate workstream with a named owner, dependencies, and a decision date."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 487,
+  "eyebrow": "Lesson 6 · about 6 min",
+  "claims": [
+    "C-0085",
+    "C-0086",
+    "C-0087",
+    "C-0088",
+    "C-0089",
+    "C-0090"
+  ],
+  "sources": [
+    "S11",
+    "S14",
+    "S16",
+    "S67"
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-113",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-113-Q001",
+      "objective_id": "SBP-113-L01",
+      "module_id": "SBP-113",
+      "stem": "A participant keeps redirecting discovery to product features. What should the facilitator do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abandon prioritization for a full catalog tour."
+        },
+        {
+          "id": "b",
+          "text": "Ignore the customer entirely."
+        },
+        {
+          "id": "c",
+          "text": "Promise every requested feature immediately."
+        },
+        {
+          "id": "d",
+          "text": "Acknowledge, connect it to an outcome/workflow, park unrelated detail and return to the evidence question."
+        }
+      ],
+      "claims": [
+        "C-0650"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q002",
+      "objective_id": "SBP-113-L02",
+      "module_id": "SBP-113",
+      "stem": "What is the best response to 'just give us a pilot'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Say pilots are always forbidden."
+        },
+        {
+          "id": "b",
+          "text": "Run three generic workshops without explaining why."
+        },
+        {
+          "id": "c",
+          "text": "Promise immediate deployment regardless of readiness."
+        },
+        {
+          "id": "d",
+          "text": "Clarify the buying uncertainty and propose the smallest credible scoped validation."
+        }
+      ],
+      "claims": [
+        "C-0651"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q003",
+      "objective_id": "SBP-113-L03",
+      "module_id": "SBP-113",
+      "stem": "A CFO says time savings do not hit the P&L. What is the best response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agree, distinguish capacity from cash and define reallocation/outcome evidence."
+        },
+        {
+          "id": "b",
+          "text": "Promise layoffs to make the model work."
+        },
+        {
+          "id": "c",
+          "text": "Remove all risk and recapture discounts silently."
+        },
+        {
+          "id": "d",
+          "text": "Insist salary-equivalent time is automatically cash."
+        }
+      ],
+      "claims": [
+        "C-0652"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q004",
+      "objective_id": "SBP-113-L04",
+      "module_id": "SBP-113",
+      "stem": "A sponsor rejects benchmark-based estimates. What should the team do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Use a larger unverified benchmark."
+        },
+        {
+          "id": "b",
+          "text": "End all measurement discussions."
+        },
+        {
+          "id": "c",
+          "text": "Call the benchmark a measured customer result."
+        },
+        {
+          "id": "d",
+          "text": "Label them directional and agree customer-specific baseline and validation steps."
+        }
+      ],
+      "claims": [
+        "C-0653"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q005",
+      "objective_id": "SBP-113-L05",
+      "module_id": "SBP-113",
+      "stem": "A workshop ends with twenty agent ideas and no owners. What is the corrective action?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Start every agent build immediately."
+        },
+        {
+          "id": "b",
+          "text": "Re-anchor on outcomes, prioritize a small first wave and assign metrics, owners and next sessions."
+        },
+        {
+          "id": "c",
+          "text": "Ask the customer to choose randomly."
+        },
+        {
+          "id": "d",
+          "text": "Treat the idea count as a successful business case."
+        }
+      ],
+      "claims": [
+        "C-0654"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q006",
+      "objective_id": "SBP-113-L06",
+      "module_id": "SBP-113",
+      "stem": "DITL sessions have been cancelled twice. What is the best recovery?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continue building ROI from invented data."
+        },
+        {
+          "id": "b",
+          "text": "Mark the work complete."
+        },
+        {
+          "id": "c",
+          "text": "Revalidate urgency and sponsorship, seek a named owner/date and set a continue-or-pause checkpoint."
+        },
+        {
+          "id": "d",
+          "text": "Provision a pilot to force engagement."
+        }
+      ],
+      "claims": [
+        "C-0655"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q007",
+      "objective_id": "SBP-113-L06",
+      "module_id": "SBP-113",
+      "stem": "A custom connector blocks the favorite first-wave case. What should happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Delete every other use case."
+        },
+        {
+          "id": "b",
+          "text": "Claim all connectors are equivalent."
+        },
+        {
+          "id": "c",
+          "text": "Consider a narrower feasible slice or a later strategic bet with explicit validation dependencies."
+        },
+        {
+          "id": "d",
+          "text": "Hide the blocker to preserve excitement."
+        }
+      ],
+      "claims": [
+        "C-0656"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-113-Q008",
+      "objective_id": "SBP-113-L06",
+      "module_id": "SBP-113",
+      "stem": "What is a valid successful outcome of Blueprint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only the largest optimistic ROI."
+        },
+        {
+          "id": "b",
+          "text": "A well-supported proceed, narrow, pause or no-go decision."
+        },
+        {
+          "id": "c",
+          "text": "Only unanimous praise for the slide deck."
+        },
+        {
+          "id": "d",
+          "text": "Only immediate pilot deployment."
+        }
+      ],
+      "claims": [
+        "C-0657"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

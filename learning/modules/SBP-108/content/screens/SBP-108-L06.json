@@ -1,0 +1,151 @@
+{
+  "id": "SBP-108-L06",
+  "lesson": "SBP-108-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Operational metrics and value handoff",
+  "nav": "6. Operational metrics and value handoff",
+  "objective": "Complete a metric card with no historical timing data.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Value promised in pre-sales has to be provable after go-live. Metric cards make that possible, and they carry the value case into the success plan."
+    },
+    {
+      "t": "h3",
+      "x": "The metric card"
+    },
+    {
+      "t": "table",
+      "caption": "Metric card (fictional support example)",
+      "head": [
+        "Field",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Definition",
+          "Mean active handle time for password and access cases"
+        ],
+        [
+          "Unit and cohort",
+          "Minutes per case; tier 1 agents in the pilot region"
+        ],
+        [
+          "Baseline",
+          "Four-week sample before rollout (owner: support operations)"
+        ],
+        [
+          "Target",
+          "A hypothesis, set after the baseline is reviewed"
+        ],
+        [
+          "System of record",
+          "Ticketing system timestamps"
+        ],
+        [
+          "Data owner",
+          "Support operations analyst"
+        ],
+        [
+          "Collection timing",
+          "Before go-live, then at 30, 60, and 90 days"
+        ],
+        [
+          "Quality guardrail",
+          "First-contact resolution rate and re-open rate"
+        ],
+        [
+          "Caveats",
+          "Seasonality; case-mix changes; other process changes"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Carry it forward"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Value Playbook says pre-sales value is only credible if it creates a measurable path for post-sales proof. The plan should cover success criteria, baselines, instrumentation, customer commitments, the timeline, and the handoff to post-sales teams. Adoption metrics help explain why value is or isn't appearing, but they don't replace the business outcome."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Never use an aspirational target as a baseline. If the data isn't available, record the gap and assign measurement work. Never fabricate a before-and-after comparison."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "The metric cards you write in the Blueprint should become the measures tracked after go-live. If they're vague, nobody can show at renewal whether the investment worked."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "The metric card's lifecycle",
+      "alt": "A four-step lifecycle for a metric card: defined in DITL, used in the executive business case, measured during validation, and reviewed after go-live.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Defined in DITL",
+          "detail": "Baseline, owner, and data origin",
+          "emph": false
+        },
+        {
+          "label": "Used in the business case",
+          "detail": "Ranges and assumptions",
+          "emph": false
+        },
+        {
+          "label": "Measured in validation",
+          "detail": "Against agreed criteria",
+          "emph": false
+        },
+        {
+          "label": "Reviewed after go-live",
+          "detail": "Shows value at renewal",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Complete the baseline field of a metric card when there is no historical timing data at all."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "**Baseline:** not yet measured. **Owner:** support operations. **Action:** time a sample of the agreed case class for four weeks before rollout, or enable ticket timestamps if they aren't captured."
+    },
+    {
+      "t": "p",
+      "x": "The target stays a hypothesis until the baseline has been reviewed. Track quality guardrails and use comparable cohorts."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 319,
+  "eyebrow": "Lesson 6 · about 6 min",
+  "claims": [
+    "C-0394",
+    "C-0395",
+    "C-0396",
+    "C-0397",
+    "C-0398",
+    "C-0399"
+  ],
+  "sources": [
+    "S13",
+    "S28",
+    "S34"
+  ]
+}

@@ -1,0 +1,49 @@
+/* Glean module theme tokens - Glean Branding Style 2026 (skills/brand).
+   Values live here only; components reference tokens. Legacy names (--blue, --ink,
+   --muted, --line-control) are kept so older modules and the linter keep resolving. */
+:root{
+/* primary */
+--blue:#343CED;
+--green:#D8FD49;
+--oatmeal:#F6F3EB;
+--white:#FFFFFF;
+--ink:#000000;
+/* applied surfaces */
+--near-black:#111314;
+--off-white:#F8F8F8;
+--surface:#FFFFFF;
+--wash-teal:#DEEEF0;
+--wash-orchid:#F0C2F2;
+--wash-peach:#FFCFBC;
+/* secondary, data and diagrams only */
+--dark-blue:#1017B1;
+--cement:#C7C7AB;
+--dark-cement:#777767;
+/* text: #666666 replaces the skill's lighter body and mono grays so small text keeps 4.5:1
+   (see skills/references/brand-system.md, accessibility overrides) */
+--muted:#666666;
+--text-2:#666666;
+--text-on-dark:#FFFFFF;
+--text-on-dark-2:#B0AEA2;
+/* borders: hairline is decorative only; controls need 3:1 */
+--hairline:rgba(0,0,0,.12);
+--hairline-strong:rgba(0,0,0,.2);
+--line-control:#777767;
+--shadow-md:0 4px 16px rgba(0,0,0,.08);
+/* type */
+--font:"PolySans","DM Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+--font-mono:"PolySans Mono","IBM Plex Mono","Roboto Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+/* geometry */
+--radius:8px;
+--radius-md:12px;
+--radius-lg:16px;
+--radius-pill:999px;
+--space:8px;
+--maxw:1280px;
+--line:66ch;
+--target:44px;
+/* motion */
+--t1:150ms;
+--t2:300ms;
+--t3:600ms;
+}

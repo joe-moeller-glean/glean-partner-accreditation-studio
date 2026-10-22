@@ -1,0 +1,805 @@
+{
+  "module_id": "SBP-107",
+  "claims": [
+    {
+      "claim_id": "C-0308",
+      "anchor": "SBP-107-S000",
+      "text": "Running SE-led Day-in-the-Life interviews, mapping current and future workflows, quantifying cost of inaction, and the optional playback",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S04",
+        "S09",
+        "S38"
+      ],
+      "locator": "Module overview synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0309",
+      "anchor": "SBP-107-L01#00",
+      "text": "Day-in-the-Life (DITL) interviews look closely at the use cases chosen in Visioning. Their job is to document what the work really looks like, what it could look like, and what it costs today.",
+      "source_ids": [
+        "S02",
+        "S09",
+        "S22"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0310",
+      "anchor": "SBP-107-L01#01",
+      "text": "In Glean's Blueprint process, DITL is SE-led with AE support. Its central question is what the reality on the ground looks like for the three or four prioritized use cases. The outputs are reviewed later with the economic buyer, champions, and users, so they need to be accurate and easy to follow. Glean's DITL training plans for about 90 minutes of interview and playback per workflow. Several sessions may be needed depending on scope.",
+      "source_ids": [
+        "S02",
+        "S22"
+      ],
+      "locator": "What DITL answers",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S02, S22",
+      "excerpt": "What does the reality on the ground of 3 - 4 prioritized use cases look like? / Create output deliverables that will be reviewed with EB, Champions, and users",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0311",
+      "anchor": "SBP-107-L01#02",
+      "text": "The agreed use case log and the first-wave rows. Pre-work answers and the metric hypotheses. The known systems and data landscape. Run one focused session per relevant team or workflow. Don't reopen all of Visioning.",
+      "source_ids": [
+        "S02",
+        "S09",
+        "S22"
+      ],
+      "locator": "Prepare from what you already have",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0312",
+      "anchor": "SBP-107-L01#03",
+      "text": "Someone who does the work. This is essential. Leaders often describe how work should happen, not how it does. Someone who understands the KPI, such as the team lead or operations manager. A platform or data owner when feasibility questions are likely. Ask participants to bring a recent, representative example. Sensitive information should be handled only through approved channels. Watch for A large slide deck in place of listening. If the interview shows that the use case is not real or not frequent, say so and return to prioritization explicitly. Don't quietly substitute a different use case.",
+      "source_ids": [
+        "S02",
+        "S09",
+        "S22"
+      ],
+      "locator": "Invite the right people",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0313",
+      "anchor": "SBP-107-L01#04",
+      "text": "Glean's DITL training names three shortcuts teams take when time or SE capacity is tight. They promise the customer what Glean can or can't do without evidence. They delay the work until an SE is free. Or they skip DITL entirely and go straight to a trial. The training is clear that some form of DITL should happen before any trial, so everyone shares a roadmap of what the trial will test. Someone who does the work Walks through a real, recent example Someone who owns the KPI Explains what the work affects A platform or data owner Knows the systems and access",
+      "source_ids": [
+        "S54",
+        "S64"
+      ],
+      "locator": "Don't skip it",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0314",
+      "anchor": "SBP-107-L01#05",
+      "text": "Write an interview brief for the \"approved-answer discovery\" use case in the fictional support team.",
+      "source_ids": [
+        "S02",
+        "S09",
+        "S22"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0315",
+      "anchor": "SBP-107-L01#06",
+      "text": "Objective: map the work from a new case to a sent answer, including time, systems, and failure points. Attendees: two tier 1 support agents, a team lead, and the knowledge-base owner if needed. Inputs: a recent representative case, with customer details removed; the list of systems used; any existing handle-time report. Outputs: the steps, timings, and failures; data sources and permissions; and gaps in the metrics and baseline, each with an owner.",
+      "source_ids": [
+        "S02",
+        "S09",
+        "S22"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0316",
+      "anchor": "SBP-107-L02#00",
+      "text": "A current-state map is the evidence base for everything that follows. If it is wrong, the future state and the value case will be wrong too.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S35"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0317",
+      "anchor": "SBP-107-L02#01",
+      "text": "Trigger | A new case is assigned Actor | Tier 1 agent Step | Search the wiki for a known fix System | Wiki, ticketing system Input and output | Case description in; candidate article out Active time | 8 minutes (agent's estimate) Frequency | About 20 times a day per agent (to confirm) Wait time | None Handoff | To a senior agent if nothing is found Failure or rework | Article outdated; answer reworked after review",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S35"
+      ],
+      "locator": "What to capture for each step",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0318",
+      "anchor": "SBP-107-L02#02",
+      "text": "Keep two measures apart. A task may take 30 minutes of active work but wait two days for an approval. Glean's DITL training examples report the total time people spend separately from the turnaround time including delays. The two measures support different value claims: capacity versus cycle time. They must not be added together or both claimed as labor savings.",
+      "source_ids": [
+        "S22"
+      ],
+      "locator": "Active effort is not elapsed time",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S22",
+      "excerpt": "Turnaround time (including delays)",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0319",
+      "anchor": "SBP-107-L02#03",
+      "text": "Mark each timing as observed (measured or seen) or estimated (someone's recollection). Record the sample size, the time period, and who can validate the map. A single person's estimate is not the team's measured baseline. Boundary Don't add up overlapping steps, and don't invent a timing because a cell is empty. A missing value becomes a measurement task.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S35"
+      ],
+      "locator": "Label the evidence",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0320",
+      "anchor": "SBP-107-L02#04",
+      "text": "Glean's DITL training gives two practical habits for recording time. First, be conservative. People's estimates of familiar tasks often creep, so record what they're confident of and note when it varies. Second, use ranges, especially for future-state steps. An AI agent's processing time can vary with the model and the task, so a range such as \"2 to 10 minutes\" is more honest than a single figure. The number of steps varies too. A simple workflow may have five steps and a complex one fourteen. Capture what is actually there. Fictional interview estimates of active work. Waiting time is recorde",
+      "source_ids": [
+        "S64"
+      ],
+      "locator": "Be conservative, and give ranges",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S64",
+      "excerpt": "So you can put a range in here.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0321",
+      "anchor": "SBP-107-L02#05",
+      "text": "An agent describes the process as: read the case, search the wiki, ask a colleague, draft an answer, and have it reviewed. They gave timings for only two steps. Map it.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S35"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0322",
+      "anchor": "SBP-107-L02#06",
+      "text": "Create one row per action: read case; search wiki; ask colleague; draft answer; review. Name the owner and system for each. Label the two timings as estimates, and mark the other three \"not yet measured.\" Add a measurement task, such as a timed sample of ten cases or timestamps from the ticketing system. Show the wait for the colleague's reply and for review as elapsed time, separately from active effort.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S35"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0323",
+      "anchor": "SBP-107-L03#00",
+      "text": "Friction becomes a value input only when you know how often it happens, how many people it affects, and what it changes for the business.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S22"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0324",
+      "anchor": "SBP-107-L03#01",
+      "text": "Ask where work slows down, fails, or gets repeated. Then establish: Frequency: events per person per day or week. Affected population: how many people do it. Unit effort: minutes of active work per event, or days of delay. Glean's Value Playbook states it simply: volume times per-event impact gives total value, and low volume kills ROI. If 200 people repeat a task twice a day, even modest friction can add up to a material capacity opportunity. The customer must confirm the active population, the frequency, and whether the time burden is measured or estimated.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Three inputs, explicit units",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Volume × per-event impact = total value. Low volume kills ROI.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0325",
+      "anchor": "SBP-107-L03#02",
+      "text": "Executive Validation presents the current state together with the cost of inaction, meaning what continues to happen if nothing changes. Describe it in business terms: slower responses, lost deals, compliance exposure, or capacity tied up in repeat work.",
+      "source_ids": [
+        "S14"
+      ],
+      "locator": "Cost of inaction",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S14",
+      "excerpt": "Make business impact concrete and quantify the cost of inaction.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0326",
+      "anchor": "SBP-107-L03#03",
+      "text": "Time burden is not automatically removable, recoverable, or cashable. A delay that changes no labor and no business result shouldn't be monetized without an agreed causal model. SBP-108 covers how to convert hours carefully.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S22"
+      ],
+      "locator": "Time is not automatically money",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0327",
+      "anchor": "SBP-107-L03#04",
+      "text": "Three inputs, each with explicit units, give the annual burden. It is a capacity figure until someone shows how the time would be used. Frequency Events per person per workday Affected population People who actually do the work Unit effort Minutes per event, converted to hours once Annual burden Capacity hours, not yet cash",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S22"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0328",
+      "anchor": "SBP-107-L03#05",
+      "text": "A DITL interview reports \"30 minutes searching\" and \"two days waiting for approval.\" Explain how each should be modeled.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S22"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0329",
+      "anchor": "SBP-107-L03#06",
+      "text": "Searching (30 minutes): active effort. It may free capacity if the search time falls and the freed time is redeployed. Model it as minutes × events × people, with evidence labels. Waiting (two days): elapsed delay. It doesn't consume labor while it waits, but it may affect cycle time, revenue timing, or risk. Model it separately, with its own causal explanation. Never add the two together.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S22"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0330",
+      "anchor": "SBP-107-L04#00",
+      "text": "The future state shows how the work could change with Glean. A defensible future-state map is specific about what changes, what stays, and what it depends on.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S22"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0331",
+      "anchor": "SBP-107-L04#01",
+      "text": "For each current step, ask whether Glean could help to: Retrieve the relevant information across permitted sources. Synthesize it into a summary or comparison. Draft a first version for a person to review. Route the work, where an approved integration exists. Keep human review wherever judgment, approval, or accountability is needed. Name the data sources, permission boundaries, and technical dependencies for each changed step. Label any capability you haven't validated with the Glean team.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S22"
+      ],
+      "locator": "Step by step, ask what could change",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0332",
+      "anchor": "SBP-107-L04#02",
+      "text": "A future support flow might retrieve approved guidance and draft a response, while the agent checks relevance and sends it. The map should show the review step and the exception path, such as what happens when no approved answer exists. It should never show a magical one-click resolution. Glean's partner guidance suggests marking complex, unconnected automations as \"future state\" rather than phase one. Boundary Don't remove controls, promise unsupported write-backs, or assume a step's duration drops to zero. Future-state timings are hypotheses until they are tested.",
+      "source_ids": [
+        "S05"
+      ],
+      "locator": "Show the exceptions",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": true
+    },
+    {
+      "claim_id": "C-0333",
+      "anchor": "SBP-107-L04#03",
+      "text": "Glean's DITL training suggests a practical way to draft the post-Glean workflow when no SE is on the call: describe the current steps and the department to Glean, and ask for a step-by-step optimized version. Treat the result as a first draft. The SE then reviews each proposed capability and the workflow owner validates the sequence. The same training says to do the value thinking after the interview, so you arrive at the readout with an outcome story, not just a list of steps. Current state Future state hypothesis Search several systems for guidance Ask once; the answer cites the approved art",
+      "source_ids": [
+        "S64"
+      ],
+      "locator": "Draft the future state, then verify it",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0334",
+      "anchor": "SBP-107-L04#04",
+      "text": "Redesign the five-step case-answer process from lesson 2 (read, search, ask a colleague, draft, review). Identify the controls you would keep.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S22"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0335",
+      "anchor": "SBP-107-L04#05",
+      "text": "Future state: read case → Glean retrieves approved guidance and past resolutions and drafts a response → the agent verifies the sources and edits → review, only for flagged case types → send. Controls kept: source verification by the agent, approval for flagged case types, and escalation when no approved answer exists. Assumptions: the knowledge base is current and reachable, and agents' permissions are mapped correctly. Measurement: time the new active effort on a sample of cases.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S22"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0336",
+      "anchor": "SBP-107-L05#00",
+      "text": "A playback reviews the maps with the customer before they reach the executive. Use it when it resolves a specific uncertainty. Don't add one by default.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S18",
+        "S22"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0337",
+      "anchor": "SBP-107-L05#01",
+      "text": "Glean's Blueprint process pairs DITL interviews with a playback. A playback is worth its time when: The future state can't be responsibly finalized live. Several teams need to agree on the same workflow. A targeted demonstration can resolve a specific question, such as whether permissions behave as expected.",
+      "source_ids": [
+        "S02",
+        "S22"
+      ],
+      "locator": "When a playback helps",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S02",
+      "excerpt": "Day-in-the -Life (DITL) Interview(s) + Playback",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0338",
+      "anchor": "SBP-107-L05#02",
+      "text": "Show the current and proposed work side by side. Call out the assumptions. Demonstrate only the prioritized tasks needed to test the hypothesis. Ask directly: \"What is wrong or missing?\" Record the customer's corrections in the log, with the date and who made them.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S18",
+        "S22"
+      ],
+      "locator": "How to run it",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0339",
+      "anchor": "SBP-107-L05#03",
+      "text": "A playback is not a required extra meeting in every deal. Each playback or demo should have a defined question, an owner, and a decision date. If it doesn't, it's a delay, not validation.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S18",
+        "S22"
+      ],
+      "locator": "Avoid endless demo loops",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0340",
+      "anchor": "SBP-107-L05#04",
+      "text": "A playback is for correction. Show the map, ask what's wrong, and record every change. Show the map To the people who do the work Collect corrections Steps, times, systems, exceptions Update and log Record what changed and why",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S18",
+        "S22"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0341",
+      "anchor": "SBP-107-L05#05",
+      "text": "Workflow owners disagree about whether agents can see certain restricted case notes. Decide whether a playback is needed.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S18",
+        "S22"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0342",
+      "anchor": "SBP-107-L05#06",
+      "text": "Yes, if a targeted playback or technical review can resolve the permission dependency and the future-state claim. Define the evidence that will close the question in advance. For example: \"Test with two agent accounts on restricted and unrestricted cases, and confirm results with the platform owner.\" If a short clarification call with the platform owner would settle it, do that instead.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S18",
+        "S22"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0343",
+      "anchor": "SBP-107-L06#00",
+      "text": "Executives don't need every click. They need the business consequence, the evidence behind it, and what is still uncertain.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S14",
+        "S22"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0344",
+      "anchor": "SBP-107-L06#01",
+      "text": "For each prioritized workflow, summarize: Business outcome: what improves, and for whom. Current pain: the friction and its cost of inaction. Future change: what is different, and what stays the same. Value inputs: population, frequency, and time or delay, each with units. Evidence strength: observed, estimated, or assumed. Metric plan and open dependencies: how it will be measured, and what must be resolved. Link the detailed map so the SE, the value reviewer, and the customer owner can check it.",
+      "source_ids": [
+        "S14"
+      ],
+      "locator": "The DITL summary",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S14",
+      "excerpt": "Present current vs. future workflows including cost of inaction",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0345",
+      "anchor": "SBP-107-L06#02",
+      "text": "If two interviews report very different task times, investigate. Different personas, case types, or tools may explain the gap. Present a supported range or separate models per persona rather than a falsely precise average. Record who approved the interpretation. Boundary AI tools can draft DITL maps from transcripts, but any step duration they produce is unverified until the customer confirms it. Mark generated timings as unverified, and get customer evidence before modeling.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S14",
+        "S22"
+      ],
+      "locator": "Don't hide disagreement",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0346",
+      "anchor": "SBP-107-L06#03",
+      "text": "Six lines carry a DITL into the executive readout. Each line should be traceable to an interview or a metric card. Business outcome What the business wants to improve Current pain What happens today, and what it costs Future change The steps that would change Value inputs Volumes, times, and owners Evidence strength Measured, estimated, or assumed Metric plan and dependencies How it will be proven",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S14",
+        "S22"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0347",
+      "anchor": "SBP-107-L06#04",
+      "text": "Write a six-line DITL summary for the support case-answer workflow.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S14",
+        "S22"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0348",
+      "anchor": "SBP-107-L06#05",
+      "text": "Outcome: higher support throughput without lower resolution quality. Current: guidance is fragmented across the wiki, tickets, and chat, causing repeat searches and peer interruptions. Future: grounded retrieval and drafting, with agent review and escalation for exceptions. Inputs: about 40 agents and about 20 cases per agent per day (estimated); active search time per case is being measured. Evidence: interview estimates from three agents. The baseline is not yet measured. Next: validate the baseline with the ticketing export and confirm content access with the knowledge-base owner, by named ",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S14",
+        "S22"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0349",
+      "anchor": "SBP-107-S999",
+      "text": "Review your artifacts and proceed to the required assessment or capstone submission.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S04",
+        "S09",
+        "S38"
+      ],
+      "locator": "Assessment design; S55/S56 build framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0350",
+      "anchor": "SBP-107-TEMPLATES",
+      "text": "Reusable templates: A08; A09",
+      "source_ids": [
+        "S02",
+        "S09",
+        "S22",
+        "S35"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0351",
+      "anchor": "SBP-107-PROMPTS",
+      "text": "Prompt library entries: P05",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S38"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0352",
+      "anchor": "SBP-107-Q001",
+      "text": "Direct workflow evidence needs practitioners, supplemented by business and technical owners.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S09"
+      ],
+      "locator": "DITL purpose; prerequisites; pre-work worksheet",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0353",
+      "anchor": "SBP-107-Q002",
+      "text": "Labor and cycle time are different and support different value mechanisms.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S35"
+      ],
+      "locator": "Current-state mapping; workflow step examples",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0354",
+      "anchor": "SBP-107-Q003",
+      "text": "Distinguish the measure and mechanism rather than inflating savings through incompatible units.",
+      "source_ids": [
+        "S13",
+        "S22",
+        "S02"
+      ],
+      "locator": "Workflow decomposition; time and frequency discovery",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0355",
+      "anchor": "SBP-107-Q004",
+      "text": "A credible future state preserves required controls and labels unvalidated assumptions.",
+      "source_ids": [
+        "S02",
+        "S22",
+        "S05"
+      ],
+      "locator": "Post-Glean workflow; actions/permissions gotchas",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0356",
+      "anchor": "SBP-107-Q005",
+      "text": "Playback is conditional and decision-oriented, not a mandatory endless demo cycle.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S18",
+        "S22"
+      ],
+      "locator": "Optional DITL playback; future-state takeaway",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0357",
+      "anchor": "SBP-107-Q006",
+      "text": "Executives need the business meaning, with detailed evidence available behind the summary.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S22",
+        "S14"
+      ],
+      "locator": "DITL outputs; discovery artifacts; executive pre-work",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0358",
+      "anchor": "SBP-107-Q007",
+      "text": "Divergence may reflect real differences or weak evidence; preserve uncertainty and validate it.",
+      "source_ids": [
+        "S13",
+        "S22"
+      ],
+      "locator": "DITL outputs; discovery artifacts; executive pre-work",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0359",
+      "anchor": "SBP-107-Q008",
+      "text": "Generated plausibility is not observation or a customer baseline.",
+      "source_ids": [
+        "S38",
+        "S22"
+      ],
+      "locator": "DITL outputs; discovery artifacts; executive pre-work",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    }
+  ]
+}

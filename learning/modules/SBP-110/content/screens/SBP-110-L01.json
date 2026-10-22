@@ -1,0 +1,119 @@
+{
+  "id": "SBP-110-L01",
+  "lesson": "SBP-110-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Select the lightest sufficient validation",
+  "nav": "1. Select the lightest sufficient validation",
+  "objective": "Recommend a path when the only question is whether users understand the proposed workflow.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "After Executive Validation, the customer usually needs to see or test something before buying. Choose the validation that answers their open question with the least time and risk."
+    },
+    {
+      "t": "h3",
+      "x": "Start from the buying question"
+    },
+    {
+      "t": "p",
+      "x": "Ask what is still uncertain for the buyer. Then pick the option that resolves it, considering:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**The question:** \"Will this workflow make sense to my team?\" or \"Will it work with our specific systems and permissions?\"",
+        "**The data needed:** sample, representative, or the customer's own.",
+        "**The audience:** an executive, a few power users, or a broader cohort.",
+        "**Preparation and effort**, for the customer and for Glean.",
+        "**Risk:** data handling, security review, and expectations."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "The options, lightest to heaviest"
+    },
+    {
+      "t": "p",
+      "x": "Glean's technical validation guidance sets out three option types, increasing in preparation and duration: custom tailored demos, a sandbox, and a pilot or proof of concept. Glean's refreshed Blueprint material also positions a Glean Lab as the default validation event after Executive Validation. If the buyer needs to understand the future workflow, a tailored demo or a Lab scenario may be enough. If they need proof of behavior on specific enterprise integrations or data, define exactly what evidence a more involved evaluation must produce."
+    },
+    {
+      "t": "h3",
+      "x": "A principle, not a fixed default"
+    },
+    {
+      "t": "p",
+      "x": "Glean sources emphasize different defaults. Refreshed material favors the Glean Lab, while some sales enablement favors tailored demos. Teach the principle: use the lightest option that credibly resolves the remaining buying uncertainty. No single option is right regardless of the question."
+    },
+    {
+      "t": "h3",
+      "x": "Why the heaviest option isn't the safest"
+    },
+    {
+      "t": "p",
+      "x": "Glean's validation-events training explains why pilots usually convert: by the time a pilot can start, the security review, the Blueprint, the economic buyer's priorities, executive buy-in, pricing and budget conversations, and IT readiness have typically already happened. The conversion comes from that groundwork, not from the pilot itself. A heavier option chosen to compensate for missing groundwork adds cost without adding certainty."
+    },
+    {
+      "t": "figure",
+      "kind": "stack",
+      "title": "Validation options, lightest to heaviest",
+      "alt": "Three stacked validation options ordered from lightest to heaviest: a custom tailored demo, a sandbox, and a pilot or proof of concept. Preparation, duration, and risk increase with each step.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Custom tailored demo",
+          "detail": "Shows the future workflow; least effort",
+          "emph": false
+        },
+        {
+          "label": "Sandbox",
+          "detail": "Hands-on use with selected content",
+          "emph": false
+        },
+        {
+          "label": "Pilot or proof of concept",
+          "detail": "Real systems for a defined cohort; most effort",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "After Executive Validation, the only open question is whether the support team will understand and accept the proposed workflow. Recommend a validation path."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "A tailored demo or a suitable Glean Lab scenario, built around the prioritized support workflow, with clear success questions. For example: \"Can agents find the approved answer for these five representative case types, and would they use this flow?\""
+    },
+    {
+      "t": "p",
+      "x": "Escalate to a heavier option only if this can't answer the buying question, and document why the extra investment is needed."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 422,
+  "eyebrow": "Lesson 1 · about 6 min",
+  "claims": [
+    "C-0465",
+    "C-0466",
+    "C-0467",
+    "C-0468",
+    "C-0469",
+    "C-0470",
+    "C-0471"
+  ],
+  "sources": [
+    "S14",
+    "S16",
+    "S21",
+    "S67"
+  ]
+}

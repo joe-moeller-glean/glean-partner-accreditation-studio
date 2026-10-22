@@ -1,0 +1,37 @@
+{
+  "module_id": "SBP-111",
+  "feedback": {
+    "SBP-111-Q001": {
+      "correct": "Correct. Receiving teams need evidence, owners and constraints as well as the executive story.",
+      "incorrect": "Review the relevant lesson and evidence. Receiving teams need evidence, owners and constraints as well as the executive story."
+    },
+    "SBP-111-Q002": {
+      "correct": "Correct. Mutuality requires agreement and accountable owners, not just a seller-created schedule.",
+      "incorrect": "Review the relevant lesson and evidence. Mutuality requires agreement and accountable owners, not just a seller-created schedule."
+    },
+    "SBP-111-Q003": {
+      "correct": "Correct. A decision log should preserve nuance and traceability instead of overstating agreement.",
+      "incorrect": "Review the relevant lesson and evidence. A decision log should preserve nuance and traceability instead of overstating agreement."
+    },
+    "SBP-111-Q004": {
+      "correct": "Correct. Service relevance and a reviewed scope connect discovery to responsible delivery.",
+      "incorrect": "Review the relevant lesson and evidence. Service relevance and a reviewed scope connect discovery to responsible delivery."
+    },
+    "SBP-111-Q005": {
+      "correct": "Correct. Post-go-live value review needs the original measurement contract and evidence limits.",
+      "incorrect": "Review the relevant lesson and evidence. Post-go-live value review needs the original measurement contract and evidence limits."
+    },
+    "SBP-111-Q006": {
+      "correct": "Correct. Usage is diagnostic evidence, not sufficient proof of the intended business outcome.",
+      "incorrect": "Review the relevant lesson and evidence. Usage is diagnostic evidence, not sufficient proof of the intended business outcome."
+    },
+    "SBP-111-Q007": {
+      "correct": "Correct. A recap must reflect what was actually agreed and preserve conditions.",
+      "incorrect": "Review the relevant lesson and evidence. A recap must reflect what was actually agreed and preserve conditions."
+    },
+    "SBP-111-Q008": {
+      "correct": "Correct. An accountable receiving owner prevents lost assumptions, duplicated discovery and unowned dependencies.",
+      "incorrect": "Review the relevant lesson and evidence. An accountable receiving owner prevents lost assumptions, duplicated discovery and unowned dependencies."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "by_asset_id": {
+    "SBP-105-LOGO": "Glean",
+    "SBP-105-L01-F1-wide": "A comparison of the two Visioning paths. When the customer has a use case list, validate and rank it against outcomes. When the customer has no list, start from priorities and pain, use relevant examples as prompts, and build the list together.",
+    "SBP-105-L01-F1-narrow": "A comparison of the two Visioning paths. When the customer has a use case list, validate and rank it against outcomes. When the customer has no list, start from priorities and pain, use relevant examples as prompts, and build the list together.",
+    "SBP-105-L02-F1-wide": "A bar chart of the 60-minute Visioning agenda: welcome and purpose 5 minutes, context and outcomes 10, opportunity discovery 20, prioritization 20, and commitments 5. Prioritization is emphasized because it should never be cut.",
+    "SBP-105-L02-F1-narrow": "A bar chart of the 60-minute Visioning agenda: welcome and purpose 5 minutes, context and outcomes 10, opportunity discovery 20, prioritization 20, and commitments 5. Prioritization is emphasized because it should never be cut.",
+    "SBP-105-L03-F1-wide": "A comparison of product-led questions with outcome-led rewrites. For example, asking which Glean features interest the customer becomes asking where the team loses time today and what that delay costs.",
+    "SBP-105-L03-F1-narrow": "A comparison of product-led questions with outcome-led rewrites. For example, asking which Glean features interest the customer becomes asking where the team loses time today and what that delay costs.",
+    "SBP-105-L04-F1-wide": "Six cards showing what a use case row captures: the job to be done, the persona and department, the current workflow, the pain, the data sources, and the impact and effort rationale with uncertainties.",
+    "SBP-105-L04-F1-narrow": "Six cards showing what a use case row captures: the job to be done, the persona and department, the current workflow, the pain, the data sources, and the impact and effort rationale with uncertainties.",
+    "SBP-105-L05-F1-wide": "A two-by-two matrix with effort on the horizontal axis and impact on the vertical axis. High impact and low effort: quick wins, prime first-wave candidates. High impact and high effort: strategic bets, select one or two. Low impact and low effort: nice-to-haves, keep for later. Low impact and high effort: deprioritize, with reasons.",
+    "SBP-105-L05-F1-narrow": "A two-by-two matrix with effort on the horizontal axis and impact on the vertical axis. High impact and low effort: quick wins, prime first-wave candidates. High impact and high effort: strategic bets, select one or two. Low impact and low effort: nice-to-haves, keep for later. Low impact and high effort: deprioritize, with reasons.",
+    "SBP-105-L06-F1-wide": "A four-step follow-up after Visioning: send the recap with priorities and owners, confirm DITL participants and dates, update the mutual action plan, and chase any unconfirmed items.",
+    "SBP-105-L06-F1-narrow": "A four-step follow-up after Visioning: send the recap with priorities and owners, confirm DITL participants and dates, update the mutual action plan, and chase any unconfirmed items."
+  }
+}

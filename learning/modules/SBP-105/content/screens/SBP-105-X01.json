@@ -1,0 +1,37 @@
+{
+  "id": "SBP-105-X01",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Templates",
+  "title": "Templates for this module",
+  "nav": "Templates",
+  "body": "Copy-ready structures you can reuse in your own engagements. Examples are fictional.",
+  "cards": [
+    {
+      "tag": "A05",
+      "title": "Visioning run-of-show",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Segment, minutes, objective, facilitator, question, capture artifact, transition, fallback"
+        },
+        {
+          "label": "Fictional example",
+          "text": "5 welcome / 10 context / 20 discovery / 20 prioritization / 5 commitments (authored default)."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Timings sum to 60; scope variants retain priorities and commitments."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0246"
+  ],
+  "sources": [
+    "S02",
+    "S07"
+  ],
+  "required": true
+}

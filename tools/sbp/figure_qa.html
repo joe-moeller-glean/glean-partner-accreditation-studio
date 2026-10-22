@@ -1,0 +1,50 @@
+<!doctype html>
+<!-- Figure geometry QA. Serve learning/modules with _figlist.json (array of SVG paths) next to this page.
+     Each SVG is inlined and measured: every <text> must sit inside the viewBox, inside the nearest
+     enclosing <rect> when one contains its anchor, and must not overlap any other text. -->
+<html><head><meta charset="utf-8"><title>Figure QA</title>
+<style>body{font-family:system-ui;margin:0} .host{width:1400px}</style></head>
+<body><div id="host" class="host"></div><pre id="out">running</pre>
+<script>
+(async function () {
+  const list = await (await fetch('_figlist.json')).json();
+  const host = document.getElementById('host');
+  const results = [];
+  for (const p of list) {
+    const txt = await (await fetch(p)).text();
+    host.innerHTML = txt;
+    const svg = host.querySelector('svg');
+    const vb = svg.viewBox.baseVal;
+    svg.setAttribute('width', vb.width); svg.setAttribute('height', vb.height);
+    await document.fonts.ready;
+    const issues = [];
+    const texts = [...svg.querySelectorAll('text')];
+    // Rendered client rects (svg drawn at 1:1) so rotated labels are measured as displayed.
+    const o = svg.getBoundingClientRect();
+    const box = (el) => { const r = el.getBoundingClientRect(); return { x: r.left - o.left + vb.x, y: r.top - o.top + vb.y, width: r.width, height: r.height }; };
+    const rects = [...svg.querySelectorAll('rect')].map(box).filter((b) => b.width < vb.width - 1 || b.height < vb.height - 1);
+    const boxes = texts.map(box);
+    boxes.forEach((b, i) => {
+      const label = texts[i].textContent.slice(0, 40);
+      if (b.x < vb.x - 0.5 || b.y < vb.y - 0.5 || b.x + b.width > vb.x + vb.width + 0.5 || b.y + b.height > vb.y + vb.height + 0.5)
+        issues.push('outside viewBox: ' + label);
+      const ax = b.x + 1, ay = b.y + b.height / 2;
+      const owners = rects.filter((r) => ax >= r.x && ax <= r.x + r.width && ay >= r.y && ay <= r.y + r.height);
+      if (owners.length) {
+        const r = owners.sort((a, c) => a.width * a.height - c.width * c.height)[0];
+        if (b.x + b.width > r.x + r.width + 0.5) issues.push('overflows box: ' + label);
+      }
+      for (let j = i + 1; j < boxes.length; j++) {
+        const c = boxes[j];
+        const ox = Math.min(b.x + b.width, c.x + c.width) - Math.max(b.x, c.x);
+        const oy = Math.min(b.y + b.height, c.y + c.height) - Math.max(b.y, c.y);
+        if (ox > 1 && oy > 2) issues.push('overlap: ' + label + ' / ' + texts[j].textContent.slice(0, 40));
+      }
+    });
+    results.push({ p, w: vb.width, h: vb.height, n: texts.length, issues });
+  }
+  window.FIGQA = results;
+  const bad = results.filter((r) => r.issues.length);
+  document.getElementById('out').textContent = 'checked=' + results.length + ' failing=' + bad.length;
+})();
+</script></body></html>

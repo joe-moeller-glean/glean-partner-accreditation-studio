@@ -1,0 +1,219 @@
+{
+  "module_id": "SBP-113",
+  "assets": [
+    {
+      "asset_id": "SBP-113-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    },
+    {
+      "asset_id": "SBP-113-L01-F1-wide",
+      "path": "assets/fig/SBP-113-L01-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Leading versus open questions (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0613",
+        "C-0614",
+        "C-0615",
+        "C-0616",
+        "C-0617",
+        "C-0618"
+      ],
+      "alt": "A comparison of leading questions with open alternatives. For example, asking whether Glean agents would make the process faster becomes asking what slows the process down today."
+    },
+    {
+      "asset_id": "SBP-113-L01-F1-narrow",
+      "path": "assets/fig/SBP-113-L01-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Leading versus open questions (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0613",
+        "C-0614",
+        "C-0615",
+        "C-0616",
+        "C-0617",
+        "C-0618"
+      ],
+      "alt": "A comparison of leading questions with open alternatives. For example, asking whether Glean agents would make the process faster becomes asking what slows the process down today."
+    },
+    {
+      "asset_id": "SBP-113-L02-F1-wide",
+      "path": "assets/fig/SBP-113-L02-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Techniques for balanced participation (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0619",
+        "C-0620",
+        "C-0621",
+        "C-0622",
+        "C-0623",
+        "C-0624"
+      ],
+      "alt": "Four cards naming techniques for balanced participation: direct questions to specific roles, use silent writing before discussion, use a parking lot for off-topic items, and follow up separately with quieter participants."
+    },
+    {
+      "asset_id": "SBP-113-L02-F1-narrow",
+      "path": "assets/fig/SBP-113-L02-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Techniques for balanced participation (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0619",
+        "C-0620",
+        "C-0621",
+        "C-0622",
+        "C-0623",
+        "C-0624"
+      ],
+      "alt": "Four cards naming techniques for balanced participation: direct questions to specific roles, use silent writing before discussion, use a parking lot for off-topic items, and follow up separately with quieter participants."
+    },
+    {
+      "asset_id": "SBP-113-L03-F1-wide",
+      "path": "assets/fig/SBP-113-L03-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Handling an evidence or value objection (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0625",
+        "C-0626",
+        "C-0627",
+        "C-0628",
+        "C-0629",
+        "C-0630"
+      ],
+      "alt": "A four-step pattern for handling objections: acknowledge the concern, ask what evidence would resolve it, show the source and assumptions, and agree how it will be checked."
+    },
+    {
+      "asset_id": "SBP-113-L03-F1-narrow",
+      "path": "assets/fig/SBP-113-L03-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Handling an evidence or value objection (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0625",
+        "C-0626",
+        "C-0627",
+        "C-0628",
+        "C-0629",
+        "C-0630"
+      ],
+      "alt": "A four-step pattern for handling objections: acknowledge the concern, ask what evidence would resolve it, show the source and assumptions, and agree how it will be checked."
+    },
+    {
+      "asset_id": "SBP-113-L04-F1-wide",
+      "path": "assets/fig/SBP-113-L04-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Reframing a pilot request (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0631",
+        "C-0632",
+        "C-0633",
+        "C-0634",
+        "C-0635",
+        "C-0636"
+      ],
+      "alt": "A comparison of a broad pilot request with a focused reframe. A broad request asks to see what Glean can do, for everyone, open-ended. The reframe defines the question, a cohort, the priority workflows, success criteria, and a decision date."
+    },
+    {
+      "asset_id": "SBP-113-L04-F1-narrow",
+      "path": "assets/fig/SBP-113-L04-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Reframing a pilot request (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0631",
+        "C-0632",
+        "C-0633",
+        "C-0634",
+        "C-0635",
+        "C-0636"
+      ],
+      "alt": "A comparison of a broad pilot request with a focused reframe. A broad request asks to see what Glean can do, for everyone, open-ended. The reframe defines the question, a cohort, the priority workflows, success criteria, and a decision date."
+    },
+    {
+      "asset_id": "SBP-113-L05-F1-wide",
+      "path": "assets/fig/SBP-113-L05-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Common Blueprint pitfalls (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0637",
+        "C-0638",
+        "C-0639",
+        "C-0640",
+        "C-0641",
+        "C-0642"
+      ],
+      "alt": "Six cards naming common Blueprint pitfalls: pitching the Blueprint apologetically, Visioning without prioritization, DITL skipped before a trial, value claimed without baselines, a readout with no decision, and a pilot with no success criteria."
+    },
+    {
+      "asset_id": "SBP-113-L05-F1-narrow",
+      "path": "assets/fig/SBP-113-L05-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Common Blueprint pitfalls (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0637",
+        "C-0638",
+        "C-0639",
+        "C-0640",
+        "C-0641",
+        "C-0642"
+      ],
+      "alt": "Six cards naming common Blueprint pitfalls: pitching the Blueprint apologetically, Visioning without prioritization, DITL skipped before a trial, value claimed without baselines, a readout with no decision, and a pilot with no success criteria."
+    },
+    {
+      "asset_id": "SBP-113-L06-F1-wide",
+      "path": "assets/fig/SBP-113-L06-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Matrix diagram: Diagnosing a stalled engagement (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0643",
+        "C-0644",
+        "C-0645",
+        "C-0646",
+        "C-0647",
+        "C-0648"
+      ],
+      "alt": "A two-by-two grid of the four causes of a stall: urgency, the sponsor, the next step, and the evidence. Each quadrant names the recovery action."
+    },
+    {
+      "asset_id": "SBP-113-L06-F1-narrow",
+      "path": "assets/fig/SBP-113-L06-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Matrix diagram: Diagnosing a stalled engagement (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0643",
+        "C-0644",
+        "C-0645",
+        "C-0646",
+        "C-0647",
+        "C-0648"
+      ],
+      "alt": "A two-by-two grid of the four causes of a stall: urgency, the sponsor, the next step, and the evidence. Each quadrant names the recovery action."
+    }
+  ]
+}

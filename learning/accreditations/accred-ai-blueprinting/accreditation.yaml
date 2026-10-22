@@ -1,0 +1,44 @@
+# Accreditation definition. Modules live in learning/modules/<id>/ and are referenced, not nested.
+id: accred-ai-blueprinting
+name: AI Blueprinting & Value Mapping
+source: composed
+status: built
+audience: [Partner sellers, Partner solution consultants and SEs, Practice leads, Glean field collaborators]
+required_modules:
+  - SBP-101
+  - SBP-102
+  - SBP-103
+  - SBP-104
+  - SBP-105
+  - SBP-106
+  - SBP-107
+  - SBP-108
+  - SBP-109
+  - SBP-110
+  - SBP-111
+  - SBP-112
+  - SBP-113
+  - SBP-200
+  - SBP-FINAL
+electives: []
+completion:
+  assessment_module: SBP-FINAL
+  assessment_type: "13 module quizzes (5 of 8 items, 80%), final exam (44 items, 80%), SBP-200 preparation, and a human-scored practical"
+  mastery_score: 80
+  practical:
+    module: SBP-200
+    pass_rule: "At least 80/100 on the nine-dimension rubric and all five critical gates passed; scored by a qualified human assessor"
+  hard_gates:
+    - G01_no_fabricated_customer_facts_results_or_sources
+    - G02_safe_data_and_access_handling
+    - G03_no_unauthorized_deployment_or_commercial_commitment
+    - G04_complete_core_evidence
+    - G05_material_financial_and_technical_integrity
+  note: "Proposed award rule (workbook B23); owner approval required (O02). A passed SCO alone never completes the accreditation. No certificate is issued by client code."
+overview_module: null
+publish_mode: manual_review
+release_state: restricted_preview
+estimated_hours: 12.8  # workbook estimate: 765 minutes incl. quizzes, capstone lessons, and final
+origin: "Added 2026-10-21. Composed from the Sales Blueprinting Accreditation Build Plan workbook (SBP-101 to SBP-113, SBP-200, SBP-FINAL). Working title 'AI Blueprinting & Value Mapping'; the workbook's proposed credential name AI Sales Blueprinting Specialist (AISBS) is not approved (O01)."
+competency_alignment: "AI Strategy & Use Case Discovery (201) - semantic alignment only, not an approved equivalency (O12)"
+source_url: "https://docs.google.com/spreadsheets/d/1FNFUQAzKl1BgMlyMgR8zygEvmLtnf7V5s-bhaL-3-48"

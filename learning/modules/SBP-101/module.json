@@ -1,0 +1,19 @@
+{
+  "module_id": "SBP-101",
+  "title": "Blueprint Fundamentals",
+  "version": "1.0.0",
+  "launch": "index.html",
+  "mastery_score": 80,
+  "scorm_version": "1.2",
+  "design_system": "paged-v1",
+  "accreditation_id": "accred-ai-blueprinting",
+  "also_counts_toward": [],
+  "level": "Practitioner (proposed)",
+  "target_hours": 0.75,
+  "kind": "module",
+  "assessment_type": "Module quiz: 5 of 8 items, 80%",
+  "release_state": "restricted_preview",
+  "review_status": "In review",
+  "partner_clearance": "Pending partner clearance",
+  "sme_signoff": "Not signed"
+}

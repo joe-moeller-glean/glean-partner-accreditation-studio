@@ -1,0 +1,138 @@
+{
+  "id": "SBP-107-L06",
+  "lesson": "SBP-107-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Turn DITL into executive-ready evidence",
+  "nav": "6. Turn DITL into executive-ready evidence",
+  "objective": "Write a six-line DITL summary for the support case.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Executives don't need every click. They need the business consequence, the evidence behind it, and what is still uncertain."
+    },
+    {
+      "t": "h3",
+      "x": "The DITL summary"
+    },
+    {
+      "t": "p",
+      "x": "For each prioritized workflow, summarize:"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "**Business outcome:** what improves, and for whom.",
+        "**Current pain:** the friction and its cost of inaction.",
+        "**Future change:** what is different, and what stays the same.",
+        "**Value inputs:** population, frequency, and time or delay, each with units.",
+        "**Evidence strength:** observed, estimated, or assumed.",
+        "**Metric plan and open dependencies:** how it will be measured, and what must be resolved."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Link the detailed map so the SE, the value reviewer, and the customer owner can check it."
+    },
+    {
+      "t": "h3",
+      "x": "Don't hide disagreement"
+    },
+    {
+      "t": "p",
+      "x": "If two interviews report very different task times, investigate. Different personas, case types, or tools may explain the gap. Present a supported range or separate models per persona rather than a falsely precise average. Record who approved the interpretation."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "AI tools can draft DITL maps from transcripts, but any step duration they produce is unverified until the customer confirms it. Mark generated timings as unverified, and get customer evidence before modeling."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Six lines carry a DITL into the executive readout. Each line should be traceable to an interview or a metric card."
+    },
+    {
+      "t": "figure",
+      "kind": "stack",
+      "title": "The six-line DITL summary",
+      "alt": "Six stacked lines of a DITL summary: the business outcome, the current pain, the future change, the value inputs, the evidence strength, and the metric plan with open dependencies.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Business outcome",
+          "detail": "What the business wants to improve",
+          "emph": false
+        },
+        {
+          "label": "Current pain",
+          "detail": "What happens today, and what it costs",
+          "emph": false
+        },
+        {
+          "label": "Future change",
+          "detail": "The steps that would change",
+          "emph": false
+        },
+        {
+          "label": "Value inputs",
+          "detail": "Volumes, times, and owners",
+          "emph": false
+        },
+        {
+          "label": "Evidence strength",
+          "detail": "Measured, estimated, or assumed",
+          "emph": false
+        },
+        {
+          "label": "Metric plan and dependencies",
+          "detail": "How it will be proven",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Write a six-line DITL summary for the support case-answer workflow."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ol",
+      "items": [
+        "**Outcome:** higher support throughput without lower resolution quality.",
+        "**Current:** guidance is fragmented across the wiki, tickets, and chat, causing repeat searches and peer interruptions.",
+        "**Future:** grounded retrieval and drafting, with agent review and escalation for exceptions.",
+        "**Inputs:** about 40 agents and about 20 cases per agent per day (estimated); active search time per case is being measured.",
+        "**Evidence:** interview estimates from three agents. The baseline is not yet measured.",
+        "**Next:** validate the baseline with the ticketing export and confirm content access with the knowledge-base owner, by named dates."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 344,
+  "eyebrow": "Lesson 6 · about 6 min",
+  "claims": [
+    "C-0343",
+    "C-0344",
+    "C-0345",
+    "C-0346",
+    "C-0347",
+    "C-0348"
+  ],
+  "sources": [
+    "S02",
+    "S13",
+    "S14",
+    "S22"
+  ]
+}

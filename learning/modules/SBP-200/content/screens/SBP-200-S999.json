@@ -1,0 +1,34 @@
+{
+  "id": "SBP-200-S999",
+  "claims": [
+    "C-0698"
+  ],
+  "sources": [
+    "S02",
+    "S04",
+    "S13",
+    "S14",
+    "S54"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending policy confirmation",
+  "lesson": "check",
+  "eyebrow": "Capstone readiness",
+  "title": "Before you submit the practical",
+  "nav": "Capstone readiness",
+  "body": "Review your artifacts and proceed to the required assessment or capstone submission.",
+  "wrap": "Submit the fictional capstone pack. SCORM may record submission readiness, but a qualified human assessor must record the practical result before credential award.",
+  "type": "formative",
+  "items": [
+    "SBP-200-Q001",
+    "SBP-200-Q002",
+    "SBP-200-Q003",
+    "SBP-200-Q004",
+    "SBP-200-Q005",
+    "SBP-200-Q006",
+    "SBP-200-Q007",
+    "SBP-200-Q008"
+  ],
+  "footnote": "Finishing this module records preparation as completed. It never records a pass. The accreditation needs every module quiz, the final exam, and a human-scored practical of at least 80/100 with all five critical gates passed."
+}

@@ -1,0 +1,85 @@
+{
+  "module_id": "SBP-105",
+  "module_objectives": [
+    "Plan a Visioning agenda with timed segments.",
+    "Facilitate a consultative, outcome-led conversation.",
+    "Capture a broad use case list and agree 3-5 priorities.",
+    "Deliver the recap and next steps within 24 hours."
+  ],
+  "objective_map": [
+    {
+      "lesson_id": "SBP-105-L01",
+      "objective": "Given the supplied customer-neutral scenario and sources, select the approach for a customer with ten candidate workflows and for one with none. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-105-L01"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-105-Q001"
+      ]
+    },
+    {
+      "lesson_id": "SBP-105-L02",
+      "objective": "Given the supplied customer-neutral scenario and sources, adapt the agenda to a 45-minute slot without dropping commitments. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-105-L02"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-105-Q002"
+      ]
+    },
+    {
+      "lesson_id": "SBP-105-L03",
+      "objective": "Given the supplied customer-neutral scenario and sources, rewrite a product-led question into an outcome-led question. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-105-L03"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-105-Q003"
+      ]
+    },
+    {
+      "lesson_id": "SBP-105-L04",
+      "objective": "Given the supplied customer-neutral scenario and sources, turn three vague wishes into rows: better onboarding, faster sales, smarter support. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-105-L04"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-105-Q004"
+      ]
+    },
+    {
+      "lesson_id": "SBP-105-L05",
+      "objective": "Given the supplied customer-neutral scenario and sources, close a prioritization discussion with six high-impact candidates and capacity for three. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-105-L05"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-105-Q005"
+      ]
+    },
+    {
+      "lesson_id": "SBP-105-L06",
+      "objective": "Given the supplied customer-neutral scenario and sources, review a recap that says only 'great meeting, deck attached'. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-105-L06"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-105-Q006",
+        "SBP-105-Q007",
+        "SBP-105-Q008"
+      ]
+    }
+  ]
+}

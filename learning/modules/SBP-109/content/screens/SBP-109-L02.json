@@ -1,0 +1,126 @@
+{
+  "id": "SBP-109-L02",
+  "lesson": "SBP-109-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Audience, sponsor and decision authority",
+  "nav": "2. Audience, sponsor and decision authority",
+  "objective": "What do you do if only the champion attends the planned executive readout?.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The right audience turns a presentation into a decision. Confirm who will be in the room and what each person can decide."
+    },
+    {
+      "t": "h3",
+      "x": "Who should attend"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**The executive sponsor:** confirms priority, investment support, and next-step authority.",
+        "**The champion:** explains the work and adds customer credibility.",
+        "**The technical champion:** validates dependencies and the evaluation plan.",
+        "**Key participants from DITL:** department heads and front-line employees who can speak to the workflows firsthand.",
+        "**The AE and SE owners**, plus a Glean sales leader if necessary."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Sponsorship is not signature authority"
+    },
+    {
+      "t": "p",
+      "x": "Don't assume an enthusiastic end user, or even a champion, is the economic buyer. Confirm the actual decision process. Separate three things:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Sponsorship:** support for the initiative and its resources.",
+        "**Budget authority:** the economic buyer.",
+        "**Signature and procurement authority:** the paper process."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "These may be different people, so record each one."
+    },
+    {
+      "t": "h3",
+      "x": "When the executive doesn't come"
+    },
+    {
+      "t": "p",
+      "x": "If only the champion attends, use the meeting to prepare and refine the case, and then secure the sponsor's decision in a separate meeting. Don't log executive alignment as confirmed when it didn't happen."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Sponsorship, budget authority, and signature authority often sit with different people. Name each one."
+    },
+    {
+      "t": "figure",
+      "kind": "stack",
+      "title": "Three kinds of authority",
+      "alt": "Three stacked kinds of authority that often sit with different people: sponsorship, which backs the priority; budget authority, which funds it; and signature and procurement authority, which commits the organization.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Sponsorship",
+          "detail": "Backs the priority above the champion",
+          "emph": false
+        },
+        {
+          "label": "Budget authority",
+          "detail": "Holds or can shift the budget",
+          "emph": false
+        },
+        {
+          "label": "Signature and procurement",
+          "detail": "Commits the organization",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Your planned executive readout is attended only by the champion. What do you do?"
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Use the time well. Walk the champion through the case, test the assumptions, and ask what the sponsor will challenge. Agree how the champion will help secure a 30-minute decision meeting with the sponsor this week or next."
+    },
+    {
+      "t": "p",
+      "x": "Record the session as \"preparation with the champion,\" not \"executive alignment,\" and update the mutual action plan with the new decision date."
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 288,
+  "eyebrow": "Lesson 2 · about 5 min",
+  "claims": [
+    "C-0420",
+    "C-0421",
+    "C-0422",
+    "C-0423",
+    "C-0424",
+    "C-0425",
+    "C-0426"
+  ],
+  "sources": [
+    "S02",
+    "S14",
+    "S21"
+  ]
+}

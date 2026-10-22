@@ -1,0 +1,32 @@
+module_id: SBP-200
+title: "Capstone: Blueprint Simulation"
+design_system: paged-v1
+learning_path: "AI Blueprinting & Value Mapping"
+request_type: batch
+audience: ["Partner sellers", "Partner solution consultants and SEs", "Practice leads", "Glean field collaborators"]
+level: "Specialist (proposed)"
+learning_outcomes:
+  - "Execute every Blueprint step on a realistic scenario."
+  - "Produce the full deliverable set."
+  - "Defend value assumptions and the validation path in a live or recorded readout."
+  - "Meet the rubric threshold for the Specialist tier."
+lesson_objectives:
+  SBP-200-L01: "Given the supplied customer-neutral scenario and sources, annotate the Scenario Data sheet as fact, estimate or unknown. Successful output matches the worked response and states remaining uncertainty."
+  SBP-200-L02: "Given the supplied customer-neutral scenario and sources, produce the preparation pack, use case log, matrix and a 5-minute facilitation recording or live segment. Successful output matches the worked response and states remaining uncertainty."
+  SBP-200-L03: "Given the supplied customer-neutral scenario and sources, submit two current/future map pairs and one playback correction log. Successful output matches the worked response and states remaining uncertainty."
+  SBP-200-L04: "Given the supplied customer-neutral scenario and sources, submit the model, assumption log, metric cards and a short sensitivity explanation. Successful output matches the worked response and states remaining uncertainty."
+  SBP-200-L05: "Given the supplied customer-neutral scenario and sources, submit an 8\u201310-minute live/recorded readout, recommendation, MAP and recap. Successful output matches the worked response and states remaining uncertainty."
+  SBP-200-L06: "Given the supplied customer-neutral scenario and sources, complete the submission manifest and explain one corrected weakness. Successful output matches the worked response and states remaining uncertainty."
+prerequisites: "SBP-101 to SBP-113"
+roadmap_alignment: "ACC-102; competency 'AI Strategy & Use Case Discovery' (201)"  # semantic alignment only (O12)
+target_hours: 2.0
+mastery_score: 80
+accreditation: accred-ai-blueprinting
+authoring_contract: "https://docs.google.com/spreadsheets/d/1FNFUQAzKl1BgMlyMgR8zygEvmLtnf7V5s-bhaL-3-48"
+authoring_snapshot: plan/sales-blueprinting/workbook/
+review_status: "In review"
+partner_clearance: "Pending partner clearance"
+sme_signoff: "Not signed"
+sme: unassigned - needs_sme (Blueprint SME, BVC / value engineering)
+publish_mode: manual_review
+release_state: restricted_preview

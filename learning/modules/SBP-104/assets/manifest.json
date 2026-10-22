@@ -1,0 +1,227 @@
+{
+  "module_id": "SBP-104",
+  "assets": [
+    {
+      "asset_id": "SBP-104-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    },
+    {
+      "asset_id": "SBP-104-L01-F1-wide",
+      "path": "assets/fig/SBP-104-L01-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Label every fact by its origin (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0151",
+        "C-0152",
+        "C-0153",
+        "C-0154",
+        "C-0155",
+        "C-0156",
+        "C-0157"
+      ],
+      "alt": "Four cards for the four kinds of account evidence: customer statements, which are the strongest; public research, which needs a date; internal hypotheses, which must be validated; and unknowns, which become open questions with owners."
+    },
+    {
+      "asset_id": "SBP-104-L01-F1-narrow",
+      "path": "assets/fig/SBP-104-L01-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Label every fact by its origin (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0151",
+        "C-0152",
+        "C-0153",
+        "C-0154",
+        "C-0155",
+        "C-0156",
+        "C-0157"
+      ],
+      "alt": "Four cards for the four kinds of account evidence: customer statements, which are the strongest; public research, which needs a date; internal hypotheses, which must be validated; and unknowns, which become open questions with owners."
+    },
+    {
+      "asset_id": "SBP-104-L02-F1-wide",
+      "path": "assets/fig/SBP-104-L02-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: The three whys (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0158",
+        "C-0159",
+        "C-0160",
+        "C-0161",
+        "C-0162",
+        "C-0163",
+        "C-0164"
+      ],
+      "alt": "A three-step sequence: why change, which names the business problem and its cost; why now, which names the trigger and deadline; and why Glean, which names the differentiators that matter for this problem."
+    },
+    {
+      "asset_id": "SBP-104-L02-F1-narrow",
+      "path": "assets/fig/SBP-104-L02-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: The three whys (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0158",
+        "C-0159",
+        "C-0160",
+        "C-0161",
+        "C-0162",
+        "C-0163",
+        "C-0164"
+      ],
+      "alt": "A three-step sequence: why change, which names the business problem and its cost; why now, which names the trigger and deadline; and why Glean, which names the differentiators that matter for this problem."
+    },
+    {
+      "asset_id": "SBP-104-L03-F1-wide",
+      "path": "assets/fig/SBP-104-L03-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: A balanced metric set (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0165",
+        "C-0166",
+        "C-0167",
+        "C-0168",
+        "C-0169",
+        "C-0170"
+      ],
+      "alt": "Four stacked metrics for a fictional support team: mean handle time for efficiency, first-contact resolution as a quality guardrail, escalation rate for quality and cost, and cost per resolved case for the financial view."
+    },
+    {
+      "asset_id": "SBP-104-L03-F1-narrow",
+      "path": "assets/fig/SBP-104-L03-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: A balanced metric set (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0165",
+        "C-0166",
+        "C-0167",
+        "C-0168",
+        "C-0169",
+        "C-0170"
+      ],
+      "alt": "Four stacked metrics for a fictional support team: mean handle time for efficiency, first-contact resolution as a quality guardrail, escalation rate for quality and cost, and cost per resolved case for the financial view."
+    },
+    {
+      "asset_id": "SBP-104-L04-F1-wide",
+      "path": "assets/fig/SBP-104-L04-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Go, narrow, or reschedule (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0171",
+        "C-0172",
+        "C-0173",
+        "C-0174",
+        "C-0175",
+        "C-0176",
+        "C-0177"
+      ],
+      "alt": "A comparison of the three readiness decisions with when each applies: go when the sponsor, priorities, and attendees are confirmed; narrow when only part of the scope is ready; reschedule when the decision-makers or business owners can't attend."
+    },
+    {
+      "asset_id": "SBP-104-L04-F1-narrow",
+      "path": "assets/fig/SBP-104-L04-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Go, narrow, or reschedule (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0171",
+        "C-0172",
+        "C-0173",
+        "C-0174",
+        "C-0175",
+        "C-0176",
+        "C-0177"
+      ],
+      "alt": "A comparison of the three readiness decisions with when each applies: go when the sponsor, priorities, and attendees are confirmed; narrow when only part of the scope is ready; reschedule when the decision-makers or business owners can't attend."
+    },
+    {
+      "asset_id": "SBP-104-L05-F1-wide",
+      "path": "assets/fig/SBP-104-L05-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: A 60-minute Visioning agenda (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0178",
+        "C-0179",
+        "C-0180",
+        "C-0181",
+        "C-0182",
+        "C-0183",
+        "C-0184"
+      ],
+      "alt": "A five-part agenda: welcome and purpose for 5 minutes, context and outcomes for 10, opportunity discovery for 20, prioritization for 20, and commitments for 5."
+    },
+    {
+      "asset_id": "SBP-104-L05-F1-narrow",
+      "path": "assets/fig/SBP-104-L05-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: A 60-minute Visioning agenda (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0178",
+        "C-0179",
+        "C-0180",
+        "C-0181",
+        "C-0182",
+        "C-0183",
+        "C-0184"
+      ],
+      "alt": "A five-part agenda: welcome and purpose for 5 minutes, context and outcomes for 10, opportunity discovery for 20, prioritization for 20, and commitments for 5."
+    },
+    {
+      "asset_id": "SBP-104-L06-F1-wide",
+      "path": "assets/fig/SBP-104-L06-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Rehearse three moments (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0185",
+        "C-0186",
+        "C-0187",
+        "C-0188",
+        "C-0189",
+        "C-0190"
+      ],
+      "alt": "Three moments to rehearse before Visioning: the opening, which states purpose and the decision; one diagnostic question, asked about a real recent example; and the transition to prioritization, which moves from ideas to choices."
+    },
+    {
+      "asset_id": "SBP-104-L06-F1-narrow",
+      "path": "assets/fig/SBP-104-L06-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Rehearse three moments (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0185",
+        "C-0186",
+        "C-0187",
+        "C-0188",
+        "C-0189",
+        "C-0190"
+      ],
+      "alt": "Three moments to rehearse before Visioning: the opening, which states purpose and the decision; one diagnostic question, asked about a real recent example; and the transition to prioritization, which moves from ideas to choices."
+    }
+  ]
+}

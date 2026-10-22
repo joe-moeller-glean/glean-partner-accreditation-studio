@@ -1,0 +1,42 @@
+{
+  "id": "SBP-105-X02",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · AI prompts",
+  "title": "AI-assisted preparation prompts",
+  "nav": "AI prompts",
+  "body": "Tool-agnostic prompts. AI drafts; a named human reviews facts, sharing, and capability claims before anything is used or sent.",
+  "cards": [
+    {
+      "tag": "P03",
+      "title": "Visioning plan and discovery questions",
+      "lines": [
+        {
+          "label": "Authorized inputs",
+          "text": "Reviewed hypothesis, pre-work, stakeholder roles and session duration."
+        },
+        {
+          "label": "Prompt",
+          "text": "Produce an outcome-led run-of-show with exact segment minutes, open diagnostic questions, note-taking roles and capture fields. Use existing customer use cases if supplied; otherwise provide clearly labeled thought starters. Preserve prioritization, owner decisions and next steps. List prerequisites that block the session."
+        },
+        {
+          "label": "Required output",
+          "text": "Agenda; questions; capture template; readiness exceptions."
+        },
+        {
+          "label": "Human review",
+          "text": "Facilitator reviews timing, non-leading wording and accessibility."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0247"
+  ],
+  "sources": [
+    "S05",
+    "S07",
+    "S08"
+  ],
+  "required": true
+}

@@ -1,0 +1,219 @@
+{
+  "module_id": "SBP-112",
+  "assets": [
+    {
+      "asset_id": "SBP-112-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    },
+    {
+      "asset_id": "SBP-112-L01-F1-wide",
+      "path": "assets/fig/SBP-112-L01-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: What AI drafts, what people own (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0566",
+        "C-0567",
+        "C-0568",
+        "C-0569",
+        "C-0570",
+        "C-0571"
+      ],
+      "alt": "A comparison of Blueprint tasks AI can help draft, such as account research summaries, interview notes, and first-draft workflow maps, with what people must own: verified facts, value judgments, and customer commitments."
+    },
+    {
+      "asset_id": "SBP-112-L01-F1-narrow",
+      "path": "assets/fig/SBP-112-L01-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: What AI drafts, what people own (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0566",
+        "C-0567",
+        "C-0568",
+        "C-0569",
+        "C-0570",
+        "C-0571"
+      ],
+      "alt": "A comparison of Blueprint tasks AI can help draft, such as account research summaries, interview notes, and first-draft workflow maps, with what people must own: verified facts, value judgments, and customer commitments."
+    },
+    {
+      "asset_id": "SBP-112-L02-F1-wide",
+      "path": "assets/fig/SBP-112-L02-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: The parts of a grounded prompt (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0572",
+        "C-0573",
+        "C-0574",
+        "C-0575",
+        "C-0576",
+        "C-0577"
+      ],
+      "alt": "Seven stacked parts of a grounded prompt: the task, authorized inputs, known facts and unknowns, the output structure, guardrails, citations, and separating facts from estimates."
+    },
+    {
+      "asset_id": "SBP-112-L02-F1-narrow",
+      "path": "assets/fig/SBP-112-L02-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: The parts of a grounded prompt (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0572",
+        "C-0573",
+        "C-0574",
+        "C-0575",
+        "C-0576",
+        "C-0577"
+      ],
+      "alt": "Seven stacked parts of a grounded prompt: the task, authorized inputs, known facts and unknowns, the output structure, guardrails, citations, and separating facts from estimates."
+    },
+    {
+      "asset_id": "SBP-112-L03-F1-wide",
+      "path": "assets/fig/SBP-112-L03-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Copied outcome versus grounded hypothesis (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0578",
+        "C-0579",
+        "C-0580",
+        "C-0581",
+        "C-0582",
+        "C-0583"
+      ],
+      "alt": "A comparison of a copied outcome, which reuses a peer's result as a promise, with a grounded hypothesis, which uses the customer's own volumes and times, states assumptions, and labels evidence."
+    },
+    {
+      "asset_id": "SBP-112-L03-F1-narrow",
+      "path": "assets/fig/SBP-112-L03-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Copied outcome versus grounded hypothesis (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0578",
+        "C-0579",
+        "C-0580",
+        "C-0581",
+        "C-0582",
+        "C-0583"
+      ],
+      "alt": "A comparison of a copied outcome, which reuses a peer's result as a promise, with a grounded hypothesis, which uses the customer's own volumes and times, states assumptions, and labels evidence."
+    },
+    {
+      "asset_id": "SBP-112-L04-F1-wide",
+      "path": "assets/fig/SBP-112-L04-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: AI-assisted DITL drafting (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0584",
+        "C-0585",
+        "C-0586",
+        "C-0587",
+        "C-0588",
+        "C-0589"
+      ],
+      "alt": "A four-step pattern: provide the department and current steps from the interview, ask AI for a step-by-step future-state draft, have the SE verify each capability, and have the workflow owner confirm the sequence and timings."
+    },
+    {
+      "asset_id": "SBP-112-L04-F1-narrow",
+      "path": "assets/fig/SBP-112-L04-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: AI-assisted DITL drafting (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0584",
+        "C-0585",
+        "C-0586",
+        "C-0587",
+        "C-0588",
+        "C-0589"
+      ],
+      "alt": "A four-step pattern: provide the department and current steps from the interview, ask AI for a step-by-step future-state draft, have the SE verify each capability, and have the workflow owner confirm the sequence and timings."
+    },
+    {
+      "asset_id": "SBP-112-L05-F1-wide",
+      "path": "assets/fig/SBP-112-L05-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Review checks for AI output (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0590",
+        "C-0591",
+        "C-0592",
+        "C-0593",
+        "C-0594",
+        "C-0595"
+      ],
+      "alt": "Eight cards listing review checks for AI-assisted output: factual support, freshness, permissions, confidentiality, technical feasibility, arithmetic and units, bias and framing, and claims clearance."
+    },
+    {
+      "asset_id": "SBP-112-L05-F1-narrow",
+      "path": "assets/fig/SBP-112-L05-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Review checks for AI output (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0590",
+        "C-0591",
+        "C-0592",
+        "C-0593",
+        "C-0594",
+        "C-0595"
+      ],
+      "alt": "Eight cards listing review checks for AI-assisted output: factual support, freshness, permissions, confidentiality, technical feasibility, arithmetic and units, bias and framing, and claims clearance."
+    },
+    {
+      "asset_id": "SBP-112-L06-F1-wide",
+      "path": "assets/fig/SBP-112-L06-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cycle diagram: A reusable, human-reviewed workflow (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0596",
+        "C-0597",
+        "C-0598",
+        "C-0599",
+        "C-0600",
+        "C-0601"
+      ],
+      "alt": "A seven-step loop: collect authorized inputs, extract facts, draft, list gaps, check, route reviews, and log decisions, then repeat for the next account."
+    },
+    {
+      "asset_id": "SBP-112-L06-F1-narrow",
+      "path": "assets/fig/SBP-112-L06-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cycle diagram: A reusable, human-reviewed workflow (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0596",
+        "C-0597",
+        "C-0598",
+        "C-0599",
+        "C-0600",
+        "C-0601"
+      ],
+      "alt": "A seven-step loop: collect authorized inputs, extract facts, draft, list gaps, check, route reviews, and log decisions, then repeat for the next account."
+    }
+  ]
+}

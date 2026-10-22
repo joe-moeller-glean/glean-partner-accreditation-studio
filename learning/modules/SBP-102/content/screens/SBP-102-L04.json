@@ -1,0 +1,180 @@
+{
+  "id": "SBP-102-L04",
+  "lesson": "SBP-102-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "MEDDPICCS evidence from Blueprint",
+  "nav": "4. MEDDPICCS evidence from Blueprint",
+  "objective": "Map a named KPI owner, a sponsor meeting and a procurement checkpoint to qualification evidence.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Glean account teams qualify opportunities with MEDDPICCS. Blueprint work produces evidence for most of its elements. It supports the account team's judgment; it does not replace it."
+    },
+    {
+      "t": "h3",
+      "x": "The elements and where Blueprint evidence comes from"
+    },
+    {
+      "t": "table",
+      "caption": "MEDDPICCS and Blueprint evidence",
+      "head": [
+        "Element",
+        "What it means",
+        "Blueprint evidence"
+      ],
+      "rows": [
+        [
+          "Metrics",
+          "Quantifiable measures of success for the solution and the business",
+          "Metric cards from DITL: definition, baseline plan, target, data source, owner"
+        ],
+        [
+          "Economic Buyer",
+          "The person with authority to approve the purchase and control the budget",
+          "Executive Validation attendance and commitments"
+        ],
+        [
+          "Decision Criteria",
+          "What the decision will be based on: technical, economic, and relationship factors",
+          "Required capabilities and success criteria agreed with the sponsor"
+        ],
+        [
+          "Decision Process",
+          "How the decision will be made: steps, approvers, timeline",
+          "Mutual action plan milestones and named approvers"
+        ],
+        [
+          "Paper Process",
+          "The formal path to signed contracts",
+          "Procurement and legal checkpoints in the MAP"
+        ],
+        [
+          "Implicate Pain",
+          "The problem, its business impact, and the cost of inaction",
+          "Current-state DITL maps and the problem in the customer's words"
+        ],
+        [
+          "Champion",
+          "An insider who sells for you when you're not in the room",
+          "Who convened the sessions and secured access"
+        ],
+        [
+          "Competition",
+          "Alternatives, including doing nothing or building in-house",
+          "Tools and workarounds observed during DITL"
+        ],
+        [
+          "Success Plan",
+          "How the outcome will be delivered and measured after the decision",
+          "The validation plan linked to implementation and measurement"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Three kinds of metrics"
+    },
+    {
+      "t": "p",
+      "x": "Glean's MEDDPICCS material separates metrics into three kinds. **M1** metrics are outcomes delivered for existing customers. **M2** metrics are personalized to this customer. **M3** metrics are M2s validated after go-live. Blueprint work mostly produces M2s. Never present an M1 from another customer as this customer's expected result."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "A filled field is not proof. Label unconfirmed information, link the supporting notes or customer artifacts, and never invent an economic buyer or a buying deadline."
+    },
+    {
+      "t": "h3",
+      "x": "Why the champion test matters"
+    },
+    {
+      "t": "p",
+      "x": "Glean's value-selling training makes a blunt point: assume Glean is not a budgeted initiative. Funding usually depends on a real champion, someone with political capital, carrying a clear value story into rooms you're not in. The story has to justify spending that \"wasn't in the plan.\" The self-check the training recommends is whether you've given the champion a story strong enough to sell internally without you."
+    },
+    {
+      "t": "p",
+      "x": "Blueprint evidence gives the champion that story: the customer's own priorities, workflows, and numbers."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Where Blueprint evidence feeds qualification",
+      "alt": "Six cards linking Blueprint evidence to qualification elements: metrics from DITL and metric cards, the economic buyer from Executive Validation, decision criteria from success criteria, implicate pain from the cost of inaction, the champion from who carries the story, and the success plan from the handoff.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Metrics",
+          "detail": "Metric cards and DITL baselines",
+          "emph": false
+        },
+        {
+          "label": "Economic Buyer",
+          "detail": "Confirmed in Executive Validation",
+          "emph": false
+        },
+        {
+          "label": "Decision Criteria",
+          "detail": "Agreed success criteria",
+          "emph": false
+        },
+        {
+          "label": "Implicate Pain",
+          "detail": "The cost of inaction from DITL",
+          "emph": false
+        },
+        {
+          "label": "Champion",
+          "detail": "Carries the value story internally",
+          "emph": true
+        },
+        {
+          "label": "Success Plan",
+          "detail": "The handoff and measurement plan",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Map three facts to MEDDPICCS elements: the support operations director owns handle time and has a baseline report; the CFO attended the executive readout; procurement needs a security questionnaire before signature."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Director with handle-time baseline:** supports Metrics. It may also indicate a Champion, but that needs confirming.",
+        "**CFO at the readout:** supports Economic Buyer, if the CFO controls the budget, and the Decision Process.",
+        "**Security questionnaire before signature:** supports Paper Process and Decision Process, and becomes a MAP milestone with an owner."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Each needs linked evidence, and each stays labeled \"unconfirmed\" until the customer confirms it."
+    }
+  ],
+  "minutes": 7,
+  "expanded": true,
+  "words": 524,
+  "eyebrow": "Lesson 4 · about 7 min",
+  "claims": [
+    "C-0073",
+    "C-0074",
+    "C-0075",
+    "C-0076",
+    "C-0077",
+    "C-0078"
+  ],
+  "sources": [
+    "S12",
+    "S17",
+    "S46",
+    "S65"
+  ]
+}

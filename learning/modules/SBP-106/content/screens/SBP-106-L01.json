@@ -1,0 +1,149 @@
+{
+  "id": "SBP-106-L01",
+  "lesson": "SBP-106-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Use the discovery chain",
+  "nav": "1. Use the discovery chain",
+  "objective": "Reorder: connectors, outcome, metrics, agent idea and workflow.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Discovery runs in one direction: from what the business needs to how you would measure it. Starting from a solution, such as \"let's build an agent,\" skips the facts that decide whether it will work."
+    },
+    {
+      "t": "h3",
+      "x": "The chain"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "**Business outcome:** what changes for the business, and who owns that result.",
+        "**Use case:** the actor and the job they need to do.",
+        "**Workflow:** how the job is done today, with its steps, handoffs, and systems.",
+        "**Data:** the information the job needs, where it lives, and who can access it.",
+        "**Success metrics:** the evidence that the outcome improved."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "A worked chain (fictional support team)"
+    },
+    {
+      "t": "table",
+      "caption": "Discovery chain for faster case resolution",
+      "head": [
+        "Link",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Outcome",
+          "Higher support throughput without lower quality"
+        ],
+        [
+          "Use case",
+          "A support agent finds the approved answer for a case"
+        ],
+        [
+          "Workflow",
+          "Review case → search sources → check with a peer → draft → respond"
+        ],
+        [
+          "Data",
+          "Case context, knowledge base articles, past resolutions"
+        ],
+        [
+          "Metric",
+          "Handle time, paired with resolution quality checks"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Why order matters"
+    },
+    {
+      "t": "p",
+      "x": "If you start with a complex agent design, you lock in assumptions before you know the data or the workflow. Following the chain exposes missing facts and dependencies, such as an unowned knowledge base or a permission model nobody has checked, while the design can still change. An agent idea is one possible implementation. It is never the starting requirement."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Work the chain from the top. Starting at connectors or agent ideas produces technology in search of a problem."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "The discovery chain",
+      "alt": "A five-link chain worked from top to bottom: business outcome, use case, workflow, data, and success metrics. Each link is discovered in that order.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Business outcome",
+          "detail": "Higher support throughput, same quality",
+          "emph": false
+        },
+        {
+          "label": "Use case",
+          "detail": "An agent finds the approved answer",
+          "emph": false
+        },
+        {
+          "label": "Workflow",
+          "detail": "Review, search, check with a peer, draft",
+          "emph": false
+        },
+        {
+          "label": "Data",
+          "detail": "Case context, articles, past resolutions",
+          "emph": false
+        },
+        {
+          "label": "Success metrics",
+          "detail": "Handle time, with quality checks",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Put these in discovery order: connectors, outcome, metrics, agent idea, workflow. Explain where the agent idea belongs."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Outcome → a specific use case → workflow evidence → data and connector feasibility → metrics."
+    },
+    {
+      "t": "p",
+      "x": "The agent idea comes last, as a possible implementation once you understand the work and the data. It is not the starting requirement, and it might not be the right answer at all."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 343,
+  "eyebrow": "Lesson 1 · about 6 min",
+  "claims": [
+    "C-0257",
+    "C-0258",
+    "C-0259",
+    "C-0260",
+    "C-0261",
+    "C-0262",
+    "C-0263"
+  ],
+  "sources": [
+    "S05",
+    "S13"
+  ]
+}

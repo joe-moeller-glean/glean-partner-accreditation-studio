@@ -1,0 +1,157 @@
+{
+  "id": "SBP-104-L03",
+  "lesson": "SBP-104-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "PBOs and metric hypotheses",
+  "nav": "3. PBOs and metric hypotheses",
+  "objective": "Write one complete metric hypothesis using What/How/Why.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Positive Business Outcomes (PBOs) translate strategy into results a business owner would recognize. Metrics make them measurable. In preparation, both are hypotheses."
+    },
+    {
+      "t": "h3",
+      "x": "From priority to outcome to metric"
+    },
+    {
+      "t": "p",
+      "x": "For each relevant line of business, draft one or two PBOs and three to five candidate metrics. Glean's Metrics Library groups metrics by function and warns against using the same metrics for every persona. A CIO cares about different measures than a sales director."
+    },
+    {
+      "t": "p",
+      "x": "For each metric, write down three things:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**What** is measured: a precise definition, such as \"mean handle time for password and access cases.\"",
+        "**How** it will be measured: the system, the time window, and who supplies the data.",
+        "**Why** it connects to the outcome: the logic linking the metric to the PBO."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Balance speed with quality"
+    },
+    {
+      "t": "p",
+      "x": "Choose a small, balanced set. A speed metric needs a quality guardrail, so that \"faster\" doesn't turn into \"faster but worse.\" For support, a balanced set might pair handle time with resolution rate, escalation rate, and cost per resolved case."
+    },
+    {
+      "t": "table",
+      "caption": "A balanced metric set (fictional support team)",
+      "head": [
+        "Metric",
+        "Type",
+        "Why it is in the set"
+      ],
+      "rows": [
+        [
+          "Mean handle time (agreed case class)",
+          "Efficiency",
+          "Captures effort per case"
+        ],
+        [
+          "First-contact resolution rate",
+          "Quality guardrail",
+          "Shows answers are still right"
+        ],
+        [
+          "Escalation rate to tier 2",
+          "Quality and cost",
+          "Detects pushed-down complexity"
+        ],
+        [
+          "Cost per resolved case",
+          "Financial",
+          "Connects to the cost outcome"
+        ]
+      ]
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "These are hypotheses until the metric owners confirm definitions, baselines, and feasibility. Never borrow an industry benchmark and label it the customer's current state."
+    },
+    {
+      "t": "h3",
+      "x": "Ask what they track today"
+    },
+    {
+      "t": "p",
+      "x": "Glean's value-selling training highlights the question that often matters most: \"What are you tracking today?\" Metrics the customer already measures are easier to baseline and more credible to finance. If a strong champion already has an analysis for their team, build on it rather than starting from scratch."
+    },
+    {
+      "t": "figure",
+      "kind": "stack",
+      "title": "A balanced metric set",
+      "alt": "Four stacked metrics for a fictional support team: mean handle time for efficiency, first-contact resolution as a quality guardrail, escalation rate for quality and cost, and cost per resolved case for the financial view.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Mean handle time",
+          "detail": "Efficiency; captures effort per case",
+          "emph": false
+        },
+        {
+          "label": "First-contact resolution",
+          "detail": "Quality guardrail",
+          "emph": false
+        },
+        {
+          "label": "Escalation rate",
+          "detail": "Detects work pushed to tier 2",
+          "emph": false
+        },
+        {
+          "label": "Cost per resolved case",
+          "detail": "Connects to the financial outcome",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Write one complete metric hypothesis for the fictional IT service desk, using What, How, and Why."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**What:** mean handle time for access-request tickets.",
+        "**How:** compare consistent open-to-resolve timestamps in the IT service-management system over an agreed baseline period and a matching validation period. The service-desk manager supplies the export.",
+        "**Why:** if agents find approved procedures faster, effort per ticket should fall and free capacity, provided first-contact resolution stays stable."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Uncertainty: the definition of the ticket class and the data export must be confirmed by the metric owner."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 412,
+  "eyebrow": "Lesson 3 · about 6 min",
+  "claims": [
+    "C-0165",
+    "C-0166",
+    "C-0167",
+    "C-0168",
+    "C-0169",
+    "C-0170"
+  ],
+  "sources": [
+    "S06",
+    "S13",
+    "S34",
+    "S65"
+  ]
+}

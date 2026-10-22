@@ -1,0 +1,85 @@
+{
+  "module_id": "SBP-108",
+  "module_objectives": [
+    "Structure a business case with the four-part value architecture.",
+    "Translate time savings into cost, revenue or risk impact.",
+    "Apply the recapture rate and present ranges with labeled evidence.",
+    "Define metrics with baseline, target, system of record and owner."
+  ],
+  "objective_map": [
+    {
+      "lesson_id": "SBP-108-L01",
+      "objective": "Given the supplied customer-neutral scenario and sources, sort a workflow map, a risk-adjusted benefit, a baseline plan and a strategic priority into the four parts. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-108-L01"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-108-Q001"
+      ]
+    },
+    {
+      "lesson_id": "SBP-108-L02",
+      "objective": "Given the supplied customer-neutral scenario and sources, classify saved analyst hours, a cancelled tool contract and an estimated increase in win rate. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-108-L02"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-108-Q002"
+      ]
+    },
+    {
+      "lesson_id": "SBP-108-L03",
+      "objective": "Given the supplied customer-neutral scenario and sources, choose a defensible claim for ten user survey responses with no baseline or operational data. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-108-L03"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-108-Q003"
+      ]
+    },
+    {
+      "lesson_id": "SBP-108-L04",
+      "objective": "Given the supplied customer-neutral scenario and sources, explain why 'users × minutes × hourly rate' is incomplete. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-108-L04"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-108-Q004"
+      ]
+    },
+    {
+      "lesson_id": "SBP-108-L05",
+      "objective": "Given the supplied customer-neutral scenario and sources, name the first assumptions to validate when the ROI range changes widely. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-108-L05"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-108-Q005"
+      ]
+    },
+    {
+      "lesson_id": "SBP-108-L06",
+      "objective": "Given the supplied customer-neutral scenario and sources, complete a metric card with no historical timing data. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-108-L06"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-108-Q006",
+        "SBP-108-Q007",
+        "SBP-108-Q008"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "SBP-200-L05",
+  "lesson": "SBP-200-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Executive readout, validation recommendation and MAP",
+  "nav": "5. Executive readout, validation recommendation and MAP",
+  "objective": "Submit an 8–10-minute live/recorded readout, recommendation, MAP and recap.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The readout is where you bring the case together into a decision. You'll be challenged, and how you answer matters more than polish."
+    },
+    {
+      "t": "h3",
+      "x": "What you submit"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**An 8- to 10-minute executive readout**, live or recorded: problem → workflow change → value range and evidence → success criteria → decision and commitments.",
+        "**A validation recommendation:** the lightest option that resolves the remaining buying question, the alternatives you considered, and a stop rule.",
+        "**A mutual action plan** with owners, dates, and dependencies, distinguishing agreed dates from proposed ones.",
+        "**A recap and a delivery and value handoff**, including outstanding risks."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "The sponsor's three questions"
+    },
+    {
+      "t": "p",
+      "x": "The simulated sponsor will ask:"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "\"Why not just give us a pilot?\"",
+        "\"How does saved time turn into a business result?\"",
+        "\"What evidence will replace these estimates?\""
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Answer honestly. Clarify the unresolved buying question, and defend a scoped alternative where it fits. If a pilot really is needed, state the readiness and internal approval requirements."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "The simulation does not grant approval to deploy, send communications, or create CRM records. Draft artifacts stay in your submission. Presenting a role-play decision or a readiness score as real pilot approval fails a critical gate."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "The readout ends with a decision, a validation recommendation, and a plan. The sponsor will test all three."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "From readout to handoff",
+      "alt": "A four-step flow for the capstone's final deliverables: an 8- to 10-minute executive readout, a validation recommendation, a mutual action plan, and a recap with the delivery and value handoff.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Executive readout",
+          "detail": "8 to 10 minutes",
+          "emph": false
+        },
+        {
+          "label": "Validation recommendation",
+          "detail": "The lightest sufficient option",
+          "emph": true
+        },
+        {
+          "label": "Mutual action plan",
+          "detail": "Owners, dates, evidence",
+          "emph": false
+        },
+        {
+          "label": "Recap and handoff",
+          "detail": "To delivery and value owners",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Answer the sponsor's first question: \"Why not just give us a pilot?\""
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"We may get there. First, let's be clear about what you need to see to decide. Your team has accepted the support workflow and the directional value. The open question is whether agents will find and trust approved guidance in that flow. A focused Lab scenario, or a tailored demo built around five representative case types, could answer that within weeks."
+    },
+    {
+      "t": "p",
+      "x": "If a question remains that only your own systems and permissions can answer, we'll scope a pilot properly, with criteria, a baseline, and owners. It would go through Glean's approval process, and nothing is committed until that's complete.\""
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 351,
+  "eyebrow": "Lesson 5 · about 6 min",
+  "claims": [
+    "C-0685",
+    "C-0686",
+    "C-0687",
+    "C-0688",
+    "C-0689",
+    "C-0690"
+  ],
+  "sources": [
+    "S14",
+    "S15",
+    "S44",
+    "S45"
+  ]
+}

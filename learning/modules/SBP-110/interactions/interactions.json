@@ -1,0 +1,216 @@
+{
+  "module_id": "SBP-110",
+  "interactions": [
+    {
+      "interaction_id": "INT-SBP-110-L01-DRAFT",
+      "screen_id": "SBP-110-L01",
+      "kind": "local_draft",
+      "lesson_id": "SBP-110-L01",
+      "claims": [
+        "C-0465",
+        "C-0466",
+        "C-0467",
+        "C-0468",
+        "C-0469",
+        "C-0470",
+        "C-0471"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-110-L01-REVEAL",
+      "screen_id": "SBP-110-L01",
+      "kind": "reveal",
+      "lesson_id": "SBP-110-L01",
+      "claims": [
+        "C-0465",
+        "C-0466",
+        "C-0467",
+        "C-0468",
+        "C-0469",
+        "C-0470",
+        "C-0471"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-110-L02-DRAFT",
+      "screen_id": "SBP-110-L02",
+      "kind": "local_draft",
+      "lesson_id": "SBP-110-L02",
+      "claims": [
+        "C-0472",
+        "C-0473",
+        "C-0474",
+        "C-0475",
+        "C-0476",
+        "C-0477"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-110-L02-REVEAL",
+      "screen_id": "SBP-110-L02",
+      "kind": "reveal",
+      "lesson_id": "SBP-110-L02",
+      "claims": [
+        "C-0472",
+        "C-0473",
+        "C-0474",
+        "C-0475",
+        "C-0476",
+        "C-0477"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-110-L03-DRAFT",
+      "screen_id": "SBP-110-L03",
+      "kind": "local_draft",
+      "lesson_id": "SBP-110-L03",
+      "claims": [
+        "C-0478",
+        "C-0479",
+        "C-0480",
+        "C-0481",
+        "C-0482",
+        "C-0483",
+        "C-0484",
+        "C-0485"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-110-L03-REVEAL",
+      "screen_id": "SBP-110-L03",
+      "kind": "reveal",
+      "lesson_id": "SBP-110-L03",
+      "claims": [
+        "C-0478",
+        "C-0479",
+        "C-0480",
+        "C-0481",
+        "C-0482",
+        "C-0483",
+        "C-0484",
+        "C-0485"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-110-L04-DRAFT",
+      "screen_id": "SBP-110-L04",
+      "kind": "local_draft",
+      "lesson_id": "SBP-110-L04",
+      "claims": [
+        "C-0486",
+        "C-0487",
+        "C-0488",
+        "C-0489",
+        "C-0490",
+        "C-0491",
+        "C-0492"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-110-L04-REVEAL",
+      "screen_id": "SBP-110-L04",
+      "kind": "reveal",
+      "lesson_id": "SBP-110-L04",
+      "claims": [
+        "C-0486",
+        "C-0487",
+        "C-0488",
+        "C-0489",
+        "C-0490",
+        "C-0491",
+        "C-0492"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-110-L05-DRAFT",
+      "screen_id": "SBP-110-L05",
+      "kind": "local_draft",
+      "lesson_id": "SBP-110-L05",
+      "claims": [
+        "C-0493",
+        "C-0494",
+        "C-0495",
+        "C-0496",
+        "C-0497",
+        "C-0498"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-110-L05-REVEAL",
+      "screen_id": "SBP-110-L05",
+      "kind": "reveal",
+      "lesson_id": "SBP-110-L05",
+      "claims": [
+        "C-0493",
+        "C-0494",
+        "C-0495",
+        "C-0496",
+        "C-0497",
+        "C-0498"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-110-L06-DRAFT",
+      "screen_id": "SBP-110-L06",
+      "kind": "local_draft",
+      "lesson_id": "SBP-110-L06",
+      "claims": [
+        "C-0499",
+        "C-0500",
+        "C-0501",
+        "C-0502",
+        "C-0503",
+        "C-0504"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "No learner text is persisted or sent to the LMS."
+    },
+    {
+      "interaction_id": "INT-SBP-110-L06-REVEAL",
+      "screen_id": "SBP-110-L06",
+      "kind": "reveal",
+      "lesson_id": "SBP-110-L06",
+      "claims": [
+        "C-0499",
+        "C-0500",
+        "C-0501",
+        "C-0502",
+        "C-0503",
+        "C-0504"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    },
+    {
+      "interaction_id": "INT-SBP-110-S999",
+      "screen_id": "SBP-110-S999",
+      "kind": "graded_choice",
+      "lesson_id": "check",
+      "claims": [
+        "C-0505"
+      ],
+      "keyboard": "Native textarea, button, radio, and number inputs; no drag; visible focus.",
+      "data": "Score and interactions only."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "SBP-110-L04",
+  "lesson": "SBP-110-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Pilot entry, scope and business decision",
+  "nav": "4. Pilot entry, scope and business decision",
+  "objective": "Assess a pilot request with no sponsor, no baseline and no scoped use case.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A pilot is the heaviest validation option. It is justified only when earlier work is complete and an important buying question can't be answered more lightly."
+    },
+    {
+      "t": "h3",
+      "x": "When a pilot is justified"
+    },
+    {
+      "t": "p",
+      "x": "Glean's guidance expects the following before a pilot:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**The three whys** are answered: why change, why now, why Glean.",
+        "**A real economic buyer** has been identified and has held an executive alignment meeting confirming that the project is budgeted and the need is real.",
+        "**The value hypothesis and pilot goals** are agreed.",
+        "**Technical use cases and a test plan** are documented and mutually agreed.",
+        "**Measurable success criteria** are agreed with the customer, and the scope, timeline, impact, and test plan are defined."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "What a pilot plan covers"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The use cases, sources, and connectors.",
+        "The user cohort.",
+        "Quality and outcome measures, with baselines.",
+        "Duration and milestones.",
+        "Technical and security readiness.",
+        "The commercial path.",
+        "The decision owner and the final readout."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "A request is not a qualification"
+    },
+    {
+      "t": "p",
+      "x": "A customer asking for a pilot doesn't make one appropriate. A pilot is not a substitute for qualification. Commercial thresholds and approvals are internal. Confirm them through the account team, and never quote old figures."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A pilot is justified when all five entry conditions are in place. A request alone isn't one of them."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Pilot entry conditions",
+      "alt": "Five cards listing what must be in place before a pilot: the three whys, a real economic buyer, a value hypothesis with pilot goals, technical use cases with a test plan, and measurable success criteria.",
+      "caption": "",
+      "items": [
+        {
+          "label": "The three whys",
+          "detail": "Why change, why now, why Glean",
+          "emph": false
+        },
+        {
+          "label": "A real economic buyer",
+          "detail": "Engaged and committed to the decision",
+          "emph": true
+        },
+        {
+          "label": "Value hypothesis and goals",
+          "detail": "What the pilot must show",
+          "emph": false
+        },
+        {
+          "label": "Use cases and a test plan",
+          "detail": "What will be tested, and how",
+          "emph": false
+        },
+        {
+          "label": "Success criteria",
+          "detail": "Measurable, agreed in advance",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A prospect asks for a pilot. There is no sponsor, no baseline, and no scoped use case. Assess the request."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Defer it. Complete qualification and the sponsor path first. Then run focused discovery to scope one or two use cases, and design the measurement, including baselines."
+    },
+    {
+      "t": "p",
+      "x": "Meanwhile, propose a lighter validation, such as a tailored demo or a Lab scenario, if it would answer the customer's current question. Revisit the pilot only if a scoped, important buying question remains that lighter options can't resolve."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 343,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0486",
+    "C-0487",
+    "C-0488",
+    "C-0489",
+    "C-0490",
+    "C-0491",
+    "C-0492"
+  ],
+  "sources": [
+    "S15",
+    "S16",
+    "S50"
+  ]
+}

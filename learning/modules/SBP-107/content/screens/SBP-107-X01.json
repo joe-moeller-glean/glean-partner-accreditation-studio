@@ -1,0 +1,57 @@
+{
+  "id": "SBP-107-X01",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Templates",
+  "title": "Templates for this module",
+  "nav": "Templates",
+  "body": "Copy-ready structures you can reuse in your own engagements. Examples are fictional.",
+  "cards": [
+    {
+      "tag": "A08",
+      "title": "DITL interview guide",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Use case, interviewee/role, recent example, trigger, steps, systems, handoffs, time/frequency, failure, consequence, metric source, unknowns"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Walk through the most recent case: where did you look, what blocked you, how did you judge the answer, and who can verify the timing?"
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Representative users; estimates distinguished from observation; privacy and recording rules followed."
+        }
+      ]
+    },
+    {
+      "tag": "A09",
+      "title": "Current/future workflow pair",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "State, step #, actor, trigger/input, action, system/source, active min, wait min, frequency, output, failure/exception, human control, evidence, dependency"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Current: search wiki 8 min estimated. Future: retrieve approved guidance with source review; duration unvalidated until test."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "No unsupported deletion of controls; active and elapsed time distinct."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0350"
+  ],
+  "sources": [
+    "S02",
+    "S09",
+    "S22",
+    "S35"
+  ],
+  "required": true
+}

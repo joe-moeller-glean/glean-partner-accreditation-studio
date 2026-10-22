@@ -1,0 +1,17 @@
+{
+  "by_asset_id": {
+    "SBP-112-LOGO": "Glean",
+    "SBP-112-L01-F1-wide": "A comparison of Blueprint tasks AI can help draft, such as account research summaries, interview notes, and first-draft workflow maps, with what people must own: verified facts, value judgments, and customer commitments.",
+    "SBP-112-L01-F1-narrow": "A comparison of Blueprint tasks AI can help draft, such as account research summaries, interview notes, and first-draft workflow maps, with what people must own: verified facts, value judgments, and customer commitments.",
+    "SBP-112-L02-F1-wide": "Seven stacked parts of a grounded prompt: the task, authorized inputs, known facts and unknowns, the output structure, guardrails, citations, and separating facts from estimates.",
+    "SBP-112-L02-F1-narrow": "Seven stacked parts of a grounded prompt: the task, authorized inputs, known facts and unknowns, the output structure, guardrails, citations, and separating facts from estimates.",
+    "SBP-112-L03-F1-wide": "A comparison of a copied outcome, which reuses a peer's result as a promise, with a grounded hypothesis, which uses the customer's own volumes and times, states assumptions, and labels evidence.",
+    "SBP-112-L03-F1-narrow": "A comparison of a copied outcome, which reuses a peer's result as a promise, with a grounded hypothesis, which uses the customer's own volumes and times, states assumptions, and labels evidence.",
+    "SBP-112-L04-F1-wide": "A four-step pattern: provide the department and current steps from the interview, ask AI for a step-by-step future-state draft, have the SE verify each capability, and have the workflow owner confirm the sequence and timings.",
+    "SBP-112-L04-F1-narrow": "A four-step pattern: provide the department and current steps from the interview, ask AI for a step-by-step future-state draft, have the SE verify each capability, and have the workflow owner confirm the sequence and timings.",
+    "SBP-112-L05-F1-wide": "Eight cards listing review checks for AI-assisted output: factual support, freshness, permissions, confidentiality, technical feasibility, arithmetic and units, bias and framing, and claims clearance.",
+    "SBP-112-L05-F1-narrow": "Eight cards listing review checks for AI-assisted output: factual support, freshness, permissions, confidentiality, technical feasibility, arithmetic and units, bias and framing, and claims clearance.",
+    "SBP-112-L06-F1-wide": "A seven-step loop: collect authorized inputs, extract facts, draft, list gaps, check, route reviews, and log decisions, then repeat for the next account.",
+    "SBP-112-L06-F1-narrow": "A seven-step loop: collect authorized inputs, extract facts, draft, list gaps, check, route reviews, and log decisions, then repeat for the next account."
+  }
+}

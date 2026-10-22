@@ -1,0 +1,17 @@
+{
+  "by_asset_id": {
+    "SBP-111-LOGO": "Glean",
+    "SBP-111-L01-F1-wide": "A five-step build of the Blueprint deliverable set: the value hypothesis and stakeholder map, the prioritized use case log and matrix, DITL maps and metric cards, the value estimate and executive decisions, and the validation recommendation with the mutual action plan.",
+    "SBP-111-L01-F1-narrow": "A five-step build of the Blueprint deliverable set: the value hypothesis and stakeholder map, the prioritized use case log and matrix, DITL maps and metric cards, the value estimate and executive decisions, and the validation recommendation with the mutual action plan.",
+    "SBP-111-L02-F1-wide": "Six cards naming the fields of a mutual action plan entry: the milestone, the owner, dependencies, the target date, acceptance evidence, and status.",
+    "SBP-111-L02-F1-narrow": "Six cards naming the fields of a mutual action plan entry: the milestone, the owner, dependencies, the target date, acceptance evidence, and status.",
+    "SBP-111-L03-F1-wide": "A comparison of the customer-facing recap and the internal record. The recap confirms decisions, commitments, and next steps in customer language. The internal record adds evidence levels, risks, and open questions for the account team.",
+    "SBP-111-L03-F1-narrow": "A comparison of the customer-facing recap and the internal record. The recap confirms decisions, commitments, and next steps in customer language. The internal record adds evidence levels, risks, and open questions for the account team.",
+    "SBP-111-L04-F1-wide": "Six cards mapping partner services to the needs they address: discovery facilitation, deployment and connectors, agent design and implementation, adoption and change management, governance and knowledge readiness, and value measurement and optimization.",
+    "SBP-111-L04-F1-narrow": "Six cards mapping partner services to the needs they address: discovery facilitation, deployment and connectors, agent design and implementation, adoption and change management, governance and knowledge readiness, and value measurement and optimization.",
+    "SBP-111-L05-F1-wide": "A four-step handoff of the value model: share the metric cards and baselines, explain the assumptions and evidence levels, agree the measurement cadence, and confirm acceptance by the delivery and customer success owners.",
+    "SBP-111-L05-F1-narrow": "A four-step handoff of the value model: share the metric cards and baselines, explain the assumptions and evidence levels, agree the measurement cadence, and confirm acceptance by the delivery and customer success owners.",
+    "SBP-111-L06-F1-wide": "Three cards naming complementary measurement methods: user feedback through short pre- and post-surveys, product telemetry for concrete usage data, and stakeholder interviews to learn where saved time is actually recaptured.",
+    "SBP-111-L06-F1-narrow": "Three cards naming complementary measurement methods: user feedback through short pre- and post-surveys, product telemetry for concrete usage data, and stakeholder interviews to learn where saved time is actually recaptured."
+  }
+}

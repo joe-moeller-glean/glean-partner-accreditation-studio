@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-106",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-106-Q001",
+      "objective_id": "SBP-106-L01",
+      "module_id": "SBP-106",
+      "stem": "Which discovery sequence is most useful?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agent architecture → promised ROI → optional customer evidence."
+        },
+        {
+          "id": "b",
+          "text": "Outcomes → use cases → workflows → data → success metrics."
+        },
+        {
+          "id": "c",
+          "text": "Pilot deployment → discover the problem later."
+        },
+        {
+          "id": "d",
+          "text": "Connector count → logo selection → certificate."
+        }
+      ],
+      "claims": [
+        "C-0300"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q002",
+      "objective_id": "SBP-106-L02",
+      "module_id": "SBP-106",
+      "stem": "Which question best reveals current workflow evidence?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Which feature would make the deck more exciting?"
+        },
+        {
+          "id": "b",
+          "text": "Wouldn't AI make this perfect?"
+        },
+        {
+          "id": "c",
+          "text": "Walk me through the last time this happened, including systems, handoffs and time."
+        },
+        {
+          "id": "d",
+          "text": "Can we assume every user has the same permissions?"
+        }
+      ],
+      "claims": [
+        "C-0301"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q003",
+      "objective_id": "SBP-106-L03",
+      "module_id": "SBP-106",
+      "stem": "Which impact assessment is strongest?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only the workshop attendance count."
+        },
+        {
+          "id": "b",
+          "text": "Only the number of systems to connect."
+        },
+        {
+          "id": "c",
+          "text": "Affected population, frequency, business consequence and evidence status."
+        },
+        {
+          "id": "d",
+          "text": "The most senior person's favorite idea."
+        }
+      ],
+      "claims": [
+        "C-0302"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q004",
+      "objective_id": "SBP-106-L04",
+      "module_id": "SBP-106",
+      "stem": "A use case needs five systems and an unverified write action. What should happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Record technical, permission and action dependencies before rating effort low."
+        },
+        {
+          "id": "b",
+          "text": "Omit security to keep the workshop moving."
+        },
+        {
+          "id": "c",
+          "text": "Assume all writes are supported automatically."
+        },
+        {
+          "id": "d",
+          "text": "Call it a quick win because the user request is one sentence."
+        }
+      ],
+      "claims": [
+        "C-0303"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q005",
+      "objective_id": "SBP-106-L05",
+      "module_id": "SBP-106",
+      "stem": "Where does a high-impact, high-effort use case belong on the standard matrix?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nice-to-have."
+        },
+        {
+          "id": "b",
+          "text": "Low-impact/high-effort deprioritize quadrant."
+        },
+        {
+          "id": "c",
+          "text": "Strategic bet."
+        },
+        {
+          "id": "d",
+          "text": "Quick win."
+        }
+      ],
+      "claims": [
+        "C-0304"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q006",
+      "objective_id": "SBP-106-L06",
+      "module_id": "SBP-106",
+      "stem": "What should accompany a final first-wave use case?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A fixed ROI copied from an unrelated customer."
+        },
+        {
+          "id": "b",
+          "text": "Business/technical owners, metric plan, dependencies, uncertainties and next milestone."
+        },
+        {
+          "id": "c",
+          "text": "A guarantee of full automation."
+        },
+        {
+          "id": "d",
+          "text": "Only an attractive title."
+        }
+      ],
+      "claims": [
+        "C-0305"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q007",
+      "objective_id": "SBP-106-L06",
+      "module_id": "SBP-106",
+      "stem": "A rare compliance workflow has low reach but potentially high severity. How should it be assessed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Discuss severity and controls explicitly instead of using seat count as the only impact measure."
+        },
+        {
+          "id": "b",
+          "text": "Always discard it because few users are involved."
+        },
+        {
+          "id": "c",
+          "text": "Ignore risk because only time savings count."
+        },
+        {
+          "id": "d",
+          "text": "Assign a huge monetary saving without evidence."
+        }
+      ],
+      "claims": [
+        "C-0306"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-106-Q008",
+      "objective_id": "SBP-106-L06",
+      "module_id": "SBP-106",
+      "stem": "Should the source's eight-dimension score be an automatic universal feasibility gate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No; complexity score direction and aggregation need SME review, and rationale remains essential."
+        },
+        {
+          "id": "b",
+          "text": "No prioritization method can ever be useful."
+        },
+        {
+          "id": "c",
+          "text": "Yes; source conflicts never need resolution."
+        },
+        {
+          "id": "d",
+          "text": "Yes; a high complexity score proves easy implementation."
+        }
+      ],
+      "claims": [
+        "C-0307"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

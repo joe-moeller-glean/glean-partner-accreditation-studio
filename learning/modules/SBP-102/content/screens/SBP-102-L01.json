@@ -1,0 +1,140 @@
+{
+  "id": "SBP-102-L01",
+  "lesson": "SBP-102-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Stage 2 entry and qualification",
+  "nav": "1. Stage 2 entry and qualification",
+  "objective": "Decide whether to launch Blueprint for a contact who only wants a free trial.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A Blueprint is an investment of the customer's time and the account team's time. Run one only when there is a qualified business problem worth mapping. This lesson covers where the Blueprint fits in the sales motion and what must be true before you start."
+    },
+    {
+      "t": "h3",
+      "x": "Where the Blueprint sits"
+    },
+    {
+      "t": "p",
+      "x": "In Glean's documented new-business motion (February 2026 enablement view), the Blueprint has its own stage. Stage 2 is **Blueprint (Use Case Mapping)**, where Visioning and Day-in-the-Life work happen. It is followed by Executive Alignment, Technical and Security Alignment, a Validation Event, Business Value Justification, and Procurement."
+    },
+    {
+      "t": "p",
+      "x": "Stage 2 begins after a successful New Business Meeting (NBM). That meeting confirms the business problem, a path to a champion, and the customer's commitment to a formal evaluation. Stage labels and required fields are internal and change over time. Learn the business gates, not CRM screens."
+    },
+    {
+      "t": "h3",
+      "x": "What must be true before you start"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**A business priority.** A named problem connected to something leadership already cares about, ideally in the customer's own words.",
+        "**Stakeholder access.** A champion who can bring business owners and front-line users into the room, and a credible path to the executive sponsor.",
+        "**A value hypothesis.** An early, testable statement of where value might come from.",
+        "**The three whys.** Why change? Why now? Why Glean? Partial answers are fine at this point. Having no answers is a signal to keep qualifying."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "A trial request is not a qualified Blueprint"
+    },
+    {
+      "t": "p",
+      "x": "Many evaluations begin with \"Can we just try it?\" A free trial without a business owner, success measure, or sponsor is the \"pilot purgatory\" the Blueprint exists to prevent. The answer is not to rename the trial as a Blueprint. Do more qualification first, then offer the Blueprint as the faster route to a decision."
+    },
+    {
+      "t": "callout",
+      "label": "Watch for",
+      "x": "An enthusiastic contact with no access to business owners is not the same as an aligned champion. Establish the business problem and a path to sponsorship before you book broad discovery sessions."
+    },
+    {
+      "t": "h3",
+      "x": "Handle \"just show me the product\""
+    },
+    {
+      "t": "p",
+      "x": "Glean's onboarding training addresses a common Stage 2 objection: \"Why do workshops when I haven't even seen the product?\" The suggested response is to give a short, relevant look at the product, then explain that a tailored demo built on the customer's own priorities will be far more useful. Getting there requires understanding those priorities with their team, which is exactly what Visioning and DITL do."
+    },
+    {
+      "t": "p",
+      "x": "Use the objection as a bridge into the Blueprint, not a reason to skip it. The goal is not to stall the deal but to earn the evidence for a better next step."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "Stage 2 entry check",
+      "alt": "A four-step entry check before starting the Blueprint: confirm a business priority, confirm stakeholder access, draft a value hypothesis, and answer the three whys. Only then does the Blueprint begin.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Business priority",
+          "detail": "A real problem a leader owns",
+          "emph": false
+        },
+        {
+          "label": "Stakeholder access",
+          "detail": "Business owners and users will take part",
+          "emph": false
+        },
+        {
+          "label": "Value hypothesis",
+          "detail": "A first, labeled guess at the outcome",
+          "emph": false
+        },
+        {
+          "label": "Three whys",
+          "detail": "Why change, why now, why Glean",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A contact at a fictional mid-size insurer says, \"We don't need workshops. Just give us a free trial for the whole company.\" Decide whether to launch a Blueprint, and write the two or three questions you would ask next."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Not yet. This is a qualification gap, not a Blueprint opportunity. Next questions:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "\"What would need to change for this to be worth the effort, and who owns that result?\" (Why change, and the business owner.)",
+        "\"Why is this a priority this quarter rather than next year?\" (Why now.)",
+        "\"Who would make the investment decision, and what would they need to see?\" (The sponsor path and decision criteria.)"
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Once a priority, an owner, and a sponsor path are established, offer the Blueprint as the way to reach a decision faster than an open-ended trial."
+    }
+  ],
+  "minutes": 7,
+  "expanded": true,
+  "words": 598,
+  "eyebrow": "Lesson 1 · about 7 min",
+  "claims": [
+    "C-0053",
+    "C-0054",
+    "C-0055",
+    "C-0056",
+    "C-0057",
+    "C-0058",
+    "C-0059"
+  ],
+  "sources": [
+    "S11",
+    "S12",
+    "S21",
+    "S68"
+  ]
+}

@@ -1,0 +1,32 @@
+module_id: SBP-107
+title: "Step 2: Day-in-the-Life & Playback"
+design_system: paged-v1
+learning_path: "AI Blueprinting & Value Mapping"
+request_type: batch
+audience: ["Partner sellers", "Partner solution consultants and SEs", "Practice leads", "Glean field collaborators"]
+level: "Practitioner (proposed)"
+learning_outcomes:
+  - "Prepare DITL interviews for the prioritized use cases."
+  - "Map current-state steps, systems, time and bottlenecks."
+  - "Draft the future-state workflow with Glean and the time saved."
+  - "Decide when a playback session is needed."
+lesson_objectives:
+  SBP-107-L01: "Given the supplied customer-neutral scenario and sources, create an interview brief for approved-answer discovery. Successful output matches the worked response and states remaining uncertainty."
+  SBP-107-L02: "Given the supplied customer-neutral scenario and sources, map 'read case, search wiki, ask colleague, draft answer, review' with missing timings. Successful output matches the worked response and states remaining uncertainty."
+  SBP-107-L03: "Given the supplied customer-neutral scenario and sources, distinguish '30 minutes searching' from 'two days waiting for approval'. Successful output matches the worked response and states remaining uncertainty."
+  SBP-107-L04: "Given the supplied customer-neutral scenario and sources, redesign a five-step case-answer process and identify retained controls. Successful output matches the worked response and states remaining uncertainty."
+  SBP-107-L05: "Given the supplied customer-neutral scenario and sources, decide whether a workflow with disputed permissions needs a playback. Successful output matches the worked response and states remaining uncertainty."
+  SBP-107-L06: "Given the supplied customer-neutral scenario and sources, write a six-line DITL summary for the support case. Successful output matches the worked response and states remaining uncertainty."
+prerequisites: "SBP-106"
+roadmap_alignment: "SOL-101; SOL-201"  # semantic alignment only (O12)
+target_hours: 0.75
+mastery_score: 80
+accreditation: accred-ai-blueprinting
+authoring_contract: "https://docs.google.com/spreadsheets/d/1FNFUQAzKl1BgMlyMgR8zygEvmLtnf7V5s-bhaL-3-48"
+authoring_snapshot: plan/sales-blueprinting/workbook/
+review_status: "In review"
+partner_clearance: "Pending partner clearance"
+sme_signoff: "Not signed"
+sme: unassigned - needs_sme (Blueprint SME, BVC / value engineering)
+publish_mode: manual_review
+release_state: restricted_preview

@@ -1,0 +1,17 @@
+{
+  "by_asset_id": {
+    "SBP-108-LOGO": "Glean",
+    "SBP-108-L01-F1-wide": "A comparison of three kinds of value with how each is treated: hard-dollar value, which changes a budget line and can be counted; soft-dollar value, which creates capacity that must be redeployed to count; and directional value, which is real but not yet monetized.",
+    "SBP-108-L01-F1-narrow": "A comparison of three kinds of value with how each is treated: hard-dollar value, which changes a budget line and can be counted; soft-dollar value, which creates capacity that must be redeployed to count; and directional value, which is real but not yet monetized.",
+    "SBP-108-L02-F1-wide": "Four cards showing how capacity can translate into business impact: capacity redeployed to a business metric, cost avoided, revenue accelerated, and risk reduced. Each needs an owner who confirms the link.",
+    "SBP-108-L02-F1-narrow": "Four cards showing how capacity can translate into business impact: capacity redeployed to a business metric, cost avoided, revenue accelerated, and risk reduced. Each needs an owner who confirms the link.",
+    "SBP-108-L03-F1-wide": "Three stacked evidence layers, strongest at the top: measured data from the customer's systems, customer estimates from interviews or surveys, and assumptions that are labeled and still need validation.",
+    "SBP-108-L03-F1-narrow": "Three stacked evidence layers, strongest at the top: measured data from the customer's systems, customer estimates from interviews or surveys, and assumptions that are labeled and still need validation.",
+    "SBP-108-L04-F1-wide": "A bar chart showing a fictional estimate narrowing as each factor is applied: 100 percent of the eligible population's time, 70 percent after adoption, 42 percent after the removable share, and 21 percent after recapture.",
+    "SBP-108-L04-F1-narrow": "A bar chart showing a fictional estimate narrowing as each factor is applied: 100 percent of the eligible population's time, 70 percent after adoption, 42 percent after the removable share, and 21 percent after recapture.",
+    "SBP-108-L05-F1-wide": "A bar chart of three fictional annual benefit scenarios: conservative at 1.2 million dollars, base at 2.0 million, and upside at 3.1 million. The conservative case is emphasized because it shows whether the decision holds under cautious assumptions.",
+    "SBP-108-L05-F1-narrow": "A bar chart of three fictional annual benefit scenarios: conservative at 1.2 million dollars, base at 2.0 million, and upside at 3.1 million. The conservative case is emphasized because it shows whether the decision holds under cautious assumptions.",
+    "SBP-108-L06-F1-wide": "A four-step lifecycle for a metric card: defined in DITL, used in the executive business case, measured during validation, and reviewed after go-live.",
+    "SBP-108-L06-F1-narrow": "A four-step lifecycle for a metric card: defined in DITL, used in the executive business case, measured during validation, and reviewed after go-live."
+  }
+}

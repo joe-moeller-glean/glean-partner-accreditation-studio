@@ -1,0 +1,765 @@
+{
+  "module_id": "SBP-108",
+  "claims": [
+    {
+      "claim_id": "C-0360",
+      "anchor": "SBP-108-S000",
+      "text": "Turning DITL findings into credible value: value architecture, translation paths to cost, revenue and risk, metrics, evidence tiers, recapture rate, and the Value Calculator",
+      "source_ids": [
+        "S13",
+        "S06",
+        "S19",
+        "S39",
+        "S34"
+      ],
+      "locator": "Module overview synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0361",
+      "anchor": "SBP-108-L01#00",
+      "text": "Every Glean value case, from a light advisory note to a full executive business case, has the same structure. Only the depth changes.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0362",
+      "anchor": "SBP-108-L01#01",
+      "text": "Problem statement | What problem, and why now? | The business problem in the customer's language, the trigger for urgency, and who owns it Justification | Why Glean, and why is it credible? | The mapped workflow change, the data and feasibility evidence, and the differentiators that matter here ROI | How much impact? | The quantified benefit range, the costs, the assumptions, and the evidence labels Plan | How will we prove and realize it? | Success criteria, baselines, instrumentation, customer commitments, timeline, and handoff",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "The four parts",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Business cases connect four things: problem statement, justification, ROI, and plan. / Every business case must answer: what problem, why Glean, how much impact, and how we'll prove it.",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0363",
+      "anchor": "SBP-108-L01#02",
+      "text": "Glean's Value Playbook makes the point sharply: \"they need better search\" is Glean's language. The customer's language sounds like \"our engineers spend two hours per incident searching for runbooks.\" Write the problem statement the way the business owner would say it.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Use the customer's language",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Not \"they need better search\" — that's our language.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0364",
+      "anchor": "SBP-108-L01#03",
+      "text": "The ROI section must keep three kinds of value distinct throughout: Hard-dollar: directly hits the P&L, such as cancelled tool licenses, avoided hires, or measurable ticket deflection. Soft-dollar: real but indirect, such as time saved, faster ramp, or improved satisfaction. Directional: hypothesis-grade, backed by benchmarks rather than customer data. Boundary A savings number without an implementation and measurement plan is incomplete. Never mix hard-dollar, soft-dollar, and directional benefits in one headline total.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Hard, soft, and directional value",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Directional value — hypothesis-grade, backed by benchmarks rather than customer data",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0365",
+      "anchor": "SBP-108-L01#04",
+      "text": "Glean's value-selling training makes a practical point about the mix of value in a business case. Cost reduction is easier to quantify, so it often anchors the hard-dollar case. Growth drivers tend to have stronger executive impact. The training's conclusion is that powerful business cases combine both growth and reduction elements, each labeled for how firmly it can be measured. Kind of value How to treat it Hard-dollar Changes a budget line; count it with evidence Soft-dollar Capacity created; count only if redeployed Directional Real but unmonetized; describe, don't add up",
+      "source_ids": [
+        "S66"
+      ],
+      "locator": "Combine growth and cost reduction",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S66",
+      "excerpt": "Cost reduction is easier to quantify",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0366",
+      "anchor": "SBP-108-L01#05",
+      "text": "Sort four items into the four parts: a workflow map, a risk-adjusted benefit range, a baseline plan, and a strategic priority from the CFO.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0367",
+      "anchor": "SBP-108-L01#06",
+      "text": "Strategic priority: problem statement. Workflow map, plus feasibility evidence: justification. Risk-adjusted benefit range, with costs: ROI. Baseline plan, with owner, timeline, and reallocation activity: plan.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0368",
+      "anchor": "SBP-108-L02#00",
+      "text": "Saved time is where most value cases start, but it isn't where they should end. Executives fund outcomes, so the case must explain what happens with the time.",
+      "source_ids": [
+        "S13",
+        "S19"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0369",
+      "anchor": "SBP-108-L02#01",
+      "text": "Glean's Value Playbook describes four paths from productivity to business impact: Capacity created → business metric impact. Freed time is redeployed to more cases, more deals, or higher-value work. Cost avoidance. Tickets deflected, tools consolidated, hires avoided. Revenue acceleration. Faster deal preparation, higher win rates, shorter sales cycles. Risk reduction. Faster incident resolution, better compliance, fewer errors. For each path, ask what the customer will actually do with the saved time and which system-of-record metric should change. A benefit mechanism needs an owner, not just",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Four translation paths",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Hours saved don't appear on the P&L. What the customer does with those hours does.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0370",
+      "anchor": "SBP-108-L02#02",
+      "text": "Saved support effort may let a team handle more cases. If the customer confirms an avoided hire, that becomes hard-dollar cost avoidance, with evidence. Faster preparation might create selling capacity. Claiming revenue requires much stronger, customer-specific attribution. Boundary Don't label all salary-equivalent time as cash savings, assume layoffs, or claim capacity value and a fully overlapping business benefit for the same minutes. State your exclusions to prevent double counting.",
+      "source_ids": [
+        "S13",
+        "S19"
+      ],
+      "locator": "Classify carefully",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0371",
+      "anchor": "SBP-108-L02#03",
+      "text": "Glean's business-case training uses one test for every translation: who cares? An individual cares about saved minutes. A CFO cares about revenue, cost, and risk. Each path below moves a time estimate into terms a budget holder recognizes, and each needs a named owner who confirms the link. Capacity to a business metric Redeployed time moves a KPI Cost avoidance Hiring, contractors, or spend avoided Revenue acceleration Faster cycles or higher conversion Risk reduction Fewer errors, exposures, or incidents",
+      "source_ids": [
+        "S71"
+      ],
+      "locator": "Ask who cares",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0372",
+      "anchor": "SBP-108-L02#04",
+      "text": "Classify three benefits: 500 saved analyst hours a year, a cancelled contract for an overlapping tool, and an estimated increase in win rate.",
+      "source_ids": [
+        "S13",
+        "S19"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0373",
+      "anchor": "SBP-108-L02#05",
+      "text": "Saved analyst hours: capacity, or soft-dollar value, until a specific action, such as absorbing growth without a new hire, realizes it. Cancelled tool contract: hard-dollar, supported by the contract value and the cancellation evidence. Win-rate increase: directional, unless a credible customer-specific measurement links the change to Glean.",
+      "source_ids": [
+        "S13",
+        "S19"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0374",
+      "anchor": "SBP-108-L03#00",
+      "text": "The strength of a value claim depends on its evidence. Label the evidence honestly and design the measurement before you need it.",
+      "source_ids": [
+        "S13",
+        "S34"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0375",
+      "anchor": "SBP-108-L03#01",
+      "text": "Platform telemetry | Usage, active users, queries, agent runs | Adoption and engagement, not revenue User voice | Interviews, surveys, observations | Perceived benefit and qualitative insight; directional System-of-record outcomes | Ticketing, CRM, HR, finance data | Operational and financial change Any single layer can mislead. Glean's Value Playbook treats self-report as directional at best, and says to corroborate it with telemetry or system-of-record data. Survey data alone is never sufficient proof.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Three evidence layers",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Value should be triangulated across three evidence layers. Platform telemetry, user voice, and system-of-record outcomes. Any single layer can mislead. All three converging is proof.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0376",
+      "anchor": "SBP-108-L03#02",
+      "text": "For every metric, define: Baseline: the \"before,\" with its period. Target: the hypothesis for the \"after.\" Data origin: the system of record. Period: a comparable window before and after. Owner: the person who supplies and validates the data. Note Evidence-strength terminology varies across Glean materials. Describe the evidence explicitly (\"ten self-reported survey responses, no baseline\") rather than relying on a label alone. Don't publish internal benchmark figures or weights unless they have been cleared.",
+      "source_ids": [
+        "S13",
+        "S34"
+      ],
+      "locator": "Design the measurement",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0377",
+      "anchor": "SBP-108-L03#03",
+      "text": "Glean's business-case training recommends anchoring calculations in company-specific data, such as a short survey of the people who do the work, rather than generic benchmarks. For time savings, it advises acknowledging that value conversion is imperfect and using conservative recapture rates alongside the survey data. A customer's own numbers are easier for finance to accept and harder to dismiss. Measured From the customer's systems of record Customer estimate From interviews or company surveys Assumption Labeled; must be validated",
+      "source_ids": [
+        "S73"
+      ],
+      "locator": "Use the customer's own data",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S73",
+      "excerpt": "Present multiple ROI scenarios and use company-specific surveys to anchor calculations",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0378",
+      "anchor": "SBP-108-L03#04",
+      "text": "You have ten user survey responses saying the tool \"saves time,\" with no baseline and no operational data. What claim can you defensibly make?",
+      "source_ids": [
+        "S13",
+        "S34"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0379",
+      "anchor": "SBP-108-L03#05",
+      "text": "A directional, self-reported benefit only, for example: \"Ten surveyed users report time savings. This is not yet measured.\" Before presenting any realized financial claim, establish a baseline and corroborate the result with telemetry and system-of-record outcomes, such as handle time in the ticketing system.",
+      "source_ids": [
+        "S13",
+        "S34"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0380",
+      "anchor": "SBP-108-L04#00",
+      "text": "A capacity model is a chain of explicit assumptions. Every link needs a unit and an evidence label, and none should be quietly assumed to be 100%.",
+      "source_ids": [
+        "S13",
+        "S39"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0381",
+      "anchor": "SBP-108-L04#01",
+      "text": "A defensible capacity model accounts for: Population: addressable users. Adoption: the share who actively use the capability. Frequency: events per active user per workday. Time: minutes per event, converted once to hours. Period: workdays per year. Removable share and coverage: how much of the burden Glean can realistically remove, and for what share of events. Recapture: the share of freed capacity that becomes useful business output. Loaded rate: the value of an hour, labeled as capacity value, not cash. Uncertainty: a risk adjustment.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "The inputs",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "The productivity recapture rate (ρ) is the most consequential assumption in any Glean value model.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0382",
+      "anchor": "SBP-108-L04#02",
+      "text": "Glean's Value Playbook calls the productivity recapture rate the most consequential assumption in any value model. It answers this question: of the time Glean saves, how much actually converts into measurable business output? The honest answer is not all of it. Recapture is not the share of users who log in; that is adoption. Ask the business owner for a reallocation plan, meaning what the team will do with the time, before choosing a recapture assumption.",
+      "source_ids": [
+        "S13",
+        "S39"
+      ],
+      "locator": "What recapture means",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0383",
+      "anchor": "SBP-108-L04#03",
+      "text": "If the time-saved input is already measured, for example as minutes saved per event, don't apply a removable-share discount to it again. Check what each input means before applying a factor. Boundary This module's ROI Lab uses fictional values. Glean's internal calculator defaults are not customer facts. Don't present them as the customer's numbers without validation.",
+      "source_ids": [
+        "S13",
+        "S39"
+      ],
+      "locator": "Avoid double discounting",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0384",
+      "anchor": "SBP-108-L04#04",
+      "text": "Each factor narrows the estimate. Apply each one once, in a visible formula. Fictional percentages for illustration. Apply each factor once. Eligible population time % After adoption % After removable share % After recapture %",
+      "source_ids": [
+        "S13",
+        "S39"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0385",
+      "anchor": "SBP-108-L04#05",
+      "text": "A colleague's model is \"users × minutes saved × hourly rate.\" Explain why it is incomplete.",
+      "source_ids": [
+        "S13",
+        "S39"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0386",
+      "anchor": "SBP-108-L04#06",
+      "text": "It leaves out adoption, event frequency, and the time period. It doesn't convert minutes to hours explicitly. It ignores how much of the work is really removable, and assumes 100% recapture with no uncertainty adjustment. Document each input with its evidence label, convert units once, and make sure discounts don't overlap.",
+      "source_ids": [
+        "S13",
+        "S39"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0387",
+      "anchor": "SBP-108-L05#00",
+      "text": "A single number invites false confidence. Show a range, include the real costs, and use sensitivity to find what to validate next.",
+      "source_ids": [
+        "S13",
+        "S39",
+        "S40"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0388",
+      "anchor": "SBP-108-L05#01",
+      "text": "Present conservative, base, and upside scenarios with transparent assumptions. In this module's fictional ROI Lab, the base scenario produces a risk-adjusted annual capacity value of $41,472 against a first-year all-in cost of $30,000. That gives a net first-year modeled value of $11,472 and a net ROI of about 38%. The conservative scenario produces $13,608 of risk-adjusted value, which is below cost. Keep it visible.",
+      "source_ids": [
+        "S13",
+        "S39",
+        "S40"
+      ],
+      "locator": "Show three scenarios",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0389",
+      "anchor": "SBP-108-L05#02",
+      "text": "Net ROI = (benefit − cost) ÷ cost, with benefit and cost over the same period. Benefit/cost multiple = benefit ÷ cost. This is not net ROI. Simple payback (months) = cost ÷ (annual benefit ÷ 12). The ROI Lab uses this simplified form, which gives about 8.7 months in the base case. It is not a full cash-flow or NPV model. Say so before comparing it with a multi-year calculator. Include all the relevant costs: platform, implementation, adoption and enablement, and measurement.",
+      "source_ids": [
+        "S13",
+        "S39",
+        "S40"
+      ],
+      "locator": "Formulas, defined consistently",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0390",
+      "anchor": "SBP-108-L05#03",
+      "text": "If the range is wide, the assumptions that drive it are where validation effort should go. Sensitivity is not a license to pick the most attractive result. Boundary Don't compare an annual benefit with a three-year cost, and don't call a negative-return scenario a success. Preserve the downside result and explain its drivers.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Use sensitivity to decide what to validate",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Every ROI estimate must carry its assumptions, risk adjustments, and evidence tier transparently.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0391",
+      "anchor": "SBP-108-L05#04",
+      "text": "Glean's business-case training recommends presenting multiple ROI scenarios rather than a single number. Showing the conservative case alongside base and upside lets a finance reviewer see how the outcome depends on adoption and recapture, and which assumptions matter most. Fictional values for illustration only. Conservative $M Base $M Upside $M",
+      "source_ids": [
+        "S73"
+      ],
+      "locator": "Show more than one scenario",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0392",
+      "anchor": "SBP-108-L05#05",
+      "text": "The modeled ROI ranges from negative to strongly positive across the three scenarios. Name the first assumptions you would validate.",
+      "source_ids": [
+        "S13",
+        "S39",
+        "S40"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0393",
+      "anchor": "SBP-108-L05#06",
+      "text": "Validate the time burden per event, the active population and adoption, the event frequency, and the recapture rate, with a reallocation plan. Then confirm scope, cost, and the quality guardrails. State clearly whether the modeled benefits are capacity or cash. Keep the downside result in the readout, with an explanation of what would have to be true for each scenario.",
+      "source_ids": [
+        "S13",
+        "S39",
+        "S40"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0394",
+      "anchor": "SBP-108-L06#00",
+      "text": "Value promised in pre-sales has to be provable after go-live. Metric cards make that possible, and they carry the value case into the success plan.",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S34"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0395",
+      "anchor": "SBP-108-L06#01",
+      "text": "Definition | Mean active handle time for password and access cases Unit and cohort | Minutes per case; tier 1 agents in the pilot region Baseline | Four-week sample before rollout (owner: support operations) Target | A hypothesis, set after the baseline is reviewed System of record | Ticketing system timestamps Data owner | Support operations analyst Collection timing | Before go-live, then at 30, 60, and 90 days Quality guardrail | First-contact resolution rate and re-open rate Caveats | Seasonality; case-mix changes; other process changes",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "The metric card",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Pre-sales value is only credible if it creates a measurable path for post-sales proof.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0396",
+      "anchor": "SBP-108-L06#02",
+      "text": "Glean's Value Playbook says pre-sales value is only credible if it creates a measurable path for post-sales proof. The plan should cover success criteria, baselines, instrumentation, customer commitments, the timeline, and the handoff to post-sales teams. Adoption metrics help explain why value is or isn't appearing, but they don't replace the business outcome. Boundary Never use an aspirational target as a baseline. If the data isn't available, record the gap and assign measurement work. Never fabricate a before-and-after comparison.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Carry it forward",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0397",
+      "anchor": "SBP-108-L06#03",
+      "text": "The metric cards you write in the Blueprint should become the measures tracked after go-live. If they're vague, nobody can show at renewal whether the investment worked. Defined in DITL Baseline, owner, and data origin Used in the business case Ranges and assumptions Measured in validation Against agreed criteria Reviewed after go-live Shows value at renewal",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S34"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0398",
+      "anchor": "SBP-108-L06#04",
+      "text": "Complete the baseline field of a metric card when there is no historical timing data at all.",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S34"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0399",
+      "anchor": "SBP-108-L06#05",
+      "text": "Baseline: not yet measured. Owner: support operations. Action: time a sample of the agreed case class for four weeks before rollout, or enable ticket timestamps if they aren't captured. The target stays a hypothesis until the baseline has been reviewed. Track quality guardrails and use comparable cohorts.",
+      "source_ids": [
+        "S13",
+        "S28",
+        "S34"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0400",
+      "anchor": "SBP-108-S999",
+      "text": "Review your artifacts and proceed to the required assessment or capstone submission.",
+      "source_ids": [
+        "S13",
+        "S06",
+        "S19",
+        "S39",
+        "S34"
+      ],
+      "locator": "Assessment design; S55/S56 build framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0401",
+      "anchor": "SBP-108-TEMPLATES",
+      "text": "Reusable templates: A10; A11; A12",
+      "source_ids": [
+        "S13",
+        "S34",
+        "S37",
+        "S39",
+        "S40"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0402",
+      "anchor": "SBP-108-PROMPTS",
+      "text": "Prompt library entries: P06",
+      "source_ids": [
+        "S13",
+        "S39"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0403",
+      "anchor": "SBP-108-ROI",
+      "text": "ROI Lab: transparent capacity model with explicit units (fictional inputs)",
+      "source_ids": [
+        "S13",
+        "S39",
+        "S40"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0404",
+      "anchor": "SBP-108-Q001",
+      "text": "The architecture links problem and evidence to quantified value and realization/measurement.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Section 1: Value Architecture",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0405",
+      "anchor": "SBP-108-Q002",
+      "text": "Capacity value is not automatically a cash saving; cost avoidance or cancelled spend needs its own evidence.",
+      "source_ids": [
+        "S13",
+        "S19"
+      ],
+      "locator": "ROI translation paths; hard/soft/directional distinction",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0406",
+      "anchor": "SBP-108-Q003",
+      "text": "Self-report needs corroboration and cannot alone prove financial impact or attribution.",
+      "source_ids": [
+        "S13",
+        "S34"
+      ],
+      "locator": "Evidence Model; Appendix/glossary conflict",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0407",
+      "anchor": "SBP-108-Q004",
+      "text": "Recapture concerns how freed time is used; adoption and coverage are separate factors.",
+      "source_ids": [
+        "S13",
+        "S39"
+      ],
+      "locator": "Section 6 Recapture; Section 10 ROI Methodology",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0408",
+      "anchor": "SBP-108-Q005",
+      "text": "Net ROI compares net benefit with the same-period investment; units and scope must be consistent.",
+      "source_ids": [
+        "S13",
+        "S39",
+        "S40"
+      ],
+      "locator": "Ranges; risk adjustment; calculator training",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0409",
+      "anchor": "SBP-108-Q006",
+      "text": "An honest gap plus measurement action is preferable to a fabricated baseline.",
+      "source_ids": [
+        "S13",
+        "S34",
+        "S28"
+      ],
+      "locator": "Discovery outputs; measurement and 60/90-day value follow-through",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0410",
+      "anchor": "SBP-108-Q007",
+      "text": "Raw avoidable burden and measured savings are different input definitions; discounts must not overlap silently.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Discovery outputs; measurement and 60/90-day value follow-through",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0411",
+      "anchor": "SBP-108-Q008",
+      "text": "Honest sensitivity and downside evidence protect decision quality and identify what must be validated.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Discovery outputs; measurement and 60/90-day value follow-through",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    }
+  ]
+}

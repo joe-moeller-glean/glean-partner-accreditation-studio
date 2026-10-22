@@ -1,0 +1,225 @@
+{
+  "module_id": "SBP-108",
+  "assets": [
+    {
+      "asset_id": "SBP-108-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    },
+    {
+      "asset_id": "SBP-108-L01-F1-wide",
+      "path": "assets/fig/SBP-108-L01-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Hard, soft, and directional value (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0361",
+        "C-0362",
+        "C-0363",
+        "C-0364",
+        "C-0365",
+        "C-0366",
+        "C-0367"
+      ],
+      "alt": "A comparison of three kinds of value with how each is treated: hard-dollar value, which changes a budget line and can be counted; soft-dollar value, which creates capacity that must be redeployed to count; and directional value, which is real but not yet monetized."
+    },
+    {
+      "asset_id": "SBP-108-L01-F1-narrow",
+      "path": "assets/fig/SBP-108-L01-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Hard, soft, and directional value (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0361",
+        "C-0362",
+        "C-0363",
+        "C-0364",
+        "C-0365",
+        "C-0366",
+        "C-0367"
+      ],
+      "alt": "A comparison of three kinds of value with how each is treated: hard-dollar value, which changes a budget line and can be counted; soft-dollar value, which creates capacity that must be redeployed to count; and directional value, which is real but not yet monetized."
+    },
+    {
+      "asset_id": "SBP-108-L02-F1-wide",
+      "path": "assets/fig/SBP-108-L02-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Four translation paths (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0368",
+        "C-0369",
+        "C-0370",
+        "C-0371",
+        "C-0372",
+        "C-0373"
+      ],
+      "alt": "Four cards showing how capacity can translate into business impact: capacity redeployed to a business metric, cost avoided, revenue accelerated, and risk reduced. Each needs an owner who confirms the link."
+    },
+    {
+      "asset_id": "SBP-108-L02-F1-narrow",
+      "path": "assets/fig/SBP-108-L02-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Four translation paths (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0368",
+        "C-0369",
+        "C-0370",
+        "C-0371",
+        "C-0372",
+        "C-0373"
+      ],
+      "alt": "Four cards showing how capacity can translate into business impact: capacity redeployed to a business metric, cost avoided, revenue accelerated, and risk reduced. Each needs an owner who confirms the link."
+    },
+    {
+      "asset_id": "SBP-108-L03-F1-wide",
+      "path": "assets/fig/SBP-108-L03-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: Three evidence layers (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0374",
+        "C-0375",
+        "C-0376",
+        "C-0377",
+        "C-0378",
+        "C-0379"
+      ],
+      "alt": "Three stacked evidence layers, strongest at the top: measured data from the customer's systems, customer estimates from interviews or surveys, and assumptions that are labeled and still need validation."
+    },
+    {
+      "asset_id": "SBP-108-L03-F1-narrow",
+      "path": "assets/fig/SBP-108-L03-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: Three evidence layers (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0374",
+        "C-0375",
+        "C-0376",
+        "C-0377",
+        "C-0378",
+        "C-0379"
+      ],
+      "alt": "Three stacked evidence layers, strongest at the top: measured data from the customer's systems, customer estimates from interviews or surveys, and assumptions that are labeled and still need validation."
+    },
+    {
+      "asset_id": "SBP-108-L04-F1-wide",
+      "path": "assets/fig/SBP-108-L04-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Bars diagram: How the inputs narrow the estimate (fictional) (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0380",
+        "C-0381",
+        "C-0382",
+        "C-0383",
+        "C-0384",
+        "C-0385",
+        "C-0386"
+      ],
+      "alt": "A bar chart showing a fictional estimate narrowing as each factor is applied: 100 percent of the eligible population's time, 70 percent after adoption, 42 percent after the removable share, and 21 percent after recapture."
+    },
+    {
+      "asset_id": "SBP-108-L04-F1-narrow",
+      "path": "assets/fig/SBP-108-L04-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Bars diagram: How the inputs narrow the estimate (fictional) (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0380",
+        "C-0381",
+        "C-0382",
+        "C-0383",
+        "C-0384",
+        "C-0385",
+        "C-0386"
+      ],
+      "alt": "A bar chart showing a fictional estimate narrowing as each factor is applied: 100 percent of the eligible population's time, 70 percent after adoption, 42 percent after the removable share, and 21 percent after recapture."
+    },
+    {
+      "asset_id": "SBP-108-L05-F1-wide",
+      "path": "assets/fig/SBP-108-L05-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Bars diagram: Three scenarios (fictional) (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0387",
+        "C-0388",
+        "C-0389",
+        "C-0390",
+        "C-0391",
+        "C-0392",
+        "C-0393"
+      ],
+      "alt": "A bar chart of three fictional annual benefit scenarios: conservative at 1.2 million dollars, base at 2.0 million, and upside at 3.1 million. The conservative case is emphasized because it shows whether the decision holds under cautious assumptions."
+    },
+    {
+      "asset_id": "SBP-108-L05-F1-narrow",
+      "path": "assets/fig/SBP-108-L05-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Bars diagram: Three scenarios (fictional) (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0387",
+        "C-0388",
+        "C-0389",
+        "C-0390",
+        "C-0391",
+        "C-0392",
+        "C-0393"
+      ],
+      "alt": "A bar chart of three fictional annual benefit scenarios: conservative at 1.2 million dollars, base at 2.0 million, and upside at 3.1 million. The conservative case is emphasized because it shows whether the decision holds under cautious assumptions."
+    },
+    {
+      "asset_id": "SBP-108-L06-F1-wide",
+      "path": "assets/fig/SBP-108-L06-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: The metric card's lifecycle (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0394",
+        "C-0395",
+        "C-0396",
+        "C-0397",
+        "C-0398",
+        "C-0399"
+      ],
+      "alt": "A four-step lifecycle for a metric card: defined in DITL, used in the executive business case, measured during validation, and reviewed after go-live."
+    },
+    {
+      "asset_id": "SBP-108-L06-F1-narrow",
+      "path": "assets/fig/SBP-108-L06-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: The metric card's lifecycle (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0394",
+        "C-0395",
+        "C-0396",
+        "C-0397",
+        "C-0398",
+        "C-0399"
+      ],
+      "alt": "A four-step lifecycle for a metric card: defined in DITL, used in the executive business case, measured during validation, and reviewed after go-live."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "SBP-200-L06",
+  "lesson": "SBP-200-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Self-audit, assessor review and remediation",
+  "nav": "6. Self-audit, assessor review and remediation",
+  "objective": "Complete the submission manifest and explain one corrected weakness.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The capstone is assessed by a qualified person using a published rubric and critical gates. Audit your own work against them before you submit."
+    },
+    {
+      "t": "h3",
+      "x": "The rubric (proposed)"
+    },
+    {
+      "t": "table",
+      "caption": "Capstone rubric dimensions",
+      "head": [
+        "Dimension",
+        "Points"
+      ],
+      "rows": [
+        [
+          "Preparation and value hypothesis",
+          "10"
+        ],
+        [
+          "Visioning facilitation",
+          "10"
+        ],
+        [
+          "Use-case inventory and prioritization",
+          "15"
+        ],
+        [
+          "Current-state workflow evidence",
+          "10"
+        ],
+        [
+          "Future-state feasibility and controls",
+          "10"
+        ],
+        [
+          "Business value model and uncertainty",
+          "20"
+        ],
+        [
+          "Executive decision story",
+          "10"
+        ],
+        [
+          "Validation path and MAP",
+          "10"
+        ],
+        [
+          "Handoff, sources, and responsible AI",
+          "5"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "The critical gates"
+    },
+    {
+      "t": "p",
+      "x": "Each gate must pass regardless of the score:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**G01:** no fabricated customer facts, results, or sources.",
+        "**G02:** safe data and access handling.",
+        "**G03:** no unauthorized deployment or commercial commitment.",
+        "**G04:** complete core evidence: the prioritized log, two workflow pairs, the value model, the metric plan, the readout, and the MAP.",
+        "**G05:** material financial and technical integrity, with no uncorrected unit, formula, double-counting, or capability errors."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "The proposed pass rule is at least 80 out of 100, with every critical gate passed and every dimension scored. That threshold still needs program-owner approval before launch."
+    },
+    {
+      "t": "h3",
+      "x": "Review and remediation"
+    },
+    {
+      "t": "p",
+      "x": "A qualified human assessor scores the evidence and records feedback. A second reviewer calibrates borderline scores. If you fall short, fix the specific weakness and resubmit a versioned pack. Assessors keep comments, the score history, and an appeal route. AI can help with review, but it cannot be the sole authority for issuing a credential."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A critical gate failure means remediation, whatever the overall score."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "Review and remediation",
+      "alt": "A four-step review path: self-audit against the rubric, assessor review, a critical-gate check, then either pass or remediate and resubmit. A failed critical gate requires remediation regardless of the score.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Self-audit",
+          "detail": "Against the rubric",
+          "emph": false
+        },
+        {
+          "label": "Assessor review",
+          "detail": "Scored with evidence",
+          "emph": false
+        },
+        {
+          "label": "Critical-gate check",
+          "detail": "Any failure means remediation",
+          "emph": true
+        },
+        {
+          "label": "Pass or remediate",
+          "detail": "Resubmit with fixes",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Your capstone scores 86, but it includes a screenshot that exposes restricted data. What is the outcome?"
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Not passed. Critical gate G02 has failed, and a high score can't compensate for it. Remove the sensitive data, follow the approved remediation, document the correction, and resubmit for the safe-handling review and reassessment of the affected sections."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 322,
+  "eyebrow": "Lesson 6 · about 6 min",
+  "claims": [
+    "C-0691",
+    "C-0692",
+    "C-0693",
+    "C-0694",
+    "C-0695",
+    "C-0696",
+    "C-0697"
+  ],
+  "sources": [
+    "S54",
+    "S55",
+    "S56"
+  ]
+}

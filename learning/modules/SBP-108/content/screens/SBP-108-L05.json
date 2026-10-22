@@ -1,0 +1,125 @@
+{
+  "id": "SBP-108-L05",
+  "lesson": "SBP-108-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Ranges, costs and sensitivity",
+  "nav": "5. Ranges, costs and sensitivity",
+  "objective": "Name the first assumptions to validate when the ROI range changes widely.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A single number invites false confidence. Show a range, include the real costs, and use sensitivity to find what to validate next."
+    },
+    {
+      "t": "h3",
+      "x": "Show three scenarios"
+    },
+    {
+      "t": "p",
+      "x": "Present **conservative**, **base**, and **upside** scenarios with transparent assumptions. In this module's fictional ROI Lab, the base scenario produces a risk-adjusted annual capacity value of $41,472 against a first-year all-in cost of $30,000. That gives a net first-year modeled value of $11,472 and a net ROI of about 38%. The conservative scenario produces $13,608 of risk-adjusted value, which is below cost. Keep it visible."
+    },
+    {
+      "t": "h3",
+      "x": "Formulas, defined consistently"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Net ROI** = (benefit − cost) ÷ cost, with benefit and cost over the same period.",
+        "**Benefit/cost multiple** = benefit ÷ cost. This is not net ROI.",
+        "**Simple payback (months)** = cost ÷ (annual benefit ÷ 12). The ROI Lab uses this simplified form, which gives about 8.7 months in the base case. It is not a full cash-flow or NPV model. Say so before comparing it with a multi-year calculator."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Include all the relevant costs: platform, implementation, adoption and enablement, and measurement."
+    },
+    {
+      "t": "h3",
+      "x": "Use sensitivity to decide what to validate"
+    },
+    {
+      "t": "p",
+      "x": "If the range is wide, the assumptions that drive it are where validation effort should go. Sensitivity is not a license to pick the most attractive result."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't compare an annual benefit with a three-year cost, and don't call a negative-return scenario a success. Preserve the downside result and explain its drivers."
+    },
+    {
+      "t": "h3",
+      "x": "Show more than one scenario"
+    },
+    {
+      "t": "p",
+      "x": "Glean's business-case training recommends presenting multiple ROI scenarios rather than a single number. Showing the conservative case alongside base and upside lets a finance reviewer see how the outcome depends on adoption and recapture, and which assumptions matter most."
+    },
+    {
+      "t": "figure",
+      "kind": "bars",
+      "title": "Three scenarios (fictional)",
+      "alt": "A bar chart of three fictional annual benefit scenarios: conservative at 1.2 million dollars, base at 2.0 million, and upside at 3.1 million. The conservative case is emphasized because it shows whether the decision holds under cautious assumptions.",
+      "caption": "Fictional values for illustration only.",
+      "items": [
+        {
+          "label": "Conservative",
+          "value": 1.2,
+          "note": "$M",
+          "emph": true
+        },
+        {
+          "label": "Base",
+          "value": 2.0,
+          "note": "$M",
+          "emph": false
+        },
+        {
+          "label": "Upside",
+          "value": 3.1,
+          "note": "$M",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "The modeled ROI ranges from negative to strongly positive across the three scenarios. Name the first assumptions you would validate."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Validate the time burden per event, the active population and adoption, the event frequency, and the recapture rate, with a reallocation plan. Then confirm scope, cost, and the quality guardrails."
+    },
+    {
+      "t": "p",
+      "x": "State clearly whether the modeled benefits are capacity or cash. Keep the downside result in the readout, with an explanation of what would have to be true for each scenario."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 370,
+  "eyebrow": "Lesson 5 · about 6 min",
+  "claims": [
+    "C-0387",
+    "C-0388",
+    "C-0389",
+    "C-0390",
+    "C-0391",
+    "C-0392",
+    "C-0393"
+  ],
+  "sources": [
+    "S13",
+    "S39",
+    "S40",
+    "S73"
+  ]
+}

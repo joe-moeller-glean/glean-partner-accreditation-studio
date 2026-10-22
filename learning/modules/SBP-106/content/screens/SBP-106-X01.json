@@ -1,0 +1,56 @@
+{
+  "id": "SBP-106-X01",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Templates",
+  "title": "Templates for this module",
+  "nav": "Templates",
+  "body": "Copy-ready structures you can reuse in your own engagements. Examples are fictional.",
+  "cards": [
+    {
+      "tag": "A06",
+      "title": "Prioritized use case log",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Use case ID, outcome, persona, trigger, current workflow, pain, data, reach/frequency, impact/rationale, effort/rationale, uncertainty, business owner, technical owner, metric, next action"
+        },
+        {
+          "label": "Fictional example",
+          "text": "UC-01: find approved case guidance; support agent; ITSM + knowledge; impact high, effort pending permission/content review."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Each top case has evidence, uncertainty and owners; no generic agent wishlist."
+        }
+      ]
+    },
+    {
+      "tag": "A07",
+      "title": "Impact-effort matrix",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Use case ID, impact H/M/L, effort H/M/L, quadrant, evidence, disputed assumption, sponsor agreement, revisit condition"
+        },
+        {
+          "label": "Fictional example",
+          "text": "High impact + low effort → Quick win; high/high → Strategic bet; low/low → Nice-to-have; low/high → Deprioritize."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Axes correctly labeled; IDs match the log; medium ratings discussed directionally, not mechanically forced."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0297"
+  ],
+  "sources": [
+    "S02",
+    "S05",
+    "S26"
+  ],
+  "required": true
+}

@@ -1,0 +1,117 @@
+{
+  "id": "SBP-107-L05",
+  "lesson": "SBP-107-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Playback, correction and validation",
+  "nav": "5. Playback, correction and validation",
+  "objective": "Decide whether a workflow with disputed permissions needs a playback.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A playback reviews the maps with the customer before they reach the executive. Use it when it resolves a specific uncertainty. Don't add one by default."
+    },
+    {
+      "t": "h3",
+      "x": "When a playback helps"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Blueprint process pairs DITL interviews with a playback. A playback is worth its time when:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The future state can't be responsibly finalized live.",
+        "Several teams need to agree on the same workflow.",
+        "A targeted demonstration can resolve a specific question, such as whether permissions behave as expected."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "How to run it"
+    },
+    {
+      "t": "p",
+      "x": "Show the current and proposed work side by side. Call out the assumptions. Demonstrate only the prioritized tasks needed to test the hypothesis. Ask directly: \"What is wrong or missing?\" Record the customer's corrections in the log, with the date and who made them."
+    },
+    {
+      "t": "h3",
+      "x": "Avoid endless demo loops"
+    },
+    {
+      "t": "p",
+      "x": "A playback is not a required extra meeting in every deal. Each playback or demo should have a defined question, an owner, and a decision date. If it doesn't, it's a delay, not validation."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A playback is for correction. Show the map, ask what's wrong, and record every change."
+    },
+    {
+      "t": "figure",
+      "kind": "cycle",
+      "title": "The playback loop",
+      "alt": "A three-step loop: show the mapped workflow to the people who do the work, collect corrections, and update the map and log, then repeat until the owners confirm it.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Show the map",
+          "detail": "To the people who do the work",
+          "emph": false
+        },
+        {
+          "label": "Collect corrections",
+          "detail": "Steps, times, systems, exceptions",
+          "emph": false
+        },
+        {
+          "label": "Update and log",
+          "detail": "Record what changed and why",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Workflow owners disagree about whether agents can see certain restricted case notes. Decide whether a playback is needed."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Yes, if a targeted playback or technical review can resolve the permission dependency and the future-state claim. Define the evidence that will close the question in advance. For example: \"Test with two agent accounts on restricted and unrestricted cases, and confirm results with the platform owner.\""
+    },
+    {
+      "t": "p",
+      "x": "If a short clarification call with the platform owner would settle it, do that instead."
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 285,
+  "eyebrow": "Lesson 5 · about 5 min",
+  "claims": [
+    "C-0336",
+    "C-0337",
+    "C-0338",
+    "C-0339",
+    "C-0340",
+    "C-0341",
+    "C-0342"
+  ],
+  "sources": [
+    "S02",
+    "S04",
+    "S18",
+    "S22"
+  ]
+}

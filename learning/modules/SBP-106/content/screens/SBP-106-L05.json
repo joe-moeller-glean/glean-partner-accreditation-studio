@@ -1,0 +1,155 @@
+{
+  "id": "SBP-106-L05",
+  "lesson": "SBP-106-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Run the impact-versus-effort matrix",
+  "nav": "5. Run the impact-versus-effort matrix",
+  "objective": "Place a high-reach workflow requiring an unverified custom connector.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The 2x2 matrix makes prioritization visible and fast. It is a tool for directional agreement, not a calculator."
+    },
+    {
+      "t": "h3",
+      "x": "The four quadrants"
+    },
+    {
+      "t": "table",
+      "caption": "Impact vs. effort quadrants",
+      "head": [
+        "Quadrant",
+        "Impact",
+        "Effort",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "Quick wins",
+          "High",
+          "Low",
+          "Prime candidates for the first wave"
+        ],
+        [
+          "Strategic bets",
+          "High",
+          "High",
+          "Select one or two for deeper discovery and phasing"
+        ],
+        [
+          "Nice-to-haves",
+          "Low",
+          "Low",
+          "Keep for later; don't let them crowd out quick wins"
+        ],
+        [
+          "Deprioritize",
+          "Low",
+          "High",
+          "Park, with reasons"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Five steps, live with the customer"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "**Review the list** in the shared document.",
+        "**Score quickly:** high, medium, or low for impact and effort.",
+        "**Place on the grid** as text boxes or sticky notes.",
+        "**Highlight picks:** two or three quick wins and one or two bets, where appropriate. These counts are guidance, not a rule.",
+        "**Validate with the sponsor:** \"Does this reflect where to start?\""
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Keep each use case's evidence and rationale next to the visual."
+    },
+    {
+      "t": "h3",
+      "x": "The matrix is not ROI"
+    },
+    {
+      "t": "p",
+      "x": "A matrix is not a numerical ROI calculation. New evidence can and should move a use case. Never hide a connector blocker to keep a favorite in the quick-win quadrant."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Score live with the customer, then validate the picks with the sponsor. The matrix ranks options; it is not an ROI model."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "Running the matrix live",
+      "alt": "Five steps for running the impact/effort matrix with the customer: review the list, score quickly, place each item on the grid, highlight the picks, and validate them with the sponsor.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Review the list",
+          "detail": "Confirm each row is specific",
+          "emph": false
+        },
+        {
+          "label": "Score quickly",
+          "detail": "Impact and effort, with reasons",
+          "emph": false
+        },
+        {
+          "label": "Place on the grid",
+          "detail": "Make disagreements visible",
+          "emph": false
+        },
+        {
+          "label": "Highlight picks",
+          "detail": "A small first wave",
+          "emph": false
+        },
+        {
+          "label": "Validate with the sponsor",
+          "detail": "Agreement, not assumption",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A workflow has very high reach, but it depends on a custom connector that nobody has verified. Where do you place it?"
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Not in quick wins. Treat it as a strategic bet, or mark its effort as unresolved. Assign feasibility discovery for the connector. Consider a narrower first wave that uses sources already available, for example the same workflow limited to content in reachable systems, while the connector question is answered."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 316,
+  "eyebrow": "Lesson 5 · about 6 min",
+  "claims": [
+    "C-0283",
+    "C-0284",
+    "C-0285",
+    "C-0286",
+    "C-0287",
+    "C-0288",
+    "C-0289"
+  ],
+  "sources": [
+    "S02",
+    "S05"
+  ]
+}

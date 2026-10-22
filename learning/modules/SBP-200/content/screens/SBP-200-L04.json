@@ -1,0 +1,179 @@
+{
+  "id": "SBP-200-L04",
+  "lesson": "SBP-200-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Build and defend the value case",
+  "nav": "4. Build and defend the value case",
+  "objective": "Submit the model, assumption log, metric cards and a short sensitivity explanation.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The value case is worth the most points on the rubric. It must be reproducible, honest about uncertainty, and clear about what kind of value it shows."
+    },
+    {
+      "t": "h3",
+      "x": "The base assumptions"
+    },
+    {
+      "t": "table",
+      "caption": "Base modeling assumptions (fictional training inputs)",
+      "head": [
+        "Input",
+        "Base value"
+      ],
+      "rows": [
+        [
+          "Addressable support users",
+          "200"
+        ],
+        [
+          "Adoption",
+          "50%"
+        ],
+        [
+          "Events per active user per workday",
+          "2"
+        ],
+        [
+          "Workdays per year",
+          "240"
+        ],
+        [
+          "Avoidable burden per event",
+          "8 minutes"
+        ],
+        [
+          "Removable fraction",
+          "60%"
+        ],
+        [
+          "Relevant coverage",
+          "80%"
+        ],
+        [
+          "Recapture",
+          "25%"
+        ],
+        [
+          "Loaded rate",
+          "$60 per hour (capacity value)"
+        ],
+        [
+          "Risk adjustment",
+          "10%"
+        ],
+        [
+          "First-year all-in cost",
+          "$30,000"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "x": "These numbers illustrate explicit modeling. They aren't Glean's approved defaults, pricing, or actual results. The ROI Lab reproduces them: risk-adjusted capacity value of $41,472 in the base case, against $30,000 of cost."
+    },
+    {
+      "t": "h3",
+      "x": "What to explain"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Units:** convert minutes to hours once, and annualize explicitly.",
+        "**Adoption versus population**, and coverage versus removable fraction. Confirm the eight minutes is a raw burden, not an already-measured saving, so that you don't discount it twice.",
+        "**Recapture** tied to the support manager's proposal to redeploy capacity to backlog reduction. No headcount reduction or avoided hire has been approved, so the benefit is directional capacity, not cash.",
+        "**Conservative, base, and upside** scenarios. The conservative case is below cost, and it stays visible.",
+        "**Sensitivity:** which inputs drive the range, and how you will validate them.",
+        "**Metric cards:** the cohort, a baseline plan (no timing sample exists yet), the owner, and a quality guardrail."
+      ]
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't add a sales benefit to the support total until sales frequency, adoption, and overlap are validated. Don't guarantee any financial outcome."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "The defense matters as much as the number. Expect questions on each of these six points."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "What the value defense must explain",
+      "alt": "Six cards naming what the capstone value defense must explain: units, adoption versus population, recapture, the three scenarios, sensitivity, and metric cards.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Units",
+          "detail": "Minutes, hours, and days converted once",
+          "emph": false
+        },
+        {
+          "label": "Adoption versus population",
+          "detail": "Not everyone uses it",
+          "emph": false
+        },
+        {
+          "label": "Recapture",
+          "detail": "Saved time isn't all redeployed",
+          "emph": false
+        },
+        {
+          "label": "Three scenarios",
+          "detail": "Conservative, base, and upside",
+          "emph": true
+        },
+        {
+          "label": "Sensitivity",
+          "detail": "Which input matters most",
+          "emph": false
+        },
+        {
+          "label": "Metric cards",
+          "detail": "How each claim will be measured",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Explain why the conservative scenario should stay in the executive readout even though it shows a negative return."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "It shows the sponsor what would have to be true for the investment not to pay back, for example low adoption and low recapture. That points directly to what the validation must test."
+    },
+    {
+      "t": "p",
+      "x": "Removing it would overstate confidence and undermine credibility with finance. The recommendation should explain how the validation and reallocation plan reduce that downside risk."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 388,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0679",
+    "C-0680",
+    "C-0681",
+    "C-0682",
+    "C-0683",
+    "C-0684"
+  ],
+  "sources": [
+    "S13",
+    "S39"
+  ]
+}

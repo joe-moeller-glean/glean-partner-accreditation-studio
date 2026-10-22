@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-200",
+  "mastery_score": 80,
+  "draw": 0,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-200-Q001",
+      "objective_id": "SBP-200-L01",
+      "module_id": "SBP-200",
+      "stem": "Which capstone fact can be treated as an actual customer's measured result?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Any AI-generated replacement value."
+        },
+        {
+          "id": "b",
+          "text": "Every number in the scenario is a verified Glean customer result."
+        },
+        {
+          "id": "c",
+          "text": "Any peer result found online."
+        },
+        {
+          "id": "d",
+          "text": "None; scenario inputs are fictional training data with specified evidence labels."
+        }
+      ],
+      "claims": [
+        "C-0703"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-200-Q002",
+      "objective_id": "SBP-200-L02",
+      "module_id": "SBP-200",
+      "stem": "What makes the capstone Visioning output defensible?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Outcome-led priorities with evidence/rationale, uncertainty, owners and an explicit simulated decision."
+        },
+        {
+          "id": "b",
+          "text": "The highest slide count."
+        },
+        {
+          "id": "c",
+          "text": "A list of agent names chosen before discovery."
+        },
+        {
+          "id": "d",
+          "text": "A claim that every idea is a quick win."
+        }
+      ],
+      "claims": [
+        "C-0704"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-200-Q003",
+      "objective_id": "SBP-200-L03",
+      "module_id": "SBP-200",
+      "stem": "How many prioritized workflows must be mapped in the proposed capstone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only one generic diagram with no actor or data."
+        },
+        {
+          "id": "b",
+          "text": "Two current/future workflow pairs with assumptions and controls."
+        },
+        {
+          "id": "c",
+          "text": "Zero; the ROI headline is enough."
+        },
+        {
+          "id": "d",
+          "text": "Every imaginable department in the company."
+        }
+      ],
+      "claims": [
+        "C-0705"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-200-Q004",
+      "objective_id": "SBP-200-L04",
+      "module_id": "SBP-200",
+      "stem": "Which capstone value model should pass review?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A peer result labeled as this customer's actual."
+        },
+        {
+          "id": "b",
+          "text": "Traceable units and assumptions, ranges, costs, evidence labels and double-count controls."
+        },
+        {
+          "id": "c",
+          "text": "An optimistic number with no formula."
+        },
+        {
+          "id": "d",
+          "text": "A model that deletes negative scenarios."
+        }
+      ],
+      "claims": [
+        "C-0706"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-200-Q005",
+      "objective_id": "SBP-200-L05",
+      "module_id": "SBP-200",
+      "stem": "The simulated sponsor asks for a pilot. What should the learner do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Say a pilot is impossible under all circumstances."
+        },
+        {
+          "id": "b",
+          "text": "Promise deployment immediately."
+        },
+        {
+          "id": "c",
+          "text": "Treat the role-play request as real approval."
+        },
+        {
+          "id": "d",
+          "text": "Clarify the decision, evaluate lighter options and state readiness/approval requirements if a pilot is needed."
+        }
+      ],
+      "claims": [
+        "C-0707"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-200-Q006",
+      "objective_id": "SBP-200-L06",
+      "module_id": "SBP-200",
+      "stem": "A capstone scores 86 but has a critical unsafe-data gate failure. What is the proposed outcome?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automatic pass because the total exceeds 80."
+        },
+        {
+          "id": "b",
+          "text": "Ignore all critical gates if presentation is strong."
+        },
+        {
+          "id": "c",
+          "text": "Issue a certificate and conceal the failure."
+        },
+        {
+          "id": "d",
+          "text": "Not passed until the critical issue is remediated and reassessed."
+        }
+      ],
+      "claims": [
+        "C-0708"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-200-Q007",
+      "objective_id": "SBP-200-L06",
+      "module_id": "SBP-200",
+      "stem": "Can an AI reviewer alone issue the proposed credential?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No; a qualified human assessor and approved program governance are required."
+        },
+        {
+          "id": "b",
+          "text": "Yes; any confident narrative equals certification."
+        },
+        {
+          "id": "c",
+          "text": "Yes; a ZIP checksum proves proficiency."
+        },
+        {
+          "id": "d",
+          "text": "Yes; SCORM completion replaces the practical rubric."
+        }
+      ],
+      "claims": [
+        "C-0709"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-200-Q008",
+      "objective_id": "SBP-200-L06",
+      "module_id": "SBP-200",
+      "stem": "What belongs in the final submission manifest?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only an unlinked video file."
+        },
+        {
+          "id": "b",
+          "text": "Only a course attendance screenshot."
+        },
+        {
+          "id": "c",
+          "text": "Only the learner's preferred certificate title."
+        },
+        {
+          "id": "d",
+          "text": "Artifact IDs, versions, evidence paths, assumption/source references and review/remediation record."
+        }
+      ],
+      "claims": [
+        "C-0710"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

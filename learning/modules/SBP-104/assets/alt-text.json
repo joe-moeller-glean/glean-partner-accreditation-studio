@@ -1,0 +1,17 @@
+{
+  "by_asset_id": {
+    "SBP-104-LOGO": "Glean",
+    "SBP-104-L01-F1-wide": "Four cards for the four kinds of account evidence: customer statements, which are the strongest; public research, which needs a date; internal hypotheses, which must be validated; and unknowns, which become open questions with owners.",
+    "SBP-104-L01-F1-narrow": "Four cards for the four kinds of account evidence: customer statements, which are the strongest; public research, which needs a date; internal hypotheses, which must be validated; and unknowns, which become open questions with owners.",
+    "SBP-104-L02-F1-wide": "A three-step sequence: why change, which names the business problem and its cost; why now, which names the trigger and deadline; and why Glean, which names the differentiators that matter for this problem.",
+    "SBP-104-L02-F1-narrow": "A three-step sequence: why change, which names the business problem and its cost; why now, which names the trigger and deadline; and why Glean, which names the differentiators that matter for this problem.",
+    "SBP-104-L03-F1-wide": "Four stacked metrics for a fictional support team: mean handle time for efficiency, first-contact resolution as a quality guardrail, escalation rate for quality and cost, and cost per resolved case for the financial view.",
+    "SBP-104-L03-F1-narrow": "Four stacked metrics for a fictional support team: mean handle time for efficiency, first-contact resolution as a quality guardrail, escalation rate for quality and cost, and cost per resolved case for the financial view.",
+    "SBP-104-L04-F1-wide": "A comparison of the three readiness decisions with when each applies: go when the sponsor, priorities, and attendees are confirmed; narrow when only part of the scope is ready; reschedule when the decision-makers or business owners can't attend.",
+    "SBP-104-L04-F1-narrow": "A comparison of the three readiness decisions with when each applies: go when the sponsor, priorities, and attendees are confirmed; narrow when only part of the scope is ready; reschedule when the decision-makers or business owners can't attend.",
+    "SBP-104-L05-F1-wide": "A five-part agenda: welcome and purpose for 5 minutes, context and outcomes for 10, opportunity discovery for 20, prioritization for 20, and commitments for 5.",
+    "SBP-104-L05-F1-narrow": "A five-part agenda: welcome and purpose for 5 minutes, context and outcomes for 10, opportunity discovery for 20, prioritization for 20, and commitments for 5.",
+    "SBP-104-L06-F1-wide": "Three moments to rehearse before Visioning: the opening, which states purpose and the decision; one diagnostic question, asked about a real recent example; and the transition to prioritization, which moves from ideas to choices.",
+    "SBP-104-L06-F1-narrow": "Three moments to rehearse before Visioning: the opening, which states purpose and the decision; one diagnostic question, asked about a real recent example; and the transition to prioritization, which moves from ideas to choices."
+  }
+}

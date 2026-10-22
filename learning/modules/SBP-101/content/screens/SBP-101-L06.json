@@ -1,0 +1,134 @@
+{
+  "id": "SBP-101-L06",
+  "lesson": "SBP-101-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Quality gates and scope of this course",
+  "nav": "6. Quality gates and scope of this course",
+  "objective": "Audit a draft containing only a demo deck and a projected savings headline.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A Blueprint is judged by the decision it enables, not by the number of meetings held. Use the checklist below before any executive readout. This course asks you to produce these outputs and show the evidence behind them."
+    },
+    {
+      "t": "h3",
+      "x": "What a credible Blueprint contains"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "A documented outcome hypothesis, tied to a named business priority and a business owner.",
+        "Prioritized workflows, with the rationale for impact and effort.",
+        "Current-state and future-state workflow maps for each prioritized use case.",
+        "Transparent value assumptions, labeled by evidence type, with risk adjustments.",
+        "Success criteria and a plan for the baseline, meaning how and when the \"before\" will be measured.",
+        "A recommended validation path that is the lightest option able to answer the customer's open questions.",
+        "An agreed next decision, with owners and dates in a mutual action plan."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Evidence standards"
+    },
+    {
+      "t": "p",
+      "x": "Pre-sales value is only credible if there is a measurable path to prove it later. Every claim should name the evidence that will validate it. Survey data alone is directional. Corroborate it with system data or product telemetry where you can. A missing baseline is an action to resolve, not a number to invent."
+    },
+    {
+      "t": "callout",
+      "label": "Audit habit",
+      "x": "Before the executive readout, check that every top use case has a business owner, its data dependencies, a baseline plan, and a value rationale. Treat any gap as an open action with an owner."
+    },
+    {
+      "t": "h3",
+      "x": "Scope of this course"
+    },
+    {
+      "t": "p",
+      "x": "This preview teaches and assesses the outputs above using fictional scenarios. It requires evidence, not attendance alone: each module ends with a check, and the practical is scored by a qualified human assessor. The proposed credential name, AI Sales Blueprinting Specialist (AISBS), and its pass rules are instructional-design proposals. They are not approved Glean policy, and the program owner must confirm them before release."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A credible Blueprint holds up when someone who wasn't in the room reads it. Use these four checks before any readout."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Four quality checks for a Blueprint",
+      "alt": "Four cards listing the quality checks: priorities agreed with named business owners, workflows mapped from real interviews, value estimated with labeled evidence, and an executive decision with a defined next step.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Agreed priorities",
+          "detail": "Ranked with named business owners",
+          "emph": false
+        },
+        {
+          "label": "Real workflows",
+          "detail": "Mapped from interviews, not assumptions",
+          "emph": false
+        },
+        {
+          "label": "Labeled value",
+          "detail": "Ranges, assumptions, and evidence levels",
+          "emph": false
+        },
+        {
+          "label": "A decision",
+          "detail": "Executive commitment and a defined next step",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A colleague's draft for an executive readout contains only a demo deck and a headline: \"Projected savings: $2M per year.\" Audit it. What would you return, and what must be added?"
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Return it for completion. A demo alone is not a business case, and the savings headline has no stated assumptions, evidence, or owner. Add:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The prioritized workflows, with current-state and future-state evidence from DITL.",
+        "Named business and technical owners.",
+        "The value model with each assumption labeled by evidence type, plus a risk adjustment.",
+        "A measurement plan, including the baseline.",
+        "The sponsor decision being requested, the recommended validation path, and the mutual action plan."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 450,
+  "eyebrow": "Lesson 6 · about 6 min",
+  "claims": [
+    "C-0035",
+    "C-0036",
+    "C-0037",
+    "C-0038",
+    "C-0039",
+    "C-0040",
+    "C-0041"
+  ],
+  "sources": [
+    "S02",
+    "S13",
+    "S14",
+    "S54",
+    "S55"
+  ]
+}

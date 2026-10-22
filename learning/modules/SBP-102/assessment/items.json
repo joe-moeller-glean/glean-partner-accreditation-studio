@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-102",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-102-Q001",
+      "objective_id": "SBP-102-L01",
+      "module_id": "SBP-102",
+      "stem": "Which activities primarily occur in Stage 2 in the referenced sales motion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only renewal pricing negotiations."
+        },
+        {
+          "id": "b",
+          "text": "Contract signature and booked revenue recognition."
+        },
+        {
+          "id": "c",
+          "text": "Visioning and DITL use case mapping."
+        },
+        {
+          "id": "d",
+          "text": "Production incident remediation."
+        }
+      ],
+      "claims": [
+        "C-0092"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q002",
+      "objective_id": "SBP-102-L02",
+      "module_id": "SBP-102",
+      "stem": "A workshop happened but no priorities or owners were captured. What is the right action?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resolve the missing evidence before claiming the gate is complete."
+        },
+        {
+          "id": "b",
+          "text": "Move the stage because the meeting occurred."
+        },
+        {
+          "id": "c",
+          "text": "Invent plausible priorities in the CRM."
+        },
+        {
+          "id": "d",
+          "text": "Launch a pilot to discover the priorities later."
+        }
+      ],
+      "claims": [
+        "C-0093"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q003",
+      "objective_id": "SBP-102-L03",
+      "module_id": "SBP-102",
+      "stem": "What is a core Stage 3 decision?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Authorize all future custom development."
+        },
+        {
+          "id": "b",
+          "text": "Prove that procurement is automatically complete."
+        },
+        {
+          "id": "c",
+          "text": "Confirm executive sponsorship, success criteria and the validation path."
+        },
+        {
+          "id": "d",
+          "text": "Choose the slide theme for a generic demo."
+        }
+      ],
+      "claims": [
+        "C-0094"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q004",
+      "objective_id": "SBP-102-L04",
+      "module_id": "SBP-102",
+      "stem": "Which Blueprint artifact most directly supports the Metrics dimension of MEDDPICCS?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An unverified list of competitor logos."
+        },
+        {
+          "id": "b",
+          "text": "A metric card with definition, baseline plan, target, source and owner."
+        },
+        {
+          "id": "c",
+          "text": "A generic product overview."
+        },
+        {
+          "id": "d",
+          "text": "A meeting invite without notes."
+        }
+      ],
+      "claims": [
+        "C-0095"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q005",
+      "objective_id": "SBP-102-L05",
+      "module_id": "SBP-102",
+      "stem": "A strong use case lacks a baseline owner. Which recovery is best?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ignore the issue if the demo is impressive."
+        },
+        {
+          "id": "b",
+          "text": "Restart every workshop with a larger audience."
+        },
+        {
+          "id": "c",
+          "text": "Use an industry average as the measured customer baseline."
+        },
+        {
+          "id": "d",
+          "text": "Assign the customer data owner and a focused measurement-design action."
+        }
+      ],
+      "claims": [
+        "C-0096"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q006",
+      "objective_id": "SBP-102-L06",
+      "module_id": "SBP-102",
+      "stem": "A sponsor accepts value, but security and signing authority are unresolved. How should the MAP treat them?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mark them complete because value was accepted."
+        },
+        {
+          "id": "b",
+          "text": "Separate workstreams with named owners, dependencies and decision dates."
+        },
+        {
+          "id": "c",
+          "text": "Hide them until after deployment."
+        },
+        {
+          "id": "d",
+          "text": "Assign them to the AI drafting tool without review."
+        }
+      ],
+      "claims": [
+        "C-0097"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q007",
+      "objective_id": "SBP-102-L06",
+      "module_id": "SBP-102",
+      "stem": "Which statement about the referenced CRM stages is safest to publish to partners?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Older enablement decks override the live process."
+        },
+        {
+          "id": "b",
+          "text": "Teach the business gates and revalidate dated internal labels and navigation."
+        },
+        {
+          "id": "c",
+          "text": "Every current Salesforce field is permanently fixed."
+        },
+        {
+          "id": "d",
+          "text": "A partner may self-approve any internal stage gate."
+        }
+      ],
+      "claims": [
+        "C-0098"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-102-Q008",
+      "objective_id": "SBP-102-L06",
+      "module_id": "SBP-102",
+      "stem": "Who should resolve a missing sponsor path before expensive validation work?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The customer support queue alone."
+        },
+        {
+          "id": "b",
+          "text": "The SCORM runtime automatically."
+        },
+        {
+          "id": "c",
+          "text": "The account team, with AE ownership of sponsor access and qualification."
+        },
+        {
+          "id": "d",
+          "text": "The learner by inventing an Economic Buyer."
+        }
+      ],
+      "claims": [
+        "C-0099"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "SBP-113-L02",
+  "lesson": "SBP-113-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Handle 'just give us a pilot'",
+  "nav": "2. Handle 'just give us a pilot'",
+  "objective": "Role-play a champion who says workshops are a delay.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The loudest voice in the room isn't always the best evidence. Structure the session so that every relevant role contributes."
+    },
+    {
+      "t": "h3",
+      "x": "Keep groups focused"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Visioning playbook recommends small sessions, ideally one to three participants, to encourage candor and focus, with additional sessions by line of business if needed. When a larger group can't be avoided:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Use structured turns, so each role answers the same question.",
+        "Ask for silent writing before discussion.",
+        "Invite specific roles: \"What does this look like for a new agent?\"",
+        "Run separate, role-specific follow-ups."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Dominance and the parking lot"
+    },
+    {
+      "t": "p",
+      "x": "A senior leader's opinion matters. It isn't the same as a front-line workflow observation, so record both and label them. When someone pulls toward their pet topic, park it visibly with an owner and return to the agenda."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Never put participants on the spot about sensitive issues. Respect consent, privacy, and organizational norms."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "When one voice dominates, change the format rather than confronting the person."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Techniques for balanced participation",
+      "alt": "Four cards naming techniques for balanced participation: direct questions to specific roles, use silent writing before discussion, use a parking lot for off-topic items, and follow up separately with quieter participants.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Direct by role",
+          "detail": "Ask the people who do the work",
+          "emph": false
+        },
+        {
+          "label": "Silent writing first",
+          "detail": "Everyone contributes before discussion",
+          "emph": false
+        },
+        {
+          "label": "Parking lot",
+          "detail": "Capture off-topic items, with an owner",
+          "emph": true
+        },
+        {
+          "label": "Separate follow-up",
+          "detail": "Hear quieter voices one to one",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A senior manager answers every question meant for front-line agents. What do you do?"
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Thank them and capture their view. Then run a structured round: \"I'd like to hear from each of you about the last access case you handled.\" If needed, schedule a separate, consented interview with the agents."
+    },
+    {
+      "t": "p",
+      "x": "Record which input was observed behavior and which was a leadership view."
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 256,
+  "eyebrow": "Lesson 2 · about 5 min",
+  "claims": [
+    "C-0619",
+    "C-0620",
+    "C-0621",
+    "C-0622",
+    "C-0623",
+    "C-0624"
+  ],
+  "sources": [
+    "S02",
+    "S07",
+    "S22"
+  ]
+}

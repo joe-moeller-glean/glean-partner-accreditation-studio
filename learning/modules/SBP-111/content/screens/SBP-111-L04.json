@@ -1,0 +1,148 @@
+{
+  "id": "SBP-111-L04",
+  "lesson": "SBP-111-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Attach scoped partner services",
+  "nav": "4. Attach scoped partner services",
+  "objective": "Propose a services sequence for a workflow with poor content quality and low adoption readiness.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Partners add the most value when their services address what the customer's roadmap actually needs. Every service should have a clear causal link to a customer outcome."
+    },
+    {
+      "t": "h3",
+      "x": "Why partner-led services"
+    },
+    {
+      "t": "p",
+      "x": "Glean's partner-led services model has partners owning outcome delivery, rollout enablement, and change management. Glean retains governance, deployment quality, and technical authority."
+    },
+    {
+      "t": "h3",
+      "x": "Map services to needs"
+    },
+    {
+      "t": "p",
+      "x": "Map the prioritized roadmap to the services it requires:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Discovery facilitation**, to expand the Blueprint to new teams.",
+        "**Deployment and connectors.**",
+        "**Agent design and implementation.**",
+        "**Adoption and change management.**",
+        "**Governance and knowledge readiness.**",
+        "**Value measurement and optimization.**"
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Define the outcomes, deliverables, responsibilities, assumptions, and exclusions in a scope that has been reviewed."
+    },
+    {
+      "t": "h3",
+      "x": "Scope is a framework, not a promise of everything"
+    },
+    {
+      "t": "p",
+      "x": "Glean's partner SOW template states that a package level is a sizing and delivery framework, not a commitment to connect every possible data source or deliver every identified use case. Discovery outputs don't authorize delivery work or set contractual terms."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't attach a generic services SKU unless it clearly causes the customer outcome."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Map each service to a need found in the Blueprint, so scope follows evidence."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Partner services mapped to Blueprint needs",
+      "alt": "Six cards mapping partner services to the needs they address: discovery facilitation, deployment and connectors, agent design and implementation, adoption and change management, governance and knowledge readiness, and value measurement and optimization.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Discovery facilitation",
+          "detail": "More Visioning or DITL work",
+          "emph": false
+        },
+        {
+          "label": "Deployment and connectors",
+          "detail": "Getting the data in",
+          "emph": false
+        },
+        {
+          "label": "Agent design",
+          "detail": "Building the priority workflows",
+          "emph": false
+        },
+        {
+          "label": "Adoption and change",
+          "detail": "Getting people to use it",
+          "emph": false
+        },
+        {
+          "label": "Knowledge readiness",
+          "detail": "Governance and content quality",
+          "emph": false
+        },
+        {
+          "label": "Value measurement",
+          "detail": "Proving the outcome",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Propose a services sequence for a priority workflow with poor content quality and low adoption readiness."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ol",
+      "items": [
+        "**Readiness and content ownership:** clean up the source content and assign owners.",
+        "**Scoped solution and configuration** for the workflow.",
+        "**Training and adoption**, with team leads.",
+        "**Value measurement and optimization** against the agreed baseline."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Confirm each phase's scope and owner, and get it reviewed, before any commitment."
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 289,
+  "eyebrow": "Lesson 4 · about 5 min",
+  "claims": [
+    "C-0534",
+    "C-0535",
+    "C-0536",
+    "C-0537",
+    "C-0538",
+    "C-0539",
+    "C-0540"
+  ],
+  "sources": [
+    "S05",
+    "S43",
+    "S44"
+  ]
+}

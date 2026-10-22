@@ -1,0 +1,32 @@
+module_id: SBP-112
+title: "AI-Assisted Blueprinting"
+design_system: paged-v1
+learning_path: "AI Blueprinting & Value Mapping"
+request_type: batch
+audience: ["Partner sellers", "Partner solution consultants and SEs", "Practice leads", "Glean field collaborators"]
+level: "Practitioner (proposed)"
+learning_outcomes:
+  - "Select the right Glean agent or prompt for each Blueprint task."
+  - "Ground AI outputs in sources and verify them."
+  - "Apply guardrails so customer stories are not presented as the prospect's outcomes."
+  - "Build a reusable AI-assisted Blueprint prep flow."
+lesson_objectives:
+  SBP-112-L01: "Given the supplied customer-neutral scenario and sources, choose appropriate assistance for research, DITL drafting and pilot readiness. Successful output matches the worked response and states remaining uncertainty."
+  SBP-112-L02: "Given the supplied customer-neutral scenario and sources, improve a prompt that says 'make a convincing ROI case'. Successful output matches the worked response and states remaining uncertainty."
+  SBP-112-L03: "Given the supplied customer-neutral scenario and sources, repair an AI statement: 'this customer saved 40% because a peer did'. Successful output matches the worked response and states remaining uncertainty."
+  SBP-112-L04: "Given the supplied customer-neutral scenario and sources, review a generated timeline with precise times but no citations. Successful output matches the worked response and states remaining uncertainty."
+  SBP-112-L05: "Given the supplied customer-neutral scenario and sources, find three reasons to reject a polished generated executive deck. Successful output matches the worked response and states remaining uncertainty."
+  SBP-112-L06: "Given the supplied customer-neutral scenario and sources, design a stop condition for an AI-assisted build pipeline. Successful output matches the worked response and states remaining uncertainty."
+prerequisites: "SBP-104"
+roadmap_alignment: "SOL-203; BLD-101"  # semantic alignment only (O12)
+target_hours: 0.75
+mastery_score: 80
+accreditation: accred-ai-blueprinting
+authoring_contract: "https://docs.google.com/spreadsheets/d/1FNFUQAzKl1BgMlyMgR8zygEvmLtnf7V5s-bhaL-3-48"
+authoring_snapshot: plan/sales-blueprinting/workbook/
+review_status: "In review"
+partner_clearance: "Pending partner clearance"
+sme_signoff: "Not signed"
+sme: unassigned - needs_sme (Blueprint SME, BVC / value engineering)
+publish_mode: manual_review
+release_state: restricted_preview

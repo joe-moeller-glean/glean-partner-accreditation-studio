@@ -1,0 +1,61 @@
+{
+  "module_id": "SBP-104",
+  "key": {
+    "SBP-104-Q001": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. Source transparency and customer confirmation are better than confident synthesis of conflicting facts.",
+        "incorrect": "Review the relevant lesson and evidence. Source transparency and customer confirmation are better than confident synthesis of conflicting facts."
+      }
+    },
+    "SBP-104-Q002": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. The hypothesis links problem, urgency and relevant differentiation to customer context.",
+        "incorrect": "Review the relevant lesson and evidence. The hypothesis links problem, urgency and relevant differentiation to customer context."
+      }
+    },
+    "SBP-104-Q003": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. A useful metric specifies what, how and why; vague or borrowed claims do not establish a baseline.",
+        "incorrect": "Review the relevant lesson and evidence. A useful metric specifies what, how and why; vague or borrowed claims do not establish a baseline."
+      }
+    },
+    "SBP-104-Q004": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Missing readiness basics need resolution; an alignment conversation may be useful but is not a completed full workshop.",
+        "incorrect": "Review the relevant lesson and evidence. Missing readiness basics need resolution; an alignment conversation may be useful but is not a completed full workshop."
+      }
+    },
+    "SBP-104-Q005": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. The two-day lead is in the specific template, not a universal legal rule.",
+        "incorrect": "Review the relevant lesson and evidence. The two-day lead is in the specific template, not a universal legal rule."
+      }
+    },
+    "SBP-104-Q006": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. Rehearsal improves coordinated evidence gathering and honest handling of unknowns.",
+        "incorrect": "Review the relevant lesson and evidence. Rehearsal improves coordinated evidence gathering and honest handling of unknowns."
+      }
+    },
+    "SBP-104-Q007": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Peer evidence does not establish customer-specific facts or causation.",
+        "incorrect": "Review the relevant lesson and evidence. Peer evidence does not establish customer-specific facts or causation."
+      }
+    },
+    "SBP-104-Q008": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Baseline quality requires customer data ownership and an agreed collection method.",
+        "incorrect": "Review the relevant lesson and evidence. Baseline quality requires customer data ownership and an agreed collection method."
+      }
+    }
+  }
+}

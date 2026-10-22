@@ -1,0 +1,223 @@
+{
+  "module_id": "SBP-102",
+  "assets": [
+    {
+      "asset_id": "SBP-102-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    },
+    {
+      "asset_id": "SBP-102-L01-F1-wide",
+      "path": "assets/fig/SBP-102-L01-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Stage 2 entry check (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0053",
+        "C-0054",
+        "C-0055",
+        "C-0056",
+        "C-0057",
+        "C-0058",
+        "C-0059"
+      ],
+      "alt": "A four-step entry check before starting the Blueprint: confirm a business priority, confirm stakeholder access, draft a value hypothesis, and answer the three whys. Only then does the Blueprint begin."
+    },
+    {
+      "asset_id": "SBP-102-L01-F1-narrow",
+      "path": "assets/fig/SBP-102-L01-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Stage 2 entry check (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0053",
+        "C-0054",
+        "C-0055",
+        "C-0056",
+        "C-0057",
+        "C-0058",
+        "C-0059"
+      ],
+      "alt": "A four-step entry check before starting the Blueprint: confirm a business priority, confirm stakeholder access, draft a value hypothesis, and answer the three whys. Only then does the Blueprint begin."
+    },
+    {
+      "asset_id": "SBP-102-L02-F1-wide",
+      "path": "assets/fig/SBP-102-L02-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: The Stage 2 evidence pack (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0060",
+        "C-0061",
+        "C-0062",
+        "C-0063",
+        "C-0064",
+        "C-0065"
+      ],
+      "alt": "Six cards listing the evidence Stage 2 should leave behind: a use case log and matrix, a named owner per use case, current and future workflow maps, metric definitions and draft baselines, data and connector dependencies, and a scheduled executive decision meeting."
+    },
+    {
+      "asset_id": "SBP-102-L02-F1-narrow",
+      "path": "assets/fig/SBP-102-L02-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: The Stage 2 evidence pack (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0060",
+        "C-0061",
+        "C-0062",
+        "C-0063",
+        "C-0064",
+        "C-0065"
+      ],
+      "alt": "Six cards listing the evidence Stage 2 should leave behind: a use case log and matrix, a named owner per use case, current and future workflow maps, metric definitions and draft baselines, data and connector dependencies, and a scheduled executive decision meeting."
+    },
+    {
+      "asset_id": "SBP-102-L03-F1-wide",
+      "path": "assets/fig/SBP-102-L03-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: What Executive Validation must confirm (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0066",
+        "C-0067",
+        "C-0068",
+        "C-0069",
+        "C-0070",
+        "C-0071",
+        "C-0072"
+      ],
+      "alt": "Four cards listing what the executive conversation must confirm: sponsorship, success criteria, the validation path, and the decision process."
+    },
+    {
+      "asset_id": "SBP-102-L03-F1-narrow",
+      "path": "assets/fig/SBP-102-L03-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: What Executive Validation must confirm (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0066",
+        "C-0067",
+        "C-0068",
+        "C-0069",
+        "C-0070",
+        "C-0071",
+        "C-0072"
+      ],
+      "alt": "Four cards listing what the executive conversation must confirm: sponsorship, success criteria, the validation path, and the decision process."
+    },
+    {
+      "asset_id": "SBP-102-L04-F1-wide",
+      "path": "assets/fig/SBP-102-L04-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Where Blueprint evidence feeds qualification (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0073",
+        "C-0074",
+        "C-0075",
+        "C-0076",
+        "C-0077",
+        "C-0078"
+      ],
+      "alt": "Six cards linking Blueprint evidence to qualification elements: metrics from DITL and metric cards, the economic buyer from Executive Validation, decision criteria from success criteria, implicate pain from the cost of inaction, the champion from who carries the story, and the success plan from the handoff."
+    },
+    {
+      "asset_id": "SBP-102-L04-F1-narrow",
+      "path": "assets/fig/SBP-102-L04-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Where Blueprint evidence feeds qualification (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0073",
+        "C-0074",
+        "C-0075",
+        "C-0076",
+        "C-0077",
+        "C-0078"
+      ],
+      "alt": "Six cards linking Blueprint evidence to qualification elements: metrics from DITL and metric cards, the economic buyer from Executive Validation, decision criteria from success criteria, implicate pain from the cost of inaction, the champion from who carries the story, and the success plan from the handoff."
+    },
+    {
+      "asset_id": "SBP-102-L05-F1-wide",
+      "path": "assets/fig/SBP-102-L05-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Match the fix to the gap (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0079",
+        "C-0080",
+        "C-0081",
+        "C-0082",
+        "C-0083",
+        "C-0084"
+      ],
+      "alt": "A comparison listing common gaps in stage evidence with the smallest corrective action for each, such as a prioritization session for missing priorities and a sponsor-alignment meeting for a missing sponsor path."
+    },
+    {
+      "asset_id": "SBP-102-L05-F1-narrow",
+      "path": "assets/fig/SBP-102-L05-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Match the fix to the gap (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0079",
+        "C-0080",
+        "C-0081",
+        "C-0082",
+        "C-0083",
+        "C-0084"
+      ],
+      "alt": "A comparison listing common gaps in stage evidence with the smallest corrective action for each, such as a prioritization session for missing priorities and a sponsor-alignment meeting for a missing sponsor path."
+    },
+    {
+      "asset_id": "SBP-102-L06-F1-wide",
+      "path": "assets/fig/SBP-102-L06-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Three streams after the value decision (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0085",
+        "C-0086",
+        "C-0087",
+        "C-0088",
+        "C-0089",
+        "C-0090"
+      ],
+      "alt": "A comparison of the three parallel streams after Executive Validation, with their typical owners: feasibility and validation, owned by the SE with the customer's technical owner; security and IT review, owned by the customer's security team with Glean support; and the commercial and paper process, owned by the AE with procurement."
+    },
+    {
+      "asset_id": "SBP-102-L06-F1-narrow",
+      "path": "assets/fig/SBP-102-L06-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Three streams after the value decision (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0085",
+        "C-0086",
+        "C-0087",
+        "C-0088",
+        "C-0089",
+        "C-0090"
+      ],
+      "alt": "A comparison of the three parallel streams after Executive Validation, with their typical owners: feasibility and validation, owned by the SE with the customer's technical owner; security and IT review, owned by the customer's security team with Glean support; and the commercial and paper process, owned by the AE with procurement."
+    }
+  ]
+}

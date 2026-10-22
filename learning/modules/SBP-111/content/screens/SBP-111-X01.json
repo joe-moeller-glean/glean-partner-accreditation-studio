@@ -1,0 +1,97 @@
+{
+  "id": "SBP-111-X01",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Templates",
+  "title": "Templates for this module",
+  "nav": "Templates",
+  "body": "Copy-ready structures you can reuse in your own engagements. Examples are fictional.",
+  "cards": [
+    {
+      "tag": "A15",
+      "title": "Mutual Action Plan",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Milestone ID, outcome, owner, dependency, target date, acceptance evidence, customer agreement, status, escalation, next decision"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Readiness → scoped validation → evidence review → executive decision → technical/commercial gates → onboarding/value review."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Customer confirms commitments; dates are proposed until accepted."
+        }
+      ]
+    },
+    {
+      "tag": "A16",
+      "title": "Customer recap and decision log",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Purpose, priorities, accepted/conditional/deferred decisions, assumptions to correct, action, owner, due, approved links, version"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Thank you; we prioritized UC-01/02/03. Acceptance is conditional on access and baseline validation. Please correct assumptions and confirm owners/dates."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Within 24 hours when specified; exclude restricted account judgments; no automatic sending."
+        }
+      ]
+    },
+    {
+      "tag": "A17",
+      "title": "Delivery and value handoff",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Outcome/sponsor, priority IDs, maps, data/access, assumptions, metric cards, validation findings, scope/exclusions, MAP, open risks, receiving owner acceptance"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Delivery receives maps/dependencies; CS/value owner receives baseline and reallocation/measurement plan."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Receiving owner acknowledges; unresolved items remain visible rather than becoming commitments."
+        }
+      ]
+    },
+    {
+      "tag": "A18",
+      "title": "Services roadmap and scope brief",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Phase, customer outcome, service, deliverables, acceptance, partner/Glean/customer RACI, dependency, exclusion, commercial review, metric"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Readiness/content cleanup → scoped build → adoption → value review, only if justified by discovery."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Not a signed SOW; commitments require appropriate scope and contract approval."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0555"
+  ],
+  "sources": [
+    "S05",
+    "S13",
+    "S14",
+    "S15",
+    "S28",
+    "S43",
+    "S44",
+    "S45"
+  ],
+  "required": true
+}

@@ -1,0 +1,38 @@
+{
+  "id": "SBP-110-X01",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Templates",
+  "title": "Templates for this module",
+  "nav": "Templates",
+  "body": "Copy-ready structures you can reuse in your own engagements. Examples are fictional.",
+  "cards": [
+    {
+      "tag": "A14",
+      "title": "Validation recommendation",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Buying uncertainty, options compared, selected path, why lighter options suffice/not, scope/data/users, success/failure, limits, readiness, approvals, owner/date, stop rule"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Tailored demonstration for workflow understanding; pilot only if unresolved evidence need justifies additional effort and gates."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "No automatic approval from score or sponsor enthusiasm; live process checked."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0506"
+  ],
+  "sources": [
+    "S14",
+    "S15",
+    "S16"
+  ],
+  "required": true
+}

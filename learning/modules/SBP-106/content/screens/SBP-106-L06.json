@@ -1,0 +1,128 @@
+{
+  "id": "SBP-106-L06",
+  "lesson": "SBP-106-L06",
+  "type": "lesson",
+  "seq": 6,
+  "title": "Finalize first-wave scope and evidence",
+  "nav": "6. Finalize first-wave scope and evidence",
+  "objective": "Produce a first-wave row for approved support guidance lookup.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The first wave is the set of use cases that go into Day-in-the-Life interviews and, later, the executive case. Each needs enough detail to be owned, measured, and tested."
+    },
+    {
+      "t": "h3",
+      "x": "What each first-wave use case needs"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**A business owner and a technical owner.**",
+        "**A metric and baseline plan:** what will be measured, where, and over what period.",
+        "**Dependencies:** connectors, permissions, content quality, and actions.",
+        "**Uncertainties:** what is still assumed.",
+        "**DITL participants and dates.**",
+        "**The next milestone.**"
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "When to use richer scoring"
+    },
+    {
+      "t": "p",
+      "x": "A simple matrix is usually enough for live alignment. Glean's Value Playbook also provides an eight-dimension scoring model that covers factors such as business value potential, measurability, time to value, and cross-functional applicability. This can help expose differences between close candidates."
+    },
+    {
+      "t": "callout",
+      "label": "Caution",
+      "x": "The playbook's scoring model rates some complexity dimensions so that a higher score is better. Interpret those dimensions carefully before adding scores together. Don't turn the raw total into an automated feasibility gate. This course uses explicit rationale and human review."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A first-wave use case is ready for DITL when every field below is filled in or explicitly marked unknown."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "First-wave readiness",
+      "alt": "Six cards listing what each first-wave use case needs: business and technical owners, a metric and baseline plan, dependencies, uncertainties, DITL participants and dates, and the next milestone.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Owners",
+          "detail": "A business owner and a technical owner",
+          "emph": false
+        },
+        {
+          "label": "Metric and baseline",
+          "detail": "What will be measured, and how",
+          "emph": false
+        },
+        {
+          "label": "Dependencies",
+          "detail": "Data, connectors, and access",
+          "emph": false
+        },
+        {
+          "label": "Uncertainties",
+          "detail": "Named, each with an owner",
+          "emph": false
+        },
+        {
+          "label": "DITL participants",
+          "detail": "People and dates confirmed",
+          "emph": false
+        },
+        {
+          "label": "Next milestone",
+          "detail": "The decision this work feeds",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Write a first-wave row for \"approved support guidance lookup\" in the fictional support scenario."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Business owner:** support operations director. **Technical owner:** knowledge-base and platform owner.",
+        "**Data:** the approved knowledge base and past case resolutions. Assumption: agents' permissions mirror the knowledge-base groups, to be confirmed.",
+        "**Metric plan:** handle time for an agreed case class from the ticketing system, plus a resolution-quality guardrail and an agreed baseline window.",
+        "**DITL:** two tier 1 agents and one team lead, with dates booked.",
+        "**Risks:** article currency and ownership; content that lives only in team chat."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 316,
+  "eyebrow": "Lesson 6 · about 6 min",
+  "claims": [
+    "C-0290",
+    "C-0291",
+    "C-0292",
+    "C-0293",
+    "C-0294",
+    "C-0295"
+  ],
+  "sources": [
+    "S05",
+    "S13",
+    "S26"
+  ]
+}

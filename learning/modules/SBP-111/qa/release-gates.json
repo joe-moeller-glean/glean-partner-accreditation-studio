@@ -1,0 +1,32 @@
+{
+  "module_id": "SBP-111",
+  "partner_release": "blocked",
+  "blockers": [
+    "Settings review status is 'In review'",
+    "Partner clearance: Pending partner clearance",
+    "SME sign-off: Not signed",
+    "8 storyboard rows not 'Looks good' (first: SBP-111-S000)",
+    "8 items not 'Looks good' (first: SBP-111-Q001)",
+    "45 of 50 claims not independently verified",
+    "50 claims rest on internal-only sources (B16, O11)"
+  ],
+  "program_blockers": [
+    "O01 Credential name and levels: Proposed, not approved",
+    "O02 Credential award and assessment policy: Requires owner approval",
+    "O03 Canonical Visioning duration and participant pattern: Source variation",
+    "O04 Hero use case count: Source variation",
+    "O05 Default validation preference: Context variation",
+    "O06 Pilot approval transition: Rollout status unverified",
+    "O07 Pilot commercial/environment terms: Time-sensitive / restricted",
+    "O08 Value formula coverage and annualization: Methodology ambiguity",
+    "O09 Proof-grade label and weights: Source inconsistency",
+    "O10 Eight-dimension score direction: Scoring ambiguity",
+    "O11 Partner clearance and redistribution: Release blocker",
+    "O12 Roadmap equivalency and prerequisites: Mapping unconfirmed",
+    "O13 Internal agents and partner access: Access-dependent",
+    "O14 Impartner completion, certificate and capstone integration: Implementation validation",
+    "O15 Validity and renewal: Policy mapping needed",
+    "O16 Assessment bank exposure and exam security: Design limitation",
+    "B22: Impartner restricted test (launch, score, status, resume, reporting) not performed"
+  ]
+}

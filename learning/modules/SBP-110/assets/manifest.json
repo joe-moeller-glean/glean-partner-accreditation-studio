@@ -1,0 +1,227 @@
+{
+  "module_id": "SBP-110",
+  "assets": [
+    {
+      "asset_id": "SBP-110-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    },
+    {
+      "asset_id": "SBP-110-L01-F1-wide",
+      "path": "assets/fig/SBP-110-L01-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: Validation options, lightest to heaviest (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0465",
+        "C-0466",
+        "C-0467",
+        "C-0468",
+        "C-0469",
+        "C-0470",
+        "C-0471"
+      ],
+      "alt": "Three stacked validation options ordered from lightest to heaviest: a custom tailored demo, a sandbox, and a pilot or proof of concept. Preparation, duration, and risk increase with each step."
+    },
+    {
+      "asset_id": "SBP-110-L01-F1-narrow",
+      "path": "assets/fig/SBP-110-L01-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Stack diagram: Validation options, lightest to heaviest (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0465",
+        "C-0466",
+        "C-0467",
+        "C-0468",
+        "C-0469",
+        "C-0470",
+        "C-0471"
+      ],
+      "alt": "Three stacked validation options ordered from lightest to heaviest: a custom tailored demo, a sandbox, and a pilot or proof of concept. Preparation, duration, and risk increase with each step."
+    },
+    {
+      "asset_id": "SBP-110-L02-F1-wide",
+      "path": "assets/fig/SBP-110-L02-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: What each validation option uses (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0472",
+        "C-0473",
+        "C-0474",
+        "C-0475",
+        "C-0476",
+        "C-0477"
+      ],
+      "alt": "A comparison of validation options and the data each uses. A tailored demo uses a prepared scenario or uploaded customer files, with no connectors. A sandbox uses uploaded files for an allotted group of users, with no connectors. A pilot connects to the customer's systems for a defined cohort."
+    },
+    {
+      "asset_id": "SBP-110-L02-F1-narrow",
+      "path": "assets/fig/SBP-110-L02-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: What each validation option uses (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0472",
+        "C-0473",
+        "C-0474",
+        "C-0475",
+        "C-0476",
+        "C-0477"
+      ],
+      "alt": "A comparison of validation options and the data each uses. A tailored demo uses a prepared scenario or uploaded customer files, with no connectors. A sandbox uses uploaded files for an allotted group of users, with no connectors. A pilot connects to the customer's systems for a defined cohort."
+    },
+    {
+      "asset_id": "SBP-110-L03-F1-wide",
+      "path": "assets/fig/SBP-110-L03-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Running a sandbox workshop (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0478",
+        "C-0479",
+        "C-0480",
+        "C-0481",
+        "C-0482",
+        "C-0483",
+        "C-0484",
+        "C-0485"
+      ],
+      "alt": "A four-step sandbox workshop sequence: frame the purpose with the champion, upload and test approved content, run a dry run, then run the workshop with the champion and capture results."
+    },
+    {
+      "asset_id": "SBP-110-L03-F1-narrow",
+      "path": "assets/fig/SBP-110-L03-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Running a sandbox workshop (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0478",
+        "C-0479",
+        "C-0480",
+        "C-0481",
+        "C-0482",
+        "C-0483",
+        "C-0484",
+        "C-0485"
+      ],
+      "alt": "A four-step sandbox workshop sequence: frame the purpose with the champion, upload and test approved content, run a dry run, then run the workshop with the champion and capture results."
+    },
+    {
+      "asset_id": "SBP-110-L04-F1-wide",
+      "path": "assets/fig/SBP-110-L04-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Pilot entry conditions (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0486",
+        "C-0487",
+        "C-0488",
+        "C-0489",
+        "C-0490",
+        "C-0491",
+        "C-0492"
+      ],
+      "alt": "Five cards listing what must be in place before a pilot: the three whys, a real economic buyer, a value hypothesis with pilot goals, technical use cases with a test plan, and measurable success criteria."
+    },
+    {
+      "asset_id": "SBP-110-L04-F1-narrow",
+      "path": "assets/fig/SBP-110-L04-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Pilot entry conditions (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0486",
+        "C-0487",
+        "C-0488",
+        "C-0489",
+        "C-0490",
+        "C-0491",
+        "C-0492"
+      ],
+      "alt": "Five cards listing what must be in place before a pilot: the three whys, a real economic buyer, a value hypothesis with pilot goals, technical use cases with a test plan, and measurable success criteria."
+    },
+    {
+      "asset_id": "SBP-110-L05-F1-wide",
+      "path": "assets/fig/SBP-110-L05-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Three pilot prerequisites (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0493",
+        "C-0494",
+        "C-0495",
+        "C-0496",
+        "C-0497",
+        "C-0498"
+      ],
+      "alt": "Three cards naming the pilot prerequisites in the dated pilot guide: a readiness scorecard at or above the threshold, pilot approval, and a signed pilot order form. A score alone does not authorize a pilot."
+    },
+    {
+      "asset_id": "SBP-110-L05-F1-narrow",
+      "path": "assets/fig/SBP-110-L05-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Three pilot prerequisites (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0493",
+        "C-0494",
+        "C-0495",
+        "C-0496",
+        "C-0497",
+        "C-0498"
+      ],
+      "alt": "Three cards naming the pilot prerequisites in the dated pilot guide: a readiness scorecard at or above the threshold, pilot approval, and a signed pilot order form. A score alone does not authorize a pilot."
+    },
+    {
+      "asset_id": "SBP-110-L06-F1-wide",
+      "path": "assets/fig/SBP-110-L06-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: A complete validation recommendation (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0499",
+        "C-0500",
+        "C-0501",
+        "C-0502",
+        "C-0503",
+        "C-0504"
+      ],
+      "alt": "Six cards listing the parts of a validation recommendation: the buying question, the chosen option, the scope, the evidence it will produce, owners and dates, and the go or no-go criteria."
+    },
+    {
+      "asset_id": "SBP-110-L06-F1-narrow",
+      "path": "assets/fig/SBP-110-L06-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: A complete validation recommendation (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0499",
+        "C-0500",
+        "C-0501",
+        "C-0502",
+        "C-0503",
+        "C-0504"
+      ],
+      "alt": "Six cards listing the parts of a validation recommendation: the buying question, the chosen option, the scope, the evidence it will produce, owners and dates, and the go or no-go criteria."
+    }
+  ]
+}

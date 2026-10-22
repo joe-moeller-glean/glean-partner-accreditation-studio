@@ -1,0 +1,31 @@
+{
+  "id": "SBP-109-S000",
+  "claims": [
+    "C-0412"
+  ],
+  "sources": [
+    "S14",
+    "S02",
+    "S04",
+    "S19",
+    "S21"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-109 · Practitioner (proposed)",
+  "title": "Step 3: Executive Validation",
+  "nav": "Overview",
+  "body": "Preparing, running and following up the Executive Validation readout that confirms sponsorship, success criteria, value and the validation path",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Complete the executive validation pre-work checklist.",
+    "Run the 60-minute readout agenda.",
+    "Secure sponsorship, success criteria and the validation path decision.",
+    "Send the recap and update opportunity records within 24 hours."
+  ],
+  "footnote": "Recommended before this module: SBP-108. Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

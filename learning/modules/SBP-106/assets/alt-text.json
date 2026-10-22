@@ -1,0 +1,17 @@
+{
+  "by_asset_id": {
+    "SBP-106-LOGO": "Glean",
+    "SBP-106-L01-F1-wide": "A five-link chain worked from top to bottom: business outcome, use case, workflow, data, and success metrics. Each link is discovered in that order.",
+    "SBP-106-L01-F1-narrow": "A five-link chain worked from top to bottom: business outcome, use case, workflow, data, and success metrics. Each link is discovered in that order.",
+    "SBP-106-L02-F1-wide": "Four cards with the diagnostic questions to ask for every use case: how it happens today, how often, what it costs today, and what good looks like.",
+    "SBP-106-L02-F1-narrow": "Four cards with the diagnostic questions to ask for every use case: how it happens today, how often, what it costs today, and what good looks like.",
+    "SBP-106-L03-F1-wide": "Three stacked parts of impact: reach, the number of people affected; frequency, how often the work happens; and consequence, what each occurrence costs in time, quality, or risk.",
+    "SBP-106-L03-F1-narrow": "Three stacked parts of impact: reach, the number of people affected; frequency, how often the work happens; and consequence, what each occurrence costs in time, quality, or risk.",
+    "SBP-106-L04-F1-wide": "Six cards naming common sources of hidden effort: unclear sources of truth and connectors, permissions and identity, structured data expectations, data freshness, actions and write-backs, and data quality.",
+    "SBP-106-L04-F1-narrow": "Six cards naming common sources of hidden effort: unclear sources of truth and connectors, permissions and identity, structured data expectations, data freshness, actions and write-backs, and data quality.",
+    "SBP-106-L05-F1-wide": "Five steps for running the impact/effort matrix with the customer: review the list, score quickly, place each item on the grid, highlight the picks, and validate them with the sponsor.",
+    "SBP-106-L05-F1-narrow": "Five steps for running the impact/effort matrix with the customer: review the list, score quickly, place each item on the grid, highlight the picks, and validate them with the sponsor.",
+    "SBP-106-L06-F1-wide": "Six cards listing what each first-wave use case needs: business and technical owners, a metric and baseline plan, dependencies, uncertainties, DITL participants and dates, and the next milestone.",
+    "SBP-106-L06-F1-narrow": "Six cards listing what each first-wave use case needs: business and technical owners, a metric and baseline plan, dependencies, uncertainties, DITL participants and dates, and the next milestone."
+  }
+}

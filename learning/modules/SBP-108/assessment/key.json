@@ -1,0 +1,61 @@
+{
+  "module_id": "SBP-108",
+  "key": {
+    "SBP-108-Q001": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. The architecture links problem and evidence to quantified value and realization/measurement.",
+        "incorrect": "Review the relevant lesson and evidence. The architecture links problem and evidence to quantified value and realization/measurement."
+      }
+    },
+    "SBP-108-Q002": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. Capacity value is not automatically a cash saving; cost avoidance or cancelled spend needs its own evidence.",
+        "incorrect": "Review the relevant lesson and evidence. Capacity value is not automatically a cash saving; cost avoidance or cancelled spend needs its own evidence."
+      }
+    },
+    "SBP-108-Q003": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Self-report needs corroboration and cannot alone prove financial impact or attribution.",
+        "incorrect": "Review the relevant lesson and evidence. Self-report needs corroboration and cannot alone prove financial impact or attribution."
+      }
+    },
+    "SBP-108-Q004": {
+      "answer": "c",
+      "rationale": {
+        "correct": "Correct. Recapture concerns how freed time is used; adoption and coverage are separate factors.",
+        "incorrect": "Review the relevant lesson and evidence. Recapture concerns how freed time is used; adoption and coverage are separate factors."
+      }
+    },
+    "SBP-108-Q005": {
+      "answer": "d",
+      "rationale": {
+        "correct": "Correct. Net ROI compares net benefit with the same-period investment; units and scope must be consistent.",
+        "incorrect": "Review the relevant lesson and evidence. Net ROI compares net benefit with the same-period investment; units and scope must be consistent."
+      }
+    },
+    "SBP-108-Q006": {
+      "answer": "b",
+      "rationale": {
+        "correct": "Correct. An honest gap plus measurement action is preferable to a fabricated baseline.",
+        "incorrect": "Review the relevant lesson and evidence. An honest gap plus measurement action is preferable to a fabricated baseline."
+      }
+    },
+    "SBP-108-Q007": {
+      "answer": "a",
+      "rationale": {
+        "correct": "Correct. Raw avoidable burden and measured savings are different input definitions; discounts must not overlap silently.",
+        "incorrect": "Review the relevant lesson and evidence. Raw avoidable burden and measured savings are different input definitions; discounts must not overlap silently."
+      }
+    },
+    "SBP-108-Q008": {
+      "answer": "b",
+      "rationale": {
+        "correct": "Correct. Honest sensitivity and downside evidence protect decision quality and identify what must be validated.",
+        "incorrect": "Review the relevant lesson and evidence. Honest sensitivity and downside evidence protect decision quality and identify what must be validated."
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": "SBP-111-L02",
+  "lesson": "SBP-111-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Build a Mutual Action Plan",
+  "nav": "2. Build a Mutual Action Plan",
+  "objective": "Turn 'technical validation next month' into measurable MAP entries.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A mutual action plan (MAP) is the joint sequence of commitments, from both the customer and the Glean and partner team, that leads from the next validation to a decision and beyond."
+    },
+    {
+      "t": "h3",
+      "x": "What each entry records"
+    },
+    {
+      "t": "p",
+      "x": "Glean's MAP template lists the evaluation committee (executive sponsor, economic buyer, champion, procurement contact, and implementation contacts), restates the problem and the agreed measures of success, and then sets out dated activities, each with an owner and a purpose. Every MAP entry should capture:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**The milestone**, as a concrete event.",
+        "**The owner**, on the customer or Glean and partner side.",
+        "**Dependencies.**",
+        "**The target date**, accepted by the owner.",
+        "**Acceptance evidence:** how everyone will know it's done.",
+        "**Status.**"
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Make \"do the pilot\" specific"
+    },
+    {
+      "t": "p",
+      "x": "Instead of \"do the pilot,\" list:"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "Readiness and approval.",
+        "Kickoff.",
+        "The scoped tests.",
+        "The findings review.",
+        "The executive decision.",
+        "The next commercial or delivery milestone, such as security review, order form, or onboarding."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "For a demo or Lab validation, use a smaller plan with the same shape."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "A seller's private close plan isn't automatically mutual. The champion and the relevant decision-makers must confirm their own commitments. Never invent dates on their behalf."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Every MAP entry answers the same six questions. If one is blank, the entry isn't a commitment yet."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Anatomy of a MAP entry",
+      "alt": "Six cards naming the fields of a mutual action plan entry: the milestone, the owner, dependencies, the target date, acceptance evidence, and status.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Milestone",
+          "detail": "A specific, observable step",
+          "emph": false
+        },
+        {
+          "label": "Owner",
+          "detail": "One named person",
+          "emph": false
+        },
+        {
+          "label": "Dependencies",
+          "detail": "What must happen first",
+          "emph": false
+        },
+        {
+          "label": "Target date",
+          "detail": "Agreed, not assumed",
+          "emph": false
+        },
+        {
+          "label": "Acceptance evidence",
+          "detail": "How everyone will know it's done",
+          "emph": true
+        },
+        {
+          "label": "Status",
+          "detail": "Kept current after every meeting",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Turn \"technical validation next month\" into measurable MAP entries."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ol",
+      "items": [
+        "**Confirm scope and readiness.** Owners: the SE and the customer's IT lead. Target: [date]. Evidence: a signed-off scope note.",
+        "**Run the agreed validation event.** Owners: the SE and the champion. Target: [date]. Evidence: completed test tasks.",
+        "**Review findings against the criteria.** Owners: the joint team. Target: [date].",
+        "**Record the sponsor's decision.** Owner: the sponsor. Target: [date].",
+        "**Schedule the next gate.** Owner: the AE."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Ask each customer owner to accept their dates."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 325,
+  "eyebrow": "Lesson 2 · about 6 min",
+  "claims": [
+    "C-0522",
+    "C-0523",
+    "C-0524",
+    "C-0525",
+    "C-0526",
+    "C-0527"
+  ],
+  "sources": [
+    "S14",
+    "S15",
+    "S45"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "SBP-103-L05",
+  "lesson": "SBP-103-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Separate discovery, build and support",
+  "nav": "5. Separate discovery, build and support",
+  "objective": "Route a request for a new agent, user training and a suspected platform defect.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Discovery often uncovers work that doesn't belong in discovery. Keep three kinds of work distinct: discovering use cases, building solutions, and supporting the platform."
+    },
+    {
+      "t": "h3",
+      "x": "The lifecycle split"
+    },
+    {
+      "t": "p",
+      "x": "Glean's partner model distinguishes three kinds of work:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Discovery:** the partner facilitates workshops with business stakeholders, and Glean shares patterns and technical constraints.",
+        "**Build:** the partner leads day-to-day agent building with Glean coaching and patterns.",
+        "**Optimize and support:** the partner handles front-line advisory work and small changes, and Glean Support handles product issues."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Glean's partner-led services portfolio lists the kinds of work partners deliver, including custom connector builds, agent building and governance, end-user training, transformation consulting and change management, support and managed services, and PMO and business reviews."
+    },
+    {
+      "t": "h3",
+      "x": "Where a discovery finding goes"
+    },
+    {
+      "t": "p",
+      "x": "A Blueprint finding can become an agent-build service, an adoption and training program, or a knowledge-readiness project. A suspected product defect stays a Glean product-support matter. The partner can gather safe diagnostic evidence, but it does not promise to fix the platform."
+    },
+    {
+      "t": "h3",
+      "x": "Scope before delivery"
+    },
+    {
+      "t": "p",
+      "x": "A discovery scope is not a signed delivery statement of work (SOW). Glean's partner SOW template keeps out of scope anything beyond the package boundary, such as unsupported connectors or work that needs Glean Engineering development. It requires a written amendment or change order for any change to scope. Turn assumptions, exclusions, and dependencies into an explicit scope before delivery begins."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A discovery finding is a candidate, not a commitment. Route each one to the phase that owns it."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "Where a discovery finding goes",
+      "alt": "A three-step lifecycle split. Discovery captures and prioritizes the finding. Build scopes and delivers it under an agreed statement of work. Optimize and support improves it after go-live.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Discovery",
+          "detail": "Capture, rank, and assign an owner",
+          "emph": false
+        },
+        {
+          "label": "Build",
+          "detail": "Scope and deliver under an agreed SOW",
+          "emph": false
+        },
+        {
+          "label": "Optimize and support",
+          "detail": "Improve and measure after go-live",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "After a DITL session, the customer asks for three things: a new agent for policy questions, user training for 200 HR agents, and help with search results that seem to ignore a permission change. Route each one."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**New agent:** a scoped partner delivery with Glean technical guidance, under an agreed SOW or change order.",
+        "**Training:** whoever owns enablement in the agreed plan. This is often a partner training service.",
+        "**Permission issue:** a suspected product or configuration issue that goes to Glean Support. The partner gathers safe diagnostic evidence, such as the query, the expected and actual result, and the timing, without sharing confidential content more widely than needed."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 378,
+  "eyebrow": "Lesson 5 · about 6 min",
+  "claims": [
+    "C-0127",
+    "C-0128",
+    "C-0129",
+    "C-0130",
+    "C-0131",
+    "C-0132",
+    "C-0133"
+  ],
+  "sources": [
+    "S05",
+    "S43",
+    "S44"
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-107",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-107-Q001",
+      "objective_id": "SBP-107-L01",
+      "module_id": "SBP-107",
+      "stem": "Who is essential for a credible DITL interview?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only someone who has never seen the workflow."
+        },
+        {
+          "id": "b",
+          "text": "Only a generic industry report."
+        },
+        {
+          "id": "c",
+          "text": "A representative person who actually does the prioritized work."
+        },
+        {
+          "id": "d",
+          "text": "Only the certificate administrator."
+        }
+      ],
+      "claims": [
+        "C-0352"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q002",
+      "objective_id": "SBP-107-L02",
+      "module_id": "SBP-107",
+      "stem": "How should active effort and elapsed waiting be recorded?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ignored because only screen count matters."
+        },
+        {
+          "id": "b",
+          "text": "Both automatically multiplied by every employee's salary."
+        },
+        {
+          "id": "c",
+          "text": "Added together and called removable labor."
+        },
+        {
+          "id": "d",
+          "text": "Separately, with units, evidence status and the relevant business consequence."
+        }
+      ],
+      "claims": [
+        "C-0353"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q003",
+      "objective_id": "SBP-107-L03",
+      "module_id": "SBP-107",
+      "stem": "A 30-minute search and a two-day approval wait are reported. Which modeling approach is best?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Model search as active effort and waiting as cycle delay, with separate causal assumptions."
+        },
+        {
+          "id": "b",
+          "text": "Treat the full two days as paid labor saved per case."
+        },
+        {
+          "id": "c",
+          "text": "Ignore both because neither is useful evidence."
+        },
+        {
+          "id": "d",
+          "text": "Assume the wait disappears without process change."
+        }
+      ],
+      "claims": [
+        "C-0354"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q004",
+      "objective_id": "SBP-107-L04",
+      "module_id": "SBP-107",
+      "stem": "Which future-state map is most defensible?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All approval controls are removed to maximize ROI."
+        },
+        {
+          "id": "b",
+          "text": "Grounded retrieval/drafting with human review, exceptions and stated data dependencies."
+        },
+        {
+          "id": "c",
+          "text": "Every current step becomes zero minutes automatically."
+        },
+        {
+          "id": "d",
+          "text": "A diagram with unsupported write actions and no owners."
+        }
+      ],
+      "claims": [
+        "C-0355"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q005",
+      "objective_id": "SBP-107-L05",
+      "module_id": "SBP-107",
+      "stem": "When is a playback useful?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Never, even when the future state is disputed."
+        },
+        {
+          "id": "b",
+          "text": "Only after the customer has fully deployed."
+        },
+        {
+          "id": "c",
+          "text": "Always as an extra meeting with no objective."
+        },
+        {
+          "id": "d",
+          "text": "When it resolves a specific workflow, feasibility or alignment uncertainty."
+        }
+      ],
+      "claims": [
+        "C-0356"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q006",
+      "objective_id": "SBP-107-L06",
+      "module_id": "SBP-107",
+      "stem": "Which DITL summary is executive-ready?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only a product feature list."
+        },
+        {
+          "id": "b",
+          "text": "Every click shown with no business consequence."
+        },
+        {
+          "id": "c",
+          "text": "Outcome, pain, future change, evidence, metric plan and unresolved dependencies."
+        },
+        {
+          "id": "d",
+          "text": "An unqualified savings percentage."
+        }
+      ],
+      "claims": [
+        "C-0357"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q007",
+      "objective_id": "SBP-107-L06",
+      "module_id": "SBP-107",
+      "stem": "Two interviews give very different task times. What is the best response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Investigate persona/workflow differences and present a supported range or separate models."
+        },
+        {
+          "id": "b",
+          "text": "Keep only the faster estimate to improve the story."
+        },
+        {
+          "id": "c",
+          "text": "Average them blindly and claim precision."
+        },
+        {
+          "id": "d",
+          "text": "Treat both as guaranteed measured baselines."
+        }
+      ],
+      "claims": [
+        "C-0358"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-107-Q008",
+      "objective_id": "SBP-107-L06",
+      "module_id": "SBP-107",
+      "stem": "The AI DITL generator invents exact step durations. What should the learner do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Present them as stopwatch measurements."
+        },
+        {
+          "id": "b",
+          "text": "Mark them unverified and obtain customer evidence before modeling."
+        },
+        {
+          "id": "c",
+          "text": "Remove citations so the estimates cannot be challenged."
+        },
+        {
+          "id": "d",
+          "text": "Use them because precision implies accuracy."
+        }
+      ],
+      "claims": [
+        "C-0359"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

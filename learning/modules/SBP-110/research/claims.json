@@ -1,0 +1,767 @@
+{
+  "module_id": "SBP-110",
+  "claims": [
+    {
+      "claim_id": "C-0464",
+      "anchor": "SBP-110-S000",
+      "text": "Choosing between a custom demo, Glean Lab, sandbox and pilot/PoC; pilot gating, readiness scoring, and approval",
+      "source_ids": [
+        "S16",
+        "S15",
+        "S14",
+        "S41",
+        "S61"
+      ],
+      "locator": "Module overview synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0465",
+      "anchor": "SBP-110-L01#00",
+      "text": "After Executive Validation, the customer usually needs to see or test something before buying. Choose the validation that answers their open question with the least time and risk.",
+      "source_ids": [
+        "S14",
+        "S16",
+        "S21"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0466",
+      "anchor": "SBP-110-L01#01",
+      "text": "Ask what is still uncertain for the buyer. Then pick the option that resolves it, considering: The question: \"Will this workflow make sense to my team?\" or \"Will it work with our specific systems and permissions?\" The data needed: sample, representative, or the customer's own. The audience: an executive, a few power users, or a broader cohort. Preparation and effort, for the customer and for Glean. Risk: data handling, security review, and expectations.",
+      "source_ids": [
+        "S14",
+        "S16"
+      ],
+      "locator": "Start from the buying question",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S14",
+      "excerpt": "Avoid unnecessary pilots and accelerate.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0467",
+      "anchor": "SBP-110-L01#02",
+      "text": "Glean's technical validation guidance sets out three option types, increasing in preparation and duration: custom tailored demos, a sandbox, and a pilot or proof of concept. Glean's refreshed Blueprint material also positions a Glean Lab as the default validation event after Executive Validation. If the buyer needs to understand the future workflow, a tailored demo or a Lab scenario may be enough. If they need proof of behavior on specific enterprise integrations or data, define exactly what evidence a more involved evaluation must produce.",
+      "source_ids": [
+        "S16"
+      ],
+      "locator": "The options, lightest to heaviest",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S16",
+      "excerpt": "Technical Validation Options Custom Tailored Demo(s) Sandbox Pilot / PoC",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0468",
+      "anchor": "SBP-110-L01#03",
+      "text": "Glean sources emphasize different defaults. Refreshed material favors the Glean Lab, while some sales enablement favors tailored demos. Teach the principle: use the lightest option that credibly resolves the remaining buying uncertainty. No single option is right regardless of the question.",
+      "source_ids": [
+        "S14",
+        "S16",
+        "S21"
+      ],
+      "locator": "A principle, not a fixed default",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0469",
+      "anchor": "SBP-110-L01#04",
+      "text": "Glean's validation-events training explains why pilots usually convert: by the time a pilot can start, the security review, the Blueprint, the economic buyer's priorities, executive buy-in, pricing and budget conversations, and IT readiness have typically already happened. The conversion comes from that groundwork, not from the pilot itself. A heavier option chosen to compensate for missing groundwork adds cost without adding certainty. Custom tailored demo Shows the future workflow; least effort Sandbox Hands-on use with selected content Pilot or proof of concept Real systems for a defined co",
+      "source_ids": [
+        "S67"
+      ],
+      "locator": "Why the heaviest option isn't the safest",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0470",
+      "anchor": "SBP-110-L01#05",
+      "text": "After Executive Validation, the only open question is whether the support team will understand and accept the proposed workflow. Recommend a validation path.",
+      "source_ids": [
+        "S14",
+        "S16",
+        "S21"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0471",
+      "anchor": "SBP-110-L01#06",
+      "text": "A tailored demo or a suitable Glean Lab scenario, built around the prioritized support workflow, with clear success questions. For example: \"Can agents find the approved answer for these five representative case types, and would they use this flow?\" Escalate to a heavier option only if this can't answer the buying question, and document why the extra investment is needed.",
+      "source_ids": [
+        "S14",
+        "S16",
+        "S21"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0472",
+      "anchor": "SBP-110-L02#00",
+      "text": "The validation options differ in what data they use, how faithfully they reflect permissions, who can use them, and what their results can prove. Know the differences, and check the current details before you offer one.",
+      "source_ids": [
+        "S16",
+        "S41",
+        "S61"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0473",
+      "anchor": "SBP-110-L02#01",
+      "text": "Tailored demo | Prepared scenario, often sample data | How the future workflow could look | Behavior on the customer's own systems and permissions Glean Lab | Curated or sample-data experience | Hands-on feel for the prioritized tasks | Production fidelity Sandbox | Sample data, plus customer-uploaded test content where permitted | Hands-on use with selected content | Personalization or permissions at production fidelity Pilot or proof of concept | The customer's systems and data, scoped | Behavior with real integrations, for a defined cohort | A full rollout's adoption or value",
+      "source_ids": [
+        "S16",
+        "S41",
+        "S61"
+      ],
+      "locator": "What each option can show",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0474",
+      "anchor": "SBP-110-L02#02",
+      "text": "Before offering an option, write down its current, approved description: data type, permission fidelity, allowed users, duration, setup owner, security, cost, and what the result can prove. Environment details change between versions of Glean's guides. For example, sandbox access, data options, and limits have been described differently over time. Flag any differences you find. Boundary Don't teach dated pricing, revenue thresholds, shared-login behavior, or environment limits as permanent facts. Confirm the live terms with the Glean account team before offering an option to a customer.",
+      "source_ids": [
+        "S41"
+      ],
+      "locator": "Build an option card",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S41",
+      "excerpt": "Users will have Member-level access, without admin privileges and will not be able to add additional data sources.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0475",
+      "anchor": "SBP-110-L02#03",
+      "text": "Teams use these names inconsistently, so confirm what each person means. In Glean's validation-events training, \"Glean Lab\" is described as another name for the sandbox option, and \"POC\" is often used for a pilot, though a proof of concept can also be a sandbox. The same training notes that a customer can separately purchase a sandbox instance after becoming a customer, which is different from a sandbox used for validation. The training also clarifies the data behind the lighter options. A custom demo late in the sale often uses customer files that have been uploaded, and the sandbox uses uplo",
+      "source_ids": [
+        "S67"
+      ],
+      "locator": "Watch the terminology",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S67",
+      "excerpt": "We are not setting up any connectors.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0476",
+      "anchor": "SBP-110-L02#04",
+      "text": "List the facts you must recheck before offering a customer a sandbox.",
+      "source_ids": [
+        "S16",
+        "S41",
+        "S61"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0477",
+      "anchor": "SBP-110-L02#05",
+      "text": "Data isolation and handling, including whether other organizations share the environment. Identity and access: individual or shared logins. Which content may be uploaded, and by whom. Duration and user limits. Who sets it up. Security review and commercial terms. Which capabilities the environment can and cannot validate, such as personalization and permission fidelity.",
+      "source_ids": [
+        "S16",
+        "S41",
+        "S61"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0478",
+      "anchor": "SBP-110-L03#00",
+      "text": "A sandbox workshop works when everyone knows what it is for and what it can't show. Preparation and a dry run make the difference.",
+      "source_ids": [
+        "S16",
+        "S41"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0479",
+      "anchor": "SBP-110-L03#01",
+      "text": "Glean's sandbox guidance starts with alignment. Validate the pain, the rough order of magnitude, and the sandbox's purpose as technical validation with the economic buyer. Then, one-on-one with the champion, revalidate the use cases and value, the buying criteria and process, and the required capabilities. Set the expectation that the sandbox won't show personalization or the knowledge graph.",
+      "source_ids": [
+        "S16"
+      ],
+      "locator": "Frame it with the champion first",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S16",
+      "excerpt": "1:1 with your champion to re-validate pain, use cases & value, buying criteria & process, Glean’s technical differentiators/required capabilities, and set expectation that sandbox won’t show personalization, knowledge graph, etc",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0480",
+      "anchor": "SBP-110-L03#02",
+      "text": "Glean's sandbox guide warns that the public sandbox is not a prospecting or lead-generation tool. Be deliberate about how, why, and when you introduce it to a prospect.",
+      "source_ids": [
+        "S41"
+      ],
+      "locator": "Not a prospecting tool",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0481",
+      "anchor": "SBP-110-L03#03",
+      "text": "Prepare permitted content and test the queries you plan to use. Understand who will be in the room and what they may try. Guide participants on good practice for their line of business. Ensure executive participation, and keep the group manageable.",
+      "source_ids": [
+        "S16"
+      ],
+      "locator": "Upload, test, and dry run",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0482",
+      "anchor": "SBP-110-L03#04",
+      "text": "Start with the pain and the value, highlight the differentiators that matter, give a custom demo, then hand over to hands-on use. Tell participants which tasks to try: ones you and the champion know represent the workflow. Collect findings and close with a decision. Don't leave it as open-ended exploration. Boundary Follow the current approved access and data-handling rules. Never upload sensitive information. Don't promise production personalization, access behavior, or integration fidelity that a sandbox can't demonstrate.",
+      "source_ids": [
+        "S16"
+      ],
+      "locator": "Run the workshop with the champion",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S16",
+      "excerpt": "Start with the pain/problem and the value of the platform",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0483",
+      "anchor": "SBP-110-L03#05",
+      "text": "A sandbox works best as a guided workshop the champion helps frame, not open-ended access. Frame with the champion Purpose, users, and questions to answer Upload and test Approved content only Dry run Check the scenarios end to end Run the workshop Guided, with results captured",
+      "source_ids": [
+        "S16",
+        "S41"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0484",
+      "anchor": "SBP-110-L03#06",
+      "text": "Plan a safe sandbox workshop for the approved-answer support workflow.",
+      "source_ids": [
+        "S16",
+        "S41"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0485",
+      "anchor": "SBP-110-L03#07",
+      "text": "Confirm the approved environment, the permitted content (non-sensitive sample articles), and the participants (a few agents, a team lead, and the sponsor or their delegate). Document the limits, such as no production permissions and no personalization. Dry-run five representative case questions against the uploaded content. Pair each task with a success question. Facilitate with the champion, collect findings, and close with \"Does this answer your question? What is the next decision?\"",
+      "source_ids": [
+        "S16",
+        "S41"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0486",
+      "anchor": "SBP-110-L04#00",
+      "text": "A pilot is the heaviest validation option. It is justified only when earlier work is complete and an important buying question can't be answered more lightly.",
+      "source_ids": [
+        "S15",
+        "S16",
+        "S50"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0487",
+      "anchor": "SBP-110-L04#01",
+      "text": "Glean's guidance expects the following before a pilot: The three whys are answered: why change, why now, why Glean. A real economic buyer has been identified and has held an executive alignment meeting confirming that the project is budgeted and the need is real. The value hypothesis and pilot goals are agreed. Technical use cases and a test plan are documented and mutually agreed. Measurable success criteria are agreed with the customer, and the scope, timeline, impact, and test plan are defined.",
+      "source_ids": [
+        "S15",
+        "S16"
+      ],
+      "locator": "When a pilot is justified",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S15, S16",
+      "excerpt": "Real EB is identified and had an exec alignment meeting to confirm the project is budgeted and need confirmed / Once there is a clear need for a pilot and the pilot has been approved, AEs & SEs should use this guide navigate the pilot process.",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0488",
+      "anchor": "SBP-110-L04#02",
+      "text": "The use cases, sources, and connectors. The user cohort. Quality and outcome measures, with baselines. Duration and milestones. Technical and security readiness. The commercial path. The decision owner and the final readout.",
+      "source_ids": [
+        "S15",
+        "S16",
+        "S50"
+      ],
+      "locator": "What a pilot plan covers",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0489",
+      "anchor": "SBP-110-L04#03",
+      "text": "A customer asking for a pilot doesn't make one appropriate. A pilot is not a substitute for qualification. Commercial thresholds and approvals are internal. Confirm them through the account team, and never quote old figures.",
+      "source_ids": [
+        "S15",
+        "S16",
+        "S50"
+      ],
+      "locator": "A request is not a qualification",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0490",
+      "anchor": "SBP-110-L04#04",
+      "text": "A pilot is justified when all five entry conditions are in place. A request alone isn't one of them. The three whys Why change, why now, why Glean A real economic buyer Engaged and committed to the decision Value hypothesis and goals What the pilot must show Use cases and a test plan What will be tested, and how Success criteria Measurable, agreed in advance",
+      "source_ids": [
+        "S15",
+        "S16",
+        "S50"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0491",
+      "anchor": "SBP-110-L04#05",
+      "text": "A prospect asks for a pilot. There is no sponsor, no baseline, and no scoped use case. Assess the request.",
+      "source_ids": [
+        "S15",
+        "S16",
+        "S50"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0492",
+      "anchor": "SBP-110-L04#06",
+      "text": "Defer it. Complete qualification and the sponsor path first. Then run focused discovery to scope one or two use cases, and design the measurement, including baselines. Meanwhile, propose a lighter validation, such as a tailored demo or a Lab scenario, if it would answer the customer's current question. Revisit the pilot only if a scoped, important buying question remains that lighter options can't resolve.",
+      "source_ids": [
+        "S15",
+        "S16",
+        "S50"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0493",
+      "anchor": "SBP-110-L05#00",
+      "text": "Glean uses an internal readiness check before a pilot is approved. Readiness evidence matters, but it never replaces approval.",
+      "source_ids": [
+        "S15",
+        "S47"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0494",
+      "anchor": "SBP-110-L05#01",
+      "text": "Glean's dated pilot guide describes an evidence-based readiness scorecard that the SE runs, with a threshold of 80%. The SE works on the failing gates and reruns the scorecard as new evidence comes in. The SE submits the pilot approval request well before the planned kickoff (at least two weeks in that guide), with AE support. The tools and steps for submitting approvals are internal and change over time. Always follow the live approved process.",
+      "source_ids": [
+        "S15"
+      ],
+      "locator": "The readiness scorecard",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S15",
+      "excerpt": "The scorecard's readiness threshold is 80% (B-).",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0495",
+      "anchor": "SBP-110-L05#02",
+      "text": "The same guide sets out non-negotiable rules: No approval, no pilot. Leadership approval is required. No signed pilot order form, no pilot. The AE owns the pilot quote, order-form signature, and Deal Desk steps. Order forms come after approval. Pilot order forms aren't approved or sent before the pilot approval is complete. Deployment comes last. It is created only after approval and the signed order form. Boundary A readiness score of 80% or more is evidence of readiness, not authorization. Partners don't approve, promise, or provision pilots. Confirm current policy with the Glean account tea",
+      "source_ids": [
+        "S15"
+      ],
+      "locator": "Approval and commercial prerequisites",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S15",
+      "excerpt": "No approval = no pilot. / No signed pilot order form = no pilot.",
+      "note": "2 of 2 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0496",
+      "anchor": "SBP-110-L05#03",
+      "text": "A strong score is only one of three prerequisites. Each must be in place before a pilot starts. Follow the live approved process; confirm current policy with the Glean account team. Readiness scorecard Evidence, not authorization Pilot approval No approval, no pilot Signed pilot order form No signed form, no pilot",
+      "source_ids": [
+        "S15",
+        "S47"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0497",
+      "anchor": "SBP-110-L05#04",
+      "text": "The readiness score is 84%, but leadership approval and the signed pilot order form are missing. Can deployment start?",
+      "source_ids": [
+        "S15",
+        "S47"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0498",
+      "anchor": "SBP-110-L05#05",
+      "text": "No. The score shows readiness, but it doesn't authorize anything. Resolve the required approvals and commercial prerequisites first. Under the dated guide, deployment begins only after the pilot approval is approved and the pilot order form is signed.",
+      "source_ids": [
+        "S15",
+        "S47"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0499",
+      "anchor": "SBP-110-L06#00",
+      "text": "Every validation needs a short written recommendation and clear rules for when to stop, narrow, or escalate. Without them, evaluations drift and expand.",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0500",
+      "anchor": "SBP-110-L06#01",
+      "text": "Write a one-page recommendation that states: The buying question it answers. The chosen option, and why lighter alternatives do or don't suffice. Scope: use cases, data, and users. Evidence: what will be measured or demonstrated. Owners and dates, on both sides. Costs and approvals required. Go or no-go criteria.",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "locator": "The recommendation",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0501",
+      "anchor": "SBP-110-L06#02",
+      "text": "Agree in advance what happens if things change. If a test fails because the intended source is unavailable, that calls for a decision about the dependency. It doesn't mean an automatic extension. Revisit the hypothesis, the scope, and the sponsor's commitment before investing more. Boundary Don't continue an evaluation indefinitely, and don't quietly expand data or users. Changes need agreement from the owners, a risk review, and updated decision criteria.",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "locator": "Stop and escalation rules",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0502",
+      "anchor": "SBP-110-L06#03",
+      "text": "A recommendation is complete when someone outside the account could approve or reject it from the page alone. The buying question What is still uncertain The chosen option And why it is the lightest sufficient one Scope Workflows, users, data, and duration Evidence What the result will prove Owners and dates For each step Go or no-go criteria Agreed before it starts",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0503",
+      "anchor": "SBP-110-L06#04",
+      "text": "Write a stop rule for a validation that depends on a connector that hasn't been approved.",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0504",
+      "anchor": "SBP-110-L06#05",
+      "text": "\"If connector feasibility and permitted access aren't confirmed by the readiness checkpoint on [date], we will pause this use case and notify the sponsor. Then, together with the owners, we will either choose a narrower path using already-available sources or defer the use case. We won't start an unapproved deployment.\"",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0505",
+      "anchor": "SBP-110-S999",
+      "text": "Review your artifacts and proceed to the required assessment or capstone submission.",
+      "source_ids": [
+        "S16",
+        "S15",
+        "S14",
+        "S41",
+        "S61"
+      ],
+      "locator": "Assessment design; S55/S56 build framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0506",
+      "anchor": "SBP-110-TEMPLATES",
+      "text": "Reusable templates: A14",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0507",
+      "anchor": "SBP-110-PROMPTS",
+      "text": "Prompt library entries: P08",
+      "source_ids": [
+        "S15",
+        "S47"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0508",
+      "anchor": "SBP-110-Q001",
+      "text": "The sources favor lighter validation but the actual choice depends on what must be proven.",
+      "source_ids": [
+        "S14",
+        "S16",
+        "S21"
+      ],
+      "locator": "Validation options; Glean Lab default; corporate demo preference",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0509",
+      "anchor": "SBP-110-Q002",
+      "text": "Environment descriptions and commercial rules change; old decks should not become evergreen policy.",
+      "source_ids": [
+        "S16",
+        "S41",
+        "S61"
+      ],
+      "locator": "Technical Validation Options; external sandbox guide; Lab definition",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0510",
+      "anchor": "SBP-110-Q003",
+      "text": "A controlled, scoped and dry-run experience is more useful and safer than open experimentation.",
+      "source_ids": [
+        "S16",
+        "S41"
+      ],
+      "locator": "How to Frame Up the Sandbox; Upload, Test and Dry Run",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0511",
+      "anchor": "SBP-110-Q004",
+      "text": "A pilot requires a qualified decision context, sponsor path, scope and evidence need.",
+      "source_ids": [
+        "S15",
+        "S16",
+        "S50"
+      ],
+      "locator": "Step 1 Confirm pilot right path; pilot prerequisites",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0512",
+      "anchor": "SBP-110-Q005",
+      "text": "The retrieved guide distinguishes score, approval and order-form requirements; no score alone authorizes a pilot.",
+      "source_ids": [
+        "S15",
+        "S47"
+      ],
+      "locator": "Pilot Approval Process [COMING SOON]; Steps 3–6; non-negotiable rules",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0513",
+      "anchor": "SBP-110-Q006",
+      "text": "Stop rules protect time, scope and risk and keep the buying decision explicit.",
+      "source_ids": [
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "locator": "Pilot scope; success criteria; validation decision synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0514",
+      "anchor": "SBP-110-Q008",
+      "text": "Unresolved feasibility should change scope or sequencing, not be concealed.",
+      "source_ids": [
+        "S05",
+        "S15"
+      ],
+      "locator": "Pilot scope; success criteria; validation decision synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    }
+  ]
+}

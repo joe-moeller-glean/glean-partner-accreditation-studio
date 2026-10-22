@@ -1,0 +1,160 @@
+{
+  "id": "SBP-102-L05",
+  "lesson": "SBP-102-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Recovering incomplete stage evidence",
+  "nav": "5. Recovering incomplete stage evidence",
+  "objective": "Create a recovery plan for a strong workshop with no sponsor or metric owner.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Blueprints rarely go perfectly. A workshop may be strong while a sponsor is missing, or a use case may be compelling with no one able to supply baseline data. The skill is choosing the smallest corrective action that closes the gap."
+    },
+    {
+      "t": "h3",
+      "x": "Match the fix to the gap"
+    },
+    {
+      "t": "table",
+      "caption": "Corrective actions by gap",
+      "head": [
+        "Gap",
+        "Smallest corrective action",
+        "Typical owner"
+      ],
+      "rows": [
+        [
+          "No agreed priorities",
+          "Short prioritization session with the champion",
+          "Partner or SE facilitates"
+        ],
+        [
+          "No business owner for a use case",
+          "Champion introduces the owner; quick confirmation call",
+          "AE, with the champion"
+        ],
+        [
+          "No baseline or metric owner",
+          "Measurement-design session with the system owner, with a due date",
+          "SE or partner, with the customer data owner"
+        ],
+        [
+          "Workflow assumptions unvalidated",
+          "Workflow playback with the users interviewed",
+          "Partner or SE"
+        ],
+        [
+          "No executive sponsor path",
+          "Sponsor-alignment meeting; requalify if none emerges",
+          "AE"
+        ],
+        [
+          "Value hypothesis no longer fits",
+          "Revise the hypothesis before modeling more value",
+          "SE, with the business owner"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Progress means a better-informed decision"
+    },
+    {
+      "t": "p",
+      "x": "Progress is not more meetings. It is the next decision becoming better informed. If no executive priority supports a use case, go back to qualification before building a bigger savings model. Without a baseline, any claimed improvement cannot be verified, so a missing baseline is an action to resolve, not a number to estimate quietly."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't quietly lower success criteria or backfill invented numbers to move the stage forward. Record the gap, its owner, the corrective action, and the decision checkpoint."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Most incomplete stages have a small, specific fix. Name the gap, then take the smallest step that closes it."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Match the fix to the gap",
+      "alt": "A comparison listing common gaps in stage evidence with the smallest corrective action for each, such as a prioritization session for missing priorities and a sponsor-alignment meeting for a missing sponsor path.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Gap",
+          "b": "Smallest corrective action",
+          "emph": false
+        },
+        {
+          "a": "No agreed priorities",
+          "b": "Short prioritization session with the champion",
+          "emph": false
+        },
+        {
+          "a": "No owner for a use case",
+          "b": "Champion introduces the owner",
+          "emph": false
+        },
+        {
+          "a": "No baseline or metric owner",
+          "b": "Measurement-design session with the system owner",
+          "emph": false
+        },
+        {
+          "a": "Unvalidated workflow",
+          "b": "Playback with the users who do the work",
+          "emph": false
+        },
+        {
+          "a": "No sponsor path",
+          "b": "Sponsor-alignment meeting, or requalify",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A Visioning session went very well, but there is no executive sponsor and no one owns the key metric. Write a short recovery plan with owners."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**AE:** secures a sponsor conversation through the champion and requalifies the opportunity if no sponsor emerges by the agreed date.",
+        "**SE or partner:** identifies the measurement dependency, meaning which system holds the metric and who can export a baseline.",
+        "**Customer champion:** names the metric owner and books a 30-minute measurement-design session."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Hold executive validation until there is decision-ready evidence. Record each gap and its due date in the mutual action plan."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 410,
+  "eyebrow": "Lesson 5 · about 6 min",
+  "claims": [
+    "C-0079",
+    "C-0080",
+    "C-0081",
+    "C-0082",
+    "C-0083",
+    "C-0084"
+  ],
+  "sources": [
+    "S12",
+    "S13",
+    "S14"
+  ]
+}

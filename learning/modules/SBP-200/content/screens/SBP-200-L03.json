@@ -1,0 +1,147 @@
+{
+  "id": "SBP-200-L03",
+  "lesson": "SBP-200-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "Document current and future workflows",
+  "nav": "3. Document current and future workflows",
+  "objective": "Submit two current/future map pairs and one playback correction log.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The second deliverable is two detailed current-and-future workflow pairs, showing exactly where time goes and what a change would and would not alter."
+    },
+    {
+      "t": "h3",
+      "x": "The two workflows"
+    },
+    {
+      "t": "p",
+      "x": "**Support, approved-guidance discovery.** Interview estimates of active work:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Read the case: 2 minutes.",
+        "Find approved guidance: 8 minutes.",
+        "Consult a colleague: 3 minutes.",
+        "Draft a response: 5 minutes.",
+        "Review and send: 2 minutes."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "That makes 20 active minutes in total. Some cases also wait one business day for specialist input. Keep that as elapsed time, not labor."
+    },
+    {
+      "t": "p",
+      "x": "**Sales, customer-meeting preparation.** Reviewing CRM takes 10 minutes, finding notes 10 minutes, locating relevant content 15 minutes, and drafting a brief 10 minutes. Frequency and comparison data are unknown."
+    },
+    {
+      "t": "h3",
+      "x": "What the maps must show"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The actor, step, and system for each step.",
+        "Active time and elapsed delay, kept separate.",
+        "Handoffs and failure points.",
+        "Evidence labels for every timing.",
+        "In the future state: retained human controls (source review, final approval, escalation), data and permission dependencies, and the hypothesis label on every future timing."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Submit a playback correction log showing at least one change made after feedback from the workflow owner."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Model only the avoidable knowledge-friction burden, the eight-minute search step, in the value case, not all 20 minutes. Don't remove reading or review controls, and don't monetize the one-day wait as labor saved."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "The future state changes some steps and keeps others. Human review and send stay with the agent."
+    },
+    {
+      "t": "figure",
+      "kind": "bars",
+      "title": "Current-state active time per case (scenario)",
+      "alt": "A bar chart of the capstone's current-state support workflow in active minutes per case: read the case 2, find approved guidance 8, consult a colleague 3, draft a response 5, and review and send 2. Finding guidance is the largest step.",
+      "caption": "Fictional scenario values. Review and send stays human in the future state.",
+      "items": [
+        {
+          "label": "Read the case",
+          "value": 2.0,
+          "note": "min",
+          "emph": false
+        },
+        {
+          "label": "Find approved guidance",
+          "value": 8.0,
+          "note": "min",
+          "emph": true
+        },
+        {
+          "label": "Consult a colleague",
+          "value": 3.0,
+          "note": "min",
+          "emph": false
+        },
+        {
+          "label": "Draft a response",
+          "value": 5.0,
+          "note": "min",
+          "emph": false
+        },
+        {
+          "label": "Review and send",
+          "value": 2.0,
+          "note": "min",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A teammate's future-state support map removes the review-and-send step \"because AI drafts the response.\" Correct it."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Restore the review-and-send step. The human agent keeps source review and final approval of the response, and escalation remains."
+    },
+    {
+      "t": "p",
+      "x": "The future-state hypothesis is that grounded access to approved guidance may reduce the search step, and might support drafting. The exact timing is unknown until validated. List the dependencies: access to the approved knowledge repository, and correct permission behavior."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 342,
+  "eyebrow": "Lesson 3 · about 6 min",
+  "claims": [
+    "C-0673",
+    "C-0674",
+    "C-0675",
+    "C-0676",
+    "C-0677",
+    "C-0678"
+  ],
+  "sources": [
+    "S02",
+    "S13",
+    "S22"
+  ]
+}

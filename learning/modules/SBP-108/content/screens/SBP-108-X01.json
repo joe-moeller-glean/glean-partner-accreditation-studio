@@ -1,0 +1,76 @@
+{
+  "id": "SBP-108-X01",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Templates",
+  "title": "Templates for this module",
+  "nav": "Templates",
+  "body": "Copy-ready structures you can reuse in your own engagements. Examples are fictional.",
+  "cards": [
+    {
+      "tag": "A10",
+      "title": "Metric card",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Metric, business outcome, definition, unit, cohort, baseline/period, target, source system, data owner, collection date/cadence, quality guardrail, attribution, status"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Mean handle time for selected case class; baseline not measured; operations owner to sample before rollout; resolution quality guardrail."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "No target-as-baseline substitution; comparable cohorts and definitions."
+        }
+      ]
+    },
+    {
+      "tag": "A11",
+      "title": "Assumption and evidence log",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Assumption ID, parameter, value/unit, customer/benchmark/fictional, source/date, confidence caveat, sensitivity, validation owner/date, approved for use"
+        },
+        {
+          "label": "Fictional example",
+          "text": "AS-01: 8 minutes/event is fictional avoidable burden for training, not actual time saved or customer evidence."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Every material claim traceable; evidence labels and publication clearance explicit."
+        }
+      ]
+    },
+    {
+      "tag": "A12",
+      "title": "Initial value estimate",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Scenario, population, adoption, frequency, time basis, annualization, efficiency/coverage, recapture, rate, risk, benefits, costs, ROI, caveat"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Use ROI Lab; capacity benefits shown separately from cash savings, revenue and overlapping workflow benefits."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Units match; conservative/base/upside visible; source-formula discrepancies disclosed."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0401"
+  ],
+  "sources": [
+    "S13",
+    "S34",
+    "S37",
+    "S39",
+    "S40"
+  ],
+  "required": true
+}

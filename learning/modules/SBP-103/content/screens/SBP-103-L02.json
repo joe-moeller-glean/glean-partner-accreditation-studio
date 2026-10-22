@@ -1,0 +1,142 @@
+{
+  "id": "SBP-103-L02",
+  "lesson": "SBP-103-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Select a partner engagement model",
+  "nav": "2. Select a partner engagement model",
+  "objective": "Choose a model for a partner with domain expertise but limited Glean experience.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Partners can contribute at different depths. Choose the model based on customer relationships, the partner's Glean competence, available capacity, and what the deal needs."
+    },
+    {
+      "t": "h3",
+      "x": "Three models"
+    },
+    {
+      "t": "table",
+      "caption": "Partner engagement models",
+      "head": [
+        "Model",
+        "What the partner does",
+        "What Glean does",
+        "When it fits"
+      ],
+      "rows": [
+        [
+          "Assist",
+          "Joins Glean-led sessions, adds industry context, takes notes",
+          "Leads facilitation, technical depth, and value",
+          "A partner new to Blueprinting, or a strategic deal Glean must lead"
+        ],
+        [
+          "Co-lead",
+          "Facilitates parts of Visioning and DITL, owns stakeholder engagement",
+          "Provides technical backup and reviews outputs",
+          "A partner with domain expertise but limited Glean experience"
+        ],
+        [
+          "Partner-led",
+          "Leads agreed discovery and follow-on services",
+          "Coaches, sets technical boundaries, owns product answers",
+          "A partner with demonstrated, reviewed Blueprint competence"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Progress through evidence"
+    },
+    {
+      "t": "p",
+      "x": "A partner with strong departmental access can accelerate end-user interviews from day one. Build Blueprint competence step by step: observe the first workshop, co-facilitate the second, then lead a third that Glean reviews. This progression is a training recommendation from this course, not a Glean policy."
+    },
+    {
+      "t": "h3",
+      "x": "What \"partner-led\" does not mean"
+    },
+    {
+      "t": "p",
+      "x": "Partner-led does not mean bypassing Glean's internal approvals. Before any partner-led session, confirm:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The customer has agreed to the partner's involvement and to how information will be shared between organizations.",
+        "What the partner may say about product capabilities, implementation scope, and timelines.",
+        "Who answers technical questions the partner can't resolve, and how quickly."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Partners move from assisting to leading by showing evidence, not by declaring readiness."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "Progressing through engagement models",
+      "alt": "A three-step progression of partner engagement models: assist in Glean-led sessions, co-lead parts of Visioning and DITL, then lead agreed discovery with Glean coaching. Each step requires evidence from the previous one.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Assist",
+          "detail": "Join Glean-led sessions; add industry context",
+          "emph": false
+        },
+        {
+          "label": "Co-lead",
+          "detail": "Facilitate parts of Visioning and DITL",
+          "emph": false
+        },
+        {
+          "label": "Partner-led",
+          "detail": "Lead agreed discovery; Glean coaches and reviews",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A partner has deep financial-services expertise but has never run a Glean Blueprint. Choose an engagement model and explain how the partner could progress."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Co-lead. The partner handles industry context and stakeholder engagement, and may facilitate the DITL interviews with front-line users. Glean supplies technical backup during sessions and reviews the use case log, workflow maps, and value inputs before anything goes to the executive."
+    },
+    {
+      "t": "p",
+      "x": "Move to partner-led only after the partner's outputs pass review on at least one engagement, and with the customer's agreement."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 338,
+  "eyebrow": "Lesson 2 · about 6 min",
+  "claims": [
+    "C-0107",
+    "C-0108",
+    "C-0109",
+    "C-0110",
+    "C-0111",
+    "C-0112",
+    "C-0113"
+  ],
+  "sources": [
+    "S05",
+    "S06",
+    "S21"
+  ]
+}

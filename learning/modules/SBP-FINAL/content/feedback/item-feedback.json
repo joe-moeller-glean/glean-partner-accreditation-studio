@@ -1,0 +1,417 @@
+{
+  "module_id": "SBP-FINAL",
+  "feedback": {
+    "SBP-101-Q001": {
+      "correct": "Correct. Blueprint is a structured value-led decision process, not a deployment entitlement, qualification replacement or guarantee.",
+      "incorrect": "Review the relevant lesson and evidence. Blueprint is a structured value-led decision process, not a deployment entitlement, qualification replacement or guarantee."
+    },
+    "SBP-101-Q002": {
+      "correct": "Correct. The three named steps are Visioning, DITL and Executive Validation, preceded by preparation and followed by an agreed validation path.",
+      "incorrect": "Review the relevant lesson and evidence. The three named steps are Visioning, DITL and Executive Validation, preceded by preparation and followed by an agreed validation path."
+    },
+    "SBP-101-Q003": {
+      "correct": "Correct. An outcome describes business change; meetings, ideas and connectors are activities or enablers unless linked to that change.",
+      "incorrect": "Review the relevant lesson and evidence. An outcome describes business change; meetings, ideas and connectors are activities or enablers unless linked to that change."
+    },
+    "SBP-101-Q004": {
+      "correct": "Correct. Partner expertise improves relevance, but does not override feasibility, approval or contracting boundaries.",
+      "incorrect": "Review the relevant lesson and evidence. Partner expertise improves relevance, but does not override feasibility, approval or contracting boundaries."
+    },
+    "SBP-101-Q005": {
+      "correct": "Correct. The sales process may link to architecture patterns but must establish customer-specific purpose, evidence and decisions.",
+      "incorrect": "Review the relevant lesson and evidence. The sales process may link to architecture patterns but must establish customer-specific purpose, evidence and decisions."
+    },
+    "SBP-101-Q006": {
+      "correct": "Correct. Decision readiness requires traceable customer evidence and commitments, not presentation quality alone.",
+      "incorrect": "Review the relevant lesson and evidence. Decision readiness requires traceable customer evidence and commitments, not presentation quality alone."
+    },
+    "SBP-101-Q007": {
+      "correct": "Correct. Blueprint determines the evaluation need; it does not grant approval or require a full pilot.",
+      "incorrect": "Review the relevant lesson and evidence. Blueprint determines the evaluation need; it does not grant approval or require a full pilot."
+    },
+    "SBP-101-Q008": {
+      "correct": "Correct. The name and course governance are design proposals, not evidence of approval or publication.",
+      "incorrect": "Review the relevant lesson and evidence. The name and course governance are design proposals, not evidence of approval or publication."
+    },
+    "SBP-102-Q001": {
+      "correct": "Correct. Stage 2 builds use case and workflow evidence; Executive Validation is associated with Stage 3.",
+      "incorrect": "Review the relevant lesson and evidence. Stage 2 builds use case and workflow evidence; Executive Validation is associated with Stage 3."
+    },
+    "SBP-102-Q002": {
+      "correct": "Correct. Stage progression reflects evidence, not attendance, and gaps need targeted corrective work.",
+      "incorrect": "Review the relevant lesson and evidence. Stage progression reflects evidence, not attendance, and gaps need targeted corrective work."
+    },
+    "SBP-102-Q003": {
+      "correct": "Correct. Executive Validation is about value, sponsorship and the path forward; other approvals remain distinct.",
+      "incorrect": "Review the relevant lesson and evidence. Executive Validation is about value, sponsorship and the path forward; other approvals remain distinct."
+    },
+    "SBP-102-Q004": {
+      "correct": "Correct. A metric card creates explicit measurable evidence; a field or invite alone does not.",
+      "incorrect": "Review the relevant lesson and evidence. A metric card creates explicit measurable evidence; a field or invite alone does not."
+    },
+    "SBP-102-Q005": {
+      "correct": "Correct. Close the specific evidence gap and label assumptions; do not fabricate customer measurements.",
+      "incorrect": "Review the relevant lesson and evidence. Close the specific evidence gap and label assumptions; do not fabricate customer measurements."
+    },
+    "SBP-102-Q006": {
+      "correct": "Correct. Business alignment does not complete technical, security, procurement or authority checks.",
+      "incorrect": "Review the relevant lesson and evidence. Business alignment does not complete technical, security, procurement or authority checks."
+    },
+    "SBP-102-Q007": {
+      "correct": "Correct. Stage labels and workflows are time-sensitive internal details; the durable learning is evidence and decision quality.",
+      "incorrect": "Review the relevant lesson and evidence. Stage labels and workflows are time-sensitive internal details; the durable learning is evidence and decision quality."
+    },
+    "SBP-102-Q008": {
+      "correct": "Correct. Sponsorship and account qualification need human account ownership, not automated assumptions.",
+      "incorrect": "Review the relevant lesson and evidence. Sponsorship and account qualification need human account ownership, not automated assumptions."
+    },
+    "SBP-103-Q001": {
+      "correct": "Correct. The referenced process is generally SE-led for DITL while roles collaborate and may adapt with preparation.",
+      "incorrect": "Review the relevant lesson and evidence. The referenced process is generally SE-led for DITL while roles collaborate and may adapt with preparation."
+    },
+    "SBP-103-Q002": {
+      "correct": "Correct. A co-led progression uses domain strength while managing product and process knowledge gaps.",
+      "incorrect": "Review the relevant lesson and evidence. A co-led progression uses domain strength while managing product and process knowledge gaps."
+    },
+    "SBP-103-Q003": {
+      "correct": "Correct. Impact, real work and feasibility require complementary customer evidence and accountability.",
+      "incorrect": "Review the relevant lesson and evidence. Impact, real work and feasibility require complementary customer evidence and accountability."
+    },
+    "SBP-103-Q004": {
+      "correct": "Correct. Engagement depth depends on need and capacity; internal routing and commitments require confirmation.",
+      "incorrect": "Review the relevant lesson and evidence. Engagement depth depends on need and capacity; internal routing and commitments require confirmation."
+    },
+    "SBP-103-Q005": {
+      "correct": "Correct. Product support accountability is distinct from the partner's advisory or scoped build services.",
+      "incorrect": "Review the relevant lesson and evidence. Product support accountability is distinct from the partner's advisory or scoped build services."
+    },
+    "SBP-103-Q006": {
+      "correct": "Correct. Product feasibility, write controls and scope need verification; a draft or enthusiasm is not evidence.",
+      "incorrect": "Review the relevant lesson and evidence. Product feasibility, write controls and scope need verification; a draft or enthusiasm is not evidence."
+    },
+    "SBP-103-Q007": {
+      "correct": "Correct. Clear responsibility prevents ambiguous commitments and lost actions.",
+      "incorrect": "Review the relevant lesson and evidence. Clear responsibility prevents ambiguous commitments and lost actions."
+    },
+    "SBP-103-Q008": {
+      "correct": "Correct. Services need explicit outcomes, dependencies, exclusions and contractual review.",
+      "incorrect": "Review the relevant lesson and evidence. Services need explicit outcomes, dependencies, exclusions and contractual review."
+    },
+    "SBP-104-Q001": {
+      "correct": "Correct. Source transparency and customer confirmation are better than confident synthesis of conflicting facts.",
+      "incorrect": "Review the relevant lesson and evidence. Source transparency and customer confirmation are better than confident synthesis of conflicting facts."
+    },
+    "SBP-104-Q002": {
+      "correct": "Correct. The hypothesis links problem, urgency and relevant differentiation to customer context.",
+      "incorrect": "Review the relevant lesson and evidence. The hypothesis links problem, urgency and relevant differentiation to customer context."
+    },
+    "SBP-104-Q003": {
+      "correct": "Correct. A useful metric specifies what, how and why; vague or borrowed claims do not establish a baseline.",
+      "incorrect": "Review the relevant lesson and evidence. A useful metric specifies what, how and why; vague or borrowed claims do not establish a baseline."
+    },
+    "SBP-104-Q004": {
+      "correct": "Correct. Missing readiness basics need resolution; an alignment conversation may be useful but is not a completed full workshop.",
+      "incorrect": "Review the relevant lesson and evidence. Missing readiness basics need resolution; an alignment conversation may be useful but is not a completed full workshop."
+    },
+    "SBP-104-Q005": {
+      "correct": "Correct. The two-day lead is in the specific template, not a universal legal rule.",
+      "incorrect": "Review the relevant lesson and evidence. The two-day lead is in the specific template, not a universal legal rule."
+    },
+    "SBP-104-Q006": {
+      "correct": "Correct. Rehearsal improves coordinated evidence gathering and honest handling of unknowns.",
+      "incorrect": "Review the relevant lesson and evidence. Rehearsal improves coordinated evidence gathering and honest handling of unknowns."
+    },
+    "SBP-104-Q007": {
+      "correct": "Correct. Peer evidence does not establish customer-specific facts or causation.",
+      "incorrect": "Review the relevant lesson and evidence. Peer evidence does not establish customer-specific facts or causation."
+    },
+    "SBP-104-Q008": {
+      "correct": "Correct. Baseline quality requires customer data ownership and an agreed collection method.",
+      "incorrect": "Review the relevant lesson and evidence. Baseline quality requires customer data ownership and an agreed collection method."
+    },
+    "SBP-105-Q001": {
+      "correct": "Correct. Existing ideas accelerate capture, but still need outcome, impact, effort and scope validation.",
+      "incorrect": "Review the relevant lesson and evidence. Existing ideas accelerate capture, but still need outcome, impact, effort and scope validation."
+    },
+    "SBP-105-Q002": {
+      "correct": "Correct. The session must still yield decisions; reduce scope or add a session rather than silently dropping commitments.",
+      "incorrect": "Review the relevant lesson and evidence. The session must still yield decisions; reduce scope or add a session rather than silently dropping commitments."
+    },
+    "SBP-105-Q003": {
+      "correct": "Correct. Open outcome-led questions elicit evidence without presupposing the answer.",
+      "incorrect": "Review the relevant lesson and evidence. Open outcome-led questions elicit evidence without presupposing the answer."
+    },
+    "SBP-105-Q004": {
+      "correct": "Correct. A concrete actor, trigger and job make workflow investigation possible.",
+      "incorrect": "Review the relevant lesson and evidence. A concrete actor, trigger and job make workflow investigation possible."
+    },
+    "SBP-105-Q005": {
+      "correct": "Correct. Prioritization is a joint capacity-aware decision with rationale and an explicit backlog.",
+      "incorrect": "Review the relevant lesson and evidence. Prioritization is a joint capacity-aware decision with rationale and an explicit backlog."
+    },
+    "SBP-105-Q006": {
+      "correct": "Correct. Prompt concrete follow-up preserves context and enables correction without exposing restricted notes.",
+      "incorrect": "Review the relevant lesson and evidence. Prompt concrete follow-up preserves context and enables correction without exposing restricted notes."
+    },
+    "SBP-105-Q007": {
+      "correct": "Correct. Source conflicts should be transparent; duration choices must preserve outcomes and appropriate scope.",
+      "incorrect": "Review the relevant lesson and evidence. Source conflicts should be transparent; duration choices must preserve outcomes and appropriate scope."
+    },
+    "SBP-105-Q008": {
+      "correct": "Correct. Recaps are working records; customer corrections should improve the evidence and be traceable.",
+      "incorrect": "Review the relevant lesson and evidence. Recaps are working records; customer corrections should improve the evidence and be traceable."
+    },
+    "SBP-106-Q001": {
+      "correct": "Correct. The chain starts with customer purpose and exposes workflow and evidence dependencies.",
+      "incorrect": "Review the relevant lesson and evidence. The chain starts with customer purpose and exposes workflow and evidence dependencies."
+    },
+    "SBP-106-Q002": {
+      "correct": "Correct. A recent specific example yields testable detail without leading the witness.",
+      "incorrect": "Review the relevant lesson and evidence. A recent specific example yields testable detail without leading the witness."
+    },
+    "SBP-106-Q003": {
+      "correct": "Correct. Impact needs reach and consequence; implementation complexity belongs in effort.",
+      "incorrect": "Review the relevant lesson and evidence. Impact needs reach and consequence; implementation complexity belongs in effort."
+    },
+    "SBP-106-Q004": {
+      "correct": "Correct. Simple wording does not imply simple delivery; feasibility and control requirements matter.",
+      "incorrect": "Review the relevant lesson and evidence. Simple wording does not imply simple delivery; feasibility and control requirements matter."
+    },
+    "SBP-106-Q005": {
+      "correct": "Correct. The matrix separates business impact from implementation effort; strategic bets can be phased.",
+      "incorrect": "Review the relevant lesson and evidence. The matrix separates business impact from implementation effort; strategic bets can be phased."
+    },
+    "SBP-106-Q006": {
+      "correct": "Correct. A prioritized idea needs accountable discovery and measurement steps to become actionable.",
+      "incorrect": "Review the relevant lesson and evidence. A prioritized idea needs accountable discovery and measurement steps to become actionable."
+    },
+    "SBP-106-Q007": {
+      "correct": "Correct. Impact can include risk; defensible rationale matters more than a single volume proxy.",
+      "incorrect": "Review the relevant lesson and evidence. Impact can include risk; defensible rationale matters more than a single volume proxy."
+    },
+    "SBP-106-Q008": {
+      "correct": "Correct. The richer framework is useful but its dimensions require interpretation; do not automate ambiguous scoring.",
+      "incorrect": "Review the relevant lesson and evidence. The richer framework is useful but its dimensions require interpretation; do not automate ambiguous scoring."
+    },
+    "SBP-107-Q001": {
+      "correct": "Correct. Direct workflow evidence needs practitioners, supplemented by business and technical owners.",
+      "incorrect": "Review the relevant lesson and evidence. Direct workflow evidence needs practitioners, supplemented by business and technical owners."
+    },
+    "SBP-107-Q002": {
+      "correct": "Correct. Labor and cycle time are different and support different value mechanisms.",
+      "incorrect": "Review the relevant lesson and evidence. Labor and cycle time are different and support different value mechanisms."
+    },
+    "SBP-107-Q003": {
+      "correct": "Correct. Distinguish the measure and mechanism rather than inflating savings through incompatible units.",
+      "incorrect": "Review the relevant lesson and evidence. Distinguish the measure and mechanism rather than inflating savings through incompatible units."
+    },
+    "SBP-107-Q004": {
+      "correct": "Correct. A credible future state preserves required controls and labels unvalidated assumptions.",
+      "incorrect": "Review the relevant lesson and evidence. A credible future state preserves required controls and labels unvalidated assumptions."
+    },
+    "SBP-107-Q005": {
+      "correct": "Correct. Playback is conditional and decision-oriented, not a mandatory endless demo cycle.",
+      "incorrect": "Review the relevant lesson and evidence. Playback is conditional and decision-oriented, not a mandatory endless demo cycle."
+    },
+    "SBP-107-Q006": {
+      "correct": "Correct. Executives need the business meaning, with detailed evidence available behind the summary.",
+      "incorrect": "Review the relevant lesson and evidence. Executives need the business meaning, with detailed evidence available behind the summary."
+    },
+    "SBP-107-Q007": {
+      "correct": "Correct. Divergence may reflect real differences or weak evidence; preserve uncertainty and validate it.",
+      "incorrect": "Review the relevant lesson and evidence. Divergence may reflect real differences or weak evidence; preserve uncertainty and validate it."
+    },
+    "SBP-107-Q008": {
+      "correct": "Correct. Generated plausibility is not observation or a customer baseline.",
+      "incorrect": "Review the relevant lesson and evidence. Generated plausibility is not observation or a customer baseline."
+    },
+    "SBP-108-Q001": {
+      "correct": "Correct. The architecture links problem and evidence to quantified value and realization/measurement.",
+      "incorrect": "Review the relevant lesson and evidence. The architecture links problem and evidence to quantified value and realization/measurement."
+    },
+    "SBP-108-Q002": {
+      "correct": "Correct. Capacity value is not automatically a cash saving; cost avoidance or cancelled spend needs its own evidence.",
+      "incorrect": "Review the relevant lesson and evidence. Capacity value is not automatically a cash saving; cost avoidance or cancelled spend needs its own evidence."
+    },
+    "SBP-108-Q003": {
+      "correct": "Correct. Self-report needs corroboration and cannot alone prove financial impact or attribution.",
+      "incorrect": "Review the relevant lesson and evidence. Self-report needs corroboration and cannot alone prove financial impact or attribution."
+    },
+    "SBP-108-Q004": {
+      "correct": "Correct. Recapture concerns how freed time is used; adoption and coverage are separate factors.",
+      "incorrect": "Review the relevant lesson and evidence. Recapture concerns how freed time is used; adoption and coverage are separate factors."
+    },
+    "SBP-108-Q005": {
+      "correct": "Correct. Net ROI compares net benefit with the same-period investment; units and scope must be consistent.",
+      "incorrect": "Review the relevant lesson and evidence. Net ROI compares net benefit with the same-period investment; units and scope must be consistent."
+    },
+    "SBP-108-Q006": {
+      "correct": "Correct. An honest gap plus measurement action is preferable to a fabricated baseline.",
+      "incorrect": "Review the relevant lesson and evidence. An honest gap plus measurement action is preferable to a fabricated baseline."
+    },
+    "SBP-108-Q007": {
+      "correct": "Correct. Raw avoidable burden and measured savings are different input definitions; discounts must not overlap silently.",
+      "incorrect": "Review the relevant lesson and evidence. Raw avoidable burden and measured savings are different input definitions; discounts must not overlap silently."
+    },
+    "SBP-108-Q008": {
+      "correct": "Correct. Honest sensitivity and downside evidence protect decision quality and identify what must be validated.",
+      "incorrect": "Review the relevant lesson and evidence. Honest sensitivity and downside evidence protect decision quality and identify what must be validated."
+    },
+    "SBP-109-Q001": {
+      "correct": "Correct. The retrieved checklist specifies 1–3 business days for the readiness work.",
+      "incorrect": "Review the relevant lesson and evidence. The retrieved checklist specifies 1–3 business days for the readiness work."
+    },
+    "SBP-109-Q002": {
+      "correct": "Correct. Champion support is not the same as executive alignment or investment authority.",
+      "incorrect": "Review the relevant lesson and evidence. Champion support is not the same as executive alignment or investment authority."
+    },
+    "SBP-109-Q003": {
+      "correct": "Correct. The executive meeting should focus on customer evidence and decisions, not a long product tour.",
+      "incorrect": "Review the relevant lesson and evidence. The executive meeting should focus on customer evidence and decisions, not a long product tour."
+    },
+    "SBP-109-Q004": {
+      "correct": "Correct. A hypothesis should be defended through transparency and a measurement plan, not overstated certainty.",
+      "incorrect": "Review the relevant lesson and evidence. A hypothesis should be defended through transparency and a measurement plan, not overstated certainty."
+    },
+    "SBP-109-Q005": {
+      "correct": "Correct. Validation scope should follow the decision and necessary evidence; pilots need separate justification and gates.",
+      "incorrect": "Review the relevant lesson and evidence. Validation scope should follow the decision and necessary evidence; pilots need separate justification and gates."
+    },
+    "SBP-109-Q006": {
+      "correct": "Correct. The checklist requires concrete commitments and opportunity/plan updates while protecting internal data.",
+      "incorrect": "Review the relevant lesson and evidence. The checklist requires concrete commitments and opportunity/plan updates while protecting internal data."
+    },
+    "SBP-109-Q007": {
+      "correct": "Correct. Pre-agreed criteria make evaluation interpretable and reduce scope or success-definition drift.",
+      "incorrect": "Review the relevant lesson and evidence. Pre-agreed criteria make evaluation interpretable and reduce scope or success-definition drift."
+    },
+    "SBP-109-Q008": {
+      "correct": "Correct. Decisions can be conditional; document exactly what is accepted and what must still be proven.",
+      "incorrect": "Review the relevant lesson and evidence. Decisions can be conditional; document exactly what is accepted and what must still be proven."
+    },
+    "SBP-110-Q001": {
+      "correct": "Correct. The sources favor lighter validation but the actual choice depends on what must be proven.",
+      "incorrect": "Review the relevant lesson and evidence. The sources favor lighter validation but the actual choice depends on what must be proven."
+    },
+    "SBP-110-Q002": {
+      "correct": "Correct. Environment descriptions and commercial rules change; old decks should not become evergreen policy.",
+      "incorrect": "Review the relevant lesson and evidence. Environment descriptions and commercial rules change; old decks should not become evergreen policy."
+    },
+    "SBP-110-Q003": {
+      "correct": "Correct. A controlled, scoped and dry-run experience is more useful and safer than open experimentation.",
+      "incorrect": "Review the relevant lesson and evidence. A controlled, scoped and dry-run experience is more useful and safer than open experimentation."
+    },
+    "SBP-110-Q004": {
+      "correct": "Correct. A pilot requires a qualified decision context, sponsor path, scope and evidence need.",
+      "incorrect": "Review the relevant lesson and evidence. A pilot requires a qualified decision context, sponsor path, scope and evidence need."
+    },
+    "SBP-110-Q005": {
+      "correct": "Correct. The retrieved guide distinguishes score, approval and order-form requirements; no score alone authorizes a pilot.",
+      "incorrect": "Review the relevant lesson and evidence. The retrieved guide distinguishes score, approval and order-form requirements; no score alone authorizes a pilot."
+    },
+    "SBP-110-Q006": {
+      "correct": "Correct. Stop rules protect time, scope and risk and keep the buying decision explicit.",
+      "incorrect": "Review the relevant lesson and evidence. Stop rules protect time, scope and risk and keep the buying decision explicit."
+    },
+    "SBP-110-Q008": {
+      "correct": "Correct. Unresolved feasibility should change scope or sequencing, not be concealed.",
+      "incorrect": "Review the relevant lesson and evidence. Unresolved feasibility should change scope or sequencing, not be concealed."
+    },
+    "SBP-111-Q001": {
+      "correct": "Correct. Receiving teams need evidence, owners and constraints as well as the executive story.",
+      "incorrect": "Review the relevant lesson and evidence. Receiving teams need evidence, owners and constraints as well as the executive story."
+    },
+    "SBP-111-Q002": {
+      "correct": "Correct. Mutuality requires agreement and accountable owners, not just a seller-created schedule.",
+      "incorrect": "Review the relevant lesson and evidence. Mutuality requires agreement and accountable owners, not just a seller-created schedule."
+    },
+    "SBP-111-Q003": {
+      "correct": "Correct. A decision log should preserve nuance and traceability instead of overstating agreement.",
+      "incorrect": "Review the relevant lesson and evidence. A decision log should preserve nuance and traceability instead of overstating agreement."
+    },
+    "SBP-111-Q004": {
+      "correct": "Correct. Service relevance and a reviewed scope connect discovery to responsible delivery.",
+      "incorrect": "Review the relevant lesson and evidence. Service relevance and a reviewed scope connect discovery to responsible delivery."
+    },
+    "SBP-111-Q005": {
+      "correct": "Correct. Post-go-live value review needs the original measurement contract and evidence limits.",
+      "incorrect": "Review the relevant lesson and evidence. Post-go-live value review needs the original measurement contract and evidence limits."
+    },
+    "SBP-111-Q006": {
+      "correct": "Correct. Usage is diagnostic evidence, not sufficient proof of the intended business outcome.",
+      "incorrect": "Review the relevant lesson and evidence. Usage is diagnostic evidence, not sufficient proof of the intended business outcome."
+    },
+    "SBP-111-Q007": {
+      "correct": "Correct. A recap must reflect what was actually agreed and preserve conditions.",
+      "incorrect": "Review the relevant lesson and evidence. A recap must reflect what was actually agreed and preserve conditions."
+    },
+    "SBP-111-Q008": {
+      "correct": "Correct. An accountable receiving owner prevents lost assumptions, duplicated discovery and unowned dependencies.",
+      "incorrect": "Review the relevant lesson and evidence. An accountable receiving owner prevents lost assumptions, duplicated discovery and unowned dependencies."
+    },
+    "SBP-112-Q001": {
+      "correct": "Correct. Training should be usable without unauthorized tool access; access must be checked and alternatives supplied.",
+      "incorrect": "Review the relevant lesson and evidence. Training should be usable without unauthorized tool access; access must be checked and alternatives supplied."
+    },
+    "SBP-112-Q002": {
+      "correct": "Correct. Structured provenance and explicit unknowns improve reviewability and reduce fabricated claims.",
+      "incorrect": "Review the relevant lesson and evidence. Structured provenance and explicit unknowns improve reviewability and reduce fabricated claims."
+    },
+    "SBP-112-Q003": {
+      "correct": "Correct. Peer stories are not prospect facts, and external names/claims also need clearance.",
+      "incorrect": "Review the relevant lesson and evidence. Peer stories are not prospect facts, and external names/claims also need clearance."
+    },
+    "SBP-112-Q004": {
+      "correct": "Correct. A generated draft is a starting hypothesis, not a measured or technically approved workflow.",
+      "incorrect": "Review the relevant lesson and evidence. A generated draft is a starting hypothesis, not a measured or technically approved workflow."
+    },
+    "SBP-112-Q005": {
+      "correct": "Correct. AI assistance does not grant authority to approve, send or change external systems.",
+      "incorrect": "Review the relevant lesson and evidence. AI assistance does not grant authority to approve, send or change external systems."
+    },
+    "SBP-112-Q006": {
+      "correct": "Correct. A safe workflow emits an exception report rather than shipping unsupported or unauthorized material.",
+      "incorrect": "Review the relevant lesson and evidence. A safe workflow emits an exception report rather than shipping unsupported or unauthorized material."
+    },
+    "SBP-112-Q007": {
+      "correct": "Correct. Citation presence is not citation validity; the support must match the claim and be current enough.",
+      "incorrect": "Review the relevant lesson and evidence. Citation presence is not citation validity; the support must match the claim and be current enough."
+    },
+    "SBP-112-Q008": {
+      "correct": "Correct. Retrieved content supplies evidence, not new authority or permission for consequential actions.",
+      "incorrect": "Review the relevant lesson and evidence. Retrieved content supplies evidence, not new authority or permission for consequential actions."
+    },
+    "SBP-113-Q001": {
+      "correct": "Correct. Good facilitation acknowledges input while maintaining the decision and evidence structure.",
+      "incorrect": "Review the relevant lesson and evidence. Good facilitation acknowledges input while maintaining the decision and evidence structure."
+    },
+    "SBP-113-Q002": {
+      "correct": "Correct. The aim is to protect customer time and reach a decision, not impose arbitrary process or skip qualification.",
+      "incorrect": "Review the relevant lesson and evidence. The aim is to protect customer time and reach a decision, not impose arbitrary process or skip qualification."
+    },
+    "SBP-113-Q003": {
+      "correct": "Correct. Recapture and actual business actions bridge capacity to outcomes without overstating hard-dollar value.",
+      "incorrect": "Review the relevant lesson and evidence. Recapture and actual business actions bridge capacity to outcomes without overstating hard-dollar value."
+    },
+    "SBP-113-Q004": {
+      "correct": "Correct. Benchmarks are hypotheses; better evidence and transparent assumptions strengthen or invalidate the case.",
+      "incorrect": "Review the relevant lesson and evidence. Benchmarks are hypotheses; better evidence and transparent assumptions strengthen or invalidate the case."
+    },
+    "SBP-113-Q005": {
+      "correct": "Correct. A usable Blueprint yields decisions, evidence and accountability, not just ideas.",
+      "incorrect": "Review the relevant lesson and evidence. A usable Blueprint yields decisions, evidence and accountability, not just ideas."
+    },
+    "SBP-113-Q006": {
+      "correct": "Correct. Repeated access failures may indicate weak priority or sponsorship and call for requalification.",
+      "incorrect": "Review the relevant lesson and evidence. Repeated access failures may indicate weak priority or sponsorship and call for requalification."
+    },
+    "SBP-113-Q007": {
+      "correct": "Correct. Honest phasing preserves value and feasibility without unsupported promises.",
+      "incorrect": "Review the relevant lesson and evidence. Honest phasing preserves value and feasibility without unsupported promises."
+    },
+    "SBP-113-Q008": {
+      "correct": "Correct. Decision quality and resource discipline matter even when the right answer is not to proceed.",
+      "incorrect": "Review the relevant lesson and evidence. Decision quality and resource discipline matter even when the right answer is not to proceed."
+    }
+  }
+}

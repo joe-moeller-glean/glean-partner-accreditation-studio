@@ -1,0 +1,127 @@
+{
+  "id": "SBP-112-L02",
+  "lesson": "SBP-112-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Ground prompts in sources and schemas",
+  "nav": "2. Ground prompts in sources and schemas",
+  "objective": "Improve a prompt that says 'make a convincing ROI case'.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "AI output is only as good as its prompt. A grounded prompt specifies what the model may use, what it must produce, and what it must not invent."
+    },
+    {
+      "t": "h3",
+      "x": "The parts of a grounded prompt"
+    },
+    {
+      "t": "p",
+      "x": "Glean's use-case scoping prep template shows the pattern. It states the source (\"Using only that transcript…\"), defines the output structure, and sets limits (\"Do not add recommendations, new questions, or coaching\"). A grounded prompt contains:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Task:** what to produce.",
+        "**Authorized inputs:** which sources the model may use.",
+        "**Known facts and unknowns:** what is already established and what isn't.",
+        "**Output structure:** the table or schema to fill in.",
+        "**Guardrails:** no invented baselines, owners, capabilities, or commitments.",
+        "**Citations:** a reference for each factual claim.",
+        "**Separation:** customer statements, inferences, and benchmark examples are labeled differently."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Check the citation, not just its presence"
+    },
+    {
+      "t": "p",
+      "x": "A citation can be irrelevant or out of date. Read the passage it points to and check access rights. Instructions that appear inside retrieved documents are data, not new instructions for the model."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A grounded prompt states the task and also what the model may use and what it must not invent."
+    },
+    {
+      "t": "figure",
+      "kind": "stack",
+      "title": "The parts of a grounded prompt",
+      "alt": "Seven stacked parts of a grounded prompt: the task, authorized inputs, known facts and unknowns, the output structure, guardrails, citations, and separating facts from estimates.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Task",
+          "detail": "What to produce, for whom",
+          "emph": false
+        },
+        {
+          "label": "Authorized inputs",
+          "detail": "Only approved sources",
+          "emph": false
+        },
+        {
+          "label": "Facts and unknowns",
+          "detail": "State both explicitly",
+          "emph": false
+        },
+        {
+          "label": "Output structure",
+          "detail": "A schema or template",
+          "emph": false
+        },
+        {
+          "label": "Guardrails",
+          "detail": "What must not be invented",
+          "emph": false
+        },
+        {
+          "label": "Citations",
+          "detail": "Every claim points to a source",
+          "emph": false
+        },
+        {
+          "label": "Separation",
+          "detail": "Facts, estimates, and assumptions kept apart",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Improve this prompt: \"Make a convincing ROI case.\""
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"Using only the attached workflow notes and metric cards, draft a value model. Include the current and future workflow, each assumption labeled with its evidence and source, explicit units, and conservative, base, and upside ranges. List any missing evidence and the questions needed to validate it. Don't invent customer facts, baselines, or capabilities. Mark this output as a draft requiring financial and technical review.\""
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 303,
+  "eyebrow": "Lesson 2 · about 6 min",
+  "claims": [
+    "C-0572",
+    "C-0573",
+    "C-0574",
+    "C-0575",
+    "C-0576",
+    "C-0577"
+  ],
+  "sources": [
+    "S13",
+    "S25",
+    "S37"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "SBP-102-L02",
+  "lesson": "SBP-102-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Stage 2 outputs and exit evidence",
+  "nav": "2. Stage 2 outputs and exit evidence",
+  "objective": "List evidence missing when an opportunity says 'Visioning done' but has no use case owners.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Stage progress should reflect evidence, not a completed calendar event. \"We held the Visioning workshop\" is an activity. \"We have three prioritized use cases with named owners and draft success measures\" is evidence."
+    },
+    {
+      "t": "h3",
+      "x": "What Stage 2 should produce"
+    },
+    {
+      "t": "p",
+      "x": "Glean's stage guidance describes the purpose of Stage 2 as use case workshops and visioning that lock scope, define Positive Business Outcomes (PBOs), and align on timeline and decision criteria. By the end of the stage, the account team should be able to show:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "A champion, and the department and primary use cases in scope.",
+        "The problem in the customer's own words, plus the three whys.",
+        "Required capabilities: what must be true for the solution to succeed.",
+        "The future state: how the work changes and which outcomes it supports.",
+        "Known competition and alternatives.",
+        "A mutual action plan (MAP) that the customer has seen and accepted."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "An evidence pack, not a checkbox"
+    },
+    {
+      "t": "p",
+      "x": "A useful Stage 2 evidence pack links the artifacts the Blueprint produces:"
+    },
+    {
+      "t": "table",
+      "caption": "Stage 2 evidence pack",
+      "head": [
+        "Evidence",
+        "Produced in",
+        "What it proves"
+      ],
+      "rows": [
+        [
+          "Use case log and impact/effort matrix",
+          "Visioning",
+          "Priorities were agreed, not assumed"
+        ],
+        [
+          "Named business owner per use case",
+          "Visioning and DITL",
+          "Someone will own the outcome"
+        ],
+        [
+          "Current-state and future-state workflow maps",
+          "DITL",
+          "The work and its friction were observed"
+        ],
+        [
+          "Metric definitions and draft baselines",
+          "DITL",
+          "Value can be measured"
+        ],
+        [
+          "Data and connector dependencies",
+          "DITL",
+          "Feasibility questions are known"
+        ],
+        [
+          "Scheduled executive decision meeting",
+          "End of Stage 2",
+          "There is a path to a decision"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "x": "The account team owns the exact required CRM fields. Partners contribute evidence; they are not tested on internal systems."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't mark a stage complete just because a workshop happened. If priorities or stakeholders are still unclear, assign focused follow-up before moving on."
+    },
+    {
+      "t": "h3",
+      "x": "Run the right number of sessions"
+    },
+    {
+      "t": "p",
+      "x": "Glean's training is explicit that Stage 2 isn't one size fits all. For a corporate account, Visioning may be a single 45- to 60-minute session. Commercial, enterprise, and strategic accounts may need several sessions, sometimes one per department head, before the priorities are clear. A strategic, wall-to-wall evaluation usually runs several DITL interviews as well."
+    },
+    {
+      "t": "p",
+      "x": "Whatever the number of sessions, the exit evidence is the same: agreed priorities, owners, workflow maps, draft metrics, known dependencies, and a booked executive decision."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "The Stage 2 evidence pack",
+      "alt": "Six cards listing the evidence Stage 2 should leave behind: a use case log and matrix, a named owner per use case, current and future workflow maps, metric definitions and draft baselines, data and connector dependencies, and a scheduled executive decision meeting.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Use case log and matrix",
+          "detail": "Priorities agreed, not assumed",
+          "emph": false
+        },
+        {
+          "label": "Named owners",
+          "detail": "Someone accountable for each use case",
+          "emph": false
+        },
+        {
+          "label": "Workflow maps",
+          "detail": "Current and future state from interviews",
+          "emph": false
+        },
+        {
+          "label": "Metrics and baselines",
+          "detail": "How value will be measured",
+          "emph": false
+        },
+        {
+          "label": "Dependencies",
+          "detail": "Data and connector questions known early",
+          "emph": false
+        },
+        {
+          "label": "Executive meeting booked",
+          "detail": "A path to a real decision",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "An opportunity note says \"Visioning done.\" There are no use case owners recorded. List the missing evidence and the smallest follow-up that would close the gap."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Missing: agreed priorities, owner names, metric definitions, workflow and data validation, and a sponsor path."
+    },
+    {
+      "t": "p",
+      "x": "The smallest follow-up is targeted, not a repeat of Visioning. Hold a short session with the champion to confirm the top two or three use cases and name an owner for each, then book DITL interviews with those owners. Record what remains unknown, such as baselines and data access, as actions with owners and dates."
+    }
+  ],
+  "minutes": 7,
+  "expanded": true,
+  "words": 520,
+  "eyebrow": "Lesson 2 · about 7 min",
+  "claims": [
+    "C-0060",
+    "C-0061",
+    "C-0062",
+    "C-0063",
+    "C-0064",
+    "C-0065"
+  ],
+  "sources": [
+    "S04",
+    "S11",
+    "S12",
+    "S68",
+    "S75"
+  ]
+}

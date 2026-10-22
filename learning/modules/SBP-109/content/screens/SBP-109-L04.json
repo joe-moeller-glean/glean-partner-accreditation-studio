@@ -1,0 +1,136 @@
+{
+  "id": "SBP-109-L04",
+  "lesson": "SBP-109-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Present value honestly and invite challenge",
+  "nav": "4. Present value honestly and invite challenge",
+  "objective": "Respond when the CFO says 'these are estimates, not savings'.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Executives trust a value case they can challenge. Present ranges, label evidence, and let the customer's own people speak to their experience."
+    },
+    {
+      "t": "h3",
+      "x": "Connect evidence to business terms"
+    },
+    {
+      "t": "p",
+      "x": "Link DITL evidence to cost, risk, or revenue. Show:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**The value range:** conservative, base, and upside.",
+        "**The material assumptions**, with their evidence level.",
+        "**The plan to verify:** metric owners, baselines, and timing."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Let the champion or workflow owners confirm their experience in their own words. Don't speak for them."
+    },
+    {
+      "t": "h3",
+      "x": "Invite challenge"
+    },
+    {
+      "t": "p",
+      "x": "State plainly that modeled capacity benefit is not confirmed P&L savings. Then ask:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "\"Which assumptions do you accept?\"",
+        "\"Which ones would you want validated?\"",
+        "\"What outcome would justify the investment for you?\""
+      ]
+    },
+    {
+      "t": "p",
+      "x": "The answers become the success criteria."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't make the optimistic scenario the headline without its caveats. Don't present internal benchmarks that aren't cleared for external use as independent proof."
+    },
+    {
+      "t": "h3",
+      "x": "Anchor on the customer's own numbers"
+    },
+    {
+      "t": "p",
+      "x": "Glean's business-case training recommends presenting multiple ROI scenarios anchored in company-specific data. When an executive challenges an estimate, the strongest response is to show where each input came from and which assumption matters most, then agree how it will be checked. Glean's value-selling training adds that cost reduction is easier to quantify while growth drivers tend to have stronger executive impact, so be clear which numbers are which."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Answering an executive challenge",
+      "alt": "A comparison of weak and strong responses when an executive challenges a value estimate. A weak response defends the number or cites a benchmark. A strong response shows the input sources, names the key assumption, and agrees how it will be measured.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Weak response",
+          "b": "Strong response",
+          "emph": false
+        },
+        {
+          "a": "Defends the headline number",
+          "b": "Shows where each input came from",
+          "emph": false
+        },
+        {
+          "a": "Cites a generic benchmark",
+          "b": "Uses the customer's own data",
+          "emph": false
+        },
+        {
+          "a": "Treats the range as a promise",
+          "b": "Names the assumption that matters most",
+          "emph": false
+        },
+        {
+          "a": "Moves on quickly",
+          "b": "Agrees how it will be measured",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Midway through the readout, the CFO says, \"These are estimates, not savings.\" Respond."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"You're right, and that's how we've labeled them. This range is a pre-sales hypothesis based on your team's workflow interviews. These are the assumptions behind it, and this is the evidence for each. We propose agreeing now on the metric owner, the baseline, and the validation that would need to happen before anyone calls this value realized. Which assumptions would you most want tested?\""
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 335,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0434",
+    "C-0435",
+    "C-0436",
+    "C-0437",
+    "C-0438",
+    "C-0439"
+  ],
+  "sources": [
+    "S02",
+    "S13",
+    "S19",
+    "S66",
+    "S73"
+  ]
+}

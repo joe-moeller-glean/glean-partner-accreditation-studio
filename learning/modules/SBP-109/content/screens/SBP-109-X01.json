@@ -1,0 +1,37 @@
+{
+  "id": "SBP-109-X01",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Templates",
+  "title": "Templates for this module",
+  "nav": "Templates",
+  "body": "Copy-ready structures you can reuse in your own engagements. Examples are fictional.",
+  "cards": [
+    {
+      "tag": "A13",
+      "title": "Executive readout",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Decision requested, strategic problem, priority workflows, before/after, value/evidence, success criteria, dependencies, validation recommendation, sponsor decision, MAP"
+        },
+        {
+          "label": "Fictional example",
+          "text": "8–10-minute capstone readout: why change, workflow evidence, value range, how to prove, decision and owners."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "No long product tour; directional claims labeled; sponsor decision explicit."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0454"
+  ],
+  "sources": [
+    "S02",
+    "S14"
+  ],
+  "required": true
+}

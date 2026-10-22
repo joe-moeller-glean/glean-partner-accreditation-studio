@@ -1,0 +1,85 @@
+{
+  "module_id": "SBP-109",
+  "module_objectives": [
+    "Complete the executive validation pre-work checklist.",
+    "Run the 60-minute readout agenda.",
+    "Secure sponsorship, success criteria and the validation path decision.",
+    "Send the recap and update opportunity records within 24 hours."
+  ],
+  "objective_map": [
+    {
+      "lesson_id": "SBP-109-L01",
+      "objective": "Given the supplied customer-neutral scenario and sources, review readiness when workflow maps are complete but value inputs have no owner. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-109-L01"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-109-Q001"
+      ]
+    },
+    {
+      "lesson_id": "SBP-109-L02",
+      "objective": "Given the supplied customer-neutral scenario and sources, what do you do if only the champion attends the planned executive readout?. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-109-L02"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-109-Q002"
+      ]
+    },
+    {
+      "lesson_id": "SBP-109-L03",
+      "objective": "Given the supplied customer-neutral scenario and sources, cut a 40-slide product introduction down to an executive opening. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-109-L03"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-109-Q003"
+      ]
+    },
+    {
+      "lesson_id": "SBP-109-L04",
+      "objective": "Given the supplied customer-neutral scenario and sources, respond when the CFO says 'these are estimates, not savings'. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-109-L04"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-109-Q004"
+      ]
+    },
+    {
+      "lesson_id": "SBP-109-L05",
+      "objective": "Given the supplied customer-neutral scenario and sources, write the decision log when a sponsor accepts value but wants a permission-sensitive workflow tested. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-109-L05"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-109-Q005"
+      ]
+    },
+    {
+      "lesson_id": "SBP-109-L06",
+      "objective": "Given the supplied customer-neutral scenario and sources, draft the checklist for executive-validation follow-up. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-109-L06"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-109-Q006",
+        "SBP-109-Q007",
+        "SBP-109-Q008"
+      ]
+    }
+  ]
+}

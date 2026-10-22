@@ -1,0 +1,153 @@
+{
+  "id": "SBP-108-L01",
+  "lesson": "SBP-108-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Four-part business value architecture",
+  "nav": "1. Four-part business value architecture",
+  "objective": "Sort a workflow map, a risk-adjusted benefit, a baseline plan and a strategic priority into the four parts.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Every Glean value case, from a light advisory note to a full executive business case, has the same structure. Only the depth changes."
+    },
+    {
+      "t": "h3",
+      "x": "The four parts"
+    },
+    {
+      "t": "table",
+      "caption": "The four-part value architecture",
+      "head": [
+        "Part",
+        "Question it answers",
+        "What goes in it"
+      ],
+      "rows": [
+        [
+          "Problem statement",
+          "What problem, and why now?",
+          "The business problem in the customer's language, the trigger for urgency, and who owns it"
+        ],
+        [
+          "Justification",
+          "Why Glean, and why is it credible?",
+          "The mapped workflow change, the data and feasibility evidence, and the differentiators that matter here"
+        ],
+        [
+          "ROI",
+          "How much impact?",
+          "The quantified benefit range, the costs, the assumptions, and the evidence labels"
+        ],
+        [
+          "Plan",
+          "How will we prove and realize it?",
+          "Success criteria, baselines, instrumentation, customer commitments, timeline, and handoff"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Use the customer's language"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Value Playbook makes the point sharply: \"they need better search\" is Glean's language. The customer's language sounds like \"our engineers spend two hours per incident searching for runbooks.\" Write the problem statement the way the business owner would say it."
+    },
+    {
+      "t": "h3",
+      "x": "Hard, soft, and directional value"
+    },
+    {
+      "t": "p",
+      "x": "The ROI section must keep three kinds of value distinct throughout:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Hard-dollar:** directly hits the P&L, such as cancelled tool licenses, avoided hires, or measurable ticket deflection.",
+        "**Soft-dollar:** real but indirect, such as time saved, faster ramp, or improved satisfaction.",
+        "**Directional:** hypothesis-grade, backed by benchmarks rather than customer data."
+      ]
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "A savings number without an implementation and measurement plan is incomplete. Never mix hard-dollar, soft-dollar, and directional benefits in one headline total."
+    },
+    {
+      "t": "h3",
+      "x": "Combine growth and cost reduction"
+    },
+    {
+      "t": "p",
+      "x": "Glean's value-selling training makes a practical point about the mix of value in a business case. Cost reduction is easier to quantify, so it often anchors the hard-dollar case. Growth drivers tend to have stronger executive impact. The training's conclusion is that powerful business cases combine both growth and reduction elements, each labeled for how firmly it can be measured."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Hard, soft, and directional value",
+      "alt": "A comparison of three kinds of value with how each is treated: hard-dollar value, which changes a budget line and can be counted; soft-dollar value, which creates capacity that must be redeployed to count; and directional value, which is real but not yet monetized.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Kind of value",
+          "b": "How to treat it",
+          "emph": false
+        },
+        {
+          "a": "Hard-dollar",
+          "b": "Changes a budget line; count it with evidence",
+          "emph": false
+        },
+        {
+          "a": "Soft-dollar",
+          "b": "Capacity created; count only if redeployed",
+          "emph": false
+        },
+        {
+          "a": "Directional",
+          "b": "Real but unmonetized; describe, don't add up",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Sort four items into the four parts: a workflow map, a risk-adjusted benefit range, a baseline plan, and a strategic priority from the CFO."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Strategic priority:** problem statement.",
+        "**Workflow map, plus feasibility evidence:** justification.",
+        "**Risk-adjusted benefit range, with costs:** ROI.",
+        "**Baseline plan, with owner, timeline, and reallocation activity:** plan."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 379,
+  "eyebrow": "Lesson 1 · about 6 min",
+  "claims": [
+    "C-0361",
+    "C-0362",
+    "C-0363",
+    "C-0364",
+    "C-0365",
+    "C-0366",
+    "C-0367"
+  ],
+  "sources": [
+    "S13",
+    "S66"
+  ]
+}

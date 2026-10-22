@@ -1,0 +1,31 @@
+{
+  "id": "SBP-200-S000",
+  "claims": [
+    "C-0658"
+  ],
+  "sources": [
+    "S02",
+    "S04",
+    "S13",
+    "S14",
+    "S54"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-200 · Specialist (proposed)",
+  "title": "Capstone: Blueprint Simulation",
+  "nav": "Overview",
+  "body": "End-to-end Blueprint simulation on a fictional company: value hypothesis, Visioning, prioritization, DITL, ROI, executive readout, validation path and MAP",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Execute every Blueprint step on a realistic scenario.",
+    "Produce the full deliverable set.",
+    "Defend value assumptions and the validation path in a live or recorded readout.",
+    "Meet the rubric threshold for the Specialist tier."
+  ],
+  "footnote": "Recommended before this module: SBP-101 to SBP-113. Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

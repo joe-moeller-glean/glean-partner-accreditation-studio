@@ -1,0 +1,132 @@
+{
+  "id": "SBP-107-L01",
+  "lesson": "SBP-107-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Prepare focused DITL interviews",
+  "nav": "1. Prepare focused DITL interviews",
+  "objective": "Create an interview brief for approved-answer discovery.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Day-in-the-Life (DITL) interviews look closely at the use cases chosen in Visioning. Their job is to document what the work really looks like, what it could look like, and what it costs today."
+    },
+    {
+      "t": "h3",
+      "x": "What DITL answers"
+    },
+    {
+      "t": "p",
+      "x": "In Glean's Blueprint process, DITL is SE-led with AE support. Its central question is what the reality on the ground looks like for the three or four prioritized use cases. The outputs are reviewed later with the economic buyer, champions, and users, so they need to be accurate and easy to follow. Glean's DITL training plans for about 90 minutes of interview and playback per workflow. Several sessions may be needed depending on scope."
+    },
+    {
+      "t": "h3",
+      "x": "Prepare from what you already have"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The agreed use case log and the first-wave rows.",
+        "Pre-work answers and the metric hypotheses.",
+        "The known systems and data landscape."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Run one focused session per relevant team or workflow. Don't reopen all of Visioning."
+    },
+    {
+      "t": "h3",
+      "x": "Invite the right people"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Someone who does the work.** This is essential. Leaders often describe how work should happen, not how it does.",
+        "**Someone who understands the KPI**, such as the team lead or operations manager.",
+        "**A platform or data owner** when feasibility questions are likely."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Ask participants to bring a recent, representative example. Sensitive information should be handled only through approved channels."
+    },
+    {
+      "t": "callout",
+      "label": "Watch for",
+      "x": "A large slide deck in place of listening. If the interview shows that the use case is not real or not frequent, say so and return to prioritization explicitly. Don't quietly substitute a different use case."
+    },
+    {
+      "t": "h3",
+      "x": "Don't skip it"
+    },
+    {
+      "t": "p",
+      "x": "Glean's DITL training names three shortcuts teams take when time or SE capacity is tight. They promise the customer what Glean can or can't do without evidence. They delay the work until an SE is free. Or they skip DITL entirely and go straight to a trial. The training is clear that some form of DITL should happen before any trial, so everyone shares a roadmap of what the trial will test."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "Who to invite to a DITL interview",
+      "alt": "Three cards naming the people a DITL interview needs: someone who does the work every day, someone who understands the KPI the work affects, and a platform or data owner who knows the systems involved.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Someone who does the work",
+          "detail": "Walks through a real, recent example",
+          "emph": true
+        },
+        {
+          "label": "Someone who owns the KPI",
+          "detail": "Explains what the work affects",
+          "emph": false
+        },
+        {
+          "label": "A platform or data owner",
+          "detail": "Knows the systems and access",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Write an interview brief for the \"approved-answer discovery\" use case in the fictional support team."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Objective:** map the work from a new case to a sent answer, including time, systems, and failure points.",
+        "**Attendees:** two tier 1 support agents, a team lead, and the knowledge-base owner if needed.",
+        "**Inputs:** a recent representative case, with customer details removed; the list of systems used; any existing handle-time report.",
+        "**Outputs:** the steps, timings, and failures; data sources and permissions; and gaps in the metrics and baseline, each with an owner."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 445,
+  "eyebrow": "Lesson 1 · about 6 min",
+  "claims": [
+    "C-0309",
+    "C-0310",
+    "C-0311",
+    "C-0312",
+    "C-0313",
+    "C-0314",
+    "C-0315"
+  ],
+  "sources": [
+    "S02",
+    "S09",
+    "S22",
+    "S54",
+    "S64"
+  ]
+}

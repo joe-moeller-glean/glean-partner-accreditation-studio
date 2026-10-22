@@ -1,0 +1,17 @@
+{
+  "by_asset_id": {
+    "SBP-110-LOGO": "Glean",
+    "SBP-110-L01-F1-wide": "Three stacked validation options ordered from lightest to heaviest: a custom tailored demo, a sandbox, and a pilot or proof of concept. Preparation, duration, and risk increase with each step.",
+    "SBP-110-L01-F1-narrow": "Three stacked validation options ordered from lightest to heaviest: a custom tailored demo, a sandbox, and a pilot or proof of concept. Preparation, duration, and risk increase with each step.",
+    "SBP-110-L02-F1-wide": "A comparison of validation options and the data each uses. A tailored demo uses a prepared scenario or uploaded customer files, with no connectors. A sandbox uses uploaded files for an allotted group of users, with no connectors. A pilot connects to the customer's systems for a defined cohort.",
+    "SBP-110-L02-F1-narrow": "A comparison of validation options and the data each uses. A tailored demo uses a prepared scenario or uploaded customer files, with no connectors. A sandbox uses uploaded files for an allotted group of users, with no connectors. A pilot connects to the customer's systems for a defined cohort.",
+    "SBP-110-L03-F1-wide": "A four-step sandbox workshop sequence: frame the purpose with the champion, upload and test approved content, run a dry run, then run the workshop with the champion and capture results.",
+    "SBP-110-L03-F1-narrow": "A four-step sandbox workshop sequence: frame the purpose with the champion, upload and test approved content, run a dry run, then run the workshop with the champion and capture results.",
+    "SBP-110-L04-F1-wide": "Five cards listing what must be in place before a pilot: the three whys, a real economic buyer, a value hypothesis with pilot goals, technical use cases with a test plan, and measurable success criteria.",
+    "SBP-110-L04-F1-narrow": "Five cards listing what must be in place before a pilot: the three whys, a real economic buyer, a value hypothesis with pilot goals, technical use cases with a test plan, and measurable success criteria.",
+    "SBP-110-L05-F1-wide": "Three cards naming the pilot prerequisites in the dated pilot guide: a readiness scorecard at or above the threshold, pilot approval, and a signed pilot order form. A score alone does not authorize a pilot.",
+    "SBP-110-L05-F1-narrow": "Three cards naming the pilot prerequisites in the dated pilot guide: a readiness scorecard at or above the threshold, pilot approval, and a signed pilot order form. A score alone does not authorize a pilot.",
+    "SBP-110-L06-F1-wide": "Six cards listing the parts of a validation recommendation: the buying question, the chosen option, the scope, the evidence it will produce, owners and dates, and the go or no-go criteria.",
+    "SBP-110-L06-F1-narrow": "Six cards listing the parts of a validation recommendation: the buying question, the chosen option, the scope, the evidence it will produce, owners and dates, and the go or no-go criteria."
+  }
+}

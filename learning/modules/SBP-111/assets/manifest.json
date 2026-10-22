@@ -1,0 +1,223 @@
+{
+  "module_id": "SBP-111",
+  "assets": [
+    {
+      "asset_id": "SBP-111-LOGO",
+      "path": "assets/brand/glean-wordmark-electric-blue.svg",
+      "type": "brand_logo",
+      "purpose": "Approved Glean wordmark in the module header. Placed unmodified.",
+      "license": "Glean trademark - use per brand guidelines",
+      "created": "2026-09-25",
+      "claim_ids": [],
+      "alt": "Glean"
+    },
+    {
+      "asset_id": "SBP-111-L01-F1-wide",
+      "path": "assets/fig/SBP-111-L01-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: How the Blueprint pack builds (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0516",
+        "C-0517",
+        "C-0518",
+        "C-0519",
+        "C-0520",
+        "C-0521"
+      ],
+      "alt": "A five-step build of the Blueprint deliverable set: the value hypothesis and stakeholder map, the prioritized use case log and matrix, DITL maps and metric cards, the value estimate and executive decisions, and the validation recommendation with the mutual action plan."
+    },
+    {
+      "asset_id": "SBP-111-L01-F1-narrow",
+      "path": "assets/fig/SBP-111-L01-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: How the Blueprint pack builds (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0516",
+        "C-0517",
+        "C-0518",
+        "C-0519",
+        "C-0520",
+        "C-0521"
+      ],
+      "alt": "A five-step build of the Blueprint deliverable set: the value hypothesis and stakeholder map, the prioritized use case log and matrix, DITL maps and metric cards, the value estimate and executive decisions, and the validation recommendation with the mutual action plan."
+    },
+    {
+      "asset_id": "SBP-111-L02-F1-wide",
+      "path": "assets/fig/SBP-111-L02-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Anatomy of a MAP entry (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0522",
+        "C-0523",
+        "C-0524",
+        "C-0525",
+        "C-0526",
+        "C-0527"
+      ],
+      "alt": "Six cards naming the fields of a mutual action plan entry: the milestone, the owner, dependencies, the target date, acceptance evidence, and status."
+    },
+    {
+      "asset_id": "SBP-111-L02-F1-narrow",
+      "path": "assets/fig/SBP-111-L02-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Anatomy of a MAP entry (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0522",
+        "C-0523",
+        "C-0524",
+        "C-0525",
+        "C-0526",
+        "C-0527"
+      ],
+      "alt": "Six cards naming the fields of a mutual action plan entry: the milestone, the owner, dependencies, the target date, acceptance evidence, and status."
+    },
+    {
+      "asset_id": "SBP-111-L03-F1-wide",
+      "path": "assets/fig/SBP-111-L03-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Two kinds of record (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0528",
+        "C-0529",
+        "C-0530",
+        "C-0531",
+        "C-0532",
+        "C-0533"
+      ],
+      "alt": "A comparison of the customer-facing recap and the internal record. The recap confirms decisions, commitments, and next steps in customer language. The internal record adds evidence levels, risks, and open questions for the account team."
+    },
+    {
+      "asset_id": "SBP-111-L03-F1-narrow",
+      "path": "assets/fig/SBP-111-L03-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Compare diagram: Two kinds of record (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0528",
+        "C-0529",
+        "C-0530",
+        "C-0531",
+        "C-0532",
+        "C-0533"
+      ],
+      "alt": "A comparison of the customer-facing recap and the internal record. The recap confirms decisions, commitments, and next steps in customer language. The internal record adds evidence levels, risks, and open questions for the account team."
+    },
+    {
+      "asset_id": "SBP-111-L04-F1-wide",
+      "path": "assets/fig/SBP-111-L04-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Partner services mapped to Blueprint needs (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0534",
+        "C-0535",
+        "C-0536",
+        "C-0537",
+        "C-0538",
+        "C-0539",
+        "C-0540"
+      ],
+      "alt": "Six cards mapping partner services to the needs they address: discovery facilitation, deployment and connectors, agent design and implementation, adoption and change management, governance and knowledge readiness, and value measurement and optimization."
+    },
+    {
+      "asset_id": "SBP-111-L04-F1-narrow",
+      "path": "assets/fig/SBP-111-L04-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Partner services mapped to Blueprint needs (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0534",
+        "C-0535",
+        "C-0536",
+        "C-0537",
+        "C-0538",
+        "C-0539",
+        "C-0540"
+      ],
+      "alt": "Six cards mapping partner services to the needs they address: discovery facilitation, deployment and connectors, agent design and implementation, adoption and change management, governance and knowledge readiness, and value measurement and optimization."
+    },
+    {
+      "asset_id": "SBP-111-L05-F1-wide",
+      "path": "assets/fig/SBP-111-L05-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Value handoff to customer success (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0541",
+        "C-0542",
+        "C-0543",
+        "C-0544",
+        "C-0545",
+        "C-0546",
+        "C-0547"
+      ],
+      "alt": "A four-step handoff of the value model: share the metric cards and baselines, explain the assumptions and evidence levels, agree the measurement cadence, and confirm acceptance by the delivery and customer success owners."
+    },
+    {
+      "asset_id": "SBP-111-L05-F1-narrow",
+      "path": "assets/fig/SBP-111-L05-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Flow diagram: Value handoff to customer success (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0541",
+        "C-0542",
+        "C-0543",
+        "C-0544",
+        "C-0545",
+        "C-0546",
+        "C-0547"
+      ],
+      "alt": "A four-step handoff of the value model: share the metric cards and baselines, explain the assumptions and evidence levels, agree the measurement cadence, and confirm acceptance by the delivery and customer success owners."
+    },
+    {
+      "asset_id": "SBP-111-L06-F1-wide",
+      "path": "assets/fig/SBP-111-L06-F1-wide.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Three ways to measure value (wide layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0548",
+        "C-0549",
+        "C-0550",
+        "C-0551",
+        "C-0552",
+        "C-0553"
+      ],
+      "alt": "Three cards naming complementary measurement methods: user feedback through short pre- and post-surveys, product telemetry for concrete usage data, and stakeholder interviews to learn where saved time is actually recaptured."
+    },
+    {
+      "asset_id": "SBP-111-L06-F1-narrow",
+      "path": "assets/fig/SBP-111-L06-F1-narrow.svg",
+      "type": "diagram",
+      "purpose": "Cards diagram: Three ways to measure value (narrow layout).",
+      "license": "Original diagram authored for this course; no third-party elements",
+      "created": "2026-10-21",
+      "claim_ids": [
+        "C-0548",
+        "C-0549",
+        "C-0550",
+        "C-0551",
+        "C-0552",
+        "C-0553"
+      ],
+      "alt": "Three cards naming complementary measurement methods: user feedback through short pre- and post-surveys, product telemetry for concrete usage data, and stakeholder interviews to learn where saved time is actually recaptured."
+    }
+  ]
+}

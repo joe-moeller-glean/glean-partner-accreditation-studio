@@ -1,0 +1,30 @@
+{
+  "id": "SBP-102-S000",
+  "claims": [
+    "C-0052"
+  ],
+  "sources": [
+    "S11",
+    "S12",
+    "S04",
+    "S17"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending clearance",
+  "lesson": "intro",
+  "type": "intro",
+  "eyebrow": "SBP-102 · Practitioner (proposed)",
+  "title": "Blueprint in the Glean Sales Process",
+  "nav": "Overview",
+  "body": "Where Blueprint sits in the Glean opportunity stages, what unlocks it, stage exit criteria, and how it connects to MEDDPICCS and the business case",
+  "kicker": "6 lessons · knowledge check at the end of this page",
+  "list_label": "By the end of this module you can:",
+  "list": [
+    "Map Visioning, DITL and Executive Validation to Stages 2 and 3.",
+    "State what must be true to enter and exit Blueprint.",
+    "Apply prescribed remedial actions when exit criteria are not met.",
+    "Connect Blueprint outputs to MEDDPICCS fields."
+  ],
+  "footnote": "Recommended before this module: SBP-101. Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."
+}

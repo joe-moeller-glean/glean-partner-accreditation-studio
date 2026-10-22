@@ -1,0 +1,114 @@
+{
+  "id": "SBP-113-L01",
+  "lesson": "SBP-113-L01",
+  "type": "lesson",
+  "seq": 1,
+  "title": "Facilitate without turning discovery into a pitch",
+  "nav": "1. Facilitate without turning discovery into a pitch",
+  "objective": "Respond to a participant who interrupts every workflow discussion with a feature request.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Good facilitation gives the conversation a clear structure and then lets the customer do most of the talking."
+    },
+    {
+      "t": "h3",
+      "x": "Set the tone"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Visioning playbook asks for an open, consultative, and strategic tone, and warns against checklist-style or interrogative discovery. In practice:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Open** by stating the purpose, the agenda, the decision you need, and the time.",
+        "**Assign roles:** a facilitator, a note-taker, a timekeeper, and a technical owner for capability questions.",
+        "**Use open questions** and play back what you heard so it can be corrected.",
+        "**Make the work visible:** effort-and-impact tables, a whiteboard, and sample scenarios."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Neutrality protects the evidence"
+    },
+    {
+      "t": "p",
+      "x": "Ask the question, then let the customer answer it. Paraphrase what they said instead of reframing it into a product requirement. Don't treat silence or politeness as agreement."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Don't commit to features, timelines, or roadmap items during a workshop. Capture capability questions for the right technical owner."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Neutral facilitation protects the evidence. Leading questions get you agreement, not information."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Leading versus open questions",
+      "alt": "A comparison of leading questions with open alternatives. For example, asking whether Glean agents would make the process faster becomes asking what slows the process down today.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Leading",
+          "b": "Open",
+          "emph": false
+        },
+        {
+          "a": "Wouldn't agents make this faster?",
+          "b": "What slows this process down today?",
+          "emph": false
+        },
+        {
+          "a": "This is your biggest problem, right?",
+          "b": "Which problem costs the most, and why?",
+          "emph": false
+        },
+        {
+          "a": "You'd use this every day?",
+          "b": "When did this last happen, and what did you do?",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Rewrite this question: \"Wouldn't Glean agents make your process much faster?\""
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"Walk us through the last time this process was slow. Where did the time go? What information or approvals were involved, and how would you know a change had worked?\""
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 244,
+  "eyebrow": "Lesson 1 · about 5 min",
+  "claims": [
+    "C-0613",
+    "C-0614",
+    "C-0615",
+    "C-0616",
+    "C-0617",
+    "C-0618"
+  ],
+  "sources": [
+    "S02",
+    "S05",
+    "S07"
+  ]
+}

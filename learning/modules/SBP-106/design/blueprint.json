@@ -1,0 +1,85 @@
+{
+  "module_id": "SBP-106",
+  "module_objectives": [
+    "Use the outcomes > use cases > workflows > data > metrics framework.",
+    "Complete the use case table with impact and effort rationale.",
+    "Score and place use cases on the impact-vs-effort 2x2.",
+    "Identify technical gotchas that change effort or feasibility."
+  ],
+  "objective_map": [
+    {
+      "lesson_id": "SBP-106-L01",
+      "objective": "Given the supplied customer-neutral scenario and sources, reorder: connectors, outcome, metrics, agent idea and workflow. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-106-L01"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-106-Q001"
+      ]
+    },
+    {
+      "lesson_id": "SBP-106-L02",
+      "objective": "Given the supplied customer-neutral scenario and sources, write three questions for a support workflow that expose impact and effort. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-106-L02"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-106-Q002"
+      ]
+    },
+    {
+      "lesson_id": "SBP-106-L03",
+      "objective": "Given the supplied customer-neutral scenario and sources, compare a broad low-friction lookup and a rare high-risk approval process. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-106-L03"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-106-Q003"
+      ]
+    },
+    {
+      "lesson_id": "SBP-106-L04",
+      "objective": "Given the supplied customer-neutral scenario and sources, identify four effort risks for a cross-system agent that updates a CRM record. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-106-L04"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-106-Q004"
+      ]
+    },
+    {
+      "lesson_id": "SBP-106-L05",
+      "objective": "Given the supplied customer-neutral scenario and sources, place a high-reach workflow requiring an unverified custom connector. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-106-L05"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-106-Q005"
+      ]
+    },
+    {
+      "lesson_id": "SBP-106-L06",
+      "objective": "Given the supplied customer-neutral scenario and sources, produce a first-wave row for approved support guidance lookup. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-106-L06"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-106-Q006",
+        "SBP-106-Q007",
+        "SBP-106-Q008"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+module_id: SBP-113
+title: "Facilitation, Objections & Pitfalls"
+design_system: paged-v1
+learning_path: "AI Blueprinting & Value Mapping"
+request_type: batch
+audience: ["Partner sellers", "Partner solution consultants and SEs", "Practice leads", "Glean field collaborators"]
+level: "Practitioner (proposed)"
+learning_outcomes:
+  - "Apply facilitation techniques that keep sessions consultative and on time."
+  - "Handle objections such as 'just give us a pilot' and 'these are just benchmarks'."
+  - "Recognize and correct common Blueprint anti-patterns."
+  - "Recover a stalled Blueprint."
+lesson_objectives:
+  SBP-113-L01: "Given the supplied customer-neutral scenario and sources, respond to a participant who interrupts every workflow discussion with a feature request. Successful output matches the worked response and states remaining uncertainty."
+  SBP-113-L02: "Given the supplied customer-neutral scenario and sources, role-play a champion who says workshops are a delay. Successful output matches the worked response and states remaining uncertainty."
+  SBP-113-L03: "Given the supplied customer-neutral scenario and sources, give a two-sentence CFO response. Successful output matches the worked response and states remaining uncertainty."
+  SBP-113-L04: "Given the supplied customer-neutral scenario and sources, respond to a sponsor who rejects the projected benefit range. Successful output matches the worked response and states remaining uncertainty."
+  SBP-113-L05: "Given the supplied customer-neutral scenario and sources, diagnose a workshop ending with twenty agent ideas and no next steps. Successful output matches the worked response and states remaining uncertainty."
+  SBP-113-L06: "Given the supplied customer-neutral scenario and sources, create a recovery plan when DITL interviews have been cancelled twice. Successful output matches the worked response and states remaining uncertainty."
+prerequisites: "SBP-105"
+roadmap_alignment: "SAL-203; SRV-105"  # semantic alignment only (O12)
+target_hours: 0.75
+mastery_score: 80
+accreditation: accred-ai-blueprinting
+authoring_contract: "https://docs.google.com/spreadsheets/d/1FNFUQAzKl1BgMlyMgR8zygEvmLtnf7V5s-bhaL-3-48"
+authoring_snapshot: plan/sales-blueprinting/workbook/
+review_status: "In review"
+partner_clearance: "Pending partner clearance"
+sme_signoff: "Not signed"
+sme: unassigned - needs_sme (Blueprint SME, BVC / value engineering)
+publish_mode: manual_review
+release_state: restricted_preview

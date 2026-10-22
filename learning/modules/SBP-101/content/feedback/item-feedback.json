@@ -1,0 +1,37 @@
+{
+  "module_id": "SBP-101",
+  "feedback": {
+    "SBP-101-Q001": {
+      "correct": "Correct. Blueprint is a structured value-led decision process, not a deployment entitlement, qualification replacement or guarantee.",
+      "incorrect": "Review the relevant lesson and evidence. Blueprint is a structured value-led decision process, not a deployment entitlement, qualification replacement or guarantee."
+    },
+    "SBP-101-Q002": {
+      "correct": "Correct. The three named steps are Visioning, DITL and Executive Validation, preceded by preparation and followed by an agreed validation path.",
+      "incorrect": "Review the relevant lesson and evidence. The three named steps are Visioning, DITL and Executive Validation, preceded by preparation and followed by an agreed validation path."
+    },
+    "SBP-101-Q003": {
+      "correct": "Correct. An outcome describes business change; meetings, ideas and connectors are activities or enablers unless linked to that change.",
+      "incorrect": "Review the relevant lesson and evidence. An outcome describes business change; meetings, ideas and connectors are activities or enablers unless linked to that change."
+    },
+    "SBP-101-Q004": {
+      "correct": "Correct. Partner expertise improves relevance, but does not override feasibility, approval or contracting boundaries.",
+      "incorrect": "Review the relevant lesson and evidence. Partner expertise improves relevance, but does not override feasibility, approval or contracting boundaries."
+    },
+    "SBP-101-Q005": {
+      "correct": "Correct. The sales process may link to architecture patterns but must establish customer-specific purpose, evidence and decisions.",
+      "incorrect": "Review the relevant lesson and evidence. The sales process may link to architecture patterns but must establish customer-specific purpose, evidence and decisions."
+    },
+    "SBP-101-Q006": {
+      "correct": "Correct. Decision readiness requires traceable customer evidence and commitments, not presentation quality alone.",
+      "incorrect": "Review the relevant lesson and evidence. Decision readiness requires traceable customer evidence and commitments, not presentation quality alone."
+    },
+    "SBP-101-Q007": {
+      "correct": "Correct. Blueprint determines the evaluation need; it does not grant approval or require a full pilot.",
+      "incorrect": "Review the relevant lesson and evidence. Blueprint determines the evaluation need; it does not grant approval or require a full pilot."
+    },
+    "SBP-101-Q008": {
+      "correct": "Correct. The name and course governance are design proposals, not evidence of approval or publication.",
+      "incorrect": "Review the relevant lesson and evidence. The name and course governance are design proposals, not evidence of approval or publication."
+    }
+  }
+}

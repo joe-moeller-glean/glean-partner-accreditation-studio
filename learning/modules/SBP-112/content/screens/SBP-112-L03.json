@@ -1,0 +1,109 @@
+{
+  "id": "SBP-112-L03",
+  "lesson": "SBP-112-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "Draft value hypotheses without copying outcomes",
+  "nav": "3. Draft value hypotheses without copying outcomes",
+  "objective": "Repair an AI statement: 'this customer saved 40% because a peer did'.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "AI drafting tools sometimes pull in other customers' outcomes. A peer's result is not evidence about the prospect."
+    },
+    {
+      "t": "h3",
+      "x": "Build from the customer's own evidence"
+    },
+    {
+      "t": "p",
+      "x": "Use the customer's strategy, meeting notes, and stated priorities to draft strategic priorities, risks, and proposed Positive Business Outcomes. A safe draft is labeled \"hypothesis to validate\" and links to the customer evidence it is based on. Glean's Value Playbook warns against the failure where teams present benchmarks as proof."
+    },
+    {
+      "t": "h3",
+      "x": "Peer examples are analogies at most"
+    },
+    {
+      "t": "p",
+      "x": "A peer example can be used as an analogy only when it is approved for that use. Keep a possible support-efficiency opportunity for this prospect separate from a proven outcome at another company."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Never turn another customer's success into the prospect's own result. Remove uncleared names, figures, and confidential details before sharing with partners or customers."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Another customer's result is an analogy at most. The hypothesis has to be built from this customer's evidence."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Copied outcome versus grounded hypothesis",
+      "alt": "A comparison of a copied outcome, which reuses a peer's result as a promise, with a grounded hypothesis, which uses the customer's own volumes and times, states assumptions, and labels evidence.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Copied outcome",
+          "b": "Grounded hypothesis",
+          "emph": false
+        },
+        {
+          "a": "Reuses a peer's percentage",
+          "b": "Uses this customer's volumes and times",
+          "emph": false
+        },
+        {
+          "a": "Implies a promise",
+          "b": "States assumptions and a range",
+          "emph": false
+        },
+        {
+          "a": "No owner for the claim",
+          "b": "Labels evidence and names an owner",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Repair this AI-drafted sentence: \"This customer saved 40% because a peer did.\""
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Replace it with a hypothesis tied to the prospect's own workflow, for example: \"Hypothesis to validate: agents' search time for access cases could fall, based on what the team described in Visioning. We'll measure handle time against a four-week baseline.\""
+    },
+    {
+      "t": "p",
+      "x": "Remove the peer's percentage and name. Use a peer example only if it is approved, and label it clearly as an external example."
+    }
+  ],
+  "minutes": 5,
+  "expanded": true,
+  "words": 266,
+  "eyebrow": "Lesson 3 · about 5 min",
+  "claims": [
+    "C-0578",
+    "C-0579",
+    "C-0580",
+    "C-0581",
+    "C-0582",
+    "C-0583"
+  ],
+  "sources": [
+    "S13",
+    "S36",
+    "S37"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "SBP-109-X02",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · AI prompts",
+  "title": "AI-assisted preparation prompts",
+  "nav": "AI prompts",
+  "body": "Tool-agnostic prompts. AI drafts; a named human reviews facts, sharing, and capability claims before anything is used or sent.",
+  "cards": [
+    {
+      "tag": "P07",
+      "title": "Executive readout and validation recommendation",
+      "lines": [
+        {
+          "label": "Authorized inputs",
+          "text": "Reviewed maps, value model, metric cards and decision process."
+        },
+        {
+          "label": "Prompt",
+          "text": "Draft a concise executive narrative around the decision required. Include business priority, workflow change, evidence-labeled value, success criteria, unresolved dependencies and lightest sufficient validation. State any pilot approval/commercial boundary without assuming approval. Do not send or publish."
+        },
+        {
+          "label": "Required output",
+          "text": "Readout outline; decision log; recommendation; proposed MAP."
+        },
+        {
+          "label": "Human review",
+          "text": "AE/SE and authorized value owner approve; customer confirms decisions."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0455"
+  ],
+  "sources": [
+    "S02",
+    "S14",
+    "S15"
+  ],
+  "required": true
+}

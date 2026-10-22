@@ -1,0 +1,129 @@
+{
+  "id": "SBP-107-L03",
+  "lesson": "SBP-107-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "Quantify friction and cost of inaction",
+  "nav": "3. Quantify friction and cost of inaction",
+  "objective": "Distinguish '30 minutes searching' from 'two days waiting for approval'.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Friction becomes a value input only when you know how often it happens, how many people it affects, and what it changes for the business."
+    },
+    {
+      "t": "h3",
+      "x": "Three inputs, explicit units"
+    },
+    {
+      "t": "p",
+      "x": "Ask where work slows down, fails, or gets repeated. Then establish:"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Frequency:** events per person per day or week.",
+        "**Affected population:** how many people do it.",
+        "**Unit effort:** minutes of active work per event, or days of delay."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Glean's Value Playbook states it simply: volume times per-event impact gives total value, and low volume kills ROI. If 200 people repeat a task twice a day, even modest friction can add up to a material capacity opportunity. The customer must confirm the active population, the frequency, and whether the time burden is measured or estimated."
+    },
+    {
+      "t": "h3",
+      "x": "Cost of inaction"
+    },
+    {
+      "t": "p",
+      "x": "Executive Validation presents the current state together with the cost of inaction, meaning what continues to happen if nothing changes. Describe it in business terms: slower responses, lost deals, compliance exposure, or capacity tied up in repeat work."
+    },
+    {
+      "t": "h3",
+      "x": "Time is not automatically money"
+    },
+    {
+      "t": "p",
+      "x": "Time burden is not automatically removable, recoverable, or cashable. A delay that changes no labor and no business result shouldn't be monetized without an agreed causal model. SBP-108 covers how to convert hours carefully."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Three inputs, each with explicit units, give the annual burden. It is a capacity figure until someone shows how the time would be used."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "From interview to annual burden",
+      "alt": "A four-step calculation: frequency per person per day, multiplied by the affected population, multiplied by unit effort in hours, multiplied by working days, gives annual hours of burden. That result is capacity, not cash.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Frequency",
+          "detail": "Events per person per workday",
+          "emph": false
+        },
+        {
+          "label": "Affected population",
+          "detail": "People who actually do the work",
+          "emph": false
+        },
+        {
+          "label": "Unit effort",
+          "detail": "Minutes per event, converted to hours once",
+          "emph": false
+        },
+        {
+          "label": "Annual burden",
+          "detail": "Capacity hours, not yet cash",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A DITL interview reports \"30 minutes searching\" and \"two days waiting for approval.\" Explain how each should be modeled."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Searching (30 minutes):** active effort. It may free capacity if the search time falls and the freed time is redeployed. Model it as minutes × events × people, with evidence labels.",
+        "**Waiting (two days):** elapsed delay. It doesn't consume labor while it waits, but it may affect cycle time, revenue timing, or risk. Model it separately, with its own causal explanation."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Never add the two together."
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 345,
+  "eyebrow": "Lesson 3 · about 6 min",
+  "claims": [
+    "C-0323",
+    "C-0324",
+    "C-0325",
+    "C-0326",
+    "C-0327",
+    "C-0328",
+    "C-0329"
+  ],
+  "sources": [
+    "S02",
+    "S13",
+    "S14",
+    "S22"
+  ]
+}

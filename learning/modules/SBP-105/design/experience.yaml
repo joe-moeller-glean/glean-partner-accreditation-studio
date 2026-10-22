@@ -1,0 +1,11 @@
+module_id: SBP-105
+design_system: paged-v1
+accreditation: accred-ai-blueprinting
+shell: shared paged-v1 tokens and styles plus tools/sbp/runtime (sbp.css, app.js, scorm.js)
+layout: single scrolling page - overview -> full lessons (teaching, practice, worked response) -> toolkit -> check
+rail: 'On this page' jump links, sticky on wide screens, above the content on narrow screens
+progress: sections read (a section counts once its end has been on screen), not scroll position
+sources: author ledger and research/ only; never rendered to learners
+signature_moment: module check
+motion: rise on reveal only; disabled under prefers-reduced-motion
+screen_count: 10

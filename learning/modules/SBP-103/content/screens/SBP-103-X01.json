@@ -1,0 +1,37 @@
+{
+  "id": "SBP-103-X01",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Templates",
+  "title": "Templates for this module",
+  "nav": "Templates",
+  "body": "Copy-ready structures you can reuse in your own engagements. Examples are fictional.",
+  "cards": [
+    {
+      "tag": "A02",
+      "title": "Stakeholder and joint RACI",
+      "lines": [
+        {
+          "label": "Fields",
+          "text": "Role/person, organization, business decision, metric owned, workshop role, accountable task, contact/access permission, escalation"
+        },
+        {
+          "label": "Fictional example",
+          "text": "Support leader owns outcome; frontline user explains workflow; platform owner validates data; sponsor decides priority."
+        },
+        {
+          "label": "Acceptance check",
+          "text": "Every critical decision and follow-up has one accountable owner and a backup."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    "C-0141"
+  ],
+  "sources": [
+    "S05",
+    "S14"
+  ],
+  "required": true
+}

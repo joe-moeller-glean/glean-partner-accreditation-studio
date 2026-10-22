@@ -1,0 +1,293 @@
+{
+  "id": "SBP-101-X03",
+  "lesson": "toolkit",
+  "type": "reference",
+  "eyebrow": "Toolkit · Glossary",
+  "title": "Blueprint terms used in this course",
+  "nav": "Glossary",
+  "table": {
+    "caption": "Glossary",
+    "head": [
+      "Term",
+      "Definition",
+      "Boundary or example"
+    ],
+    "rows": [
+      [
+        "Blueprint Consultation",
+        "Structured sales process connecting use case discovery, workflow/value evidence and executive alignment to a validation decision.",
+        "Not a guaranteed pilot or post-sales reference architecture."
+      ],
+      [
+        "Visioning",
+        "Outcome-led discovery and prioritization of candidate use cases.",
+        "First customer-facing step; duration varies by source/context."
+      ],
+      [
+        "Day-in-the-Life (DITL)",
+        "Detailed investigation of a prioritized workflow with practitioners and business/technical owners.",
+        "Current work, future hypothesis, time, systems and business consequence."
+      ],
+      [
+        "Playback",
+        "Optional review of mapped workflows or targeted future-state demonstration.",
+        "Use to resolve a specific uncertainty, not as a mandatory extra loop."
+      ],
+      [
+        "Executive Validation / Readout",
+        "Joint value and decision conversation with the customer sponsor and relevant owners.",
+        "Stage 3 in referenced motion; sponsor/criteria/path decision."
+      ],
+      [
+        "PBO",
+        "Positive Business Outcome: the beneficial business change the customer seeks.",
+        "Not merely installing a product or holding a workshop."
+      ],
+      [
+        "Value hypothesis",
+        "Source-aware point of view about problem, urgency, solution relevance and potential value to test.",
+        "Not a measured result or guaranteed ROI."
+      ],
+      [
+        "Three Whys",
+        "Why Change, Why Now and Why Glean.",
+        "Customer-specific, linked to evidence and priority."
+      ],
+      [
+        "Use case",
+        "A specific actor/job/trigger that may improve a business outcome.",
+        "More concrete than improve support."
+      ],
+      [
+        "Workflow",
+        "Sequence of actors, steps, systems, inputs, handoffs, decisions and outputs.",
+        "Map before proposing automation."
+      ],
+      [
+        "Current state / As-Is",
+        "How work happens today with evidence and uncertainty.",
+        "Observed, interview-estimated or unknown must be labeled."
+      ],
+      [
+        "Future state / To-Be",
+        "Proposed changed workflow and retained controls/dependencies.",
+        "Hypothesis until feasibility and outcome evidence support it."
+      ],
+      [
+        "Impact",
+        "Business consequence and reach/frequency of an improvement.",
+        "May involve cost, revenue, risk or quality; not seats alone."
+      ],
+      [
+        "Effort",
+        "Technical, data, integration, security and organizational work required.",
+        "Short user request can still imply high effort."
+      ],
+      [
+        "Quick win",
+        "High impact and low effort on the standard 2x2.",
+        "Requires evidence; unknown feasibility is not automatically low effort."
+      ],
+      [
+        "Strategic bet",
+        "High-impact/high-effort use case.",
+        "May be phased after readiness or a narrower first wave."
+      ],
+      [
+        "Nice-to-have",
+        "Low-impact/low-effort use case.",
+        "May be parked behind more relevant priorities."
+      ],
+      [
+        "Deprioritize",
+        "Low-impact/high-effort quadrant.",
+        "Can be revisited if evidence or strategic priority changes."
+      ],
+      [
+        "Hero use case",
+        "A small selected first-wave priority for deeper investigation.",
+        "Sources vary on 3–4 versus 3–5; no universal exact-count rule here."
+      ],
+      [
+        "Metric card",
+        "Definition, units, cohort, baseline/target, source, owner, timing and caveats.",
+        "Used to make success measurable and transferable."
+      ],
+      [
+        "Baseline",
+        "Agreed pre-change reference measurement for the defined cohort and period.",
+        "A target or peer result is not the baseline."
+      ],
+      [
+        "Success criteria",
+        "Pre-agreed measurable and quality conditions for evaluation/decision.",
+        "Include owner, evidence and timing."
+      ],
+      [
+        "Active effort",
+        "Time a person spends doing the work.",
+        "Distinct from elapsed waiting or total cycle duration."
+      ],
+      [
+        "Elapsed cycle time",
+        "Wall-clock time from trigger to outcome, including waiting.",
+        "Do not automatically monetize it as labor saved."
+      ],
+      [
+        "Adoption fraction",
+        "Share of addressable users actively using the scoped workflow/tool.",
+        "Separate from event frequency and recapture."
+      ],
+      [
+        "Data coverage",
+        "Share of relevant content available/indexed/accessibly in scope.",
+        "Method factor needs approved model interpretation; source formula ambiguity flagged."
+      ],
+      [
+        "Efficiency / removable fraction",
+        "Share of raw avoidable burden that the solution could remove.",
+        "Do not apply twice to already measured savings."
+      ],
+      [
+        "Recapture rate (rho)",
+        "Share of saved capacity deliberately converted into useful business output.",
+        "Not user adoption or automatic cash saving."
+      ],
+      [
+        "Capacity value",
+        "Equivalent value of freed/reallocated work capacity.",
+        "Soft-dollar unless specific business/cost action establishes otherwise."
+      ],
+      [
+        "Hard-dollar benefit",
+        "Benefit tied to evidenced cost action, such as cancelled spend or a confirmed avoided cost.",
+        "Requires actual cost scope and attribution; do not infer from salary-equivalent hours."
+      ],
+      [
+        "Directional value",
+        "A hypothesis supported by limited data or benchmarks with caveats.",
+        "Pre-sale estimates should not be called realized value."
+      ],
+      [
+        "Telemetry",
+        "Platform usage/engagement and related operational signals.",
+        "Proves activity/adoption more directly than business attribution."
+      ],
+      [
+        "System of record",
+        "Authoritative operational/financial source for a defined metric.",
+        "Metric owner confirms definitions and access."
+      ],
+      [
+        "Attribution",
+        "Evidence that the intervention contributed to the observed business change.",
+        "Before/after change alone may have confounders."
+      ],
+      [
+        "Net ROI",
+        "Same-period benefit minus cost, divided by cost.",
+        "Specify scope and benefit type; zero cost needs special handling."
+      ],
+      [
+        "Simple payback",
+        "Illustrative time for modeled benefit to cover defined investment.",
+        "ROI Lab is a simplified first-year benefit/cost illustration, not a full cash-flow model."
+      ],
+      [
+        "Economic Buyer (EB)",
+        "Person with authority over the relevant investment decision.",
+        "Not automatically the enthusiastic end user or technical champion."
+      ],
+      [
+        "Champion",
+        "Customer advocate with influence, relevant engagement and a credible path to the decision process.",
+        "Account team assesses evidence, not just enthusiasm."
+      ],
+      [
+        "BVC",
+        "Business Value Consulting support for appropriately scoped value engagements.",
+        "Internal routing/capacity and thresholds need current confirmation."
+      ],
+      [
+        "MAP",
+        "Mutual Action Plan: customer-agreed milestones, owners, dependencies and decision checkpoints.",
+        "Different from a seller-only private close plan."
+      ],
+      [
+        "Glean Lab",
+        "A curated/sample-data validation experience in the referenced material.",
+        "Confirm current approved definition and limitations before offering."
+      ],
+      [
+        "Sandbox",
+        "A temporary scoped environment whose current data/access/feature limitations must be confirmed.",
+        "Not automatically a production-fidelity proof or universal entitlement."
+      ],
+      [
+        "Pilot / PoC",
+        "Separately justified and approved scoped evaluation tied to a buy/no-buy decision.",
+        "Readiness score is evidence, not approval."
+      ],
+      [
+        "RACI",
+        "Responsible, Accountable, Consulted and Informed responsibilities agreed for a task/decision.",
+        "Course template does not override contractual or account ownership."
+      ],
+      [
+        "SCORM 1.2",
+        "LMS content/runtime packaging target used in the reference build notes.",
+        "Actual runtime support must be tested in the intended Impartner tenant."
+      ],
+      [
+        "SCO",
+        "Sharable Content Object launched and tracked by the LMS.",
+        "Proposed architecture: one module per SCO ZIP plus separate final-exam ZIP."
+      ],
+      [
+        "Mastery",
+        "Minimum assessment score required to pass the configured learning object.",
+        "80 is supported by reference build; course-level aggregation is proposed."
+      ],
+      [
+        "Source clearance",
+        "Permission/review decision for external or partner distribution of a claim or asset.",
+        "Internal authoring access does not imply redistribution rights."
+      ],
+      [
+        "AI-assisted draft",
+        "Generated preparation material awaiting factual, technical and publication review.",
+        "Never an automatic customer commitment or credential authority."
+      ]
+    ]
+  },
+  "claims": [
+    "C-0043"
+  ],
+  "sources": [
+    "S02",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S22",
+    "S26",
+    "S28",
+    "S34",
+    "S36",
+    "S37",
+    "S38",
+    "S39",
+    "S41",
+    "S45",
+    "S55",
+    "S56",
+    "S61"
+  ],
+  "required": true
+}

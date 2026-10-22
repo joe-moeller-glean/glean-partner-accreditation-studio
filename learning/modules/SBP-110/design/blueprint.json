@@ -1,0 +1,84 @@
+{
+  "module_id": "SBP-110",
+  "module_objectives": [
+    "Compare custom demo, Glean Lab, sandbox and pilot on data, prep, duration and cost.",
+    "Default to the lightest validation that proves value.",
+    "Apply the pilot entry criteria and readiness scorecard.",
+    "Frame a sandbox correctly with the champion."
+  ],
+  "objective_map": [
+    {
+      "lesson_id": "SBP-110-L01",
+      "objective": "Given the supplied customer-neutral scenario and sources, recommend a path when the only question is whether users understand the proposed workflow. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-110-L01"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-110-Q001"
+      ]
+    },
+    {
+      "lesson_id": "SBP-110-L02",
+      "objective": "Given the supplied customer-neutral scenario and sources, which facts must be rechecked before offering a customer a sandbox?. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-110-L02"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-110-Q002"
+      ]
+    },
+    {
+      "lesson_id": "SBP-110-L03",
+      "objective": "Given the supplied customer-neutral scenario and sources, plan a safe sandbox workshop for one workflow. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-110-L03"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-110-Q003"
+      ]
+    },
+    {
+      "lesson_id": "SBP-110-L04",
+      "objective": "Given the supplied customer-neutral scenario and sources, assess a pilot request with no sponsor, no baseline and no scoped use case. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-110-L04"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-110-Q004"
+      ]
+    },
+    {
+      "lesson_id": "SBP-110-L05",
+      "objective": "Given the supplied customer-neutral scenario and sources, a score is 84%, but leadership approval and the signed pilot order form are missing. Can deployment start?. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Analyze",
+      "screens": [
+        "SBP-110-L05"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-110-Q005"
+      ]
+    },
+    {
+      "lesson_id": "SBP-110-L06",
+      "objective": "Given the supplied customer-neutral scenario and sources, write a stop rule for a validation dependent on an unapproved connector. Successful output matches the worked response and states remaining uncertainty.",
+      "bloom": "Apply",
+      "screens": [
+        "SBP-110-L06"
+      ],
+      "practice": [],
+      "items": [
+        "SBP-110-Q006",
+        "SBP-110-Q008"
+      ]
+    }
+  ]
+}

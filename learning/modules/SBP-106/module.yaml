@@ -1,0 +1,32 @@
+module_id: SBP-106
+title: "Use Case Discovery & Prioritization"
+design_system: paged-v1
+learning_path: "AI Blueprinting & Value Mapping"
+request_type: batch
+audience: ["Partner sellers", "Partner solution consultants and SEs", "Practice leads", "Glean field collaborators"]
+level: "Practitioner (proposed)"
+learning_outcomes:
+  - "Use the outcomes > use cases > workflows > data > metrics framework."
+  - "Complete the use case table with impact and effort rationale."
+  - "Score and place use cases on the impact-vs-effort 2x2."
+  - "Identify technical gotchas that change effort or feasibility."
+lesson_objectives:
+  SBP-106-L01: "Given the supplied customer-neutral scenario and sources, reorder: connectors, outcome, metrics, agent idea and workflow. Successful output matches the worked response and states remaining uncertainty."
+  SBP-106-L02: "Given the supplied customer-neutral scenario and sources, write three questions for a support workflow that expose impact and effort. Successful output matches the worked response and states remaining uncertainty."
+  SBP-106-L03: "Given the supplied customer-neutral scenario and sources, compare a broad low-friction lookup and a rare high-risk approval process. Successful output matches the worked response and states remaining uncertainty."
+  SBP-106-L04: "Given the supplied customer-neutral scenario and sources, identify four effort risks for a cross-system agent that updates a CRM record. Successful output matches the worked response and states remaining uncertainty."
+  SBP-106-L05: "Given the supplied customer-neutral scenario and sources, place a high-reach workflow requiring an unverified custom connector. Successful output matches the worked response and states remaining uncertainty."
+  SBP-106-L06: "Given the supplied customer-neutral scenario and sources, produce a first-wave row for approved support guidance lookup. Successful output matches the worked response and states remaining uncertainty."
+prerequisites: "SBP-105"
+roadmap_alignment: "SOL-102; FND-106"  # semantic alignment only (O12)
+target_hours: 0.75
+mastery_score: 80
+accreditation: accred-ai-blueprinting
+authoring_contract: "https://docs.google.com/spreadsheets/d/1FNFUQAzKl1BgMlyMgR8zygEvmLtnf7V5s-bhaL-3-48"
+authoring_snapshot: plan/sales-blueprinting/workbook/
+review_status: "In review"
+partner_clearance: "Pending partner clearance"
+sme_signoff: "Not signed"
+sme: unassigned - needs_sme (Blueprint SME, BVC / value engineering)
+publish_mode: manual_review
+release_state: restricted_preview

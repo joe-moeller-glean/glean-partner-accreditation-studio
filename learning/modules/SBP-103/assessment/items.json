@@ -1,0 +1,240 @@
+{
+  "module_id": "SBP-103",
+  "mastery_score": 80,
+  "draw": 5,
+  "final_draws": null,
+  "items": [
+    {
+      "id": "SBP-103-Q001",
+      "objective_id": "SBP-103-L01",
+      "module_id": "SBP-103",
+      "stem": "Which role normally leads technical/workflow depth in DITL?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An uninformed observer."
+        },
+        {
+          "id": "b",
+          "text": "A certificate-generation script."
+        },
+        {
+          "id": "c",
+          "text": "Procurement alone."
+        },
+        {
+          "id": "d",
+          "text": "SE, with AE and agreed partner contributions."
+        }
+      ],
+      "claims": [
+        "C-0142"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q002",
+      "objective_id": "SBP-103-L02",
+      "module_id": "SBP-103",
+      "stem": "A domain expert partner is new to Glean. Which model is most appropriate initially?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Require the customer to certify the partner first."
+        },
+        {
+          "id": "b",
+          "text": "Make unilateral product and commercial commitments."
+        },
+        {
+          "id": "c",
+          "text": "Skip all preparation because industry expertise is enough."
+        },
+        {
+          "id": "d",
+          "text": "Co-facilitate with Glean technical backup and reviewed outputs."
+        }
+      ],
+      "claims": [
+        "C-0143"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q003",
+      "objective_id": "SBP-103-L03",
+      "module_id": "SBP-103",
+      "stem": "Which stakeholder mix best covers workflow discovery?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only the vendor's sales team."
+        },
+        {
+          "id": "b",
+          "text": "Only procurement and legal."
+        },
+        {
+          "id": "c",
+          "text": "Business owner, representative frontline user and relevant technical/data owner, with sponsor path."
+        },
+        {
+          "id": "d",
+          "text": "Only senior executives with no workflow experience."
+        }
+      ],
+      "claims": [
+        "C-0144"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q004",
+      "objective_id": "SBP-103-L04",
+      "module_id": "SBP-103",
+      "stem": "When should value-specialist help be considered?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Never; all estimates must be generated without review."
+        },
+        {
+          "id": "b",
+          "text": "Only after all contracts expire."
+        },
+        {
+          "id": "c",
+          "text": "When complexity, attribution or executive stakes exceed a simple self-serve case."
+        },
+        {
+          "id": "d",
+          "text": "For every deal as a guaranteed customer entitlement."
+        }
+      ],
+      "claims": [
+        "C-0145"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q005",
+      "objective_id": "SBP-103-L05",
+      "module_id": "SBP-103",
+      "stem": "A partner-built agent appears to expose a platform defect. What is the best route?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Use the Glean product support path with safe diagnostic evidence."
+        },
+        {
+          "id": "b",
+          "text": "Expand access to every repository to work around it."
+        },
+        {
+          "id": "c",
+          "text": "Promise the partner will change the Glean platform code."
+        },
+        {
+          "id": "d",
+          "text": "Ignore the defect and call it a feature."
+        }
+      ],
+      "claims": [
+        "C-0146"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q006",
+      "objective_id": "SBP-103-L06",
+      "module_id": "SBP-103",
+      "stem": "A partner wants to promise an unverified write-back integration. What should happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tell the customer write actions never need review."
+        },
+        {
+          "id": "b",
+          "text": "Move it into the SOW without an assumption note."
+        },
+        {
+          "id": "c",
+          "text": "Pause the claim and assign feasibility/security validation before commitment."
+        },
+        {
+          "id": "d",
+          "text": "Approve it because it appears in a generated diagram."
+        }
+      ],
+      "claims": [
+        "C-0147"
+      ],
+      "bloom": "Apply",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q007",
+      "objective_id": "SBP-103-L06",
+      "module_id": "SBP-103",
+      "stem": "What should a deal-specific operating agreement clarify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "That all decisions are jointly owned with no accountable person."
+        },
+        {
+          "id": "b",
+          "text": "Only the meeting background image."
+        },
+        {
+          "id": "c",
+          "text": "Communication, artifact ownership, technical answers, approvals and follow-up owners."
+        },
+        {
+          "id": "d",
+          "text": "That the partner may bypass all internal gates."
+        }
+      ],
+      "claims": [
+        "C-0148"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    },
+    {
+      "id": "SBP-103-Q008",
+      "objective_id": "SBP-103-L06",
+      "module_id": "SBP-103",
+      "stem": "Which statement about partner services is accurate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A services catalog guarantees any custom capability."
+        },
+        {
+          "id": "b",
+          "text": "Partner-led means Glean has no account responsibility."
+        },
+        {
+          "id": "c",
+          "text": "Every workshop automatically creates a signed SOW."
+        },
+        {
+          "id": "d",
+          "text": "Discovery can inform a reviewed scope but does not itself authorize delivery work."
+        }
+      ],
+      "claims": [
+        "C-0149"
+      ],
+      "bloom": "Analyze",
+      "review_status": "In review"
+    }
+  ]
+}

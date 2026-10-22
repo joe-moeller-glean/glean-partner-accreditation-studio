@@ -1,0 +1,116 @@
+{
+  "id": "SBP-113-L04",
+  "lesson": "SBP-113-L04",
+  "type": "lesson",
+  "seq": 4,
+  "title": "Handle 'these are just benchmarks'",
+  "nav": "4. Handle 'these are just benchmarks'",
+  "objective": "Respond to a sponsor who rejects the projected benefit range.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Some objections are about readiness: data, security, scope, and the evaluation itself. Respond by naming the dependency and the right next step, without overpromising."
+    },
+    {
+      "t": "h3",
+      "x": "Typical readiness objections"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**\"We're not sure our data is ready.\"** Agree on a readiness check for the priority sources and their owners.",
+        "**\"Security will never approve this.\"** Engage the security owner early, and use Glean's approved security materials and review process.",
+        "**\"Just give us a free pilot.\"** Ask which buying question a pilot would answer, then propose the lightest validation that answers it."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "The pilot request"
+    },
+    {
+      "t": "p",
+      "x": "Glean's pilot guide is explicit that there is no pilot without approval. A pilot requires a real sponsor, a scoped buying question, measurable criteria, readiness evidence, and internal approval."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Never promise a pilot, its environment, timeline, or terms. Partners don't approve or provision pilots."
+    },
+    {
+      "t": "h3",
+      "x": "Handle \"just give us a pilot\""
+    },
+    {
+      "t": "p",
+      "x": "Glean's validation-events training explains that pilots convert because the groundwork is done first: security review, the Blueprint, an economic buyer's stated priorities, executive buy-in, budget conversations, and IT readiness. Use that to reframe a pilot request. Agree on the question the pilot must answer, then show what has to be in place for the pilot to lead to a decision."
+    },
+    {
+      "t": "figure",
+      "kind": "compare",
+      "title": "Reframing a pilot request",
+      "alt": "A comparison of a broad pilot request with a focused reframe. A broad request asks to see what Glean can do, for everyone, open-ended. The reframe defines the question, a cohort, the priority workflows, success criteria, and a decision date.",
+      "caption": "",
+      "items": [
+        {
+          "a": "Broad request",
+          "b": "Focused reframe",
+          "emph": false
+        },
+        {
+          "a": "See what it can do",
+          "b": "Answer one buying question",
+          "emph": false
+        },
+        {
+          "a": "Everyone, all content",
+          "b": "A defined cohort and data",
+          "emph": false
+        },
+        {
+          "a": "Open-ended duration",
+          "b": "Fixed duration and decision date",
+          "emph": false
+        },
+        {
+          "a": "No success criteria",
+          "b": "Measurable criteria agreed first",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "The customer insists on a broad 60-day pilot \"to see what it can do.\" Respond."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "\"We want you to see real value, so let's make sure an evaluation answers a decision you need to make. Which specific workflows and outcomes would you need to see to decide? Let's start there with a focused validation, such as a tailored demo or a Lab scenario. If a question remains that only your own data can answer, we'll scope a pilot properly, with criteria and owners, and take it through Glean's approval process.\""
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 326,
+  "eyebrow": "Lesson 4 · about 6 min",
+  "claims": [
+    "C-0631",
+    "C-0632",
+    "C-0633",
+    "C-0634",
+    "C-0635",
+    "C-0636"
+  ],
+  "sources": [
+    "S05",
+    "S15",
+    "S16",
+    "S67",
+    "S68"
+  ]
+}

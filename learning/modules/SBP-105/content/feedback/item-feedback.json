@@ -1,0 +1,37 @@
+{
+  "module_id": "SBP-105",
+  "feedback": {
+    "SBP-105-Q001": {
+      "correct": "Correct. Existing ideas accelerate capture, but still need outcome, impact, effort and scope validation.",
+      "incorrect": "Review the relevant lesson and evidence. Existing ideas accelerate capture, but still need outcome, impact, effort and scope validation."
+    },
+    "SBP-105-Q002": {
+      "correct": "Correct. The session must still yield decisions; reduce scope or add a session rather than silently dropping commitments.",
+      "incorrect": "Review the relevant lesson and evidence. The session must still yield decisions; reduce scope or add a session rather than silently dropping commitments."
+    },
+    "SBP-105-Q003": {
+      "correct": "Correct. Open outcome-led questions elicit evidence without presupposing the answer.",
+      "incorrect": "Review the relevant lesson and evidence. Open outcome-led questions elicit evidence without presupposing the answer."
+    },
+    "SBP-105-Q004": {
+      "correct": "Correct. A concrete actor, trigger and job make workflow investigation possible.",
+      "incorrect": "Review the relevant lesson and evidence. A concrete actor, trigger and job make workflow investigation possible."
+    },
+    "SBP-105-Q005": {
+      "correct": "Correct. Prioritization is a joint capacity-aware decision with rationale and an explicit backlog.",
+      "incorrect": "Review the relevant lesson and evidence. Prioritization is a joint capacity-aware decision with rationale and an explicit backlog."
+    },
+    "SBP-105-Q006": {
+      "correct": "Correct. Prompt concrete follow-up preserves context and enables correction without exposing restricted notes.",
+      "incorrect": "Review the relevant lesson and evidence. Prompt concrete follow-up preserves context and enables correction without exposing restricted notes."
+    },
+    "SBP-105-Q007": {
+      "correct": "Correct. Source conflicts should be transparent; duration choices must preserve outcomes and appropriate scope.",
+      "incorrect": "Review the relevant lesson and evidence. Source conflicts should be transparent; duration choices must preserve outcomes and appropriate scope."
+    },
+    "SBP-105-Q008": {
+      "correct": "Correct. Recaps are working records; customer corrections should improve the evidence and be traceable.",
+      "incorrect": "Review the relevant lesson and evidence. Recaps are working records; customer corrections should improve the evidence and be traceable."
+    }
+  }
+}

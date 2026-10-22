@@ -1,0 +1,165 @@
+{
+  "id": "SBP-101-L03",
+  "lesson": "SBP-101-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "Value vocabulary",
+  "nav": "3. Value vocabulary",
+  "objective": "Translate 'we need an AI assistant' into outcome, use case, workflow and metric.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "Blueprint conversations fall apart when \"outcome\", \"use case\", \"workflow\", and \"metric\" are used interchangeably. Keep them separate. Each answers a different question, and an executive case needs all four."
+    },
+    {
+      "t": "h3",
+      "x": "Four terms, four questions"
+    },
+    {
+      "t": "table",
+      "caption": "The value vocabulary",
+      "head": [
+        "Term",
+        "Question it answers",
+        "Example (fictional support team)"
+      ],
+      "rows": [
+        [
+          "Positive Business Outcome (PBO)",
+          "What improves for the business, and who owns it?",
+          "Lower support cost without a drop in resolution quality, owned by the VP of Support"
+        ],
+        [
+          "Use case",
+          "What job needs doing?",
+          "Find approved troubleshooting guidance for a live case"
+        ],
+        [
+          "Workflow",
+          "What are the steps, people, and systems involved today?",
+          "Case opens → agent searches three systems → asks a peer → drafts a reply → reply is reviewed"
+        ],
+        [
+          "Metric",
+          "How will we judge improvement?",
+          "Average handle time, paired with resolution quality and escalation rate"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Glean's partner discovery framework chains these in one direction: business outcomes → use cases → workflows → data → success metrics. Start at the outcome, not the tool."
+    },
+    {
+      "t": "h3",
+      "x": "Connect to cost, revenue, or risk"
+    },
+    {
+      "t": "p",
+      "x": "Business impact should connect to cost, revenue, or risk, because those are what executive sponsors fund. The Glean Value Playbook puts it directly: time saved is an input, not an outcome. The outcome is what happens with the time: revenue influenced, costs avoided, risks reduced, capacity redeployed, or quality improved."
+    },
+    {
+      "t": "p",
+      "x": "Compare two statements. \"Save 30 minutes a day\" is an activity claim. \"Cut RFP response time so the team can answer more RFPs each quarter\" is a value story, because it names a business result and a way to measure it."
+    },
+    {
+      "t": "h3",
+      "x": "Activities are not outcomes"
+    },
+    {
+      "t": "p",
+      "x": "Meetings held, agent ideas generated, and connectors added are activities or enablers. They may be necessary, but they are not outcomes. \"Fewer clicks\" is not automatically an outcome either. To make it one, name the business owner and the operational or financial consequence."
+    },
+    {
+      "t": "callout",
+      "label": "Test yourself",
+      "x": "If you can't say who would notice the improvement and what it would change on their scorecard, you have an activity, not an outcome."
+    },
+    {
+      "t": "h3",
+      "x": "Pass the \"who cares?\" test"
+    },
+    {
+      "t": "p",
+      "x": "Glean's business-case training pushes one test hard: who cares? A faster slide deck matters to its author but not to a CFO. A CFO cares about revenue, cost, and risk. The training's message is that value starts at day one. If the first conversations anchor on personal productivity, the deal is later compared with cheap point tools."
+    },
+    {
+      "t": "p",
+      "x": "Use the vocabulary to climb from the activity to the outcome an executive would fund. If you can't name who would care about a metric and why, keep climbing."
+    },
+    {
+      "t": "figure",
+      "kind": "stack",
+      "title": "From job to business outcome",
+      "alt": "Four stacked layers showing how the value vocabulary connects. At the top is the Positive Business Outcome, then the metric that measures it, then the workflow where the work happens, and at the base the use case, the job that needs doing.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Positive Business Outcome",
+          "detail": "What improves for the business, and who funds it",
+          "emph": true
+        },
+        {
+          "label": "Metric",
+          "detail": "How improvement will be judged",
+          "emph": false
+        },
+        {
+          "label": "Workflow",
+          "detail": "The steps, people, and systems involved today",
+          "emph": false
+        },
+        {
+          "label": "Use case",
+          "detail": "The job that needs doing",
+          "emph": false
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "A customer says, \"We need an AI assistant.\" Translate that into an outcome, a use case, a workflow, and a metric. Use the support example or a fictional team of your choice."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Outcome:** Lower support cost without lowering resolution quality.",
+        "**Use case:** Retrieve approved resolutions for live cases.",
+        "**Workflow:** Case context → search → review the suggested answer → respond.",
+        "**Metric:** Handle time, paired with resolution quality and escalation rate so speed does not come at the cost of quality."
+      ]
+    },
+    {
+      "t": "p",
+      "x": "Uncertainty to name: you still need a baseline for handle time and confirmation that the approved resolutions exist in systems Glean can reach."
+    }
+  ],
+  "minutes": 7,
+  "expanded": true,
+  "words": 553,
+  "eyebrow": "Lesson 3 · about 7 min",
+  "claims": [
+    "C-0015",
+    "C-0016",
+    "C-0017",
+    "C-0018",
+    "C-0019",
+    "C-0020",
+    "C-0021"
+  ],
+  "sources": [
+    "S02",
+    "S05",
+    "S06",
+    "S13",
+    "S66",
+    "S71"
+  ]
+}

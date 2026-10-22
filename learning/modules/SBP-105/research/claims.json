@@ -1,0 +1,829 @@
+{
+  "module_id": "SBP-105",
+  "claims": [
+    {
+      "claim_id": "C-0202",
+      "anchor": "SBP-105-S000",
+      "text": "Purpose, audience, agenda, facilitation and outputs of the Visioning Session that builds the broad use case list and secures executive alignment",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S08",
+        "S04",
+        "S05"
+      ],
+      "locator": "Module overview synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0203",
+      "anchor": "SBP-105-L01#00",
+      "text": "Visioning should start where the customer is. Some customers arrive with a list of AI ideas. Others have no list at all. Each needs a different path through the session.",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S33"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0204",
+      "anchor": "SBP-105-L01#01",
+      "text": "The customer has a use case list. Validate and prioritize it. Spend most of the session completing the use case fields: persona, workflow, pain, data sources, impact and effort rationale, and uncertainties. Then negotiate placement on the impact/effort 2x2. The customer has no list. Bring an informed hypothesis and relevant departmental examples, then draw out real workflows tied to outcomes. Glean's Blueprint material provides sample department 2x2s for this. Sometimes you will need a mini Visioning session with each department to understand its priorities.",
+      "source_ids": [
+        "S02"
+      ],
+      "locator": "Two starting points",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S02",
+      "excerpt": "In some cases, you will need to run a mini visioning session with each department to better understand what their priority use",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0205",
+      "anchor": "SBP-105-L01#02",
+      "text": "\"What could AI do for you?\" invites vague wishes. Use departmental thought starters and focused questions about recurring work instead. Ask what takes time, what goes wrong, and what the consequence is.",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S33"
+      ],
+      "locator": "Avoid the blank-canvas think tank",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0206",
+      "anchor": "SBP-105-L01#03",
+      "text": "Example use cases help customers recognize their own work. They do not prove that a use case is feasible or valuable for this customer. Don't replace listening with a tour of a use case catalog. Tip If you show examples, present a few that are relevant to the department in the room and say plainly that they are there to be changed, merged, or discarded.",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S33"
+      ],
+      "locator": "Examples are prompts, not proof",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0207",
+      "anchor": "SBP-105-L01#04",
+      "text": "The customer's starting point decides the deck path. Either way, you end with ranked use cases and owners. Customer has a list Customer has no list Validate each item against outcomes Start from priorities and pain points Fill gaps in owners, data, and metrics Use relevant examples as prompts, not proof Rank with impact and effort Build and rank the list together",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S33"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0208",
+      "anchor": "SBP-105-L01#05",
+      "text": "Choose the approach for two fictional customers: a finance team that arrives with ten candidate workflows, and a legal team that has none.",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S33"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0209",
+      "anchor": "SBP-105-L01#06",
+      "text": "Finance, ten workflows: clarify each one, cluster duplicates, complete the use case fields, and prioritize on the 2x2. Spend the time on evidence and ranking, not idea generation. Legal, no list: bring outcome-led hypotheses and two or three relevant examples, such as finding the approved clause language for a contract type. Then draw out the team's actual jobs to be done and the evidence for each, such as frequency, time taken, and consequences.",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S33"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0210",
+      "anchor": "SBP-105-L02#00",
+      "text": "Visioning time goes quickly. A timed agenda with visible checkpoints keeps the session on track toward its decisions.",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S26"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0211",
+      "anchor": "SBP-105-L02#01",
+      "text": "Welcome and purpose | 5 | Shared understanding of the decision the group will make Context and outcomes | 10 | Business goals confirmed in the customer's words Opportunity discovery | 20 | Candidate workflows captured in the use case log Prioritization | 20 | Impact/effort placement and rationale agreed Commitments | 5 | Owners, next steps, and Day-in-the-Life participants This timing is the course's recommended default. It sits within the ranges in Glean's Visioning playbook, which allows 10–15 minutes for context, 15–20 for discovery, 15–20 for prioritization, and 5 for recap and next steps.",
+      "source_ids": [
+        "S07",
+        "S08"
+      ],
+      "locator": "A 60-minute working agenda",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S07",
+      "excerpt": "Recap & Next Steps (5 min): Summarize priorities, assign action owners, confirm next steps for agent workshops or demos.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0212",
+      "anchor": "SBP-105-L02#02",
+      "text": "By minute 15: the business outcome is clear. By minute 35: the candidate list is captured. By minute 55: priorities and their rationale are agreed. Assign a dedicated note-taker so the facilitator can listen.",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S26"
+      ],
+      "locator": "Use visible checkpoints",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0213",
+      "anchor": "SBP-105-L02#03",
+      "text": "Durations differ across Glean sources. When you have less time, cut scope deliberately: cover fewer departments, pre-populate the list from pre-work, and shorten context. Always keep prioritization and the owner and next-step commitments. Without them, the session produces no decision. If you can't complete enough discovery properly, schedule a second session rather than rushing.",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S26"
+      ],
+      "locator": "When you get less time",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0214",
+      "anchor": "SBP-105-L02#04",
+      "text": "Visible checkpoints keep a 60-minute session on track. If you miss one, cut discovery, not prioritization. Welcome and purpose min Context and outcomes min Opportunity discovery min Prioritization min Commitments min",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S26"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0215",
+      "anchor": "SBP-105-L02#05",
+      "text": "The customer can only give you 45 minutes. Adapt the agenda without dropping commitments.",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S26"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0216",
+      "anchor": "SBP-105-L02#06",
+      "text": "Welcome and purpose: 3 minutes. Context: 5 minutes, using a list pre-populated from pre-work. Discovery: 12 minutes, limited to one department. Prioritization: 20 minutes. Commitments: 5 minutes. If discovery isn't complete, agree a short second session for the remaining department rather than skipping prioritization or owners.",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S26"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0217",
+      "anchor": "SBP-105-L03#00",
+      "text": "The first ten minutes set the tone. A consultative opening makes the session about the customer's goals rather than the product.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S29"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0218",
+      "anchor": "SBP-105-L03#01",
+      "text": "Open by explaining the decision the group will make together: which few workflows deserve deeper discovery, and why. Then confirm the business goals in the customer's language. Glean's Visioning playbook asks for an open, consultative, strategic tone, and warns against checklist-style or interrogative discovery.",
+      "source_ids": [
+        "S07"
+      ],
+      "locator": "Start with the shared decision",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S07",
+      "excerpt": "Set an open, consultative, and strategic tone—avoid checklist-style or interrogative discovery.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0219",
+      "anchor": "SBP-105-L03#02",
+      "text": "Useful questions from Glean's discovery bank include: \"What are your team's core responsibilities and KPIs?\" \"How is success measured, for you and for your team?\" \"What recurring challenges or bottlenecks reduce efficiency or cause risk?\" \"Can you recall a recent workflow that took longer than it should have?\" Reflect the answer back before you explore solutions: \"So the priority this quarter is faster onboarding for new hires, and the friction is finding the right procedure across three systems. Is that right?\"",
+      "source_ids": [
+        "S07"
+      ],
+      "locator": "Ask about work, friction, and consequences",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S07",
+      "excerpt": "Can you recall a recent workflow/process",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0220",
+      "anchor": "SBP-105-L03#03",
+      "text": "\"Would our agent save you hours?\" is a leading question. It invites a polite yes and produces no evidence. In your notes, keep three things separate: what the customer observed, what they hope for, and what the facilitator hypothesizes.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S29"
+      ],
+      "locator": "Avoid leading questions",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0221",
+      "anchor": "SBP-105-L03#04",
+      "text": "Glean's onboarding training encourages a strategic conversation about what amazing would look like for the business, not only what good looks like. Ask leaders to describe the outcome a year from now if this went exceptionally well. Their answer gives you the outcome language, and often the metric, for everything that follows. Product-led Outcome-led Which Glean features interest you? Where does your team lose time today, and what does it cost? Would an AI assistant help? What would amazing look like here a year from now? Do you want agents? Which decisions or handoffs slow this work down?",
+      "source_ids": [
+        "S68"
+      ],
+      "locator": "Aim for \"amazing,\" not just \"good\"",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0222",
+      "anchor": "SBP-105-L03#05",
+      "text": "Rewrite this product-led question as an outcome-led one: \"Which Glean agents would you like to build?\"",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S29"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0223",
+      "anchor": "SBP-105-L03#06",
+      "text": "\"Which recurring workflow most limits your team's goals this quarter? And if the friction in it disappeared, what measurable result would improve?\" A good follow-up asks for evidence: \"How often does that happen, and how long does it take today?\"",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S29"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0224",
+      "anchor": "SBP-105-L04#00",
+      "text": "The use case log is Visioning's main artifact. Each row should be specific enough to explore in a Day-in-the-Life session.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S26"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0225",
+      "anchor": "SBP-105-L04#01",
+      "text": "Use case (job to be done) | Find approved troubleshooting guidance for a newly opened case Persona and department | Tier 1 support agent, customer support Current workflow | Searches the knowledge base, ticket history, and team chat; asks a peer Pain | Slow first response; inconsistent answers Data sources | Knowledge base, ticketing system, team chat Impact rationale | High volume; affects customer satisfaction and cost Effort rationale | Content sources likely reachable; article quality unknown Uncertainties | Is the knowledge base current? Who owns it?",
+      "source_ids": [
+        "S02",
+        "S05"
+      ],
+      "locator": "What each row captures",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S05",
+      "excerpt": "Use Case Log: Use case name, persona/team, current workflow, pain, impact (H/M/L), effort (H/M/L), notes",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0226",
+      "anchor": "SBP-105-L04#02",
+      "text": "\"Improve support\" is too broad. \"Find approved troubleshooting guidance for a newly opened support case\" names an actor, a trigger, and a task you can observe. When participants describe the same need differently, cluster the duplicates but keep a link to the original speaker or team.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S26"
+      ],
+      "locator": "Specific, not vague",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0227",
+      "anchor": "SBP-105-L04#03",
+      "text": "Don't settle impact and effort on the facilitator's opinion. Ask users, business owners, and technical owners for the evidence behind each rating. Glean's Blueprint guidance says to be realistic about effort: ask how many connectors are needed, how much historical data must be crawled, and what else must be set up for the workflow.",
+      "source_ids": [
+        "S02"
+      ],
+      "locator": "Rate with evidence, not opinion",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S02",
+      "excerpt": "Be sure to be realistic on Effort, and ask things like: How many connectors? How much historical data needs to be crawled?",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0228",
+      "anchor": "SBP-105-L04#04",
+      "text": "A use case row is specific enough when someone else could interview the right people about it tomorrow. Job to be done A specific task, not a wish Persona and department Who does the work Current workflow How it happens today Pain What goes wrong, and what it costs Data sources Where the knowledge lives Rationale and unknowns Why it ranks where it does",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S26"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0229",
+      "anchor": "SBP-105-L04#05",
+      "text": "Turn three vague wishes into specific use case rows: \"better onboarding,\" \"faster sales,\" and \"smarter support.\"",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S26"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0230",
+      "anchor": "SBP-105-L04#06",
+      "text": "Onboarding: a new HR generalist finds the correct procedure for a leave request in their first month. Systems: HR knowledge base and policy documents. Outcome: time to proficiency. Measurement gap: there is no current baseline. Sales: an account executive prepares for a renewal call with the account's open issues and usage notes. Systems: CRM, support tickets, and notes. Outcome: preparation time and renewal quality. Gap: who owns the measure. Support: a tier 1 agent finds approved troubleshooting guidance for a new case. Systems: knowledge base, tickets, and chat. Outcome: handle time, with r",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S26"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0231",
+      "anchor": "SBP-105-L05#00",
+      "text": "Visioning ends with a small, agreed first wave of use cases. Go into Day-in-the-Life sessions with focus.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S05"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0232",
+      "anchor": "SBP-105-L05#01",
+      "text": "The output of Visioning is a list of prioritized use cases, placed on a table and an impact/effort 2x2, that tells you which teams to meet for Day-in-the-Life interviews. Read the list aloud so everyone hears the same thing. Assign provisional impact and effort ratings, with a rationale for each. Place each row on the matrix. Discuss the disputed assumptions. These are the rows where people disagree. Ask the sponsor or champion: \"Does this reflect where we should start?\"",
+      "source_ids": [
+        "S02",
+        "S05"
+      ],
+      "locator": "Use the impact/effort 2x2",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S02",
+      "excerpt": "The result of the visioning should you will spend the majority of your be a list of prioritized use cases placed on the table",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0233",
+      "anchor": "SBP-105-L05#02",
+      "text": "Glean sources recommend a small first wave, described as three to four hero use cases in one place and three to five priorities in another. Size the wave to the interview capacity you actually have. High-impact, lower-effort use cases are your quick wins. A selected high-impact, higher-effort item can be a strategic bet that deserves deeper discovery. Partner guidance warns against prioritizing complexity, such as slow, hard-to-ship multi-system agents, for initial deployments.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S05"
+      ],
+      "locator": "Choose a small first wave",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0234",
+      "anchor": "SBP-105-L05#03",
+      "text": "Items that don't make the first wave go into a parked list, with the conditions for revisiting them. Examples: \"when the data owner is available,\" or \"after the first wave proves the measurement approach.\"",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S05"
+      ],
+      "locator": "Park, don't discard",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0235",
+      "anchor": "SBP-105-L05#04",
+      "text": "Glean's onboarding training describes the impact/effort matrix as the tool that stops a customer's wishlist from being treated as equally important. Impact is the potential business value against the priority you discussed. Effort covers complexity, data readiness, integrations, and the change required. The training also describes placing items on the matrix as a kind of negotiation with the customer about where to spend effort first. Glean's Visioning training sets the expected output: two to three use cases per line-of-business leader, an impact/effort analysis for each, and agreement on pri",
+      "source_ids": [
+        "S29",
+        "S68"
+      ],
+      "locator": "Turn a wishlist into choices",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S68",
+      "excerpt": "So what this helps us avoid is treating every single use case as equally as important.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0236",
+      "anchor": "SBP-105-L05#05",
+      "text": "Six high-impact candidates remain. You have DITL capacity for three. Close the prioritization discussion.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S05"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0237",
+      "anchor": "SBP-105-L05#06",
+      "text": "Choose three using evidence, feasibility, and whether the owners can attend. For example, keep the two quick wins with available owners plus one strategic bet the sponsor cares about. Park the other three with revisit conditions. Ask for explicit agreement: \"Are we agreed these three go to Day-in-the-Life interviews?\" Then assign DITL participants and dates before the session ends.",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S05"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0238",
+      "anchor": "SBP-105-L06#00",
+      "text": "The recap turns a good conversation into shared commitments. Send it while the context is fresh.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0239",
+      "anchor": "SBP-105-L06#01",
+      "text": "Before people leave, restate the priorities, the open questions, the business and technical owners, and the scheduled next steps.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "locator": "Close the session",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0240",
+      "anchor": "SBP-105-L06#02",
+      "text": "Glean's Visioning playbook asks you to share session notes, the prioritized use case table, and next steps with all attendees within 24 hours. A strong recap includes: The purpose of the session, in one line. Three to five key takeaways. The prioritized use cases, with a short rationale. A summary of quick wins and strategic bets. Actions, with owners and dates, including the DITL sessions. Open assumptions for participants to correct. Attach the editable use case log and a snapshot of the matrix, not just a deck.",
+      "source_ids": [
+        "S07"
+      ],
+      "locator": "The recap",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S07",
+      "excerpt": "Share session notes, prioritized use case table, and next steps (custom demos or deeper workshops) within 24 hours to all attendees.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0241",
+      "anchor": "SBP-105-L06#03",
+      "text": "Ask explicitly for corrections to assumptions, and track changes with version history. Distinguish tentative next steps from accepted commitments. If the champion says the recap is wrong, correct the artifact, note what changed, and reconfirm any changed decisions with the people affected. Boundary Keep internal qualification notes, such as deal stage, competitive notes, and internal assessments, out of the customer recap.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "locator": "Silence is not confirmation",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0242",
+      "anchor": "SBP-105-L06#04",
+      "text": "A recap that arrives within 24 hours keeps commitments fresh. Silence after it isn't agreement, so follow up. Send the recap Priorities, owners, open questions Confirm DITL Participants and dates Update the plan Mutual action plan and records Chase silence Unconfirmed is not agreed",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0243",
+      "anchor": "SBP-105-L06#05",
+      "text": "A colleague's Visioning recap reads: \"Great meeting, deck attached.\" Improve it.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0244",
+      "anchor": "SBP-105-L06#06",
+      "text": "Add: The three agreed priorities and why they were chosen. The open assumptions, for example: \"We assumed the knowledge base is the main source. Please correct us if not.\" Action owners and due dates. The DITL sessions, with participants and dates. A request to correct anything within two working days. Attach the editable use case log and the matrix snapshot, and keep internal deal notes out.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0245",
+      "anchor": "SBP-105-S999",
+      "text": "Review your artifacts and proceed to the required assessment or capstone submission.",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S08",
+        "S04",
+        "S05"
+      ],
+      "locator": "Assessment design; S55/S56 build framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0246",
+      "anchor": "SBP-105-TEMPLATES",
+      "text": "Reusable templates: A05",
+      "source_ids": [
+        "S02",
+        "S07"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0247",
+      "anchor": "SBP-105-PROMPTS",
+      "text": "Prompt library entries: P03",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "locator": "",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0248",
+      "anchor": "SBP-105-Q001",
+      "text": "Existing ideas accelerate capture, but still need outcome, impact, effort and scope validation.",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S33"
+      ],
+      "locator": "Which Visioning Deck to Choose; departmental outcomes",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0249",
+      "anchor": "SBP-105-Q002",
+      "text": "The session must still yield decisions; reduce scope or add a session rather than silently dropping commitments.",
+      "source_ids": [
+        "S07",
+        "S02",
+        "S26"
+      ],
+      "locator": "Suggested agenda; duration variants",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0250",
+      "anchor": "SBP-105-Q003",
+      "text": "Open outcome-led questions elicit evidence without presupposing the answer.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S29"
+      ],
+      "locator": "High-leverage questions; consultative tone",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0251",
+      "anchor": "SBP-105-Q004",
+      "text": "A concrete actor, trigger and job make workflow investigation possible.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S26"
+      ],
+      "locator": "Identified use case table; use case log",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0252",
+      "anchor": "SBP-105-Q005",
+      "text": "Prioritization is a joint capacity-aware decision with rationale and an explicit backlog.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S04"
+      ],
+      "locator": "Hero use cases; Running the Matrix Virtually",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0253",
+      "anchor": "SBP-105-Q006",
+      "text": "Prompt concrete follow-up preserves context and enables correction without exposing restricted notes.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "locator": "Follow-up email template; Post-Session",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0254",
+      "anchor": "SBP-105-Q007",
+      "text": "Source conflicts should be transparent; duration choices must preserve outcomes and appropriate scope.",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S26"
+      ],
+      "locator": "Follow-up email template; Post-Session",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0255",
+      "anchor": "SBP-105-Q008",
+      "text": "Recaps are working records; customer corrections should improve the evidence and be traceable.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "locator": "Follow-up email template; Post-Session",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    }
+  ]
+}

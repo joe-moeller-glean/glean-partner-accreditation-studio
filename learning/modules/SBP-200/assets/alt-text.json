@@ -1,0 +1,17 @@
+{
+  "by_asset_id": {
+    "SBP-200-LOGO": "Glean",
+    "SBP-200-L01-F1-wide": "Three cards naming the kinds of input in the capstone scenario: facts, which you may use as stated; estimates, which you must show as ranges with assumptions; and unknowns, which you must turn into open questions with owners.",
+    "SBP-200-L01-F1-narrow": "Three cards naming the kinds of input in the capstone scenario: facts, which you may use as stated; estimates, which you must show as ranges with assumptions; and unknowns, which you must turn into open questions with owners.",
+    "SBP-200-L02-F1-wide": "Six parts of the Visioning submission in order: value hypothesis, stakeholder map, readiness review, timed agenda, use case log and matrix, and a five-minute facilitation segment.",
+    "SBP-200-L02-F1-narrow": "Six parts of the Visioning submission in order: value hypothesis, stakeholder map, readiness review, timed agenda, use case log and matrix, and a five-minute facilitation segment.",
+    "SBP-200-L03-F1-wide": "A bar chart of the capstone's current-state support workflow in active minutes per case: read the case 2, find approved guidance 8, consult a colleague 3, draft a response 5, and review and send 2. Finding guidance is the largest step.",
+    "SBP-200-L03-F1-narrow": "A bar chart of the capstone's current-state support workflow in active minutes per case: read the case 2, find approved guidance 8, consult a colleague 3, draft a response 5, and review and send 2. Finding guidance is the largest step.",
+    "SBP-200-L04-F1-wide": "Six cards naming what the capstone value defense must explain: units, adoption versus population, recapture, the three scenarios, sensitivity, and metric cards.",
+    "SBP-200-L04-F1-narrow": "Six cards naming what the capstone value defense must explain: units, adoption versus population, recapture, the three scenarios, sensitivity, and metric cards.",
+    "SBP-200-L05-F1-wide": "A four-step flow for the capstone's final deliverables: an 8- to 10-minute executive readout, a validation recommendation, a mutual action plan, and a recap with the delivery and value handoff.",
+    "SBP-200-L05-F1-narrow": "A four-step flow for the capstone's final deliverables: an 8- to 10-minute executive readout, a validation recommendation, a mutual action plan, and a recap with the delivery and value handoff.",
+    "SBP-200-L06-F1-wide": "A four-step review path: self-audit against the rubric, assessor review, a critical-gate check, then either pass or remediate and resubmit. A failed critical gate requires remediation regardless of the score.",
+    "SBP-200-L06-F1-narrow": "A four-step review path: self-audit against the rubric, assessor review, a critical-gate check, then either pass or remediate and resubmit. A failed critical gate requires remediation regardless of the score."
+  }
+}

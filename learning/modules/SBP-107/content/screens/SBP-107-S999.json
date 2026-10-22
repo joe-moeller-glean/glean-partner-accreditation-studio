@@ -1,0 +1,23 @@
+{
+  "id": "SBP-107-S999",
+  "claims": [
+    "C-0349"
+  ],
+  "sources": [
+    "S02",
+    "S22",
+    "S04",
+    "S09",
+    "S38"
+  ],
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Pending policy confirmation",
+  "lesson": "check",
+  "eyebrow": "Check",
+  "title": "Check your understanding",
+  "nav": "Knowledge check",
+  "body": "Review your artifacts and proceed to the required assessment or capstone submission.",
+  "wrap": "Complete a 5-item module quiz at 80% to pass this SCO. You may review and retry under the approved attempt policy.",
+  "type": "quiz"
+}

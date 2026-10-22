@@ -1,0 +1,187 @@
+{
+  "id": "SBP-108-X03",
+  "lesson": "toolkit",
+  "type": "roi",
+  "eyebrow": "Toolkit · ROI Lab",
+  "title": "Model capacity value with explicit units",
+  "nav": "ROI Lab",
+  "body": "Change any input or load a scenario. Every output shows how it is computed, so you can defend each step.",
+  "roi": {
+    "fields": [
+      {
+        "key": "users",
+        "label": "Addressable users",
+        "unit": "users",
+        "min": 0,
+        "max": 100000,
+        "step": 1,
+        "pct": false
+      },
+      {
+        "key": "adoption",
+        "label": "Adoption",
+        "unit": "% of addressable users active",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "pct": true
+      },
+      {
+        "key": "events",
+        "label": "Events per active user per workday",
+        "unit": "events / user / workday",
+        "min": 0,
+        "max": 100,
+        "step": 0.5,
+        "pct": false
+      },
+      {
+        "key": "burden",
+        "label": "Avoidable time burden per event",
+        "unit": "minutes / event (raw friction, not measured saving)",
+        "min": 0,
+        "max": 240,
+        "step": 0.5,
+        "pct": false
+      },
+      {
+        "key": "workdays",
+        "label": "Workdays per year",
+        "unit": "workdays / year",
+        "min": 0,
+        "max": 366,
+        "step": 1,
+        "pct": false
+      },
+      {
+        "key": "removable",
+        "label": "Fraction of burden removable",
+        "unit": "%",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "pct": true
+      },
+      {
+        "key": "coverage",
+        "label": "Relevant data coverage",
+        "unit": "%",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "pct": true
+      },
+      {
+        "key": "recapture",
+        "label": "Productivity recapture",
+        "unit": "% of freed capacity usefully redeployed",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "pct": true
+      },
+      {
+        "key": "rate",
+        "label": "Fully loaded hourly rate",
+        "unit": "USD / hour (fictional)",
+        "min": 0,
+        "max": 1000,
+        "step": 1,
+        "pct": false
+      },
+      {
+        "key": "haircut",
+        "label": "Risk haircut",
+        "unit": "%",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "pct": true
+      },
+      {
+        "key": "platform",
+        "label": "Software / platform annual cost",
+        "unit": "USD / year (fictional, not Glean pricing)",
+        "min": 0,
+        "max": 10000000,
+        "step": 100,
+        "pct": false
+      },
+      {
+        "key": "implementation",
+        "label": "One-time implementation cost",
+        "unit": "USD in year 1 (fictional)",
+        "min": 0,
+        "max": 10000000,
+        "step": 100,
+        "pct": false
+      },
+      {
+        "key": "measurement",
+        "label": "Year-1 adoption and measurement cost",
+        "unit": "USD in year 1 (fictional)",
+        "min": 0,
+        "max": 10000000,
+        "step": 100,
+        "pct": false
+      }
+    ],
+    "presets": {
+      "conservative": {
+        "users": 200,
+        "events": 2,
+        "workdays": 240,
+        "rate": 60,
+        "haircut": 0.1,
+        "platform": 20000,
+        "implementation": 6000,
+        "measurement": 4000,
+        "adoption": 0.35,
+        "burden": 6,
+        "removable": 0.5,
+        "coverage": 0.6,
+        "recapture": 0.25
+      },
+      "base": {
+        "users": 200,
+        "events": 2,
+        "workdays": 240,
+        "rate": 60,
+        "haircut": 0.1,
+        "platform": 20000,
+        "implementation": 6000,
+        "measurement": 4000,
+        "adoption": 0.5,
+        "burden": 8,
+        "removable": 0.6,
+        "coverage": 0.8,
+        "recapture": 0.25
+      },
+      "upside": {
+        "users": 200,
+        "events": 2,
+        "workdays": 240,
+        "rate": 60,
+        "haircut": 0.1,
+        "platform": 20000,
+        "implementation": 6000,
+        "measurement": 4000,
+        "adoption": 0.65,
+        "burden": 10,
+        "removable": 0.7,
+        "coverage": 0.9,
+        "recapture": 0.5
+      }
+    }
+  },
+  "footnote": "Fictional training example. Not a quote, not Glean pricing, not an approved production calculator, and not a realized result. Capacity value is not a cash saving. Formula coverage and evidence labels are still under review.",
+  "claims": [
+    "C-0403"
+  ],
+  "sources": [
+    "S13",
+    "S39",
+    "S40"
+  ],
+  "required": true
+}

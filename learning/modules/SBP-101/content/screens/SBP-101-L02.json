@@ -1,0 +1,159 @@
+{
+  "id": "SBP-101-L02",
+  "lesson": "SBP-101-L02",
+  "type": "lesson",
+  "seq": 2,
+  "title": "Three-step operating sequence",
+  "nav": "2. Three-step operating sequence",
+  "objective": "Sequence preparation, executive decision, DITL, validation and Visioning.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The Blueprint Consultation has three customer-facing steps. Preparation comes before them, and an agreed validation path and action plan comes after."
+    },
+    {
+      "t": "h3",
+      "x": "The three steps"
+    },
+    {
+      "t": "ol",
+      "items": [
+        "**Visioning.** A session with business leadership, or the champion when leaders are not available. You align on priorities, brainstorm use cases tied to outcomes, and leave with a ranked shortlist of hero use cases. Glean guidance on length varies from 30 to 60 minutes. The Visioning playbook recommends a standalone 60-minute session that is not combined with an intro demo.",
+        "**Day-in-the-Life (DITL) interviews and playback.** One or more sessions with the leaders and front-line employees for each prioritized use case. You document how the work happens today, show what it could look like with Glean, and collect the inputs that size the value. Plan for 60 to 90 minutes per session.",
+        "**Executive Validation.** Glean materials also call this step the Executive Readout. Usually a 60-minute session with the executive sponsor. You confirm the value, the success criteria, sponsorship, and the validation path before more time and resources go into the evaluation."
+      ]
+    },
+    {
+      "t": "table",
+      "caption": "What each step produces",
+      "head": [
+        "Step",
+        "Main question",
+        "Output"
+      ],
+      "rows": [
+        [
+          "Visioning",
+          "Are there tangible business problems worth solving, and is there enough pain?",
+          "Prioritized use case list and a draft of success measures"
+        ],
+        [
+          "Day-in-the-Life",
+          "What does the reality on the ground look like for three to four prioritized use cases?",
+          "Current-state and future-state workflow maps, metric inputs, data and connector needs"
+        ],
+        [
+          "Executive Validation",
+          "Is there enough value to justify the investment, and how will we prove it?",
+          "Sponsor decision, success criteria, validation path, mutual action plan"
+        ]
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Before and after the steps"
+    },
+    {
+      "t": "p",
+      "x": "Preparation comes first. Glean guidance says that before you start, you need early economic buyer alignment, a value hypothesis, and identified Positive Business Outcomes (PBOs) tied to the company's near-term priorities."
+    },
+    {
+      "t": "p",
+      "x": "Value analysis is not a separate customer meeting. It runs through the whole process: you form a hypothesis in preparation, test it in Visioning, size it with DITL data, and confirm it in Executive Validation."
+    },
+    {
+      "t": "p",
+      "x": "After Executive Validation, the customer chooses how to validate the solution. The usual options are a tailored demo, a hands-on Glean Lab or sandbox, or a trial or proof of value. Glean's guidance is to prefer the lightest option that answers the customer's questions. Run a pilot only when it is genuinely necessary, and only after leadership agrees."
+    },
+    {
+      "t": "callout",
+      "label": "Watch for",
+      "x": "Skipping DITL and filling the business case with unrelated benchmarks. Without DITL, you have no customer-specific workflow evidence, so the value case cannot be defended."
+    },
+    {
+      "t": "h3",
+      "x": "Three questions, three steps"
+    },
+    {
+      "t": "p",
+      "x": "Glean's onboarding training summarizes the sequence simply: each step answers a different question. Visioning asks what matters to the business. DITL asks how the work actually happens today. Executive Validation asks whether there is enough value to invest. If you can't say which question you are answering, you are probably in the wrong step."
+    },
+    {
+      "t": "p",
+      "x": "The training also notes that the sequence flexes by segment. A corporate deal may compress Visioning into one session. A strategic, wall-to-wall deal may run several Visioning sessions with different department heads and several DITL interviews. The order stays the same."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "Where the Blueprint sits in the sale",
+      "alt": "A five-step flow from Discovery to Visioning, then Day-in-the-Life interviews and playback, then Executive Validation, and finally a validation event chosen to answer the remaining buying question.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Discovery",
+          "detail": "Qualify the problem and the three whys",
+          "emph": false
+        },
+        {
+          "label": "Visioning",
+          "detail": "What matters to the business?",
+          "emph": false
+        },
+        {
+          "label": "Day in the Life",
+          "detail": "How does the work happen today?",
+          "emph": false
+        },
+        {
+          "label": "Executive Validation",
+          "detail": "Is there enough value to invest?",
+          "emph": false
+        },
+        {
+          "label": "Validation event",
+          "detail": "Prove what is still uncertain",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Put these five items in order and explain in one line why each comes where it does: executive decision, DITL interviews, validation event, Visioning, preparation."
+    }
+  ],
+  "worked": [
+    {
+      "t": "p",
+      "x": "Preparation → Visioning → DITL interviews and value analysis → Executive Validation (executive decision) → agreed validation event and mutual action plan."
+    },
+    {
+      "t": "p",
+      "x": "Preparation gives you a hypothesis to test. Visioning narrows the field to a few hero use cases. DITL supplies the workflow evidence and metric inputs. The executive decides with that evidence in hand, and only then is a validation event scheduled."
+    }
+  ],
+  "minutes": 7,
+  "expanded": true,
+  "words": 639,
+  "eyebrow": "Lesson 2 · about 7 min",
+  "claims": [
+    "C-0009",
+    "C-0010",
+    "C-0011",
+    "C-0012",
+    "C-0013",
+    "C-0014"
+  ],
+  "sources": [
+    "S02",
+    "S04",
+    "S05",
+    "S07",
+    "S26",
+    "S68"
+  ]
+}

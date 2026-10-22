@@ -1,0 +1,699 @@
+{
+  "module_id": "SBP-113",
+  "claims": [
+    {
+      "claim_id": "C-0612",
+      "anchor": "SBP-113-S000",
+      "text": "Workshop facilitation craft, handling common objections to Blueprint and to value claims, and avoiding the anti-patterns that stall deals",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S18",
+        "S23",
+        "S20"
+      ],
+      "locator": "Module overview synthesis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0613",
+      "anchor": "SBP-113-L01#00",
+      "text": "Good facilitation gives the conversation a clear structure and then lets the customer do most of the talking.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S07"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0614",
+      "anchor": "SBP-113-L01#01",
+      "text": "Glean's Visioning playbook asks for an open, consultative, and strategic tone, and warns against checklist-style or interrogative discovery. In practice: Open by stating the purpose, the agenda, the decision you need, and the time. Assign roles: a facilitator, a note-taker, a timekeeper, and a technical owner for capability questions. Use open questions and play back what you heard so it can be corrected. Make the work visible: effort-and-impact tables, a whiteboard, and sample scenarios.",
+      "source_ids": [
+        "S07"
+      ],
+      "locator": "Set the tone",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S07",
+      "excerpt": "Set an open, consultative, and strategic tone—avoid checklist-style or interrogative discovery.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0615",
+      "anchor": "SBP-113-L01#02",
+      "text": "Ask the question, then let the customer answer it. Paraphrase what they said instead of reframing it into a product requirement. Don't treat silence or politeness as agreement. Boundary Don't commit to features, timelines, or roadmap items during a workshop. Capture capability questions for the right technical owner.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S07"
+      ],
+      "locator": "Neutrality protects the evidence",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0616",
+      "anchor": "SBP-113-L01#03",
+      "text": "Neutral facilitation protects the evidence. Leading questions get you agreement, not information. Leading Open Wouldn't agents make this faster? What slows this process down today? This is your biggest problem, right? Which problem costs the most, and why? You'd use this every day? When did this last happen, and what did you do?",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S07"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0617",
+      "anchor": "SBP-113-L01#04",
+      "text": "Rewrite this question: \"Wouldn't Glean agents make your process much faster?\"",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S07"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0618",
+      "anchor": "SBP-113-L01#05",
+      "text": "\"Walk us through the last time this process was slow. Where did the time go? What information or approvals were involved, and how would you know a change had worked?\"",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S07"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0619",
+      "anchor": "SBP-113-L02#00",
+      "text": "The loudest voice in the room isn't always the best evidence. Structure the session so that every relevant role contributes.",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S22"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0620",
+      "anchor": "SBP-113-L02#01",
+      "text": "Glean's Visioning playbook recommends small sessions, ideally one to three participants, to encourage candor and focus, with additional sessions by line of business if needed. When a larger group can't be avoided: Use structured turns, so each role answers the same question. Ask for silent writing before discussion. Invite specific roles: \"What does this look like for a new agent?\" Run separate, role-specific follow-ups.",
+      "source_ids": [
+        "S07"
+      ],
+      "locator": "Keep groups focused",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S07",
+      "excerpt": "Limit participant size (ideally 1-3 per session) to maximize candor and focus; run additional sessions by line of business if needed.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0621",
+      "anchor": "SBP-113-L02#02",
+      "text": "A senior leader's opinion matters. It isn't the same as a front-line workflow observation, so record both and label them. When someone pulls toward their pet topic, park it visibly with an owner and return to the agenda. Boundary Never put participants on the spot about sensitive issues. Respect consent, privacy, and organizational norms.",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S22"
+      ],
+      "locator": "Dominance and the parking lot",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0622",
+      "anchor": "SBP-113-L02#03",
+      "text": "When one voice dominates, change the format rather than confronting the person. Direct by role Ask the people who do the work Silent writing first Everyone contributes before discussion Parking lot Capture off-topic items, with an owner Separate follow-up Hear quieter voices one to one",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S22"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0623",
+      "anchor": "SBP-113-L02#04",
+      "text": "A senior manager answers every question meant for front-line agents. What do you do?",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S22"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0624",
+      "anchor": "SBP-113-L02#05",
+      "text": "Thank them and capture their view. Then run a structured round: \"I'd like to hear from each of you about the last access case you handled.\" If needed, schedule a separate, consented interview with the agents. Record which input was observed behavior and which was a leadership view.",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S22"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0625",
+      "anchor": "SBP-113-L03#00",
+      "text": "Value objections are a test of credibility. Answer them with evidence and transparency, and don't get defensive or lean on salesmanship.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S19"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0626",
+      "anchor": "SBP-113-L03#01",
+      "text": "Glean's Value Playbook prepares teams for the most frequent CFO and CIO challenges, such as \"Where did the saved time go?\" and \"These are just benchmarks.\" It also asks teams to always identify which assumptions are benchmark-based and which are customer-specific. \"These are just estimates.\" | Agreement, the labeled assumptions, and the validation plan \"Where does the saved time go?\" | The recapture and reallocation assumptions, and their owner \"Those are just benchmarks.\" | Which inputs are customer-specific, and how benchmark inputs will be replaced with measured data \"We don't believe the s",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "The common challenges",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S13",
+      "excerpt": "Always identify which assumptions are benchmark-based vs. customer-specific",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0627",
+      "anchor": "SBP-113-L03#02",
+      "text": "Acknowledge the concern. Ask what evidence would change their view. Show the assumptions, the range, and the current evidence level. Agree on a test, with an owner and a date. Boundary Don't defend an inflated number. Revise it in front of them if they're right.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S19"
+      ],
+      "locator": "The pattern",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0628",
+      "anchor": "SBP-113-L03#03",
+      "text": "Glean's value-selling training is a reminder of why objection handling matters: assume Glean is not a budgeted initiative. When a finance leader challenges your numbers, the champion will have to answer the same challenge later, without you. Handle the objection so the champion leaves with an answer they can repeat. Acknowledge The concern is reasonable Ask What evidence would resolve it? Show The source, range, and assumptions Agree How and when it will be checked",
+      "source_ids": [
+        "S65"
+      ],
+      "locator": "Give the champion a story they can carry",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S65",
+      "excerpt": "Am I giving them a strong enough story to go sell this internally?",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0629",
+      "anchor": "SBP-113-L03#04",
+      "text": "A finance leader says, \"Saved hours aren't savings.\" Respond.",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S19"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0630",
+      "anchor": "SBP-113-L03#05",
+      "text": "\"Agreed. On its own, saved time is capacity, not cash. Here is what we've assumed about how much of that time is actually redeployed, and to what work. We'd propose that you or your operations owner confirm the reallocation plan, and that we measure the business metric it should move, before anyone calls it savings. Which part of the model would you want to test first?\"",
+      "source_ids": [
+        "S02",
+        "S13",
+        "S19"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0631",
+      "anchor": "SBP-113-L04#00",
+      "text": "Some objections are about readiness: data, security, scope, and the evaluation itself. Respond by naming the dependency and the right next step, without overpromising.",
+      "source_ids": [
+        "S05",
+        "S15",
+        "S16"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0632",
+      "anchor": "SBP-113-L04#01",
+      "text": "\"We're not sure our data is ready.\" Agree on a readiness check for the priority sources and their owners. \"Security will never approve this.\" Engage the security owner early, and use Glean's approved security materials and review process. \"Just give us a free pilot.\" Ask which buying question a pilot would answer, then propose the lightest validation that answers it.",
+      "source_ids": [
+        "S05",
+        "S15",
+        "S16"
+      ],
+      "locator": "Typical readiness objections",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0633",
+      "anchor": "SBP-113-L04#02",
+      "text": "Glean's pilot guide is explicit that there is no pilot without approval. A pilot requires a real sponsor, a scoped buying question, measurable criteria, readiness evidence, and internal approval. Boundary Never promise a pilot, its environment, timeline, or terms. Partners don't approve or provision pilots.",
+      "source_ids": [
+        "S15"
+      ],
+      "locator": "The pilot request",
+      "verdict": "verified",
+      "verified_on": "2026-10-21",
+      "checked_by": "Fact Integrity Auditor (studio spot check)",
+      "learner_facing": false,
+      "excerpt_source": "S15",
+      "excerpt": "No approval = no pilot.",
+      "note": "1 of 1 excerpt(s) matched the source text verbatim (verify-quotes, 2026-10-21)."
+    },
+    {
+      "claim_id": "C-0634",
+      "anchor": "SBP-113-L04#03",
+      "text": "Glean's validation-events training explains that pilots convert because the groundwork is done first: security review, the Blueprint, an economic buyer's stated priorities, executive buy-in, budget conversations, and IT readiness. Use that to reframe a pilot request. Agree on the question the pilot must answer, then show what has to be in place for the pilot to lead to a decision. Broad request Focused reframe See what it can do Answer one buying question Everyone, all content A defined cohort and data Open-ended duration Fixed duration and decision date No success criteria Measurable criteria",
+      "source_ids": [
+        "S67",
+        "S68"
+      ],
+      "locator": "Handle \"just give us a pilot\"",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0635",
+      "anchor": "SBP-113-L04#04",
+      "text": "The customer insists on a broad 60-day pilot \"to see what it can do.\" Respond.",
+      "source_ids": [
+        "S05",
+        "S15",
+        "S16"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0636",
+      "anchor": "SBP-113-L04#05",
+      "text": "\"We want you to see real value, so let's make sure an evaluation answers a decision you need to make. Which specific workflows and outcomes would you need to see to decide? Let's start there with a focused validation, such as a tailored demo or a Lab scenario. If a question remains that only your own data can answer, we'll scope a pilot properly, with criteria and owners, and take it through Glean's approval process.\"",
+      "source_ids": [
+        "S05",
+        "S15",
+        "S16"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0637",
+      "anchor": "SBP-113-L05#00",
+      "text": "Most failed Blueprints fail in predictable ways. Recognize the pattern early and correct course.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S13"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0638",
+      "anchor": "SBP-113-L05#01",
+      "text": "Product tour instead of discovery | Lead with the customer's workflows and outcomes A long wishlist, no priorities | Score, rank, and pick a small set of heroes Generic DITL steps | Interview real participants about real recent cases Benchmarks presented as proof | Label the evidence; measure the customer's baseline Readout with no decision-maker | Treat it as preparation; secure the sponsor separately A pilot as the default | Choose the lightest sufficient validation The value case lost at handoff | Metric cards, owners, and an accepted handoff",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S13"
+      ],
+      "locator": "Common pitfalls",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0639",
+      "anchor": "SBP-113-L05#02",
+      "text": "For each pitfall, ask what evidence or decision is missing, who owns it, and what the smallest corrective step is.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S13"
+      ],
+      "locator": "Diagnose before you fix",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0640",
+      "anchor": "SBP-113-L05#03",
+      "text": "Glean's onboarding training highlights a pitfall that happens before the Blueprint starts. Teams that lack confidence in the process present it as a burden, and customers decline. The fix is to position it consultatively, as a structured way to find where AI will matter most, and to show what the customer gets at the end. Apologetic pitch Positioned as a burden Endless Visioning Ideas, but no priorities DITL skipped Straight to a trial Value without baselines Numbers no one owns Readout without a decision A presentation, not a meeting Pilot without criteria A test with no path to a decision",
+      "source_ids": [
+        "S68",
+        "S69"
+      ],
+      "locator": "Pitch it with confidence",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0641",
+      "anchor": "SBP-113-L05#04",
+      "text": "Diagnose this situation: three Visioning sessions have produced 40 use cases, but no business owner has prioritized any of them.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S13"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0642",
+      "anchor": "SBP-113-L05#05",
+      "text": "This is the wishlist pitfall. Run a scoring session with the business owners to select a small set of hero use cases. Each hero needs an owner, an outcome, and a target, and the rest stay in a backlog. Confirm the hero choices with the sponsor before scheduling DITL interviews.",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S13"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0643",
+      "anchor": "SBP-113-L06#00",
+      "text": "Blueprint engagements stall when the urgency, the sponsor, or the next step disappears. Recover by diagnosing which one is missing, not by sending more material.",
+      "source_ids": [
+        "S05",
+        "S12",
+        "S14"
+      ],
+      "locator": "opening",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0644",
+      "anchor": "SBP-113-L06#01",
+      "text": "Urgency: is the business problem still a priority? Has something changed? Sponsor: is the executive still engaged? Has the champion lost access or influence? Next step: is there an agreed, dated action with an owner? Evidence: is the case blocked by a missing baseline, a source, or a feasibility question?",
+      "source_ids": [
+        "S05",
+        "S12",
+        "S14"
+      ],
+      "locator": "Diagnose the stall",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0645",
+      "anchor": "SBP-113-L06#02",
+      "text": "Re-engage the champion with a specific, useful offer, such as a short recap of the agreed priorities with a proposed next decision. Confirm or replace the sponsor path. If the priority has really changed, record that honestly. A clear \"not now\" is better than a false forecast. Boundary Don't flood the customer with generic content or invent urgency. Update the opportunity record accurately.",
+      "source_ids": [
+        "S05",
+        "S12",
+        "S14"
+      ],
+      "locator": "Act on the diagnosis",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0646",
+      "anchor": "SBP-113-L06#03",
+      "text": "Name the cause before choosing the fix. Each of the four causes has a different recovery. Urgency Revisit why now with the sponsor Sponsor Re-engage or find a new sponsor Next step Propose one specific, owned step Evidence Close the gap with the smallest session Commitment gap Clarity gap",
+      "source_ids": [
+        "S05",
+        "S12",
+        "S14"
+      ],
+      "locator": "At a glance",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0647",
+      "anchor": "SBP-113-L06#04",
+      "text": "The champion has gone quiet for three weeks after DITL interviews. Write your recovery plan.",
+      "source_ids": [
+        "S05",
+        "S12",
+        "S14"
+      ],
+      "locator": "Practice",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0648",
+      "anchor": "SBP-113-L06#05",
+      "text": "Send the champion a concise draft of the DITL findings for their team, with one question: \"Is this still the priority, and what would help you take it to the sponsor?\" Offer a short working session to finalize the findings together. If there's no response, ask the AE to check the sponsor path, for example through the executive relationship. Update the MAP and the forecast to reflect what is actually known.",
+      "source_ids": [
+        "S05",
+        "S12",
+        "S14"
+      ],
+      "locator": "Worked response",
+      "verdict": "attributed",
+      "verified_on": "2026-10-21",
+      "checked_by": "Studio author: drafted from the cited source text; no verbatim excerpt recorded; SME verification pending",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0649",
+      "anchor": "SBP-113-S999",
+      "text": "Review your artifacts and proceed to the required assessment or capstone submission.",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S18",
+        "S23",
+        "S20"
+      ],
+      "locator": "Assessment design; S55/S56 build framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0650",
+      "anchor": "SBP-113-Q001",
+      "text": "Good facilitation acknowledges input while maintaining the decision and evidence structure.",
+      "source_ids": [
+        "S05",
+        "S07"
+      ],
+      "locator": "Discovery Do's & Don'ts; facilitation best practices",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0651",
+      "anchor": "SBP-113-Q002",
+      "text": "The aim is to protect customer time and reach a decision, not impose arbitrary process or skip qualification.",
+      "source_ids": [
+        "S02",
+        "S14",
+        "S15",
+        "S18"
+      ],
+      "locator": "Pilot justification; default validation; revamp rationale",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0652",
+      "anchor": "SBP-113-Q003",
+      "text": "Recapture and actual business actions bridge capacity to outcomes without overstating hard-dollar value.",
+      "source_ids": [
+        "S13"
+      ],
+      "locator": "Appendix G: Time saved doesn't hit the P&L; recapture framework",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0653",
+      "anchor": "SBP-113-Q004",
+      "text": "Benchmarks are hypotheses; better evidence and transparent assumptions strengthen or invalidate the case.",
+      "source_ids": [
+        "S13",
+        "S19"
+      ],
+      "locator": "Evidence Model; Appendix G benchmark objection",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0654",
+      "anchor": "SBP-113-Q005",
+      "text": "A usable Blueprint yields decisions, evidence and accountability, not just ideas.",
+      "source_ids": [
+        "S05",
+        "S23",
+        "S20"
+      ],
+      "locator": "Discovery don'ts; connector-first anti-patterns",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0655",
+      "anchor": "SBP-113-Q006",
+      "text": "Repeated access failures may indicate weak priority or sponsorship and call for requalification.",
+      "source_ids": [
+        "S12",
+        "S13",
+        "S05"
+      ],
+      "locator": "Remedial actions; qualification and workshop follow-through",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0656",
+      "anchor": "SBP-113-Q007",
+      "text": "Honest phasing preserves value and feasibility without unsupported promises.",
+      "source_ids": [
+        "S12",
+        "S13",
+        "S05"
+      ],
+      "locator": "Remedial actions; qualification and workshop follow-through",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0657",
+      "anchor": "SBP-113-Q008",
+      "text": "Decision quality and resource discipline matter even when the right answer is not to proceed.",
+      "source_ids": [
+        "S12",
+        "S13",
+        "S05"
+      ],
+      "locator": "Remedial actions; qualification and workshop follow-through",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    }
+  ]
+}

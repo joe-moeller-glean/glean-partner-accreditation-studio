@@ -1,0 +1,32 @@
+module_id: SBP-101
+title: "Blueprint Fundamentals"
+design_system: paged-v1
+learning_path: "AI Blueprinting & Value Mapping"
+request_type: batch
+audience: ["Partner sellers", "Partner solution consultants and SEs", "Practice leads", "Glean field collaborators"]
+level: "Practitioner (proposed)"
+learning_outcomes:
+  - "Define the Blueprint Consultation and its purpose."
+  - "Name the three steps and the default validation path."
+  - "Explain why Blueprint replaces open-ended AI experimentation."
+  - "Distinguish the Sales Blueprint from post-sales SA blueprints."
+lesson_objectives:
+  SBP-101-L01: "Given the supplied customer-neutral scenario and sources, write a two-sentence customer explanation without product jargon. Successful output matches the worked response and states remaining uncertainty."
+  SBP-101-L02: "Given the supplied customer-neutral scenario and sources, sequence preparation, executive decision, DITL, validation and Visioning. Successful output matches the worked response and states remaining uncertainty."
+  SBP-101-L03: "Given the supplied customer-neutral scenario and sources, translate 'we need an AI assistant' into outcome, use case, workflow and metric. Successful output matches the worked response and states remaining uncertainty."
+  SBP-101-L04: "Given the supplied customer-neutral scenario and sources, name one benefit for each party and one accountability boundary. Successful output matches the worked response and states remaining uncertainty."
+  SBP-101-L05: "Given the supplied customer-neutral scenario and sources, classify 'prioritized use case list', 'implementation reference architecture' and 'executive value readout'. Successful output matches the worked response and states remaining uncertainty."
+  SBP-101-L06: "Given the supplied customer-neutral scenario and sources, audit a draft containing only a demo deck and a projected savings headline. Successful output matches the worked response and states remaining uncertainty."
+prerequisites: "Glean Foundations (FND-101/102/103); Sales Accreditation (SAL-103)"
+roadmap_alignment: "FND-106; SOL-201"  # semantic alignment only (O12)
+target_hours: 0.75
+mastery_score: 80
+accreditation: accred-ai-blueprinting
+authoring_contract: "https://docs.google.com/spreadsheets/d/1FNFUQAzKl1BgMlyMgR8zygEvmLtnf7V5s-bhaL-3-48"
+authoring_snapshot: plan/sales-blueprinting/workbook/
+review_status: "In review"
+partner_clearance: "Pending partner clearance"
+sme_signoff: "Not signed"
+sme: unassigned - needs_sme (Blueprint SME, BVC / value engineering)
+publish_mode: manual_review
+release_state: restricted_preview

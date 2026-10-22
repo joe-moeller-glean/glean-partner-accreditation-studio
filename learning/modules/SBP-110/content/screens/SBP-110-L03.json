@@ -1,0 +1,133 @@
+{
+  "id": "SBP-110-L03",
+  "lesson": "SBP-110-L03",
+  "type": "lesson",
+  "seq": 3,
+  "title": "Sandbox framing and dry run",
+  "nav": "3. Sandbox framing and dry run",
+  "objective": "Plan a safe sandbox workshop for one workflow.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "A sandbox workshop works when everyone knows what it is for and what it can't show. Preparation and a dry run make the difference."
+    },
+    {
+      "t": "h3",
+      "x": "Frame it with the champion first"
+    },
+    {
+      "t": "p",
+      "x": "Glean's sandbox guidance starts with alignment. Validate the pain, the rough order of magnitude, and the sandbox's purpose as technical validation with the economic buyer. Then, one-on-one with the champion, revalidate the use cases and value, the buying criteria and process, and the required capabilities. Set the expectation that the sandbox won't show personalization or the knowledge graph."
+    },
+    {
+      "t": "h3",
+      "x": "Not a prospecting tool"
+    },
+    {
+      "t": "p",
+      "x": "Glean's sandbox guide warns that the public sandbox is not a prospecting or lead-generation tool. Be deliberate about how, why, and when you introduce it to a prospect."
+    },
+    {
+      "t": "h3",
+      "x": "Upload, test, and dry run"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Prepare permitted content and test the queries you plan to use.",
+        "Understand who will be in the room and what they may try.",
+        "Guide participants on good practice for their line of business.",
+        "Ensure executive participation, and keep the group manageable."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Run the workshop with the champion"
+    },
+    {
+      "t": "p",
+      "x": "Start with the pain and the value, highlight the differentiators that matter, give a custom demo, then hand over to hands-on use. Tell participants which tasks to try: ones you and the champion know represent the workflow. Collect findings and close with a decision. Don't leave it as open-ended exploration."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "Follow the current approved access and data-handling rules. Never upload sensitive information. Don't promise production personalization, access behavior, or integration fidelity that a sandbox can't demonstrate."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "A sandbox works best as a guided workshop the champion helps frame, not open-ended access."
+    },
+    {
+      "t": "figure",
+      "kind": "flow",
+      "title": "Running a sandbox workshop",
+      "alt": "A four-step sandbox workshop sequence: frame the purpose with the champion, upload and test approved content, run a dry run, then run the workshop with the champion and capture results.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Frame with the champion",
+          "detail": "Purpose, users, and questions to answer",
+          "emph": false
+        },
+        {
+          "label": "Upload and test",
+          "detail": "Approved content only",
+          "emph": false
+        },
+        {
+          "label": "Dry run",
+          "detail": "Check the scenarios end to end",
+          "emph": false
+        },
+        {
+          "label": "Run the workshop",
+          "detail": "Guided, with results captured",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "Plan a safe sandbox workshop for the approved-answer support workflow."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ol",
+      "items": [
+        "Confirm the approved environment, the permitted content (non-sensitive sample articles), and the participants (a few agents, a team lead, and the sponsor or their delegate).",
+        "Document the limits, such as no production permissions and no personalization.",
+        "Dry-run five representative case questions against the uploaded content.",
+        "Pair each task with a success question.",
+        "Facilitate with the champion, collect findings, and close with \"Does this answer your question? What is the next decision?\""
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 379,
+  "eyebrow": "Lesson 3 · about 6 min",
+  "claims": [
+    "C-0478",
+    "C-0479",
+    "C-0480",
+    "C-0481",
+    "C-0482",
+    "C-0483",
+    "C-0484",
+    "C-0485"
+  ],
+  "sources": [
+    "S16",
+    "S41"
+  ]
+}

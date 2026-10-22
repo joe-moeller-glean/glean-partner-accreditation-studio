@@ -1,0 +1,37 @@
+{
+  "module_id": "SBP-112",
+  "feedback": {
+    "SBP-112-Q001": {
+      "correct": "Correct. Training should be usable without unauthorized tool access; access must be checked and alternatives supplied.",
+      "incorrect": "Review the relevant lesson and evidence. Training should be usable without unauthorized tool access; access must be checked and alternatives supplied."
+    },
+    "SBP-112-Q002": {
+      "correct": "Correct. Structured provenance and explicit unknowns improve reviewability and reduce fabricated claims.",
+      "incorrect": "Review the relevant lesson and evidence. Structured provenance and explicit unknowns improve reviewability and reduce fabricated claims."
+    },
+    "SBP-112-Q003": {
+      "correct": "Correct. Peer stories are not prospect facts, and external names/claims also need clearance.",
+      "incorrect": "Review the relevant lesson and evidence. Peer stories are not prospect facts, and external names/claims also need clearance."
+    },
+    "SBP-112-Q004": {
+      "correct": "Correct. A generated draft is a starting hypothesis, not a measured or technically approved workflow.",
+      "incorrect": "Review the relevant lesson and evidence. A generated draft is a starting hypothesis, not a measured or technically approved workflow."
+    },
+    "SBP-112-Q005": {
+      "correct": "Correct. AI assistance does not grant authority to approve, send or change external systems.",
+      "incorrect": "Review the relevant lesson and evidence. AI assistance does not grant authority to approve, send or change external systems."
+    },
+    "SBP-112-Q006": {
+      "correct": "Correct. A safe workflow emits an exception report rather than shipping unsupported or unauthorized material.",
+      "incorrect": "Review the relevant lesson and evidence. A safe workflow emits an exception report rather than shipping unsupported or unauthorized material."
+    },
+    "SBP-112-Q007": {
+      "correct": "Correct. Citation presence is not citation validity; the support must match the claim and be current enough.",
+      "incorrect": "Review the relevant lesson and evidence. Citation presence is not citation validity; the support must match the claim and be current enough."
+    },
+    "SBP-112-Q008": {
+      "correct": "Correct. Retrieved content supplies evidence, not new authority or permission for consequential actions.",
+      "incorrect": "Review the relevant lesson and evidence. Retrieved content supplies evidence, not new authority or permission for consequential actions."
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "SBP-109-L05",
+  "lesson": "SBP-109-L05",
+  "type": "lesson",
+  "seq": 5,
+  "title": "Secure the executive decision and validation path",
+  "nav": "5. Secure the executive decision and validation path",
+  "objective": "Write the decision log when a sponsor accepts value but wants a permission-sensitive workflow tested.",
+  "required": true,
+  "review_status": "In review",
+  "clearance": "Rewritten draft; pending SME and partner clearance",
+  "blocks": [
+    {
+      "t": "p",
+      "x": "The readout should end with a decision: sponsorship, success criteria, scope, and the lightest validation that resolves what is still uncertain."
+    },
+    {
+      "t": "h3",
+      "x": "What to confirm"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "**Sponsorship:** the executive will back the effort.",
+        "**Success criteria:** each with a metric or quality threshold, an owner, an evidence source, and a timeframe.",
+        "**Scope:** which workflows, teams, and data.",
+        "**The next decision:** who decides, and when."
+      ]
+    },
+    {
+      "t": "h3",
+      "x": "Choose the lightest sufficient validation"
+    },
+    {
+      "t": "p",
+      "x": "Glean's Executive Validation checklist sets the default validation path as a Glean Lab, with a pilot or proof of concept only if necessary, to avoid unnecessary pilots and move faster. Ask: \"What do you need to see to make a buy or no-buy decision?\" Then choose the lightest event that answers that question. Often that is a tailored demo or a Glean Lab."
+    },
+    {
+      "t": "h3",
+      "x": "Record conditional acceptance"
+    },
+    {
+      "t": "p",
+      "x": "Executives often accept part of a case. Record what was accepted, what is still open, and the blockers, each with an owner and a date."
+    },
+    {
+      "t": "callout",
+      "label": "Boundary",
+      "x": "A successful readout is not approval, and neither is a readiness score on a pilot checklist. Pilots go through Glean's internal review, and commercial and security steps stay separate."
+    },
+    {
+      "t": "h3",
+      "x": "At a glance"
+    },
+    {
+      "t": "p",
+      "x": "Leave the readout with four things confirmed, or with a recorded condition and an owner for each gap."
+    },
+    {
+      "t": "figure",
+      "kind": "cards",
+      "title": "What to confirm before leaving the readout",
+      "alt": "Four cards naming what to confirm at the end of Executive Validation: sponsorship, success criteria, scope, and the next decision.",
+      "caption": "",
+      "items": [
+        {
+          "label": "Sponsorship",
+          "detail": "Who backs it, and how they'll stay involved",
+          "emph": false
+        },
+        {
+          "label": "Success criteria",
+          "detail": "Measurable, with owners",
+          "emph": false
+        },
+        {
+          "label": "Scope",
+          "detail": "The workflows and teams in the validation",
+          "emph": false
+        },
+        {
+          "label": "The next decision",
+          "detail": "What happens if criteria are met",
+          "emph": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "t": "p",
+      "x": "The sponsor accepts the business priority and the directional value, but wants a permission-sensitive workflow tested first. Write the decision log entry."
+    }
+  ],
+  "worked": [
+    {
+      "t": "ul",
+      "items": [
+        "**Accepted:** the business priority, and the directional value range as a hypothesis.",
+        "**Open:** whether restricted records behave correctly in the future-state workflow.",
+        "**Next:** an SE-scoped validation with authorized test data and the customer's technical owner. Success criteria: restricted content is never returned to unauthorized test users, and the approved answer is found for the agreed scenarios. Decision date: [date].",
+        "**Pilot:** only if the lighter validation can't resolve the question, and subject to internal approval."
+      ]
+    }
+  ],
+  "minutes": 6,
+  "expanded": true,
+  "words": 335,
+  "eyebrow": "Lesson 5 · about 6 min",
+  "claims": [
+    "C-0440",
+    "C-0441",
+    "C-0442",
+    "C-0443",
+    "C-0444",
+    "C-0445",
+    "C-0446"
+  ],
+  "sources": [
+    "S04",
+    "S14",
+    "S15"
+  ]
+}
