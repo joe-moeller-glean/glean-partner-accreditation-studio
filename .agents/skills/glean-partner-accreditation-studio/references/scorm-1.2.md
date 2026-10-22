@@ -1,0 +1,12 @@
+# SCORM 1.2 contract
+- Put `imsmanifest.xml` at ZIP root.
+- Declare one organization and exactly one web-content resource with `adlcp:scormtype="sco"`; resolve every `identifierref` and relative file path.
+- Find `window.API` through parents/opener; call `LMSInitialize("")` once and `LMSFinish("")` once. No-LMS preview must remain usable and must not throw.
+- Track `cmi.core.lesson_status`, `cmi.core.lesson_location`, `cmi.core.score.raw/min/max`, and `cmi.suspend_data`; commit after material progress and before finish.
+- `cmi.suspend_data` is limited to 4096 characters in SCORM 1.2. Use a versioned compact schema, guard serialization, and recover from malformed or truncated data without blocking launch.
+- For `scroll-canvas-v1`, `lesson_location` is the current `BAND-nn`; suspend data restores visited bands, interaction state, quiz state, and the saved band. Progress is not raw pixel scroll.
+- Use `incomplete` while working. Set `passed` only when every required band/screen is visited and mastery is met. Set `failed` after a completed attempt below mastery, while allowing a retry according to the module contract.
+- The ZIP contains runtime files only. Exclude `module.yaml`, research, sources, design, QA, asset manifests, and `assessment/key.json`; validate that no authoring leak is present.
+- Test launch with/without LMS, bookmark/resume, pass/fail/retry, persistence, exit/re-entry, keyboard-only use, reduced motion, narrow viewports, and offline loading.
+- For visual modules, serve the extracted runtime from localhost and inspect it in a real browser. Record page structure, broken assets, overflow, and interaction evidence.
+- Run the bundled builder twice and validator. Require byte-identical outputs. Warnings block release unless explicitly waived; answer-key leaks, external runtime dependencies, unresolved paths, and blocker/major accessibility findings are never waivable.
