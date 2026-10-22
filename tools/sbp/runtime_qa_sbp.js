@@ -182,24 +182,17 @@ function testModule(dir) {
     const prac = lessonIndexes[0];
     const q = M.knowledge_checks.find((item) => item.id === M.screens[prac].knowledge_check);
     const right = q.options.find((o) => o.correct).id;
+    const wrong = q.options.find((o) => !o.correct).id;
+    $(sec(c, prac), `.knowledge-check input[value="${wrong}"]`).click();
+    $$(sec(c, prac), '.knowledge-check button').find((b) => /^Check this answer$/.test(b.textContent)).click();
+    ok('incorrect lesson MCQ gives retry feedback', /Not correct\. Try again\./.test($(sec(c, prac), '.knowledge-check .feedback').textContent));
+    ok('incorrect lesson MCQ remains selectable', $$(sec(c, prac), '.knowledge-check input[type=radio]').every((r) => !r.disabled));
     $(sec(c, prac), `.knowledge-check input[value="${right}"]`).click();
     $$(sec(c, prac), '.knowledge-check button').find((b) => /^Check this answer$/.test(b.textContent)).click();
-    ok('lesson MCQ gives immediate answer feedback', /Correct\./.test($(sec(c, prac), '.knowledge-check .feedback').textContent));
+    ok('lesson MCQ accepts a corrected answer', /Correct\./.test($(sec(c, prac), '.knowledge-check .feedback').textContent));
+    ok('correct lesson MCQ locks after success', $$(sec(c, prac), '.knowledge-check input[type=radio]').every((r) => r.disabled));
     ok('lesson MCQ does not write score or LMS interaction', !('cmi.core.score.raw' in api0.store) &&
        !Object.keys(api0.store).some((key) => /^cmi\.interactions\./.test(key)));
-  }
-
-  if (M.kind === 'capstone') {
-    c.w.SBP_TEST.seeAll();
-    ok('capstone completes once every section is read', api0.store['cmi.core.lesson_status'] === 'completed');
-    c.w.SBP_TEST.finish();
-    ok('capstone completes, never passes', api0.store['cmi.core.lesson_status'] === 'completed');
-    ok('capstone writes no score', !('cmi.core.score.raw' in api0.store));
-    ok('capstone formative has all 8 items', $$(c.d, '#screen section[data-type=formative] fieldset.item').length === 8);
-    ok('LMSFinish once', api0.calls.filter((x) => x[0] === 'finish').length === 1);
-    c.w.dispatchEvent(new c.w.Event('pagehide'));
-    ok('no second LMSFinish on pagehide', api0.calls.filter((x) => x[0] === 'finish').length === 1);
-    return R;
   }
 
   // 3. Draw, shuffle, threshold: pass case.

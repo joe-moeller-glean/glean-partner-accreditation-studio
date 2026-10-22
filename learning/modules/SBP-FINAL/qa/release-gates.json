@@ -5,11 +5,9 @@
     "Settings review status is 'In review'",
     "Partner clearance: Pending partner clearance",
     "SME sign-off: Not signed",
-    "103 items not 'Looks good' (first: SBP-101-Q001)",
-    "104 of 104 claims not independently verified",
-    "103 claims rest on internal-only sources (B16, O11)",
-    "Cites do-not-ship source S24/S61: SBP-110-Q002",
-    "Held item SBP-110-Q007 (O06)"
+    "15 items not 'Looks good' (first: SBP-FINAL-Q001)",
+    "16 of 16 claims not independently verified",
+    "16 claims rest on internal-only sources (B16, O11)"
   ],
   "program_blockers": [
     "O01 Credential name and levels: Proposed, not approved",
@@ -25,9 +23,7 @@
     "O11 Partner clearance and redistribution: Release blocker",
     "O12 Roadmap equivalency and prerequisites: Mapping unconfirmed",
     "O13 Internal agents and partner access: Access-dependent",
-    "O14 Impartner completion, certificate and capstone integration: Implementation validation",
     "O15 Validity and renewal: Policy mapping needed",
-    "O16 Assessment bank exposure and exam security: Design limitation",
     "B22: Impartner restricted test (launch, score, status, resume, reporting) not performed"
   ]
 }

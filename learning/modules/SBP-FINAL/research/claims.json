@@ -2,1537 +2,227 @@
   "module_id": "SBP-FINAL",
   "claims": [
     {
-      "claim_id": "C-0044",
-      "anchor": "SBP-101-Q001",
-      "text": "Blueprint is a structured value-led decision process, not a deployment entitlement, qualification replacement or guarantee.",
+      "claim_id": "C-0658",
+      "anchor": "SBP-FINAL-Q001",
+      "text": "Blueprint begins with an outcome and decision, not an automatic pilot.",
       "source_ids": [
         "S02",
-        "S04",
-        "S06"
-      ],
-      "locator": "Blueprint Consultation – What & Why; Why the Blueprint Consultation",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0045",
-      "anchor": "SBP-101-Q002",
-      "text": "The three named steps are Visioning, DITL and Executive Validation, preceded by preparation and followed by an agreed validation path.",
-      "source_ids": [
-        "S02",
-        "S04",
-        "S26"
-      ],
-      "locator": "Process overview; AI Transformation Made Simple",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0046",
-      "anchor": "SBP-101-Q003",
-      "text": "An outcome describes business change; meetings, ideas and connectors are activities or enablers unless linked to that change.",
-      "source_ids": [
-        "S05",
-        "S06",
-        "S13"
-      ],
-      "locator": "Business outcomes → use cases → workflows → data → success metrics",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0047",
-      "anchor": "SBP-101-Q004",
-      "text": "Partner expertise improves relevance, but does not override feasibility, approval or contracting boundaries.",
-      "source_ids": [
-        "S05",
-        "S06",
-        "S26"
-      ],
-      "locator": "Partner engagement phases; RACI Snapshot",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": true
-    },
-    {
-      "claim_id": "C-0048",
-      "anchor": "SBP-101-Q005",
-      "text": "The sales process may link to architecture patterns but must establish customer-specific purpose, evidence and decisions.",
-      "source_ids": [
-        "S02",
-        "S51",
-        "S54"
-      ],
-      "locator": "What & Why; Customer Blueprint Framework introduction",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0049",
-      "anchor": "SBP-101-Q006",
-      "text": "Decision readiness requires traceable customer evidence and commitments, not presentation quality alone.",
-      "source_ids": [
-        "S02",
-        "S13",
-        "S54",
-        "S55"
-      ],
-      "locator": "Blueprint outputs; discovery handoff artifacts; program design synthesis",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0050",
-      "anchor": "SBP-101-Q007",
-      "text": "Blueprint determines the evaluation need; it does not grant approval or require a full pilot.",
-      "source_ids": [
-        "S02",
-        "S13",
-        "S54",
-        "S55"
-      ],
-      "locator": "Blueprint outputs; discovery handoff artifacts; program design synthesis",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0051",
-      "anchor": "SBP-101-Q008",
-      "text": "The name and course governance are design proposals, not evidence of approval or publication.",
-      "source_ids": [
-        "S54",
-        "S59"
-      ],
-      "locator": "Blueprint outputs; discovery handoff artifacts; program design synthesis",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0092",
-      "anchor": "SBP-102-Q001",
-      "text": "Stage 2 builds use case and workflow evidence; Executive Validation is associated with Stage 3.",
-      "source_ids": [
-        "S11",
-        "S12",
-        "S21"
-      ],
-      "locator": "Stage 2 Blueprint / Use Case Mapping; NBM entry context",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0093",
-      "anchor": "SBP-102-Q002",
-      "text": "Stage progression reflects evidence, not attendance, and gaps need targeted corrective work.",
-      "source_ids": [
-        "S04",
-        "S11",
-        "S12"
-      ],
-      "locator": "Stage exit criteria; Stage 2 seller journey",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0094",
-      "anchor": "SBP-102-Q003",
-      "text": "Executive Validation is about value, sponsorship and the path forward; other approvals remain distinct.",
-      "source_ids": [
-        "S14",
-        "S12",
-        "S02"
-      ],
-      "locator": "Executive Validation goals; Stage 3 exit criteria",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0095",
-      "anchor": "SBP-102-Q004",
-      "text": "A metric card creates explicit measurable evidence; a field or invite alone does not.",
-      "source_ids": [
-        "S17",
-        "S12",
-        "S46"
-      ],
-      "locator": "MEDDPICCS component definitions; opportunity workbook",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0096",
-      "anchor": "SBP-102-Q005",
-      "text": "Close the specific evidence gap and label assumptions; do not fabricate customer measurements.",
-      "source_ids": [
-        "S12",
-        "S14",
-        "S13"
-      ],
-      "locator": "Prescribed remedial actions; measurement discovery",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0097",
-      "anchor": "SBP-102-Q006",
-      "text": "Business alignment does not complete technical, security, procurement or authority checks.",
-      "source_ids": [
-        "S11",
-        "S14",
-        "S16"
-      ],
-      "locator": "Stage 4 Technical & Security Alignment; next steps",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0098",
-      "anchor": "SBP-102-Q007",
-      "text": "Stage labels and workflows are time-sensitive internal details; the durable learning is evidence and decision quality.",
-      "source_ids": [
-        "S11",
-        "S14",
-        "S16"
-      ],
-      "locator": "Stage 4 Technical & Security Alignment; next steps",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0099",
-      "anchor": "SBP-102-Q008",
-      "text": "Sponsorship and account qualification need human account ownership, not automated assumptions.",
-      "source_ids": [
-        "S11",
-        "S14",
-        "S16"
-      ],
-      "locator": "Stage 4 Technical & Security Alignment; next steps",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0142",
-      "anchor": "SBP-103-Q001",
-      "text": "The referenced process is generally SE-led for DITL while roles collaborate and may adapt with preparation.",
-      "source_ids": [
-        "S02",
-        "S03",
-        "S05"
-      ],
-      "locator": "Who Owns Which Step; partner RACI",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0143",
-      "anchor": "SBP-103-Q002",
-      "text": "A co-led progression uses domain strength while managing product and process knowledge gaps.",
-      "source_ids": [
-        "S05",
-        "S06",
-        "S21"
-      ],
-      "locator": "Partner engagement and acceleration; instructional progression",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0144",
-      "anchor": "SBP-103-Q003",
-      "text": "Impact, real work and feasibility require complementary customer evidence and accountability.",
-      "source_ids": [
-        "S05",
-        "S07",
-        "S14"
-      ],
-      "locator": "Potential stakeholders; prerequisites; executive attendees",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0145",
-      "anchor": "SBP-103-Q004",
-      "text": "Engagement depth depends on need and capacity; internal routing and commitments require confirmation.",
-      "source_ids": [
-        "S13",
-        "S28"
-      ],
-      "locator": "Engagement triage; BVC intake and engagement",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0146",
-      "anchor": "SBP-103-Q005",
-      "text": "Product support accountability is distinct from the partner's advisory or scoped build services.",
-      "source_ids": [
-        "S05",
-        "S43",
-        "S44"
-      ],
-      "locator": "RACI Snapshot; partner services catalog; SOW scope",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0147",
-      "anchor": "SBP-103-Q006",
-      "text": "Product feasibility, write controls and scope need verification; a draft or enthusiasm is not evidence.",
-      "source_ids": [
-        "S05",
-        "S16",
-        "S44"
-      ],
-      "locator": "Technical gotchas; discovery-to-delivery synthesis",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0148",
-      "anchor": "SBP-103-Q007",
-      "text": "Clear responsibility prevents ambiguous commitments and lost actions.",
-      "source_ids": [
-        "S05",
-        "S16",
-        "S44"
-      ],
-      "locator": "Technical gotchas; discovery-to-delivery synthesis",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0149",
-      "anchor": "SBP-103-Q008",
-      "text": "Services need explicit outcomes, dependencies, exclusions and contractual review.",
-      "source_ids": [
-        "S05",
-        "S16",
-        "S44"
-      ],
-      "locator": "Technical gotchas; discovery-to-delivery synthesis",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0194",
-      "anchor": "SBP-104-Q001",
-      "text": "Source transparency and customer confirmation are better than confident synthesis of conflicting facts.",
-      "source_ids": [
-        "S05",
-        "S25",
-        "S36",
-        "S37"
-      ],
-      "locator": "Facilitator preparation; value-hypothesis workflow",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0195",
-      "anchor": "SBP-104-Q002",
-      "text": "The hypothesis links problem, urgency and relevant differentiation to customer context.",
-      "source_ids": [
-        "S04",
-        "S06",
-        "S36"
-      ],
-      "locator": "Prerequisites; value hypothesis",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0196",
-      "anchor": "SBP-104-Q003",
-      "text": "A useful metric specifies what, how and why; vague or borrowed claims do not establish a baseline.",
-      "source_ids": [
-        "S06",
-        "S34",
-        "S13"
-      ],
-      "locator": "Metrics What/How/Why; discovery output fields",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0197",
-      "anchor": "SBP-104-Q004",
-      "text": "Missing readiness basics need resolution; an alignment conversation may be useful but is not a completed full workshop.",
-      "source_ids": [
-        "S04",
-        "S07",
-        "S02",
-        "S18"
-      ],
-      "locator": "Prerequisites; Visioning sponsor caveat",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0198",
-      "anchor": "SBP-104-Q005",
-      "text": "The two-day lead is in the specific template, not a universal legal rule.",
-      "source_ids": [
-        "S08",
-        "S09",
-        "S07"
-      ],
-      "locator": "Pre-work email; worksheet fields",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0199",
-      "anchor": "SBP-104-Q006",
-      "text": "Rehearsal improves coordinated evidence gathering and honest handling of unknowns.",
-      "source_ids": [
-        "S07",
-        "S05",
-        "S02",
-        "S26"
-      ],
-      "locator": "Preparation checklist; duration variants",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0200",
-      "anchor": "SBP-104-Q007",
-      "text": "Peer evidence does not establish customer-specific facts or causation.",
-      "source_ids": [
-        "S37",
-        "S13"
-      ],
-      "locator": "Preparation checklist; duration variants",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0201",
-      "anchor": "SBP-104-Q008",
-      "text": "Baseline quality requires customer data ownership and an agreed collection method.",
-      "source_ids": [
-        "S13",
-        "S34"
-      ],
-      "locator": "Preparation checklist; duration variants",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0248",
-      "anchor": "SBP-105-Q001",
-      "text": "Existing ideas accelerate capture, but still need outcome, impact, effort and scope validation.",
-      "source_ids": [
-        "S02",
-        "S03",
-        "S33"
-      ],
-      "locator": "Which Visioning Deck to Choose; departmental outcomes",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0249",
-      "anchor": "SBP-105-Q002",
-      "text": "The session must still yield decisions; reduce scope or add a session rather than silently dropping commitments.",
-      "source_ids": [
-        "S07",
-        "S02",
-        "S26"
-      ],
-      "locator": "Suggested agenda; duration variants",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0250",
-      "anchor": "SBP-105-Q003",
-      "text": "Open outcome-led questions elicit evidence without presupposing the answer.",
-      "source_ids": [
-        "S05",
-        "S07",
-        "S29"
-      ],
-      "locator": "High-leverage questions; consultative tone",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0251",
-      "anchor": "SBP-105-Q004",
-      "text": "A concrete actor, trigger and job make workflow investigation possible.",
-      "source_ids": [
-        "S02",
-        "S05",
-        "S26"
-      ],
-      "locator": "Identified use case table; use case log",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0252",
-      "anchor": "SBP-105-Q005",
-      "text": "Prioritization is a joint capacity-aware decision with rationale and an explicit backlog.",
-      "source_ids": [
-        "S02",
-        "S05",
         "S04"
       ],
-      "locator": "Hero use cases; Running the Matrix Virtually",
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
       "verdict": "attributed",
       "verified_on": "2026-10-20",
       "checked_by": "Workbook author attribution; not independently re-verified by the studio",
       "learner_facing": false
     },
     {
-      "claim_id": "C-0253",
-      "anchor": "SBP-105-Q006",
-      "text": "Prompt concrete follow-up preserves context and enables correction without exposing restricted notes.",
+      "claim_id": "C-0659",
+      "anchor": "SBP-FINAL-Q002",
+      "text": "Stage progress depends on decision evidence rather than meeting completion.",
       "source_ids": [
-        "S05",
-        "S07",
-        "S08"
-      ],
-      "locator": "Follow-up email template; Post-Session",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0254",
-      "anchor": "SBP-105-Q007",
-      "text": "Source conflicts should be transparent; duration choices must preserve outcomes and appropriate scope.",
-      "source_ids": [
-        "S02",
-        "S07",
-        "S26"
-      ],
-      "locator": "Follow-up email template; Post-Session",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0255",
-      "anchor": "SBP-105-Q008",
-      "text": "Recaps are working records; customer corrections should improve the evidence and be traceable.",
-      "source_ids": [
-        "S05",
-        "S07",
-        "S08"
-      ],
-      "locator": "Follow-up email template; Post-Session",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0300",
-      "anchor": "SBP-106-Q001",
-      "text": "The chain starts with customer purpose and exposes workflow and evidence dependencies.",
-      "source_ids": [
-        "S05",
-        "S13"
-      ],
-      "locator": "Discovery framework; workflow decomposition",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0301",
-      "anchor": "SBP-106-Q002",
-      "text": "A recent specific example yields testable detail without leading the witness.",
-      "source_ids": [
-        "S05",
-        "S07",
-        "S13"
-      ],
-      "locator": "Five discovery themes; high-leverage questions",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0302",
-      "anchor": "SBP-106-Q003",
-      "text": "Impact needs reach and consequence; implementation complexity belongs in effort.",
-      "source_ids": [
-        "S02",
-        "S05",
-        "S13",
-        "S21"
-      ],
-      "locator": "Impact rationale; discovery volume and value",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0303",
-      "anchor": "SBP-106-Q004",
-      "text": "Simple wording does not imply simple delivery; feasibility and control requirements matter.",
-      "source_ids": [
-        "S05",
-        "S23"
-      ],
-      "locator": "Technical Gotchas to Surface in Discovery",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0304",
-      "anchor": "SBP-106-Q005",
-      "text": "The matrix separates business impact from implementation effort; strategic bets can be phased.",
-      "source_ids": [
-        "S05",
-        "S02"
-      ],
-      "locator": "Prioritization Framework; Running the Matrix Virtually",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0305",
-      "anchor": "SBP-106-Q006",
-      "text": "A prioritized idea needs accountable discovery and measurement steps to become actionable.",
-      "source_ids": [
-        "S05",
-        "S13",
-        "S26"
-      ],
-      "locator": "From Matrix to Next Steps; eight-dimension framework",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0306",
-      "anchor": "SBP-106-Q007",
-      "text": "Impact can include risk; defensible rationale matters more than a single volume proxy.",
-      "source_ids": [
-        "S05",
-        "S13"
-      ],
-      "locator": "From Matrix to Next Steps; eight-dimension framework",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0307",
-      "anchor": "SBP-106-Q008",
-      "text": "The richer framework is useful but its dimensions require interpretation; do not automate ambiguous scoring.",
-      "source_ids": [
-        "S13"
-      ],
-      "locator": "From Matrix to Next Steps; eight-dimension framework",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0352",
-      "anchor": "SBP-107-Q001",
-      "text": "Direct workflow evidence needs practitioners, supplemented by business and technical owners.",
-      "source_ids": [
-        "S02",
-        "S22",
-        "S09"
-      ],
-      "locator": "DITL purpose; prerequisites; pre-work worksheet",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0353",
-      "anchor": "SBP-107-Q002",
-      "text": "Labor and cycle time are different and support different value mechanisms.",
-      "source_ids": [
-        "S02",
-        "S22",
-        "S35"
-      ],
-      "locator": "Current-state mapping; workflow step examples",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0354",
-      "anchor": "SBP-107-Q003",
-      "text": "Distinguish the measure and mechanism rather than inflating savings through incompatible units.",
-      "source_ids": [
-        "S13",
-        "S22",
-        "S02"
-      ],
-      "locator": "Workflow decomposition; time and frequency discovery",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0355",
-      "anchor": "SBP-107-Q004",
-      "text": "A credible future state preserves required controls and labels unvalidated assumptions.",
-      "source_ids": [
-        "S02",
-        "S22",
-        "S05"
-      ],
-      "locator": "Post-Glean workflow; actions/permissions gotchas",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0356",
-      "anchor": "SBP-107-Q005",
-      "text": "Playback is conditional and decision-oriented, not a mandatory endless demo cycle.",
-      "source_ids": [
-        "S02",
         "S04",
-        "S18",
-        "S22"
-      ],
-      "locator": "Optional DITL playback; future-state takeaway",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0357",
-      "anchor": "SBP-107-Q006",
-      "text": "Executives need the business meaning, with detailed evidence available behind the summary.",
-      "source_ids": [
-        "S02",
-        "S13",
-        "S22",
         "S14"
       ],
-      "locator": "DITL outputs; discovery artifacts; executive pre-work",
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
       "verdict": "attributed",
       "verified_on": "2026-10-20",
       "checked_by": "Workbook author attribution; not independently re-verified by the studio",
       "learner_facing": false
     },
     {
-      "claim_id": "C-0358",
-      "anchor": "SBP-107-Q007",
-      "text": "Divergence may reflect real differences or weak evidence; preserve uncertainty and validate it.",
+      "claim_id": "C-0660",
+      "anchor": "SBP-FINAL-Q003",
+      "text": "Partner engagement should match demonstrated capability and define ownership.",
       "source_ids": [
-        "S13",
-        "S22"
+        "S05",
+        "S06",
+        "S21"
       ],
-      "locator": "DITL outputs; discovery artifacts; executive pre-work",
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
       "verdict": "attributed",
       "verified_on": "2026-10-20",
       "checked_by": "Workbook author attribution; not independently re-verified by the studio",
       "learner_facing": false
     },
     {
-      "claim_id": "C-0359",
-      "anchor": "SBP-107-Q008",
-      "text": "Generated plausibility is not observation or a customer baseline.",
+      "claim_id": "C-0661",
+      "anchor": "SBP-FINAL-Q004",
+      "text": "Preparation makes conflicts and missing prerequisites explicit before the workshop.",
       "source_ids": [
-        "S38",
-        "S22"
+        "S03",
+        "S25",
+        "S32"
       ],
-      "locator": "DITL outputs; discovery artifacts; executive pre-work",
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
       "verdict": "attributed",
       "verified_on": "2026-10-20",
       "checked_by": "Workbook author attribution; not independently re-verified by the studio",
       "learner_facing": false
     },
     {
-      "claim_id": "C-0404",
-      "anchor": "SBP-108-Q001",
-      "text": "The architecture links problem and evidence to quantified value and realization/measurement.",
+      "claim_id": "C-0662",
+      "anchor": "SBP-FINAL-Q005",
+      "text": "Visioning closes with customer-backed prioritization and explicit next steps.",
       "source_ids": [
+        "S02",
+        "S05"
+      ],
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0663",
+      "anchor": "SBP-FINAL-Q006",
+      "text": "Prioritization considers evidence, ownership and feasibility as well as impact.",
+      "source_ids": [
+        "S05",
+        "S15",
+        "S16"
+      ],
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0664",
+      "anchor": "SBP-FINAL-Q007",
+      "text": "DITL distinguishes active effort from elapsed waiting.",
+      "source_ids": [
+        "S07",
         "S13"
       ],
-      "locator": "Section 1: Value Architecture",
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
       "verdict": "attributed",
       "verified_on": "2026-10-20",
       "checked_by": "Workbook author attribution; not independently re-verified by the studio",
       "learner_facing": false
     },
     {
-      "claim_id": "C-0405",
-      "anchor": "SBP-108-Q002",
-      "text": "Capacity value is not automatically a cash saving; cost avoidance or cancelled spend needs its own evidence.",
-      "source_ids": [
-        "S13",
-        "S19"
-      ],
-      "locator": "ROI translation paths; hard/soft/directional distinction",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0406",
-      "anchor": "SBP-108-Q003",
-      "text": "Self-report needs corroboration and cannot alone prove financial impact or attribution.",
-      "source_ids": [
-        "S13",
-        "S34"
-      ],
-      "locator": "Evidence Model; Appendix/glossary conflict",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0407",
-      "anchor": "SBP-108-Q004",
-      "text": "Recapture concerns how freed time is used; adoption and coverage are separate factors.",
-      "source_ids": [
-        "S13",
-        "S39"
-      ],
-      "locator": "Section 6 Recapture; Section 10 ROI Methodology",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0408",
-      "anchor": "SBP-108-Q005",
-      "text": "Net ROI compares net benefit with the same-period investment; units and scope must be consistent.",
+      "claim_id": "C-0665",
+      "anchor": "SBP-FINAL-Q008",
+      "text": "Salary-equivalent time is capacity value unless a cash mechanism is supported.",
       "source_ids": [
         "S13",
         "S39",
         "S40"
       ],
-      "locator": "Ranges; risk adjustment; calculator training",
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
       "verdict": "attributed",
       "verified_on": "2026-10-20",
       "checked_by": "Workbook author attribution; not independently re-verified by the studio",
       "learner_facing": false
     },
     {
-      "claim_id": "C-0409",
-      "anchor": "SBP-108-Q006",
-      "text": "An honest gap plus measurement action is preferable to a fabricated baseline.",
+      "claim_id": "C-0666",
+      "anchor": "SBP-FINAL-Q009",
+      "text": "Executive validation should surface evidence limits and secure a decision on how to resolve them.",
       "source_ids": [
         "S13",
-        "S34",
-        "S28"
-      ],
-      "locator": "Discovery outputs; measurement and 60/90-day value follow-through",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0410",
-      "anchor": "SBP-108-Q007",
-      "text": "Raw avoidable burden and measured savings are different input definitions; discounts must not overlap silently.",
-      "source_ids": [
-        "S13"
-      ],
-      "locator": "Discovery outputs; measurement and 60/90-day value follow-through",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0411",
-      "anchor": "SBP-108-Q008",
-      "text": "Honest sensitivity and downside evidence protect decision quality and identify what must be validated.",
-      "source_ids": [
-        "S13"
-      ],
-      "locator": "Discovery outputs; measurement and 60/90-day value follow-through",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0456",
-      "anchor": "SBP-109-Q001",
-      "text": "The retrieved checklist specifies 1–3 business days for the readiness work.",
-      "source_ids": [
-        "S14",
-        "S04"
-      ],
-      "locator": "Pre-Work 1–3 business days before",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0457",
-      "anchor": "SBP-109-Q002",
-      "text": "Champion support is not the same as executive alignment or investment authority.",
-      "source_ids": [
-        "S14",
-        "S02",
-        "S21"
-      ],
-      "locator": "Attendees; Who is Involved; EB alignment",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0458",
-      "anchor": "SBP-109-Q003",
-      "text": "The executive meeting should focus on customer evidence and decisions, not a long product tour.",
-      "source_ids": [
-        "S02",
         "S14"
       ],
-      "locator": "What is in an Executive Readout; In-Meeting",
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
       "verdict": "attributed",
       "verified_on": "2026-10-20",
       "checked_by": "Workbook author attribution; not independently re-verified by the studio",
       "learner_facing": false
     },
     {
-      "claim_id": "C-0459",
-      "anchor": "SBP-109-Q004",
-      "text": "A hypothesis should be defended through transparency and a measurement plan, not overstated certainty.",
-      "source_ids": [
-        "S13",
-        "S19",
-        "S02"
-      ],
-      "locator": "Value communication; evidence and objection handler",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0460",
-      "anchor": "SBP-109-Q005",
-      "text": "Validation scope should follow the decision and necessary evidence; pilots need separate justification and gates.",
-      "source_ids": [
-        "S14",
-        "S15",
-        "S04"
-      ],
-      "locator": "Confirm success criteria; decide validation path",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0461",
-      "anchor": "SBP-109-Q006",
-      "text": "The checklist requires concrete commitments and opportunity/plan updates while protecting internal data.",
-      "source_ids": [
-        "S14",
-        "S46",
-        "S45"
-      ],
-      "locator": "After-Work same day to 24 hours",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0462",
-      "anchor": "SBP-109-Q007",
-      "text": "Pre-agreed criteria make evaluation interpretable and reduce scope or success-definition drift.",
-      "source_ids": [
-        "S14",
-        "S46",
-        "S45"
-      ],
-      "locator": "After-Work same day to 24 hours",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0463",
-      "anchor": "SBP-109-Q008",
-      "text": "Decisions can be conditional; document exactly what is accepted and what must still be proven.",
-      "source_ids": [
-        "S14",
-        "S46",
-        "S45"
-      ],
-      "locator": "After-Work same day to 24 hours",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0508",
-      "anchor": "SBP-110-Q001",
-      "text": "The sources favor lighter validation but the actual choice depends on what must be proven.",
-      "source_ids": [
-        "S14",
-        "S16",
-        "S21"
-      ],
-      "locator": "Validation options; Glean Lab default; corporate demo preference",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0509",
-      "anchor": "SBP-110-Q002",
-      "text": "Environment descriptions and commercial rules change; old decks should not become evergreen policy.",
-      "source_ids": [
-        "S16",
-        "S41",
-        "S61"
-      ],
-      "locator": "Technical Validation Options; external sandbox guide; Lab definition",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0510",
-      "anchor": "SBP-110-Q003",
-      "text": "A controlled, scoped and dry-run experience is more useful and safer than open experimentation.",
-      "source_ids": [
-        "S16",
-        "S41"
-      ],
-      "locator": "How to Frame Up the Sandbox; Upload, Test and Dry Run",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0511",
-      "anchor": "SBP-110-Q004",
-      "text": "A pilot requires a qualified decision context, sponsor path, scope and evidence need.",
-      "source_ids": [
-        "S15",
-        "S16",
-        "S50"
-      ],
-      "locator": "Step 1 Confirm pilot right path; pilot prerequisites",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0512",
-      "anchor": "SBP-110-Q005",
-      "text": "The retrieved guide distinguishes score, approval and order-form requirements; no score alone authorizes a pilot.",
-      "source_ids": [
-        "S15",
-        "S47"
-      ],
-      "locator": "Pilot Approval Process [COMING SOON]; Steps 3–6; non-negotiable rules",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0513",
-      "anchor": "SBP-110-Q006",
-      "text": "Stop rules protect time, scope and risk and keep the buying decision explicit.",
+      "claim_id": "C-0667",
+      "anchor": "SBP-FINAL-Q010",
+      "text": "Validation should be the lightest sufficient path for the unresolved question.",
       "source_ids": [
         "S14",
         "S15",
         "S16"
       ],
-      "locator": "Pilot scope; success criteria; validation decision synthesis",
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
       "verdict": "attributed",
       "verified_on": "2026-10-20",
       "checked_by": "Workbook author attribution; not independently re-verified by the studio",
       "learner_facing": false
     },
     {
-      "claim_id": "C-0514",
-      "anchor": "SBP-110-Q008",
-      "text": "Unresolved feasibility should change scope or sequencing, not be concealed.",
+      "claim_id": "C-0668",
+      "anchor": "SBP-FINAL-Q011",
+      "text": "Conditional decisions and unresolved dependencies remain explicit in the MAP and handoff.",
       "source_ids": [
-        "S05",
-        "S15"
+        "S14",
+        "S45"
       ],
-      "locator": "Pilot scope; success criteria; validation decision synthesis",
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
       "verdict": "attributed",
       "verified_on": "2026-10-20",
       "checked_by": "Workbook author attribution; not independently re-verified by the studio",
       "learner_facing": false
     },
     {
-      "claim_id": "C-0557",
-      "anchor": "SBP-111-Q001",
-      "text": "Receiving teams need evidence, owners and constraints as well as the executive story.",
+      "claim_id": "C-0669",
+      "anchor": "SBP-FINAL-Q012",
+      "text": "Retrieved content cannot authorize disclosure or change the approved task.",
       "source_ids": [
-        "S05",
+        "S37",
+        "S38"
+      ],
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0670",
+      "anchor": "SBP-FINAL-Q013",
+      "text": "Facilitation records the actual decision state instead of overstating alignment.",
+      "source_ids": [
+        "S02",
+        "S14"
+      ],
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
+      "verdict": "attributed",
+      "verified_on": "2026-10-20",
+      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
+      "learner_facing": false
+    },
+    {
+      "claim_id": "C-0671",
+      "anchor": "SBP-FINAL-Q014",
+      "text": "Decision readiness integrates workflow, value, evidence, dependencies and ownership.",
+      "source_ids": [
+        "S07",
         "S13",
         "S14",
         "S45"
       ],
-      "locator": "Outputs to Capture; discovery outputs; executive follow-up",
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
       "verdict": "attributed",
       "verified_on": "2026-10-20",
       "checked_by": "Workbook author attribution; not independently re-verified by the studio",
       "learner_facing": false
     },
     {
-      "claim_id": "C-0558",
-      "anchor": "SBP-111-Q002",
-      "text": "Mutuality requires agreement and accountable owners, not just a seller-created schedule.",
+      "claim_id": "C-0672",
+      "anchor": "SBP-FINAL-Q015",
+      "text": "Blueprint supports evidence-based proceed, narrow, pause or no-go decisions.",
       "source_ids": [
-        "S45",
-        "S15",
-        "S14"
-      ],
-      "locator": "Mutual Action Plan template; pilot readiness MAP",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0559",
-      "anchor": "SBP-111-Q003",
-      "text": "A decision log should preserve nuance and traceability instead of overstating agreement.",
-      "source_ids": [
-        "S05",
-        "S14",
-        "S46"
-      ],
-      "locator": "Follow-up email; after-work; opportunity workbook",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0560",
-      "anchor": "SBP-111-Q004",
-      "text": "Service relevance and a reviewed scope connect discovery to responsible delivery.",
-      "source_ids": [
-        "S43",
-        "S44",
-        "S05"
-      ],
-      "locator": "Partner-led services catalog; Deploy & Activate SOW",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0561",
-      "anchor": "SBP-111-Q005",
-      "text": "Post-go-live value review needs the original measurement contract and evidence limits.",
-      "source_ids": [
-        "S13",
-        "S44",
-        "S28"
-      ],
-      "locator": "Value lifecycle handoff; services scope; 60/90-day remeasurement",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0562",
-      "anchor": "SBP-111-Q006",
-      "text": "Usage is diagnostic evidence, not sufficient proof of the intended business outcome.",
-      "source_ids": [
-        "S13",
-        "S28",
-        "S05"
-      ],
-      "locator": "Value lifecycle; BVC remeasurement; ongoing optimization",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0563",
-      "anchor": "SBP-111-Q007",
-      "text": "A recap must reflect what was actually agreed and preserve conditions.",
-      "source_ids": [
-        "S13",
-        "S28",
-        "S05"
-      ],
-      "locator": "Value lifecycle; BVC remeasurement; ongoing optimization",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0564",
-      "anchor": "SBP-111-Q008",
-      "text": "An accountable receiving owner prevents lost assumptions, duplicated discovery and unowned dependencies.",
-      "source_ids": [
-        "S13",
-        "S28",
-        "S05"
-      ],
-      "locator": "Value lifecycle; BVC remeasurement; ongoing optimization",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0604",
-      "anchor": "SBP-112-Q001",
-      "text": "Training should be usable without unauthorized tool access; access must be checked and alternatives supplied.",
-      "source_ids": [
-        "S37",
-        "S38",
-        "S47",
-        "S07"
-      ],
-      "locator": "Agent resources; Pilot Readiness Scorecard",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0605",
-      "anchor": "SBP-112-Q002",
-      "text": "Structured provenance and explicit unknowns improve reviewability and reduce fabricated claims.",
-      "source_ids": [
-        "S25",
-        "S37",
-        "S13"
-      ],
-      "locator": "Scoping prep; value-hypothesis warnings; authored prompt guardrails",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0606",
-      "anchor": "SBP-112-Q003",
-      "text": "Peer stories are not prospect facts, and external names/claims also need clearance.",
-      "source_ids": [
-        "S37",
-        "S36",
-        "S13"
-      ],
-      "locator": "Value Hypothesis Agent guardrail; value evidence",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0607",
-      "anchor": "SBP-112-Q004",
-      "text": "A generated draft is a starting hypothesis, not a measured or technically approved workflow.",
-      "source_ids": [
-        "S38",
-        "S22",
-        "S02"
-      ],
-      "locator": "As-Is and To-Be generator; DITL workflow evidence",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0608",
-      "anchor": "SBP-112-Q005",
-      "text": "AI assistance does not grant authority to approve, send or change external systems.",
-      "source_ids": [
-        "S37",
-        "S15",
-        "S13",
-        "S55"
-      ],
-      "locator": "Source-based controls plus authored AI governance",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0609",
-      "anchor": "SBP-112-Q006",
-      "text": "A safe workflow emits an exception report rather than shipping unsupported or unauthorized material.",
-      "source_ids": [
-        "S25",
-        "S37",
-        "S38",
-        "S55"
-      ],
-      "locator": "AI-assisted preparation; authored workflow controls",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0610",
-      "anchor": "SBP-112-Q007",
-      "text": "Citation presence is not citation validity; the support must match the claim and be current enough.",
-      "source_ids": [
-        "S25",
-        "S37",
-        "S38",
-        "S55"
-      ],
-      "locator": "AI-assisted preparation; authored workflow controls",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0611",
-      "anchor": "SBP-112-Q008",
-      "text": "Retrieved content supplies evidence, not new authority or permission for consequential actions.",
-      "source_ids": [
-        "S25",
-        "S37"
-      ],
-      "locator": "AI-assisted preparation; authored workflow controls",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0650",
-      "anchor": "SBP-113-Q001",
-      "text": "Good facilitation acknowledges input while maintaining the decision and evidence structure.",
-      "source_ids": [
-        "S05",
-        "S07"
-      ],
-      "locator": "Discovery Do's & Don'ts; facilitation best practices",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0651",
-      "anchor": "SBP-113-Q002",
-      "text": "The aim is to protect customer time and reach a decision, not impose arbitrary process or skip qualification.",
-      "source_ids": [
-        "S02",
         "S14",
         "S15",
-        "S18"
+        "S16"
       ],
-      "locator": "Pilot justification; default validation; revamp rationale",
+      "locator": "Independent final-exam item authored from the cited Blueprint lessons.",
       "verdict": "attributed",
       "verified_on": "2026-10-20",
       "checked_by": "Workbook author attribution; not independently re-verified by the studio",
       "learner_facing": false
     },
     {
-      "claim_id": "C-0652",
-      "anchor": "SBP-113-Q003",
-      "text": "Recapture and actual business actions bridge capacity to outcomes without overstating hard-dollar value.",
-      "source_ids": [
-        "S13"
-      ],
-      "locator": "Appendix G: Time saved doesn't hit the P&L; recapture framework",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0653",
-      "anchor": "SBP-113-Q004",
-      "text": "Benchmarks are hypotheses; better evidence and transparent assumptions strengthen or invalidate the case.",
-      "source_ids": [
-        "S13",
-        "S19"
-      ],
-      "locator": "Evidence Model; Appendix G benchmark objection",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0654",
-      "anchor": "SBP-113-Q005",
-      "text": "A usable Blueprint yields decisions, evidence and accountability, not just ideas.",
-      "source_ids": [
-        "S05",
-        "S23",
-        "S20"
-      ],
-      "locator": "Discovery don'ts; connector-first anti-patterns",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0655",
-      "anchor": "SBP-113-Q006",
-      "text": "Repeated access failures may indicate weak priority or sponsorship and call for requalification.",
-      "source_ids": [
-        "S12",
-        "S13",
-        "S05"
-      ],
-      "locator": "Remedial actions; qualification and workshop follow-through",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0656",
-      "anchor": "SBP-113-Q007",
-      "text": "Honest phasing preserves value and feasibility without unsupported promises.",
-      "source_ids": [
-        "S12",
-        "S13",
-        "S05"
-      ],
-      "locator": "Remedial actions; qualification and workshop follow-through",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0657",
-      "anchor": "SBP-113-Q008",
-      "text": "Decision quality and resource discipline matter even when the right answer is not to proceed.",
-      "source_ids": [
-        "S12",
-        "S13",
-        "S05"
-      ],
-      "locator": "Remedial actions; qualification and workshop follow-through",
-      "verdict": "attributed",
-      "verified_on": "2026-10-20",
-      "checked_by": "Workbook author attribution; not independently re-verified by the studio",
-      "learner_facing": false
-    },
-    {
-      "claim_id": "C-0711",
+      "claim_id": "C-0673",
       "anchor": "SBP-FINAL-RULES",
-      "text": "Draw the per-module counts in Settings (44 total); score = correct/drawn ×100; no partial credit. V1 uses shared module/final pool; independent exam bank is a pre-high-stakes decision. At least 36/44 correct at the proposed threshold; exact score not rounded up for pass. All modules must also pass.",
+      "text": "Use the independent 15-item final-exam bank; score correct divided by 15. Pass with at least 12 correct at 80% mastery; no partial credit or score rounding.",
       "source_ids": [
         "S56",
         "S54"

@@ -2,7 +2,7 @@
 
 Module quiz: draw 5 of 7 without replacement, seeded per attempt; options shuffled by id. Pass needs every screen visited and at least 4 of 5 correct.
 
-Proposed attempts: 2 graded (owner confirmation pending, O02). Pool exposure documented (O16).
+Proposed attempts: 2 graded (owner confirmation pending, O02).
 
 | Lesson objective | Items |
 |---|---|

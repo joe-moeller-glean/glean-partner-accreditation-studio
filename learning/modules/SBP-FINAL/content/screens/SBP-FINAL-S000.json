@@ -4,19 +4,19 @@
   "type": "intro",
   "eyebrow": "SBP-FINAL · Final exam",
   "title": "AI Blueprinting & Value Mapping final exam",
-  "body": "One exam across every taught module, weighted toward workflow, value, and executive decisions.",
-  "kicker": "About 60 minutes · 44 items",
+  "body": "One independent exam across every taught module, weighted toward workflow, value, and executive decisions.",
+  "kicker": "About 20 minutes · 15 items",
   "list": [
-    "44 items drawn by module from a pool of 103.",
-    "Pass with at least 36 correct (80%). The score is never rounded up to pass.",
+    "15 exam-only items; lesson knowledge checks are not reused.",
+    "Pass with at least 12 correct (80%). The score is never rounded up to pass.",
     "Feedback appears after you submit.",
     "Proposed policy: 2 graded attempts, with targeted review before a reset.",
     "Take this exam after you pass every module quiz. Your LMS enforces that order; this package cannot see other modules."
   ],
   "nav": "Exam rules",
-  "footnote": "Version 1 shares its pool with the module quizzes, so you may see items again. Items have not been psychometrically validated.",
+  "footnote": "The exam-only items are separate from lesson knowledge checks and module quizzes. Items have not been psychometrically validated.",
   "claims": [
-    "C-0711"
+    "C-0673"
   ],
   "sources": [
     "S56",

@@ -7,8 +7,7 @@ Accreditation Build Plan" workbook). This script compiles that workbook by immut
 workbook SCORM Build Spec B01-B28:
 
   SBP-101 .. SBP-113  required module SCOs (5-of-8 seeded draw, 80% mastery)
-  SBP-200             capstone preparation SCO (readiness only; human rubric decides)
-  SBP-FINAL           final exam SCO (44 items stratified across SBP-101..113)
+  SBP-FINAL           independent 15-item final exam SCO
 
 Each module renders as one full page: overview, expanded lessons, toolkit, and the check.
 Lesson copy comes from plan/sales-blueprinting/lessons/<MODULE>.md, written by the studio
@@ -45,6 +44,8 @@ sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(ROOT / "tools" / "agents"))
 
 import workbook as W  # noqa: E402
+import check_distractors as KD  # noqa: E402
+import final_exam as FE  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "feedback"))
 import markers as FEEDBACK_MARKERS  # noqa: E402
@@ -191,7 +192,8 @@ class Ledger:
 # Specs
 def module_specs():
     L = Ledger()
-    st = W.settings()
+    # SBP-200 remains in the historical workbook but is retired from this accreditation build.
+    st = [m for m in W.settings() if m["id"] != "SBP-200"]
     ov = W.overview()
     lessons = W.lessons()
     screens = W.screens()
@@ -281,32 +283,6 @@ def module_specs():
                         "roi": roi_model(),
                         "footnote": "Fictional training example. Not a quote, not Glean pricing, not an approved production calculator, and not a realized result. Capacity value is not a cash saving. Formula coverage and evidence labels are still under review.",
                         "claims": [cid], "sources": ["S13", "S39", "S40"], "required": True})
-        if mid == "SBP-200":
-            sc = W.scenario()
-            rb, rule = W.rubric()
-            gt = W.gates()
-            c1 = L.claim("SBP-200-SCENARIO", "Capstone fictional scenario inputs", ["S54", "S55"])
-            c2 = L.claim("SBP-200-RUBRIC", "Capstone rubric and pass rule (proposed)", ["S54", "S55"])
-            c3 = L.claim("SBP-200-GATES", "Capstone critical gates (proposed)", ["S54", "S55"])
-            out += [
-                {"id": "SBP-200-X03", "lesson": "toolkit", "type": "reference",
-                 "eyebrow": "Capstone · Scenario", "title": "The fictional organization you will work with", "nav": "Scenario",
-                 "body": "All facts belong to the simulation. Some unknowns are deliberate: ask for them rather than assuming.",
-                 "table": {"caption": "Capstone scenario inputs", "head": ["ID", "Category", "Fictional input", "Evidence class", "How to use it"],
-                           "rows": [[x["id"], x["category"], x["input"], x["evidence_class"], x["learner_use"]] for x in sc]},
-                 "claims": [c1], "sources": ["S54", "S55"], "required": True},
-                {"id": "SBP-200-X04", "lesson": "toolkit", "type": "reference",
-                 "eyebrow": "Capstone · Rubric", "title": "How assessors score your submission", "nav": "Rubric",
-                 "body": "Proposed pass rule: " + rule,
-                 "table": {"caption": "Capstone rubric (proposed, 100 points)", "head": ["ID", "Dimension", "Points", "Required evidence", "Full-credit anchor", "Insufficient anchor"],
-                           "rows": [[x["id"], x["dimension"], x["max"], x["evidence"], x["strong"], x["insufficient"]] for x in rb]},
-                 "claims": [c2], "sources": ["S54", "S55"], "required": True},
-                {"id": "SBP-200-X05", "lesson": "toolkit", "type": "reference",
-                 "eyebrow": "Capstone · Critical gates", "title": "Five gates that block a pass at any score", "nav": "Critical gates",
-                 "table": {"caption": "Critical gates (proposed)", "head": ["ID", "Gate", "Fails when", "Required remediation"],
-                           "rows": [[x["id"], x["gate"], x["failure"], x["remediation"]] for x in gt]},
-                 "claims": [c3], "sources": ["S54", "S55"], "required": True},
-            ]
         return out
 
     authored = LS.load_all()
@@ -348,18 +324,9 @@ def module_specs():
                              "list": o["objectives"],
                              "footnote": "Recommended before this module: " + o["prereqs"] + ". Prerequisites are proposed; roadmap mappings are alignment only, not equivalency."})
             elif s["type"] == "Module wrap / assessment":
-                base.update({"lesson": "check", "eyebrow": "Check" if mid != "SBP-200" else "Capstone readiness",
-                             "title": "Check your understanding" if mid != "SBP-200" else "Before you submit the practical",
-                             "nav": "Knowledge check" if mid != "SBP-200" else "Capstone readiness",
-                             "body": s["copy"], "wrap": s["narration"]})
-                if mid == "SBP-200":
-                    base["type"] = "formative"
-                    base["items"] = [q["id"] for q in qs if q["module_id"] == mid]
-                    base["footnote"] = ("Finishing this module records preparation as completed. It never records a pass. "
-                                        "The accreditation needs every module quiz, the final exam, and a human-scored "
-                                        "practical of at least 80/100 with all five critical gates passed.")
-                else:
-                    base["type"] = "quiz"
+                base.update({"lesson": "check", "eyebrow": "Check",
+                             "title": "Check your understanding", "nav": "Knowledge check",
+                             "body": s["copy"], "wrap": s["narration"], "type": "quiz"})
             out.append(base)
         wrap = out.pop()
         out += toolkit(mid) + extras(mid)
@@ -371,41 +338,44 @@ def module_specs():
         # lesson checks and graded quiz items never create duplicate DOM or LMS interaction IDs.
         knowledge_checks = []
         for lesson in mod_lessons:
-            source = next(q for q in bank if q["lesson"] == lesson["id"])
-            check = dict(source)
-            check["id"] = check_by_lesson[lesson["id"]]
-            check["options"] = [dict(option) for option in source["options"]]
+            candidates = [q for q in bank if q["lesson"] == lesson["id"]]
+            source = max(candidates, key=lambda q: q["bloom"] == "Analyze")
+            check = hard_knowledge_check(source, lesson)
+            if check["id"] != check_by_lesson[lesson["id"]]:
+                raise ValueError(f"{lesson['id']}: unstable knowledge-check id")
             knowledge_checks.append(check)
         held = [{"id": q["id"], "reason": ITEM_HOLDS[q["id"]]} for q in qs
                 if q["module_id"] == mid and q["id"] in ITEM_HOLDS]
         specs.append({
-            "id": mid, "title": m["name"], "kind": "capstone" if mid == "SBP-200" else "module",
+            "id": mid, "title": m["name"], "kind": "module",
             "settings": m, "overview": o, "lessons": mod_lessons, "groups": groups,
             "screens": out, "bank": bank, "knowledge_checks": knowledge_checks,
             "draw": m["quiz_draw"], "held_items": held,
         })
 
-    # Final exam SCO
-    ab = {r["id"]: r for r in W._simple("assessment-blueprint", [
-        "id", "scope", "coverage", "bank", "draw", "points", "mastery", "min_correct", "minutes",
-        "attempts", "selection", "completion", "basis", "review"])}
-    fx = ab["SBP-FINAL-EXAM"]
-    cid_rules = L.claim("SBP-FINAL-RULES", fx["selection"] + " " + fx["completion"], ["S56", "S54"])
-    final_bank = [b for s in specs if s["kind"] == "module" for b in s["bank"]]
-    final_held = [h for s in specs if s["kind"] == "module" for h in s["held_items"]]
-    draws = {m["id"]: m["final_draw"] for m in st if m["final_draw"]}
+    # Final exam SCO: a fixed independent bank, not reused module quiz or lesson-check items.
+    final_bank = [qrec(q) for q in FE.questions()]
+    draws = {}
+    for q in final_bank:
+        draws[q["module"]] = draws.get(q["module"], 0) + 1
+    total = len(final_bank)
+    minimum = -(-80 * total // 100)
+    minutes = 20
+    rules = (f"Use the independent {total}-item final-exam bank; score correct divided by {total}. "
+             f"Pass with at least {minimum} correct at 80% mastery; no partial credit or score rounding.")
+    cid_rules = L.claim("SBP-FINAL-RULES", rules, ["S56", "S54"])
     fscreens = [
         {"id": "SBP-FINAL-S000", "lesson": "intro", "type": "intro", "eyebrow": "SBP-FINAL · Final exam",
          "title": "AI Blueprinting & Value Mapping final exam",
-         "body": "One exam across every taught module, weighted toward workflow, value, and executive decisions.",
-         "kicker": f"About {fx['minutes']} minutes · {sum(draws.values())} items",
-         "list": [f"{sum(draws.values())} items drawn by module from a pool of {len(final_bank)}.",
-                  f"Pass with at least {fx['min_correct']} correct ({fx['mastery']}%). The score is never rounded up to pass.",
+         "body": "One independent exam across every taught module, weighted toward workflow, value, and executive decisions.",
+         "kicker": f"About {minutes} minutes · {total} items",
+         "list": [f"{total} exam-only items; lesson knowledge checks are not reused.",
+                  f"Pass with at least {minimum} correct (80%). The score is never rounded up to pass.",
                   "Feedback appears after you submit.",
                   f"Proposed policy: {MAX_ATTEMPTS} graded attempts, with targeted review before a reset.",
                   "Take this exam after you pass every module quiz. Your LMS enforces that order; this package cannot see other modules."],
          "nav": "Exam rules",
-         "footnote": "Version 1 shares its pool with the module quizzes, so you may see items again. Items have not been psychometrically validated.",
+         "footnote": "The exam-only items are separate from lesson knowledge checks and module quizzes. Items have not been psychometrically validated.",
          "claims": [cid_rules], "sources": ["S56", "S54"], "required": True},
         {"id": "SBP-FINAL-S999", "lesson": "check", "type": "quiz", "eyebrow": "Final exam",
          "title": "Final exam", "nav": "Final exam", "body": "", "wrap": "", "claims": [cid_rules], "sources": ["S56", "S54"],
@@ -415,14 +385,14 @@ def module_specs():
         "id": "SBP-FINAL", "title": "AI Blueprinting & Value Mapping: Final Exam", "kind": "final",
         "settings": {"id": "SBP-FINAL", "name": "Final exam", "sort": 150, "version": VERSION, "mastery": 80,
                      "quiz_draw": 0, "final_draw": 0, "level": "Practitioner",
-                     "review_status": fx["review"], "partner_clearance": "Pending partner clearance",
+                     "review_status": "In review", "partner_clearance": "Pending partner clearance",
                      "sme_signoff": "Not signed"},
-        "overview": {"objectives": ["Demonstrate the SBP-101 to SBP-113 objectives on a stratified exam."],
-                     "prereqs": "SBP-101 to SBP-113", "total_minutes": int(fx["minutes"]), "lessons": 0,
+        "overview": {"objectives": ["Demonstrate integrated SBP-101 to SBP-113 decisions on an independent final exam."],
+                     "prereqs": "SBP-101 to SBP-113", "total_minutes": minutes, "lessons": 0,
                      "roadmap_alignment": "", "level": "Practitioner (proposed)"},
         "lessons": [], "groups": [{"id": s["id"], "label": s.get("nav") or s["title"]} for s in fscreens],
         "screens": fscreens, "bank": final_bank, "knowledge_checks": [], "draw": 0,
-        "final_draws": draws, "held_items": final_held,
+        "final_draws": draws, "held_items": [],
     })
     return specs, L
 
@@ -476,6 +446,16 @@ def learner_objective(text):
     t = re.sub(r"^Given the supplied customer-neutral scenario and sources,\s*", "", text.strip())
     t = re.sub(r"\s*Successful output matches the worked response and states remaining uncertainty\.?$", "", t)
     return t[:1].upper() + t[1:]
+
+
+def hard_knowledge_check(source, lesson):
+    """Keep the source stem and answer concise while replacing weak distractors."""
+    distractors = iter(KD.DISTRACTORS[lesson["id"]])
+    check = dict(source)
+    check["id"] = f"{lesson['id']}-KC"
+    check["options"] = [dict(option, text=option["text"] if option["correct"] else next(distractors))
+                        for option in source["options"]]
+    return check
 
 
 def sid_key(x):
@@ -615,6 +595,14 @@ def validate_specs(specs, L):
                 E.append(f"{q['id']}: multiple-choice item needs exactly four options")
             if sum(o["correct"] for o in q["options"]) != 1:
                 E.append(f"{q['id']}: needs exactly one correct option")
+        for q in sp["knowledge_checks"]:
+            if "A trainee selects" in q["stem"] or "Which rationale" in q["stem"]:
+                E.append(f"{q['id']}: lesson check stem must stay concise")
+            texts = [o["text"] for o in q["options"]]
+            if len(set(texts)) != 4:
+                E.append(f"{q['id']}: lesson check options must be unique")
+            if any(len(text) < 3 or len(text) > 180 for text in texts):
+                E.append(f"{q['id']}: lesson check option is not concise")
         pre = [o["text"][:25] for q in sp["bank"] for o in q["options"]]
         if sp["kind"] != "final":
             dup = sorted({p for p in pre if pre.count(p) > 1})
@@ -643,6 +631,27 @@ def validate_specs(specs, L):
                 hit = LEAK.search(txt)
                 if hit:
                     E.append(f"{mid}: {sid} shows internal reference '{hit.group(0)}' to learners")
+
+    final = next((sp for sp in specs if sp["kind"] == "final"), None)
+    if not final or not 10 <= len(final["bank"]) <= 15:
+        E.append("SBP-FINAL: independent exam must contain 10 to 15 items")
+    else:
+        taught = [sp for sp in specs if sp["kind"] == "module"]
+        checks = [q for sp in taught for q in sp["knowledge_checks"]]
+        quizzes = [q for sp in taught for q in sp["bank"]]
+        norm = lambda text: re.sub(r"\W+", " ", text.lower()).strip()
+        check_stems = {norm(q["stem"]) for q in checks}
+        quiz_stems = {norm(q["stem"]) for q in quizzes}
+        check_options = {tuple(sorted(norm(o["text"]) for o in q["options"])) for q in checks}
+        for q in final["bank"]:
+            if norm(q["stem"]) in check_stems:
+                E.append(f"{q['id']}: final stem duplicates a lesson knowledge check")
+            if norm(q["stem"]) in quiz_stems:
+                E.append(f"{q['id']}: final stem duplicates a module quiz item")
+            if tuple(sorted(norm(o["text"]) for o in q["options"])) in check_options:
+                E.append(f"{q['id']}: final answer set duplicates a lesson knowledge check")
+        if sum(final["final_draws"].values()) != len(final["bank"]):
+            E.append("SBP-FINAL: draw must include the complete independent exam bank")
     E += sorted(set(UNCHECKED))
     # option-prefix repeats are informational for this runtime (radio ids), so drop them
     return [e for e in E if "option prefixes repeat" not in e]
@@ -722,8 +731,7 @@ def generate_one(sp, L):
         "accreditation_id": ACCRED_ID, "also_counts_toward": [], "level": o.get("level") or st["level"],
         "target_hours": hours, "kind": sp["kind"],
         "assessment_type": {"module": f"Module quiz: {sp['draw']} of {len(sp['bank'])} items, 80%",
-                            "capstone": "Formative check; practical scored by a human assessor",
-                            "final": f"Final exam: {sum(sp.get('final_draws', {}).values())} items, 80%"}[sp["kind"]],
+                            "final": f"Independent final exam: {sum(sp.get('final_draws', {}).values())} items, 80%"}[sp["kind"]],
         "release_state": "restricted_preview",
         "review_status": st["review_status"], "partner_clearance": st["partner_clearance"],
         "sme_signoff": st["sme_signoff"],
@@ -804,7 +812,7 @@ def generate_one(sp, L):
            "rail: 'On this page' jump links, sticky on wide screens, above the content on narrow screens",
            "progress: sections read (a section counts once its end has been on screen), not scroll position",
            "sources: author ledger and research/ only; never rendered to learners",
-           "signature_moment: " + ({"SBP-108": "ROI Lab (SBP-108-X03)", "SBP-200": "rubric and critical gates"}.get(mid, "module check")),
+           "signature_moment: " + ({"SBP-108": "ROI Lab (SBP-108-X03)"}.get(mid, "module check")),
            "motion: rise on reveal only; disabled under prefers-reduced-motion",
            f"screen_count: {len(sp['screens'])}"]
     (dest / "design" / "experience.yaml").write_text("\n".join(exp) + "\n")
@@ -850,9 +858,8 @@ def generate_one(sp, L):
                   "rationale": {"correct": q["fb_correct"], "incorrect": q["fb_incorrect"]}} for q in sp["bank"]}})
     rub = [f"# {mid} assessment", "",
            {"module": f"Module quiz: draw {sp['draw']} of {len(sp['bank'])} without replacement, seeded per attempt; options shuffled by id. Pass needs every screen visited and at least {-(-80 * sp['draw'] // 100)} of {sp['draw']} correct.",
-            "capstone": "Formative only. Completion records readiness, never a pass. The practical is scored by a qualified human assessor against the rubric (>=80/100 and all critical gates).",
-            "final": f"Final exam: {sum(sp.get('final_draws', {}).values())} items stratified by module from {len(sp['bank'])}. Pass needs at least 36 correct; 35/44 (79.5%) fails."}[sp["kind"]],
-           "", f"Proposed attempts: {MAX_ATTEMPTS} graded (owner confirmation pending, O02). Pool exposure documented (O16).",
+            "final": f"Independent final exam: {sum(sp.get('final_draws', {}).values())} exam-only items. Pass needs at least {-(-80 * sum(sp.get('final_draws', {}).values()) // 100)} correct; the score is not rounded up."}[sp["kind"]],
+           "", f"Proposed attempts: {MAX_ATTEMPTS} graded (owner confirmation pending, O02).",
            "", "| Lesson objective | Items |", "|---|---|"]
     for l in sp["lessons"]:
         rub.append(f"| `{l['id']}` {tidy_objective(l['objective'])} | {', '.join(q['id'] for q in sp['bank'] if q['lesson'] == l['id'])} |")
@@ -931,23 +938,14 @@ def accreditation_yaml(specs):
         "electives: []",
         "completion:",
         "  assessment_module: SBP-FINAL",
-        "  assessment_type: \"13 module quizzes (5 of 8 items, 80%), final exam (44 items, 80%), SBP-200 preparation, and a human-scored practical\"",
+        "  assessment_type: \"13 module quizzes (5 of 8 items, 80%) and one independent 15-item final exam (80%)\"",
         "  mastery_score: 80",
-        "  practical:",
-        "    module: SBP-200",
-        "    pass_rule: \"At least 80/100 on the nine-dimension rubric and all five critical gates passed; scored by a qualified human assessor\"",
-        "  hard_gates:",
-        "    - G01_no_fabricated_customer_facts_results_or_sources",
-        "    - G02_safe_data_and_access_handling",
-        "    - G03_no_unauthorized_deployment_or_commercial_commitment",
-        "    - G04_complete_core_evidence",
-        "    - G05_material_financial_and_technical_integrity",
-        "  note: \"Proposed award rule (workbook B23); owner approval required (O02). A passed SCO alone never completes the accreditation. No certificate is issued by client code.\"",
+        "  note: \"Proposed award rule; owner approval required (O02). Every required module and SBP-FINAL must pass. No certificate is issued by client code.\"",
         "overview_module: null",
         "publish_mode: manual_review",
         "release_state: restricted_preview",
-        "estimated_hours: 12.8  # workbook estimate: 765 minutes incl. quizzes, capstone lessons, and final",
-        f"origin: \"Added {TODAY}. Composed from the Sales Blueprinting Accreditation Build Plan workbook (SBP-101 to SBP-113, SBP-200, SBP-FINAL). Working title 'AI Blueprinting & Value Mapping'; the workbook's proposed credential name AI Sales Blueprinting Specialist (AISBS) is not approved (O01).\"",
+        "estimated_hours: 10.1  # 585 module minutes plus an estimated 20-minute final",
+        f"origin: \"Added {TODAY}. Composed from the Sales Blueprinting Accreditation Build Plan workbook and revised to use SBP-101 to SBP-113 plus an independent SBP-FINAL exam. Working title 'AI Blueprinting & Value Mapping'; the workbook's proposed credential name AI Sales Blueprinting Specialist (AISBS) is not approved (O01).\"",
         "competency_alignment: \"AI Strategy & Use Case Discovery (201) - semantic alignment only, not an approved equivalency (O12)\"",
         f"source_url: \"{W.WORKBOOK_URL}\"",
     ]
@@ -990,7 +988,8 @@ def qa_evidence_blockers(specs):
 def release_gates(specs, L):
     """Partner-release gates (B21). Returns {module: [blockers]} plus program blockers."""
     oq = W.open_questions()
-    program = [f"{q['id']} {q['topic']}: {q['status']}" for q in oq]
+    # O14 (capstone integration) and O16 (shared final pool) are retired by the current design.
+    program = [f"{q['id']} {q['topic']}: {q['status']}" for q in oq if q["id"] not in {"O14", "O16"}]
     program.append("B22: Impartner restricted test (launch, score, status, resume, reporting) not performed")
     program += qa_evidence_blockers(specs)
     out = {}
@@ -1123,8 +1122,7 @@ def cmd_package(release=False):
     rows = []
     for sp in specs:
         zpath, _ = P.package(MODULES / sp["id"])
-        if sp["kind"] != "capstone":
-            add_masteryscore(zpath, 80)
+        add_masteryscore(zpath, 80)
         digest = P.normalize_zip(zpath)
         v = subprocess.run([sys.executable, str(P.VALIDATE), str(zpath)], capture_output=True, text=True)
         state = v.stdout.strip().splitlines()[-1] if v.stdout.strip() else "NO OUTPUT"

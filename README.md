@@ -116,7 +116,7 @@ The prefix identifies the learning family or role in the portfolio:
 | `FND` | Foundations | `FND-104` |
 | `AGT` | Agents | `AGT-101` |
 | `BLD` | Builder | `BLD-101`, `BLD-208` |
-| `SBP` | AI Blueprinting & Value Mapping | `SBP-101`, `SBP-200`, `SBP-FINAL` |
+| `SBP` | AI Blueprinting & Value Mapping | `SBP-101`, `SBP-113`, `SBP-FINAL` |
 | `SOL`, `SRV` | Solution and services topics | `SOL-203`, `SRV-204` |
 | `ACC` | Cross-module assessment or capstone | `ACC-104`, `ACC-107` |
 | `accred-*` | Learner-facing accreditation overview module | `accred-agents` |
@@ -164,7 +164,7 @@ authoritative if this summary changes.
 | Accreditation ID | Name | Status | Required modules | Completion / assessment | Distribution note |
 | --- | --- | ---: | ---: | --- | --- |
 | `accred-agents` | Agents | built | 11 | `ACC-104` | Includes overview module `accred-agents`. |
-| `accred-ai-blueprinting` | AI Blueprinting & Value Mapping | built | 15 | `SBP-FINAL`, plus the `SBP-200` human-scored practical and hard gates | Restricted preview; manual review. |
+| `accred-ai-blueprinting` | AI Blueprinting & Value Mapping | built | 14 | `SBP-FINAL` independent 15-item exam | Restricted preview; manual review. |
 | `accred-builder` | Builder | planned | 7 | `ACC-104` | Planned definition. |
 | `accred-delivery-lead` | Delivery Lead | planned | 7 | `ACC-105` | Planned definition. |
 | `accred-foundations` | Glean Foundations | planned | 4 | Defined in YAML | Planned definition. |

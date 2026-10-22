@@ -90,7 +90,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -256,7 +271,7 @@
         }
       ],
       "failures": [],
-      "build": "d5530d14c15767838a8e266bc58fe5b4b8394e8a975ee5b57fab67518b5d044e"
+      "build": "05f411cbdecbdbe41ac58138479d4934f76715bb8edc8b34975b6c0614dafb0d"
     },
     {
       "module_id": "SBP-102",
@@ -347,7 +362,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -513,7 +543,7 @@
         }
       ],
       "failures": [],
-      "build": "aef32b1c1c2ce2cec342c1f0d1de300cb03820816e7967c40772dc092d389e58"
+      "build": "b57767e505bdadebf85a90aa649e5fb357aa138edec0dff8aba98d5bf302ce32"
     },
     {
       "module_id": "SBP-103",
@@ -604,7 +634,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -676,7 +721,7 @@
         {
           "name": "session_time CMITimespan",
           "pass": true,
-          "detail": "0000:00:00.02"
+          "detail": "0000:00:00.03"
         },
         {
           "name": "LMSFinish exactly once",
@@ -770,7 +815,7 @@
         }
       ],
       "failures": [],
-      "build": "2a2bc79854b81111892dd354c1d73ef72fdf84532e766428deab2fd57105c731"
+      "build": "cb43123543dec4c706a463c7290dc01c56c5d373a05e9c48dcc5b77edeb39b02"
     },
     {
       "module_id": "SBP-104",
@@ -861,7 +906,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -933,7 +993,7 @@
         {
           "name": "session_time CMITimespan",
           "pass": true,
-          "detail": "0000:00:00.03"
+          "detail": "0000:00:00.02"
         },
         {
           "name": "LMSFinish exactly once",
@@ -1027,7 +1087,7 @@
         }
       ],
       "failures": [],
-      "build": "3b8b1695f33688fa0dff5d0c597a2f1bf5b8bfa5e0a8fa9f66864305a149062d"
+      "build": "fa41ac344042e0b3ff452ce59043bbc74eac61a4c52706c0955889bb7dcf2ccf"
     },
     {
       "module_id": "SBP-105",
@@ -1118,7 +1178,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -1284,7 +1359,7 @@
         }
       ],
       "failures": [],
-      "build": "126c583a307f18c4a0c2036b1cc0b483660c08650016d2468effaa5bfe9a8fa5"
+      "build": "ca9f69bafaa9df2649eab48efdbbe774bbc14a7468c726ab39ad7f668e20867c"
     },
     {
       "module_id": "SBP-106",
@@ -1375,7 +1450,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -1447,7 +1537,7 @@
         {
           "name": "session_time CMITimespan",
           "pass": true,
-          "detail": "0000:00:00.02"
+          "detail": "0000:00:00.03"
         },
         {
           "name": "LMSFinish exactly once",
@@ -1541,7 +1631,7 @@
         }
       ],
       "failures": [],
-      "build": "ca5655e89f64e3092ef60faf420b0e8e766846155be625be459881e90643ecf6"
+      "build": "39d11d9ff517ed85880ea639a77662b3e64b715789de66920fb7c8bf8ac2d233"
     },
     {
       "module_id": "SBP-107",
@@ -1632,7 +1722,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -1798,7 +1903,7 @@
         }
       ],
       "failures": [],
-      "build": "a35e4aee9c1d404dc443f53a7442655d9f746d21b517778d6cf97214c0bd8d28"
+      "build": "6a768a1f14af48af335d75f08608ccb4af7c238fddb59485ef2949a0bd4529b6"
     },
     {
       "module_id": "SBP-108",
@@ -1889,7 +1994,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -2080,7 +2200,7 @@
         }
       ],
       "failures": [],
-      "build": "8cdd6d0d8b20350803bdbf321fe144be34433c1c47a71ec0e48b42330a121261"
+      "build": "c22636b124bc3630277236001369fd71452fbabbeed48795078bc4c6d1ddf6ac"
     },
     {
       "module_id": "SBP-109",
@@ -2171,7 +2291,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -2337,7 +2472,7 @@
         }
       ],
       "failures": [],
-      "build": "1568c16025af2bee3d3f361f6b7360dc2568d8910bae03ccbe1e30ecfe0e2346"
+      "build": "e1df3f51cdd37b3a827be15192ce6997b7dc36d30feb192f9f44b00efe35907d"
     },
     {
       "module_id": "SBP-110",
@@ -2428,7 +2563,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -2594,7 +2744,7 @@
         }
       ],
       "failures": [],
-      "build": "8689e5df3f09c650924e18d7ddd78f7a6c249cd3d1cddc638ed3f336d7c1e389"
+      "build": "c85eb1bc1bac6d9642891fb2c6490c38989a28255f1494b5cb832df8462e8506"
     },
     {
       "module_id": "SBP-111",
@@ -2685,7 +2835,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -2851,7 +3016,7 @@
         }
       ],
       "failures": [],
-      "build": "c13080936c1e830d801ecc6a60dcde711f92307963d8afd1aab3ed6323a92102"
+      "build": "5dc0412d6d5046565dc79d18e1641a4a30366445e8bb7968c36434e951d9ddc1"
     },
     {
       "module_id": "SBP-112",
@@ -2942,7 +3107,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -3108,7 +3288,7 @@
         }
       ],
       "failures": [],
-      "build": "786a49bda6e829cab87842f6dcab7c85759673ffa44e20c5f31b6ddc78929e9f"
+      "build": "43282d7c36e51dabba0ee125993b7f88504228ba788b36e75b0c60c28a7f5bc3"
     },
     {
       "module_id": "SBP-113",
@@ -3199,7 +3379,22 @@
           "detail": ""
         },
         {
-          "name": "lesson MCQ gives immediate answer feedback",
+          "name": "incorrect lesson MCQ gives retry feedback",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "incorrect lesson MCQ remains selectable",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "lesson MCQ accepts a corrected answer",
+          "pass": true,
+          "detail": ""
+        },
+        {
+          "name": "correct lesson MCQ locks after success",
           "pass": true,
           "detail": ""
         },
@@ -3365,119 +3560,7 @@
         }
       ],
       "failures": [],
-      "build": "6afc6ae3f25c19f3b2a2bbec1196a1377bab3569c68ae8241f3210836bfee311"
-    },
-    {
-      "module_id": "SBP-200",
-      "checks": [
-        {
-          "name": "no script errors (preview)",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "untracked preview notice",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "restricted preview banner",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "single page: every section renders with correct heading level and labels",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "no source, claim, or open-question IDs shown to learners",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "progress starts at zero sections read",
-          "pass": true,
-          "detail": "0 of 12 sections read"
-        },
-        {
-          "name": "progress counts a read section",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "standalone keys namespaced per module",
-          "pass": true,
-          "detail": "scorm:SBP-200:cmi.core.lesson_status,scorm:SBP-200:cmi.core.lesson_location"
-        },
-        {
-          "name": "new attempt sets incomplete",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "lesson_location is a section id",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "one knowledge-check record per lesson",
-          "pass": true,
-          "detail": "6 vs 6"
-        },
-        {
-          "name": "every lesson renders one four-option MCQ",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "lesson checks contain no open-response controls",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "lesson MCQ gives immediate answer feedback",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "lesson MCQ does not write score or LMS interaction",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "capstone completes once every section is read",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "capstone completes, never passes",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "capstone writes no score",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "capstone formative has all 8 items",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "LMSFinish once",
-          "pass": true,
-          "detail": ""
-        },
-        {
-          "name": "no second LMSFinish on pagehide",
-          "pass": true,
-          "detail": ""
-        }
-      ],
-      "failures": [],
-      "build": "9217f00bddb19798361c7b3cf17ce6265baf94035c690bd1ae8b70374a976f5f"
+      "build": "851dbaeb27e36672ad066388c2fa32b2e40027ac86bef3fd377c1561d0b77f06"
     },
     {
       "module_id": "SBP-FINAL",
@@ -3540,7 +3623,7 @@
         {
           "name": "draw size matches settings",
           "pass": true,
-          "detail": "44 vs 44"
+          "detail": "15 vs 15"
         },
         {
           "name": "no duplicate items in attempt",
@@ -3550,7 +3633,7 @@
         {
           "name": "final draw stratified by module",
           "pass": true,
-          "detail": "{\"SBP-101\":3,\"SBP-102\":3,\"SBP-103\":3,\"SBP-104\":3,\"SBP-105\":4,\"SBP-106\":4,\"SBP-107\":4,\"SBP-108\":4,\"SBP-109\":4,\"SBP-110\":3,\"SBP-111\":3,\"SBP-112\":3,\"SBP-113\":3}"
+          "detail": "{\"SBP-101\":1,\"SBP-102\":1,\"SBP-103\":1,\"SBP-104\":1,\"SBP-105\":1,\"SBP-106\":1,\"SBP-107\":1,\"SBP-108\":2,\"SBP-109\":1,\"SBP-110\":2,\"SBP-111\":1,\"SBP-112\":1,\"SBP-113\":1}"
         },
         {
           "name": "options shuffled for at least one item",
@@ -3568,14 +3651,14 @@
           "detail": ""
         },
         {
-          "name": "36/44 passes",
+          "name": "12/15 passes",
           "pass": true,
           "detail": "passed"
         },
         {
           "name": "score raw on 0-100 scale",
           "pass": true,
-          "detail": "81.82"
+          "detail": "80"
         },
         {
           "name": "interactions recorded with SCORM 1.2 vocabulary",
@@ -3585,7 +3668,7 @@
         {
           "name": "suspend_data within 4096",
           "pass": true,
-          "detail": "2646"
+          "detail": "1112"
         },
         {
           "name": "result announced and focused",
@@ -3600,7 +3683,7 @@
         {
           "name": "session_time CMITimespan",
           "pass": true,
-          "detail": "0000:00:00.02"
+          "detail": "0000:00:00.01"
         },
         {
           "name": "LMSFinish exactly once",
@@ -3623,14 +3706,14 @@
           "detail": ""
         },
         {
-          "name": "35/44 fails",
+          "name": "11/15 fails",
           "pass": true,
-          "detail": "79.55"
+          "detail": "73.33"
         },
         {
           "name": "fail score below mastery without rounding up",
           "pass": true,
-          "detail": "79.55"
+          "detail": "73.33"
         },
         {
           "name": "retry offered after first failure",
@@ -3670,11 +3753,11 @@
         {
           "name": "worst-case suspend_data within 4096",
           "pass": true,
-          "detail": "2662"
+          "detail": "1128"
         }
       ],
       "failures": [],
-      "build": "71c0273e41c7a6ef2cfe481862951ced9f5ceb1fbfdee9ed16a9bee0279b5e51"
+      "build": "78455f738dbb9f40867fd3ce52cdd7c9a8da896ff0627839b9ef1ad8f252b3ca"
     }
   ],
   "extra": {

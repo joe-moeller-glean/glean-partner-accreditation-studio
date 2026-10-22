@@ -151,10 +151,9 @@
         "SBP-111",
         "SBP-112",
         "SBP-113",
-        "SBP-200",
         "SBP-FINAL"
       ],
-      "origin": "Added 2026-10-21. Composed from the Sales Blueprinting Accreditation Build Plan workbook (SBP-101 to SBP-113, SBP-200, SBP-FINAL). Working title 'AI Blueprinting & Value Mapping'; the workbook's proposed credential name AI Sales Blueprinting Specialist (AISBS) is not approved (O01).",
+      "origin": "Added 2026-10-21. Composed from the Sales Blueprinting Accreditation Build Plan workbook and revised to use SBP-101 to SBP-113 plus an independent SBP-FINAL exam. Working title 'AI Blueprinting & Value Mapping'; the workbook's proposed credential name AI Sales Blueprinting Specialist (AISBS) is not approved (O01).",
       "competency_alignment": "AI Strategy & Use Case Discovery (201) - semantic alignment only, not an approved equivalency (O12)",
       "source_url": "https://docs.google.com/spreadsheets/d/1FNFUQAzKl1BgMlyMgR8zygEvmLtnf7V5s-bhaL-3-48"
     }

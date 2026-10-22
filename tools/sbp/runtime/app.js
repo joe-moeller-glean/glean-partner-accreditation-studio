@@ -283,20 +283,28 @@
     var box = h("div", "practice knowledge-check");
     box.appendChild(h("h3", null, "Knowledge check"));
     var order = q.options.map(function (o) { return o.id; }).join("");
-    var fs = radioItem(q, order, f.pick, f.checked, function (oid) {
-      f.pick = oid; mem.formative[q.id] = f;
+    var ok = !!(f.checked && optionById(q, f.pick).correct);
+    var fs = radioItem(q, order, f.pick, ok, function (oid) {
+      f.pick = oid;
+      // An incorrect formative response stays retryable. Clear its stale feedback as soon
+      // as the learner chooses another option; a correct response remains locked.
+      if (f.checked) {
+        f.checked = false;
+        mem.formative[q.id] = f;
+        refresh(k, "#r-" + q.id + "-" + oid);
+      } else mem.formative[q.id] = f;
     }, box, 0);
-    if (!f.checked) {
+    if (!ok) {
       fs.appendChild(btn("ghost", "Check this answer", function () {
         if (!f.pick) { el.status.textContent = "Choose an option first."; return; }
         f.checked = true; mem.formative[q.id] = f; refresh(k, "#fb-" + q.id);
       }));
-    } else {
-      var ok = optionById(q, f.pick).correct;
+    }
+    if (f.checked) {
       var fb = h("div", "feedback reveal");
       fb.id = "fb-" + q.id;
       fb.tabIndex = -1;
-      fb.appendChild(h("p", "verdict-line", ok ? "Correct." : "Not correct."));
+      fb.appendChild(h("p", "verdict-line", ok ? "Correct." : "Not correct. Try again."));
       fb.appendChild(h("p", null, ok ? q.fb_correct : q.fb_incorrect));
       fs.appendChild(fb);
     }
@@ -532,7 +540,7 @@
     host.insertBefore(res, host.querySelector("fieldset"));
     if (passed) {
       host.appendChild(h("p", "badge", M.kind === "final" ? "Final exam passed" : "Module passed"));
-      if (M.kind === "final") host.appendChild(h("p", "note", "The accreditation also requires every module quiz and a passed human-scored capstone with all critical gates. This exam alone does not award it."));
+      if (M.kind === "final") host.appendChild(h("p", "note", "The accreditation also requires every module quiz. This exam alone does not award it."));
     } else if (state.att < M.max_attempts) {
       host.appendChild(h("p", null, "Review the lessons behind the items you missed, then start a new attempt. A new attempt draws a fresh set."));
       host.appendChild(btn("ghost start", "Start attempt " + (state.att + 1), function () {
@@ -622,10 +630,7 @@
     updateChrome();
     var chk = M.screens.length - 1;
     if (isCheck(chk) && !(state.q && state.q.sub)) refreshCheckGate(chk);
-    if (M.kind === "capstone" && allVisited(false) && finishStatus() === "completed" && state.st !== "completed") {
-      save("completed");
-      el.status.textContent = "Capstone preparation complete. A qualified assessor scores the practical separately.";
-    } else saveSoon();
+    saveSoon();
   }
   // Update the check's "not read yet" list without stealing focus.
   function refreshCheckGate(k) {
@@ -727,7 +732,6 @@
   }
 
   function finishStatus() {
-    if (M.kind === "capstone") return allVisited(false) ? "completed" : "incomplete";
     if (state.st === "passed" || lmsStatus() === "passed") return "passed";
     if (state.q && state.q.sub) return state.st || "failed";
     return "incomplete";

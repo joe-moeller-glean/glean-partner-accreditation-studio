@@ -346,8 +346,8 @@
       "found": true
     },
     "e6bcccc3d6f67db5": {
-      "lesson": "SBP-200-L02",
-      "section": "The role-play",
+      "lesson": "SBP-113-L01",
+      "section": "Set the tone",
       "source": "S07",
       "text": "Set an open, consultative, and strategic tone—avoid checklist-style or interrogative discovery.",
       "found": true
@@ -570,8 +570,8 @@
       "found": true
     },
     "a574787d9e03f080": {
-      "lesson": "SBP-200-L01",
-      "section": "Evidence rules",
+      "lesson": "SBP-109-L04",
+      "section": "Connect evidence to business terms",
       "source": "S13",
       "text": "Every ROI estimate must carry its assumptions, risk adjustments, and evidence tier transparently.",
       "found": true
@@ -619,8 +619,8 @@
       "found": true
     },
     "f631e076066c8174": {
-      "lesson": "SBP-200-L05",
-      "section": "The sponsor's three questions",
+      "lesson": "SBP-109-L05",
+      "section": "What to confirm",
       "source": "S14",
       "text": "Decide validation path (Glean Lab by default; Pilot/PoC only if necessary)",
       "found": true

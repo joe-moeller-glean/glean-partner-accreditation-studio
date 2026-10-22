@@ -5,106 +5,99 @@
     {
       "module_id": "SBP-101",
       "zip": "dist/restricted-preview/SBP-101-v1.0.0-scorm12.zip",
-      "sha256": "af56123b2809657a03969115657432989c9789a1d34a6bb4057d56ccfb36824d",
-      "bytes": 48694,
+      "sha256": "968c7b6e63247e8e868e44e8064396b84fe47847bdab5c6d207858d920dd5db0",
+      "bytes": 49025,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-102",
       "zip": "dist/restricted-preview/SBP-102-v1.0.0-scorm12.zip",
-      "sha256": "cfb8a2a0337e11a8a59fbf8f36e5ed361f7899796aebc7e8dbf1bcbd13cc7a4f",
-      "bytes": 46061,
+      "sha256": "6d380415081e97c45c785e5a769d62088693acdb86f6b9c24f4e10f4caa5faf9",
+      "bytes": 46467,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-103",
       "zip": "dist/restricted-preview/SBP-103-v1.0.0-scorm12.zip",
-      "sha256": "5f208ed33dc0963f83f1569cd1ba3c41869659930a37ddb924e8a76f2024ac6a",
-      "bytes": 44942,
+      "sha256": "5305273aabbe1fca5f9d1b53b8bb32ef7bb0a54795982eb23a98d3cf6aaedf5f",
+      "bytes": 45343,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-104",
       "zip": "dist/restricted-preview/SBP-104-v1.0.0-scorm12.zip",
-      "sha256": "301b2ecf6ff9856e778740c37a3d06f8762f61928e351a0a6da361de3963e58e",
-      "bytes": 44673,
+      "sha256": "078abd4e1f27ee567d583f5a6d070ab7dcc8c1946f17cbcb104e467868675332",
+      "bytes": 45066,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-105",
       "zip": "dist/restricted-preview/SBP-105-v1.0.0-scorm12.zip",
-      "sha256": "b647e6d7b98d0c06d0027ba507f03b6bdb4845d4c9b383ee7461bfc89fdf2895",
-      "bytes": 44235,
+      "sha256": "17f701b40adb07ec9d03d3d87015c6be4e4194880bbcd8d16fec1dd1016580b4",
+      "bytes": 44660,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-106",
       "zip": "dist/restricted-preview/SBP-106-v1.0.0-scorm12.zip",
-      "sha256": "c4dd891f5c86b8ffd9a36d7a0cc2578b31d2cd2b7d008f00e2da86824884b54b",
-      "bytes": 45740,
+      "sha256": "81057516890953867b7df33fcfffe26a366dc4f09097263a263a5991201fe0d0",
+      "bytes": 46098,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-107",
       "zip": "dist/restricted-preview/SBP-107-v1.0.0-scorm12.zip",
-      "sha256": "a7f53bd0e4cbf22877134ad5be33c8d9fd5a72dcd2bd1121b1476df061266745",
-      "bytes": 44178,
+      "sha256": "a03f61f886cb94b72143e97cf96a8929807be702f7695ab24472a7eca25e3688",
+      "bytes": 44607,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-108",
       "zip": "dist/restricted-preview/SBP-108-v1.0.0-scorm12.zip",
-      "sha256": "236db5c0b797a027d897ebec3351882ffd5eee25b7c47db0abb4966d59055861",
-      "bytes": 44535,
+      "sha256": "97f35ab1e59369b77d2002c3af3845d1be8ab71b48e40853ced5a3c864c9ec2c",
+      "bytes": 44890,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-109",
       "zip": "dist/restricted-preview/SBP-109-v1.0.0-scorm12.zip",
-      "sha256": "92a9238d161854238085e466a7eaa9e26cd270952525b4dee29004bb6c9e2131",
-      "bytes": 43580,
+      "sha256": "61ed1391a1a893aff98f482d94f17698c116a97794368a2173b9adcdfcf046a9",
+      "bytes": 43998,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-110",
       "zip": "dist/restricted-preview/SBP-110-v1.0.0-scorm12.zip",
-      "sha256": "07b84cbfac0a401c6d8abf5417428ce7419bdda16c21d091b57f5d5392d574ce",
-      "bytes": 43704,
+      "sha256": "48ee5c7286d905039433bff3f0e1479601f571b78c8eca391a67f0ec4f4830e7",
+      "bytes": 44165,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-111",
       "zip": "dist/restricted-preview/SBP-111-v1.0.0-scorm12.zip",
-      "sha256": "1dda57cb8136f6f602132a827edafe0963d534b655b192877ed060a4491db734",
-      "bytes": 44438,
+      "sha256": "06e60e9064678152e26c50bb080027da2b10b9f69d33ac08bdc30306d286519c",
+      "bytes": 44884,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-112",
       "zip": "dist/restricted-preview/SBP-112-v1.0.0-scorm12.zip",
-      "sha256": "e05eff48d29a0218c86a60c9518cbc0c06ebe26d29890f4cf74c1dd5c1bae933",
-      "bytes": 43591,
+      "sha256": "e5862273ab8d161292a61bbd468f889aef7af29c05389a26da878021bb2f3944",
+      "bytes": 44074,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-113",
       "zip": "dist/restricted-preview/SBP-113-v1.0.0-scorm12.zip",
-      "sha256": "e97935083b9443776f2087bc735b5d514e3d993d6394f96932629e5f2da6716c",
-      "bytes": 43160,
-      "validate_scorm": "PASS"
-    },
-    {
-      "module_id": "SBP-200",
-      "zip": "dist/restricted-preview/SBP-200-v1.0.0-scorm12.zip",
-      "sha256": "7d50319547b8c6a6711e0600f96258d5ff4b05c0b69fffe550d6a83808bb7acf",
-      "bytes": 46928,
+      "sha256": "feb01efb0faf20d334975130492cb0619760b75c21cc8acc27cf313d316faded",
+      "bytes": 43638,
       "validate_scorm": "PASS"
     },
     {
       "module_id": "SBP-FINAL",
       "zip": "dist/restricted-preview/SBP-FINAL-v1.0.0-scorm12.zip",
-      "sha256": "7231a770f73038b4b927e68d087cfa04bceb69ba293f6c814923864889a31493",
-      "bytes": 42312,
+      "sha256": "d6d653ca9aa8d563b1a17addfb019d931765ed71055ab0967190d238809c98e7",
+      "bytes": 26308,
       "validate_scorm": "PASS"
     }
   ]

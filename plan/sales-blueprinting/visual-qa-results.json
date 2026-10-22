@@ -2,7 +2,7 @@
   "generated": "2026-10-22",
   "tool": "tools/sbp/visual_qa.html",
   "browser": "Chromium, Glean Tau headless in-app browser",
-  "packages": "learning/modules/<SCO>/ generated runtime served from 127.0.0.1:8767",
+  "packages": "learning/modules/<SCO>/ generated runtime served from 127.0.0.1:8875",
   "checks": [
     "Every module rendered at 1280px and 320px",
     "Horizontal overflow, lesson-panel spill, clipped text, contrast, font size and target size",
@@ -13,20 +13,19 @@
   ],
   "not_covered": "Pixel-level human review of every screen capture and Impartner LMS behavior.",
   "results": [
-    {"module_id":"SBP-101","build":"d5530d14c15767838a8e266bc58fe5b4b8394e8a975ee5b57fab67518b5d044e","screens":9,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-102","build":"aef32b1c1c2ce2cec342c1f0d1de300cb03820816e7967c40772dc092d389e58","screens":8,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-103","build":"2a2bc79854b81111892dd354c1d73ef72fdf84532e766428deab2fd57105c731","screens":9,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-104","build":"3b8b1695f33688fa0dff5d0c597a2f1bf5b8bfa5e0a8fa9f66864305a149062d","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-105","build":"126c583a307f18c4a0c2036b1cc0b483660c08650016d2468effaa5bfe9a8fa5","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-106","build":"ca5655e89f64e3092ef60faf420b0e8e766846155be625be459881e90643ecf6","screens":11,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-107","build":"a35e4aee9c1d404dc443f53a7442655d9f746d21b517778d6cf97214c0bd8d28","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-108","build":"8cdd6d0d8b20350803bdbf321fe144be34433c1c47a71ec0e48b42330a121261","screens":11,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-109","build":"1568c16025af2bee3d3f361f6b7360dc2568d8910bae03ccbe1e30ecfe0e2346","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-110","build":"8689e5df3f09c650924e18d7ddd78f7a6c249cd3d1cddc638ed3f336d7c1e389","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-111","build":"c13080936c1e830d801ecc6a60dcde711f92307963d8afd1aab3ed6323a92102","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-112","build":"786a49bda6e829cab87842f6dcab7c85759673ffa44e20c5f31b6ddc78929e9f","screens":9,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-113","build":"6afc6ae3f25c19f3b2a2bbec1196a1377bab3569c68ae8241f3210836bfee311","screens":8,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-200","build":"9217f00bddb19798361c7b3cf17ce6265baf94035c690bd1ae8b70374a976f5f","screens":12,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
-    {"module_id":"SBP-FINAL","build":"71c0273e41c7a6ef2cfe481862951ced9f5ceb1fbfdee9ed16a9bee0279b5e51","screens":2,"figures":0,"focusRule":true,"reducedMotion":true,"failures":[]}
+    {"module_id":"SBP-101","build":"05f411cbdecbdbe41ac58138479d4934f76715bb8edc8b34975b6c0614dafb0d","screens":9,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-102","build":"b57767e505bdadebf85a90aa649e5fb357aa138edec0dff8aba98d5bf302ce32","screens":8,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-103","build":"cb43123543dec4c706a463c7290dc01c56c5d373a05e9c48dcc5b77edeb39b02","screens":9,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-104","build":"fa41ac344042e0b3ff452ce59043bbc74eac61a4c52706c0955889bb7dcf2ccf","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-105","build":"ca9f69bafaa9df2649eab48efdbbe774bbc14a7468c726ab39ad7f668e20867c","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-106","build":"39d11d9ff517ed85880ea639a77662b3e64b715789de66920fb7c8bf8ac2d233","screens":11,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-107","build":"6a768a1f14af48af335d75f08608ccb4af7c238fddb59485ef2949a0bd4529b6","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-108","build":"c22636b124bc3630277236001369fd71452fbabbeed48795078bc4c6d1ddf6ac","screens":11,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-109","build":"e1df3f51cdd37b3a827be15192ce6997b7dc36d30feb192f9f44b00efe35907d","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-110","build":"c85eb1bc1bac6d9642891fb2c6490c38989a28255f1494b5cb832df8462e8506","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-111","build":"5dc0412d6d5046565dc79d18e1641a4a30366445e8bb7968c36434e951d9ddc1","screens":10,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-112","build":"43282d7c36e51dabba0ee125993b7f88504228ba788b36e75b0c60c28a7f5bc3","screens":9,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-113","build":"851dbaeb27e36672ad066388c2fa32b2e40027ac86bef3fd377c1561d0b77f06","screens":8,"figures":12,"focusRule":true,"reducedMotion":true,"failures":[]},
+    {"module_id":"SBP-FINAL","build":"78455f738dbb9f40867fd3ce52cdd7c9a8da896ff0627839b9ef1ad8f252b3ca","screens":2,"figures":0,"focusRule":true,"reducedMotion":true,"failures":[]}
   ]
 }

@@ -1,8 +1,8 @@
 # SBP-FINAL assessment
 
-Final exam: 44 items stratified by module from 103. Pass needs at least 36 correct; 35/44 (79.5%) fails.
+Independent final exam: 15 exam-only items. Pass needs at least 12 correct; the score is not rounded up.
 
-Proposed attempts: 2 graded (owner confirmation pending, O02). Pool exposure documented (O16).
+Proposed attempts: 2 graded (owner confirmation pending, O02).
 
 | Lesson objective | Items |
 |---|---|
