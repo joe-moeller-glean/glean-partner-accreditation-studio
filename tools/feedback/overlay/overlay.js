@@ -110,27 +110,30 @@
   function commonSuffix(a, b) { var n = 0; while (n < a.length && n < b.length && a[a.length - 1 - n] === b[b.length - 1 - n]) n++; return n; }
   function commonPrefix(a, b) { var n = 0; while (n < a.length && n < b.length && a[n] === b[n]) n++; return n; }
 
+  // Collapse whitespace but keep the characters next to the quote. Trimming them makes every
+  // copy of a repeated phrase score the same, and the first copy on the page then wins.
+  function contextText(s) { return (s || "").replace(/\s+/g, " "); }
+  function contextScore(c, text, at, quote) {
+    return commonSuffix(contextText(c.prefix), text.slice(Math.max(0, at - CONTEXT), at)) +
+      commonPrefix(contextText(c.suffix), text.slice(at + quote.length, at + quote.length + CONTEXT));
+  }
   function locate(c, bodyIdx) {
     var quote = norm(c.quote);
     if (!quote) return null;
-    var roots = [];
-    var sec = c.section_id && document.getElementById(c.section_id);
-    if (sec) roots.push([textIndex(sec), true]);
-    roots.push([bodyIdx, false]);
-    for (var k = 0; k < roots.length; k++) {
-      var idx = roots[k][0], best = null, bestScore = -Infinity, from = 0, guard = 0;
-      while (guard++ < 200) {
-        var at = idx.text.indexOf(quote, from);
-        if (at < 0) break;
-        var score = commonSuffix(norm(c.prefix), idx.text.slice(Math.max(0, at - CONTEXT), at)) +
-          commonPrefix(norm(c.suffix), idx.text.slice(at + quote.length, at + quote.length + CONTEXT));
-        if (!roots[k][1] && typeof c.text_offset === "number") score -= Math.abs(at - c.text_offset) / 5000;
-        if (score > bestScore) { bestScore = score; best = at; }
-        from = at + 1;
-      }
-      if (best !== null) return rangeFor(idx, best, best + quote.length);
+    var offset = typeof c.text_offset === "number" ? c.text_offset : -1;
+    if (offset >= 0 && bodyIdx.text.slice(offset, offset + quote.length) === quote) {
+      return rangeFor(bodyIdx, offset, offset + quote.length);
     }
-    return null;
+    var best = null, bestRank = -Infinity, from = 0, guard = 0;
+    while (guard++ < 2000) {
+      var at = bodyIdx.text.indexOf(quote, from);
+      if (at < 0) break;
+      var dist = offset < 0 ? 0 : Math.abs(at - offset);
+      var rank = contextScore(c, bodyIdx.text, at, quote) * 1000 - dist;
+      if (rank > bestRank) { bestRank = rank; best = at; }
+      from = at + 1;
+    }
+    return best === null ? null : rangeFor(bodyIdx, best, best + quote.length);
   }
 
   var lastOrphans = "";
@@ -243,8 +246,21 @@
     panel.hidden = !open;
     fab.hidden = open;
     fab.setAttribute("aria-expanded", String(open));
+    placeFab();
     if (!composer.hidden) placeComposer();
     queuePaint();
+  }
+  function placeFab() {
+    if (fab.hidden) return;
+    var foot = document.querySelector("footer.foot, footer.bar");
+    var bottom = 16;
+    if (foot) {
+      var rect = foot.getBoundingClientRect();
+      if (rect.height > 0 && rect.bottom >= window.innerHeight - 8) {
+        bottom = Math.round(window.innerHeight - rect.top + 12);
+      }
+    }
+    fab.style.bottom = bottom + "px";
   }
   function updateCount() {
     var n = state.comments.filter(function (c) { return c.status === "open"; }).length;
@@ -651,13 +667,13 @@
     });
     if (hit) focusComment(hit.id, false);
   }, true);
-  window.addEventListener("resize", function () { if (!composer.hidden) placeComposer(); queuePaint(); });
-  window.addEventListener("scroll", function () { toolbar.hidden = true; if (!composer.hidden) placeComposer(); queuePaint(); }, true);
+  window.addEventListener("resize", function () { placeFab(); if (!composer.hidden) placeComposer(); queuePaint(); });
+  window.addEventListener("scroll", function () { toolbar.hidden = true; placeFab(); if (!composer.hidden) placeComposer(); queuePaint(); }, true);
   document.addEventListener("visibilitychange", function () { if (!document.hidden) load(); });
   var moTimer = null;
   new MutationObserver(function () {
     clearTimeout(moTimer);
-    moTimer = setTimeout(function () { reanchor(false); }, 250);
+    moTimer = setTimeout(function () { reanchor(false); placeFab(); }, 250);
   }).observe(document.body, { subtree: true, childList: true, characterData: true });
 
   function start() {

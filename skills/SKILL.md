@@ -49,6 +49,7 @@ Load only what the current job needs.
 | Same content, new package | `repackage` | `skills/jobs/verify.md` |
 | Broken package, failed import, or runtime defect | `update_module`, then `verify` | reproduce first |
 | Drift check or freshness audit | `scan` | `skills/jobs/refresh.md` |
+| Update from review feedback | `update_module` | `.agents/skills/accreditation-feedback/SKILL.md` |
 | What was rejected or recommended | `retro` | `skills/scripts/ledger.py` only |
 | A path, wave, or the whole roadmap | queue of module jobs | `skills/scripts/plan_roadmap.py`, then the rows above |
 

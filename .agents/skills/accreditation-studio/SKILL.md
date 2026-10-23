@@ -14,5 +14,6 @@ Classify the request into one job type and write `plan/jobs/<job-id>.json` using
 | Create or update a module, or write an accreditation definition | `skills/jobs/author.md` |
 | Test, audit, or repackage | `skills/jobs/verify.md` |
 | Source drift | `skills/jobs/refresh.md` |
+| Update from review feedback | `.agents/skills/accreditation-feedback/SKILL.md` |
 
 The author of learner content does not verify or publish that content. Prompt stubs in `.agents/prompts/` are for a future headless runner. Do not create that runner unless the user asks.
